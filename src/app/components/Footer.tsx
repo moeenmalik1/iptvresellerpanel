@@ -1,0 +1,251 @@
+"use client";
+
+import Link from "next/link";
+
+const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
+
+const footerNav = [
+  { label: "Home", href: "/" },
+  { label: "IPTV Servers", href: "/servers" },
+  { label: "Panel Comparisons", href: "/comparisons" },
+  { label: "Reseller Guides", href: "/guides" },
+  { label: "About Us", href: "/about" },
+  { label: "Contact", href: "/contact" },
+  { label: "Privacy Policy", href: "/privacy" },
+  { label: "Terms of Service", href: "/terms" },
+];
+
+const serverPages = [
+  { label: "B1G IPTV Reseller Panel", href: "/b1g-iptv-reseller-panel" },
+  { label: "Strong 4K IPTV Reseller Panel", href: "/strong-4k-iptv-reseller-panel" },
+  { label: "Strong 8K IPTV Reseller Panel", href: "/strong-8k-iptv-reseller-panel" },
+  { label: "Lion OTT IPTV Reseller Panel", href: "/lion-ott-iptv-reseller-panel" },
+  { label: "Ultra 8K OTT Reseller Panel", href: "/ultra-8k-ott-iptv-reseller-panel" },
+  { label: "Nexon IPTV Reseller Panel", href: "/nexon-iptv-reseller-panel" },
+  { label: "Crystal OTT Reseller Panel", href: "/crystal-ott-iptv-reseller-panel" },
+  { label: "Mega OTT Wholesale Panel", href: "/mega-ott-iptv-reseller-panel" },
+  { label: "Infinity Premium IPTV Panel", href: "/infinity-premium-iptv-reseller-panel" },
+  { label: "Magnum Golden OTT Panel", href: "/magnum-golden-ott-iptv-reseller-panel" },
+  { label: "Opplex IPTV Reseller Panel", href: "/opplex-iptv-reseller-panel" },
+  { label: "View All 22 IPTV Panels ↗", href: "/#panels" },
+];
+
+const comparePages = [
+  { label: "Strong 4K vs Lion OTT", href: "/comparisons/strong-4k-vs-lion-ott" },
+  { label: "Crystal vs Nexon — Panel Comparison", href: "/comparisons/crystal-vs-nexon" },
+  { label: "Best IPTV Reseller Panels 2025", href: "/comparisons/best-iptv-reseller-panels-2025" },
+  { label: "Cheapest IPTV Reseller Panel 2025", href: "/comparisons/cheapest-iptv-reseller-panel" },
+];
+
+const guides = [
+  { label: "How To Start IPTV Reseller Business", href: "/guides/how-to-start-iptv-reseller-business" },
+  { label: "IPTV Credit System Explained", href: "/guides/iptv-credit-system-explained" },
+  { label: "IPTV Reseller Profit Guide", href: "/guides/iptv-reseller-profit-guide" },
+  { label: "IPTV Reseller vs Subscription", href: "/guides/iptv-reseller-vs-subscription" },
+];
+
+export default function Footer() {
+  return (
+    <footer
+      aria-label="Fox IPTV Panels — IPTV Reseller Panel Provider"
+      style={{
+        borderTop: "1px solid var(--border-color)",
+        background: "rgba(0,0,0,0.3)",
+        padding: "4rem 0 2rem",
+      }}
+    >
+      <div className="section-container">
+        {/* Top grid */}
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "2fr 1fr 1fr 1fr",
+          gap: "3rem",
+          marginBottom: "3rem",
+        }} className="footer-grid">
+
+          {/* Brand column */}
+          <div>
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: "1.25rem" }}>
+              <div style={{
+                width: 36, height: 36, borderRadius: 8,
+                background: "linear-gradient(135deg, #8b5cf6, #3b82f6)",
+                display: "flex", alignItems: "center", justifyContent: "center",
+                boxShadow: "0 0 20px rgba(139,92,246,0.3)",
+              }} aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                  <path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18-.21 0-.41-.06-.57-.18l-7.9-4.44A.991.991 0 012 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18.21 0 .41.06.57.18l7.9 4.44c.32.17.53.5.53.88v9z"/>
+                </svg>
+              </div>
+              <span style={{
+                fontFamily: "'Outfit', sans-serif",
+                fontWeight: 800,
+                fontSize: "1rem",
+                background: "linear-gradient(135deg, #f0f0ff, #c4b5fd)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                backgroundClip: "text",
+              }}>
+                FOX IPTV PANELS
+              </span>
+            </div>
+
+            <p style={{
+              fontSize: "0.875rem", color: "var(--text-muted)", lineHeight: 1.7,
+              marginBottom: "0.875rem", maxWidth: 290,
+            }}>
+              Fox IPTV Panels is the best IPTV reseller panel provider — offering white label IPTV panels,
+              wholesale IPTV credits, Xtream Codes &amp; M3U reseller dashboards, and 4K no-buffering
+              servers for IPTV resellers worldwide.
+            </p>
+
+            <p style={{
+              fontSize: "0.8rem", color: "var(--text-muted)", lineHeight: 1.6,
+              marginBottom: "1.5rem", maxWidth: 290,
+            }}>
+              Serving IPTV resellers in the{" "}
+              <strong style={{ color: "var(--text-secondary)" }}>UK, USA, Pakistan</strong> and globally —
+              with 24/7 WhatsApp support for your IPTV reselling business.
+            </p>
+
+            {/* WhatsApp */}
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              id="footer-whatsapp-cta"
+              aria-label="WhatsApp support for IPTV resellers — Fox IPTV Panels"
+              style={{
+                display: "inline-flex", alignItems: "center", gap: 8,
+                padding: "0.6rem 1.25rem",
+                borderRadius: 8,
+                textDecoration: "none",
+                background: "rgba(37,211,102,0.15)",
+                border: "1px solid rgba(37,211,102,0.3)",
+                color: "#22c55e",
+                fontSize: "0.85rem", fontWeight: 700,
+                transition: "all 0.3s ease",
+              }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
+              </svg>
+              WhatsApp IPTV Support
+            </a>
+          </div>
+
+          {/* IPTV Panels */}
+          <div>
+            <h3 style={{ fontWeight: 700, color: "var(--text-primary)", fontSize: "0.875rem", marginBottom: "1rem" }}>
+              IPTV Reseller Panels
+            </h3>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+              {serverPages.map(p => (
+                <li key={p.label}>
+                  <Link href={p.href} style={{
+                    color: "var(--text-muted)", textDecoration: "none",
+                    fontSize: "0.825rem", transition: "color 0.2s",
+                  }}
+                    onMouseEnter={e => (e.currentTarget.style.color = "var(--text-secondary)")}
+                    onMouseLeave={e => (e.currentTarget.style.color = "var(--text-muted)")}
+                  >
+                    {p.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Comparisons & Guides */}
+          <div>
+            <h3 style={{ fontWeight: 700, color: "var(--text-primary)", fontSize: "0.875rem", marginBottom: "1rem" }}>
+              Panel Comparisons 2025
+            </h3>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+              {comparePages.map(p => (
+                <li key={p.label}>
+                  <Link href={p.href} style={{
+                    color: "var(--text-muted)", textDecoration: "none",
+                    fontSize: "0.825rem", transition: "color 0.2s",
+                  }}
+                    onMouseEnter={e => (e.currentTarget.style.color = "var(--text-secondary)")}
+                    onMouseLeave={e => (e.currentTarget.style.color = "var(--text-muted)")}
+                  >
+                    {p.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            <h3 style={{ fontWeight: 700, color: "var(--text-primary)", fontSize: "0.875rem", marginBottom: "1rem", marginTop: "1.5rem" }}>
+              Reseller Guides
+            </h3>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+              {guides.map(p => (
+                <li key={p.label}>
+                  <Link href={p.href} style={{
+                    color: "var(--text-muted)", textDecoration: "none",
+                    fontSize: "0.825rem", transition: "color 0.2s",
+                  }}
+                    onMouseEnter={e => (e.currentTarget.style.color = "var(--text-secondary)")}
+                    onMouseLeave={e => (e.currentTarget.style.color = "var(--text-muted)")}
+                  >
+                    {p.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Navigation */}
+          <div>
+            <h3 style={{ fontWeight: 700, color: "var(--text-primary)", fontSize: "0.875rem", marginBottom: "1rem" }}>
+              Quick Links
+            </h3>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+              {footerNav.map(p => (
+                <li key={p.label}>
+                  <Link href={p.href} style={{
+                    color: "var(--text-muted)", textDecoration: "none",
+                    fontSize: "0.825rem", transition: "color 0.2s",
+                  }}
+                    onMouseEnter={e => (e.currentTarget.style.color = "var(--text-secondary)")}
+                    onMouseLeave={e => (e.currentTarget.style.color = "var(--text-muted)")}
+                  >
+                    {p.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom bar */}
+        <div style={{
+          borderTop: "1px solid var(--border-color)",
+          paddingTop: "2rem",
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "1rem",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}>
+          <p style={{ fontSize: "0.78rem", color: "var(--text-muted)" }}>
+            © 2025 Fox IPTV Panels — #1 IPTV Reseller Panel Provider. All rights reserved.
+          </p>
+          <p style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>
+            IPTV Reseller Panels available in UK, USA, Pakistan &amp; worldwide. All trademarks belong to their respective owners.
+          </p>
+        </div>
+      </div>
+
+      <style>{`
+        @media (max-width: 900px) {
+          .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 2rem !important; }
+        }
+        @media (max-width: 600px) {
+          .footer-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+        }
+      `}</style>
+    </footer>
+  );
+}
