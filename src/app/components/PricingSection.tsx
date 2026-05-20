@@ -174,6 +174,7 @@ export default function PricingSection() {
                 rel="noopener noreferrer"
                 id={`pricing-${plan.id}-cta`}
                 aria-label={`${plan.cta} — Fox IPTV Panels`}
+                className={plan.popular ? "btn-primary" : undefined}
                 style={{
                   display: "flex", alignItems: "center", justifyContent: "center", gap: 8,
                   padding: "0.85rem",
