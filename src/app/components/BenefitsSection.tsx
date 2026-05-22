@@ -6,7 +6,7 @@ const benefits = [
   { icon: "📺", text: "20+ IPTV panel options" },
   { icon: "🎓", text: "IPTV reseller onboarding support" },
   { icon: "📈", text: "Scalable IPTV reselling business" },
-  { icon: "🌍", text: "Global — UK, USA, Pakistan & more" },
+  { icon: "🌍", text: "Global — UK, USA, EU & more" },
   { icon: "🎬", text: "4K & 8K no-buffering streaming" },
   { icon: "🖥️", text: "White label reseller dashboards" },
 ];

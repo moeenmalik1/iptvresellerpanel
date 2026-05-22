@@ -62,7 +62,7 @@ export default function FeaturesSection() {
             marginBottom: "1rem",
           }}>
             Why IPTV Resellers Choose{" "}
-            <span className="gradient-text">Fox IPTV Panels</span> in 2025
+            <span className="gradient-text">Fox IPTV Panels</span> in 2026
           </h2>
           <p style={{ color: "var(--text-secondary)", fontSize: "1.05rem", maxWidth: 580, margin: "0 auto" }}>
             Everything you need to launch and scale a profitable IPTV reselling business —

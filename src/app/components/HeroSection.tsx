@@ -2,15 +2,6 @@ import Link from "next/link";
 
 const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
 
-const trustHighlights = [
-  { icon: "⚡", text: "Instant IPTV Credits" },
-  { icon: "📡", text: "99.9% Server Uptime" },
-  { icon: "🎬", text: "4K & 8K No Buffering" },
-  { icon: "🏷️", text: "White Label Panels" },
-  { icon: "🌱", text: "No Investment Needed" },
-  { icon: "💬", text: "24/7 WhatsApp Support" },
-];
-
 export default function HeroSection() {
   return (
     <section
@@ -36,7 +27,7 @@ export default function HeroSection() {
 
           <div className="tag fade-in-up" style={{ marginBottom: "1.5rem", animationDelay: "0.1s" }}>
             <span>🦊</span>
-            #1 IPTV Reseller Panel Provider 2025
+            #1 IPTV Reseller Panel Provider 2026
           </div>
 
           {/* H1 — Primary keyword first, NLP enriched */}
@@ -86,7 +77,7 @@ export default function HeroSection() {
             }}
           >
             Trusted by IPTV resellers in the{" "}
-            <strong style={{ color: "var(--text-secondary)" }}>UK, USA &amp; Pakistan</strong> — start your
+            <strong style={{ color: "var(--text-secondary)" }}>UK, USA &amp; the EU</strong> — start your
             IPTV reselling business today with zero prior experience. No large investment required.
           </p>
 
@@ -115,39 +106,21 @@ export default function HeroSection() {
               href="/comparisons"
               id="hero-secondary-cta"
               className="btn-secondary"
-              aria-label="Compare best IPTV reseller panels for 2025"
+              aria-label="Compare best IPTV reseller panels for 2026"
               style={{
                 display: "inline-flex", alignItems: "center", gap: 8,
                 padding: "0.85rem 2rem", borderRadius: 10,
                 textDecoration: "none", fontSize: "1rem",
               }}
             >
-              Compare IPTV Panels 2025
+              Compare IPTV Panels 2026
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <polyline points="9,18 15,12 9,6"/>
               </svg>
             </Link>
           </div>
 
-          {/* Trust badges */}
-          <div className="fade-in-up" style={{ animationDelay: "0.5s" }}>
-            <div style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))",
-              gap: "0.75rem",
-            }}>
-              {trustHighlights.map((item) => (
-                <div
-                  key={item.text}
-                  className="glass-card"
-                  style={{ display: "flex", alignItems: "center", gap: 8, padding: "0.65rem 1rem", borderRadius: 8 }}
-                >
-                  <span style={{ fontSize: "1rem" }} aria-hidden="true">{item.icon}</span>
-                  <span style={{ fontSize: "0.8rem", fontWeight: 600, color: "var(--text-secondary)" }}>{item.text}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+
         </div>
 
         {/* Dashboard mockup */}

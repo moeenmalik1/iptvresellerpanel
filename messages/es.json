@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Panel Reseller IPTV España — El Mejor Proveedor de Paneles IPTV en España",
+    "description": "Compre créditos de distribuidor de IPTV en España al mejor proveedor mayorista. Inicie su negocio de IPTV marca blanca con Xtream Codes, M3U y MAG, 99.9% de tiempo de actividad y transmisión en 4K.",
+    "keywords": "panel reseller iptv españa, el mejor distribuidor iptv españa, comprar creditos iptv al por mayor españa, negocio de revendedor iptv, iptv marca blanca"
+  },
+  "common": {
+    "currency": "EUR",
+    "symbol": "€",
+    "whatsappUrl": "https://wa.me/1234567890?text=Hola%2C%20estoy%20interesado%20en%20comenzar%20un%20negocio%20de%20reseller%20de%20IPTV%20en%20Espana",
+    "startReselling": "Empezar a Vender",
+    "viewAll": "Ver los 22 Paneles IPTV en España",
+    "whatsappSupport": "Soporte de WhatsApp IPTV",
+    "secureOrder": "Pedir por WhatsApp de forma Segura (EUR)",
+    "years": "2026",
+    "regionName": "España"
+  },
+  "nav": {
+    "home": "Inicio",
+    "panels": "Paneles IPTV",
+    "comparisons": "Comparativas",
+    "guides": "Guías Reseller",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "trustTag": "Confiado por revendedores de IPTV en Madrid, Barcelona, Valencia y toda España",
+    "title": "Inicie su Negocio de Revendedor de IPTV de Alta Rentabilidad en España",
+    "desc": "Compre créditos de revendedor de IPTV al por mayor de primera calidad. Obtenga acceso instantáneo a más de 22 paneles de revendedores de IPTV de marca blanca con listas de reproducción M3U, API de Xtream Codes, servidores 4K sin interrupciones y soporte local.",
+    "ctaPanels": "Comparar Paneles IPTV",
+    "ctaStart": "Comenzar a Vender en España"
+  },
+  "trust": {
+    "badge": "MAYORISTA 2026"
+  },
+  "pricing": {
+    "title": "Paquetes de Créditos IPTV al por Mayor y Calculadora de Ganancias",
+    "subtitle": "Seleccione un paquete diseñado o calcule sus ganancias dinámicas en EUR a continuación con números escritos o controles deslizantes interactivos.",
+    "sliderCredits": "Créditos a comprar:",
+    "sliderPrice": "Su precio de reventa mensual (€):",
+    "cost": "Costo del paquete (Para comprar):",
+    "revenue": "Valor minorista (Para vender):",
+    "profit": "Su beneficio neto en EUR:",
+    "perCredit": "por crédito",
+    "costLabel": "Costo por Crédito",
+    "earningsLabel": "Ganancias potenciales en España",
+    "grossLabel": "Ingresos brutos",
+    "netLabel": "Beneficio neto",
+    "plans": {
+      "starter": {
+        "name": "Paquete Starter",
+        "features": [
+          "Mínimo de 120 créditos para iniciar",
+          "Incluye creación básica de sub-revendedores",
+          "Soporte para Xtream Codes y M3U",
+          "Acceso 24/7 al sistema de soporte"
+        ]
+      },
+      "growth": {
+        "name": "Paquete Growth",
+        "features": [
+          "Paquete mayorista de 200 créditos",
+          "Configuración gratuita de enrutamiento DNS personalizado",
+          "Acceso a plantillas de ventas para principiantes",
+          "Soporte prioritario por grupo de WhatsApp"
+        ]
+      },
+      "enterprise": {
+        "name": "Paquete Enterprise",
+        "features": [
+          "Paquete premium de 500 créditos",
+          "Capacidad ilimitada de paneles para sub-revendedores",
+          "Configuración de marca blanca 100% personalizada",
+          "Administrador de cuentas VIP dedicado 24/7"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "El líder mundial en paneles de revendedores de IPTV al por mayor",
+    "desc1": "Fox IPTV Panels es la plataforma de marca blanca líder para la distribución de créditos IPTV en España, sirviendo a más de 5,000 socios activos en Madrid, Barcelona, Sevilla y a nivel mundial. Consolidamos 22 redes de transmisión de IPTV de primer nivel en un único sistema de panel de control unificado, lo que le permite iniciar y registrar su propio negocio con cero infraestructura.",
+    "desc2": "Nuestras redes en Europa Occidental ofrecen una transmisión de alta definición sin interrupciones y optimizada para los principales operadores locales en España (Movistar, Vodafone, Orange, Yoigo), garantizando una experiencia de visualización premium para sus usuarios finales."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes sobre revendedores mayoristas de IPTV",
+    "q1": "¿Están disponibles sus paneles de IPTV en España?",
+    "a1": "Sí, absolutamente. Brindamos soporte completo a revendedores de IPTV en España con servidores europeos de baja latencia, opciones de pago en euros y contenido de canales optimizado para la audiencia española.",
+    "q2": "¿Cómo funcionan los créditos de revendedor de IPTV en España?",
+    "a2": "Los créditos actúan como saldo en su panel de control. 1 crédito proporciona 1 mes de suscripción para 1 usuario. Compra los créditos al por mayor en euros y establece sus propios precios de reventa, conservando el 100% del margen de beneficio."
+  }
+}

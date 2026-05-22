@@ -75,7 +75,7 @@ export default function CTASection() {
             maxWidth: 560,
             margin: "0 auto 3rem",
           }}>
-            Serving IPTV resellers in the <strong style={{ color: "var(--text-secondary)" }}>UK, USA &amp; Pakistan</strong> —
+            Serving IPTV resellers in the <strong style={{ color: "var(--text-secondary)" }}>UK, USA &amp; EU</strong> —
             no buffering, no downtime. IPTV reseller panel free trial available.
             Start within minutes with zero technical setup.
           </p>
@@ -105,14 +105,14 @@ export default function CTASection() {
               href="/comparisons"
               id="final-compare-cta"
               className="btn-secondary"
-              aria-label="Compare IPTV reseller panels — find the best IPTV panel for 2025"
+              aria-label="Compare IPTV reseller panels — find the best IPTV panel for 2026"
               style={{
                 display: "inline-flex", alignItems: "center", gap: 8,
                 padding: "1rem 2.25rem", borderRadius: 12,
                 textDecoration: "none", fontSize: "1.05rem",
               }}
             >
-              Compare IPTV Panels 2025
+              Compare IPTV Panels 2026
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <polyline points="9,18 15,12 9,6"/>
               </svg>
@@ -128,7 +128,7 @@ export default function CTASection() {
               { icon: "🔒", text: "Secure & Trusted" },
               { icon: "⚡", text: "Instant Credit Activation" },
               { icon: "💬", text: "24/7 WhatsApp Support" },
-              { icon: "🌍", text: "UK, USA & Pakistan" },
+              { icon: "🌍", text: "UK, USA & EU" },
               { icon: "🎬", text: "4K No Buffering" },
               { icon: "🆓", text: "Free Trial Available" },
             ].map(b => (

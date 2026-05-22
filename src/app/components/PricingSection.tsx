@@ -1,68 +1,96 @@
 "use client";
 
-const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
+import { useState } from "react";
 
 const plans = [
   {
     id: "starter",
-    name: "Starter",
-    badge: "Best For New Resellers",
-    description: "Perfect for beginners learning how to start an IPTV reseller business — test the market with a small credit package.",
-    price: "Get Quote",
+    name: "Starter Pack",
+    badge: "120 CREDITS",
+    cost: 120,
+    rate: "$1.00",
+    revenue: "1,200",
+    profit: "1,080",
+    description: "Best choice for beginner resellers starting their streaming brand.",
     features: [
-      "Small IPTV credit package",
-      "Reseller dashboard access",
-      "Basic WhatsApp support",
-      "Instant panel activation",
-      "IPTV reseller panel free trial available",
+      "120 wholesale credits (No expiry)",
+      "Standard control dashboard",
+      "Full server access & setup guide",
     ],
-    cta: "Start Reselling",
+    cta: "Order Starter",
     color: "#3b82f6",
-    gradient: "linear-gradient(135deg, rgba(59,130,246,0.15), rgba(59,130,246,0.05))",
-    border: "rgba(59,130,246,0.25)",
+    gradient: "linear-gradient(135deg, rgba(59,130,246,0.12), rgba(59,130,246,0.03))",
+    border: "rgba(59,130,246,0.2)",
     popular: false,
   },
   {
     id: "growth",
-    name: "Growth",
-    badge: "Most Popular",
-    description: "Ideal for IPTV resellers scaling their subscriber base — better bulk credit pricing and higher profit margins.",
-    price: "Get Quote",
+    name: "Growth Pack",
+    badge: "200 CREDITS",
+    cost: 180,
+    rate: "$0.90",
+    revenue: "2,000",
+    profit: "1,820",
+    description: "Premium wholesale package for growing brands needing white label portals.",
     features: [
-      "Larger bulk credit volume",
-      "Priority WhatsApp support",
-      "Faster credit activation",
-      "Better reseller profit margins",
-      "Access to all IPTV panels",
+      "200 wholesale credits (No expiry)",
+      "Advanced dashboard + sub-resellers",
+      "Custom DNS & white label branding",
     ],
-    cta: "Buy IPTV Reseller Credits",
+    cta: "Order Growth",
     color: "#8b5cf6",
-    gradient: "linear-gradient(135deg, rgba(139,92,246,0.2), rgba(59,130,246,0.1))",
-    border: "rgba(139,92,246,0.4)",
+    gradient: "linear-gradient(135deg, rgba(139,92,246,0.15), rgba(59,130,246,0.06))",
+    border: "rgba(139,92,246,0.35)",
     popular: true,
   },
   {
     id: "enterprise",
-    name: "Enterprise",
-    badge: "Wholesale IPTV Panel",
-    description: "Maximum wholesale IPTV credits, dedicated support, and the cheapest cost-per-credit for high-volume resellers.",
-    price: "Contact Us",
+    name: "Enterprise Wholesale",
+    badge: "500 CREDITS",
+    cost: 350,
+    rate: "$0.70",
+    revenue: "5,000",
+    profit: "4,650",
+    description: "Elite volume package offering the lowest unit rates for high-volume sales.",
     features: [
-      "Wholesale IPTV credit packages",
-      "Dedicated reseller support",
-      "All white label IPTV panels",
-      "Cheapest bulk credit pricing",
-      "IPTV reseller program benefits",
+      "500 wholesale credits (No expiry)",
+      "Elite admin control panels",
+      "Dedicated domain & unlimited routing",
     ],
-    cta: "Get Wholesale Pricing",
+    cta: "Order Enterprise",
     color: "#06b6d4",
-    gradient: "linear-gradient(135deg, rgba(6,182,212,0.15), rgba(6,182,212,0.05))",
-    border: "rgba(6,182,212,0.25)",
+    gradient: "linear-gradient(135deg, rgba(6,182,212,0.12), rgba(6,182,212,0.03))",
+    border: "rgba(6,182,212,0.2)",
     popular: false,
   },
 ];
 
 export default function PricingSection() {
+  // Calculator States
+  const [credits, setCredits] = useState<number | "">(120);
+  const [sellPrice, setSellPrice] = useState<number | "">(10);
+
+  const creditsNum = Number(credits) || 0;
+  const sellPriceNum = Number(sellPrice) || 0;
+
+  // Dynamic cost calculation based on tier thresholds
+  const calculateCostPerCredit = (qty: number) => {
+    if (qty < 200) return 1.0; // Starter rate
+    if (qty < 500) return 0.9; // Growth rate
+    return 0.7; // Enterprise rate
+  };
+
+  const costPerCredit = calculateCostPerCredit(creditsNum);
+  const totalCost = creditsNum * costPerCredit;
+  const grossRevenue = creditsNum * sellPriceNum;
+  const netProfit = grossRevenue - totalCost;
+
+  // Prefilled WhatsApp order link based on calculator values
+  const getWhatsAppCalcLink = () => {
+    const text = `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: $${totalCost}). Please provide payment details and panel setup instructions.`;
+    return `https://wa.me/1234567890?text=${encodeURIComponent(text)}`;
+  };
+
   return (
     <section
       id="pricing"
@@ -82,7 +110,7 @@ export default function PricingSection() {
 
       <div className="section-container" style={{ position: "relative", zIndex: 1 }}>
         {/* Header */}
-        <div style={{ textAlign: "center", marginBottom: "3.5rem" }}>
+        <div style={{ textAlign: "center", marginBottom: "4rem" }}>
           <div className="tag" style={{ marginBottom: "1rem" }}>Buy IPTV Reseller Credits</div>
           <h2 style={{
             fontFamily: "'Outfit', sans-serif",
@@ -97,10 +125,7 @@ export default function PricingSection() {
             <span className="gradient-text">Credit Packages</span>
           </h2>
           <p style={{ color: "var(--text-secondary)", fontSize: "1rem", maxWidth: 580, margin: "0 auto" }}>
-            Choose a reseller package based on your business stage and customer volume.
-            From the <strong style={{ color: "var(--text-primary)" }}>cheapest IPTV reseller panel</strong> starter
-            bundle to full <strong style={{ color: "var(--text-primary)" }}>wholesale IPTV panel</strong> pricing —
-            with IPTV reseller panel free trial available on request.
+            Unlock your private white-label streaming business. Compare credit packages below and choose the tier that fits your budget.
           </p>
         </div>
 
@@ -109,21 +134,25 @@ export default function PricingSection() {
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
           gap: "1.5rem",
-          alignItems: "start",
+          alignItems: "stretch",
+          marginBottom: "6rem",
         }}>
           {plans.map((plan) => (
             <article
               key={plan.id}
               className="glass-card"
               style={{
-                borderRadius: 16,
-                padding: "2rem",
+                borderRadius: 20,
+                padding: "2.5rem 2rem",
                 background: plan.gradient,
                 border: `1px solid ${plan.border}`,
                 position: "relative",
                 overflow: "hidden",
                 transform: plan.popular ? "scale(1.03)" : "scale(1)",
-                boxShadow: plan.popular ? "0 0 60px rgba(139,92,246,0.2)" : "none",
+                boxShadow: plan.popular ? "0 0 60px rgba(139,92,246,0.25)" : "none",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between"
               }}
             >
               {plan.popular && (
@@ -131,79 +160,368 @@ export default function PricingSection() {
                   position: "absolute", top: 0, right: 0,
                   background: "linear-gradient(135deg, #8b5cf6, #3b82f6)",
                   padding: "0.4rem 1.25rem",
-                  borderRadius: "0 16px 0 12px",
+                  borderRadius: "0 20px 0 12px",
                   fontSize: "0.7rem", fontWeight: 700, color: "white",
                   letterSpacing: "0.05em",
                 }}>
-                  ★ MOST POPULAR
+                  ★ BEST VALUE
                 </div>
               )}
 
-              {/* Plan header */}
-              <div style={{ marginBottom: "1.5rem" }}>
-                <div style={{
-                  fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.08em",
-                  textTransform: "uppercase", color: plan.color, marginBottom: 6,
-                }}>
-                  {plan.badge}
+              <div>
+                {/* Plan Header */}
+                <div style={{ marginBottom: "1.5rem" }}>
+                  <div style={{
+                    fontSize: "0.72rem", fontWeight: 800, letterSpacing: "0.1em",
+                    textTransform: "uppercase", color: plan.color, marginBottom: 8,
+                  }}>
+                    {plan.badge}
+                  </div>
+                  <h3 style={{
+                    fontFamily: "'Outfit', sans-serif",
+                    fontWeight: 900, fontSize: "1.8rem",
+                    color: "var(--text-primary)", marginBottom: 8,
+                  }}>
+                    {plan.name}
+                  </h3>
+                  <p style={{ fontSize: "0.85rem", color: "var(--text-secondary)", lineHeight: 1.5 }}>
+                    {plan.description}
+                  </p>
                 </div>
-                <h3 style={{
-                  fontFamily: "'Outfit', sans-serif",
-                  fontWeight: 800, fontSize: "1.6rem",
-                  color: "var(--text-primary)", marginBottom: 8,
+
+                {/* Clear Package Price Container (To Buy) */}
+                <div style={{
+                  background: "rgba(255, 255, 255, 0.02)",
+                  border: "1px solid rgba(255, 255, 255, 0.08)",
+                  borderRadius: "14px",
+                  padding: "1.25rem",
+                  marginBottom: "1rem",
+                  position: "relative"
                 }}>
-                  {plan.name}
-                </h3>
-                <p style={{ fontSize: "0.85rem", color: "var(--text-secondary)", lineHeight: 1.6 }}>
-                  {plan.description}
-                </p>
+                  <div style={{
+                    fontSize: "0.68rem",
+                    color: "var(--text-muted)",
+                    textTransform: "uppercase",
+                    fontWeight: 700,
+                    letterSpacing: "0.05em",
+                    marginBottom: "4px"
+                  }}>
+                    Package Price (To Buy)
+                  </div>
+                  <div style={{
+                    fontSize: "2.6rem",
+                    fontWeight: 900,
+                    fontFamily: "'Outfit', sans-serif",
+                    color: "white",
+                    lineHeight: 1,
+                    display: "flex",
+                    alignItems: "baseline",
+                    gap: "6px"
+                  }}>
+                    ${plan.cost}
+                    <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 500 }}>
+                      total ({plan.rate}/credit)
+                    </span>
+                  </div>
+                </div>
+
+                {/* Earning Potential Container (To Sell) - High Contrast Green */}
+                <div style={{
+                  background: "rgba(34,197,94,0.05)",
+                  border: "1px solid rgba(34,197,94,0.15)",
+                  borderRadius: "14px",
+                  padding: "1rem 1.25rem",
+                  marginBottom: "1.5rem",
+                  display: "grid",
+                  gridTemplateColumns: "1fr 1fr",
+                  gap: "0.5rem"
+                }}>
+                  <div>
+                    <div style={{ fontSize: "0.65rem", color: "rgba(34,197,94,0.75)", textTransform: "uppercase", fontWeight: 700, letterSpacing: "0.03em" }}>
+                      Resell Revenue
+                    </div>
+                    <div style={{ fontSize: "1.15rem", fontWeight: 800, color: "#4ade80", marginTop: "2px" }}>
+                      ${plan.revenue}
+                    </div>
+                  </div>
+                  <div style={{ borderLeft: "1px solid rgba(34,197,94,0.1)", paddingLeft: "0.75rem" }}>
+                    <div style={{ fontSize: "0.65rem", color: "rgba(34,197,94,0.75)", textTransform: "uppercase", fontWeight: 700, letterSpacing: "0.03em" }}>
+                      Your Net Profit
+                    </div>
+                    <div style={{ fontSize: "1.15rem", fontWeight: 800, color: "#4ade80", marginTop: "2px" }}>
+                      +${plan.profit}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Minimal Features List */}
+                <ul style={{ marginBottom: "2rem", listStyle: "none", padding: 0 }}>
+                  {plan.features.map(f => (
+                    <li key={f} style={{ fontSize: "0.82rem", color: "var(--text-secondary)", marginBottom: "0.6rem", display: "flex", gap: "8px", alignItems: "center" }}>
+                      <span style={{ color: plan.color, fontWeight: "bold" }}>✓</span>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
               </div>
 
-              {/* Divider */}
-              <div style={{ height: 1, background: `${plan.color}22`, marginBottom: "1.5rem" }} />
-
-              {/* Features */}
-              <ul className="check-list" style={{ marginBottom: "2rem" }}>
-                {plan.features.map(f => <li key={f}>{f}</li>)}
-              </ul>
-
-              {/* CTA */}
+              {/* Order Button */}
               <a
-                href={WHATSAPP_URL}
+                href={`https://wa.me/1234567890?text=Hello%20Fox%20IPTV%20Panels!%20I%20want%20to%20order%20the%20${encodeURIComponent(plan.name)}%20(\$${plan.cost}).`}
                 target="_blank"
                 rel="noopener noreferrer"
                 id={`pricing-${plan.id}-cta`}
                 aria-label={`${plan.cta} — Fox IPTV Panels`}
-                className={plan.popular ? "btn-primary" : undefined}
                 style={{
                   display: "flex", alignItems: "center", justifyContent: "center", gap: 8,
-                  padding: "0.85rem",
+                  padding: "0.9rem",
                   borderRadius: 10,
                   textDecoration: "none",
                   fontSize: "0.95rem", fontWeight: 700,
-                  background: plan.popular ? "linear-gradient(135deg, #8b5cf6, #3b82f6)" : "transparent",
-                  color: plan.popular ? "white" : plan.color,
-                  border: plan.popular ? "none" : `1px solid ${plan.color}`,
+                  background: plan.popular ? "linear-gradient(135deg, #8b5cf6, #3b82f6)" : "rgba(255,255,255,0.03)",
+                  color: "white",
+                  border: plan.popular ? "none" : "1px solid rgba(255,255,255,0.1)",
                   transition: "all 0.3s ease",
+                  boxShadow: plan.popular ? "0 4px 15px rgba(139,92,246,0.3)" : "none",
+                  textAlign: "center"
                 }}
                 onMouseEnter={e => {
                   if (!plan.popular) {
-                    (e.currentTarget as HTMLAnchorElement).style.background = `${plan.color}18`;
+                    (e.currentTarget as HTMLAnchorElement).style.background = "rgba(255,255,255,0.08)";
+                    (e.currentTarget as HTMLAnchorElement).style.borderColor = plan.color;
                   }
                 }}
                 onMouseLeave={e => {
                   if (!plan.popular) {
-                    (e.currentTarget as HTMLAnchorElement).style.background = "transparent";
+                    (e.currentTarget as HTMLAnchorElement).style.background = "rgba(255,255,255,0.03)";
+                    (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(255,255,255,0.1)";
                   }
                 }}
               >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
                 </svg>
                 {plan.cta}
               </a>
             </article>
           ))}
+        </div>
+
+        {/* ─── INTERACTIVE REVENUE & PROFIT CALCULATOR (Ultra-Clean & Concise) ─── */}
+        <div 
+          className="glass-card" 
+          style={{ 
+            padding: "2.5rem 3rem", 
+            borderRadius: "24px", 
+            background: "linear-gradient(135deg, rgba(139,92,246,0.1) 0%, rgba(59,130,246,0.04) 100%)", 
+            border: "1px solid rgba(139, 92, 246, 0.2)",
+            boxShadow: "0 10px 40px rgba(0,0,0,0.2)"
+          }}
+        >
+          <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
+            <h3 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.8rem", fontWeight: 900, color: "var(--text-primary)", marginBottom: "0.4rem" }}>
+              IPTV Reseller Profit Calculator
+            </h3>
+            <p style={{ color: "var(--text-secondary)", maxWidth: "540px", margin: "0 auto", fontSize: "0.9rem", lineHeight: 1.5 }}>
+              Select credit quantity and your monthly resell price to estimate total profit potential.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "1.1fr 1fr", gap: "3rem", alignItems: "center" }} className="panel-hero-grid">
+            {/* Left Column: Synced Inputs & Sliders */}
+            <div style={{ display: "flex", flexDirection: "column", gap: "1.75rem" }}>
+              {/* Input 1: Credits Quantity */}
+              <div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.6rem" }}>
+                  <label htmlFor="calc-credits-input" style={{ fontSize: "0.9rem", fontWeight: 700, color: "var(--text-secondary)" }}>Credits to Purchase</label>
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                    <input
+                      id="calc-credits-input"
+                      type="number"
+                      min="120"
+                      max="10000"
+                      value={credits}
+                      onChange={(e) => {
+                        const val = e.target.value === "" ? "" : Math.max(0, Number(e.target.value));
+                        setCredits(val);
+                      }}
+                      style={{
+                        background: "rgba(139,92,246,0.12)",
+                        border: "1px solid rgba(139,92,246,0.3)",
+                        borderRadius: "6px",
+                        color: "#c4b5fd",
+                        padding: "0.25rem 0.5rem",
+                        width: "85px",
+                        textAlign: "center",
+                        fontSize: "0.9rem",
+                        fontWeight: 800,
+                        outline: "none",
+                        fontFamily: "inherit"
+                      }}
+                    />
+                    <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 600 }}>Credits</span>
+                  </div>
+                </div>
+                <input
+                  id="calc-credits"
+                  type="range"
+                  min="120"
+                  max="1000"
+                  step="10"
+                  value={creditsNum}
+                  onChange={(e) => setCredits(Number(e.target.value))}
+                  style={{
+                    width: "100%",
+                    height: "5px",
+                    borderRadius: "3px",
+                    background: "rgba(255,255,255,0.08)",
+                    outline: "none",
+                    cursor: "pointer",
+                    accentColor: "#8b5cf6"
+                  }}
+                />
+                <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.7rem", color: "var(--text-muted)", marginTop: "0.4rem" }}>
+                  <span>120 Credits</span>
+                  <span>200 (Growth)</span>
+                  <span>500 (Enterprise)</span>
+                  <span>1,000</span>
+                </div>
+              </div>
+
+              {/* Input 2: Sell Price */}
+              <div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.6rem" }}>
+                  <label htmlFor="calc-sell-price-input" style={{ fontSize: "0.9rem", fontWeight: 700, color: "var(--text-secondary)" }}>Your Monthly Resell Price</label>
+                  <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                    <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 600 }}>$</span>
+                    <input
+                      id="calc-sell-price-input"
+                      type="number"
+                      min="1"
+                      max="1000"
+                      value={sellPrice}
+                      onChange={(e) => {
+                        const val = e.target.value === "" ? "" : Math.max(0, Number(e.target.value));
+                        setSellPrice(val);
+                      }}
+                      style={{
+                        background: "rgba(6,182,212,0.12)",
+                        border: "1px solid rgba(6,182,212,0.3)",
+                        borderRadius: "6px",
+                        color: "#22d3ee",
+                        padding: "0.25rem 0.5rem",
+                        width: "65px",
+                        textAlign: "center",
+                        fontSize: "0.9rem",
+                        fontWeight: 800,
+                        outline: "none",
+                        fontFamily: "inherit"
+                      }}
+                    />
+                    <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 600 }}>/mo</span>
+                  </div>
+                </div>
+                <input
+                  id="calc-sell-price"
+                  type="range"
+                  min="5"
+                  max="25"
+                  step="1"
+                  value={sellPriceNum}
+                  onChange={(e) => setSellPrice(Number(e.target.value))}
+                  style={{
+                    width: "100%",
+                    height: "5px",
+                    borderRadius: "3px",
+                    background: "rgba(255,255,255,0.08)",
+                    outline: "none",
+                    cursor: "pointer",
+                    accentColor: "#06b6d4"
+                  }}
+                />
+                <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.7rem", color: "var(--text-muted)", marginTop: "0.4rem" }}>
+                  <span>$5</span>
+                  <span>$10 (Typical)</span>
+                  <span>$15</span>
+                  <span>$20</span>
+                  <span>$25</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column: Clean Results Board */}
+            <div 
+              className="glass-card" 
+              style={{ 
+                padding: "1.75rem 2rem", 
+                borderRadius: "16px", 
+                background: "rgba(0,0,0,0.2)", 
+                border: "1px solid rgba(255,255,255,0.05)",
+                display: "flex",
+                flexDirection: "column",
+                gap: "1rem"
+              }}
+            >
+              {/* Cost to Buy */}
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <span style={{ fontSize: "0.85rem", color: "var(--text-secondary)" }}>Package Cost (To Buy):</span>
+                <span style={{ fontSize: "1.2rem", fontWeight: 700, color: "white" }}>
+                  ${totalCost.toLocaleString()}
+                  <span style={{ fontSize: "0.75rem", color: "var(--text-muted)", fontWeight: 500, marginLeft: 6 }}>
+                    (${costPerCredit.toFixed(2)}/cr)
+                  </span>
+                </span>
+              </div>
+
+              {/* Revenue Potential */}
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <span style={{ fontSize: "0.85rem", color: "var(--text-secondary)" }}>Gross Revenue (To Sell):</span>
+                <span style={{ fontSize: "1.2rem", fontWeight: 700, color: "white" }}>${grossRevenue.toLocaleString()}</span>
+              </div>
+
+              {/* Clean divider */}
+              <div style={{ height: "1px", background: "rgba(255,255,255,0.06)" }} />
+
+              {/* Net Profit Highlight */}
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <span style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--text-primary)" }}>Your Net Profit:</span>
+                <span style={{ 
+                  fontSize: "1.6rem", 
+                  fontWeight: 900, 
+                  color: "#22c55e", 
+                  textShadow: "0 0 15px rgba(34,197,94,0.15)" 
+                }}>
+                  +${netProfit.toLocaleString()}
+                </span>
+              </div>
+
+              {/* Direct Order Link */}
+              <a
+                href={getWhatsAppCalcLink()}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "flex", alignItems: "center", justifyContent: "center", gap: 8,
+                  padding: "0.85rem",
+                  borderRadius: 10,
+                  textDecoration: "none",
+                  fontSize: "0.95rem", fontWeight: 800,
+                  background: "linear-gradient(135deg, #8b5cf6, #3b82f6)",
+                  color: "white",
+                  border: "none",
+                  marginTop: "0.25rem",
+                  transition: "all 0.3s ease",
+                  boxShadow: "0 4px 15px rgba(139,92,246,0.35)",
+                  textAlign: "center"
+                }}
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
+                </svg>
+                Secure Reseller Setup
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

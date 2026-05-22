@@ -1,4 +1,8 @@
+"use client";
+
 import Link from "next/link";
+import { useLocale } from "next-intl";
+import { PanelLogo } from "./PanelLogos";
 
 const panels = [
   { name: "B1G", slug: "b1g-iptv-reseller-panel", color: "#8b5cf6" },
@@ -26,10 +30,12 @@ const panels = [
 ];
 
 export default function PanelsGrid() {
+  const locale = useLocale();
+
   return (
     <section
       id="panels"
-      aria-label="Top IPTV Reseller Panels — Best IPTV Panels for Resellers 2025"
+      aria-label="Top IPTV Reseller Panels — Best IPTV Panels for Resellers 2026"
       style={{
         padding: "6rem 0",
         borderTop: "1px solid var(--border-color)",
@@ -39,7 +45,7 @@ export default function PanelsGrid() {
       <div className="section-container">
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "3.5rem" }}>
-          <div className="tag" style={{ marginBottom: "1rem" }}>Top IPTV Servers List 2025</div>
+          <div className="tag" style={{ marginBottom: "1rem" }}>Top IPTV Servers List 2026</div>
           <h2 style={{
             fontFamily: "'Outfit', sans-serif",
             fontWeight: 800,
@@ -50,7 +56,7 @@ export default function PanelsGrid() {
             marginBottom: "1rem",
           }}>
             Best IPTV Reseller Panels &amp;{" "}
-            <span className="gradient-text">Top IPTV Servers 2025</span>
+            <span className="gradient-text">Top IPTV Servers 2026</span>
           </h2>
           <p style={{ color: "var(--text-secondary)", fontSize: "1rem", maxWidth: 640, margin: "0 auto" }}>
             Browse our curated list of the best IPTV panels for resellers — each supporting Xtream Codes,
@@ -69,7 +75,7 @@ export default function PanelsGrid() {
           {panels.map((panel) => (
             <Link
               key={panel.slug}
-              href={`/${panel.slug}`}
+              href={`/${locale}/${panel.slug}`}
               style={{ textDecoration: "none" }}
               aria-label={`${panel.name} IPTV reseller panel — view features and credits`}
               title={`${panel.name} IPTV Reseller Panel — Get credits & reseller dashboard`}
@@ -90,9 +96,8 @@ export default function PanelsGrid() {
                   background: `${panel.color}18`,
                   border: `1px solid ${panel.color}33`,
                   display: "flex", alignItems: "center", justifyContent: "center",
-                  fontSize: "1.1rem",
                 }} aria-hidden="true">
-                  📺
+                  <PanelLogo slug={panel.slug} color={panel.color} size={20} />
                 </div>
                 <span style={{
                   fontSize: "0.78rem", fontWeight: 700,
@@ -122,7 +127,7 @@ export default function PanelsGrid() {
             All panels include Xtream Codes, M3U & MAG box support. Free trial available.
           </p>
           <Link
-            href="/#pricing"
+            href={`/${locale}#pricing`}
             id="panels-view-pricing-cta"
             className="btn-primary"
             aria-label="Buy IPTV reseller credits — view pricing for all panels"

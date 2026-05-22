@@ -31,7 +31,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {
@@ -140,7 +140,6 @@ body::before {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  z-index: 1;
 }
 .btn-primary::before {
   content: '';
@@ -149,7 +148,8 @@ body::before {
   background: linear-gradient(135deg, #a78bfa, #60a5fa);
   opacity: 0;
   transition: opacity 0.3s ease;
-  z-index: 0;
+  pointer-events: none;
+  mix-blend-mode: lighten;
 }
 .btn-primary:hover::before { opacity: 1; }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(139,92,246,0.4); }

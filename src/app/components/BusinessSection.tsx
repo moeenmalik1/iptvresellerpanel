@@ -91,7 +91,7 @@ export default function BusinessSection() {
               Fox IPTV Panels is the easiest way to{" "}
               <strong style={{ color: "var(--text-primary)" }}>become an IPTV reseller</strong> without investment
               in servers or infrastructure. We handle the technical side — you focus on sales and growing
-              your customer base in the UK, USA, Pakistan, or anywhere globally.
+              your customer base in the UK, USA, EU, or anywhere globally.
             </p>
 
             <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, marginBottom: "1.5rem" }}>

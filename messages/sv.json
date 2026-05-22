@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "IPTV Reseller Panel Sverige — Bästa Leverantör av IPTV-paneler i Sverige",
+    "description": "Köp svenska IPTV-reseller-krediter från den bästa grossistleverantören i Sverige. Starta din IPTV-verksamhet under eget varumärke (white label) med Xtream Codes, M3U och 99.9% drifttid.",
+    "keywords": "iptv reseller panel sverige, bästa återförsäljare iptv sverige, köpa iptv krediter grossist sverige, återförsäljare iptv, white label iptv"
+  },
+  "common": {
+    "currency": "SEK",
+    "symbol": "kr",
+    "whatsappUrl": "https://wa.me/1234567890?text=Hej%2C%20jag%20ar%20intresserad%20av%20att%20starta%20en%20verksamhet%20som%20IPTV-aterforsaljare%20i%20Sverige",
+    "startReselling": "Börja Sälja",
+    "viewAll": "Visa alla 22 IPTV-paneler i Sverige",
+    "whatsappSupport": "Svensk WhatsApp Support",
+    "secureOrder": "Beställ säkert via WhatsApp (SEK)",
+    "years": "2026",
+    "regionName": "Sverige"
+  },
+  "nav": {
+    "home": "Hem",
+    "panels": "IPTV Paneler",
+    "comparisons": "Jämförelser",
+    "guides": "Guider",
+    "about": "Om Oss",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "trustTag": "Betrodd av IPTV-återförsäljare i Stockholm, Göteborg, Malmö och hela Sverige",
+    "title": "Starta din IPTV-återförsäljarverksamhet med hög marginal i Sverige",
+    "desc": "Köp förstklassiga grossistkrediter för IPTV-återförsäljare. Få omedelbar tillgång till 22+ premium återförsäljarpaneler (white label) med M3U-spellistor, Xtream Codes API:er, stabila 4K-servrar och lokal support.",
+    "ctaPanels": "Jämför IPTV Paneler",
+    "ctaStart": "Börja Sälja i Sverige"
+  },
+  "trust": {
+    "badge": "2026 SVENSK GROSSIST"
+  },
+  "pricing": {
+    "title": "Grossistpaket med IPTV-krediter & Vinstkalkylator",
+    "subtitle": "Välj ett färdigt paket eller kalkylera dina dynamiska intäkter i SEK nedan med direktinskrivna siffror eller interaktiva skjutreglage.",
+    "sliderCredits": "Krediter att köpa:",
+    "sliderPrice": "Ditt månatliga återförsäljarpris (kr):",
+    "cost": "Paketpris (Att köpa):",
+    "revenue": "Butiksvärde (Att sälja):",
+    "profit": "Din nettovinst i SEK:",
+    "perCredit": "per kredit",
+    "costLabel": "Kostnad per kredit",
+    "earningsLabel": "Möjliga intäkter i Sverige",
+    "grossLabel": "Bruttointäkter",
+    "netLabel": "Nettovinst",
+    "plans": {
+      "starter": {
+        "name": "Starter-paket",
+        "features": [
+          "Minst 120 krediter för att starta",
+          "Inkluderar grundläggande verktyg för underåterförsäljare",
+          "Stöd för Xtream Codes & M3U",
+          "24/7 tillgång till supportavdelning"
+        ]
+      },
+      "growth": {
+        "name": "Growth-paket",
+        "features": [
+          "Grossistpaket med 200 krediter",
+          "Gratis anpassad DNS-portalinstallation",
+          "Tillgång till säljmallar för nybörjare",
+          "Prioriterad support i WhatsApp-grupp"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise-grossist",
+        "features": [
+          "Premium grossistpaket med 500 krediter",
+          "Obegränsad panelkapacitet för underåterförsäljare",
+          "Fullt anpassad white label-installation",
+          "24/7 direkt VIP-kontoansvarig"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "Världsledande inom grossistpaneler för IPTV-återförsäljare",
+    "desc1": "Fox IPTV Panels är den ledande white label-plattformen för distribution av IPTV-krediter i Sverige, och betjänar över 5 000 aktiva partners i Stockholm, Göteborg, Malmö och globalt. Vi konsoliderar 22 förstklassiga IPTV-strömningsnätverk under ett enda enhetligt kontrollpanelssystem, vilket gör att du kan starta din egen verksamhet utan bakomliggande teknisk infrastruktur.",
+    "desc2": "Våra nätverk i Västeuropa levererar laggfri, högupplöst strömning optimerad för stora lokala svenska leverantörer som Telia, Tele2, Telenor och Tre, vilket garanterar en förstklassig tittarupplevelse för dina slutanvändare."
+  },
+  "faq": {
+    "title": "Vanliga frågor om grossistverksamhet för IPTV",
+    "q1": "Är era IPTV-återförsäljarpaneler tillgängliga i Sverige?",
+    "a1": "Ja, absolut. Vi stöder IPTV-återförsäljare över hela Sverige med lokala servrar med låg latens, betalningsalternativ i SEK och kanalutbud anpassat för den svenska marknaden.",
+    "q2": "Hur fungerar IPTV-resellerkrediter i Sverige?",
+    "a2": "Krediter fungerar som valuta på din kontrollpanel. 1 kredit ger 1 månads abonnemang för 1 användare. Du köper krediter till grossistpris i SEK och sätter dina egna konsumentpriser, och behåller 100 % av vinstmarginalen."
+  }
+}

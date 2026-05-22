@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "IPTV Reseller Panel Norge — Beste Leverandør av IPTV-paneler i Norge",
+    "description": "Kjøp norske IPTV-forhandlerkreditter fra den ledende grossistleverandøren i Norge. Start din egen IPTV-virksomhet (white label) med Xtream Codes, M3U og 99.9% oppetid.",
+    "keywords": "iptv reseller panel norge, beste forhandler iptv norge, kjøpe iptv kreditter engros norge, forhandler iptv, white label iptv"
+  },
+  "common": {
+    "currency": "NOK",
+    "symbol": "kr",
+    "whatsappUrl": "https://wa.me/1234567890?text=Hei%2C%20jeg%20er%20interessert%20i%20a%20starte%20en%20virksomhet%20som%20IPTV-forhandler%20i%20Norge",
+    "startReselling": "Begynn å Selge",
+    "viewAll": "Vis alle 22 IPTV-paneler i Norge",
+    "whatsappSupport": "Norsk WhatsApp Support",
+    "secureOrder": "Bestill trygt på WhatsApp (NOK)",
+    "years": "2026",
+    "regionName": "Norge"
+  },
+  "nav": {
+    "home": "Hjem",
+    "panels": "IPTV Paneler",
+    "comparisons": "Sammenligninger",
+    "guides": "Guider",
+    "about": "Om Oss",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "trustTag": "Betrodd av IPTV-forhandlere i Oslo, Bergen, Trondheim og hele Norge",
+    "title": "Start din IPTV-forhandlervirksomhet med høy margin i Norge",
+    "desc": "Kjøp førsteklasses engroskreditter for IPTV-forhandlere. Få umiddelbar tilgang til 22+ premium forhandlerpaneler (white label) med M3U-spillelister, Xtream Codes API-er, stabile 4K-servere og lokal support.",
+    "ctaPanels": "Sammenlign IPTV Paneler",
+    "ctaStart": "Begynn å Selge i Norge"
+  },
+  "trust": {
+    "badge": "2026 NORSK ENGROS"
+  },
+  "pricing": {
+    "title": "Engrospakker med IPTV-kreditter & Vinstkalkulator",
+    "subtitle": "Velg en ferdig pakke eller kalkuler dine dynamiske inntekter i NOK under med direkte inntastede tall eller interaktive glidebrytere.",
+    "sliderCredits": "Kreditter å kjøpe:",
+    "sliderPrice": "Ditt månedlige forhandlerpris (kr):",
+    "cost": "Pakkepris (Å kjøpe):",
+    "revenue": "Utsalgsverdi (Å selge):",
+    "profit": "Din nettogevinst i NOK:",
+    "perCredit": "per kreditt",
+    "costLabel": "Kostnad per kreditt",
+    "earningsLabel": "Mulige inntekter i Norge",
+    "grossLabel": "Bruttoinntekter",
+    "netLabel": "Nettogevinst",
+    "plans": {
+      "starter": {
+        "name": "Starter-pakke",
+        "features": [
+          "Minst 120 kreditter for å starte",
+          "Inkluderer grunnleggende verktøy for underforhandlere",
+          "Støtte for Xtream Codes & M3U",
+          "24/7 tilgang till kundestøtte"
+        ]
+      },
+      "growth": {
+        "name": "Growth-pakke",
+        "features": [
+          "Engrospakke med 200 kreditter",
+          "Gratis tilpasset DNS-portalinstallasjon",
+          "Tilgang til salgsmaler for nybegynnere",
+          "Prioritert støtte i WhatsApp-gruppe"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise-engros",
+        "features": [
+          "Premium engrospakke med 500 kreditter",
+          "Ubegrenset panelkapasitet for underforhandlere",
+          "Fullt tilpasset white label-installasjon",
+          "24/7 direkte VIP-kontomansvarlig"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "Verdensledende innen engrospaneler for IPTV-forhandlere",
+    "desc1": "Fox IPTV Panels er den ledende white label-plattformen for distribusjon av IPTV-kreditter i Norge, og betjener over 5 000 aktive partnere i Oslo, Bergen, Trondheim og globalt. Vi samler 22 førsteklasses IPTV-strømmenettverk under ett enkelt kontrollpanel, slik at du kan starte din egen virksomhet uten underliggende teknisk infrastruktur.",
+    "desc2": "Våre nettverk i Vest-Europa leverer laggfri, høyoppløselig strømming optimalisert for store lokale norske leverandører som Telenor, Telia, Altibox og Ice, noe som garanterer en førsteklasses seeropplevelse for dine sluttbrukere."
+  },
+  "faq": {
+    "title": "Vanlige spørsmål om engrosvirksomhet for IPTV",
+    "q1": "Er forhandlerpanelene for IPTV tilgjengelige i Norge?",
+    "a1": "Ja, absolutt. Vi støtter IPTV-forhandlere over hele Norge med raske lokale servere, betalingsalternativer i NOK og kanalutvalg tilpasset det norske markedet.",
+    "q2": "Hvordan fungerer IPTV-forhandlerkreditter i Norge?",
+    "a2": "Kreditter fungerer som valuta på kontrollpanelet ditt. 1 kreditt gir 1 måneds abonnement for 1 bruker. Du kjøper kreditter til engrospris i NOK og setter dine egne priser, og beholder 100 % av fortjenesten."
+  }
+}

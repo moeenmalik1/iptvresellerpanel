@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "IPTV Reseller Panel Australia — Best IPTV Reseller Panel Provider in Australia",
+    "description": "Buy Australian IPTV reseller credits from the top wholesale IPTV panel provider in Australia. Start a white label IPTV reselling business with Xtream Codes, M3U & MAG box support, 99.9% uptime, 4K streaming, and local WhatsApp support.",
+    "keywords": "iptv reseller panel australia, best australia iptv reseller, buy iptv reseller credits australia, iptv reseller business australia, white label iptv australia, cheap credits aud"
+  },
+  "common": {
+    "currency": "AUD",
+    "symbol": "A$",
+    "whatsappUrl": "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business%20in%20Australia",
+    "startReselling": "Start AU Reselling",
+    "viewAll": "View All 22 IPTV Panels in Australia",
+    "whatsappSupport": "WhatsApp AU Support",
+    "secureOrder": "Order via WhatsApp Securely (AUD)",
+    "years": "2026",
+    "regionName": "Australia"
+  },
+  "nav": {
+    "home": "Home",
+    "panels": "IPTV Panels",
+    "comparisons": "AU Comparisons",
+    "guides": "Reseller Guides",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "trustTag": "Trusted by IPTV resellers in Sydney, Melbourne, Brisbane & across Australia",
+    "title": "Start Your High-Margin IPTV Reseller Business in Australia",
+    "desc": "Buy premium wholesale Australian IPTV reseller credits. Gain instant login access to 22+ premium white-label IPTV reseller dashboards with M3U playlist integration, Xtream Codes APIs, 4K zero-buffering servers, and local support.",
+    "ctaPanels": "Compare AU IPTV Panels",
+    "ctaStart": "Start Selling in Australia"
+  },
+  "trust": {
+    "badge": "2026 AU WHOLESALE"
+  },
+  "pricing": {
+    "title": "Australia Wholesale IPTV Credit Packages & Profit Calculator",
+    "subtitle": "Select a pre-designed bundle or calculate your dynamic earnings in AUD below with typed numbers or interactive range sliders.",
+    "sliderCredits": "Credits to Purchase:",
+    "sliderPrice": "Your Monthly Resell Price (A$):",
+    "cost": "Package Cost (To Buy):",
+    "revenue": "Retail Value (To Sell):",
+    "profit": "Your Net Profit in AUD:",
+    "perCredit": "per credit",
+    "costLabel": "Cost per Credit",
+    "earningsLabel": "AU Potential Earnings",
+    "grossLabel": "Gross Revenue",
+    "netLabel": "Net Profit",
+    "plans": {
+      "starter": {
+        "name": "AU Starter Pack",
+        "features": [
+          "120 credits minimum setup",
+          "Includes basic sub-reseller creation",
+          "Xtream Codes & M3U support",
+          "24/7 client ticket desk access"
+        ]
+      },
+      "growth": {
+        "name": "AU Growth Pack",
+        "features": [
+          "200 credits wholesale bundle",
+          "Free custom DNS portal routing setup",
+          "Access to beginner sales templates",
+          "Priority WhatsApp group support"
+        ]
+      },
+      "enterprise": {
+        "name": "AU Enterprise Wholesale",
+        "features": [
+          "500 credits premium bundle",
+          "Unlimited sub-reseller dashboard capability",
+          "Fully customized white-label setup",
+          "24/7 direct VIP account manager"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "Australia's Leading Wholesale IPTV Reseller Panels",
+    "desc1": "Fox IPTV Panels is the leading white-label platform for Australian IPTV credit distribution, serving over 5,000 active business partners across Sydney, Melbourne, Brisbane, and globally. We consolidate 22 top-tier IPTV streaming networks under a single unified dashboard system, allowing you to launch and brand your own subscription business with zero background infrastructure.",
+    "desc2": "Our geo-distributed networks deliver lag-free, high-definition streaming optimized for major Australian ISPs such as Telstra, Optus, and TPG, guaranteeing a premium viewing experience for your end users."
+  },
+  "faq": {
+    "title": "Australia Wholesale IPTV Reseller FAQ",
+    "q1": "Are your IPTV reseller panels available in Australia?",
+    "a1": "Yes, absolutely. We support IPTV resellers across Australia with high-speed local peering, AUD payment options, and geo-targeted streaming content suited for Australian viewers.",
+    "q2": "How do IPTV reseller credits work in Australia?",
+    "a2": "Reseller credits act as currency in your dashboard. 1 credit provides 1 month of subscription for 1 user. You purchase credits wholesale in AUD and set your own retail prices, keeping 100% of the markup profit."
+  }
+}

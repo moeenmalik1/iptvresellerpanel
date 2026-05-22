@@ -16,9 +16,9 @@ const testimonials = [
     color: "#3b82f6",
   },
   {
-    quote: "Strong uptime, reliable IPTV credits delivery, and a clean white label dashboard. My customers across Pakistan are fully satisfied.",
+    quote: "Strong uptime, reliable IPTV credits delivery, and a clean white label dashboard. My customers across the EU are fully satisfied.",
     name: "Liam K.",
-    role: "IPTV Reseller — UK & Pakistan",
+    role: "IPTV Reseller — UK & EU",
     stars: 5,
     initials: "LK",
     color: "#06b6d4",

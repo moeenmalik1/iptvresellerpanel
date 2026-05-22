@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Panel Reseller IPTV France — Meilleur Fournisseur de Panneaux IPTV en France",
+    "description": "Achetez des crédits revendeur IPTV France auprès du meilleur fournisseur en gros. Lancez votre propre entreprise IPTV en marque blanche avec Xtream Codes, M3U & MAG, 99.9% de disponibilité et streaming 4K.",
+    "keywords": "panel reseller iptv france, meilleur revendeur iptv france, acheter credits iptv en gros france, entreprise de revendeur iptv, iptv marque blanche"
+  },
+  "common": {
+    "currency": "EUR",
+    "symbol": "€",
+    "whatsappUrl": "https://wa.me/1234567890?text=Bonjour%2C%20je%20suis%20interesse%20par%20le%20lancement%20d%27une%20activite%20de%20revendeur%20IPTV%20en%20France",
+    "startReselling": "Commencer à Vendre",
+    "viewAll": "Voir les 22 Panneaux IPTV en France",
+    "whatsappSupport": "Support WhatsApp IPTV",
+    "secureOrder": "Commander via WhatsApp en toute Sécurité (EUR)",
+    "years": "2026",
+    "regionName": "France"
+  },
+  "nav": {
+    "home": "Accueil",
+    "panels": "Panneaux IPTV",
+    "comparisons": "Comparatifs",
+    "guides": "Guides Revendeur",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "trustTag": "Approuvé par les revendeurs IPTV à Paris, Marseille, Lyon et dans toute la France",
+    "title": "Lancez votre Activité de Revendeur IPTV à Forte Marge en France",
+    "desc": "Achetez des crédits revendeur IPTV en gros de qualité supérieure. Obtenez un accès instantané à plus de 22 panneaux de revendeurs IPTV en marque blanche avec listes M3U, API Xtream Codes, serveurs 4K sans décalage et support local.",
+    "ctaPanels": "Comparer les Panneaux IPTV",
+    "ctaStart": "Commencer à Vendre en France"
+  },
+  "trust": {
+    "badge": "GROSSISTE 2026"
+  },
+  "pricing": {
+    "title": "Packs de Crédits IPTV en Gros et Calculateur de Profit",
+    "subtitle": "Sélectionnez un pack pré-conçu ou calculez vos revenus dynamiques en EUR ci-dessous avec des chiffres tapés ou des curseurs interactifs.",
+    "sliderCredits": "Crédits à Acheter :",
+    "sliderPrice": "Votre Prix de Revente Mensuel (€) :",
+    "cost": "Coût du Pack (À Acheter) :",
+    "revenue": "Valeur de Revente (À Vendre) :",
+    "profit": "Votre Bénéfice Net en EUR :",
+    "perCredit": "par crédit",
+    "costLabel": "Coût par Crédit",
+    "earningsLabel": "Gains Potentiels en France",
+    "grossLabel": "Revenu Brut",
+    "netLabel": "Bénéfice Net",
+    "plans": {
+      "starter": {
+        "name": "Pack Starter",
+        "features": [
+          "120 crédits minimum pour commencer",
+          "Comprend la création de base de sous-revendeurs",
+          "Support pour Xtream Codes et M3U",
+          "Accès 24/7 au support client"
+        ]
+      },
+      "growth": {
+        "name": "Pack Growth",
+        "features": [
+          "Pack en gros de 200 crédits",
+          "Configuration gratuite du routage DNS personnalisé",
+          "Accès à des modèles de vente pour débutants",
+          "Support prioritaire par groupe WhatsApp"
+        ]
+      },
+      "enterprise": {
+        "name": "Pack Enterprise",
+        "features": [
+          "Pack premium de 500 crédits",
+          "Capacité illimitée de panneaux de sous-revendeurs",
+          "Configuration marque blanche 100% personnalisée",
+          "Gestionnaire de compte VIP dédié 24/7"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "Le leader mondial des panneaux de revendeurs IPTV en gros",
+    "desc1": "Fox IPTV Panels est la première plateforme en marque blanche pour la distribution de crédits IPTV en France, au service de plus de 5 000 partenaires d'affaires actifs à Paris, Marseille, Lyon et dans le monde entier. Nous regroupons 22 réseaux de streaming IPTV de premier ordre au sein d'un tableau de bord unifié unique, vous permettant de lancer et de labelliser votre propre entreprise de streaming avec zéro infrastructure.",
+    "desc2": "Nos réseaux situés en Europe de l'Ouest offrent une diffusion haute définition sans décalage et optimisée pour les réseaux des principaux fournisseurs locaux (Orange, SFR, Free, Bouygues Telecom), garantissant une expérience de visionnage premium pour vos utilisateurs finaux."
+  },
+  "faq": {
+    "title": "Foire aux questions des revendeurs de gros IPTV",
+    "q1": "Vos panneaux IPTV sont-ils disponibles en France ?",
+    "a1": "Oui, absolument. Nous soutenons pleinement les revendeurs IPTV en France avec des serveurs européens à faible latence, des paiements en euros et des listes de chaînes optimisées pour le public français.",
+    "q2": "Comment fonctionnent les crédits de revendeur IPTV en France ?",
+    "a2": "Les crédits agissent comme une devise dans votre panneau. 1 crédit offre 1 mois d'abonnement pour 1 utilisateur. Vous achetez des crédits en gros en euros et fixez vos propres prix de vente, conservant 100% de la marge bénéficiaire."
+  }
+}

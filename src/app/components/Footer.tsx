@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-
-const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
+import { useLocale, useTranslations } from "next-intl";
 
 const footerNav = [
   { label: "Home", href: "/" },
@@ -13,6 +12,8 @@ const footerNav = [
   { label: "Contact", href: "/contact" },
   { label: "Privacy Policy", href: "/privacy" },
   { label: "Terms of Service", href: "/terms" },
+  { label: "Disclaimer", href: "/disclaimer" },
+  { label: "DMCA Policy", href: "/dmca" },
 ];
 
 const serverPages = [
@@ -33,8 +34,8 @@ const serverPages = [
 const comparePages = [
   { label: "Strong 4K vs Lion OTT", href: "/comparisons/strong-4k-vs-lion-ott" },
   { label: "Crystal vs Nexon — Panel Comparison", href: "/comparisons/crystal-vs-nexon" },
-  { label: "Best IPTV Reseller Panels 2025", href: "/comparisons/best-iptv-reseller-panels-2025" },
-  { label: "Cheapest IPTV Reseller Panel 2025", href: "/comparisons/cheapest-iptv-reseller-panel" },
+  { label: "Best IPTV Reseller Panels 2026", href: "/comparisons/best-iptv-reseller-panels-2026" },
+  { label: "Cheapest IPTV Reseller Panel 2026", href: "/comparisons/cheapest-iptv-reseller-panel" },
 ];
 
 const guides = [
@@ -45,6 +46,18 @@ const guides = [
 ];
 
 export default function Footer() {
+  const locale = useLocale();
+  const c = useTranslations("common");
+
+  const getLocalizedHref = (href: string) => {
+    if (href === "/") return `/${locale}`;
+    if (href.startsWith("/#")) return `/${locale}${href.substring(1)}`;
+    return `/${locale}${href}`;
+  };
+
+  const whatsappUrl = c("whatsappUrl");
+  const whatsappLabel = c("whatsappSupport");
+
   return (
     <footer
       aria-label="Fox IPTV Panels — IPTV Reseller Panel Provider"
@@ -67,20 +80,43 @@ export default function Footer() {
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: "1.25rem" }}>
               <div style={{
-                width: 36, height: 36, borderRadius: 8,
-                background: "linear-gradient(135deg, #8b5cf6, #3b82f6)",
+                width: 38, height: 38, borderRadius: 10,
+                background: "linear-gradient(135deg, #1e293b, #0f172a)",
                 display: "flex", alignItems: "center", justifyContent: "center",
-                boxShadow: "0 0 20px rgba(139,92,246,0.3)",
+                boxShadow: "0 0 15px rgba(234, 88, 12, 0.25)",
+                border: "1px solid rgba(234, 88, 12, 0.4)",
               }} aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
-                  <path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18-.21 0-.41-.06-.57-.18l-7.9-4.44A.991.991 0 012 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18.21 0 .41.06.57.18l7.9 4.44c.32.17.53.5.53.88v9z"/>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  {/* Back of Head / Ears (Charcoal) */}
+                  <path d="M12 8L4 2L8 12Z" fill="#0f172a" />
+                  <path d="M12 8L20 2L16 12Z" fill="#0f172a" />
+                  
+                  {/* Outer Ears (Rust) */}
+                  <path d="M4 2L8 12L3 10Z" fill="#c2410c" />
+                  <path d="M20 2L16 12L21 10Z" fill="#c2410c" />
+
+                  {/* Cheeks / Sides (Bright Orange) */}
+                  <path d="M8 12L2 12L12 20Z" fill="#f97316" />
+                  <path d="M16 12L22 12L12 20Z" fill="#f97316" />
+
+                  {/* Face / Snout (Vibrant Orange) */}
+                  <path d="M12 8L8 12L12 20Z" fill="#ea580c" />
+                  <path d="M12 8L16 12L12 20Z" fill="#ea580c" />
+
+                  {/* Inner Ears & Under-eyes (White) */}
+                  <path d="M6 5.5L8 12L7 11.5Z" fill="#ffffff" />
+                  <path d="M18 5.5L16 12L17 11.5Z" fill="#ffffff" />
+                  <path d="M12 14.5L10 12L12 11L14 12Z" fill="#ffffff" />
+
+                  {/* Nose (Charcoal) */}
+                  <path d="M12 18.5L10 20L12 21L14 20Z" fill="#0f172a" />
                 </svg>
               </div>
               <span style={{
                 fontFamily: "'Outfit', sans-serif",
                 fontWeight: 800,
-                fontSize: "1rem",
-                background: "linear-gradient(135deg, #f0f0ff, #c4b5fd)",
+                fontSize: "1.1rem",
+                background: "linear-gradient(135deg, #ffffff 0%, #ea580c 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
@@ -103,13 +139,13 @@ export default function Footer() {
               marginBottom: "1.5rem", maxWidth: 290,
             }}>
               Serving IPTV resellers in the{" "}
-              <strong style={{ color: "var(--text-secondary)" }}>UK, USA, Pakistan</strong> and globally —
+              <strong style={{ color: "var(--text-secondary)" }}>UK, USA, the EU</strong> and globally —
               with 24/7 WhatsApp support for your IPTV reselling business.
             </p>
 
             {/* WhatsApp */}
             <a
-              href={WHATSAPP_URL}
+              href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
               id="footer-whatsapp-cta"
@@ -129,7 +165,7 @@ export default function Footer() {
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
               </svg>
-              WhatsApp IPTV Support
+              {whatsappLabel}
             </a>
           </div>
 
@@ -141,7 +177,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               {serverPages.map(p => (
                 <li key={p.label}>
-                  <Link href={p.href} style={{
+                  <Link href={getLocalizedHref(p.href)} style={{
                     color: "var(--text-muted)", textDecoration: "none",
                     fontSize: "0.825rem", transition: "color 0.2s",
                   }}
@@ -158,12 +194,12 @@ export default function Footer() {
           {/* Comparisons & Guides */}
           <div>
             <h3 style={{ fontWeight: 700, color: "var(--text-primary)", fontSize: "0.875rem", marginBottom: "1rem" }}>
-              Panel Comparisons 2025
+              Panel Comparisons 2026
             </h3>
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               {comparePages.map(p => (
                 <li key={p.label}>
-                  <Link href={p.href} style={{
+                  <Link href={getLocalizedHref(p.href)} style={{
                     color: "var(--text-muted)", textDecoration: "none",
                     fontSize: "0.825rem", transition: "color 0.2s",
                   }}
@@ -182,7 +218,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               {guides.map(p => (
                 <li key={p.label}>
-                  <Link href={p.href} style={{
+                  <Link href={getLocalizedHref(p.href)} style={{
                     color: "var(--text-muted)", textDecoration: "none",
                     fontSize: "0.825rem", transition: "color 0.2s",
                   }}
@@ -204,7 +240,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               {footerNav.map(p => (
                 <li key={p.label}>
-                  <Link href={p.href} style={{
+                  <Link href={getLocalizedHref(p.href)} style={{
                     color: "var(--text-muted)", textDecoration: "none",
                     fontSize: "0.825rem", transition: "color 0.2s",
                   }}
@@ -230,10 +266,10 @@ export default function Footer() {
           justifyContent: "space-between",
         }}>
           <p style={{ fontSize: "0.78rem", color: "var(--text-muted)" }}>
-            © 2025 Fox IPTV Panels — #1 IPTV Reseller Panel Provider. All rights reserved.
+            © 2026 Fox IPTV Panels — #1 IPTV Reseller Panel Provider. All rights reserved.
           </p>
           <p style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>
-            IPTV Reseller Panels available in UK, USA, Pakistan &amp; worldwide. All trademarks belong to their respective owners.
+            IPTV Reseller Panels available in UK, USA, the EU &amp; worldwide. All trademarks belong to their respective owners.
           </p>
         </div>
       </div>

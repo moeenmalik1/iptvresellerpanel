@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useLocale } from "next-intl";
 
 const comparisons = [
   { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "4K/8K", support: "24/7", dashboard: "Advanced", bestFor: "Premium Resellers", badge: "Top Pick" },
@@ -9,10 +12,12 @@ const comparisons = [
 ];
 
 export default function ComparisonTable() {
+  const locale = useLocale();
+
   return (
     <section
       id="comparison"
-      aria-label="IPTV Reseller Panel Comparison 2025 — Best IPTV Panels for Resellers"
+      aria-label="IPTV Reseller Panel Comparison 2026 — Best IPTV Panels for Resellers"
       style={{
         padding: "6rem 0",
         borderTop: "1px solid var(--border-color)",
@@ -21,7 +26,7 @@ export default function ComparisonTable() {
       <div className="section-container">
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "3.5rem" }}>
-          <div className="tag" style={{ marginBottom: "1rem" }}>IPTV Panel Comparison 2025</div>
+          <div className="tag" style={{ marginBottom: "1rem" }}>IPTV Panel Comparison 2026</div>
           <h2 style={{
             fontFamily: "'Outfit', sans-serif",
             fontWeight: 800,
@@ -32,10 +37,10 @@ export default function ComparisonTable() {
             marginBottom: "1rem",
           }}>
             IPTV Reseller Panel{" "}
-            <span className="gradient-text">Comparison 2025</span>
+            <span className="gradient-text">Comparison 2026</span>
           </h2>
           <p style={{ color: "var(--text-secondary)", fontSize: "1rem", maxWidth: 620, margin: "0 auto" }}>
-            Compare the best IPTV reseller panels for 2025 — streaming quality, uptime reliability,
+            Compare the best IPTV reseller panels for 2026 — streaming quality, uptime reliability,
             dashboard features, and reseller flexibility to find your ideal IPTV panel match.
             Whether you need the <strong style={{ color: "var(--text-primary)" }}>cheapest IPTV reseller panel</strong> or
             the most advanced white label IPTV dashboard, we have it.
@@ -47,7 +52,7 @@ export default function ComparisonTable() {
           <div style={{ overflowX: "auto" }}>
             <table className="compare-table" style={{ minWidth: 600 }}>
               <caption style={{ display: "none" }}>
-                IPTV Reseller Panel Comparison — Best IPTV Panels for Resellers 2025
+                IPTV Reseller Panel Comparison — Best IPTV Panels for Resellers 2026
               </caption>
               <thead>
                 <tr style={{ background: "rgba(139,92,246,0.08)" }}>
@@ -68,7 +73,7 @@ export default function ComparisonTable() {
                           background: "linear-gradient(135deg, #8b5cf6, #3b82f6)",
                         }} />
                         <Link
-                          href={`/${row.slug}`}
+                          href={`/${locale}/${row.slug}`}
                           style={{
                             fontWeight: 700, color: "var(--text-primary)",
                             textDecoration: "none", transition: "color 0.2s",
@@ -119,10 +124,10 @@ export default function ComparisonTable() {
         {/* CTA */}
         <div style={{ textAlign: "center", marginTop: "2.5rem" }}>
           <Link
-            href="/comparisons"
+            href={`/${locale}/comparisons`}
             id="comparison-view-all-cta"
             className="btn-primary"
-            aria-label="Compare all IPTV reseller panels — full comparison 2025"
+            aria-label="Compare all IPTV reseller panels — full comparison 2026"
             style={{
               display: "inline-flex", alignItems: "center", gap: 8,
               padding: "0.85rem 2rem", borderRadius: 10,
@@ -130,7 +135,7 @@ export default function ComparisonTable() {
               position: "relative", overflow: "hidden",
             }}
           >
-            Full IPTV Panel Comparison 2025
+            Full IPTV Panel Comparison 2026
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <polyline points="9,18 15,12 9,6"/>
             </svg>

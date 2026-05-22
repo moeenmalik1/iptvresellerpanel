@@ -1,13 +1,25 @@
+"use client";
+
+import { useEffect } from "react";
 import Link from "next/link";
 import Header from "./Header";
 import Footer from "./Footer";
+import { useLocale } from "next-intl";
 import { PanelData, getRelatedPanels } from "../lib/panelData";
+import { PanelLogo } from "./PanelLogos";
 
 const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
 
 interface Props { panel: PanelData; }
 
 export default function PanelPageTemplate({ panel }: Props) {
+  const locale = useLocale();
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" as any });
+    }
+  }, [panel.slug]);
+
   const related = getRelatedPanels(panel.relatedSlugs);
 
   const pageTitle = `${panel.name} IPTV Reseller Panel — Get Credits & Dashboard | Fox IPTV Panels`;
@@ -62,13 +74,13 @@ export default function PanelPageTemplate({ panel }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <Header />
-      <main id="main-content" style={{ background: "var(--bg-primary)", minHeight: "100vh" }}>
+      <main id="main-content" style={{ background: "var(--bg-primary)", minHeight: "100vh", paddingTop: "80px" }}>
       {/* Breadcrumb */}
       <div className="section-container" style={{ paddingTop: "1.5rem", paddingBottom: 0 }}>
         <nav aria-label="Breadcrumb" style={{ display: "flex", alignItems: "center", gap: 8, fontSize: "0.8rem", color: "var(--text-muted)" }}>
-          <Link href="/" style={{ color: "var(--text-muted)", textDecoration: "none" }}>Home</Link>
+          <Link href={`/${locale}`} style={{ color: "var(--text-muted)", textDecoration: "none" }}>Home</Link>
           <span aria-hidden="true">›</span>
-          <Link href="/#panels" style={{ color: "var(--text-muted)", textDecoration: "none" }}>IPTV Reseller Panels</Link>
+          <Link href={`/${locale}#panels`} style={{ color: "var(--text-muted)", textDecoration: "none" }}>IPTV Reseller Panels</Link>
           <span aria-hidden="true">›</span>
           <span style={{ color: "var(--text-secondary)" }}>{panel.name}</span>
         </nav>
@@ -168,7 +180,7 @@ export default function PanelPageTemplate({ panel }: Props) {
                 </a>
 
                 <Link
-                  href="/#panels"
+                  href={`/${locale}#panels`}
                   className="btn-secondary"
                   aria-label="View all IPTV reseller panels"
                   style={{
@@ -415,7 +427,7 @@ export default function PanelPageTemplate({ panel }: Props) {
               {related.map((rel) => (
                 <Link
                   key={rel.slug}
-                  href={`/${rel.slug}`}
+                  href={`/${locale}/${rel.slug}`}
                   style={{ textDecoration: "none" }}
                   aria-label={`${rel.name} IPTV reseller panel`}
                 >
@@ -431,8 +443,9 @@ export default function PanelPageTemplate({ panel }: Props) {
                         background: `${rel.accentColor}18`,
                         border: `1px solid ${rel.accentColor}30`,
                         display: "flex", alignItems: "center", justifyContent: "center",
-                        fontSize: "1rem",
-                      }} aria-hidden="true">📺</div>
+                      }} aria-hidden="true">
+                        <PanelLogo slug={rel.slug} color={rel.accentColor} size={18} />
+                      </div>
                       <span style={{ fontWeight: 700, color: "var(--text-primary)", fontSize: "0.95rem" }}>{rel.name}</span>
                       {rel.badge && (
                         <span style={{
@@ -462,7 +475,7 @@ export default function PanelPageTemplate({ panel }: Props) {
 
             <div style={{ textAlign: "center", marginTop: "2rem" }}>
               <Link
-                href="/#panels"
+                href={`/${locale}#panels`}
                 className="btn-secondary"
                 aria-label="View all 20+ IPTV reseller panels"
                 style={{
@@ -508,7 +521,7 @@ export default function PanelPageTemplate({ panel }: Props) {
           </h2>
           <p style={{ color: "var(--text-secondary)", maxWidth: 560, margin: "0 auto 2.5rem", lineHeight: 1.7 }}>
             Get your {panel.name} IPTV reseller panel login, buy credits instantly, and launch your IPTV reselling business today.
-            Free trial available. 24/7 WhatsApp support. Serving resellers in the UK, USA &amp; Pakistan.
+            Free trial available. 24/7 WhatsApp support. Serving resellers in the UK, USA &amp; EU.
           </p>
           <a
             href={WHATSAPP_URL}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Painel Reseller IPTV Portugal — Melhor Fornecedor de Painéis IPTV em Portugal",
+    "description": "Compre créditos de revendedor IPTV Portugal com o melhor fornecedor grossista. Inicie o seu negócio IPTV em marca branca com Xtream Codes, M3U & MAG, 99.9% de uptime e streaming 4K.",
+    "keywords": "painel reseller iptv portugal, melhor revendedor iptv portugal, comprar creditos iptv ao por maior portugal, negocio de revendedor iptv, iptv marca branca"
+  },
+  "common": {
+    "currency": "EUR",
+    "symbol": "€",
+    "whatsappUrl": "https://wa.me/1234567890?text=Ola%2C%20estou%20interessado%20em%20iniciar%20uma%20atividade%20de%20revendedor%20IPTV%20em%20Portugal",
+    "startReselling": "Começar a Vender",
+    "viewAll": "Ver os 22 Painéis IPTV em Portugal",
+    "whatsappSupport": "Suporte WhatsApp IPTV",
+    "secureOrder": "Encomendar por WhatsApp com Segurança (EUR)",
+    "years": "2026",
+    "regionName": "Portugal"
+  },
+  "nav": {
+    "home": "Início",
+    "panels": "Painéis IPTV",
+    "comparisons": "Comparativos",
+    "guides": "Guias Revendedor",
+    "about": "Sobre Nós",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "trustTag": "Confiado por revendedores de IPTV em Lisboa, Porto, Braga e em todo o Portugal",
+    "title": "Inicie o seu Negócio de Revendedor de IPTV de Alta Rentabilidade em Portugal",
+    "desc": "Compre créditos de revendedor de IPTV por atacado de alta qualidade. Obtenha acesso imediato a mais de 22 painéis de revendedores de IPTV em marca branca com listas M3U, APIs Xtream Codes, servidores 4K estáveis e suporte local.",
+    "ctaPanels": "Comparar Painéis IPTV",
+    "ctaStart": "Começar a Vender em Portugal"
+  },
+  "trust": {
+    "badge": "GROSSISTA 2026"
+  },
+  "pricing": {
+    "title": "Pacotes de Créditos IPTV por Atacado e Calculadora de Lucros",
+    "subtitle": "Selecione um pacote pré-definido ou calcule os seus ganhos dinâmicos em EUR abaixo com números escritos ou barras deslizantes interativas.",
+    "sliderCredits": "Créditos a comprar:",
+    "sliderPrice": "O seu preço de revenda mensal (€):",
+    "cost": "Custo do pacote (Para comprar):",
+    "revenue": "Valor de revenda (Para vender):",
+    "profit": "O seu lucro líquido em EUR:",
+    "perCredit": "por crédito",
+    "costLabel": "Custo por Crédito",
+    "earningsLabel": "Ganhos Potenciais em Portugal",
+    "grossLabel": "Receita bruta",
+    "netLabel": "Lucro líquido",
+    "plans": {
+      "starter": {
+        "name": "Pacote Starter",
+        "features": [
+          "Mínimo de 120 créditos para iniciar",
+          "Inclui criação básica de sub-revendedores",
+          "Suporte para Xtream Codes e M3U",
+          "Acesso 24/7 ao suporte ao cliente"
+        ]
+      },
+      "growth": {
+        "name": "Pacote Growth",
+        "features": [
+          "Pacote por atacado de 200 créditos",
+          "Configuração gratuita de enquadramento DNS personalizado",
+          "Acesso a modelos de vendas para principiantes",
+          "Suporte prioritário por grupo de WhatsApp"
+        ]
+      },
+      "enterprise": {
+        "name": "Pacote Enterprise",
+        "features": [
+          "Pacote premium de 500 créditos",
+          "Capacidade ilimitada de painéis de sub-revendedores",
+          "Configuração de marca branca 100% personalizada",
+          "Gestor de conta VIP dedicado 24/7"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "O líder mundial em painéis de revendedores de IPTV por atacado",
+    "desc1": "Fox IPTV Panels é a plataforma de marca branca líder para distribuição de créditos IPTV em Portugal, servindo mais de 5.000 parceiros ativos em Lisboa, Porto, Coimbra e mundialmente. Consolidamos 22 redes de streaming IPTV de primeira linha em um único painel unificado, permitindo-lhe iniciar e personalizar o seu próprio negócio com zero infraestruturas.",
+    "desc2": "As nossas redes na Europa Ocidental fornecem streaming de alta definição sem travamentos e otimizado para os principais fornecedores de telecomunicações locais (MEO, NOS, Vodafone PT), garantindo uma experiência premium para os utilizadores finais."
+  },
+  "faq": {
+    "title": "Perguntas frequentes sobre revenda grossista de IPTV",
+    "q1": "Os vossos painéis IPTV estão disponíveis em Portugal?",
+    "a1": "Sim, absolutamente. Apoiamos revendedores de IPTV em Portugal com servidores europeus rápidos, pagamentos em euros e canais otimizados para o público português.",
+    "q2": "Como funcionam os créditos de revendedor de IPTV em Portugal?",
+    "a2": "Os créditos funcionam como saldo no seu painel. 1 crédito fornece 1 mês de subscrição para 1 utilizador. Compra os créditos em euros e define os seus próprios preços de venda, mantendo 100% do lucro."
+  }
+}

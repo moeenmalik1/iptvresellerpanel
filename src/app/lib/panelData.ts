@@ -26,7 +26,7 @@ export const ALL_PANELS: PanelData[] = [
     slug: "b1g-iptv-reseller-panel",
     tagline: "B1G IPTV Reseller Panel — Stable 4K Streaming for Serious Resellers",
     description: "B1G IPTV is a premium reseller panel trusted by thousands of IPTV resellers worldwide. With 4K streaming, Xtream Codes support, and instant credit activation, B1G is one of the most reliable IPTV panels available through Fox IPTV Panels.",
-    longDescription: "B1G IPTV delivers consistent high-quality streaming with a clean, professional reseller dashboard. The credit-based system allows resellers to buy in bulk and maximize profit margins. Whether you're serving customers in the UK, USA, or Pakistan — B1G's geo-distributed servers ensure low latency and no-buffering playback on all devices.",
+    longDescription: "B1G IPTV delivers consistent high-quality streaming with a clean, professional reseller dashboard. The credit-based system allows resellers to buy in bulk and maximize profit margins. Whether you're serving customers in the UK, USA, or the EU — B1G's geo-distributed servers ensure low latency and no-buffering playback on all devices.",
     quality: "4K Ultra HD",
     qualityBadge: "4K Streaming",
     support: "24/7",
@@ -65,7 +65,7 @@ export const ALL_PANELS: PanelData[] = [
     slug: "strong-4k-iptv-reseller-panel",
     tagline: "Strong 4K IPTV Reseller Panel — #1 Premium 4K Panel for Top Resellers",
     description: "Strong 4K is the most popular premium IPTV reseller panel for serious resellers seeking top-tier 4K and 8K streaming quality. With an advanced reseller dashboard and exceptional uptime, Strong 4K is the top pick on Fox IPTV Panels.",
-    longDescription: "Strong 4K delivers unmatched streaming quality with dedicated 4K and 8K servers, zero-buffering technology, and a feature-rich reseller control panel. Manage thousands of customer subscriptions, allocate credits in bulk, create free trials, and monitor uptime in real time. The most trusted IPTV reseller panel for premium resellers in 2025.",
+    longDescription: "Strong 4K delivers unmatched streaming quality with dedicated 4K and 8K servers, zero-buffering technology, and a feature-rich reseller control panel. Manage thousands of customer subscriptions, allocate credits in bulk, create free trials, and monitor uptime in real time. The most trusted IPTV reseller panel for premium resellers in 2026.",
     quality: "4K / 8K Ultra HD",
     qualityBadge: "4K & 8K",
     support: "24/7",
@@ -92,7 +92,7 @@ export const ALL_PANELS: PanelData[] = [
       { label: "Server Uptime", value: "99.9%" },
     ],
     faqs: [
-      { q: "What makes Strong 4K the best IPTV reseller panel?", a: "Strong 4K combines 4K and 8K streaming quality with an advanced reseller dashboard, zero-buffering servers, and wholesale credit pricing — making it the top-rated IPTV reseller panel for high-volume businesses in 2025." },
+      { q: "What makes Strong 4K the best IPTV reseller panel?", a: "Strong 4K combines 4K and 8K streaming quality with an advanced reseller dashboard, zero-buffering servers, and wholesale credit pricing — making it the top-rated IPTV reseller panel for high-volume businesses in 2026." },
       { q: "How do I become a Strong 4K IPTV reseller?", a: "Contact Fox IPTV Panels on WhatsApp. We'll set up your Strong 4K reseller panel login, provide instant credit activation, and guide you through your first subscriptions." },
       { q: "Does Strong 4K support 8K streaming?", a: "Yes. Strong 4K supports both 4K Ultra HD and 8K streaming on compatible devices. It's one of the few IPTV reseller panels offering 8K content to end users." },
       { q: "What is the profit margin on the Strong 4K reseller panel?", a: "Strong 4K resellers typically earn 40–150%+ profit margins depending on their bulk credit pricing and customer subscription rates. The more credits you buy wholesale, the higher your margins." },
@@ -133,7 +133,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the Strong 8K IPTV reseller panel?", a: "Strong 8K is an ultra-premium IPTV reseller panel offering true 8K streaming quality through a white label reseller dashboard with Xtream Codes, M3U, and MAG box support." },
       { q: "Who should use the Strong 8K reseller panel?", a: "Strong 8K is best for IPTV resellers targeting premium customers who want the highest possible streaming quality — hotels, sports bars, or high-end residential customers." },
-      { q: "Is Strong 8K available in the UK and USA?", a: "Yes. Strong 8K IPTV reseller panel is available to resellers globally including the UK, USA, Pakistan, and beyond through Fox IPTV Panels." },
+      { q: "Is Strong 8K available in the UK and USA?", a: "Yes. Strong 8K IPTV reseller panel is available to resellers globally including the UK, USA, the EU, and beyond through Fox IPTV Panels." },
       { q: "How does Strong 8K compare to Strong 4K?", a: "Strong 8K offers higher streaming resolution (true 8K vs 4K) with dedicated premium server infrastructure. Both use the same reseller credit system but Strong 8K is positioned for elite, high-paying customer segments." },
     ],
     relatedSlugs: ["strong-4k-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel"],
@@ -515,7 +515,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "Who is Nexon IPTV reseller panel best for?", a: "Nexon is best for established IPTV businesses managing large subscriber volumes — its enterprise dashboard, advanced bulk tools, and superior uptime make it ideal for professional IPTV resellers." },
       { q: "Does Nexon have the best IPTV reseller dashboard features?", a: "Nexon is one of the most feature-complete reseller dashboards available, with automated credit management, detailed analytics, and comprehensive subscriber tracking at enterprise scale." },
-      { q: "Is Nexon available in the UK and USA?", a: "Yes. Nexon IPTV is available globally through Fox IPTV Panels including the UK, USA, Pakistan, and beyond with geo-optimized servers for each region." },
+      { q: "Is Nexon available in the UK and USA?", a: "Yes. Nexon IPTV is available globally through Fox IPTV Panels including the UK, USA, the EU, and beyond with geo-optimized servers for each region." },
     ],
     relatedSlugs: ["strong-4k-iptv-reseller-panel", "max-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel"],
   },
@@ -752,7 +752,7 @@ export const ALL_PANELS: PanelData[] = [
     slug: "geo-iptv-reseller-panel",
     tagline: "GEO IPTV Reseller Panel — Geo-Optimized Streaming for Global Resellers",
     description: "GEO IPTV is a geographically optimized IPTV reseller panel designed for resellers serving customers across different countries and regions. With geo-targeted servers and broad content coverage, GEO IPTV ensures quality streaming wherever your customers are.",
-    longDescription: "GEO IPTV uses geographically distributed server infrastructure to deliver optimized streaming to customers in different regions — UK, USA, Pakistan, Middle East, and beyond. For resellers with an international customer base, GEO IPTV's geo-aware architecture reduces latency and improves streaming quality regardless of customer location.",
+    longDescription: "GEO IPTV uses geographically distributed server infrastructure to deliver optimized streaming to customers in different regions — UK, USA, the EU, Middle East, and beyond. For resellers with an international customer base, GEO IPTV's geo-aware architecture reduces latency and improves streaming quality regardless of customer location.",
     quality: "4K Ultra HD",
     qualityBadge: "4K Streaming",
     support: "24/7",
@@ -780,7 +780,7 @@ export const ALL_PANELS: PanelData[] = [
     ],
     faqs: [
       { q: "What is the GEO IPTV reseller panel?", a: "GEO IPTV is a geographically optimized IPTV reseller panel using distributed server infrastructure to deliver stable, low-latency 4K streaming to customers in different countries and regions." },
-      { q: "Is GEO IPTV good for resellers in the UK and Pakistan?", a: "Yes. GEO IPTV has servers optimized for multiple regions including the UK, USA, Pakistan, and the Middle East — making it ideal for resellers with international customer bases." },
+      { q: "Is GEO IPTV good for resellers in the UK and the EU?", a: "Yes. GEO IPTV has servers optimized for multiple regions including the UK, USA, the EU, and the Middle East — making it ideal for resellers with international customer bases." },
       { q: "How do I get GEO IPTV reseller credits?", a: "Contact Fox IPTV Panels on WhatsApp for instant GEO IPTV credit activation. We'll set up your reseller panel and guide you through your first international customer subscriptions." },
     ],
     relatedSlugs: ["starshare-iptv-reseller-panel", "opplex-iptv-reseller-panel", "gtv-iptv-reseller-panel", "5g-live-iptv-reseller-panel"],
@@ -819,7 +819,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the 5G Live IPTV reseller panel?", a: "5G Live is a next-generation IPTV reseller panel with ultra-low-latency servers optimized for high-speed networks, delivering seamless 4K streaming with a modern reseller management dashboard." },
       { q: "Does 5G Live require customers to have 5G internet?", a: "No. 5G Live works on all broadband connections. The '5G' refers to its high-speed server infrastructure — customers with any fast broadband connection will benefit from the low-latency streaming." },
-      { q: "Is 5G Live available as an IPTV reseller panel in the UK and USA?", a: "Yes. 5G Live IPTV is available to resellers globally through Fox IPTV Panels including the UK, USA, and Pakistan with geo-optimized server delivery." },
+      { q: "Is 5G Live available as an IPTV reseller panel in the UK and USA?", a: "Yes. 5G Live IPTV is available to resellers globally through Fox IPTV Panels including the UK, USA, and the EU with geo-optimized server delivery." },
     ],
     relatedSlugs: ["geo-iptv-reseller-panel", "tiger-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel", "zen-4k-iptv-reseller-panel"],
   },
@@ -868,6 +868,264 @@ export function getPanelBySlug(slug: string): PanelData | undefined {
   return ALL_PANELS.find(p => p.slug === slug);
 }
 
-export function getRelatedPanels(slugs: string[]): PanelData[] {
-  return slugs.map(s => ALL_PANELS.find(p => p.slug === s)).filter(Boolean) as PanelData[];
+export function getRelatedPanels(slugs: string[], locale?: string): PanelData[] {
+  const list = slugs.map(s => ALL_PANELS.find(p => p.slug === s)).filter(Boolean) as PanelData[];
+  if (locale) {
+    return list.map(p => localizePanelData(p, locale));
+  }
+  return list;
+}
+
+// Highly efficient dynamic panel data localization mapper
+export function getLocalizedPanel(slug: string, locale: string): PanelData | undefined {
+  const panel = getPanelBySlug(slug);
+  if (!panel) return undefined;
+  return localizePanelData(panel, locale);
+}
+
+function localizePanelData(panel: PanelData, locale: string): PanelData {
+  if (locale === "en") return panel;
+
+  // Clone to avoid in-memory mutations of original catalog data
+  const localized = { ...panel };
+
+  // Locale-specific country and ISP names mapping
+  const geoTerms: Record<string, { country: string; geoSpan: string; providers: string }> = {
+    "en-gb": { country: "United Kingdom", geoSpan: "the UK and globally", providers: "BT, Virgin Media, and Sky" },
+    "en-au": { country: "Australia", geoSpan: "Australia and globally", providers: "Telstra, Optus, and TPG" },
+    "es": { country: "España", geoSpan: "España y en todo el mundo", providers: "Movistar, Vodafone España, Orange y Yoigo" },
+    "fr": { country: "France", geoSpan: "la France et dans le monde", providers: "Orange, SFR, Free et Bouygues Telecom" },
+    "pt": { country: "Portugal", geoSpan: "Portugal e em todo o mundo", providers: "MEO, NOS e Vodafone Portugal" },
+    "sv": { country: "Sverige", geoSpan: "Sverige och hela världen", providers: "Telia, Tele2, Telenor och Tre" },
+    "no": { country: "Norge", geoSpan: "Norge og resten av verden", providers: "Telenor, Telia, Altibox og Ice" }
+  };
+
+  const terms = geoTerms[locale] || { country: "United States", geoSpan: "worldwide", providers: "local broadband carriers" };
+
+  // Apply general string translations
+  const translateString = (str: string): string => {
+    let result = str;
+
+    // Apply country replacements
+    result = result.replace(/worldwide/g, terms.geoSpan);
+    result = result.replace(/UK, USA, or the EU/g, terms.country + ", UK, USA, and the EU");
+    result = result.replace(/UK, USA, and the EU/g, terms.country + ", UK, USA, and the EU");
+    result = result.replace(/local broadband carriers/g, terms.providers);
+
+    // Dynamic localized adjustments for non-English languages
+    if (locale === "es") {
+      result = result.replace(/IPTV Reseller Panel/g, "Panel Reseller IPTV");
+      result = result.replace(/trusted by thousands of IPTV resellers/g, "confiado por miles de revendedores de IPTV");
+      result = result.replace(/Stable 4K Streaming for Serious Resellers/g, "Transmisión 4K estable para revendedores serios");
+      result = result.replace(/reseller credits/g, "créditos de revendedor");
+    } else if (locale === "fr") {
+      result = result.replace(/IPTV Reseller Panel/g, "Panel Revendeur IPTV");
+      result = result.replace(/trusted by thousands of IPTV resellers/g, "approuvé par des milliers de revendeurs IPTV");
+      result = result.replace(/Stable 4K Streaming for Serious Resellers/g, "Streaming 4K stable pour revendeurs sérieux");
+      result = result.replace(/reseller credits/g, "crédits revendeur");
+    } else if (locale === "pt") {
+      result = result.replace(/IPTV Reseller Panel/g, "Painel Reseller IPTV");
+      result = result.replace(/trusted by thousands of IPTV resellers/g, "confiado por milhares de revendedores de IPTV");
+      result = result.replace(/Stable 4K Streaming for Serious Resellers/g, "Streaming 4K estável para revendedores sérios");
+      result = result.replace(/reseller credits/g, "créditos de revendedor");
+    } else if (locale === "sv") {
+      result = result.replace(/IPTV Reseller Panel/g, "IPTV Reseller Panel");
+      result = result.replace(/trusted by thousands of IPTV resellers/g, "betrodd av tusentals IPTV-återförsäljare");
+      result = result.replace(/Stable 4K Streaming for Serious Resellers/g, "Stabil 4K-strömning för seriösa återförsäljare");
+      result = result.replace(/reseller credits/g, "återförsäljar-krediter");
+    } else if (locale === "no") {
+      result = result.replace(/IPTV Reseller Panel/g, "IPTV Forhandler Panel");
+      result = result.replace(/trusted by thousands of IPTV resellers/g, "betrodd av tusenvis av IPTV-forhandlere");
+      result = result.replace(/Stable 4K Streaming for Serious Resellers/g, "Stabil 4K-strømming for seriøse forhandlere");
+      result = result.replace(/reseller credits/g, "forhandlerkreditter");
+    }
+
+    return result;
+  };
+
+  // Localize standard features
+  const featureTranslations: Record<string, Record<string, string>> = {
+    "es": {
+      "Xtream Codes & M3U reseller panel support": "Soporte para Xtream Codes y lista M3U",
+      "4K Ultra HD no-buffering streaming": "Transmisión 4K Ultra HD sin cortes ni almacenamiento",
+      "Instant IPTV credit activation": "Activación instantánea de créditos IPTV",
+      "MAG box & Smart TV compatibility": "Compatibilidad con Smart TV y cajas MAG",
+      "Real-time subscription management dashboard": "Panel de gestión de suscripciones en tiempo real",
+      "Bulk credit packages for wholesale resellers": "Paquetes de créditos al por mayor para distribuidores",
+      "Multi-device simultaneous streaming": "Transmisión simultánea en múltiples dispositivos",
+      "24/7 WhatsApp reseller support": "Soporte para distribuidores por WhatsApp 24/7",
+      "4K & 8K Ultra HD zero-buffering streaming": "Transmisión 4K y 8K Ultra HD sin interrupciones",
+      "Advanced white label reseller dashboard": "Panel avanzado de marca blanca para revendedores",
+      "Bulk IPTV credit packages — wholesale pricing": "Paquetes de créditos IPTV al por mayor",
+      "Real-time user & subscription tracking": "Seguimiento en tiempo real de usuarios y suscripciones",
+      "Free trial generation for customers": "Generación de pruebas gratuitas para clientes",
+      "Dedicated 24/7 WhatsApp reseller support": "Soporte prioritario por WhatsApp 24/7",
+      "99.9% server uptime reliability": "Tiempo de actividad garantizado del servidor del 99.9%"
+    },
+    "fr": {
+      "Xtream Codes & M3U reseller panel support": "Support Xtream Codes et listes M3U",
+      "4K Ultra HD no-buffering streaming": "Streaming 4K Ultra HD sans coupure ni mise en mémoire",
+      "Instant IPTV credit activation": "Activation instantanée des crédits IPTV",
+      "MAG box & Smart TV compatibility": "Compatibilité Smart TV et boîtiers MAG",
+      "Real-time subscription management dashboard": "Tableau de bord de gestion des abonnements en temps réel",
+      "Bulk credit packages for wholesale resellers": "Packs de crédits en gros pour revendeurs",
+      "Multi-device simultaneous streaming": "Streaming simultané sur plusieurs appareils",
+      "24/7 WhatsApp reseller support": "Support revendeur WhatsApp 24/7",
+      "4K & 8K Ultra HD zero-buffering streaming": "Streaming 4K et 8K Ultra HD sans tampon",
+      "Advanced white label reseller dashboard": "Tableau de bord revendeur avancé en marque blanche",
+      "Bulk IPTV credit packages — wholesale pricing": "Packs de crédits IPTV en gros — prix de gros",
+      "Real-time user & subscription tracking": "Suivi des utilisateurs et abonnements en temps réel",
+      "Free trial generation for customers": "Génération de tests gratuits pour vos clients",
+      "Dedicated 24/7 WhatsApp reseller support": "Support revendeur WhatsApp dédié 24/7",
+      "99.9% server uptime reliability": "Disponibilité garantie du serveur à 99.9%"
+    },
+    "pt": {
+      "Xtream Codes & M3U reseller panel support": "Suporte para painel Xtream Codes e listas M3U",
+      "4K Ultra HD no-buffering streaming": "Streaming 4K Ultra HD sem travamento",
+      "Instant IPTV credit activation": "Ativação instantânea de créditos IPTV",
+      "MAG box & Smart TV compatibility": "Compatibilidade com caixas MAG e Smart TVs",
+      "Real-time subscription management dashboard": "Painel de gestão de subscrições em tempo real",
+      "Bulk credit packages for wholesale resellers": "Pacotes de créditos para revendedores grossistas",
+      "Multi-device simultaneous streaming": "Streaming simultâneo em múltiplos dispositivos",
+      "24/7 WhatsApp reseller support": "Suporte ao revendedor via WhatsApp 24/7",
+      "4K & 8K Ultra HD zero-buffering streaming": "Streaming 4K e 8K Ultra HD sem buffering",
+      "Advanced white label reseller dashboard": "Painel de revendedor em marca branca avançado",
+      "Bulk IPTV credit packages — wholesale pricing": "Pacotes de créditos IPTV por atacado",
+      "Real-time user & subscription tracking": "Rastreamento de utilizadores e subscrições em tempo real",
+      "Free trial generation for customers": "Geração de testes gratuitos para clientes",
+      "Dedicated 24/7 WhatsApp reseller support": "Suporte prioritário via WhatsApp 24/7",
+      "99.9% server uptime reliability": "Estabilidade garantida de servidor a 99.9%"
+    },
+    "sv": {
+      "Xtream Codes & M3U reseller panel support": "Stöd för Xtream Codes & M3U-spellistor",
+      "4K Ultra HD no-buffering streaming": "4K Ultra HD-strömning utan buffring",
+      "Instant IPTV credit activation": "Omedelbar aktivering av IPTV-krediter",
+      "MAG box & Smart TV compatibility": "Kompatibel med MAG-boxar & Smart TV",
+      "Real-time subscription management dashboard": "Kontrollpanel för abonnemangshantering i realtid",
+      "Bulk credit packages for wholesale resellers": "Grossistpaket för återförsäljare",
+      "Multi-device simultaneous streaming": "Strömma på flera enheter samtidigt",
+      "24/7 WhatsApp reseller support": "24/7 WhatsApp-support för återförsäljare",
+      "4K & 8K Ultra HD zero-buffering streaming": "4K & 8K Ultra HD-strömning utan buffring",
+      "Advanced white label reseller dashboard": "Avancerad white label-kontrollpanel",
+      "Bulk IPTV credit packages — wholesale pricing": "Grossistpaket med IPTV-krediter",
+      "Real-time user & subscription tracking": "Spårning av användare & abonnemang i realtid",
+      "Free trial generation for customers": "Generera gratis provkonton till kunder",
+      "Dedicated 24/7 WhatsApp reseller support": "Dedikerad 24/7 WhatsApp-support",
+      "99.9% server uptime reliability": "99.9% garanterad drifttid på servrar"
+    },
+    "no": {
+      "Xtream Codes & M3U reseller panel support": "Støtte for Xtream Codes & M3U-spillelister",
+      "4K Ultra HD no-buffering streaming": "4K Ultra HD-strømming uten bufring",
+      "Instant IPTV credit activation": "Øyeblikkelig aktivering av IPTV-kreditter",
+      "MAG box & Smart TV compatibility": "Kompatibel med MAG-bokser & Smart TV",
+      "Real-time subscription management dashboard": "Kontrollpanel for abonnementstyring i sanntid",
+      "Bulk credit packages for wholesale resellers": "Engrospakker for forhandlere",
+      "Multi-device simultaneous streaming": "Strømme på flere enheter samtidig",
+      "24/7 WhatsApp reseller support": "24/7 WhatsApp-støtte for forhandlere",
+      "4K & 8K Ultra HD zero-buffering streaming": "4K & 8K Ultra HD-strømming uten bufring",
+      "Advanced white label reseller dashboard": "Avansert white label-kontrollpanel",
+      "Bulk IPTV credit packages — wholesale pricing": "Engrospakker med IPTV-kreditter",
+      "Real-time user & subscription tracking": "Sporing av brukere & abonnement i sanntid",
+      "Free trial generation for customers": "Generer gratis prøvekontoer til kunder",
+      "Dedicated 24/7 WhatsApp reseller support": "Dedikert 24/7 WhatsApp-støtte",
+      "99.9% server uptime reliability": "99.9% garantert oppetid på servere"
+    }
+  };
+
+  // Localize standard specs
+  const specTranslations: Record<string, Record<string, string>> = {
+    "es": {
+      "Streaming Quality": "Calidad de transmisión",
+      "Connection Types": "Tipos de conexión",
+      "Dashboard Type": "Tipo de panel",
+      "Support": "Soporte",
+      "Credit Activation": "Activación de créditos",
+      "Server Uptime": "Tiempo de actividad",
+      "4K Ultra HD": "4K Ultra HD de alta calidad",
+      "4K & 8K Ultra HD": "4K y 8K Ultra HD premium",
+      "Instant": "Instantánea",
+      "24/7 WhatsApp": "WhatsApp 24/7 local",
+      "24/7 Priority WhatsApp": "WhatsApp prioritario 24/7"
+    },
+    "fr": {
+      "Streaming Quality": "Qualité de streaming",
+      "Connection Types": "Types de connexion",
+      "Dashboard Type": "Type de panneau",
+      "Support": "Support technique",
+      "Credit Activation": "Activation des crédits",
+      "Server Uptime": "Uptime du serveur",
+      "4K Ultra HD": "4K Ultra HD premium",
+      "4K & 8K Ultra HD": "4K & 8K Ultra HD supérieur",
+      "Instant": "Instantanée",
+      "24/7 WhatsApp": "WhatsApp 24/7 localisé",
+      "24/7 Priority WhatsApp": "WhatsApp VIP 24/7"
+    },
+    "pt": {
+      "Streaming Quality": "Qualidade de streaming",
+      "Connection Types": "Tipos de ligação",
+      "Dashboard Type": "Tipo de painel",
+      "Support": "Suporte",
+      "Credit Activation": "Ativação de créditos",
+      "Server Uptime": "Disponibilidade de servidor",
+      "4K Ultra HD": "4K Ultra HD",
+      "4K & 8K Ultra HD": "4K & 8K Ultra HD",
+      "Instant": "Instantânea",
+      "24/7 WhatsApp": "WhatsApp 24/7 local",
+      "24/7 Priority WhatsApp": "WhatsApp prioritário 24/7"
+    },
+    "sv": {
+      "Streaming Quality": "Strömningskvalitet",
+      "Connection Types": "Anslutningstyper",
+      "Dashboard Type": "Kontrollpaneltyp",
+      "Support": "Support",
+      "Credit Activation": "Kreditaktivering",
+      "Server Uptime": "Drifttid",
+      "Instant": "Omedelbar",
+      "24/7 WhatsApp": "24/7 WhatsApp-support",
+      "24/7 Priority WhatsApp": "24/7 Prioriterad WhatsApp"
+    },
+    "no": {
+      "Streaming Quality": "Strømmingskvalitet",
+      "Connection Types": "Tilkoblingstyper",
+      "Dashboard Type": "Kontrollpaneltype",
+      "Support": "Støtte",
+      "Credit Activation": "Kredittaktivering",
+      "Server Uptime": "Oppetid",
+      "Instant": "Øyeblikkelig",
+      "24/7 WhatsApp": "24/7 WhatsApp-støtte",
+      "24/7 Priority WhatsApp": "24/7 Prioritert WhatsApp"
+    }
+  };
+
+  const translateFeature = (feat: string): string => {
+    return featureTranslations[locale]?.[feat] || translateString(feat);
+  };
+
+  const translateSpecLabel = (lbl: string): string => {
+    return specTranslations[locale]?.[lbl] || translateString(lbl);
+  };
+
+  const translateSpecValue = (val: string): string => {
+    return specTranslations[locale]?.[val] || translateString(val);
+  };
+
+  localized.tagline = translateString(panel.tagline);
+  localized.description = translateString(panel.description);
+  localized.longDescription = translateString(panel.longDescription);
+  localized.qualityBadge = translateSpecValue(panel.qualityBadge);
+  localized.bestFor = translateString(panel.bestFor);
+
+  localized.features = panel.features.map(translateFeature);
+  localized.specs = panel.specs.map(s => ({
+    label: translateSpecLabel(s.label),
+    value: translateSpecValue(s.value)
+  }));
+
+  // Localize FAQs questions and answers
+  localized.faqs = panel.faqs.map(f => ({
+    q: translateString(f.q),
+    a: translateString(f.a)
+  }));
+
+  return localized;
 }

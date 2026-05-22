@@ -16,8 +16,8 @@ const faqs = [
     a: "An IPTV subscription is for end-users who consume content. An IPTV reseller has access to a reseller panel that lets them create subscriptions for multiple customers. The reseller buys credits at wholesale pricing and sells subscriptions at retail pricing — keeping the profit margin. As a reseller you are the provider, not just a consumer.",
   },
   {
-    q: "Which IPTV panel is best for resellers in 2025?",
-    a: "The best IPTV reseller panel for 2025 depends on your needs: Strong 4K is best for premium streaming quality; Lion OTT is best for beginners; Crystal and Nexon are best for growing businesses; Mega OTT is best for bulk/wholesale resellers. Fox IPTV Panels lets you access and compare all top IPTV panels with reseller dashboards.",
+    q: "Which IPTV panel is best for resellers in 2026?",
+    a: "The best IPTV reseller panel for 2026 depends on your needs: Strong 4K is best for premium streaming quality; Lion OTT is best for beginners; Crystal and Nexon are best for growing businesses; Mega OTT is best for bulk/wholesale resellers. Fox IPTV Panels lets you access and compare all top IPTV panels with reseller dashboards.",
   },
   {
     q: "Do you offer a 4K IPTV reseller panel with no buffering?",
@@ -28,8 +28,8 @@ const faqs = [
     a: "Yes. Fox IPTV Panels offers IPTV reseller panel free trials so you can test the dashboard, streaming quality, server stability, and uptime before committing to a full credit purchase. Contact us on WhatsApp to request your free reseller trial today.",
   },
   {
-    q: "Are your IPTV reseller panels available in the UK, USA, and Pakistan?",
-    a: "Yes. Fox IPTV Panels supports IPTV resellers worldwide — including the UK, USA, Pakistan, UAE, Spain, and beyond. Our IPTV servers are geo-distributed for low latency and stable 4K streaming regardless of where your customers are located.",
+    q: "Are your IPTV reseller panels available in the UK, USA, and the EU?",
+    a: "Yes. Fox IPTV Panels supports IPTV resellers worldwide — including the UK, USA, the EU, UAE, Spain, and beyond. Our IPTV servers are geo-distributed for low latency and stable 4K streaming regardless of where your customers are located.",
   },
   {
     q: "What is the cheapest IPTV reseller panel available?",

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "IPTV Reseller Panel — Best IPTV Reseller Panel Provider | Fox IPTV Panels",
+    "description": "Buy IPTV reseller credits from the best wholesale IPTV panel provider. Start your white label IPTV reselling business with Xtream Codes, M3U & MAG box support, 99.9% uptime & 4K streaming. Free trial available.",
+    "keywords": "iptv reseller panel, best iptv reseller, buy iptv reseller credits, iptv reseller business, iptv panel, became reseller, xtream codes, m3u reseller, white label, cheap credits"
+  },
+  "common": {
+    "currency": "USD",
+    "symbol": "$",
+    "whatsappUrl": "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business%20in%20USA",
+    "startReselling": "Start Reselling",
+    "viewAll": "View All 22 IPTV Panels",
+    "whatsappSupport": "WhatsApp IPTV Support",
+    "secureOrder": "Order via WhatsApp Securely",
+    "years": "2026",
+    "regionName": "United States"
+  },
+  "nav": {
+    "home": "Home",
+    "panels": "Reseller Panels",
+    "comparisons": "Comparisons",
+    "guides": "Guides",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "trustTag": "Trusted by IPTV resellers in the UK, USA & the EU",
+    "title": "Start Your High-Margin IPTV Reseller Business in 2026",
+    "desc": "Buy premium wholesale IPTV reseller credits. Gain instant login access to 22+ premium white-label IPTV reseller panels with M3U playlists, Xtream Codes APIs, 4K zero-buffering servers, and 24/7 dedicated support.",
+    "ctaPanels": "Compare IPTV Panels",
+    "ctaStart": "Start Selling Now"
+  },
+  "trust": {
+    "badge": "2026 WHOLESALE"
+  },
+  "pricing": {
+    "title": "Wholesale IPTV Credit Packages & Profit Calculator",
+    "subtitle": "Select a pre-designed bundle or calculate your dynamic earnings below with typed numbers or interactive range sliders.",
+    "sliderCredits": "Credits to Purchase:",
+    "sliderPrice": "Your Monthly Resell Price:",
+    "cost": "Package Cost (To Buy):",
+    "revenue": "Retail Value (To Sell):",
+    "profit": "Your Net Profit:",
+    "perCredit": "per credit",
+    "costLabel": "Cost per Credit",
+    "earningsLabel": "Potential Earnings",
+    "grossLabel": "Gross Revenue",
+    "netLabel": "Net Profit",
+    "plans": {
+      "starter": {
+        "name": "Starter Pack",
+        "features": [
+          "120 credits minimum setup",
+          "Includes basic sub-reseller creation",
+          "Xtream Codes & M3U support",
+          "24/7 client ticket desk access"
+        ]
+      },
+      "growth": {
+        "name": "Growth Pack",
+        "features": [
+          "200 credits wholesale bundle",
+          "Free custom DNS portal routing setup",
+          "Access to beginner sales templates",
+          "Priority WhatsApp group support"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise Wholesale",
+        "features": [
+          "500 credits premium bundle",
+          "Unlimited sub-reseller dashboard capability",
+          "Fully customized white-label setup",
+          "24/7 direct VIP account manager"
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "The Global Leader in Wholesale IPTV Reseller Panels",
+    "desc1": "Fox IPTV Panels is the leading white-label platform for IPTV credit distribution, serving over 5,000 active business partners across the UK, USA, the EU, and globally. We consolidate 22 top-tier IPTV streaming networks under a single unified dashboard system, allowing you to launch and brand your own subscription business with zero background infrastructure.",
+    "desc2": "Our geo-routed networks in North America and Western Europe deliver lag-free, high-definition streaming optimized for local broadband carriers, guaranteeing a premium viewing experience for your end users."
+  },
+  "faq": {
+    "title": "Wholesale IPTV Reseller Frequently Asked Questions",
+    "q1": "Are your IPTV reseller panels available globally?",
+    "a1": "Yes. Fox IPTV Panels serves IPTV resellers worldwide, with localized support and optimized servers for the USA, United Kingdom, European Union, Australia, and beyond.",
+    "q2": "How do IPTV reseller credits work?",
+    "a2": "Reseller credits act as currency in your dashboard. 1 credit provides 1 month of subscription for 1 user. You purchase credits wholesale and set your own retail prices, keeping 100% of the markup profit."
+  }
+}

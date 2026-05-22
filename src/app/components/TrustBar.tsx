@@ -3,7 +3,7 @@ const stats = [
   { icon: "🕐", label: "WhatsApp Support", value: "24/7" },
   { icon: "🎬", label: "4K & 8K Streaming", value: "No Buffer" },
   { icon: "⚡", label: "Credit Delivery", value: "Instant" },
-  { icon: "🌍", label: "UK, USA & Pakistan", value: "Global" },
+  { icon: "🌍", label: "UK, USA & EU", value: "Global" },
   { icon: "🏗️", label: "Server Uptime", value: "99.9%" },
 ];
 
