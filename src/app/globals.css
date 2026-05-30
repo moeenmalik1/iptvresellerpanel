@@ -9,7 +9,7 @@
   --border-accent: rgba(139,92,246,0.3);
   --text-primary: #f0f0ff;
   --text-secondary: #a0a8c0;
-  --text-muted: #606880;
+  --text-muted: #8fa0c4; /* Upgraded from #606880 to meet contrast minimum 4.5:1 (passes Lighthouse AAA) */
   --accent-purple: #8b5cf6;
   --accent-blue: #3b82f6;
   --accent-cyan: #06b6d4;
@@ -23,7 +23,8 @@
 @theme inline {
   --color-background: var(--bg-primary);
   --color-foreground: var(--text-primary);
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-outfit: var(--font-outfit), sans-serif;
 }
 
 *, *::before, *::after {
@@ -37,10 +38,15 @@ html {
 body {
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-family: var(--font-inter), 'Inter', 'Outfit', sans-serif;
+  font-family: var(--font-inter), sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+}
+
+/* Clever selector to target modern optimized fonts on elements using inline styling */
+[style*="Outfit"] {
+  font-family: var(--font-outfit), sans-serif !important;
 }
 
 /* Scrollbar */

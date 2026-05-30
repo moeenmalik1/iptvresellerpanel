@@ -2,7 +2,23 @@ import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { Inter, Outfit } from "next/font/google";
 import SEOAlternates from "@/app/components/SEOAlternates";
+
+// Optimize fonts to avoid render-blocking requests
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-outfit",
+  display: "swap",
+});
 
 // Static routes pre-generation for all 8 supported locales
 export function generateStaticParams() {
@@ -43,23 +59,15 @@ export default async function LocaleLayout({
     <html lang={locale} className="h-full">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, nofollow" />
         <meta name="theme-color" content="#090d16" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="alternate icon" href="/favicon.ico" />
         
         {/* Dynamic Multi-locale Hreflang alternate tag list injected per page */}
         <SEOAlternates locale={locale} />
-
-        {/* Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
       </head>
-      <body className="min-h-full flex flex-col antialiased">
+      <body className={`${inter.variable} ${outfit.variable} min-h-full flex flex-col antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>

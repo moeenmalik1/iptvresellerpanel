@@ -24,5 +24,12 @@
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "browserslist": [
+    "Chrome >= 94",
+    "Firefox >= 94",
+    "Safari >= 15.4",
+    "Edge >= 94",
+    "not dead"
+  ]
 }
