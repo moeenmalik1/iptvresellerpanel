@@ -1,10 +1,5 @@
-import { headers } from "next/headers";
-
-export default async function SEOAlternates({ locale }: { locale: string }) {
-  const headersList = await headers();
-  const host = headersList.get("host") || "foxiptvpanels.com";
-  const protocol = host.includes("localhost") ? "http" : "https";
-  const domain = `${protocol}://${host}`;
+export default function SEOAlternates({ locale }: { locale: string }) {
+  const domain = "https://foxiptvpanels.com";
   const locales = ["en", "en-gb", "en-au", "es", "fr", "sv", "pt", "no"];
 
   return (
