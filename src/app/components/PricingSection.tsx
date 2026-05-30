@@ -315,6 +315,7 @@ export default function PricingSection() {
                   step="10"
                   value={creditsNum}
                   onChange={(e) => setCredits(Number(e.target.value))}
+                  aria-label="IPTV reseller credits slider"
                   style={{
                     width: "100%",
                     height: "5px",
@@ -374,6 +375,7 @@ export default function PricingSection() {
                   step="1"
                   value={sellPriceNum}
                   onChange={(e) => setSellPrice(Number(e.target.value))}
+                  aria-label="Resell price per credit slider"
                   style={{
                     width: "100%",
                     height: "5px",

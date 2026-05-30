@@ -369,6 +369,7 @@ export default function Header() {
               onClick={() => setMenuOpen(!menuOpen)}
               className="show-mobile"
               style={{ background: "none", border: "none", cursor: "pointer", padding: 4 }}
+              aria-label={menuOpen ? "Close menu" : "Open menu"}
             >
               <div style={{ width: 22, height: 2, background: "var(--text-primary)", marginBottom: 5, transition: "all 0.3s", transform: menuOpen ? "rotate(45deg) translate(5px,5px)" : "none" }} />
               <div style={{ width: 22, height: 2, background: "var(--text-primary)", marginBottom: 5, opacity: menuOpen ? 0 : 1, transition: "all 0.3s" }} />

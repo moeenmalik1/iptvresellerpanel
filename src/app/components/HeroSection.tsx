@@ -29,14 +29,13 @@ export default function HeroSection() {
       <div className="section-container" style={{ position: "relative", zIndex: 1, width: "100%", padding: "4rem 1.5rem" }}>
         <div style={{ maxWidth: 800 }}>
 
-          <div className="tag fade-in-up" style={{ marginBottom: "1.5rem", animationDelay: "0.1s" }}>
+          <div className="tag" style={{ marginBottom: "1.5rem" }}>
             <span>🦊</span>
             {t("tag")}
           </div>
 
           {/* H1 — Primary keyword first, NLP enriched */}
           <h1
-            className="fade-in-up"
             style={{
               fontFamily: "'Outfit', sans-serif",
               fontWeight: 900,
@@ -45,7 +44,6 @@ export default function HeroSection() {
               letterSpacing: "-0.03em",
               color: "var(--text-primary)",
               marginBottom: "1.5rem",
-              animationDelay: "0.2s",
             }}
           >
             {t("title1")}{" "}
@@ -54,34 +52,30 @@ export default function HeroSection() {
 
           {/* Body — LSI + NLP + long-tail keywords naturally embedded */}
           <p
-            className="fade-in-up"
             style={{
               fontSize: "1.15rem",
               color: "var(--text-secondary)",
               lineHeight: 1.75,
               marginBottom: "0.875rem",
               maxWidth: 660,
-              animationDelay: "0.3s",
             }}
           >
             {t("desc")}
           </p>
           <p
-            className="fade-in-up"
             style={{
               fontSize: "0.975rem",
               color: "var(--text-muted)",
               lineHeight: 1.7,
               marginBottom: "2.5rem",
               maxWidth: 600,
-              animationDelay: "0.35s",
             }}
           >
             {t("trustTag")}
           </p>
 
           {/* CTAs */}
-          <div className="fade-in-up" style={{ display: "flex", flexWrap: "wrap", gap: "1rem", marginBottom: "3.5rem", animationDelay: "0.4s" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", marginBottom: "3.5rem" }}>
             <a
               href={WHATSAPP_URL}
               target="_blank"
