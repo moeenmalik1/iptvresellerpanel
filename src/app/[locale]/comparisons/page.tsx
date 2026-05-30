@@ -3,7 +3,7 @@ import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import ComparisonsClient from "./ComparisonsClient";
 import { ALL_PANELS } from "@/app/lib/panelData";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export function generateStaticParams() {
   return [
@@ -24,18 +24,59 @@ export default async function ComparisonsPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
+
   const t = await getTranslations({ locale, namespace: "meta" });
   const c = await getTranslations({ locale, namespace: "common" });
 
   const regionName = c("regionName");
 
-  const titleText = locale === "es"
-    ? `Comparar los Mejores Paneles de Revendedor IPTV 2026 en ${regionName} | Fox IPTV Panels`
-    : `Compare the Best IPTV Reseller Panels 2026 in ${regionName} | Fox IPTV Panels`;
+  const getHighCtrComparisonsMetadata = () => {
+    switch (locale) {
+      case "en-gb":
+        return {
+          titleText: "Compare UK IPTV Reseller Panels: BT & Virgin Media Tested | Fox IPTV Panels",
+          descText: "Frustrated with UK ISP blocks? Compare the best 22 white-label IPTV panels in the UK. Uptime reviews, credit pricing, and buffer-free performance analysis.",
+        };
+      case "en-au":
+        return {
+          titleText: "Compare AU IPTV Reseller Panels: NBN Speed & Peering Results | Fox IPTV Panels",
+          descText: "Buffer-free Australia IPTV? Compare 22 wholesale reseller dashboards side-by-side. See credit prices, NBN latency reviews, and instant activations.",
+        };
+      case "es":
+        return {
+          titleText: "Comparativa de los 22 Mejores Paneles IPTV: Sin Cortes y Mayor Margen | Fox IPTV Panels",
+          descText: "¿Harto de paneles lentos y cortes? Compare los 22 principales paneles de marca blanca en España lado a lado. Filtre por estabilidad, soporte y costo.",
+        };
+      case "fr":
+        return {
+          titleText: "Comparatif 22 Meilleurs Panneaux Revendeur IPTV : Finis les Blocages | Fox IPTV Panels",
+          descText: "Assez des serveurs instables ? Comparez les 22 meilleurs panneaux IPTV en marque blanche côte à côte. Prix des crédits, stabilité et essais gratuits.",
+        };
+      case "pt":
+        return {
+          titleText: "Comparar 22 Painéis de Revendedor IPTV: Sem Travamento e Mais Lucro | Fox IPTV Panels",
+          descText: "Cansado de perder clientes? Compare os 22 melhores painéis IPTV em Portugal lado a lado. Preço dos créditos, tempo de ativação, estabilidade e suporte.",
+        };
+      case "sv":
+        return {
+          titleText: "Jämför 22 IPTV Återförsäljarpaneler: Ingen Buffring & Bäst Pris | Fox IPTV Panels",
+          descText: "Trött på missnöjda kunder? Jämför de 22 bästa IPTV-återförsäljarpanelerna på den svenska marknaden. Pris per kredit, drifttid och testkonton.",
+        };
+      case "no":
+        return {
+          titleText: "Sammenlign 22 IPTV Forhandlerpaneler: Stabil Strømming Uten Bufring | Fox IPTV Panels",
+          descText: "Søk etter stabilt forhandlerpanel? Sammenlign de 22 beste IPTV-forhandlerpanelene i Norge. Se kredittpriser, driftstidsgarantier og supportvurdering.",
+        };
+      default:
+        return {
+          titleText: "Compare 22 Best IPTV Reseller Panels 2026: Stop Buffering | Fox IPTV Panels",
+          descText: "Tired of laggy panels & angry clients? Compare the top 22 premium white-label IPTV dashboards side-by-side. Filter by 4K stability, uptime SLA & credits costs.",
+        };
+    }
+  };
 
-  const descText = locale === "es"
-    ? `Compare los 22 principales paneles de control IPTV de marca blanca en ${regionName} lado a lado. Filtre por calidad 4K/8K, soporte, conexiones y estabilidad.`
-    : `Compare the top 22 premium white-label IPTV reseller panels side-by-side in ${regionName}. Filter by 4K/8K quality, device connections, uptime and dashboard features.`;
+  const { titleText, descText } = getHighCtrComparisonsMetadata();
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",

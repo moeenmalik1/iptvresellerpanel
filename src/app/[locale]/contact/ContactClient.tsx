@@ -19,9 +19,19 @@ export default function ContactClient() {
   const WHATSAPP_NUMBER = "1234567890"; // WhatsApp Administrator Contact
 
   const whatsappLink = useMemo(() => {
-    const text = locale === "es"
-      ? `¡Hola Fox IPTV Panels! Me gustaría ordenar una configuración de panel para *${selectedPanel}* con *${selectedCredits}*. Por favor, envíeme los detalles de pago y las instrucciones de configuración.`
-      : `Hello Fox IPTV Panels! I would like to order a reseller panel setup for *${selectedPanel}* with *${selectedCredits}*. Please provide the payment details and setup instructions.`;
+    const text = (() => {
+      const trans = {
+        en: `Hello Fox IPTV Panels! I would like to order a reseller panel setup for *${selectedPanel}* with *${selectedCredits}*. Please provide the payment details and setup instructions.`,
+        "en-gb": `Hello Fox IPTV Panels! I would like to order a reseller panel setup for *${selectedPanel}* with *${selectedCredits}*. Please provide the payment details and setup instructions.`,
+        "en-au": `Hello Fox IPTV Panels! I would like to order a reseller panel setup for *${selectedPanel}* with *${selectedCredits}*. Please provide the payment details and setup instructions.`,
+        es: `¡Hola Fox IPTV Panels! Me gustaría ordenar una configuración de panel para *${selectedPanel}* con *${selectedCredits}*. Por favor, envíeme los detalles de pago y las instrucciones de configuración.`,
+        fr: `Bonjour Fox IPTV Panels ! Je souhaite commander une configuration de panneau pour *${selectedPanel}* avec *${selectedCredits}*. Veuillez m'envoyer les détails de paiement et les instructions.`,
+        pt: `Olá Fox IPTV Panels! Gostaria de encomendar uma configuração de painel para *${selectedPanel}* com *${selectedCredits}*. Por favor, envie-me os detalhes de pagamento e instruções.`,
+        sv: `Hej Fox IPTV Panels! Jag skulle vilja beställa en kontrollpanel för *${selectedPanel}* med *${selectedCredits}*. Vänligen skicka betalningsinformation och instruktioner.`,
+        no: `Hei Fox IPTV Panels! Jeg vil gjerne bestille et forhandlerpanel for *${selectedPanel}* med *${selectedCredits}*. Vennligst send betalingsinformasjon og instruksjoner.`
+      };
+      return trans[locale as keyof typeof trans] || trans.en;
+    })();
     return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
   }, [selectedPanel, selectedCredits, locale]);
 
@@ -47,9 +57,19 @@ export default function ContactClient() {
   };
 
   const getWhatsAppCalcLink = () => {
-    const text = locale === "es"
-      ? `¡Hola Fox IPTV Panels! Revisé la calculadora y me gustaría ordenar una configuración personalizada con *${creditsNum} créditos* (costo estimado: ${formatValue(totalCost)}). Por favor envíeme los detalles.`
-      : `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${formatValue(totalCost)}). Please provide payment details and panel setup instructions.`;
+    const text = (() => {
+      const trans = {
+        en: `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${formatValue(totalCost)}). Please provide payment details and panel setup instructions.`,
+        "en-gb": `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${formatValue(totalCost)}). Please provide payment details and panel setup instructions.`,
+        "en-au": `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${formatValue(totalCost)}). Please provide payment details and panel setup instructions.`,
+        es: `¡Hola Fox IPTV Panels! Revisé la calculadora y me gustaría ordenar una configuración personalizada con *${creditsNum} créditos* (costo estimado: ${formatValue(totalCost)}). Por favor envíeme los detalles.`,
+        fr: `Bonjour Fox IPTV Panels ! J'ai utilisé le calculateur de marge et je souhaite commander une configuration personnalisée avec *${creditsNum} crédits* (coût estimé : ${formatValue(totalCost)}). Merci de m'envoyer les détails.`,
+        pt: `Olá Fox IPTV Panels! Verifiquei a calculadora e gostaria de encomendar uma configuração personalizada com *${creditsNum} créditos* (custo estimado: ${formatValue(totalCost)}). Por favor, envie-me os detalhes.`,
+        sv: `Hej Fox IPTV Panels! Jag kollade vinstkalkylatorn och skulle vilja beställa en skräddarsydd kontrollpanel med *${creditsNum} krediter* (beräknad kostnad: ${formatValue(totalCost)}). Vänligen skicka detaljer.`,
+        no: `Hei Fox IPTV Panels! Jeg sjekket priskalkulatoren og vil gjerne bestille et tilpasset oppsett med *${creditsNum} kreditter* (estimert kostnad: ${formatValue(totalCost)}). Vennligst send detaljer.`
+      };
+      return trans[locale as keyof typeof trans] || trans.en;
+    })();
     return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
   };
 
@@ -65,18 +85,36 @@ export default function ContactClient() {
         {/* Breadcrumb */}
         <nav aria-label="Breadcrumb" style={{ display: "flex", alignItems: "center", gap: 8, fontSize: "0.8rem", color: "var(--text-muted)", marginBottom: "2rem" }}>
           <Link href={`/${locale}`} style={{ color: "var(--text-muted)", textDecoration: "none" }} className="animated-underline">
-            {locale === "es" ? "Inicio" : "Home"}
+            {(() => {
+              const trans = {
+                en: "Home", "en-gb": "Home", "en-au": "Home",
+                es: "Inicio", fr: "Accueil", pt: "Início", sv: "Hem", no: "Hjem"
+              };
+              return trans[locale as keyof typeof trans] || trans.en;
+            })()}
           </Link>
           <span aria-hidden="true">›</span>
           <span style={{ color: "var(--text-secondary)" }}>
-            {locale === "es" ? "Precios y Contacto" : "Contact & Pricing"}
+            {(() => {
+              const trans = {
+                en: "Contact & Pricing", "en-gb": "Contact & Pricing", "en-au": "Contact & Pricing",
+                es: "Precios y Contacto", fr: "Tarifs & Contact", pt: "Preços & Contacto", sv: "Priser & Kontakt", no: "Priser & Kontakt"
+              };
+              return trans[locale as keyof typeof trans] || trans.en;
+            })()}
           </span>
         </nav>
 
         {/* Heading */}
         <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto 4rem" }}>
           <div className="tag" style={{ marginBottom: "1rem" }}>
-            {locale === "es" ? "Planes Mayoristas de Alta Conversión" : "High-Conversion Wholesale Plans"}
+            {(() => {
+              const trans = {
+                en: "High-Conversion Wholesale Plans", "en-gb": "High-Conversion Wholesale Plans", "en-au": "High-Conversion Wholesale Plans",
+                es: "Planes Mayoristas de Alta Conversión", fr: "Plans de Gros à Haute Conversion", pt: "Planos Atacadistas de Alta Conversão", sv: "Grossistplaner med Hög Konvertering", no: "Grossistplaner med Høy Konvertering"
+              };
+              return trans[locale as keyof typeof trans] || trans.en;
+            })()}
           </div>
           <h1 style={{
             fontFamily: "'Outfit', sans-serif",
@@ -87,16 +125,34 @@ export default function ContactClient() {
             color: "var(--text-primary)",
             marginBottom: "1.5rem"
           }}>
-            {locale === "es" ? (
-              <>Precios de <span className="gradient-text">Créditos Mayoristas</span> y Pedido Directo</>
-            ) : (
-              <>Wholesale <span className="gradient-text">Credit Prices</span> & Active Ordering</>
-            )}
+            {(() => {
+              const trans = {
+                en: <>Wholesale <span className="gradient-text">Credit Prices</span> & Active Ordering</>,
+                "en-gb": <>Wholesale <span className="gradient-text">Credit Prices</span> & Active Ordering</>,
+                "en-au": <>Wholesale <span className="gradient-text">Credit Prices</span> & Active Ordering</>,
+                es: <>Precios de <span className="gradient-text">Créditos Mayoristas</span> y Pedido Directo</>,
+                fr: <>Tarifs des <span className="gradient-text">Crédits de Gros</span> & Commande Directe</>,
+                pt: <>Preços de <span className="gradient-text">Créditos Atacadistas</span> & Encomenda Direta</>,
+                sv: <>Grossistpriser på <span className="gradient-text">Reseller-krediter</span> & Direktbeställning</>,
+                no: <>Grossistpriser på <span className="gradient-text">Forhandlerkreditter</span> & Direkttebestilling</>
+              };
+              return trans[locale as keyof typeof trans] || trans.en;
+            })()}
           </h1>
           <p style={{ fontSize: "1.1rem", color: "var(--text-secondary)", lineHeight: 1.75 }}>
-            {locale === "es"
-              ? "Elija su paquete de inicio o aproveche los grandes ahorros empresariales. Compre créditos IPTV al por mayor y comience a vender bajo su propia marca en minutos."
-              : "Choose your starter pack or leverage high-volume enterprise savings. Purchase bulk iptv reseller credits and start generating subscriptions under your own private brand in minutes."}
+            {(() => {
+              const trans = {
+                en: "Choose your starter pack or leverage high-volume enterprise savings. Purchase bulk iptv reseller credits and start generating subscriptions under your own private brand in minutes.",
+                "en-gb": "Choose your starter pack or leverage high-volume enterprise savings. Purchase bulk iptv reseller credits and start generating subscriptions under your own private brand in minutes.",
+                "en-au": "Choose your starter pack or leverage high-volume enterprise savings. Purchase bulk iptv reseller credits and start generating subscriptions under your own private brand in minutes.",
+                es: "Elija su paquete de inicio o aproveche los grandes ahorros empresariales. Compre créditos IPTV al por mayor y comience a vender bajo su propia marca en minutos.",
+                fr: "Choisissez votre pack de démarrage ou profitez des économies d'échelle pour les entreprises. Achetez des crédits IPTV en gros et vendez sous votre marque en quelques minutes.",
+                pt: "Escolha o seu pacote inicial ou aproveite as poupanças corporativas de grande volume. Compre créditos IPTV atacadistas e comece a vender sob a sua própria marca em minutos.",
+                sv: "Välj ditt startpaket eller dra nytta av grossistrabatter för företag. Köp IPTV-krediter i bulk och börja sälja abonnemang under ditt eget varumärke på några minuter.",
+                no: "Velg ditt startsett eller dra nytte av volumrabatter for bedrifter. Kjøp IPTV-kreditter i bulk og begynn å selge abonnementer under ditt eget merke på få minutter."
+              };
+              return trans[locale as keyof typeof trans] || trans.en;
+            })()}
           </p>
         </div>
 
@@ -146,7 +202,13 @@ export default function ContactClient() {
                     fontSize: "0.7rem", fontWeight: 700, color: "white",
                     letterSpacing: "0.05em",
                   }}>
-                    {locale === "es" ? "★ MÁS VENDIDO" : "★ BEST SELLER"}
+                    {(() => {
+                      const trans = {
+                        en: "★ BEST SELLER", "en-gb": "★ BEST SELLER", "en-au": "★ BEST SELLER",
+                        es: "★ MÁS VENDIDO", fr: "★ MEILLEURE VENTE", pt: "★ MAIS VENDIDO", sv: "★ BÄST SÄLJARE", no: "★ BESTSELGER"
+                      };
+                      return trans[locale as keyof typeof trans] || trans.en;
+                    })()}
                   </div>
                 )}
 
@@ -173,7 +235,13 @@ export default function ContactClient() {
                   {/* Wholesale Price (To Buy) */}
                   <div style={{ margin: "1.25rem 0 1rem" }}>
                     <div style={{ fontSize: "0.72rem", color: planColor, textTransform: "uppercase", fontWeight: 800, letterSpacing: "0.05em", marginBottom: "4px" }}>
-                      {locale === "es" ? "Precio Mayorista (Compra)" : "Wholesale Price (To Buy)"}
+                      {(() => {
+                        const trans = {
+                          en: "Wholesale Price (To Buy)", "en-gb": "Wholesale Price (To Buy)", "en-au": "Wholesale Price (To Buy)",
+                          es: "Precio Mayorista (Compra)", fr: "Prix de Gros (Achat)", pt: "Preço de Gros (Compra)", sv: "Grossistpris (Inköp)", no: "Grossistpris (Innkjøp)"
+                        };
+                        return trans[locale as keyof typeof trans] || trans.en;
+                      })()}
                     </div>
                     <div style={{
                       fontSize: "2.5rem",
@@ -187,7 +255,13 @@ export default function ContactClient() {
                     }}>
                       {formatValue(plan.cost)}
                       <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 500 }}>
-                        {locale === "es" ? `total (${plan.rate}/crédito)` : `total (${plan.rate}/credit)`}
+                        {(() => {
+                          const trans = {
+                            en: `total (${plan.rate}/credit)`, "en-gb": `total (${plan.rate}/credit)`, "en-au": `total (${plan.rate}/credit)`,
+                            es: `total (${plan.rate}/crédito)`, fr: `total (${plan.rate}/crédit)`, pt: `total (${plan.rate}/crédito)`, sv: `totalt (${plan.rate}/kredit)`, no: `totalt (${plan.rate}/kreditt)`
+                          };
+                          return trans[locale as keyof typeof trans] || trans.en;
+                        })()}
                       </span>
                     </div>
                   </div>
@@ -206,7 +280,13 @@ export default function ContactClient() {
                   }}>
                     <div>
                       <div style={{ fontSize: "0.68rem", color: "rgba(34,197,94,0.8)", textTransform: "uppercase", fontWeight: 700, letterSpacing: "0.03em" }}>
-                        {locale === "es" ? "Ingresos Potenciales" : "Potential Revenue"}
+                        {(() => {
+                          const trans = {
+                            en: "Potential Revenue", "en-gb": "Potential Revenue", "en-au": "Potential Revenue",
+                            es: "Ingresos Potenciales", fr: "Revenus Potentiels", pt: "Receitas Potenciais", sv: "Potentiell Omsättning", no: "Potensiell Omsetning"
+                          };
+                          return trans[locale as keyof typeof trans] || trans.en;
+                        })()}
                       </div>
                       <div style={{ fontSize: "1.1rem", fontWeight: 800, color: "#4ade80", marginTop: "2px" }}>
                         {pricing.symbolAfter ? `${plan.revenue}${pricing.symbol}` : `${pricing.symbol}${plan.revenue}`}
@@ -214,7 +294,13 @@ export default function ContactClient() {
                     </div>
                     <div style={{ borderLeft: "1px solid rgba(34,197,94,0.15)", paddingLeft: "0.5rem" }}>
                       <div style={{ fontSize: "0.68rem", color: "rgba(34,197,94,0.8)", textTransform: "uppercase", fontWeight: 700, letterSpacing: "0.03em" }}>
-                        {locale === "es" ? "Beneficio Neto" : "Net Earnings"}
+                        {(() => {
+                          const trans = {
+                            en: "Net Earnings", "en-gb": "Net Earnings", "en-au": "Net Earnings",
+                            es: "Beneficio Neto", fr: "Bénéfice Net", pt: "Lucro Líquido", sv: "Nettovinst", no: "Nettogevinst"
+                          };
+                          return trans[locale as keyof typeof trans] || trans.en;
+                        })()}
                       </div>
                       <div style={{ fontSize: "1.1rem", fontWeight: 800, color: "#4ade80", marginTop: "2px" }}>
                         +{pricing.symbolAfter ? `${plan.profit}${pricing.symbol}` : `${pricing.symbol}${plan.profit}`}
@@ -238,7 +324,19 @@ export default function ContactClient() {
 
                 {/* CTA */}
                 <a
-                  href={`https://wa.me/${WHATSAPP_NUMBER}?text=${locale === "es" ? `Hola Fox IPTV Panels! Me gustaría ordenar el ${encodeURIComponent(plan.name)}.` : `Hello Fox IPTV Panels! I want to order the ${encodeURIComponent(plan.name)}.`}`}
+                  href={`https://wa.me/${WHATSAPP_NUMBER}?text=${(() => {
+                    const trans = {
+                      en: `Hello Fox IPTV Panels! I want to order the ${plan.name}.`,
+                      "en-gb": `Hello Fox IPTV Panels! I want to order the ${plan.name}.`,
+                      "en-au": `Hello Fox IPTV Panels! I want to order the ${plan.name}.`,
+                      es: `Hola Fox IPTV Panels! Me gustaría ordenar el ${plan.name}.`,
+                      fr: `Bonjour Fox IPTV Panels ! Je souhaite commander le ${plan.name}.`,
+                      pt: `Olá Fox IPTV Panels! Gostaria de encomendar o ${plan.name}.`,
+                      sv: `Hej Fox IPTV Panels! Jag skulle vilja beställa ${plan.name}.`,
+                      no: `Hei Fox IPTV Panels! Jeg vil gjerne bestille ${plan.name}.`
+                    };
+                    return encodeURIComponent(trans[locale as keyof typeof trans] || trans.en);
+                  })()}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={isPopular ? "btn-primary" : undefined}
@@ -271,19 +369,47 @@ export default function ContactClient() {
           <div style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: "3.5rem", alignItems: "center" }} className="panel-hero-grid">
             <div>
               <h2 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "2rem", fontWeight: 800, color: "var(--text-primary)", marginBottom: "1rem" }}>
-                {locale === "es" ? "Genere su Mensaje de Pedido Personalizado" : "Build Your Custom Order Message"}
+                {(() => {
+                  const trans = {
+                    en: "Build Your Custom Order Message",
+                    "en-gb": "Build Your Custom Order Message",
+                    "en-au": "Build Your Custom Order Message",
+                    es: "Genere su Mensaje de Pedido Personalizado",
+                    fr: "Générez votre Message de Commande Personnalisé",
+                    pt: "Gere a sua Mensagem de Encomenda Personalizada",
+                    sv: "Skapa Ditt Skräddarsydda Beställningsmeddelande",
+                    no: "Lag Ditt Egendefinerte Bestillingsmeddelelse"
+                  };
+                  return trans[locale as keyof typeof trans] || trans.en;
+                })()}
               </h2>
               <p style={{ color: "var(--text-secondary)", lineHeight: 1.7, marginBottom: "2rem" }}>
-                {locale === "es"
-                  ? "Seleccione su panel IPTV deseado y el paquete de créditos a continuación. Nuestro generador redactará instantáneamente la consulta profesional. ¡Haga clic para enviarla directamente por WhatsApp!"
-                  : "Select your desired IPTV Reseller Panel dashboard server and credit package below. Our pre-filled builder will instantly draft the professional inquiry message. Click to send it directly to our administration desk on WhatsApp!"}
+                {(() => {
+                  const trans = {
+                    en: "Select your desired IPTV Reseller Panel dashboard server and credit package below. Our pre-filled builder will instantly draft the professional inquiry message. Click to send it directly to our administration desk on WhatsApp!",
+                    "en-gb": "Select your desired IPTV Reseller Panel dashboard server and credit package below. Our pre-filled builder will instantly draft the professional inquiry message. Click to send it directly to our administration desk on WhatsApp!",
+                    "en-au": "Select your desired IPTV Reseller Panel dashboard server and credit package below. Our pre-filled builder will instantly draft the professional inquiry message. Click to send it directly to our administration desk on WhatsApp!",
+                    es: "Seleccione su panel IPTV deseado y el paquete de créditos a continuación. Nuestro generador redactará instantáneamente la consulta profesional. ¡Haga clic para enviarla directamente por WhatsApp!",
+                    fr: "Sélectionnez le serveur de panneau IPTV souhaité et le pack de crédits ci-dessous. Notre outil rédigera instantanément le message de demande. Cliquez pour l'envoyer directement sur WhatsApp !",
+                    pt: "Selecione o painel IPTV pretendido e o pacote de créditos abaixo. O nosso gerador irá redigir instantaneamente a mensagem profissional. Clique para enviar diretamente por WhatsApp!",
+                    sv: "Välj önskad IPTV-kontrollpanel och kreditpaket nedan. Vår generator skriver direkt ett professionellt meddelande. Klicka för att skicka det direkt via WhatsApp!",
+                    no: "Velg ønsket forhandlerpanel og kredittpakke nedenfor. Vår generator skriver umiddelbart en profesjonell melding. Klikk for å sende den direkte via WhatsApp!"
+                  };
+                  return trans[locale as keyof typeof trans] || trans.en;
+                })()}
               </p>
 
               {/* Form Controls */}
               <div style={{ display: "flex", gap: "1rem", marginBottom: "2rem" }} className="panel-hero-grid">
                 <div style={{ display: "flex", flexDirection: "column", gap: "6px", flex: 1 }}>
                   <label htmlFor="panel-select" style={{ fontSize: "0.8rem", fontWeight: 600, color: "var(--text-secondary)" }}>
-                    {locale === "es" ? "Elegir Panel" : "Choose Panel"}
+                    {(() => {
+                      const trans = {
+                        en: "Choose Panel", "en-gb": "Choose Panel", "en-au": "Choose Panel",
+                        es: "Elegir Panel", fr: "Choisir le Panneau", pt: "Escolher Painel", sv: "Välj Panel", no: "Velg Panel"
+                      };
+                      return trans[locale as keyof typeof trans] || trans.en;
+                    })()}
                   </label>
                   <select
                     id="panel-select"
@@ -308,7 +434,13 @@ export default function ContactClient() {
 
                 <div style={{ display: "flex", flexDirection: "column", gap: "6px", flex: 1 }}>
                   <label htmlFor="credits-select" style={{ fontSize: "0.8rem", fontWeight: 600, color: "var(--text-secondary)" }}>
-                    {locale === "es" ? "Elegir Créditos" : "Choose Credits"}
+                    {(() => {
+                      const trans = {
+                        en: "Choose Credits", "en-gb": "Choose Credits", "en-au": "Choose Credits",
+                        es: "Elegir Créditos", fr: "Choisir les Crédits", pt: "Escolher Créditos", sv: "Välj Krediter", no: "Velg Kreditter"
+                      };
+                      return trans[locale as keyof typeof trans] || trans.en;
+                    })()}
                   </label>
                   <select
                     id="credits-select"
@@ -326,13 +458,49 @@ export default function ContactClient() {
                     }}
                   >
                     <option value="120 Credits Starter">
-                      {locale === "es" ? `Paquete 120 Créditos (${formatValue(pricing.starter.cost)})` : `120 Credits Pack (${formatValue(pricing.starter.cost)})`}
+                      {(() => {
+                        const trans = {
+                          en: `120 Credits Pack (${formatValue(pricing.starter.cost)})`,
+                          "en-gb": `120 Credits Pack (${formatValue(pricing.starter.cost)})`,
+                          "en-au": `120 Credits Pack (${formatValue(pricing.starter.cost)})`,
+                          es: `Paquete 120 Créditos (${formatValue(pricing.starter.cost)})`,
+                          fr: `Pack 120 Crédits (${formatValue(pricing.starter.cost)})`,
+                          pt: `Pacote 120 Créditos (${formatValue(pricing.starter.cost)})`,
+                          sv: `120 Krediters Paket (${formatValue(pricing.starter.cost)})`,
+                          no: `120 Kreditter Pakke (${formatValue(pricing.starter.cost)})`
+                        };
+                        return trans[locale as keyof typeof trans] || trans.en;
+                      })()}
                     </option>
                     <option value="200 Credits Growth">
-                      {locale === "es" ? `Paquete 200 Créditos (${formatValue(pricing.growth.cost)})` : `200 Credits Pack (${formatValue(pricing.growth.cost)})`}
+                      {(() => {
+                        const trans = {
+                          en: `200 Credits Pack (${formatValue(pricing.growth.cost)})`,
+                          "en-gb": `200 Credits Pack (${formatValue(pricing.growth.cost)})`,
+                          "en-au": `200 Credits Pack (${formatValue(pricing.growth.cost)})`,
+                          es: `Paquete 200 Créditos (${formatValue(pricing.growth.cost)})`,
+                          fr: `Pack 200 Crédits (${formatValue(pricing.growth.cost)})`,
+                          pt: `Pacote 200 Créditos (${formatValue(pricing.growth.cost)})`,
+                          sv: `200 Krediters Paket (${formatValue(pricing.growth.cost)})`,
+                          no: `200 Kreditter Pakke (${formatValue(pricing.growth.cost)})`
+                        };
+                        return trans[locale as keyof typeof trans] || trans.en;
+                      })()}
                     </option>
                     <option value="500 Credits Enterprise">
-                      {locale === "es" ? `Paquete 500 Créditos (${formatValue(pricing.enterprise.cost)})` : `500 Credits Pack (${formatValue(pricing.enterprise.cost)})`}
+                      {(() => {
+                        const trans = {
+                          en: `500 Credits Pack (${formatValue(pricing.enterprise.cost)})`,
+                          "en-gb": `500 Credits Pack (${formatValue(pricing.enterprise.cost)})`,
+                          "en-au": `500 Credits Pack (${formatValue(pricing.enterprise.cost)})`,
+                          es: `Paquete 500 Créditos (${formatValue(pricing.enterprise.cost)})`,
+                          fr: `Pack 500 Crédits (${formatValue(pricing.enterprise.cost)})`,
+                          pt: `Pacote 500 Créditos (${formatValue(pricing.enterprise.cost)})`,
+                          sv: `500 Krediters Paket (${formatValue(pricing.enterprise.cost)})`,
+                          no: `500 Kreditter Pakke (${formatValue(pricing.enterprise.cost)})`
+                        };
+                        return trans[locale as keyof typeof trans] || trans.en;
+                      })()}
                     </option>
                   </select>
                 </div>
@@ -342,25 +510,53 @@ export default function ContactClient() {
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
                 </svg>
-                {locale === "es" ? "Enviar Mensaje de Pedido Generado" : "Send Automated Order Message"}
+                {(() => {
+                  const trans = {
+                    en: "Send Automated Order Message",
+                    "en-gb": "Send Automated Order Message",
+                    "en-au": "Send Automated Order Message",
+                    es: "Enviar Mensaje de Pedido Generado",
+                    fr: "Envoyer le Message de Commande Généré",
+                    pt: "Enviar Mensagem de Encomenda Gerada",
+                    sv: "Skicka Skapat Beställningsmeddelande",
+                    no: "Send Generert Bestillingsmelding"
+                  };
+                  return trans[locale as keyof typeof trans] || trans.en;
+                })()}
               </a>
             </div>
 
             {/* Message preview block */}
             <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
               <span style={{ fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.05em", color: "var(--text-muted)", fontWeight: 700 }}>
-                {locale === "es" ? "Vista Previa del Mensaje:" : "Order Message Draft Preview:"}
+                {(() => {
+                  const trans = {
+                    en: "Order Message Draft Preview:",
+                    "en-gb": "Order Message Draft Preview:",
+                    "en-au": "Order Message Draft Preview:",
+                    es: "Vista Previa del Mensaje:",
+                    fr: "Aperçu du Message de Commande :",
+                    pt: "Vista Prévia da Mensagem de Encomenda:",
+                    sv: "Förhandsgranskning av Meddelande:",
+                    no: "Forhåndsvisning av Melding:"
+                  };
+                  return trans[locale as keyof typeof trans] || trans.en;
+                })()}
               </span>
               <div className="glass-card" style={{ padding: "1.75rem", borderRadius: "16px", fontStyle: "italic", color: "var(--text-secondary)", fontSize: "0.95rem", lineHeight: 1.6, border: "1px solid var(--border-color)" }}>
-                {locale === "es" ? (
-                  <>
-                    "¡Hola Fox IPTV Panels! Me gustaría ordenar una configuración de panel para <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> con <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Por favor, envíeme los detalles de pago y las instrucciones de configuración."
-                  </>
-                ) : (
-                  <>
-                    "Hello Fox IPTV Panels! I would like to order a reseller panel setup for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> with <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Please provide the payment details and setup instructions."
-                  </>
-                )}
+                {(() => {
+                  const trans = {
+                    en: <>"Hello Fox IPTV Panels! I would like to order a reseller panel setup for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> with <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Please provide the payment details and setup instructions."</>,
+                    "en-gb":  <>"Hello Fox IPTV Panels! I would like to order a reseller panel setup for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> with <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Please provide the payment details and setup instructions."</>,
+                    "en-au":  <>"Hello Fox IPTV Panels! I would like to order a reseller panel setup for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> with <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Please provide the payment details and setup instructions."</>,
+                    es: <>"¡Hola Fox IPTV Panels! Me gustaría ordenar una configuración de panel para <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> con <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Por favor, envíeme los detalles de pago y las instrucciones de configuración."</>,
+                    fr: <>"Bonjour Fox IPTV Panels ! Je souhaite commander une configuration de panneau pour <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> avec <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Merci de m'envoyer les détails de paiement et les instructions."</>,
+                    pt: <>"Olá Fox IPTV Panels! Gostaria de encomendar uma configuração de painel para <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> com <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Por favor, envie-me os detalhes de pagamento e as instruções."</>,
+                    sv: <>"Hej Fox IPTV Panels! Jag vill beställa en kontrollpanel för <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> med <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Vänligen skicka betalningsinformation och installationsinstruktioner."</>,
+                    no: <>"Hei Fox IPTV Panels! Jeg vil gjerne bestille et forhandlerpanel for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> med <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Vennligst send betalingsinformasjon og oppsettsinstruksjoner."</>
+                  };
+                  return trans[locale as keyof typeof trans] || trans.en;
+                })()}
               </div>
             </div>
           </div>
@@ -380,15 +576,13 @@ export default function ContactClient() {
         >
           <div style={{ textAlign: "center", marginBottom: "3rem" }}>
             <span style={{ fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.15em", color: "#a855f7", fontWeight: 800, background: "rgba(168,85,247,0.1)", padding: "4px 12px", borderRadius: "999px" }}>
-              {locale === "es" ? "Generador de Negocio Interactivo" : "Interactive Business Builder"}
+              {(() => { const t = { en: "Interactive Business Builder", "en-gb": "Interactive Business Builder", "en-au": "Interactive Business Builder", es: "Generador de Negocio Interactivo", fr: "Générateur d'Activité Interactif", pt: "Gerador de Negócio Interativo", sv: "Interaktiv Affärsgenerator", no: "Interaktiv Forretningsgenerator" }; return t[locale as keyof typeof t] || t.en; })()}
             </span>
             <h3 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "2rem", fontWeight: 900, color: "var(--text-primary)", marginTop: "0.8rem", marginBottom: "0.5rem" }}>
-              {locale === "es" ? "Calculadora de Ganancias IPTV Reseller" : "IPTV Reseller Profit Calculator"}
+              {(() => { const t = { en: "IPTV Reseller Profit Calculator", "en-gb": "IPTV Reseller Profit Calculator", "en-au": "IPTV Reseller Profit Calculator", es: "Calculadora de Ganancias IPTV Reseller", fr: "Calculateur de Profit Revendeur IPTV", pt: "Calculadora de Lucro Revendedor IPTV", sv: "IPTV-återförsäljarvinstberäknare", no: "IPTV-forhandlerfortjenestekalkulator" }; return t[locale as keyof typeof t] || t.en; })()}
             </h3>
             <p style={{ color: "var(--text-secondary)", maxWidth: "600px", margin: "0 auto", fontSize: "0.95rem" }}>
-              {locale === "es"
-                ? "Arrastre los controles a continuación para calcular su inversión inicial, la tarifa de descuento por volumen y las ganancias potenciales al vender suscripciones."
-                : "Drag the sliders below to calculate your setup investment, wholesale credit discount rate, and potential margins when selling subscriptions to clients."}
+              {(() => { const t = { en: "Drag the sliders below to calculate your setup investment, wholesale credit discount rate, and potential margins when selling subscriptions to clients.", "en-gb": "Drag the sliders below to calculate your setup investment, wholesale credit discount rate, and potential margins when selling subscriptions to clients.", "en-au": "Drag the sliders below to calculate your setup investment, wholesale credit discount rate, and potential margins when selling subscriptions to clients.", es: "Arrastre los controles a continuación para calcular su inversión inicial, la tarifa de descuento por volumen y las ganancias potenciales al vender suscripciones.", fr: "Faites glisser les curseurs ci-dessous pour calculer votre investissement de départ, le taux de remise grossiste et vos marges potentielles.", pt: "Arraste os controlos abaixo para calcular o seu investimento inicial, a taxa de desconto grossista e as suas margens potenciais.", sv: "Dra reglagen nedan för att beräkna din startkostnad, grossistrabatt och potentiella marginaler.", no: "Dra glidebrytere nedenfor for å beregne oppstartsinvesteringen, grossistrabattsatsen og potensielle marginer." }; return t[locale as keyof typeof t] || t.en; })()}
             </p>
           </div>
 
@@ -399,7 +593,7 @@ export default function ContactClient() {
               <div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.8rem" }}>
                   <label htmlFor="calc-credits-contact-input" style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--text-secondary)" }}>
-                    {locale === "es" ? "Créditos a Comprar" : "Credits to Purchase"}
+                    {(() => { const t = { en: "Credits to Purchase", "en-gb": "Credits to Purchase", "en-au": "Credits to Purchase", es: "Créditos a Comprar", fr: "Crédits à Acheter", pt: "Créditos a Comprar", sv: "Krediter att Köpa", no: "Kreditter å Kjøpe" }; return t[locale as keyof typeof t] || t.en; })()}
                   </label>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                     <input
@@ -427,7 +621,7 @@ export default function ContactClient() {
                       }}
                     />
                     <span style={{ fontSize: "0.9rem", color: "var(--text-muted)", fontWeight: 600 }}>
-                      {locale === "es" ? "Créditos" : "Credits"}
+                      {(() => { const t = { en: "Credits", "en-gb": "Credits", "en-au": "Credits", es: "Créditos", fr: "Crédits", pt: "Créditos", sv: "Krediter", no: "Kreditter" }; return t[locale as keyof typeof t] || t.en; })()}
                     </span>
                   </div>
                 </div>
@@ -450,9 +644,9 @@ export default function ContactClient() {
                   }}
                 />
                 <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.72rem", color: "var(--text-muted)", marginTop: "0.4rem" }}>
-                  <span>120 {locale === "es" ? "(Inicio)" : "(Starter)"}</span>
-                  <span>200 {locale === "es" ? "(Desarrollo)" : "(Growth)"}</span>
-                  <span>500 {locale === "es" ? "(Empresa)" : "(Enterprise)"}</span>
+                  <span>120 ({(() => { const t = { en: "Starter", "en-gb": "Starter", "en-au": "Starter", es: "Inicio", fr: "Débutant", pt: "Inicial", sv: "Start", no: "Start" }; return t[locale as keyof typeof t] || t.en; })()})</span>
+                  <span>200 ({(() => { const t = { en: "Growth", "en-gb": "Growth", "en-au": "Growth", es: "Desarrollo", fr: "Croissance", pt: "Crescimento", sv: "Tillväxt", no: "Vekst" }; return t[locale as keyof typeof t] || t.en; })()})</span>
+                  <span>500 ({(() => { const t = { en: "Enterprise", "en-gb": "Enterprise", "en-au": "Enterprise", es: "Empresa", fr: "Entreprise", pt: "Empresarial", sv: "Företag", no: "Bedrift" }; return t[locale as keyof typeof t] || t.en; })()})</span>
                   <span>1,000+</span>
                 </div>
               </div>
@@ -461,7 +655,7 @@ export default function ContactClient() {
               <div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.8rem" }}>
                   <label htmlFor="calc-sell-price-contact-input" style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--text-secondary)" }}>
-                    {locale === "es" ? "Su Precio Mensual de Venta" : "Your Monthly Resell Price"}
+                    {(() => { const t = { en: "Your Monthly Resell Price", "en-gb": "Your Monthly Resell Price", "en-au": "Your Monthly Resell Price", es: "Su Precio Mensual de Venta", fr: "Votre Prix de Revente Mensuel", pt: "O Seu Preço de Revenda Mensal", sv: "Ditt Månadsliga Återförsäljningspris", no: "Din Månedlige Videresalgspris" }; return t[locale as keyof typeof t] || t.en; })()}
                   </label>
                   <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
                     {!pricing.symbolAfter && <span style={{ fontSize: "0.9rem", color: "var(--text-muted)", fontWeight: 600 }}>{pricing.symbol}</span>}
@@ -490,7 +684,7 @@ export default function ContactClient() {
                       }}
                     />
                     <span style={{ fontSize: "0.9rem", color: "var(--text-muted)", fontWeight: 600 }}>
-                      {pricing.symbolAfter ? `${pricing.symbol}/mes` : "/mo"}
+                      {pricing.symbolAfter ? `${pricing.symbol}/${(() => { const t = { en: "mo", "en-gb": "mo", "en-au": "mo", es: "mes", fr: "mois", pt: "mês", sv: "mån", no: "mnd" }; return t[locale as keyof typeof t] || t.en; })()}` : `/${(() => { const t = { en: "mo", "en-gb": "mo", "en-au": "mo", es: "mes", fr: "mois", pt: "mês", sv: "mån", no: "mnd" }; return t[locale as keyof typeof t] || t.en; })()}`}
                     </span>
                   </div>
                 </div>
@@ -514,7 +708,7 @@ export default function ContactClient() {
                 />
                 <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.72rem", color: "var(--text-muted)", marginTop: "0.4rem" }}>
                   <span>{formatValue(pricing.sellPriceMin)}</span>
-                  <span>{formatValue(pricing.sellPriceDefault)} ({locale === "es" ? "Común" : "Typical"})</span>
+                  <span>{formatValue(pricing.sellPriceDefault)} ({(() => { const t = { en: "Typical", "en-gb": "Typical", "en-au": "Typical", es: "Común", fr: "Typique", pt: "Típico", sv: "Typiskt", no: "Typisk" }; return t[locale as keyof typeof t] || t.en; })()})</span>
                   <span>{formatValue(pricing.sellPriceMax)}</span>
                 </div>
               </div>
@@ -536,7 +730,7 @@ export default function ContactClient() {
               {/* Package Cost */}
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <span style={{ fontSize: "0.9rem", color: "var(--text-secondary)" }}>
-                  {locale === "es" ? "Costo del Paquete (Inversión):" : "Package Cost (To Buy):"}
+                  {(() => { const t = { en: "Package Cost (To Buy):", "en-gb": "Package Cost (To Buy):", "en-au": "Package Cost (To Buy):", es: "Costo del Paquete (Inversión):", fr: "Coût du Pack (À Acheter) :", pt: "Custo do Pacote (A Comprar):", sv: "Paketets Kostnad (Att Köpa):", no: "Pakkekostnad (Å Kjøpe):" }; return t[locale as keyof typeof t] || t.en; })()}
                 </span>
                 <span style={{ fontSize: "1.25rem", fontWeight: 800, color: "white" }}>
                   {formatValue(totalCost)}
@@ -546,7 +740,7 @@ export default function ContactClient() {
               {/* Retail Value */}
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <span style={{ fontSize: "0.9rem", color: "var(--text-secondary)" }}>
-                  {locale === "es" ? "Valor de Venta (Ingresos):" : "Retail Value (To Sell):"}
+                  {(() => { const t = { en: "Retail Value (To Sell):", "en-gb": "Retail Value (To Sell):", "en-au": "Retail Value (To Sell):", es: "Valor de Venta (Ingresos):", fr: "Valeur de Revente (À Vendre) :", pt: "Valor de Revenda (A Vender):", sv: "Återförsäljningsvärde (Att Sälja):", no: "Videresalgsverdi (Å Selge):" }; return t[locale as keyof typeof t] || t.en; })()}
                 </span>
                 <span style={{ fontSize: "1.25rem", fontWeight: 800, color: "var(--text-primary)" }}>
                   {formatValue(grossRevenue)}
@@ -559,7 +753,7 @@ export default function ContactClient() {
               {/* Net Reseller Profit */}
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <span style={{ fontSize: "1rem", fontWeight: 700, color: "var(--text-primary)" }}>
-                  {locale === "es" ? "Su Beneficio Neto:" : "Your Net Profit:"}
+                  {(() => { const t = { en: "Your Net Profit:", "en-gb": "Your Net Profit:", "en-au": "Your Net Profit:", es: "Su Beneficio Neto:", fr: "Votre Bénéfice Net :", pt: "O Seu Lucro Líquido:", sv: "Din Nettovinst:", no: "Din Nettogevinst:" }; return t[locale as keyof typeof t] || t.en; })()}
                 </span>
                 <span style={{ 
                   fontSize: "1.8rem", 
@@ -594,7 +788,7 @@ export default function ContactClient() {
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
                 </svg>
-                {locale === "es" ? "Ordenar esta Configuración por WhatsApp" : "Secure Calculator Order Setup"}
+                {(() => { const t = { en: "Secure Calculator Order Setup", "en-gb": "Secure Calculator Order Setup", "en-au": "Secure Calculator Order Setup", es: "Ordenar esta Configuración por WhatsApp", fr: "Passer Commande via le Calculateur", pt: "Encomendar via Calculadora", sv: "Säker Kalkylatorbeställning", no: "Sikker Kalkulator-bestilling" }; return t[locale as keyof typeof t] || t.en; })()}
               </a>
             </div>
           </div>
@@ -605,37 +799,37 @@ export default function ContactClient() {
           <div className="glass-card" style={{ padding: "1.5rem", borderRadius: "12px", textAlign: "center" }}>
             <div style={{ fontSize: "1.5rem", marginBottom: "4px" }}>💳</div>
             <h4 style={{ fontSize: "0.95rem", fontWeight: 700, margin: 0 }}>
-              {locale === "es" ? "Pagos Flexibles" : "Flexible Payments"}
+              {(() => { const t = { en: "Flexible Payments", "en-gb": "Flexible Payments", "en-au": "Flexible Payments", es: "Pagos Flexibles", fr: "Paiements Flexibles", pt: "Pagamentos Flexíveis", sv: "Flexibla Betalningar", no: "Fleksible Betalinger" }; return t[locale as keyof typeof t] || t.en; })()}
             </h4>
             <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", margin: "4px 0 0" }}>
-              {locale === "es" ? "PayPal, Tarjetas, Bancos, Crypto" : "PayPal, Cards, Bank, Crypto"}
+              {(() => { const t = { en: "PayPal, Cards, Bank, Crypto", "en-gb": "PayPal, Cards, Bank, Crypto", "en-au": "PayPal, Cards, Bank, Crypto", es: "PayPal, Tarjetas, Bancos, Crypto", fr: "PayPal, Cartes, Virement, Crypto", pt: "PayPal, Cartões, Banco, Crypto", sv: "PayPal, Kort, Bank, Crypto", no: "PayPal, Kort, Bank, Krypto" }; return t[locale as keyof typeof t] || t.en; })()}
             </p>
           </div>
           <div className="glass-card" style={{ padding: "1.5rem", borderRadius: "12px", textAlign: "center" }}>
             <div style={{ fontSize: "1.5rem", marginBottom: "4px" }}>⚡</div>
             <h4 style={{ fontSize: "0.95rem", fontWeight: 700, margin: 0 }}>
-              {locale === "es" ? "Activación Inmediata" : "Activation Speed"}
+              {(() => { const t = { en: "Activation Speed", "en-gb": "Activation Speed", "en-au": "Activation Speed", es: "Activación Inmediata", fr: "Vitesse d'Activation", pt: "Velocidade de Ativação", sv: "Aktiveringssnabbhet", no: "Aktiveringstid" }; return t[locale as keyof typeof t] || t.en; })()}
             </h4>
             <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", margin: "4px 0 0" }}>
-              {locale === "es" ? "Credenciales en menos de 10 min" : "Reseller credentials in < 10 mins"}
+              {(() => { const t = { en: "Reseller credentials in < 10 mins", "en-gb": "Reseller credentials in < 10 mins", "en-au": "Reseller credentials in < 10 mins", es: "Credenciales en menos de 10 min", fr: "Identifiants revendeur en moins de 10 min", pt: "Credenciais de revendedor em menos de 10 min", sv: "Återförsäljaruppgifter på under 10 min", no: "Forhandlerdetaljer på under 10 min" }; return t[locale as keyof typeof t] || t.en; })()}
             </p>
           </div>
           <div className="glass-card" style={{ padding: "1.5rem", borderRadius: "12px", textAlign: "center" }}>
             <div style={{ fontSize: "1.5rem", marginBottom: "4px" }}>💼</div>
             <h4 style={{ fontSize: "0.95rem", fontWeight: 700, margin: 0 }}>
-              {locale === "es" ? "Dominio de Marca Propia" : "Private Label Domain"}
+              {(() => { const t = { en: "Private Label Domain", "en-gb": "Private Label Domain", "en-au": "Private Label Domain", es: "Dominio de Marca Propia", fr: "Domaine en Marque Blanche", pt: "Domínio de Marca Própria", sv: "Privat Märkesdomän", no: "Privat Merkedomene" }; return t[locale as keyof typeof t] || t.en; })()}
             </h4>
             <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", margin: "4px 0 0" }}>
-              {locale === "es" ? "Gratis en paquetes corporativos" : "Free setup on Business packages"}
+              {(() => { const t = { en: "Free setup on Business packages", "en-gb": "Free setup on Business packages", "en-au": "Free setup on Business packages", es: "Gratis en paquetes corporativos", fr: "Configuration gratuite sur les packs Business", pt: "Configuração gratuita nos pacotes Empresariais", sv: "Gratis installation på Företagspaket", no: "Gratis oppsett på Bedriftspakker" }; return t[locale as keyof typeof t] || t.en; })()}
             </p>
           </div>
           <div className="glass-card" style={{ padding: "1.5rem", borderRadius: "12px", textAlign: "center" }}>
             <div style={{ fontSize: "1.5rem", marginBottom: "4px" }}>🛡</div>
             <h4 style={{ fontSize: "0.95rem", fontWeight: 700, margin: 0 }}>
-              {locale === "es" ? "Tiempo de Actividad SLA" : "Uptime SLA"}
+              {(() => { const t = { en: "Uptime SLA", "en-gb": "Uptime SLA", "en-au": "Uptime SLA", es: "Tiempo de Actividad SLA", fr: "SLA de Disponibilité", pt: "SLA de Disponibilidade", sv: "Drifttids-SLA", no: "Oppetids-SLA" }; return t[locale as keyof typeof t] || t.en; })()}
             </h4>
             <p style={{ fontSize: "0.75rem", color: "var(--text-muted)", margin: "4px 0 0" }}>
-              {locale === "es" ? "Soporte y mantenimiento dedicados" : "Dedicated server maintenance"}
+              {(() => { const t = { en: "Dedicated server maintenance", "en-gb": "Dedicated server maintenance", "en-au": "Dedicated server maintenance", es: "Soporte y mantenimiento dedicados", fr: "Maintenance serveur dédiée", pt: "Manutenção de servidor dedicado", sv: "Dedikerat serverunderhåll", no: "Dedikert servervedlikehold" }; return t[locale as keyof typeof t] || t.en; })()}
             </p>
           </div>
         </div>
@@ -644,44 +838,38 @@ export default function ContactClient() {
         <section style={{ maxWidth: "800px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "3rem" }}>
             <h2 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "2rem", fontWeight: 800, color: "var(--text-primary)", margin: 0 }}>
-              {locale === "es" ? "Preguntas sobre Facturación" : "Billing FAQs"}
+              {(() => { const t = { en: "Billing FAQs", "en-gb": "Billing FAQs", "en-au": "Billing FAQs", es: "Preguntas sobre Facturación", fr: "FAQ Facturation", pt: "Perguntas de Faturação", sv: "Faktureringsvanliga Frågor", no: "Fakturerings-FAQ" }; return t[locale as keyof typeof t] || t.en; })()}
             </h2>
             <p style={{ color: "var(--text-muted)", marginTop: "4px" }}>
-              {locale === "es" ? "Respuestas rápidas sobre los saldos de créditos." : "Quick responses regarding wholesale balances and dashboard setup."}
+              {(() => { const t = { en: "Quick responses regarding wholesale balances and dashboard setup.", "en-gb": "Quick responses regarding wholesale balances and dashboard setup.", "en-au": "Quick responses regarding wholesale balances and dashboard setup.", es: "Respuestas rápidas sobre los saldos de créditos.", fr: "Réponses rapides sur les soldes grossistes et la configuration du tableau de bord.", pt: "Respostas rápidas sobre saldos grossistas e configuração do painel.", sv: "Snabba svar om grossistsaldon och panelinställningar.", no: "Raske svar om grossistsaldoer og panelkonfigurasjon." }; return t[locale as keyof typeof t] || t.en; })()}
             </p>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <div className="glass-card" style={{ padding: "1.5rem 2rem", borderRadius: "12px" }}>
               <h4 style={{ fontSize: "1.05rem", fontWeight: 700, margin: "0 0 8px", color: "var(--text-primary)" }}>
-                {locale === "es" ? "¿Caducan los créditos?" : "Do credits ever expire?"}
+                {(() => { const t = { en: "Do credits ever expire?", "en-gb": "Do credits ever expire?", "en-au": "Do credits ever expire?", es: "¿Caducan los créditos?", fr: "Les crédits expirent-ils ?", pt: "Os créditos expiram alguma vez?", sv: "Löper krediter ut?", no: "Utløper kreditter noensinne?" }; return t[locale as keyof typeof t] || t.en; })()}
               </h4>
               <p style={{ fontSize: "0.9rem", color: "var(--text-secondary)", lineHeight: 1.6, margin: 0 }}>
-                {locale === "es"
-                  ? "No. Una vez que compra créditos de revendedor en Fox IPTV Panels, permanecen activos en su panel indefinidamente. Puede asignarlos hoy o meses después."
-                  : "No. Once you purchase reseller credits from Fox IPTV Panels, they remain active on your dashboard indefinitely. You can allocate them to clients today, or months down the line."}
+                {(() => { const t = { en: "No. Once you purchase reseller credits from Fox IPTV Panels, they remain active on your dashboard indefinitely. You can allocate them to clients today, or months down the line.", "en-gb": "No. Once you purchase reseller credits from Fox IPTV Panels, they remain active on your dashboard indefinitely. You can allocate them to clients today, or months down the line.", "en-au": "No. Once you purchase reseller credits from Fox IPTV Panels, they remain active on your dashboard indefinitely. You can allocate them to clients today, or months down the line.", es: "No. Una vez que compra créditos de revendedor en Fox IPTV Panels, permanecen activos en su panel indefinidamente. Puede asignarlos hoy o meses después.", fr: "Non. Une fois achetés, vos crédits restent actifs indéfiniment sur votre tableau de bord. Vous pouvez les attribuer à vos clients aujourd'hui ou des mois plus tard.", pt: "Não. Depois de comprar créditos de revendedor na Fox IPTV Panels, eles permanecem activos no seu painel indefinidamente. Pode atribuí-los a clientes hoje ou meses depois.", sv: "Nej. När du har köpt återförsäljarkrediter från Fox IPTV Panels förblir de aktiva på din panel på obestämd tid. Du kan tilldela dem till kunder idag eller månader senare.", no: "Nei. Når du har kjøpt forhandlerkreditter fra Fox IPTV Panels, forblir de aktive på dashbordet ditt på ubestemt tid. Du kan tildele dem til kunder i dag eller måneder senere." }; return t[locale as keyof typeof t] || t.en; })()}
               </p>
             </div>
 
             <div className="glass-card" style={{ padding: "1.5rem 2rem", borderRadius: "12px" }}>
               <h4 style={{ fontSize: "1.05rem", fontWeight: 700, margin: "0 0 8px", color: "var(--text-primary)" }}>
-                {locale === "es" ? "¿Puedo subir de nivel de descuento más tarde?" : "Can I upgrade my package to a higher wholesale tier later?"}
+                {(() => { const t = { en: "Can I upgrade my package to a higher wholesale tier later?", "en-gb": "Can I upgrade my package to a higher wholesale tier later?", "en-au": "Can I upgrade my package to a higher wholesale tier later?", es: "¿Puedo subir de nivel de descuento más tarde?", fr: "Puis-je passer à un niveau grossiste supérieur plus tard ?", pt: "Posso fazer upgrade para um nível grossista superior mais tarde?", sv: "Kan jag uppgradera till en högre grossistnivå senare?", no: "Kan jeg oppgradere til et høyere grossistnivå senere?" }; return t[locale as keyof typeof t] || t.en; })()}
               </h4>
               <p style={{ fontSize: "0.9rem", color: "var(--text-secondary)", lineHeight: 1.6, margin: 0 }}>
-                {locale === "es"
-                  ? "Sí. Puede comenzar con un paquete Starter hoy y cuando requiera recargar, comprar un paquete Growth o Enterprise. La tasa de descuento correspondiente se aplicará automáticamente."
-                  : "Yes. You can start with a 120 Credits Starter package today, and when you require refilling, buy a 200 or 500 Credits package. The wholesale discount rate of that tier will be applied to your new credit purchase."}
+                {(() => { const t = { en: "Yes. You can start with a 120 Credits Starter package today, and when you require refilling, buy a 200 or 500 Credits package. The wholesale discount rate of that tier will be applied to your new credit purchase.", "en-gb": "Yes. You can start with a 120 Credits Starter package today, and when you require refilling, buy a 200 or 500 Credits package. The wholesale discount rate of that tier will be applied to your new credit purchase.", "en-au": "Yes. You can start with a 120 Credits Starter package today, and when you require refilling, buy a 200 or 500 Credits package. The wholesale discount rate of that tier will be applied to your new credit purchase.", es: "Sí. Puede comenzar con un paquete Starter hoy y cuando requiera recargar, comprar un paquete Growth o Enterprise. La tasa de descuento correspondiente se aplicará automáticamente.", fr: "Oui. Commencez avec un pack Starter de 120 crédits et, lors de votre prochain rechargement, achetez un pack de 200 ou 500 crédits. Le taux de remise grossiste du nouveau niveau s'appliquera automatiquement.", pt: "Sim. Pode começar com um pacote Inicial de 120 créditos e, quando precisar de recarregar, comprar um pacote de 200 ou 500 créditos. A taxa de desconto grossista desse nível será aplicada automaticamente.", sv: "Ja. Du kan börja med ett Starter-paket på 120 krediter idag och när du behöver fylla på, köpa ett Growth- eller Enterprise-paket. Den grossistrabattsatsen för den nivån tillämpas automatiskt.", no: "Ja. Du kan starte med en Starter-pakke på 120 kreditter i dag, og når du trenger å fylle på, kjøp en Growth- eller Enterprise-pakke. Grossistrabattsatsen for det nivået vil da gjelde." }; return t[locale as keyof typeof t] || t.en; })()}
               </p>
             </div>
 
             <div className="glass-card" style={{ padding: "1.5rem 2rem", borderRadius: "12px" }}>
               <h4 style={{ fontSize: "1.05rem", fontWeight: 700, margin: "0 0 8px", color: "var(--text-primary)" }}>
-                {locale === "es" ? "¿Puedo obtener credenciales de prueba?" : "Can I get custom server credentials to test?"}
+                {(() => { const t = { en: "Can I get custom server credentials to test?", "en-gb": "Can I get custom server credentials to test?", "en-au": "Can I get custom server credentials to test?", es: "¿Puedo obtener credenciales de prueba?", fr: "Puis-je obtenir des identifiants de test ?", pt: "Posso obter credenciais de teste?", sv: "Kan jag få testuppgifter?", no: "Kan jeg få testdetaljer?" }; return t[locale as keyof typeof t] || t.en; })()}
               </h4>
               <p style={{ fontSize: "0.9rem", color: "var(--text-secondary)", lineHeight: 1.6, margin: 0 }}>
-                {locale === "es"
-                  ? "Sí. Ofrecemos pruebas gratuitas de paneles de revendedor para ayudarle a evaluar el rendimiento de nuestros 22 paneles diferentes. Solicite su prueba a través del formulario."
-                  : "Yes. We offer free reseller panel trials to help you evaluate the performance of our 22 different dashboards. Simply request a trial using the pre-filled builder above."}
+                {(() => { const t = { en: "Yes. We offer free reseller panel trials to help you evaluate the performance of our 22 different dashboards. Simply request a trial using the pre-filled builder above.", "en-gb": "Yes. We offer free reseller panel trials to help you evaluate the performance of our 22 different dashboards. Simply request a trial using the pre-filled builder above.", "en-au": "Yes. We offer free reseller panel trials to help you evaluate the performance of our 22 different dashboards. Simply request a trial using the pre-filled builder above.", es: "Sí. Ofrecemos pruebas gratuitas de paneles de revendedor para ayudarle a evaluar el rendimiento de nuestros 22 paneles diferentes. Solicite su prueba a través del formulario.", fr: "Oui. Nous proposons des essais gratuits de panneaux revendeur pour vous aider à évaluer nos 22 tableaux de bord. Demandez simplement un essai via le générateur ci-dessus.", pt: "Sim. Oferecemos testes gratuitos de painéis de revendedor para o ajudar a avaliar os nossos 22 dashboards. Basta solicitar um teste através do gerador acima.", sv: "Ja. Vi erbjuder gratis testperioder för återförsäljarpaneler för att hjälpa dig utvärdera våra 22 olika dashboards. Begär bara ett test via formulärgeneratorn ovan.", no: "Ja. Vi tilbyr gratis prøveperioder for forhandlerpaneler for å hjelpe deg å vurdere våre 22 dashbords. Be om en prøveperiode ved hjelp av generatoren ovenfor." }; return t[locale as keyof typeof t] || t.en; })()}
               </p>
             </div>
           </div>

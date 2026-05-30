@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
-import { useTranslations } from "next-intl";
 import { getLocalizedPricing } from "@/app/lib/pricing";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export function generateStaticParams() {
   return [
@@ -23,20 +23,39 @@ export default async function TermsOfServicePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const c = useTranslations("common");
-  const n = useTranslations("nav");
+  setRequestLocale(locale);
+
+  const c = await getTranslations({ locale, namespace: "common" });
+  const n = await getTranslations({ locale, namespace: "nav" });
   const pricing = getLocalizedPricing(locale);
 
   const WHATSAPP_URL = c("whatsappUrl");
   const regionName = c("regionName");
 
-  const titleText = locale === "es"
-    ? `Términos de Servicio — Fox IPTV Panels | Créditos Mayoristas en ${regionName}`
-    : `Terms of Service — Fox IPTV Panels | Wholesale IPTV Reseller Terms in ${regionName}`;
+  const L = locale as string;
+  const lc = (map: Record<string, string>) => map[L] ?? map["en"] ?? "";
 
-  const descText = locale === "es"
-    ? `Entienda los Términos de Servicio de Fox IPTV Panels. Conozca el acuerdo de créditos mayoristas en ${regionName}.`
-    : `Understand the Terms of Service for using Fox IPTV Panels. Learn about wholesale credit purchases and reseller dashboard rules in ${regionName}.`;
+  const titleText = lc({
+    en: `Terms of Service — Fox IPTV Panels | Wholesale IPTV Reseller Terms in ${regionName}`,
+    "en-gb": `Terms of Service — Fox IPTV Panels | Wholesale IPTV Reseller Terms in ${regionName}`,
+    "en-au": `Terms of Service — Fox IPTV Panels | Wholesale IPTV Reseller Terms in ${regionName}`,
+    es: `Términos de Servicio — Fox IPTV Panels | Créditos Mayoristas en ${regionName}`,
+    fr: `Conditions d'Utilisation — Fox IPTV Panels | Conditions de Revente Grossiste en ${regionName}`,
+    pt: `Termos de Serviço — Fox IPTV Panels | Condições de Revenda por Grosso em ${regionName}`,
+    sv: `Användarvillkor — Fox IPTV Panels | Grossist IPTV-Återförsäljarvillkor i ${regionName}`,
+    no: `Tjenestevilkår — Fox IPTV Panels | Grossist IPTV-Forhandlervilkår i ${regionName}`,
+  });
+
+  const descText = lc({
+    en: `Understand the Terms of Service for using Fox IPTV Panels. Learn about wholesale credit purchases and reseller dashboard rules in ${regionName}.`,
+    "en-gb": `Understand the Terms of Service for using Fox IPTV Panels. Learn about wholesale credit purchases and reseller dashboard rules in ${regionName}.`,
+    "en-au": `Understand the Terms of Service for using Fox IPTV Panels. Learn about wholesale credit purchases and reseller dashboard rules in ${regionName}.`,
+    es: `Entienda los Términos de Servicio de Fox IPTV Panels. Conozca el acuerdo de créditos mayoristas en ${regionName}.`,
+    fr: `Comprenez les Conditions d'Utilisation de Fox IPTV Panels. Informez-vous sur les achats de crédits grossistes en ${regionName}.`,
+    pt: `Compreenda os Termos de Serviço da Fox IPTV Panels. Saiba sobre as compras de créditos por grosso em ${regionName}.`,
+    sv: `Förstå användarvillkoren för Fox IPTV Panels. Lär dig om grossistkreditköp i ${regionName}.`,
+    no: `Forstå tjenestevilkårene for Fox IPTV Panels. Lær om grossistkredittkjøp i ${regionName}.`,
+  });
 
   const TERMS_PAGE_SCHEMA = {
     "@context": "https://schema.org",
@@ -95,11 +114,11 @@ export default async function TermsOfServicePage({
             <nav aria-label="Breadcrumb" style={{ display: "flex", alignItems: "center", gap: 8, fontSize: "0.8rem", color: "var(--text-muted)", marginBottom: "2rem" }}>
               <Link href={`/${locale}`} style={{ color: "var(--text-muted)", textDecoration: "none" }} className="animated-underline">{n("home")}</Link>
               <span aria-hidden="true">›</span>
-              <span style={{ color: "var(--text-secondary)" }}>{locale === "es" ? "Términos de Servicio" : "Terms of Service"}</span>
+              <span style={{ color: "var(--text-secondary)" }}>{lc({ en: "Terms of Service", "en-gb": "Terms of Service", "en-au": "Terms of Service", es: "Términos de Servicio", fr: "Conditions d'Utilisation", pt: "Termos de Serviço", sv: "Användarvillkor", no: "Tjenestevilkår" })}</span>
             </nav>
 
             <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-              <div className="tag" style={{ marginBottom: "1rem" }}>{locale === "es" ? "Acuerdo y Directrices" : "Agreement & Guidelines"}</div>
+              <div className="tag" style={{ marginBottom: "1rem" }}>{lc({ en: "Agreement & Guidelines", "en-gb": "Agreement & Guidelines", "en-au": "Agreement & Guidelines", es: "Acuerdo y Directrices", fr: "Accord et Directives", pt: "Acordo e Diretrizes", sv: "Avtal och Riktlinjer", no: "Avtale og Retningslinjer" })}</div>
               <h1 style={{
                 fontFamily: "'Outfit', sans-serif",
                 fontWeight: 900,
@@ -109,16 +128,20 @@ export default async function TermsOfServicePage({
                 color: "var(--text-primary)",
                 marginBottom: "1rem"
               }}>
-                {locale === "es" ? (
-                  <>Términos de <span className="gradient-text">Servicio</span></>
-                ) : (
-                  <>Terms of <span className="gradient-text">Service</span></>
-                )}
+                {lc({ en: "Terms of", "en-gb": "Terms of", "en-au": "Terms of", es: "Términos de", fr: "Conditions d'", pt: "Termos de", sv: "Användar", no: "Tjenestevilkår" })}{" "}
+                <span className="gradient-text">{lc({ en: "Service", "en-gb": "Service", "en-au": "Service", es: "Servicio", fr: "Utilisation", pt: "Serviço", sv: "villkor", no: "" })}</span>
               </h1>
               <p style={{ fontSize: "1rem", color: "var(--text-secondary)", marginBottom: "3rem" }}>
-                {locale === "es"
-                  ? `Última actualización: 22 de mayo de 2026. Bienvenido a Fox IPTV Panels. Al comprar créditos mayoristas o utilizar nuestros paneles de marca blanca en ${regionName}, usted acepta estos términos.`
-                  : `Last Updated: May 22, 2026. Welcome to Fox IPTV Panels. By accessing our platform, purchasing wholesale credits, or utilizing our white-label dashboards in ${regionName}, you agree to comply with the following terms.`}
+                {lc({
+                  en: `Last Updated: May 22, 2026. Welcome to Fox IPTV Panels. By accessing our platform, purchasing wholesale credits, or utilizing our white-label dashboards in ${regionName}, you agree to comply with the following terms.`,
+                  "en-gb": `Last Updated: May 22, 2026. Welcome to Fox IPTV Panels. By accessing our platform, purchasing wholesale credits, or utilizing our white-label dashboards in ${regionName}, you agree to comply with the following terms.`,
+                  "en-au": `Last Updated: May 22, 2026. Welcome to Fox IPTV Panels. By accessing our platform, purchasing wholesale credits, or utilizing our white-label dashboards in ${regionName}, you agree to comply with the following terms.`,
+                  es: `Última actualización: 22 de mayo de 2026. Bienvenido a Fox IPTV Panels. Al comprar créditos mayoristas o utilizar nuestros paneles de marca blanca en ${regionName}, usted acepta estos términos.`,
+                  fr: `Dernière mise à jour : 22 mai 2026. Bienvenue sur Fox IPTV Panels. En accédant à notre plateforme ou en achetant des crédits grossistes en ${regionName}, vous acceptez ces conditions.`,
+                  pt: `Última atualização: 22 de maio de 2026. Bem-vindo à Fox IPTV Panels. Ao aceder à nossa plataforma ou adquirir créditos por grosso em ${regionName}, aceita estes termos.`,
+                  sv: `Senast uppdaterad: 22 maj 2026. Välkommen till Fox IPTV Panels. Genom att använda vår plattform eller köpa grossitkrediter i ${regionName} accepterar du dessa villkor.`,
+                  no: `Sist oppdatert: 22. mai 2026. Velkommen til Fox IPTV Panels. Ved å bruke vår plattform eller kjøpe engros-kreditter i ${regionName} godtar du disse vilkårene.`,
+                })}
               </p>
 
               {/* Glassmorphic Document Card */}
@@ -202,15 +225,13 @@ export default async function TermsOfServicePage({
 
                 <div style={{ borderTop: "1px solid var(--border-color)", paddingTop: "2.5rem" }}>
                   <h2 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--text-primary)", marginBottom: "0.75rem" }}>
-                    {locale === "es" ? "8. Consultas y Solicitudes de Soporte" : "8. Questions & Support Requests"}
+                    {lc({ en: "8. Questions & Support Requests", "en-gb": "8. Questions & Support Requests", "en-au": "8. Questions & Support Requests", es: "8. Consultas y Solicitudes de Soporte", fr: "8. Questions et Demandes de Support", pt: "8. Perguntas e Pedidos de Suporte", sv: "8. Frågor och supportbegäranden", no: "8. Spørsmål og Supportforespørsler" })}
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginBottom: "1.5rem" }}>
-                    {locale === "es"
-                      ? "Si tiene preguntas sobre estos términos, el uso de créditos o la facturación, comuníquese directamente con nuestro equipo."
-                      : "If you have questions regarding these terms, digital credit usage thresholds, or billing configurations, please reach out directly to our global onboarding desk."}
+                    {lc({ en: "If you have questions regarding these terms, digital credit usage thresholds, or billing configurations, please reach out directly to our global onboarding desk.", "en-gb": "If you have questions regarding these terms, digital credit usage thresholds, or billing configurations, please reach out directly to our global onboarding desk.", "en-au": "If you have questions regarding these terms, digital credit usage thresholds, or billing configurations, please reach out directly to our global onboarding desk.", es: "Si tiene preguntas sobre estos términos, el uso de créditos o la facturación, comúníquese directamente con nuestro equipo.", fr: "Si vous avez des questions sur ces conditions, les seuils d'utilisation des crédits ou les configurations de facturation, contactez directement notre équipe.", pt: "Se tiver perguntas sobre estes termos, limites de utilização de créditos ou configurações de faturação, contacte diretamente a nossa equipa.", sv: "Om du har frågor om dessa villkor, användningströsklar för digitala krediter eller faktureringskonfigurationer, kontakta vårt team direkt.", no: "Hvis du har spørsmål om disse vilkårene, digitale kredittterskler eller faktureringskonfigurasjoner, ta kontakt med vårt team direkte." })}
                   </p>
                   <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: "0.75rem 1.5rem", borderRadius: "10px", textDecoration: "none", display: "inline-flex", gap: "8px", alignItems: "center", fontSize: "0.875rem" }}>
-                    {locale === "es" ? "Discutir Términos por WhatsApp" : "Discuss Terms via WhatsApp"}
+                    {lc({ en: "Discuss Terms via WhatsApp", "en-gb": "Discuss Terms via WhatsApp", "en-au": "Discuss Terms via WhatsApp", es: "Discutir Términos por WhatsApp", fr: "Discuter des Conditions via WhatsApp", pt: "Discutir Termos via WhatsApp", sv: "Diskutera villkor via WhatsApp", no: "Diskuter vilkår via WhatsApp" })}
                   </a>
                 </div>
               </div>

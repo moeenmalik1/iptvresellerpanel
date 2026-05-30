@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Panel Reseller IPTV France — Meilleur Fournisseur de Panneaux IPTV en France",
-    "description": "Achetez des crédits revendeur IPTV France auprès du meilleur fournisseur en gros. Lancez votre propre entreprise IPTV en marque blanche avec Xtream Codes, M3U & MAG, 99.9% de disponibilité et streaming 4K.",
+    "title": "Panel Reseller IPTV France: Finis les Coupures & Max de Profit",
+    "description": "Marre des serveurs IPTV instables et des clients mécontents ? Obtenez le panel de revente en marque blanche le plus stable. Crédits instantanés, essais gratuits et support 24/7.",
     "keywords": "panel reseller iptv france, meilleur revendeur iptv france, acheter credits iptv en gros france, entreprise de revendeur iptv, iptv marque blanche"
   },
   "common": {
@@ -24,11 +24,13 @@
     "contact": "Contact"
   },
   "hero": {
-    "trustTag": "Approuvé par les revendeurs IPTV à Paris, Marseille, Lyon et dans toute la France",
-    "title": "Lancez votre Activité de Revendeur IPTV à Forte Marge en France",
-    "desc": "Achetez des crédits revendeur IPTV en gros de qualité supérieure. Obtenez un accès instantané à plus de 22 panneaux de revendeurs IPTV en marque blanche avec listes M3U, API Xtream Codes, serveurs 4K sans décalage et support local.",
-    "ctaPanels": "Comparer les Panneaux IPTV",
-    "ctaStart": "Commencer à Vendre en France"
+    "tag": "Le fournisseur n° 1 de panneaux de revendeur IPTV en 2026",
+    "title1": "Le meilleur fournisseur de panneaux de revendeur IPTV pour",
+    "title2": "les entreprises IPTV en forte croissance",
+    "desc": "Lancez votre activité de revendeur IPTV avec des panneaux IPTV en marque blanche premium, des crédits en gros instantanés, des serveurs stables 4K sans mise en mémoire tampon et un tableau de bord professionnel pour revendeur IPTV — prenant en charge les connexions Xtream Codes, M3U et MAG Box.",
+    "trustTag": "Approuvé par les revendeurs IPTV au Royaume-Uni, aux États-Unis et dans l'UE — lancez votre activité de revente de IPTV aujourd'hui avec zéro expérience préalable. Aucun investissement important requis.",
+    "ctaStart": "Obtenir un Panneau de Revendeur IPTV",
+    "ctaPanels": "Comparer les Panneaux IPTV 2026"
   },
   "trust": {
     "badge": "GROSSISTE 2026"
@@ -77,9 +79,26 @@
     }
   },
   "about": {
-    "title": "Le leader mondial des panneaux de revendeurs IPTV en gros",
-    "desc1": "Fox IPTV Panels est la première plateforme en marque blanche pour la distribution de crédits IPTV en France, au service de plus de 5 000 partenaires d'affaires actifs à Paris, Marseille, Lyon et dans le monde entier. Nous regroupons 22 réseaux de streaming IPTV de premier ordre au sein d'un tableau de bord unifié unique, vous permettant de lancer et de labelliser votre propre entreprise de streaming avec zéro infrastructure.",
-    "desc2": "Nos réseaux situés en Europe de l'Ouest offrent une diffusion haute définition sans décalage et optimisée pour les réseaux des principaux fournisseurs locaux (Orange, SFR, Free, Bouygues Telecom), garantissant une expérience de visionnage premium pour vos utilisateurs finaux."
+    "tag": "À Propos de Fox IPTV Panels",
+    "title1": "Qu'est-ce qu'un",
+    "title2": "panneau de revendeur IPTV",
+    "title3": "— Et comment fonctionne Fox IPTV Panels ?",
+    "desc1": "Fox IPTV Panels est un fournisseur leader de panneaux de revendeurs IPTV qui aide les entrepreneurs à lancer et à développer leur activité de revente IPTV. Nous offrons l'accès à plus de 20 panneaux IPTV premium — tous avec des tableaux de bord de revendeurs en marque blanche, des packs de crédits en gros et des serveurs IPTV à haute disponibilité optimisés pour la diffusion en 4K.",
+    "desc2": "Que vous soyez un débutant apprenant à démarrer une activité de revendeur IPTV ou un sous-revendeur IPTV expérimenté à la recherche d'un meilleur panneau de gros, notre plateforme vous donne un accès instantané aux tableaux de bord IPTV compatibles Xtream Codes et M3U, à des crédits instantanés, à des outils de gestion de la clientèle et à la prise en charge de MAG Box.",
+    "listHeader": "Nous simplifions la revente de IPTV avec :",
+    "cta": "Devenir Revendeur IPTV",
+    "feature1": "Tableau de bord de revendeur IPTV en marque blanche",
+    "feature2": "Activation instantanée des crédits",
+    "feature3": "Serveurs stables 4K & 8K sans buffering",
+    "feature4": "Système de crédits IPTV flexible",
+    "feature5": "Support dédié WhatsApp 24/7",
+    "feature6": "Plus de 20 choix de panneaux IPTV (Xtream Codes & M3U)",
+    "card1Title": "Lancement rapide — Connexion au panneau revendeur en quelques minutes",
+    "card1Desc": "Obtenez un accès instantané à votre panneau de revendeur IPTV. Créez des abonnements pour vos clients en quelques minutes après votre adhésion — aucune configuration technique requise.",
+    "card2Title": "Marges bénéficiaires élevées pour les revendeurs IPTV",
+    "card2Desc": "Achetez des crédits IPTV en gros, vendez des abonnements à vos propres tarifs et conservez l'intégralité de la marge bénéficiaire. Plus vous achetez de crédits, meilleures sont vos marges.",
+    "card3Title": "Gestion complète du tableau de bord IPTV",
+    "card3Desc": "Gérez l'ensemble des clients, crédits, abonnements d'essai et forfaits depuis un tableau de bord IPTV centralisé avec des analyses en temps réel."
   },
   "faq": {
     "title": "Foire aux questions des revendeurs de gros IPTV",

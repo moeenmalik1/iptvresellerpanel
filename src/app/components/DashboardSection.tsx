@@ -1,15 +1,10 @@
-const dashboardFeatures = [
-  { icon: "👥", label: "Subscription management" },
-  { icon: "💳", label: "Credit allocation & bulk import" },
-  { icon: "🎫", label: "Free trial generation" },
-  { icon: "📱", label: "Device & MAG box management" },
-  { icon: "📺", label: "M3U reseller panel output" },
-  { icon: "🔗", label: "Xtream Codes reseller API" },
-  { icon: "📊", label: "Real-time user activity tracking" },
-  { icon: "📦", label: "Custom package management" },
-];
+import { useLocale } from "next-intl";
+import { getSectionTranslations } from "@/app/lib/translations";
 
 export default function DashboardSection() {
+  const locale = useLocale();
+  const t = getSectionTranslations(locale).dashboardSection;
+
   return (
     <section
       id="dashboard"
@@ -39,12 +34,12 @@ export default function DashboardSection() {
 
           {/* Left: Dashboard mockup */}
           <div aria-hidden="true">
-            <DashboardFullMockup />
+            <DashboardFullMockup mockup={t.mockup} />
           </div>
 
           {/* Right: Features */}
           <div>
-            <div className="tag" style={{ marginBottom: "1.25rem" }}>IPTV Panel Management</div>
+            <div className="tag" style={{ marginBottom: "1.25rem" }}>{t.tag}</div>
             <h2 style={{
               fontFamily: "'Outfit', sans-serif",
               fontWeight: 800,
@@ -54,20 +49,17 @@ export default function DashboardSection() {
               marginBottom: "1.25rem",
               color: "var(--text-primary)",
             }}>
-              Professional{" "}
-              <span className="gradient-text">IPTV Reseller Dashboard</span> &mdash; Full Panel Control
+              {t.titleMain}
+              <span className="gradient-text">{t.titleSpan}</span>
+              {t.titleEnd}
             </h2>
 
             <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, marginBottom: "1rem" }}>
-              Your <strong style={{ color: "var(--text-primary)" }}>IPTV reseller panel login</strong> gives you
-              a full-featured white label dashboard to manage your entire IPTV reselling business.
-              Track subscriptions, allocate credits, generate free trials, and monitor every customer —
-              all from one centralized <strong style={{ color: "var(--text-primary)" }}>IPTV panel management</strong> interface.
+              {t.desc1}
             </p>
 
             <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, marginBottom: "2rem" }}>
-              Our IPTV dashboards support Xtream Codes reseller API, M3U reseller panel output,
-              and MAG box device management — covering every IPTV delivery method your customers use.
+              {t.desc2}
             </p>
 
             <div style={{
@@ -76,7 +68,7 @@ export default function DashboardSection() {
               gap: "0.75rem",
               marginBottom: "2rem",
             }}>
-              {dashboardFeatures.map((f) => (
+              {t.features.map((f) => (
                 <div key={f.label} className="glass-card" style={{
                   borderRadius: 10,
                   padding: "0.75rem 1rem",
@@ -100,10 +92,10 @@ export default function DashboardSection() {
               <div className="pulse-dot" />
               <div>
                 <div style={{ fontWeight: 700, color: "#22c55e", fontSize: "0.9rem" }}>
-                  99.9% IPTV Server Uptime Reliability
+                  {t.uptimeTitle}
                 </div>
                 <div style={{ fontSize: "0.78rem", color: "var(--text-muted)" }}>
-                  Stable servers — minimal downtime, no buffering guaranteed
+                  {t.uptimeDesc}
                 </div>
               </div>
             </div>
@@ -120,7 +112,7 @@ export default function DashboardSection() {
   );
 }
 
-function DashboardFullMockup() {
+function DashboardFullMockup({ mockup }: { mockup: any }) {
   return (
     <div style={{ position: "relative" }}>
       <div style={{
@@ -158,18 +150,18 @@ function DashboardFullMockup() {
           {/* Main content */}
           <div style={{ flex: 1, padding: "1rem", background: "rgba(8,10,18,0.7)", overflowY: "hidden" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
-              <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--text-primary)" }}>IPTV Reseller Dashboard</span>
+              <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--text-primary)" }}>{mockup.title}</span>
               <div style={{ display: "flex", gap: 6, alignItems: "center", fontSize: "0.65rem", color: "#22c55e", fontWeight: 600 }}>
                 <div style={{ width: 6, height: 6, borderRadius: "50%", background: "#22c55e" }} />
-                Live
+                {mockup.live}
               </div>
             </div>
 
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8, marginBottom: 12 }}>
               {[
-                { label: "Users", value: "2,847", delta: "+12%", color: "#8b5cf6" },
-                { label: "Credits", value: "15.4K", delta: "+5%", color: "#3b82f6" },
-                { label: "Revenue", value: "$8.9K", delta: "+18%", color: "#22c55e" },
+                { label: mockup.users, value: "2,847", delta: "+12%", color: "#8b5cf6" },
+                { label: mockup.credits, value: "15.4K", delta: "+5%", color: "#3b82f6" },
+                { label: mockup.revenue, value: "$8.9K", delta: "+18%", color: "#22c55e" },
               ].map(s => (
                 <div key={s.label} style={{
                   background: "rgba(255,255,255,0.04)", borderRadius: 8, padding: "0.6rem",
@@ -186,7 +178,7 @@ function DashboardFullMockup() {
               background: "rgba(255,255,255,0.03)", borderRadius: 8, padding: "0.75rem",
               marginBottom: 12, height: 80, position: "relative", overflow: "hidden",
             }}>
-              <div style={{ fontSize: "0.6rem", color: "var(--text-muted)", marginBottom: 8 }}>Revenue (Last 7 days)</div>
+              <div style={{ fontSize: "0.6rem", color: "var(--text-muted)", marginBottom: 8 }}>{mockup.chartLabel}</div>
               <svg viewBox="0 0 200 40" style={{ width: "100%", height: 40 }}>
                 <defs>
                   <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
@@ -210,13 +202,24 @@ function DashboardFullMockup() {
                   padding: "0.45rem 0.75rem",
                   borderBottom: i < 2 ? "1px solid rgba(255,255,255,0.04)" : "none",
                 }}>
-                  <span style={{ fontSize: "0.6rem", color: "var(--text-secondary)", fontFamily: "monospace" }}>{row.user}</span>
+                  <span style={{ fontSize: "0.65rem", color: "var(--text-secondary)", fontFamily: "monospace" }}>{row.user}</span>
                   <span style={{
                     fontSize: "0.55rem", fontWeight: 700, padding: "1px 6px", borderRadius: 3,
                     background: `${row.color}18`, color: row.color,
                   }}>{row.status}</span>
                   <span style={{ fontSize: "0.6rem", color: "var(--text-muted)" }}>{row.days}</span>
                 </div>
+              ))}
+            </div>
+
+            <div style={{ display: "flex", gap: 8, marginTop: 12 }}>
+              {[mockup.btn1, mockup.btn2, mockup.btn3].map(btn => (
+                <div key={btn} style={{
+                  flex: 1, textAlign: "center", padding: "0.4rem",
+                  background: "rgba(139,92,246,0.12)", borderRadius: 6,
+                  fontSize: "0.58rem", color: "#c4b5fd", fontWeight: 600,
+                  border: "1px solid rgba(139,92,246,0.2)",
+                }}>{btn}</div>
               ))}
             </div>
           </div>

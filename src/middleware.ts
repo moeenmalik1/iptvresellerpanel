@@ -7,8 +7,8 @@ export default createMiddleware({
   // Default fallback locale
   defaultLocale: "en",
   
-  // Disabled to ensure search engines crawl specific geo-paths accurately without redirecting
-  localeDetection: false,
+  // Enabled to automatically redirect users based on their browser language / location
+  localeDetection: true,
 });
 
 export const config = {

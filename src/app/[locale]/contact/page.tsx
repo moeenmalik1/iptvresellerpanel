@@ -3,7 +3,7 @@ import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import ContactClient from "./ContactClient";
 import { getLocalizedPricing } from "@/app/lib/pricing";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export function generateStaticParams() {
   return [
@@ -24,6 +24,8 @@ export default async function ContactPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
+
   const t = await getTranslations({ locale, namespace: "meta" });
   const c = await getTranslations({ locale, namespace: "common" });
 

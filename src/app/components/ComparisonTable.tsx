@@ -1,18 +1,10 @@
-"use client";
-
 import Link from "next/link";
 import { useLocale } from "next-intl";
-
-const comparisons = [
-  { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "4K/8K", support: "24/7", dashboard: "Advanced", bestFor: "Premium Resellers", badge: "Top Pick" },
-  { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "4K", support: "Fast", dashboard: "Beginner Friendly", bestFor: "New IPTV Resellers", badge: "Best for Starters" },
-  { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Full HD/4K", support: "24/7", dashboard: "Professional", bestFor: "Growing Businesses", badge: "" },
-  { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "4K", support: "Fast", dashboard: "Modern", bestFor: "Bulk / Wholesale Resellers", badge: "" },
-  { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "4K", support: "24/7", dashboard: "Advanced", bestFor: "Large IPTV Businesses", badge: "" },
-];
+import { getSectionTranslations } from "@/app/lib/translations";
 
 export default function ComparisonTable() {
   const locale = useLocale();
+  const t = getSectionTranslations(locale).comparisonTable;
 
   return (
     <section
@@ -26,7 +18,7 @@ export default function ComparisonTable() {
       <div className="section-container">
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "3.5rem" }}>
-          <div className="tag" style={{ marginBottom: "1rem" }}>IPTV Panel Comparison 2026</div>
+          <div className="tag" style={{ marginBottom: "1rem" }}>{t.tag}</div>
           <h2 style={{
             fontFamily: "'Outfit', sans-serif",
             fontWeight: 800,
@@ -36,14 +28,11 @@ export default function ComparisonTable() {
             color: "var(--text-primary)",
             marginBottom: "1rem",
           }}>
-            IPTV Reseller Panel{" "}
-            <span className="gradient-text">Comparison 2026</span>
+            {t.titleMain}
+            <span className="gradient-text">{t.titleSpan}</span>
           </h2>
           <p style={{ color: "var(--text-secondary)", fontSize: "1rem", maxWidth: 620, margin: "0 auto" }}>
-            Compare the best IPTV reseller panels for 2026 — streaming quality, uptime reliability,
-            dashboard features, and reseller flexibility to find your ideal IPTV panel match.
-            Whether you need the <strong style={{ color: "var(--text-primary)" }}>cheapest IPTV reseller panel</strong> or
-            the most advanced white label IPTV dashboard, we have it.
+            {t.desc}
           </p>
         </div>
 
@@ -56,15 +45,15 @@ export default function ComparisonTable() {
               </caption>
               <thead>
                 <tr style={{ background: "rgba(139,92,246,0.08)" }}>
-                  <th scope="col">IPTV Panel</th>
-                  <th scope="col">Streaming Quality</th>
-                  <th scope="col">Support</th>
-                  <th scope="col">Dashboard</th>
-                  <th scope="col">Best For</th>
+                  <th scope="col">{t.cols.panel}</th>
+                  <th scope="col">{t.cols.quality}</th>
+                  <th scope="col">{t.cols.support}</th>
+                  <th scope="col">{t.cols.dashboard}</th>
+                  <th scope="col">{t.cols.bestFor}</th>
                 </tr>
               </thead>
               <tbody>
-                {comparisons.map((row) => (
+                {t.rows.map((row) => (
                   <tr key={row.panel}>
                     <td>
                       <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
@@ -135,7 +124,7 @@ export default function ComparisonTable() {
               position: "relative", overflow: "hidden",
             }}
           >
-            Full IPTV Panel Comparison 2026
+            {t.cta}
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <polyline points="9,18 15,12 9,6"/>
             </svg>

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Painel Reseller IPTV Portugal — Melhor Fornecedor de Painéis IPTV em Portugal",
-    "description": "Compre créditos de revendedor IPTV Portugal com o melhor fornecedor grossista. Inicie o seu negócio IPTV em marca branca com Xtream Codes, M3U & MAG, 99.9% de uptime e streaming 4K.",
+    "title": "Painel Reseller IPTV Portugal: Sem Travamentos e Lucro Máximo",
+    "description": "Cansado de travar e perder clientes de IPTV? Tenha o painel de revendedor em marca branca mais estável de Portugal. Créditos na hora, testes grátis e suporte 24/7.",
     "keywords": "painel reseller iptv portugal, melhor revendedor iptv portugal, comprar creditos iptv ao por maior portugal, negocio de revendedor iptv, iptv marca branca"
   },
   "common": {
@@ -24,11 +24,13 @@
     "contact": "Contacto"
   },
   "hero": {
-    "trustTag": "Confiado por revendedores de IPTV em Lisboa, Porto, Braga e em todo o Portugal",
-    "title": "Inicie o seu Negócio de Revendedor de IPTV de Alta Rentabilidade em Portugal",
-    "desc": "Compre créditos de revendedor de IPTV por atacado de alta qualidade. Obtenha acesso imediato a mais de 22 painéis de revendedores de IPTV em marca branca com listas M3U, APIs Xtream Codes, servidores 4K estáveis e suporte local.",
-    "ctaPanels": "Comparar Painéis IPTV",
-    "ctaStart": "Começar a Vender em Portugal"
+    "tag": "O provedor líder de painéis de revenda de IPTV em 2026",
+    "title1": "O melhor provedor de painéis de revenda de IPTV para",
+    "title2": "empresas de IPTV em rápido crescimento",
+    "desc": "Inicie o seu negócio de revendedor de IPTV com painéis de IPTV de marca branca premium, créditos instantâneos em lote, servidores estáveis em 4K sem buffering e um painel profissional de revendedor de IPTV — compatível com conexões Xtream Codes, M3U e MAG Box.",
+    "trustTag": "Confiado por revendedores de IPTV no Reino Unido, EUA e UE — inicie o seu negócio de revenda de IPTV hoje mesmo com zero experiência anterior. Sem necessidade de grandes investimentos.",
+    "ctaStart": "Obter Painel de Revendedor de IPTV",
+    "ctaPanels": "Comparar Painéis IPTV 2026"
   },
   "trust": {
     "badge": "GROSSISTA 2026"
@@ -77,9 +79,26 @@
     }
   },
   "about": {
-    "title": "O líder mundial em painéis de revendedores de IPTV por atacado",
-    "desc1": "Fox IPTV Panels é a plataforma de marca branca líder para distribuição de créditos IPTV em Portugal, servindo mais de 5.000 parceiros ativos em Lisboa, Porto, Coimbra e mundialmente. Consolidamos 22 redes de streaming IPTV de primeira linha em um único painel unificado, permitindo-lhe iniciar e personalizar o seu próprio negócio com zero infraestruturas.",
-    "desc2": "As nossas redes na Europa Ocidental fornecem streaming de alta definição sem travamentos e otimizado para os principais fornecedores de telecomunicações locais (MEO, NOS, Vodafone PT), garantindo uma experiência premium para os utilizadores finais."
+    "tag": "Sobre a Fox IPTV Panels",
+    "title1": "O que é um",
+    "title2": "painel de revendedor de IPTV",
+    "title3": "— E como funciona a Fox IPTV Panels?",
+    "desc1": "A Fox IPTV Panels é um fornecedor líder de painéis de revendedores de IPTV que ajuda os empreendedores a iniciar e expandir o seu negócio de revenda de IPTV. Oferecemos acesso a mais de 20 painéis de IPTV premium — todos com painéis de controlo de revendedores em marca branca, pacotes de créditos em lote e servidores de IPTV com elevado tempo de atividade e otimizados para streaming em 4K.",
+    "desc2": "Quer seja um principiante a aprender a iniciar um negócio de revendedor de IPTV ou um sub-revendedor de IPTV experiente à procura de um melhor painel grossista, a nossa plataforma dá-lhe acesso imediato a painéis de controlo de IPTV compatíveis com Xtream Codes e M3U, créditos instantâneos, ferramentas de gestão de clientes e suporte para MAG Box.",
+    "listHeader": "Simplificamos a revenda de IPTV com:",
+    "cta": "Torne-se Revendedor de IPTV",
+    "feature1": "Painel de controlo de revendedor de IPTV em marca branca",
+    "feature2": "Ativação instantânea de créditos",
+    "feature3": "Servidores estáveis em 4K & 8K sem buffering",
+    "feature4": "Sistema flexível de créditos de IPTV",
+    "feature5": "Suporte dedicado via WhatsApp 24/7",
+    "feature6": "Mais de 20 opções de painéis IPTV (Xtream Codes & M3U)",
+    "card1Title": "Lançamento Rápido — Início de sessão no painel de revendedor em minutos",
+    "card1Desc": "Obtenha acesso instantâneo ao seu painel de revendedor de IPTV. Crie subscrições para clientes em poucos minutos após a adesão — sem necessidade de configuração técnica.",
+    "card2Title": "Margens de Lucro Elevadas para Revendedores de IPTV",
+    "card2Desc": "Compre créditos de IPTV por atacado, venda subscrições aos seus próprios preços e fique com toda a margem de lucro. Quanto mais créditos comprar, melhores serão as suas margens.",
+    "card3Title": "Gestão Completa do Painel de Controlo de IPTV",
+    "card3Desc": "Gira todos os clientes, créditos, subscrições de teste e pacotes a partir de um painel de controlo de IPTV centralizado com análises em tempo real."
   },
   "faq": {
     "title": "Perguntas frequentes sobre revenda grossista de IPTV",

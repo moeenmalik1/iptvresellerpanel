@@ -1,8 +1,12 @@
 import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
 
 const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
 
 export default function HeroSection() {
+  const t = useTranslations("hero");
+  const locale = useLocale();
+
   return (
     <section
       id="hero"
@@ -27,7 +31,7 @@ export default function HeroSection() {
 
           <div className="tag fade-in-up" style={{ marginBottom: "1.5rem", animationDelay: "0.1s" }}>
             <span>🦊</span>
-            #1 IPTV Reseller Panel Provider 2026
+            {t("tag")}
           </div>
 
           {/* H1 — Primary keyword first, NLP enriched */}
@@ -44,8 +48,8 @@ export default function HeroSection() {
               animationDelay: "0.2s",
             }}
           >
-            Best IPTV Reseller Panel Provider For{" "}
-            <span className="gradient-text">Fast-Growing IPTV Businesses</span>
+            {t("title1")}{" "}
+            <span className="gradient-text">{t("title2")}</span>
           </h1>
 
           {/* Body — LSI + NLP + long-tail keywords naturally embedded */}
@@ -60,10 +64,7 @@ export default function HeroSection() {
               animationDelay: "0.3s",
             }}
           >
-            Launch your <strong style={{ color: "var(--text-primary)" }}>IPTV reseller business</strong> with
-            premium white label IPTV panels, instant bulk credits, stable 4K no-buffering servers,
-            and a professional <strong style={{ color: "var(--text-primary)" }}>IPTV reseller dashboard</strong> —
-            supporting Xtream Codes, M3U, and MAG Box connections.
+            {t("desc")}
           </p>
           <p
             className="fade-in-up"
@@ -76,9 +77,7 @@ export default function HeroSection() {
               animationDelay: "0.35s",
             }}
           >
-            Trusted by IPTV resellers in the{" "}
-            <strong style={{ color: "var(--text-secondary)" }}>UK, USA &amp; the EU</strong> — start your
-            IPTV reselling business today with zero prior experience. No large investment required.
+            {t("trustTag")}
           </p>
 
           {/* CTAs */}
@@ -100,10 +99,10 @@ export default function HeroSection() {
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
               </svg>
-              Get IPTV Reseller Panel
+              {t("ctaStart")}
             </a>
             <Link
-              href="/comparisons"
+              href={`/${locale}/comparisons`}
               id="hero-secondary-cta"
               className="btn-secondary"
               aria-label="Compare best IPTV reseller panels for 2026"
@@ -113,14 +112,12 @@ export default function HeroSection() {
                 textDecoration: "none", fontSize: "1rem",
               }}
             >
-              Compare IPTV Panels 2026
+              {t("ctaPanels")}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <polyline points="9,18 15,12 9,6"/>
               </svg>
             </Link>
           </div>
-
-
         </div>
 
         {/* Dashboard mockup */}

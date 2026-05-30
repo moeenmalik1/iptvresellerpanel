@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Header from "@/app/components/Header";
 import HeroSection from "@/app/components/HeroSection";
 import TrustBar from "@/app/components/TrustBar";
@@ -15,9 +15,16 @@ import FAQSection from "@/app/components/FAQSection";
 import CTASection from "@/app/components/CTASection";
 import Footer from "@/app/components/Footer";
 
-export default function HomePage() {
-  const t = useTranslations("meta");
-  const c = useTranslations("common");
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  const t = await getTranslations({ locale, namespace: "meta" });
+  const c = await getTranslations({ locale, namespace: "common" });
 
   const WHATSAPP_URL = c("whatsappUrl");
 

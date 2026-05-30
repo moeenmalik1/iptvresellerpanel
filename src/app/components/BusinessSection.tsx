@@ -1,42 +1,12 @@
+import { useLocale } from "next-intl";
+import { getSectionTranslations } from "@/app/lib/translations";
+
 const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
 
-const controls = [
-  "Your own subscription pricing",
-  "Customer & trial management",
-  "Device & MAG box support",
-  "Xtream Codes & M3U output",
-  "Monthly profit margins",
-  "Bulk credit allocation",
-];
-
-const steps = [
-  {
-    step: "01",
-    title: "Buy IPTV Reseller Credits in Bulk",
-    desc: "Purchase a wholesale IPTV credit package. Start small with a starter bundle or go big for maximum reseller profit margins. No large upfront investment required.",
-    icon: "💳",
-  },
-  {
-    step: "02",
-    title: "Create Customer Subscriptions",
-    desc: "Use your IPTV credits to activate subscriptions for end customers via your reseller dashboard. Set your own pricing per subscription period.",
-    icon: "👥",
-  },
-  {
-    step: "03",
-    title: "Manage Users From Your IPTV Dashboard",
-    desc: "Track active users, trial subscriptions, expiring credits, and revenue in real time from your white label IPTV reseller panel login.",
-    icon: "📊",
-  },
-  {
-    step: "04",
-    title: "Grow Recurring Monthly Income",
-    desc: "As customers renew, your IPTV reselling business grows passively with compounding monthly revenue — the most scalable IPTV business model.",
-    icon: "📈",
-  },
-];
-
 export default function BusinessSection() {
+  const locale = useLocale();
+  const t = getSectionTranslations(locale).businessSection;
+
   return (
     <section
       id="business-model"
@@ -65,7 +35,7 @@ export default function BusinessSection() {
 
           {/* Left */}
           <div>
-            <div className="tag" style={{ marginBottom: "1.25rem" }}>IPTV Credit System Explained</div>
+            <div className="tag" style={{ marginBottom: "1.25rem" }}>{t.tag}</div>
             <h2 style={{
               fontFamily: "'Outfit', sans-serif",
               fontWeight: 800,
@@ -75,36 +45,27 @@ export default function BusinessSection() {
               marginBottom: "1.5rem",
               color: "var(--text-primary)",
             }}>
-              How the IPTV Reseller{" "}
-              <span className="gradient-text">Business Credit System Works</span>
+              {t.titleMain}
+              <span className="gradient-text">{t.titleSpan}</span>
             </h2>
 
             <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
-              The <strong style={{ color: "var(--text-primary)" }}>IPTV reseller business</strong> runs on a
-              credit-based system. You purchase{" "}
-              <strong style={{ color: "var(--text-primary)" }}>IPTV reseller credits</strong> in bulk from
-              a wholesale IPTV panel provider — then convert each credit into an IPTV subscription
-              for your customers at your chosen price point.
+              {t.desc1}
             </p>
 
             <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, marginBottom: "1rem" }}>
-              Fox IPTV Panels is the easiest way to{" "}
-              <strong style={{ color: "var(--text-primary)" }}>become an IPTV reseller</strong> without investment
-              in servers or infrastructure. We handle the technical side — you focus on sales and growing
-              your customer base in the UK, USA, EU, or anywhere globally.
+              {t.desc2}
             </p>
 
             <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, marginBottom: "1.5rem" }}>
-              Unlike a standard IPTV subscription (end-user), an{" "}
-              <strong style={{ color: "var(--text-primary)" }}>IPTV reseller panel</strong> gives you
-              full control over pricing, packages, and customer accounts — turning you into the provider.
+              {t.desc3}
             </p>
 
             <p style={{ fontWeight: 600, color: "var(--text-primary)", marginBottom: "1rem" }}>
-              As an IPTV reseller, you control:
+              {t.controlLabel}
             </p>
             <ul className="check-list" style={{ marginBottom: "2rem" }}>
-              {controls.map(c => <li key={c}>{c}</li>)}
+              {t.controls.map(c => <li key={c}>{c}</li>)}
             </ul>
 
             <a
@@ -121,7 +82,7 @@ export default function BusinessSection() {
                 position: "relative", overflow: "hidden",
               }}
             >
-              Start IPTV Reseller Business
+              {t.cta}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <polyline points="9,18 15,12 9,6"/>
               </svg>
@@ -130,7 +91,7 @@ export default function BusinessSection() {
 
           {/* Right: Steps */}
           <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
-            {steps.map((step, i) => (
+            {t.steps.map((step, i) => (
               <div key={step.step} style={{ display: "flex", gap: "1.25rem", alignItems: "flex-start" }}>
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", flexShrink: 0 }}>
                   <div style={{
@@ -142,7 +103,7 @@ export default function BusinessSection() {
                   }} aria-hidden="true">
                     {step.icon}
                   </div>
-                  {i < steps.length - 1 && (
+                  {i < t.steps.length - 1 && (
                     <div style={{
                       width: 2, height: 40, marginTop: 8,
                       background: "linear-gradient(180deg, rgba(139,92,246,0.4), transparent)",

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "IPTV Reseller Panel Sverige — Bästa Leverantör av IPTV-paneler i Sverige",
-    "description": "Köp svenska IPTV-reseller-krediter från den bästa grossistleverantören i Sverige. Starta din IPTV-verksamhet under eget varumärke (white label) med Xtream Codes, M3U och 99.9% drifttid.",
+    "title": "IPTV Reseller Panel Sverige: Ingen Buffring & Max Vinst",
+    "description": "Trött på buffrande servrar och arga IPTV-kunder? Få den mest stabila white-label återförsäljarpanelen. Snabba krediter, gratis provkonton & support dygnet runt.",
     "keywords": "iptv reseller panel sverige, bästa återförsäljare iptv sverige, köpa iptv krediter grossist sverige, återförsäljare iptv, white label iptv"
   },
   "common": {
@@ -24,11 +24,13 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "trustTag": "Betrodd av IPTV-återförsäljare i Stockholm, Göteborg, Malmö och hela Sverige",
-    "title": "Starta din IPTV-återförsäljarverksamhet med hög marginal i Sverige",
-    "desc": "Köp förstklassiga grossistkrediter för IPTV-återförsäljare. Få omedelbar tillgång till 22+ premium återförsäljarpaneler (white label) med M3U-spellistor, Xtream Codes API:er, stabila 4K-servrar och lokal support.",
-    "ctaPanels": "Jämför IPTV Paneler",
-    "ctaStart": "Börja Sälja i Sverige"
+    "tag": "#1 IPTV-återförsäljarpanel-leverantör 2026",
+    "title1": "Bästa leverantör av IPTV-återförsäljarpanel för",
+    "title2": "snabbt växande IPTV-företag",
+    "desc": "Starta ditt IPTV-återförsäljarföretag med förstklassiga IPTV-paneler under eget varumärke (white label), omedelbara bulk-krediter, stabila 4K-servrar utan buffring och en professionell IPTV-återförsäljarpanel — med stöd för Xtream Codes, M3U och MAG Box-anslutningar.",
+    "trustTag": "Betrodd av IPTV-återförsäljare i Storbritannien, USA och EU — starta din IPTV-återförsäljarverksamhet idag med noll tidigare erfarenhet. Ingen stor investering krävs.",
+    "ctaStart": "Skaffa IPTV-återförsäljarpanel",
+    "ctaPanels": "Jämför IPTV-paneler 2026"
   },
   "trust": {
     "badge": "2026 SVENSK GROSSIST"
@@ -77,9 +79,26 @@
     }
   },
   "about": {
-    "title": "Världsledande inom grossistpaneler för IPTV-återförsäljare",
-    "desc1": "Fox IPTV Panels är den ledande white label-plattformen för distribution av IPTV-krediter i Sverige, och betjänar över 5 000 aktiva partners i Stockholm, Göteborg, Malmö och globalt. Vi konsoliderar 22 förstklassiga IPTV-strömningsnätverk under ett enda enhetligt kontrollpanelssystem, vilket gör att du kan starta din egen verksamhet utan bakomliggande teknisk infrastruktur.",
-    "desc2": "Våra nätverk i Västeuropa levererar laggfri, högupplöst strömning optimerad för stora lokala svenska leverantörer som Telia, Tele2, Telenor och Tre, vilket garanterar en förstklassig tittarupplevelse för dina slutanvändare."
+    "tag": "Om Fox IPTV Panels",
+    "title1": "Vad är en",
+    "title2": "IPTV-återförsäljarpanel",
+    "title3": "— och hur fungerar Fox IPTV Panels?",
+    "desc1": "Fox IPTV Panels är en ledande leverantör av IPTV-återförsäljarpaneler som hjälper entreprenörer att starta och skala upp sin återförsäljarverksamhet. Vi erbjuder tillgång till 20+ förstklassiga IPTV-paneler — alla med anpassningsbara kontrollpaneler under eget varumärke (white label), bulk-kreditpaket och stabila IPTV-servrar optimerade för 4K-strömning.",
+    "desc2": "Oavsett om du är en nybörjare som lär dig hur man startar en IPTV-återförsäljarverksamhet eller en erfaren underåterförsäljare som letar efter en bättre grossistpanel — ger vår plattform dig omedelbar tillgång till Xtream Codes- och M3U-kompatibla kontrollpaneler, omedelbara krediter, kundhanteringsverktyg och MAG Box-stöd.",
+    "listHeader": "Vi förenklar IPTV-återförsäljning med:",
+    "cta": "Bli en IPTV-återförsäljare",
+    "feature1": "Kontrollpanel under eget varumärke (white label)",
+    "feature2": "Omedelbar kreditaktivering",
+    "feature3": "Stabila 4K- och 8K-servrar utan buffring",
+    "feature4": "Flexibelt IPTV-kreditsystem",
+    "feature5": "Dedikerad WhatsApp-support 24/7",
+    "feature6": "20+ IPTV-panelalternativ (Xtream Codes & M3U)",
+    "card1Title": "Kom igång snabbt — Inloggning till panelen på några minuter",
+    "card1Desc": "Få omedelbar tillgång till din IPTV-återförsäljarpanel. Skapa abonnemang för kunder inom några minuter efter att du gått med — ingen teknisk installation krävs.",
+    "card2Title": "Höga vinstmarginaler för IPTV-återförsäljare",
+    "card2Desc": "Köp grossistkrediter i bulk, sälj abonnemang till dina egna priser och behåll hela vinstmarginalen. Ju fler krediter du köper, desto bättre marginaler.",
+    "card3Title": "Fullständig hantering av kontrollpanelen",
+    "card3Desc": "Hantera alla kunder, krediter, testabonnemang och paket från en centraliserad IPTV-återförsäljarpanel med realtidsanalys."
   },
   "faq": {
     "title": "Vanliga frågor om grossistverksamhet för IPTV",

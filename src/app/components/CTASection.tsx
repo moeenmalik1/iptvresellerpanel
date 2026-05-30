@@ -1,8 +1,13 @@
 import Link from "next/link";
+import { useLocale } from "next-intl";
+import { getSectionTranslations } from "@/app/lib/translations";
 
 const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
 
 export default function CTASection() {
+  const locale = useLocale();
+  const t = getSectionTranslations(locale).ctaSection;
+
   return (
     <section
       id="final-cta"
@@ -40,7 +45,7 @@ export default function CTASection() {
 
         <div style={{ position: "relative" }}>
           <div className="tag" style={{ marginBottom: "1.5rem", display: "inline-flex" }}>
-            🚀 Start Your IPTV Reseller Business Today
+            {t.tag}
           </div>
 
           <h2 style={{
@@ -52,8 +57,8 @@ export default function CTASection() {
             color: "var(--text-primary)",
             marginBottom: "1.25rem",
           }}>
-            Become an IPTV Reseller —{" "}
-            <span className="gradient-text">Get Your Panel &amp; Credits Today</span>
+            {t.titleMain}
+            <span className="gradient-text">{t.titleSpan}</span>
           </h2>
 
           <p style={{
@@ -63,9 +68,7 @@ export default function CTASection() {
             maxWidth: 660,
             margin: "0 auto 1rem",
           }}>
-            Get access to the best IPTV reseller panels, buy instant reseller credits,
-            and launch your IPTV reselling business with{" "}
-            <strong style={{ color: "var(--text-primary)" }}>24/7 WhatsApp support</strong>.
+            {t.desc1}
           </p>
 
           <p style={{
@@ -75,9 +78,7 @@ export default function CTASection() {
             maxWidth: 560,
             margin: "0 auto 3rem",
           }}>
-            Serving IPTV resellers in the <strong style={{ color: "var(--text-secondary)" }}>UK, USA &amp; EU</strong> —
-            no buffering, no downtime. IPTV reseller panel free trial available.
-            Start within minutes with zero technical setup.
+            {t.desc2}
           </p>
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", justifyContent: "center" }}>
@@ -98,11 +99,11 @@ export default function CTASection() {
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
               </svg>
-              Start Reselling on WhatsApp
+              {t.btnPrimary}
             </a>
 
             <Link
-              href="/comparisons"
+              href={`/${locale}/comparisons`}
               id="final-compare-cta"
               className="btn-secondary"
               aria-label="Compare IPTV reseller panels — find the best IPTV panel for 2026"
@@ -112,7 +113,7 @@ export default function CTASection() {
                 textDecoration: "none", fontSize: "1.05rem",
               }}
             >
-              Compare IPTV Panels 2026
+              {t.btnSecondary}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <polyline points="9,18 15,12 9,6"/>
               </svg>
@@ -124,14 +125,7 @@ export default function CTASection() {
             display: "flex", flexWrap: "wrap", gap: "1rem", justifyContent: "center",
             marginTop: "3rem",
           }}>
-            {[
-              { icon: "🔒", text: "Secure & Trusted" },
-              { icon: "⚡", text: "Instant Credit Activation" },
-              { icon: "💬", text: "24/7 WhatsApp Support" },
-              { icon: "🌍", text: "UK, USA & EU" },
-              { icon: "🎬", text: "4K No Buffering" },
-              { icon: "🆓", text: "Free Trial Available" },
-            ].map(b => (
+            {t.badges.map(b => (
               <div key={b.text} style={{
                 display: "flex", alignItems: "center", gap: 8,
                 padding: "0.5rem 1rem",

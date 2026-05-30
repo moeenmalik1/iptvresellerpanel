@@ -1,43 +1,10 @@
-const features = [
-  {
-    icon: "⚡",
-    title: "Instant IPTV Reseller Credits",
-    desc: "Buy IPTV reseller credits instantly after approval. Bulk credit packages available for all business sizes — from starter to wholesale volume.",
-    color: "#f59e0b",
-  },
-  {
-    icon: "📡",
-    title: "4K IPTV Servers — No Buffering",
-    desc: "Access stable IPTV servers with 99.9% uptime, engineered for 4K and 8K no-buffering streaming. Best-in-class IPTV server uptime reliability.",
-    color: "#8b5cf6",
-  },
-  {
-    icon: "📺",
-    title: "20+ White Label IPTV Panels",
-    desc: "Choose from leading IPTV reseller dashboards — Strong 4K, Lion OTT, Mega OTT, Crystal, Nexon, and more. Xtream Codes, M3U & MAG box supported.",
-    color: "#3b82f6",
-  },
-  {
-    icon: "💰",
-    title: "High IPTV Reseller Profit Margin",
-    desc: "Control your own pricing, customer packages, and subscription plans. The IPTV credit system ensures predictable costs and maximized margins.",
-    color: "#22c55e",
-  },
-  {
-    icon: "🖥️",
-    title: "Professional IPTV Dashboard Management",
-    desc: "Manage users, credits, subscriptions, trials, and devices from a modern IPTV reseller panel — with real-time analytics and bulk import tools.",
-    color: "#06b6d4",
-  },
-  {
-    icon: "💬",
-    title: "24/7 WhatsApp Reseller Support",
-    desc: "Fast reseller assistance, technical panel guidance, and personalized IPTV reseller onboarding support — available around the clock via WhatsApp.",
-    color: "#ec4899",
-  },
-];
+import { useLocale } from "next-intl";
+import { getSectionTranslations } from "@/app/lib/translations";
 
 export default function FeaturesSection() {
+  const locale = useLocale();
+  const t = getSectionTranslations(locale).featuresSection;
+
   return (
     <section
       id="features"
@@ -51,7 +18,7 @@ export default function FeaturesSection() {
       <div className="section-container">
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "3.5rem" }}>
-          <div className="tag" style={{ marginBottom: "1rem" }}>Why Fox IPTV Panels</div>
+          <div className="tag" style={{ marginBottom: "1rem" }}>{t.tag}</div>
           <h2 style={{
             fontFamily: "'Outfit', sans-serif",
             fontWeight: 800,
@@ -61,12 +28,12 @@ export default function FeaturesSection() {
             color: "var(--text-primary)",
             marginBottom: "1rem",
           }}>
-            Why IPTV Resellers Choose{" "}
-            <span className="gradient-text">Fox IPTV Panels</span> in 2026
+            {t.titleMain}
+            <span className="gradient-text">{t.titleSpan}</span>
+            {t.titleEnd}
           </h2>
           <p style={{ color: "var(--text-secondary)", fontSize: "1.05rem", maxWidth: 580, margin: "0 auto" }}>
-            Everything you need to launch and scale a profitable IPTV reselling business —
-            from cheapest IPTV reseller panel access to enterprise-grade wholesale panel management.
+            {t.desc}
           </p>
         </div>
 
@@ -76,7 +43,7 @@ export default function FeaturesSection() {
           gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
           gap: "1.25rem",
         }}>
-          {features.map((feature) => (
+          {t.items.map((feature) => (
             <article
               key={feature.title}
               className="glass-card"

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
-import { useTranslations } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export function generateStaticParams() {
   return [
@@ -22,20 +22,39 @@ export default async function PrivacyPolicyPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = useTranslations("meta");
-  const c = useTranslations("common");
-  const n = useTranslations("nav");
+  setRequestLocale(locale);
+
+  const t = await getTranslations({ locale, namespace: "meta" });
+  const c = await getTranslations({ locale, namespace: "common" });
+  const n = await getTranslations({ locale, namespace: "nav" });
 
   const WHATSAPP_URL = c("whatsappUrl");
   const regionName = c("regionName");
 
-  const titleText = locale === "es" 
-    ? `Política de Privacidad — Fox IPTV Panels | Proveedor de Créditos IPTV en ${regionName}`
-    : `Privacy Policy — Fox IPTV Panels | Premium IPTV Reseller Panel Supplier in ${regionName}`;
+  const L = locale as string;
+  const lc = (map: Record<string, string>) => map[L] ?? map["en"] ?? "";
 
-  const descText = locale === "es"
-    ? `Lea la Política de Privacidad de Fox IPTV Panels. Conozca cómo protegemos sus datos de revendedor mayorista en ${regionName}.`
-    : `Read the Privacy Policy for Fox IPTV Panels. Learn how we handle your registration details, cookies, and panel credit purchases in ${regionName}.`;
+  const titleText = lc({
+    en: `Privacy Policy — Fox IPTV Panels | Premium IPTV Reseller Panel Supplier in ${regionName}`,
+    "en-gb": `Privacy Policy — Fox IPTV Panels | Premium IPTV Reseller Panel Supplier in ${regionName}`,
+    "en-au": `Privacy Policy — Fox IPTV Panels | Premium IPTV Reseller Panel Supplier in ${regionName}`,
+    es: `Política de Privacidad — Fox IPTV Panels | Proveedor de Créditos IPTV en ${regionName}`,
+    fr: `Politique de Confidentialité — Fox IPTV Panels | Fournisseur de Panneaux IPTV Revendeur en ${regionName}`,
+    pt: `Política de Privacidade — Fox IPTV Panels | Fornecedor de Painéis IPTV Revendedor em ${regionName}`,
+    sv: `Integritetspolicy — Fox IPTV Panels | Leverantör av IPTV-Återförsäljarpaneler i ${regionName}`,
+    no: `Personvernpolicy — Fox IPTV Panels | Leverandør av IPTV-Forhandlerpaneler i ${regionName}`,
+  });
+
+  const descText = lc({
+    en: `Read the Privacy Policy for Fox IPTV Panels. Learn how we handle your registration details, cookies, and panel credit purchases in ${regionName}.`,
+    "en-gb": `Read the Privacy Policy for Fox IPTV Panels. Learn how we handle your registration details, cookies, and panel credit purchases in ${regionName}.`,
+    "en-au": `Read the Privacy Policy for Fox IPTV Panels. Learn how we handle your registration details, cookies, and panel credit purchases in ${regionName}.`,
+    es: `Lea la Política de Privacidad de Fox IPTV Panels. Conozca cómo protegemos sus datos de revendedor mayorista en ${regionName}.`,
+    fr: `Lisez la Politique de Confidentialité de Fox IPTV Panels. Découvrez comment nous gérons vos données en ${regionName}.`,
+    pt: `Leia a Política de Privacidade da Fox IPTV Panels. Saiba como tratamos os seus dados de revendedor em ${regionName}.`,
+    sv: `Läs integritetspolicyn för Fox IPTV Panels. Erfahren Sie, wie wir Ihre Händlerdaten in ${regionName} handhaben.`,
+    no: `Les personvernpolicyen for Fox IPTV Panels. Finn ut hvordan vi håndterer dine forhandlerdata i ${regionName}.`,
+  });
 
   const PRIVACY_PAGE_SCHEMA = {
     "@context": "https://schema.org",
@@ -78,11 +97,11 @@ export default async function PrivacyPolicyPage({
             <nav aria-label="Breadcrumb" style={{ display: "flex", alignItems: "center", gap: 8, fontSize: "0.8rem", color: "var(--text-muted)", marginBottom: "2rem" }}>
               <Link href={`/${locale}`} style={{ color: "var(--text-muted)", textDecoration: "none" }} className="animated-underline">{n("home")}</Link>
               <span aria-hidden="true">›</span>
-              <span style={{ color: "var(--text-secondary)" }}>{locale === "es" ? "Política de Privacidad" : "Privacy Policy"}</span>
+              <span style={{ color: "var(--text-secondary)" }}>{lc({ en: "Privacy Policy", "en-gb": "Privacy Policy", "en-au": "Privacy Policy", es: "Política de Privacidad", fr: "Politique de Confidentialité", pt: "Política de Privacidade", sv: "Integritetspolicy", no: "Personvernpolicy" })}</span>
             </nav>
 
             <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-              <div className="tag" style={{ marginBottom: "1rem" }}>{locale === "es" ? "Cumplimiento y Protección" : "Compliance & Protection"}</div>
+              <div className="tag" style={{ marginBottom: "1rem" }}>{lc({ en: "Compliance & Protection", "en-gb": "Compliance & Protection", "en-au": "Compliance & Protection", es: "Cumplimiento y Protección", fr: "Conformité et Protection", pt: "Conformidade e Proteção", sv: "Regelefterlevnad och Skydd", no: "Samsvar og Beskyttelse" })}</div>
               <h1 style={{
                 fontFamily: "'Outfit', sans-serif",
                 fontWeight: 900,
@@ -92,16 +111,20 @@ export default async function PrivacyPolicyPage({
                 color: "var(--text-primary)",
                 marginBottom: "1rem"
               }}>
-                {locale === "es" ? (
-                  <>Política de <span className="gradient-text">Privacidad</span></>
-                ) : (
-                  <>Privacy <span className="gradient-text">Policy</span></>
-                )}
+                {lc({ en: "Privacy", "en-gb": "Privacy", "en-au": "Privacy", es: "Privacidad", fr: "Confidentialité", pt: "Privacidade", sv: "Integritet", no: "Personvern" })}{" "}
+                <span className="gradient-text">{lc({ en: "Policy", "en-gb": "Policy", "en-au": "Policy", es: "de", fr: "de", pt: "de", sv: "policy", no: "policy" })}</span>
               </h1>
               <p style={{ fontSize: "1rem", color: "var(--text-secondary)", marginBottom: "3rem" }}>
-                {locale === "es" 
-                  ? `Última actualización: 22 de mayo de 2026. Su privacidad y la confidencialidad de sus operaciones como revendedor de IPTV en ${regionName} son de suma importancia para nuestra asociación.`
-                  : `Last Updated: May 22, 2026. Your privacy and the confidentiality of your wholesale reseller operations in ${regionName} are paramount to our partnership.`}
+                {lc({
+                  en: `Last Updated: May 22, 2026. Your privacy and the confidentiality of your wholesale reseller operations in ${regionName} are paramount to our partnership.`,
+                  "en-gb": `Last Updated: May 22, 2026. Your privacy and the confidentiality of your wholesale reseller operations in ${regionName} are paramount to our partnership.`,
+                  "en-au": `Last Updated: May 22, 2026. Your privacy and the confidentiality of your wholesale reseller operations in ${regionName} are paramount to our partnership.`,
+                  es: `Última actualización: 22 de mayo de 2026. Su privacidad y la confidencialidad de sus operaciones como revendedor de IPTV en ${regionName} son de suma importancia para nuestra asociación.`,
+                  fr: `Dernière mise à jour : 22 mai 2026. Votre vie privée et la confidentialité de vos activités de revente en gros en ${regionName} sont primordiales pour notre partenariat.`,
+                  pt: `Última atualização: 22 de maio de 2026. A sua privacidade e a confidencialidade das suas operações de revenda em ${regionName} são fundamentais para a nossa parceria.`,
+                  sv: `Senast uppdaterad: 22 maj 2026. Din integritet och sekretessen kring dina grossiståterförsäljarverksamheter i ${regionName} är avgörande för vårt partnerskap.`,
+                  no: `Sist oppdatert: 22. mai 2026. Ditt personvern og konfidensialiteten til din engrosforhandlervirksomhet i ${regionName} er avhengig av vårt partnerskap.`,
+                })}
               </p>
 
               {/* Glassmorphic Document Card */}
@@ -169,15 +192,13 @@ export default async function PrivacyPolicyPage({
 
                 <div style={{ borderTop: "1px solid var(--border-color)", paddingTop: "2.5rem" }}>
                   <h2 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--text-primary)", marginBottom: "0.75rem" }}>
-                    {locale === "es" ? "6. Contacto con nuestro Oficial de Datos" : "6. Contacting Our Data Officer"}
+                    {lc({ en: "6. Contacting Our Data Officer", "en-gb": "6. Contacting Our Data Officer", "en-au": "6. Contacting Our Data Officer", es: "6. Contacto con nuestro Oficial de Datos", fr: "6. Contacter notre Responsable des Données", pt: "6. Contactar o nosso Encarregado de Dados", sv: "6. Kontakta vår dataskyddsansvarig", no: "6. Kontakt vår personvernansvarlig" })}
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginBottom: "1.5rem" }}>
-                    {locale === "es"
-                      ? `Para cualquier consulta sobre la protección de datos o la eliminación de registros, inicie una conexión directa con nuestro equipo de cumplimiento.`
-                      : `For any inquiries regarding data protection, active cookies, or wholesale logs deletion, please initiate a direct connection with our dedicated data compliance team.`}
+                    {lc({ en: "For any inquiries regarding data protection, active cookies, or wholesale logs deletion, please initiate a direct connection with our dedicated data compliance team.", "en-gb": "For any inquiries regarding data protection, active cookies, or wholesale logs deletion, please initiate a direct connection with our dedicated data compliance team.", "en-au": "For any inquiries regarding data protection, active cookies, or wholesale logs deletion, please initiate a direct connection with our dedicated data compliance team.", es: "Para cualquier consulta sobre la protección de datos o la eliminación de registros, inicie una conexión directa con nuestro equipo de cumplimiento.", fr: "Pour toute demande concernant la protection des données ou la suppression des journaux, contactez directement notre équipe de conformité.", pt: "Para qualquer consulta sobre proteção de dados ou eliminação de registos, contacte diretamente a nossa equipa de conformidade.", sv: "För frågor om dataskydd eller borttagning av loggar, kontakta vårt dataskyddsteam direkt.", no: "For spørsmål om databeskyttelse eller sletting av logger, ta kontakt direkte med vårt samsvarssteam." })}
                   </p>
                   <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: "0.75rem 1.5rem", borderRadius: "10px", textDecoration: "none", display: "inline-flex", gap: "8px", alignItems: "center", fontSize: "0.875rem" }}>
-                    {locale === "es" ? "Contactar Oficial de Privacidad por WhatsApp" : "Contact Privacy Officer via WhatsApp"}
+                    {lc({ en: "Contact Privacy Officer via WhatsApp", "en-gb": "Contact Privacy Officer via WhatsApp", "en-au": "Contact Privacy Officer via WhatsApp", es: "Contactar Oficial de Privacidad por WhatsApp", fr: "Contacter le DPO via WhatsApp", pt: "Contactar o DPO via WhatsApp", sv: "Kontakta dataskyddsansvarig via WhatsApp", no: "Kontakt personvernansvarlig via WhatsApp" })}
                   </a>
                 </div>
               </div>

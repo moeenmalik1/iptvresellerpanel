@@ -1,71 +1,16 @@
 "use client";
 
 import { useState } from "react";
-
-const plans = [
-  {
-    id: "starter",
-    name: "Starter Pack",
-    badge: "120 CREDITS",
-    cost: 120,
-    rate: "$1.00",
-    revenue: "1,200",
-    profit: "1,080",
-    description: "Best choice for beginner resellers starting their streaming brand.",
-    features: [
-      "120 wholesale credits (No expiry)",
-      "Standard control dashboard",
-      "Full server access & setup guide",
-    ],
-    cta: "Order Starter",
-    color: "#3b82f6",
-    gradient: "linear-gradient(135deg, rgba(59,130,246,0.12), rgba(59,130,246,0.03))",
-    border: "rgba(59,130,246,0.2)",
-    popular: false,
-  },
-  {
-    id: "growth",
-    name: "Growth Pack",
-    badge: "200 CREDITS",
-    cost: 180,
-    rate: "$0.90",
-    revenue: "2,000",
-    profit: "1,820",
-    description: "Premium wholesale package for growing brands needing white label portals.",
-    features: [
-      "200 wholesale credits (No expiry)",
-      "Advanced dashboard + sub-resellers",
-      "Custom DNS & white label branding",
-    ],
-    cta: "Order Growth",
-    color: "#8b5cf6",
-    gradient: "linear-gradient(135deg, rgba(139,92,246,0.15), rgba(59,130,246,0.06))",
-    border: "rgba(139,92,246,0.35)",
-    popular: true,
-  },
-  {
-    id: "enterprise",
-    name: "Enterprise Wholesale",
-    badge: "500 CREDITS",
-    cost: 350,
-    rate: "$0.70",
-    revenue: "5,000",
-    profit: "4,650",
-    description: "Elite volume package offering the lowest unit rates for high-volume sales.",
-    features: [
-      "500 wholesale credits (No expiry)",
-      "Elite admin control panels",
-      "Dedicated domain & unlimited routing",
-    ],
-    cta: "Order Enterprise",
-    color: "#06b6d4",
-    gradient: "linear-gradient(135deg, rgba(6,182,212,0.12), rgba(6,182,212,0.03))",
-    border: "rgba(6,182,212,0.2)",
-    popular: false,
-  },
-];
+import { useLocale, useTranslations } from "next-intl";
+import { getSectionTranslations } from "@/app/lib/translations";
 
 export default function PricingSection() {
+  const locale = useLocale();
+  const c = useTranslations("common");
+  const t = getSectionTranslations(locale).pricingSection;
+
+  const symbol = c("symbol") || "$";
+
   // Calculator States
   const [credits, setCredits] = useState<number | "">(120);
   const [sellPrice, setSellPrice] = useState<number | "">(10);
@@ -87,7 +32,7 @@ export default function PricingSection() {
 
   // Prefilled WhatsApp order link based on calculator values
   const getWhatsAppCalcLink = () => {
-    const text = `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: $${totalCost}). Please provide payment details and panel setup instructions.`;
+    const text = `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${symbol}${totalCost}). Please provide payment details and panel setup instructions.`;
     return `https://wa.me/1234567890?text=${encodeURIComponent(text)}`;
   };
 
@@ -111,7 +56,7 @@ export default function PricingSection() {
       <div className="section-container" style={{ position: "relative", zIndex: 1 }}>
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "4rem" }}>
-          <div className="tag" style={{ marginBottom: "1rem" }}>Buy IPTV Reseller Credits</div>
+          <div className="tag" style={{ marginBottom: "1rem" }}>{t.tag}</div>
           <h2 style={{
             fontFamily: "'Outfit', sans-serif",
             fontWeight: 800,
@@ -121,11 +66,11 @@ export default function PricingSection() {
             color: "var(--text-primary)",
             marginBottom: "1rem",
           }}>
-            Flexible IPTV Reseller{" "}
-            <span className="gradient-text">Credit Packages</span>
+            {t.titleMain}
+            <span className="gradient-text">{t.titleSpan}</span>
           </h2>
           <p style={{ color: "var(--text-secondary)", fontSize: "1rem", maxWidth: 580, margin: "0 auto" }}>
-            Unlock your private white-label streaming business. Compare credit packages below and choose the tier that fits your budget.
+            {t.desc}
           </p>
         </div>
 
@@ -137,7 +82,7 @@ export default function PricingSection() {
           alignItems: "stretch",
           marginBottom: "6rem",
         }}>
-          {plans.map((plan) => (
+          {t.plans.map((plan) => (
             <article
               key={plan.id}
               className="glass-card"
@@ -164,7 +109,7 @@ export default function PricingSection() {
                   fontSize: "0.7rem", fontWeight: 700, color: "white",
                   letterSpacing: "0.05em",
                 }}>
-                  ★ BEST VALUE
+                  {t.bestValue}
                 </div>
               )}
 
@@ -206,7 +151,7 @@ export default function PricingSection() {
                     letterSpacing: "0.05em",
                     marginBottom: "4px"
                   }}>
-                    Package Price (To Buy)
+                    {t.pkgCostLabel}
                   </div>
                   <div style={{
                     fontSize: "2.6rem",
@@ -218,9 +163,9 @@ export default function PricingSection() {
                     alignItems: "baseline",
                     gap: "6px"
                   }}>
-                    ${plan.cost}
+                    {symbol}{plan.cost}
                     <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 500 }}>
-                      total ({plan.rate}/credit)
+                      {t.totalLabel} ({symbol}{plan.cost / Number(plan.badge.split(" ")[0])}/{t.creditLabel})
                     </span>
                   </div>
                 </div>
@@ -238,18 +183,18 @@ export default function PricingSection() {
                 }}>
                   <div>
                     <div style={{ fontSize: "0.65rem", color: "rgba(34,197,94,0.75)", textTransform: "uppercase", fontWeight: 700, letterSpacing: "0.03em" }}>
-                      Resell Revenue
+                      {t.resellRevenueLabel}
                     </div>
                     <div style={{ fontSize: "1.15rem", fontWeight: 800, color: "#4ade80", marginTop: "2px" }}>
-                      ${plan.revenue}
+                      {symbol}{(Number(plan.badge.split(" ")[0]) * 10).toLocaleString()}
                     </div>
                   </div>
                   <div style={{ borderLeft: "1px solid rgba(34,197,94,0.1)", paddingLeft: "0.75rem" }}>
                     <div style={{ fontSize: "0.65rem", color: "rgba(34,197,94,0.75)", textTransform: "uppercase", fontWeight: 700, letterSpacing: "0.03em" }}>
-                      Your Net Profit
+                      {t.netProfitLabel}
                     </div>
                     <div style={{ fontSize: "1.15rem", fontWeight: 800, color: "#4ade80", marginTop: "2px" }}>
-                      +${plan.profit}
+                      +{symbol}{((Number(plan.badge.split(" ")[0]) * 10) - plan.cost).toLocaleString()}
                     </div>
                   </div>
                 </div>
@@ -267,7 +212,7 @@ export default function PricingSection() {
 
               {/* Order Button */}
               <a
-                href={`https://wa.me/1234567890?text=Hello%20Fox%20IPTV%20Panels!%20I%20want%20to%20order%20the%20${encodeURIComponent(plan.name)}%20(\$${plan.cost}).`}
+                href={`https://wa.me/1234567890?text=Hello%20Fox%20IPTV%20Panels!%20I%20want%20to%20order%20the%20${encodeURIComponent(plan.name)}%20(${symbol}${plan.cost}).`}
                 target="_blank"
                 rel="noopener noreferrer"
                 id={`pricing-${plan.id}-cta`}
@@ -307,7 +252,7 @@ export default function PricingSection() {
           ))}
         </div>
 
-        {/* ─── INTERACTIVE REVENUE & PROFIT CALCULATOR (Ultra-Clean & Concise) ─── */}
+        {/* ─── INTERACTIVE REVENUE & PROFIT CALCULATOR ─── */}
         <div 
           className="glass-card" 
           style={{ 
@@ -320,10 +265,10 @@ export default function PricingSection() {
         >
           <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
             <h3 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.8rem", fontWeight: 900, color: "var(--text-primary)", marginBottom: "0.4rem" }}>
-              IPTV Reseller Profit Calculator
+              {t.calculator.title}
             </h3>
             <p style={{ color: "var(--text-secondary)", maxWidth: "540px", margin: "0 auto", fontSize: "0.9rem", lineHeight: 1.5 }}>
-              Select credit quantity and your monthly resell price to estimate total profit potential.
+              {t.calculator.desc}
             </p>
           </div>
 
@@ -333,7 +278,7 @@ export default function PricingSection() {
               {/* Input 1: Credits Quantity */}
               <div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.6rem" }}>
-                  <label htmlFor="calc-credits-input" style={{ fontSize: "0.9rem", fontWeight: 700, color: "var(--text-secondary)" }}>Credits to Purchase</label>
+                  <label htmlFor="calc-credits-input" style={{ fontSize: "0.9rem", fontWeight: 700, color: "var(--text-secondary)" }}>{t.calculator.purchaseLabel}</label>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                     <input
                       id="calc-credits-input"
@@ -359,7 +304,7 @@ export default function PricingSection() {
                         fontFamily: "inherit"
                       }}
                     />
-                    <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 600 }}>Credits</span>
+                    <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 600 }}>{t.calculator.creditsSuffix}</span>
                   </div>
                 </div>
                 <input
@@ -381,7 +326,7 @@ export default function PricingSection() {
                   }}
                 />
                 <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.7rem", color: "var(--text-muted)", marginTop: "0.4rem" }}>
-                  <span>120 Credits</span>
+                  <span>120 {t.calculator.creditsSuffix}</span>
                   <span>200 (Growth)</span>
                   <span>500 (Enterprise)</span>
                   <span>1,000</span>
@@ -391,9 +336,9 @@ export default function PricingSection() {
               {/* Input 2: Sell Price */}
               <div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.6rem" }}>
-                  <label htmlFor="calc-sell-price-input" style={{ fontSize: "0.9rem", fontWeight: 700, color: "var(--text-secondary)" }}>Your Monthly Resell Price</label>
+                  <label htmlFor="calc-sell-price-input" style={{ fontSize: "0.9rem", fontWeight: 700, color: "var(--text-secondary)" }}>{t.calculator.resellPriceLabel}</label>
                   <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                    <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 600 }}>$</span>
+                    <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 600 }}>{symbol}</span>
                     <input
                       id="calc-sell-price-input"
                       type="number"
@@ -418,7 +363,7 @@ export default function PricingSection() {
                         fontFamily: "inherit"
                       }}
                     />
-                    <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 600 }}>/mo</span>
+                    <span style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontWeight: 600 }}>{t.calculator.sellSuffix}</span>
                   </div>
                 </div>
                 <input
@@ -440,11 +385,11 @@ export default function PricingSection() {
                   }}
                 />
                 <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.7rem", color: "var(--text-muted)", marginTop: "0.4rem" }}>
-                  <span>$5</span>
-                  <span>$10 (Typical)</span>
-                  <span>$15</span>
-                  <span>$20</span>
-                  <span>$25</span>
+                  <span>{symbol}5</span>
+                  <span>{symbol}10 ({t.calculator.typicalLabel})</span>
+                  <span>{symbol}15</span>
+                  <span>{symbol}20</span>
+                  <span>{symbol}25</span>
                 </div>
               </div>
             </div>
@@ -464,19 +409,19 @@ export default function PricingSection() {
             >
               {/* Cost to Buy */}
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <span style={{ fontSize: "0.85rem", color: "var(--text-secondary)" }}>Package Cost (To Buy):</span>
+                <span style={{ fontSize: "0.85rem", color: "var(--text-secondary)" }}>{t.calculator.costToBuy}</span>
                 <span style={{ fontSize: "1.2rem", fontWeight: 700, color: "white" }}>
-                  ${totalCost.toLocaleString()}
+                  {symbol}{totalCost.toLocaleString()}
                   <span style={{ fontSize: "0.75rem", color: "var(--text-muted)", fontWeight: 500, marginLeft: 6 }}>
-                    (${costPerCredit.toFixed(2)}/cr)
+                    ({symbol}{costPerCredit.toFixed(2)}/{t.creditLabel})
                   </span>
                 </span>
               </div>
 
               {/* Revenue Potential */}
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <span style={{ fontSize: "0.85rem", color: "var(--text-secondary)" }}>Gross Revenue (To Sell):</span>
-                <span style={{ fontSize: "1.2rem", fontWeight: 700, color: "white" }}>${grossRevenue.toLocaleString()}</span>
+                <span style={{ fontSize: "0.85rem", color: "var(--text-secondary)" }}>{t.calculator.grossRevenue}</span>
+                <span style={{ fontSize: "1.2rem", fontWeight: 700, color: "white" }}>{symbol}{grossRevenue.toLocaleString()}</span>
               </div>
 
               {/* Clean divider */}
@@ -484,14 +429,14 @@ export default function PricingSection() {
 
               {/* Net Profit Highlight */}
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <span style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--text-primary)" }}>Your Net Profit:</span>
+                <span style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--text-primary)" }}>{t.calculator.netProfit}</span>
                 <span style={{ 
                   fontSize: "1.6rem", 
                   fontWeight: 900, 
                   color: "#22c55e", 
                   textShadow: "0 0 15px rgba(34,197,94,0.15)" 
                 }}>
-                  +${netProfit.toLocaleString()}
+                  +{symbol}{netProfit.toLocaleString()}
                 </span>
               </div>
 
@@ -518,7 +463,7 @@ export default function PricingSection() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
                 </svg>
-                Secure Reseller Setup
+                {t.calculator.cta}
               </a>
             </div>
           </div>

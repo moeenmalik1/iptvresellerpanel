@@ -21,9 +21,159 @@ export default function GuidesClient() {
 
   const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
 
-  // Localized guides list
+  // Localized guides list — all 8 locales
   const ALL_GUIDES: Guide[] = useMemo(() => {
-    if (locale === "es") {
+    const L = locale as string;
+
+    if (L === "fr") {
+      return [
+        {
+          id: "start-iptv-reseller-business",
+          title: "Comment lancer une activité de revendeur IPTV en 2026 (avec un investissement minimal)",
+          category: "Business" as const,
+          readTime: "6 min de lecture",
+          excerpt: "Apprenez à créer une activité rentable de revente IPTV en marque blanche. Découvrez les stratégies d'acquisition de clients et comment scaler via WhatsApp.",
+          content: "Lancer une activité d'abonnement numérique est l'un des meilleurs moyens de générer des revenus passifs en 2026. Avec un panneau de revendeur IPTV premium, vous n'avez pas besoin d'acheter des serveurs coûteux ni de gérer une infrastructure complexe. En tant que revendeur, vous achetez des crédits en gros auprès d'un distributeur principal comme Fox IPTV Panels, accédez à un tableau de bord élégant et vendez des comptes à vos clients. Pour commencer : 1) Sécurisez un petit pack de crédits, 2) Formez-vous à l'allocation des crédits, 3) Faites la promotion sur les réseaux sociaux en France ou dans l'UE, 4) Utilisez WhatsApp comme portail principal de vente. Vous pouvez facturer des tarifs mensuels ou annuels récurrents, et comme les coûts de crédits en gros sont bas, vous conservez d'énormes marges."
+        },
+        {
+          id: "credit-system-explained",
+          title: "Système de crédits revendeur IPTV expliqué : guide complet",
+          category: "Business" as const,
+          readTime: "5 min de lecture",
+          excerpt: "Vous vous interrogez sur la conversion des crédits en comptes clients actifs ? Lisez notre analyse détaillée du modèle de facturation et calculez vos marges.",
+          content: "Le système de crédits IPTV est le modèle grossiste fondamental pour la revente. Au lieu de payer des frais serveur mensuels fixes, vous achetez des crédits en volume. Considérez les crédits comme votre stock en gros. En général, le calcul est : 1 crédit = 1 mois d'abonnement client (un client 12 mois utilise donc 12 crédits). Par exemple : si vous achetez un Pack Croissance de 200 crédits pour 180 €, votre coût grossiste est de seulement 0,90 €/crédit. Si vous vendez à 10 €/mois par client, votre chiffre d'affaires brut potentiel est de 2 000 €, générant un bénéfice net massif de 1 820 € ! Le système de crédits vous offre une liberté totale de tarification et zéro frais fixes."
+        },
+        {
+          id: "xtream-codes-vs-m3u",
+          title: "API Xtream Codes vs listes M3U : ce que les revendeurs doivent savoir",
+          category: "Technical" as const,
+          readTime: "7 min de lecture",
+          excerpt: "Aidez vos clients à connecter leurs appareils facilement. Comparez les performances, la sécurité et la compatibilité d'Xtream Codes et des fichiers M3U bruts.",
+          content: "Lors de la configuration de clients, vous rencontrerez deux formats principaux : l'API Xtream Codes et les listes de lecture M3U. Les listes M3U sont une longue chaîne URL contenant un fichier texte avec les emplacements des chaînes. Bien que M3U soit compatible avec presque toutes les anciennes applications, il expose les liens de streaming bruts et peut être lent à télécharger. L'API Xtream Codes, en revanche, décompose les identifiants en trois entrées propres : URL du portail, nom d'utilisateur et mot de passe. Xtream Codes est fortement recommandé car il charge les chaînes en une fraction de seconde, protège vos flux contre la copie et met à jour les listes de chaînes dynamiquement. Conseillez toujours à vos clients d'utiliser des lecteurs modernes comme IPTV Smarters, Tivimate ou XCIPTV."
+        },
+        {
+          id: "white-label-panel-branding",
+          title: "Panneaux IPTV en marque blanche : développez votre empire de streaming",
+          category: "Branding" as const,
+          readTime: "5 min de lecture",
+          excerpt: "Prêt à passer à l'échelle supérieure ? Découvrez comment le routage DNS personnalisé et la marque blanche vous permettent de vendre des panneaux à des sous-revendeurs.",
+          content: "La marque blanche est l'étape ultime pour faire évoluer votre activité IPTV. Un panneau revendeur standard affiche les identifiants du serveur par défaut. Un panneau en marque blanche vous permet de masquer ces serveurs sous votre propre marque privée. Pour ce faire, vous achetez une configuration marque blanche dédiée chez Fox IPTV Panels, enregistrez votre propre domaine (ex: monportail.com) et pointez ses paramètres DNS vers les IP du serveur. Lorsque vos clients se connectent, ils voient votre domaine et votre logo. Plus important encore, la marque blanche vous permet de recruter des sous-revendeurs, créant un vaste réseau de distribution grossiste."
+        }
+      ];
+    }
+
+    if (L === "pt") {
+      return [
+        {
+          id: "start-iptv-reseller-business",
+          title: "Como iniciar um negócio de revendedor IPTV em 2026 (com investimento mínimo)",
+          category: "Business" as const,
+          readTime: "6 min de leitura",
+          excerpt: "Aprenda a criar um negócio de revenda IPTV de marca branca altamente rentável. Descubra estratégias de aquisição de clientes e como escalar via WhatsApp.",
+          content: "Iniciar um negócio de subscrição digital é uma das melhores formas de gerar rendimento passivo em 2026. Com um painel de revendedor IPTV premium, não precisa de comprar servidores caros nem gerir infraestrutura complexa. Como revendedor, compra créditos por grosso a um distribuidor principal como a Fox IPTV Panels, acede a um dashboard elegante e vende contas aos seus clientes. Para começar: 1) Adquira um pacote de créditos pequeno, 2) Forme-se na alocação de créditos, 3) Promova nas redes sociais em Portugal ou na UE, 4) Use o WhatsApp como portal principal de vendas. Pode cobrar tarifas mensais ou anuais recorrentes, e como os custos de créditos por grosso são baixos, mantém margens enormes."
+        },
+        {
+          id: "credit-system-explained",
+          title: "Sistema de créditos para revendedores IPTV explicado: Guia completo",
+          category: "Business" as const,
+          readTime: "5 min de leitura",
+          excerpt: "Confuso sobre como os créditos se convertem em contas de clientes activas? Leia a nossa análise detalhada do modelo de faturação e calcule as suas margens.",
+          content: "O sistema de créditos IPTV é o modelo grossista fundamental para a revenda. Em vez de pagar taxas fixas mensais de servidor, compra créditos em volume. Pense nos créditos como o seu inventário grossista. Geralmente, o cálculo padrão é: 1 crédito = 1 mês de subscrição de cliente (ou seja, um cliente de 12 meses usa 12 créditos). Por exemplo: se comprar um Pacote Growth de 200 créditos por 180 €, o seu custo grossista é de apenas 0,90 €/crédito. Se vender a 10 €/mês por cliente, a sua receita bruta potencial é de 2.000 €, gerando um lucro líquido massivo de 1.820 €! O sistema de créditos dá-lhe liberdade total de preços e zero custos fixos."
+        },
+        {
+          id: "xtream-codes-vs-m3u",
+          title: "API Xtream Codes vs listas M3U: o que os revendedores precisam saber",
+          category: "Technical" as const,
+          readTime: "7 min de leitura",
+          excerpt: "Ajude os seus clientes a ligar os seus dispositivos facilmente. Compare o desempenho, a segurança e a compatibilidade de Xtream Codes e ficheiros M3U brutos.",
+          content: "Ao configurar clientes, encontrará dois formatos principais: API Xtream Codes e listas M3U. As listas M3U consistem numa longa string URL contendo um ficheiro de texto com as localizações dos canais. Embora o M3U seja compatível com quase todas as aplicações antigas, expõe os links de streaming brutos e pode ser lento a descarregar. A API Xtream Codes, por outro lado, divide as credenciais em três entradas limpas: URL do portal, nome de utilizador e palavra-passe. O Xtream Codes é altamente recomendado porque carrega os canais em frações de segundo, protege as suas transmissões contra cópias e atualiza as listas de canais dinamicamente. Indique sempre aos clientes que usem leitores modernos como IPTV Smarters, Tivimate ou XCIPTV."
+        },
+        {
+          id: "white-label-panel-branding",
+          title: "Painéis IPTV de marca branca: construa o seu império de streaming",
+          category: "Branding" as const,
+          readTime: "5 min de leitura",
+          excerpt: "Pronto para escalar além dos clientes a retalho? Saiba como o routing DNS personalizado e a marca branca lhe permitem vender painéis a sub-revendedores.",
+          content: "A marca branca é o passo final para escalar o seu negócio IPTV. Um painel de revendedor padrão mostra as credenciais do servidor padrão. Um painel de marca branca permite-lhe mascarar esses servidores sob a sua própria marca privada. Para isso, compra uma configuração de marca branca dedicada na Fox IPTV Panels, regista o seu próprio domínio (ex: meuportal.com) e aponta as suas configurações DNS para os IPs do servidor. Quando os seus clientes iniciarem sessão, verão o seu domínio e logótipo. Mais importante ainda, a marca branca permite-lhe recrutar sub-revendedores, criando uma vasta rede de distribuição grossista."
+        }
+      ];
+    }
+
+    if (L === "sv") {
+      return [
+        {
+          id: "start-iptv-reseller-business",
+          title: "Så startar du ett IPTV-återförsäljarföretag 2026 (med minimal investering)",
+          category: "Business" as const,
+          readTime: "6 min läsning",
+          excerpt: "Lär dig hur du startar ett lönsamt IPTV-återförsäljarföretag med eget varumärke. Upptäck kundanskaffningsstrategier och hur du skalar via WhatsApp.",
+          content: "Att starta ett digitalt prenumerationsföretag är ett av de bästa sätten att tjäna passiv inkomst 2026. Med en premium IPTV-återförsäljarpanel behöver du inte köpa dyra streamingservrar eller hantera komplex infrastruktur. Som återförsäljare köper du krediter i grossistled från en huvuddistributör som Fox IPTV Panels, får tillgång till en snygg kontrollpanel och säljer konton till dina slutkunder. Kom igång: 1) Säkra ett litet kreditpaket, 2) Lär dig kreditallokering, 3) Marknadsför i Sverige eller EU via sociala medier, 4) Använd WhatsApp som ditt primära försäljningsportal. Du kan ta ut månads- eller årsavgifter, och eftersom grossitkreditpriserna är låga behåller du enorma marginaler."
+        },
+        {
+          id: "credit-system-explained",
+          title: "IPTV-återförsäljarkreditsystemet förklarat: En komplett guide",
+          category: "Business" as const,
+          readTime: "5 min läsning",
+          excerpt: "Förvirrad om hur krediter omvandlas till aktiva kundkonton? Läs vår detaljerade genomgång av faktureringsmodellen och beräkna dina vinstmarginaler.",
+          content: "IPTV-kreditsystemet är den grundläggande grossistmodellen för återförsäljning. Istället för att betala fasta månadsserviceravgifter köper du krediter i bulk. Tänk på krediter som ditt grossistlager. Generellt är standardberäkningen: 1 kredit = 1 månads kundprenumeration (en 12-månaders kund använder alltså 12 krediter). Exempel: om du köper ett Growth Pack med 200 krediter för 1 800 kr, är din grossistkostnad bara 9 kr/kredit. Om du säljer för 100 kr/mån per kund är din potentiella bruttoomsättning 20 000 kr, vilket ger en massiv nettovinst! Kreditsystemet ger dig total prisfrihet och noll fasta kostnader."
+        },
+        {
+          id: "xtream-codes-vs-m3u",
+          title: "Xtream Codes API vs M3U-spellistor: Vad återförsäljare måste veta",
+          category: "Technical" as const,
+          readTime: "7 min läsning",
+          excerpt: "Hjälp dina kunder att ansluta sina enheter enkelt. Jämför prestanda, säkerhet och enhetskompabilitet för Xtream Codes och råa M3U-filer.",
+          content: "När du konfigurerar kunder stöter du på två primära format: Xtream Codes API och M3U-spellistor. M3U-spellistor är en lång URL-sträng med en textfil som innehåller kanalplatser. Även om M3U är kompatibelt med nästan alla äldre appar exponerar det råa strömningslänkar och kan vara långsamt att ladda ner. Xtream Codes API delar upp inloggningsuppgifter i tre rena indata: Portal-URL, användarnamn och lösenord. Xtream Codes rekommenderas starkt eftersom det laddar kanaler på bråkdelar av en sekund, skyddar dina strömmar mot kopiering och uppdaterar kanallistor dynamiskt. Instruera alltid kunder att använda moderna spelare som IPTV Smarters, Tivimate eller XCIPTV."
+        },
+        {
+          id: "white-label-panel-branding",
+          title: "IPTV-paneler med eget varumärke: Bygg ditt streamingimperium",
+          category: "Branding" as const,
+          readTime: "5 min läsning",
+          excerpt: "Redo att skala bortom direktkunder? Lär dig hur anpassad DNS-routing och white labeling låter dig sälja paneler till underåterförsäljare under ditt eget varumärke.",
+          content: "White labeling är det ultimata steget för att skala din IPTV-verksamhet. En standard återförsäljarpanel visar standardserveruppgifter. En white label-panel låter dig maskera dessa servrar under ditt eget privata varumärke. För att göra detta köper du en dedikerad white label-konfiguration från Fox IPTV Panels, registrerar din egen domän (t.ex. mittportal.se) och pekar dess DNS-inställningar mot server-IP:n. När dina kunder loggar in ser de din domän och din logotyp. Ännu viktigare, white labeling gör att du kan rekrytera underåterförsäljare och skapa ett massivt grossistdistributionsnätverk."
+        }
+      ];
+    }
+
+    if (L === "no") {
+      return [
+        {
+          id: "start-iptv-reseller-business",
+          title: "Slik starter du en IPTV-forhandlervirksomhet i 2026 (med minimal investering)",
+          category: "Business" as const,
+          readTime: "6 min lesing",
+          excerpt: "Lær hvordan du oppretter en lønnsom IPTV-forhandlervirksomhet med eget merke. Oppdag strategier for kundeanskaffelse og hvordan du skalerer via WhatsApp.",
+          content: "Å starte en digital abonnementsvirksomhet er en av de beste måtene å tjene passiv inntekt på i 2026. Med et premium IPTV-forhandlerpanel trenger du ikke kjøpe dyre streamingservere eller administrere kompleks infrastruktur. Som forhandler kjøper du kreditter i engros fra en hoveddistributør som Fox IPTV Panels, får tilgang til et elegant dashbord og selger kontoer til dine kunder. Kom i gang: 1) Sikre en liten kredittpakke, 2) Lær deg kredittallokasjoner, 3) Markedsføring i Norge eller EU via sosiale medier, 4) Bruk WhatsApp som ditt primære salgsportal. Du kan ta månedlige eller årlige gebyrer, og siden engroskreditprisene er lave, beholder du enorme marginer."
+        },
+        {
+          id: "credit-system-explained",
+          title: "IPTV-forhandlerkredittystemet forklart: En komplett guide",
+          category: "Business" as const,
+          readTime: "5 min lesing",
+          excerpt: "Forvirret om hvordan kreditter oversettes til aktive klientkontoer? Les vår detaljerte gjennomgang av faktureringsmodellen og beregn marginene dine.",
+          content: "IPTV-kreditsystemet er den grunnleggende grossistmodellen for videresalg. I stedet for å betale faste månedlige serveravgifter, kjøper du kreditter i bulk. Tenk på kreditter som ditt grossistlager. Generelt er standardberegningen: 1 kreditt = 1 måneds kundeabonnement (en 12-månederskunde bruker altså 12 kreditter). Eksempel: hvis du kjøper en Growth Pack på 200 kreditter for 1 800 kr, er grossistkostnaden din bare 9 kr/kreditt. Hvis du selger til 100 kr/mnd per kunde, er din potensielle bruttoinntekt 20 000 kr, noe som gir en massiv nettogevinst! Kreditsystemet gir deg total prisfrihet og null faste kostnader."
+        },
+        {
+          id: "xtream-codes-vs-m3u",
+          title: "Xtream Codes API vs M3U-spillelister: Hva forhandlere må vite",
+          category: "Technical" as const,
+          readTime: "7 min lesing",
+          excerpt: "Hjelp kundene dine med å koble til enhetene sine enkelt. Sammenlign ytelse, sikkerhet og enhetskompatibilitet for Xtream Codes og rå M3U-filer.",
+          content: "Når du konfigurerer klienter vil du møte to primære formater: Xtream Codes API og M3U-spillelister. M3U-spillelister er en lang URL-streng som inneholder en tekstfil med kanalplasseringer. Selv om M3U er kompatibelt med nesten alle eldre apper, eksponerer det rå strømmingslenker og kan være tregt å laste ned. Xtream Codes API deler derimot opp legitimasjon i tre rene inndatafelt: Portal-URL, brukernavn og passord. Xtream Codes anbefales sterkt fordi det laster kanaler på brøkdeler av et sekund, beskytter strømmene dine mot kopiering og oppdaterer kanallister dynamisk. Instruer alltid kunder om å bruke moderne spillere som IPTV Smarters, Tivimate eller XCIPTV."
+        },
+        {
+          id: "white-label-panel-branding",
+          title: "IPTV-paneler med eget merke: Bygg ditt streamingimperium",
+          category: "Branding" as const,
+          readTime: "5 min lesing",
+          excerpt: "Klar til å skalere utover direktekunder? Lær hvordan tilpasset DNS-ruting og white labeling lar deg selge paneler til underforhandlere under ditt eget merke.",
+          content: "White labeling er det ultimate trinnet for å skalere IPTV-virksomheten din. Et standard forhandlerpanel viser standardserverlegitimasjon. Et white label-panel lar deg maskere disse serverne under ditt eget private merke. For å gjøre dette kjøper du en dedikert white label-oppsett fra Fox IPTV Panels, registrerer ditt eget domene (f.eks. mittportal.no) og peker DNS-innstillingene mot server-IP-adresser. Når kundene dine logger inn, ser de domenet og logoen din. White labeling gjør det også mulig å rekruttere underforhandlere, og dermed bygge et massivt engros-distribusjonsnett."
+        }
+      ];
+    }
+
+    if (L === "es") {
       return [
         {
           id: "start-iptv-reseller-business",
@@ -97,11 +247,17 @@ export default function GuidesClient() {
   }, [locale]);
 
   const categories = useMemo(() => {
-    if (locale === "es") {
-      return ["Todos", "Negocios", "Técnico", "Marca"];
-    }
+    const L = locale as string;
+    if (L === "es") return ["Todos", "Negocios", "Técnico", "Marca"];
+    if (L === "fr") return ["Tout", "Affaires", "Technique", "Marque"];
+    if (L === "pt") return ["Todos", "Negócio", "Técnico", "Marca"];
+    if (L === "sv") return ["Alla", "Affärer", "Tekniskt", "Varumärke"];
+    if (L === "no") return ["Alle", "Bedrift", "Teknisk", "Merke"];
     return ["All", "Business", "Technical", "Branding"];
   }, [locale]);
+
+  // All-locale helper
+  const lc = (map: Record<string, string>) => map[locale] ?? map["en"] ?? "";
 
   const filteredGuides = useMemo(() => {
     return ALL_GUIDES.filter(guide => {
@@ -110,7 +266,8 @@ export default function GuidesClient() {
         guide.content.toLowerCase().includes(searchQuery.toLowerCase());
       
       let matchesCategory = true;
-      if (activeCategory !== "All" && activeCategory !== "Todos") {
+      const allWords = ["All", "Todos", "Tout", "Alla", "Alle"];
+      if (!allWords.includes(activeCategory)) {
         matchesCategory = guide.category.toLowerCase() === activeCategory.toLowerCase();
       }
 
@@ -128,18 +285,18 @@ export default function GuidesClient() {
         {/* Breadcrumb */}
         <nav aria-label="Breadcrumb" style={{ display: "flex", alignItems: "center", gap: 8, fontSize: "0.8rem", color: "var(--text-muted)", marginBottom: "2rem" }}>
           <Link href={`/${locale}`} style={{ color: "var(--text-muted)", textDecoration: "none" }} className="animated-underline">
-            {locale === "es" ? "Inicio" : "Home"}
+            {lc({ en: "Home", "en-gb": "Home", "en-au": "Home", es: "Inicio", fr: "Accueil", pt: "Início", sv: "Hem", no: "Hjem" })}
           </Link>
           <span aria-hidden="true">›</span>
           <span style={{ color: "var(--text-secondary)" }}>
-            {locale === "es" ? "Guías y Tutoriales" : "Guides & Tutorials"}
+            {lc({ en: "Guides & Tutorials", "en-gb": "Guides & Tutorials", "en-au": "Guides & Tutorials", es: "Guías y Tutoriales", fr: "Guides et Tutoriels", pt: "Guias e Tutoriais", sv: "Guider och Handledningar", no: "Guider og Opplæringer" })}
           </span>
         </nav>
 
         {/* Heading */}
         <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto 3rem" }}>
           <div className="tag" style={{ marginBottom: "1rem" }}>
-            {locale === "es" ? "Academia y Documentación de IPTV" : "IPTV Training Academy & Documentation"}
+            {lc({ en: "IPTV Training Academy & Documentation", "en-gb": "IPTV Training Academy & Documentation", "en-au": "IPTV Training Academy & Documentation", es: "Academia y Documentación de IPTV", fr: "Académie de Formation IPTV et Documentation", pt: "Academia de Formação IPTV e Documentação", sv: "IPTV-utbildningsakademi och Dokumentation", no: "IPTV-opplæringsakademi og Dokumentasjon" })}
           </div>
           <h1 style={{
             fontFamily: "'Outfit', sans-serif",
@@ -150,16 +307,13 @@ export default function GuidesClient() {
             color: "var(--text-primary)",
             marginBottom: "1.5rem"
           }}>
-            {locale === "es" ? (
-              <>Domine el <span className="gradient-text">Negocio Reseller</span> de IPTV</>
-            ) : (
-              <>Master the <span className="gradient-text">IPTV Reseller Business</span></>
-            )}
+            {lc({ en: "Master the", "en-gb": "Master the", "en-au": "Master the", es: "Domine el", fr: "Maîtrisez le", pt: "Domine o", sv: "Behärska", no: "Mestre" })}{" "}
+            <span className="gradient-text">
+              {lc({ en: "IPTV Reseller Business", "en-gb": "IPTV Reseller Business", "en-au": "IPTV Reseller Business", es: "Negocio Reseller de IPTV", fr: "Métier de Revendeur IPTV", pt: "Negócio de Revendedor IPTV", sv: "IPTV-återförsäljarbranschen", no: "IPTV-forhandlerbransjen" })}
+            </span>
           </h1>
           <p style={{ fontSize: "1.1rem", color: "var(--text-secondary)", lineHeight: 1.75 }}>
-            {locale === "es"
-              ? "Información de expertos, tutoriales de servidores y estrategias de marketing para ayudarle a lanzar y escalar su franquicia de IPTV en 2026."
-              : "Expert insights, server tutorials, and marketing strategies to help you launch, brand, and scale your wholesale streaming franchise successfully in 2026."}
+            {lc({ en: "Expert insights, server tutorials, and marketing strategies to help you launch, brand, and scale your wholesale streaming franchise successfully in 2026.", "en-gb": "Expert insights, server tutorials, and marketing strategies to help you launch, brand, and scale your wholesale streaming franchise successfully in 2026.", "en-au": "Expert insights, server tutorials, and marketing strategies to help you launch, brand, and scale your wholesale streaming franchise successfully in 2026.", es: "Información de expertos, tutoriales de servidores y estrategias de marketing para ayudarle a lanzar y escalar su franquicia de IPTV en 2026.", fr: "Conseils d'experts, tutoriels serveur et stratégies marketing pour lancer et développer votre franchise de streaming en 2026.", pt: "Insights de especialistas, tutoriais de servidor e estratégias de marketing para lançar e escalar a sua franquia de streaming em 2026.", sv: "Expertinsikter, serverhandledningar och marknadsföringsstrategier för att framgångsrikt lansera och skala din streamingfranschis 2026.", no: "Ekspertinnsikt, serveropplæringer og markedsføringsstrategier for å hjelpe deg med å lansere og skalere din streamingfranchise i 2026." })}
           </p>
         </div>
 
@@ -201,7 +355,7 @@ export default function GuidesClient() {
           {/* Search */}
           <input
             type="text"
-            placeholder={locale === "es" ? "Buscar artículos..." : "Search academy articles..."}
+            placeholder={lc({ en: "Search academy articles...", "en-gb": "Search academy articles...", "en-au": "Search academy articles...", es: "Buscar artículos...", fr: "Rechercher des articles...", pt: "Pesquisar artigos...", sv: "Sök artiklar...", no: "Søk artikler..." })}
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value);

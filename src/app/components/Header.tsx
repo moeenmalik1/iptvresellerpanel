@@ -15,14 +15,14 @@ interface CountryOption {
 }
 
 const countries: CountryOption[] = [
-  { code: "en", name: "United States", flag: "🇺🇸" },
-  { code: "en-gb", name: "United Kingdom", flag: "🇬🇧" },
-  { code: "en-au", name: "Australia", flag: "🇦🇺" },
-  { code: "es", name: "España", flag: "🇪🇸" },
-  { code: "fr", name: "France", flag: "🇫🇷" },
-  { code: "sv", name: "Sverige", flag: "🇸🇪" },
-  { code: "pt", name: "Portugal", flag: "🇵🇹" },
-  { code: "no", name: "Norge", flag: "🇳🇴" },
+  { code: "en", name: "US", flag: "🇺🇸" },
+  { code: "en-gb", name: "UK", flag: "🇬🇧" },
+  { code: "en-au", name: "AU", flag: "🇦🇺" },
+  { code: "es", name: "ES", flag: "🇪🇸" },
+  { code: "fr", name: "FR", flag: "🇫🇷" },
+  { code: "sv", name: "SE", flag: "🇸🇪" },
+  { code: "pt", name: "PT", flag: "🇵🇹" },
+  { code: "no", name: "NO", flag: "🇳🇴" },
 ];
 
 export default function Header() {
@@ -349,7 +349,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               id="header-whatsapp-cta"
-              className="btn-primary"
+              className="btn-primary hidden-mobile"
               style={{
                 display: "inline-flex", alignItems: "center", gap: 8,
                 padding: "0.55rem 1.25rem", borderRadius: 8,
@@ -360,7 +360,7 @@ export default function Header() {
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
               </svg>
-              {locale === "es" ? "Iniciar Reventa" : "Start Reselling"}
+              {(() => { const t: Record<string, string> = { en: "Start Reselling", "en-gb": "Start Reselling", "en-au": "Start Reselling", es: "Iniciar Reventa", fr: "Commencer la Revente", pt: "Iniciar Revenda", sv: "Börja Återförsälja", no: "Start Videresalg" }; return t[locale] || t.en; })()}
             </a>
 
             {/* Mobile menu toggle */}

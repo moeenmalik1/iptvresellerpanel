@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "IPTV Reseller Panel Norge — Beste Leverandør av IPTV-paneler i Norge",
-    "description": "Kjøp norske IPTV-forhandlerkreditter fra den ledende grossistleverandøren i Norge. Start din egen IPTV-virksomhet (white label) med Xtream Codes, M3U og 99.9% oppetid.",
+    "title": "IPTV Reseller Panel Norge: Stabil Strømming Uten Bufring",
+    "description": "Lei av buffering og misfornøyde IPTV-kunder? Få det mest stabile white-label forhandlerpanelet. Lynraske kreditter, gratis prøvekontoer & 24/7 support.",
     "keywords": "iptv reseller panel norge, beste forhandler iptv norge, kjøpe iptv kreditter engros norge, forhandler iptv, white label iptv"
   },
   "common": {
@@ -24,11 +24,13 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "trustTag": "Betrodd av IPTV-forhandlere i Oslo, Bergen, Trondheim og hele Norge",
-    "title": "Start din IPTV-forhandlervirksomhet med høy margin i Norge",
-    "desc": "Kjøp førsteklasses engroskreditter for IPTV-forhandlere. Få umiddelbar tilgang til 22+ premium forhandlerpaneler (white label) med M3U-spillelister, Xtream Codes API-er, stabile 4K-servere og lokal support.",
-    "ctaPanels": "Sammenlign IPTV Paneler",
-    "ctaStart": "Begynn å Selge i Norge"
+    "tag": "#1 IPTV-forhandlerpanel-leverandør 2026",
+    "title1": "Beste leverandør av IPTV-forhandlerpanel for",
+    "title2": "raskt voksende IPTV-bedrifter",
+    "desc": "Start din IPTV-forhandlervirksomhet med førsteklasses IPTV-paneler under eget varemerke (white label), umiddelbare bulk-kreditter, stabile 4K-servere uten bufring og et profesjonelt IPTV-forhandlerpanel — med støtte for Xtream Codes, M3U og MAG Box-tilkoblinger.",
+    "trustTag": "Betrodd av IPTV-forhandlere i Storbritannia, USA og EU — start din IPTV-forhandlervirksomhet i dag med null tidligere erfaring. Ingen stor investering kreves.",
+    "ctaStart": "Skaff IPTV-forhandlerpanel",
+    "ctaPanels": "Sammenlign IPTV-paneler 2026"
   },
   "trust": {
     "badge": "2026 NORSK ENGROS"
@@ -77,15 +79,32 @@
     }
   },
   "about": {
-    "title": "Verdensledende innen engrospaneler for IPTV-forhandlere",
-    "desc1": "Fox IPTV Panels er den ledende white label-plattformen for distribusjon av IPTV-kreditter i Norge, og betjener over 5 000 aktive partnere i Oslo, Bergen, Trondheim og globalt. Vi samler 22 førsteklasses IPTV-strømmenettverk under ett enkelt kontrollpanel, slik at du kan starte din egen virksomhet uten underliggende teknisk infrastruktur.",
-    "desc2": "Våre nettverk i Vest-Europa leverer laggfri, høyoppløselig strømming optimalisert for store lokale norske leverandører som Telenor, Telia, Altibox og Ice, noe som garanterer en førsteklasses seeropplevelse for dine sluttbrukere."
+    "tag": "Om Fox IPTV Panels",
+    "title1": "Hva er et",
+    "title2": "IPTV-forhandlerpanel",
+    "title3": "— og hvordan fungerer Fox IPTV Panels?",
+    "desc1": "Fox IPTV Panels er en ledende leverandør av IPTV-forhandlerpaneler som hjelper gründere med å starte og skalere opp sin forhandlervirksomhet. Vi tilbyr tilgang til 20+ førsteklasses IPTV-paneler — alle med tilpassbare kontrollpaneler under eget varemerke (white label), bulk-kredittpakker og stabile IPTV-servere optimalisert for 4K-strømming.",
+    "desc2": "Enten du er en nybegynner som lærer hvordan man starter en IPTV-forhandlervirksomhet eller en erfaren underforhandler som leter etter et bedre grossistpanel — gir plattformen vår deg umiddelbar tilgang til Xtream Codes- og M3U-kompatible kontrollpaneler, umiddelbare kreditter, kundehåndteringsverktøy og MAG Box-støtte.",
+    "listHeader": "Vi forenkler IPTV-forhandlersalg med:",
+    "cta": "Bli en IPTV-forhandler",
+    "feature1": "Kontrollpanel under eget varemerke (white label)",
+    "feature2": "Umiddelbar kredittaktivering",
+    "feature3": "Stabile 4K- og 8K-servere uten bufring",
+    "feature4": "Fleksibelt IPTV-kredittsystem",
+    "feature5": "Dedikert WhatsApp-støtte 24/7",
+    "feature6": "20+ IPTV-panelalternativer (Xtream Codes & M3U)",
+    "card1Title": "Kom i gang raskt — Innlogging til panelet på få minutter",
+    "card1Desc": "Få umiddelbar tilgang til ditt IPTV-forhandlerpanel. Opprett abonnement for kunder innen få minutter etter at du ble med — ingen teknisk installasjon kreves.",
+    "card2Title": "Høye vinstmarginer for IPTV-forhandlere",
+    "card2Desc": "Kjøp grossistkreditter i bulk, selg abonnement til dine egne priser og behold hele vinstmarginen. Jo flere kreditter du kjøper, desto bedre marginer.",
+    "card3Title": "Fullstendig håndtering av kontrollpanelet",
+    "card3Desc": "Administrer alle kunder, kreditter, testabonnement og pakker fra et sentralisert IPTV-forhandlerpanel med sanntidsanalyse."
   },
   "faq": {
     "title": "Vanlige spørsmål om engrosvirksomhet for IPTV",
     "q1": "Er forhandlerpanelene for IPTV tilgjengelige i Norge?",
     "a1": "Ja, absolutt. Vi støtter IPTV-forhandlere over hele Norge med raske lokale servere, betalingsalternativer i NOK og kanalutvalg tilpasset det norske markedet.",
     "q2": "Hvordan fungerer IPTV-forhandlerkreditter i Norge?",
-    "a2": "Kreditter fungerer som valuta på kontrollpanelet ditt. 1 kreditt gir 1 måneds abonnement for 1 bruker. Du kjøper kreditter til engrospris i NOK og setter dine egne priser, og beholder 100 % av fortjenesten."
+    "a2": "Kreditter fungerer som valuta på kontrollpanelet ditt. 1 kreditt gir 1 måneders abonnement for 1 bruker. Du kjøper kreditter til engrospris i NOK og setter dine egne priser, og beholder 100 % av fortjenesten."
   }
 }

@@ -137,6 +137,9 @@ export function getLocalizedPricing(locale: string): PricingDetails {
     return "Enterprise Wholesale";
   };
 
+  // Locale map helper
+  const lc = (map: Record<string, string>) => map[normLocale] ?? map["en"] ?? "";
+
   return {
     currency,
     symbol,
@@ -154,13 +157,13 @@ export function getLocalizedPricing(locale: string): PricingDetails {
       rate: formatVal(Number(starterRate.toFixed(2))),
       revenue: starterRev.toLocaleString(),
       profit: (starterRev - starterCost).toLocaleString(),
-      description: normLocale === "es" ? "La mejor opción para distribuidores principiantes que inician su marca." : "Best choice for beginner resellers starting their streaming brand.",
+      description: lc({ en: "Best choice for beginner resellers starting their streaming brand.", "en-gb": "Best choice for beginner resellers starting their streaming brand.", "en-au": "Best choice for beginner resellers starting their streaming brand.", es: "La mejor opción para distribuidores principiantes que inician su marca.", fr: "Meilleur choix pour les revendeurs débutants qui lancent leur marque de streaming.", pt: "A melhor opção para revendedores iniciantes a lançar a sua marca de streaming.", sv: "Bästa valet för nybörjare inom återförsäljning som startar sitt streamingvarumärke.", no: "Beste valg for nybegynnere innen forhandling som starter sitt streamingmerke." }),
       features: [
-        "120 wholesale credits (No expiry)",
-        "Standard control dashboard",
-        "Full server access & setup guide",
+        lc({ en: "120 wholesale credits (No expiry)", "en-gb": "120 wholesale credits (No expiry)", "en-au": "120 wholesale credits (No expiry)", es: "120 créditos mayoristas (Sin caducidad)", fr: "120 crédits grossiste (Sans expiration)", pt: "120 créditos grossista (Sem expiração)", sv: "120 grossistkrediter (Ingen utgång)", no: "120 engroskreditter (Ingen utløp)" }),
+        lc({ en: "Standard control dashboard", "en-gb": "Standard control dashboard", "en-au": "Standard control dashboard", es: "Panel de control estándar", fr: "Tableau de bord standard", pt: "Painel de controlo padrão", sv: "Standard kontrollpanel", no: "Standard kontrollpanel" }),
+        lc({ en: "Full server access & setup guide", "en-gb": "Full server access & setup guide", "en-au": "Full server access & setup guide", es: "Acceso completo al servidor y guía de configuración", fr: "Accès serveur complet et guide de configuration", pt: "Acesso completo ao servidor e guia de configuração", sv: "Full serveråtkomst och installationsguide", no: "Full servertilgang og installasjonsguide" }),
       ],
-      cta: normLocale === "es" ? "Pedir Starter" : "Order Starter"
+      cta: lc({ en: "Order Starter", "en-gb": "Order Starter", "en-au": "Order Starter", es: "Pedir Starter", fr: "Commander Starter", pt: "Encomendar Starter", sv: "Beställ Starter", no: "Bestill Starter" })
     },
     growth: {
       id: "growth",
@@ -170,13 +173,13 @@ export function getLocalizedPricing(locale: string): PricingDetails {
       rate: formatVal(Number(growthRate.toFixed(2))),
       revenue: growthRev.toLocaleString(),
       profit: (growthRev - growthCost).toLocaleString(),
-      description: normLocale === "es" ? "Paquete premium para marcas en crecimiento que necesitan portales de marca blanca." : "Premium wholesale package for growing brands needing white label portals.",
+      description: lc({ en: "Premium wholesale package for growing brands needing white label portals.", "en-gb": "Premium wholesale package for growing brands needing white label portals.", "en-au": "Premium wholesale package for growing brands needing white label portals.", es: "Paquete premium para marcas en crecimiento que necesitan portales de marca blanca.", fr: "Pack premium pour les marques en croissance nécessitant des portails en marque blanche.", pt: "Pacote premium para marcas em crescimento que necessitam de portais de marca branca.", sv: "Premium grossistpaket för växande varumärken som behöver white label-portaler.", no: "Premium grossistpakke for voksende merker som trenger white label-portaler." }),
       features: [
-        "200 wholesale credits (No expiry)",
-        "Advanced dashboard + sub-resellers",
-        "Custom DNS & white label branding",
+        lc({ en: "200 wholesale credits (No expiry)", "en-gb": "200 wholesale credits (No expiry)", "en-au": "200 wholesale credits (No expiry)", es: "200 créditos mayoristas (Sin caducidad)", fr: "200 crédits grossiste (Sans expiration)", pt: "200 créditos grossista (Sem expiração)", sv: "200 grossistkrediter (Ingen utgång)", no: "200 engroskreditter (Ingen utløp)" }),
+        lc({ en: "Advanced dashboard + sub-resellers", "en-gb": "Advanced dashboard + sub-resellers", "en-au": "Advanced dashboard + sub-resellers", es: "Panel avanzado + sub-revendedores", fr: "Tableau de bord avancé + sous-revendeurs", pt: "Painel avançado + sub-revendedores", sv: "Avancerad panel + underåterförsäljare", no: "Avansert panel + underforhandlere" }),
+        lc({ en: "Custom DNS & white label branding", "en-gb": "Custom DNS & white label branding", "en-au": "Custom DNS & white label branding", es: "DNS personalizado y marca blanca", fr: "DNS personnalisé et marque blanche", pt: "DNS personalizado e marca branca", sv: "Anpassad DNS och white label-märkning", no: "Tilpasset DNS og white label-merking" }),
       ],
-      cta: normLocale === "es" ? "Pedir Growth" : "Order Growth"
+      cta: lc({ en: "Order Growth", "en-gb": "Order Growth", "en-au": "Order Growth", es: "Pedir Growth", fr: "Commander Growth", pt: "Encomendar Growth", sv: "Beställ Growth", no: "Bestill Growth" })
     },
     enterprise: {
       id: "enterprise",
@@ -186,13 +189,13 @@ export function getLocalizedPricing(locale: string): PricingDetails {
       rate: formatVal(Number(enterpriseRate.toFixed(2))),
       revenue: enterpriseRev.toLocaleString(),
       profit: (enterpriseRev - enterpriseCost).toLocaleString(),
-      description: normLocale === "es" ? "Paquete de volumen de élite que ofrece las tarifas unitarias más bajas." : "Elite volume package offering the lowest unit rates for high-volume sales.",
+      description: lc({ en: "Elite volume package offering the lowest unit rates for high-volume sales.", "en-gb": "Elite volume package offering the lowest unit rates for high-volume sales.", "en-au": "Elite volume package offering the lowest unit rates for high-volume sales.", es: "Paquete de volumen de élite que ofrece las tarifas unitarias más bajas.", fr: "Pack de volume élite offrant les tarifs unitaires les plus bas pour les gros volumes.", pt: "Pacote de volume de elite que oferece as taxas unitárias mais baixas para grandes volumes.", sv: "Elitvolympaket som erbjuder de lägsta enhetspriserna för stora volymer.", no: "Elitevolumpakke som tilbyr de laveste enhetsprisene for store volumer." }),
       features: [
-        "500 wholesale credits (No expiry)",
-        "Elite admin control panels",
-        "Dedicated domain & unlimited routing",
+        lc({ en: "500 wholesale credits (No expiry)", "en-gb": "500 wholesale credits (No expiry)", "en-au": "500 wholesale credits (No expiry)", es: "500 créditos mayoristas (Sin caducidad)", fr: "500 crédits grossiste (Sans expiration)", pt: "500 créditos grossista (Sem expiração)", sv: "500 grossistkrediter (Ingen utgång)", no: "500 engroskreditter (Ingen utløp)" }),
+        lc({ en: "Elite admin control panels", "en-gb": "Elite admin control panels", "en-au": "Elite admin control panels", es: "Paneles de control de administración élite", fr: "Panneaux de contrôle d'administration élite", pt: "Painéis de controlo de administração de elite", sv: "Elitadministrationskontrollpaneler", no: "Eliteadministrasjonskontrollpaneler" }),
+        lc({ en: "Dedicated domain & unlimited routing", "en-gb": "Dedicated domain & unlimited routing", "en-au": "Dedicated domain & unlimited routing", es: "Dominio dedicado y enrutamiento ilimitado", fr: "Domaine dédié et routage illimité", pt: "Domínio dedicado e roteamento ilimitado", sv: "Dedikerad domän och obegränsad routing", no: "Dedikert domene og ubegrenset ruting" }),
       ],
-      cta: normLocale === "es" ? "Pedir Enterprise" : "Order Enterprise"
+      cta: lc({ en: "Order Enterprise", "en-gb": "Order Enterprise", "en-au": "Order Enterprise", es: "Pedir Enterprise", fr: "Commander Enterprise", pt: "Encomendar Enterprise", sv: "Beställ Enterprise", no: "Bestill Enterprise" })
     }
   };
 }

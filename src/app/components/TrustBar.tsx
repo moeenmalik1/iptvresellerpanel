@@ -1,13 +1,10 @@
-const stats = [
-  { icon: "📺", label: "IPTV Reseller Panels", value: "20+" },
-  { icon: "🕐", label: "WhatsApp Support", value: "24/7" },
-  { icon: "🎬", label: "4K & 8K Streaming", value: "No Buffer" },
-  { icon: "⚡", label: "Credit Delivery", value: "Instant" },
-  { icon: "🌍", label: "UK, USA & EU", value: "Global" },
-  { icon: "🏗️", label: "Server Uptime", value: "99.9%" },
-];
+import { useLocale } from "next-intl";
+import { getSectionTranslations } from "@/app/lib/translations";
 
 export default function TrustBar() {
+  const locale = useLocale();
+  const t = getSectionTranslations(locale).trustBar;
+
   return (
     <section
       id="trust-bar"
@@ -26,7 +23,7 @@ export default function TrustBar() {
           gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))",
           gap: "1rem",
         }}>
-          {stats.map((stat) => (
+          {t.stats.map((stat) => (
             <div key={stat.label} style={{
               display: "flex",
               alignItems: "center",

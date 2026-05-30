@@ -1,17 +1,10 @@
-const benefits = [
-  { icon: "💡", text: "Low startup — no large investment" },
-  { icon: "⚡", text: "Fast IPTV reseller panel setup" },
-  { icon: "🔄", text: "Recurring monthly income stream" },
-  { icon: "📡", text: "Stable 4K IPTV servers" },
-  { icon: "📺", text: "20+ IPTV panel options" },
-  { icon: "🎓", text: "IPTV reseller onboarding support" },
-  { icon: "📈", text: "Scalable IPTV reselling business" },
-  { icon: "🌍", text: "Global — UK, USA, EU & more" },
-  { icon: "🎬", text: "4K & 8K no-buffering streaming" },
-  { icon: "🖥️", text: "White label reseller dashboards" },
-];
+import { useLocale } from "next-intl";
+import { getSectionTranslations } from "@/app/lib/translations";
 
 export default function BenefitsSection() {
+  const locale = useLocale();
+  const t = getSectionTranslations(locale).benefitsSection;
+
   return (
     <section
       id="benefits"
@@ -32,7 +25,7 @@ export default function BenefitsSection() {
 
           {/* Left */}
           <div>
-            <div className="tag" style={{ marginBottom: "1.25rem" }}>IPTV Reseller Program</div>
+            <div className="tag" style={{ marginBottom: "1.25rem" }}>{t.tag}</div>
             <h2 style={{
               fontFamily: "'Outfit', sans-serif",
               fontWeight: 800,
@@ -42,18 +35,11 @@ export default function BenefitsSection() {
               marginBottom: "1.25rem",
               color: "var(--text-primary)",
             }}>
-              Benefits of Joining Our{" "}
-              <span className="gradient-text">IPTV Reseller Program</span>
+              {t.titleMain}
+              <span className="gradient-text">{t.titleSpan}</span>
             </h2>
             <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, marginBottom: "1.5rem" }}>
-              Fox IPTV Panels gives every level of{" "}
-              <strong style={{ color: "var(--text-primary)" }}>IPTV reseller</strong> — from first-time
-              starters to large wholesale panel operators — a competitive edge.
-              Our <strong style={{ color: "var(--text-primary)" }}>IPTV reseller program</strong> is
-              designed for maximum profit and minimum friction. No servers to manage.
-              No technical infrastructure needed.
-              Start as a beginner <strong style={{ color: "var(--text-primary)" }}>IPTV sub reseller</strong> and
-              scale to a full IPTV reselling business.
+              {t.desc}
             </p>
 
             {/* Large stat */}
@@ -65,11 +51,7 @@ export default function BenefitsSection() {
               borderRadius: 14,
               border: "1px solid rgba(139,92,246,0.2)",
             }}>
-              {[
-                { label: "IPTV Reseller Panels", value: "20+" },
-                { label: "Server Uptime", value: "99.9%" },
-                { label: "WhatsApp Support", value: "24/7" },
-              ].map(stat => (
+              {t.stats.map(stat => (
                 <div key={stat.label} style={{ flex: 1, textAlign: "center" }}>
                   <div style={{
                     fontFamily: "'Outfit', sans-serif",
@@ -97,7 +79,7 @@ export default function BenefitsSection() {
             gridTemplateColumns: "1fr 1fr",
             gap: "0.75rem",
           }}>
-            {benefits.map((b) => (
+            {t.items.map((b) => (
               <div
                 key={b.text}
                 className="glass-card"

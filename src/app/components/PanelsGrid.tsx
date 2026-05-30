@@ -29,8 +29,67 @@ const panels = [
   { name: "Magnum Golden OTT", slug: "magnum-golden-ott-iptv-reseller-panel", color: "#f59e0b" },
 ];
 
+const content: Record<string, { tag: string; titleMain: string; titleSpan: string; desc: string; viewPanel: string; footnote: string; cta: string }> = {
+  en: {
+    tag: "Top IPTV Servers List 2026",
+    titleMain: "Best IPTV Reseller Panels & ",
+    titleSpan: "Top IPTV Servers 2026",
+    desc: "Browse our curated list of the best IPTV panels for resellers — each supporting Xtream Codes, M3U reseller panel access, and MAG box compatibility. Click any panel to view full reseller details, features, and credit pricing.",
+    viewPanel: "View Panel",
+    footnote: "All panels include Xtream Codes, M3U & MAG box support. Free trial available.",
+    cta: "Buy IPTV Reseller Credits"
+  },
+  es: {
+    tag: "Lista de Servidores IPTV Líderes 2026",
+    titleMain: "Los Mejores Paneles Reseller y ",
+    titleSpan: "Servidores IPTV 2026",
+    desc: "Explore nuestra lista curada de los mejores paneles de IPTV para revendedores: cada uno de ellos es compatible con Xtream Codes, acceso a panel M3U y cajas MAG. Haga clic en cualquier panel para ver los detalles del distribuidor y los precios.",
+    viewPanel: "Ver Panel",
+    footnote: "Todos los paneles incluyen soporte para Xtream Codes, M3U y cajas MAG. Demos gratuitas disponibles.",
+    cta: "Comprar Créditos IPTV"
+  },
+  fr: {
+    tag: "Liste des Meilleurs Serveurs IPTV 2026",
+    titleMain: "Les Meilleurs Panneaux Revendeurs & ",
+    titleSpan: "Serveurs IPTV 2026",
+    desc: "Découvrez notre liste sélectionnée des meilleurs panneaux IPTV pour revendeurs — prenant en charge Xtream Codes, l'accès M3U et les boîtiers MAG. Cliquez sur un panneau pour afficher les détails et tarifs.",
+    viewPanel: "Voir le Panneau",
+    footnote: "Tous les panneaux prennent en charge Xtream Codes, M3U et boîtiers MAG. Essai gratuit disponible.",
+    cta: "Acheter des Crédits IPTV"
+  },
+  pt: {
+    tag: "Lista de Servidores IPTV Líderes 2026",
+    titleMain: "Melhores Painéis Reseller e ",
+    titleSpan: "Servidores IPTV 2026",
+    desc: "Explore a nossa lista dos melhores painéis de IPTV para revenda: compatíveis com Xtream Codes, M3U e caixas MAG. Clique em qualquer painel para ver todos os detalhes e preços.",
+    viewPanel: "Ver Painel",
+    footnote: "Todos os painéis incluem suporte para Xtream Codes, M3U e MAG. Testes grátis disponíveis.",
+    cta: "Comprar Créditos IPTV"
+  },
+  sv: {
+    tag: "Lista över de bästa IPTV-servrarna 2026",
+    titleMain: "Bästa IPTV Återförsäljarpaneler & ",
+    titleSpan: "Topp IPTV-servrar 2026",
+    desc: "Bläddra i vår kurerade lista över de bästa IPTV-panelerna för återförsäljare — var och en med stöd för Xtream Codes, M3U och MAG box. Klicka på en panel för att se detaljer och priser.",
+    viewPanel: "Visa Panel",
+    footnote: "Alla paneler har stöd för Xtream Codes, M3U och MAG box. Gratisprov tillgängliga.",
+    cta: "Köp IPTV-krediter"
+  },
+  no: {
+    tag: "Liste over de beste IPTV-serverne 2026",
+    titleMain: "Beste IPTV Forhandlerpaneler & ",
+    titleSpan: "Topp IPTV-servere 2026",
+    desc: "Bla i vår kuraterte liste over de beste IPTV-panelene for forhandlere — hver med støtte for Xtream Codes, M3U og MAG box. Klikk på et panel for å se detaljer og priser.",
+    viewPanel: "Se Panel",
+    footnote: "Alle paneler har støtte for Xtream Codes, M3U og MAG box. Gratis prøvekontoer tilgjengelig.",
+    cta: "Kjøp IPTV-kreditter"
+  }
+};
+
 export default function PanelsGrid() {
   const locale = useLocale();
+  const lang = locale.split("-")[0];
+  const t = content[lang] || content["en"];
 
   return (
     <section
@@ -45,7 +104,7 @@ export default function PanelsGrid() {
       <div className="section-container">
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "3.5rem" }}>
-          <div className="tag" style={{ marginBottom: "1rem" }}>Top IPTV Servers List 2026</div>
+          <div className="tag" style={{ marginBottom: "1rem" }}>{t.tag}</div>
           <h2 style={{
             fontFamily: "'Outfit', sans-serif",
             fontWeight: 800,
@@ -55,13 +114,11 @@ export default function PanelsGrid() {
             color: "var(--text-primary)",
             marginBottom: "1rem",
           }}>
-            Best IPTV Reseller Panels &amp;{" "}
-            <span className="gradient-text">Top IPTV Servers 2026</span>
+            {t.titleMain}
+            <span className="gradient-text">{t.titleSpan}</span>
           </h2>
           <p style={{ color: "var(--text-secondary)", fontSize: "1rem", maxWidth: 640, margin: "0 auto" }}>
-            Browse our curated list of the best IPTV panels for resellers — each supporting Xtream Codes,
-            M3U reseller panel access, and MAG box compatibility. Click any panel to view full reseller details,
-            features, and credit pricing.
+            {t.desc}
           </p>
         </div>
 
@@ -111,7 +168,7 @@ export default function PanelsGrid() {
                   color: panel.color,
                   display: "flex", alignItems: "center", gap: 3,
                 }}>
-                  View Panel
+                  {t.viewPanel}
                   <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <polyline points="9,18 15,12 9,6"/>
                   </svg>
@@ -124,7 +181,7 @@ export default function PanelsGrid() {
         {/* CTA */}
         <div style={{ textAlign: "center" }}>
           <p style={{ color: "var(--text-muted)", fontSize: "0.85rem", marginBottom: "1rem" }}>
-            All panels include Xtream Codes, M3U & MAG box support. Free trial available.
+            {t.footnote}
           </p>
           <Link
             href={`/${locale}#pricing`}
@@ -138,7 +195,7 @@ export default function PanelsGrid() {
               position: "relative", overflow: "hidden",
             }}
           >
-            Buy IPTV Reseller Credits
+            {t.cta}
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <polyline points="9,18 15,12 9,6"/>
             </svg>

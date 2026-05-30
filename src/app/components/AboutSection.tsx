@@ -1,17 +1,20 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
 
-const features = [
-  "White label IPTV reseller dashboard",
-  "Instant credit activation",
-  "Stable 4K & 8K no-buffering servers",
-  "Flexible IPTV credit system",
-  "Dedicated WhatsApp support 24/7",
-  "20+ IPTV panel choices (Xtream Codes & M3U)",
-];
-
 export default function AboutSection() {
+  const t = useTranslations("about");
+
+  const features = [
+    t("feature1"),
+    t("feature2"),
+    t("feature3"),
+    t("feature4"),
+    t("feature5"),
+    t("feature6"),
+  ];
+
   return (
     <section
       id="about"
@@ -29,7 +32,7 @@ export default function AboutSection() {
           {/* Left: Text */}
           <div>
             <div className="tag" style={{ marginBottom: "1.25rem" }}>
-              About Fox IPTV Panels
+              {t("tag")}
             </div>
             <h2 style={{
               fontFamily: "'Outfit', sans-serif",
@@ -40,26 +43,19 @@ export default function AboutSection() {
               marginBottom: "1.5rem",
               color: "var(--text-primary)",
             }}>
-              What Is an{" "}
-              <span className="gradient-text">IPTV Reseller Panel</span> &mdash; And How Fox IPTV Panels Works
+              {t("title1")}{" "}
+              <span className="gradient-text">{t("title2")}</span> {t("title3")}
             </h2>
 
             <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, marginBottom: "1.25rem" }}>
-              Fox IPTV Panels is a leading <strong style={{ color: "var(--text-primary)" }}>IPTV reseller panel provider</strong> that
-              helps entrepreneurs start and scale their IPTV reselling business. We offer access to 20+ premium
-              IPTV panels — all with white label reseller dashboards, bulk credit packages,
-              and high-uptime IPTV servers optimized for 4K streaming.
+              {t("desc1")}
             </p>
             <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, marginBottom: "2rem" }}>
-              Whether you are a beginner learning{" "}
-              <strong style={{ color: "var(--text-primary)" }}>how to start an IPTV reseller business</strong> or
-              an experienced <strong style={{ color: "var(--text-primary)" }}>IPTV sub reseller</strong> looking
-              for a better wholesale panel — our platform gives you instant access to Xtream Codes and
-              M3U-compatible IPTV dashboards, instant credits, customer management tools, and MAG box support.
+              {t("desc2")}
             </p>
 
             <p style={{ color: "var(--text-secondary)", fontWeight: 600, marginBottom: "1rem" }}>
-              We simplify IPTV reselling with:
+              {t("listHeader")}
             </p>
 
             <ul className="check-list" style={{ marginBottom: "2rem" }}>
@@ -80,7 +76,7 @@ export default function AboutSection() {
                 position: "relative", overflow: "hidden",
               }}
             >
-              Become an IPTV Reseller
+              {t("cta")}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <polyline points="9,18 15,12 9,6"/>
               </svg>
@@ -92,20 +88,20 @@ export default function AboutSection() {
             {[
               {
                 icon: "🚀",
-                title: "Launch Fast — IPTV Reseller Panel Login in Minutes",
-                desc: "Get instant access to your IPTV reseller panel. Create subscriptions for customers within minutes of joining — no technical setup needed.",
+                title: t("card1Title"),
+                desc: t("card1Desc"),
                 color: "#8b5cf6",
               },
               {
                 icon: "💰",
-                title: "High IPTV Reseller Profit Margins",
-                desc: "Buy wholesale IPTV credits in bulk, sell subscriptions at your own pricing, and keep all the profit margin. The more credits you buy, the better your margins.",
+                title: t("card2Title"),
+                desc: t("card2Desc"),
                 color: "#3b82f6",
               },
               {
                 icon: "📊",
-                title: "Full IPTV Dashboard Management",
-                desc: "Manage all customers, credits, trial subscriptions, and packages from one centralized IPTV reseller dashboard with real-time analytics.",
+                title: t("card3Title"),
+                desc: t("card3Desc"),
                 color: "#06b6d4",
               },
             ].map((card) => (

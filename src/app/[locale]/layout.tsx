@@ -1,6 +1,6 @@
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import SEOAlternates from "@/app/components/SEOAlternates";
 
@@ -33,6 +33,9 @@ export default async function LocaleLayout({
     notFound();
   }
 
+  // Set the request locale for Server Components
+  setRequestLocale(locale);
+
   // Load language-specific translation dictionary
   const messages = await getMessages();
 
@@ -57,7 +60,7 @@ export default async function LocaleLayout({
         />
       </head>
       <body className="min-h-full flex flex-col antialiased">
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
       </body>

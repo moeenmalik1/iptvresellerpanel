@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
-import { useTranslations } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export function generateStaticParams() {
   return [
@@ -22,8 +22,10 @@ export default async function DisclaimerPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const c = useTranslations("common");
-  const n = useTranslations("nav");
+  setRequestLocale(locale);
+
+  const c = await getTranslations({ locale, namespace: "common" });
+  const n = await getTranslations({ locale, namespace: "nav" });
 
   const WHATSAPP_URL = c("whatsappUrl");
   const regionName = c("regionName");
