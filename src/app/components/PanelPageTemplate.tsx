@@ -76,6 +76,20 @@ export default function PanelPageTemplate({ panel }: Props) {
   };
 
   const { title: pageTitle, description: pageDescription } = getHighCtrMetadata();
+ 
+  // Dynamically resolve currency based on route locale to align structured data schema with regional Google Search index
+  const priceCurrency = (() => {
+    switch (locale) {
+      case "en-gb": return "GBP";
+      case "en-au": return "AUD";
+      case "es":
+      case "fr":
+      case "pt": return "EUR";
+      case "sv": return "SEK";
+      case "no": return "NOK";
+      default: return "USD";
+    }
+  })();
 
   const panelSchema = {
     "@context": "https://schema.org",
@@ -87,7 +101,7 @@ export default function PanelPageTemplate({ panel }: Props) {
     offers: {
       "@type": "Offer",
       availability: "https://schema.org/InStock",
-      priceCurrency: "GBP",
+      priceCurrency: priceCurrency,
       seller: { "@type": "Organization", name: "Fox IPTV Panels" },
     },
   };
