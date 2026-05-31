@@ -65,6 +65,27 @@ export default async function HomePage({
     ],
   };
 
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://foxiptvpanels.com/#localbusiness",
+    "name": "Fox IPTV Panels",
+    "image": "https://foxiptvpanels.com/logo.png",
+    "url": "https://foxiptvpanels.com",
+    "telephone": "+442079460192",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "GB"
+    },
+    "parentOrganization": {
+      "@id": "https://foxiptvpanels.com/#organization"
+    }
+  };
+
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -190,6 +211,10 @@ export default async function HomePage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
       <script
         type="application/ld+json"
