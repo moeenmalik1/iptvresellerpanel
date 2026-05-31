@@ -48,6 +48,7 @@ export default async function GuideDetailPage({
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
+    "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#article`,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}`
@@ -59,6 +60,7 @@ export default async function GuideDetailPage({
     "dateModified": "2026-05-31T08:00:00+00:00",
     "author": {
       "@type": "Person",
+      "@id": "https://foxiptvpanels.com/#author-marcusvane",
       "name": "Marcus Vane",
       "jobTitle": "Lead Alt-Broadband Network Architect",
       "knowsAbout": ["IPTV portal customization", "reseller panel setups", "Xtream Codes API integration", "network peerings"],
@@ -66,6 +68,7 @@ export default async function GuideDetailPage({
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://foxiptvpanels.com/#organization",
       "name": "Fox IPTV Panels",
       "logo": {
         "@type": "ImageObject",

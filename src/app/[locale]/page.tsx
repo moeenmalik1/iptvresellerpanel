@@ -28,12 +28,13 @@ export default async function HomePage({
 
   const WHATSAPP_URL = c("whatsappUrl");
 
-  /* ─── Dynamically Localized JSON-LD Structured Data ─── */
+  /* ─── Dynamically Localized JSON-LD Structured Data (Crawl Budget & Knowledge Graph Optimized) ─── */
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://foxiptvpanels.com/#organization",
     name: "Fox IPTV Panels",
-    url: `https://foxiptvpanels.com/${c("currency").toLowerCase()}`,
+    url: "https://foxiptvpanels.com",
     logo: "https://foxiptvpanels.com/logo.png",
     description: t("description"),
     contactPoint: {
@@ -42,6 +43,10 @@ export default async function HomePage({
       availableLanguage: ["English", "Spanish", "French", "Portuguese", "Swedish", "Norwegian"],
       contactOption: "TollFree",
     },
+    sameAs: [
+      "https://twitter.com/foxiptvpanels",
+      "https://youtube.com/c/foxiptvpanels",
+    ],
     areaServed: [
       { "@type": "Country", name: c("regionName") },
       { "@type": "Country", name: "United Kingdom" },
@@ -63,9 +68,13 @@ export default async function HomePage({
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://foxiptvpanels.com/#website",
     name: "Fox IPTV Panels",
     url: "https://foxiptvpanels.com",
     description: t("description"),
+    publisher: {
+      "@id": "https://foxiptvpanels.com/#organization"
+    },
     potentialAction: {
       "@type": "SearchAction",
       target: {
@@ -76,27 +85,89 @@ export default async function HomePage({
     },
   };
 
+  // Localized FAQ schema content matching page body language precisely
+  const getLocalizedFaqs = () => {
+    switch (locale.toLowerCase()) {
+      case "es":
+        return [
+          {
+            q: "¿Qué es un panel de revendedor de IPTV?",
+            a: "Un panel de revendedor de IPTV es una plataforma de marca blanca que permite a los usuarios crear y gestionar suscripciones mediante créditos de distribuidor. Admite conexiones Xtream Codes, M3U y decodificadores MAG, lo que otorga control total de renovaciones, cuentas de prueba y balance de saldo.",
+          },
+          {
+            q: "¿Cómo funcionan los créditos de revendedor de IPTV?",
+            a: "Los créditos son la moneda operativa del panel. 1 crédito equivale a 1 mes de servicio por cliente. Compra créditos al por mayor y los debita de su balance a medida que activa cuentas en tiempo real. La diferencia entre su precio mayorista y su precio de venta minorista es su beneficio directo.",
+          },
+        ];
+      case "fr":
+        return [
+          {
+            q: "Qu'est-ce qu'un panneau revendeur IPTV ?",
+            a: "Un panneau revendeur IPTV est un tableau de bord en marque blanche permettant de créer et gérer des abonnements IPTV à l'aide de crédits. Il prend en charge les applications compatibles avec Xtream Codes, M3U et boîtiers MAG.",
+          },
+          {
+            q: "Comment fonctionnent les crédits de revendeur IPTV ?",
+            a: "Les crédits agissent comme une monnaie de gros. Chaque crédit correspond généralement à 1 mois d'abonnement pour un client. Vous achetez ces crédits en gros, puis les utilisez pour activer les lignes de vos clients au tarif de votre choix, conservant ainsi la marge.",
+          },
+        ];
+      case "pt":
+        return [
+          {
+            q: "O que é um painel de revendedor IPTV?",
+            a: "Um painel de revendedor IPTV é um dashboard de marca branca que permite criar e gerir subscrições de IPTV através de créditos. Suporta ligações Xtream Codes, listas M3U e caixas MAG.",
+          },
+          {
+            q: "Como funcionam os créditos de revenda IPTV?",
+            a: "Os créditos são a moeda de faturamento. Tipicamente, 1 crédito equivale a 1 mês de serviço. Adquire os créditos por grosso e utiliza-os para ativar as contas dos seus utilizadores de acordo com as suas próprias tarifas, retendo o lucro.",
+          },
+        ];
+      case "sv":
+        return [
+          {
+            q: "Vad är en IPTV-återförsäljarpanel?",
+            a: "En IPTV-återförsäljarpanel är en white label-kontrollpanel som gör det möjligt att skapa och administrera IPTV-abonnemang med återförsäljarkrediter. Den stöder Xtream Codes, M3U och MAG-boxar.",
+          },
+          {
+            q: "Hur fungerar IPTV-återförsäljarkrediter?",
+            a: "Krediter är valutan i återförsäljarsystemet. 1 kredit motsvarar 1 månads abonnemang för en kund. Du köper krediter i bulk till grossistpris och debiterar dem när du aktiverar kunder, vilket ger en hög vinstmarginal.",
+          },
+        ];
+      case "no":
+        return [
+          {
+            q: "Et IPTV-forhandlerpanel er et hva?",
+            a: "Et IPTV-forhandlerpanel er et white label-dashboard som lar deg opprette og administrere IPTV-abonnementer med kreditter. Det støtter Xtream Codes, M3U og MAG-bokser.",
+          },
+          {
+            q: "Hvordan fungerer IPTV-forhandlerkreditter?",
+            a: "Kreditter fungerer som engrosvaluta. 1 kreditt tilsvarer 1 måned med abonnement for én kunde. Du kjøper kreditter i bulk og bruker dem til å aktivere kundeabonnementer til dine egne priser.",
+          },
+        ];
+      default:
+        return [
+          {
+            q: "What is an IPTV reseller panel?",
+            a: "An IPTV reseller panel is a white label dashboard that allows users to create and manage IPTV subscriptions using reseller credits. It supports Xtream Codes, M3U, and MAG box connections, and gives resellers full control over subscription creation, credit allocation, trial generation, and customer management.",
+          },
+          {
+            q: "How do IPTV reseller credits work?",
+            a: "IPTV reseller credits are the currency of the IPTV credit system. Each credit corresponds to one month of IPTV subscription for one customer. You buy credits in bulk from a wholesale IPTV panel provider like Fox IPTV Panels, then use them to activate subscriptions for your end customers at your own pricing — keeping the profit margin.",
+          },
+        ];
+    }
+  };
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is an IPTV reseller panel?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "An IPTV reseller panel is a white label dashboard that allows users to create and manage IPTV subscriptions using reseller credits. It supports Xtream Codes, M3U, and MAG box connections, and gives resellers full control over subscription creation, credit allocation, trial generation, and customer management.",
-        },
+    mainEntity: getLocalizedFaqs().map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.a,
       },
-      {
-        "@type": "Question",
-        name: "How do IPTV reseller credits work?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "IPTV reseller credits are the currency of the IPTV credit system. Each credit corresponds to one month of IPTV subscription for one customer. You buy credits in bulk from a wholesale IPTV panel provider like Fox IPTV Panels, then use them to activate subscriptions for your end customers at your own pricing — keeping the profit margin.",
-        },
-      },
-    ],
+    })),
   };
 
   return (
