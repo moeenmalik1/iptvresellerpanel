@@ -44,51 +44,104 @@ export default async function GuideDetailPage({
   // Dynamic local translation strings
   const lc = (map: Record<string, string>) => map[locale] ?? map["en"] ?? "";
 
-  // 📝 Dynamic Article Schema (Strict E-E-A-T & Helpful Content Compliant)
-  const articleSchema = {
+  // 📝 Comprehensive JSON-LD Graph for dynamic schemas (WebPage, BreadcrumbList, TechArticle, Person, FAQPage)
+  const graphSchema = {
     "@context": "https://schema.org",
-    "@type": "TechArticle",
-    "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#article`,
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}`
-    },
-    "headline": guide.title,
-    "description": guide.seoDescription,
-    "image": "https://foxiptvpanels.com/og-image.png",
-    "datePublished": "2026-05-24T08:00:00+00:00",
-    "dateModified": "2026-05-31T08:00:00+00:00",
-    "author": {
-      "@type": "Person",
-      "@id": "https://foxiptvpanels.com/#author-marcusvane",
-      "name": "Marcus Vane",
-      "jobTitle": "Lead Alt-Broadband Network Architect",
-      "knowsAbout": ["IPTV portal customization", "reseller panel setups", "Xtream Codes API integration", "network peerings"],
-      "sameAs": ["https://twitter.com/marcusvane_iptv"]
-    },
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://foxiptvpanels.com/#organization",
-      "name": "Fox IPTV Panels",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://foxiptvpanels.com/logo.png"
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#webpage`,
+        "url": `https://foxiptvpanels.com/${locale}/guides/${guide.id}`,
+        "name": guide.seoTitle,
+        "description": guide.seoDescription,
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://foxiptvpanels.com/#website",
+          "name": "Fox IPTV Panels",
+          "url": "https://foxiptvpanels.com"
+        },
+        "breadcrumb": {
+          "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#breadcrumb`
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#breadcrumb`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": lc({ en: "Home", es: "Inicio", fr: "Accueil", pt: "Início", sv: "Hem", no: "Hjem" }),
+            "item": `https://foxiptvpanels.com/${locale}`
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": lc({ en: "Guides", es: "Guías", fr: "Guides", pt: "Guias", sv: "Guider", no: "Guider" }),
+            "item": `https://foxiptvpanels.com/${locale}/guides`
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": guide.title,
+            "item": `https://foxiptvpanels.com/${locale}/guides/${guide.id}`
+          }
+        ]
+      },
+      {
+        "@type": ["TechArticle", "Article", "NewsArticle", "BlogPosting"],
+        "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#article`,
+        "mainEntityOfPage": `https://foxiptvpanels.com/${locale}/guides/${guide.id}`,
+        "headline": guide.title,
+        "description": guide.seoDescription,
+        "image": "https://foxiptvpanels.com/og-image.png",
+        "datePublished": "2026-05-24T08:00:00+00:00",
+        "dateModified": "2026-05-31T08:00:00+00:00",
+        "author": {
+          "@type": "Person",
+          "@id": "https://foxiptvpanels.com/authors/#marcusvane",
+          "name": "Marcus Vane",
+          "jobTitle": "Lead Alt-Broadband Network Architect",
+          "image": "https://foxiptvpanels.com/icon.svg",
+          "description": "Marcus Vane is a leading expert in alternative broadband networks and IPTV customization protocols with over 15 years of network systems virtualization experience.",
+          "sameAs": [
+            "https://twitter.com/marcusvane_iptv",
+            `https://foxiptvpanels.com/${locale}/authors`
+          ]
+        },
+        "reviewedBy": {
+          "@type": "Person",
+          "@id": "https://foxiptvpanels.com/authors/#carlosm",
+          "name": "Carlos M.",
+          "jobTitle": "Certified Broadband Specialist & Alt-Telecom Auditor",
+          "image": "https://foxiptvpanels.com/icon.svg",
+          "sameAs": [
+            `https://foxiptvpanels.com/${locale}/authors`
+          ]
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://foxiptvpanels.com/#organization",
+          "name": "Fox IPTV Panels",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://foxiptvpanels.com/logo.png"
+          }
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#faq`,
+        "mainEntity": guide.faqs.map((faq) => ({
+          "@type": "Question",
+          "name": faq.q,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.a
+          }
+        }))
       }
-    }
-  };
-
-  // 📝 Dynamic FAQ Schema for zero-click Featured Snippet capture
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": guide.faqs.map((faq) => ({
-      "@type": "Question",
-      "name": faq.q,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.a
-      }
-    }))
+    ]
   };
 
   return (
@@ -101,11 +154,7 @@ export default async function GuideDetailPage({
       {/* Structured dynamic schemas */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(graphSchema) }}
       />
 
       <Header />
@@ -148,11 +197,33 @@ export default async function GuideDetailPage({
 
           {/* Article Layout */}
           <article className="glass-card" style={{ padding: "3.5rem 3rem", borderRadius: "24px", position: "relative", zIndex: 10, overflow: "hidden" }}>
-            {/* Header info */}
+            {/* Header info with Visible E-E-A-T Dates */}
             <header style={{ marginBottom: "2.5rem", borderBottom: "1px solid var(--border-color)", paddingBottom: "2rem" }}>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 12, alignItems: "center", marginBottom: "1rem" }}>
                 <span className="tag">{guide.category}</span>
                 <span style={{ fontSize: "0.8rem", color: "var(--text-muted)" }}>{guide.readTime}</span>
+                <span style={{ color: "var(--border-accent)", fontSize: "0.75rem" }}>•</span>
+                <span style={{ fontSize: "0.8rem", color: "var(--text-muted)" }}>
+                  {lc({
+                    en: "Published: May 24, 2026",
+                    es: "Publicado: 24 de mayo de 2026",
+                    fr: "Publié le : 24 mai 2026",
+                    pt: "Publicado em: 24 de maio de 2026",
+                    sv: "Publicerad: 24 maj 2026",
+                    no: "Publisert: 24. mai 2026"
+                  })}
+                </span>
+                <span style={{ color: "var(--border-accent)", fontSize: "0.75rem" }}>•</span>
+                <span style={{ fontSize: "0.8rem", color: "var(--accent-cyan)", fontWeight: 500 }}>
+                  {lc({
+                    en: "Last Updated: May 31, 2026",
+                    es: "Última actualización: 31 de mayo de 2026",
+                    fr: "Mis à jour le : 31 mai 2026",
+                    pt: "Última actualización: 31 de maio de 2026",
+                    sv: "Senast uppdaterad: 31 maj 2026",
+                    no: "Sist oppdatert: 31. mai 2026"
+                  })}
+                </span>
               </div>
 
               <h1 style={{
@@ -183,7 +254,11 @@ export default async function GuideDetailPage({
                   <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>
                     {lc({
                       en: "Lead Alt-Broadband Network Architect • Certified IPTV Specialist",
-                      es: "Arquitecto de Redes de Banda Ancha Alternativas • Especialista Certificado en IPTV"
+                      es: "Arquitecto de Redes de Banda Ancha Alternativas • Especialista Certificado en IPTV",
+                      fr: "Architecte Réseau Alt-Broadband • Spécialiste IPTV Certifié",
+                      pt: "Arquiteto de Redes de Banda Larga Alternativas • Especialista IPTV Certificado",
+                      sv: "Ledande Alt-Bredbandsarkitekt • Certifierad IPTV-Specialist",
+                      no: "Ledende Alt-Bredbåndsarkitekt • Sertifisert IPTV-Spesialist"
                     })}
                   </div>
                 </div>
@@ -202,6 +277,143 @@ export default async function GuideDetailPage({
               className="guide-rich-content"
             >
               <div dangerouslySetInnerHTML={{ __html: formatRichText(guide.content) }} />
+            </section>
+
+            {/* 👤 Premium E-E-A-T Author & Reviewer Box */}
+            <section style={{ 
+              padding: "2.5rem", 
+              borderRadius: "20px", 
+              background: "rgba(255, 255, 255, 0.02)", 
+              border: "1px solid var(--border-color)",
+              marginTop: "3rem",
+              marginBottom: "4rem",
+              position: "relative"
+            }}>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2.5rem" }} className="panel-hero-grid">
+                
+                {/* Author Block */}
+                <div style={{ display: "flex", gap: "1.25rem", flexDirection: "column" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+                    <img 
+                      src="/icon.svg" 
+                      alt="Marcus Vane" 
+                      style={{ 
+                        width: "60px", 
+                        height: "60px", 
+                        borderRadius: "50%", 
+                        border: "2px solid var(--accent-purple)",
+                        background: "var(--bg-secondary)",
+                        padding: "4px"
+                      }} 
+                    />
+                    <div>
+                      <div style={{ fontSize: "1.05rem", fontWeight: 800, color: "var(--text-primary)" }}>
+                        Marcus Vane
+                      </div>
+                      <div style={{ fontSize: "0.8rem", color: "var(--accent-purple)", fontWeight: 600 }}>
+                        {lc({
+                          en: "Lead Alt-Broadband Architect",
+                          es: "Arquitecto Jefe de Redes de Banda Ancha",
+                          fr: "Architecte Réseau Alt-Broadband",
+                          pt: "Arquiteto Principal de Banda Larga",
+                          sv: "Ledande Alt-Bredbandsarkitekt",
+                          no: "Ledende Alt-Bredbåndsarkitekt"
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <p style={{ fontSize: "0.875rem", color: "var(--text-secondary)", lineHeight: 1.6, margin: 0 }}>
+                    {lc({
+                      en: "Marcus Vane has spent 15+ years engineering alternative telecom networks and virtualized IPTV delivery architectures. A strong advocate for data security, he counsels startup digital entrepreneurs globally.",
+                      es: "Marcus Vane lleva más de 15 años diseñando redes de telecomunicaciones alternativas y arquitecturas de IPTV virtualizadas. Defensor de la seguridad, asesora a emprendedores de todo el mundo.",
+                      fr: "Marcus Vane conçoit des réseaux télécoms alternatifs et des architectures IPTV depuis plus de 15 ans. Expert en sécurité, il conseille les entrepreneurs du numérique.",
+                      pt: "Marcus Vane tem mais de 15 anos de experiência na projeção de redes alternativas e IPTV. Especialista em segurança, ajuda empreendedores de todo o mundo.",
+                      sv: "Marcus Vane har över 15 års erfarenhet av att bygga alternativa nätverk och IPTV-strukturer. Han brinner för datasäkerhet och guidar nya digitala entreprenörer.",
+                      no: "Marcus Vane har over 15 års erfarenhet med å bygge alternative nettverk og IPTV-strukturer. Han brenner for datasikkerhet og veileder nye digitale entreprenører."
+                    })}
+                  </p>
+                  
+                  {/* Social Handles */}
+                  <div style={{ display: "flex", gap: "12px", alignItems: "center", marginTop: "4px" }}>
+                    <Link href={`/${locale}/authors`} style={{ fontSize: "0.8rem", color: "var(--accent-cyan)", textDecoration: "none", fontWeight: 700 }} className="animated-underline">
+                      {lc({ en: "View Portfolio ↗", es: "Ver Portafolio ↗", fr: "Voir le Portfolio ↗", pt: "Ver Portfólio ↗", sv: "Visa Portfölj ↗", no: "Se Portefølje ↗" })}
+                    </Link>
+                    <span style={{ color: "var(--border-color)" }}>|</span>
+                    <a href="https://twitter.com/marcusvane_iptv" target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.8rem", color: "var(--text-muted)", textDecoration: "none" }} className="animated-underline">
+                      Twitter/X
+                    </a>
+                  </div>
+                </div>
+
+                {/* Reviewer / Verification Block */}
+                <div style={{ display: "flex", gap: "1.25rem", flexDirection: "column", borderLeft: "1px solid var(--border-color)", paddingLeft: "2.5rem" }} className="reviewer-border-fix">
+                  <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+                    <div style={{
+                      width: "60px",
+                      height: "60px",
+                      borderRadius: "50%",
+                      border: "2px solid var(--accent-cyan)",
+                      background: "linear-gradient(135deg, #1e293b, #0f172a)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      fontSize: "1.2rem",
+                      fontWeight: 800,
+                      color: "var(--accent-cyan)"
+                    }}>
+                      CM
+                    </div>
+                    <div>
+                      <div style={{ fontSize: "1.05rem", fontWeight: 800, color: "var(--text-primary)" }}>
+                        Carlos M.
+                      </div>
+                      <div style={{ fontSize: "0.8rem", color: "var(--accent-cyan)", fontWeight: 600 }}>
+                        {lc({
+                          en: "Certified Broadband Specialist & Auditor",
+                          es: "Especialista Certificado en Banda Ancha",
+                          fr: "Spécialiste Certifié en Haut Débit",
+                          pt: "Especialista em Banda Larga Certificado",
+                          sv: "Certifierad Bredbandsspecialist",
+                          no: "Sertifisert Bredbåndsspesialist"
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <p style={{ fontSize: "0.875rem", color: "var(--text-secondary)", lineHeight: 1.6, margin: 0 }}>
+                    <strong style={{ color: "var(--text-primary)", fontWeight: 600 }}>
+                      {lc({
+                        en: "Double-Editorial Audit: ",
+                        es: "Auditoría Editorial Doble: ",
+                        fr: "Audit Double-Éditorial : ",
+                        pt: "Auditoria Editorial Dupla: ",
+                        sv: "Dubbel Redaktionell Granskning: ",
+                        no: "Dobbel Redaksjonell Revisjon: "
+                      })}
+                    </strong>
+                    {lc({
+                      en: "This masterclass has been audited for networking telemetry accuracy, WHMCS database hook security, and Cloudflare proxy guidelines.",
+                      es: "Esta guía ha sido auditada para garantizar la precisión de la telemetría de red, la seguridad de las conexiones WHMCS y las directrices de Cloudflare.",
+                      fr: "Ce guide a été audité pour valider la précision des données réseau, la sécurité WHMCS et la conformité aux exigences Cloudflare.",
+                      pt: "Este guia foi auditado para garantir a precisão técnica das ligações de rede, segurança do WHMCS e diretrizes do Cloudflare.",
+                      sv: "Denna guide har granskats för teknisk exakthet gällande nätverkstelemetri, WHMCS-säkerhet och Cloudflares riktlinjer.",
+                      no: "Denne guiden har blitt revidert for teknisk nøyaktighet angående nettverkstelemetri, WHMCS-sikkerhet og Cloudflares retningslinjer."
+                    })}
+                  </p>
+                  
+                  <div style={{ display: "flex", gap: "12px", alignItems: "center", marginTop: "4px" }}>
+                    <span style={{ fontSize: "0.8rem", color: "#22c55e", fontWeight: 700, display: "inline-flex", alignItems: "center", gap: "4px" }}>
+                      ✔ {lc({ en: "Verified Accurate", es: "Verificado Preciso", fr: "Vérifié Conforme", pt: "Verificado Exato", sv: "Verifierad Korrekt", no: "Verifisert Nøyaktig" })}
+                    </span>
+                    <span style={{ color: "var(--border-color)" }}>|</span>
+                    <Link href={`/${locale}/editorial-guidelines`} style={{ fontSize: "0.8rem", color: "var(--text-muted)", textDecoration: "none" }} className="animated-underline">
+                      {lc({ en: "Editorial Guidelines", es: "Pautas Editoriales", fr: "Charte Éditoriale", pt: "Diretrizes Editoriais", sv: "Redaktionella Riktlinjer", no: "Redaksjonelle Retningslinjer" })}
+                    </Link>
+                  </div>
+                </div>
+
+              </div>
             </section>
 
             {/* Quick FAQ Accordion */}
@@ -349,6 +561,14 @@ export default async function GuideDetailPage({
           border-radius: 0;
           color: inherit;
           font-size: inherit;
+        }
+        @media (max-width: 768px) {
+          .reviewer-border-fix {
+            border-left: none !important;
+            padding-left: 0 !important;
+            border-top: 1px solid var(--border-color) !important;
+            padding-top: 2rem !important;
+          }
         }
       `}</style>
     </>

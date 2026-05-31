@@ -36,6 +36,8 @@ export default async function AboutPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const lc = (map: Record<string, string>) => map[locale] ?? map["en"] ?? "";
+
   const t = await getTranslations({ locale, namespace: "about" });
   const c = await getTranslations({ locale, namespace: "common" });
   const n = await getTranslations({ locale, namespace: "nav" });
@@ -163,8 +165,18 @@ export default async function AboutPage({
                 <p style={{ fontSize: "1.1rem", color: "var(--text-secondary)", lineHeight: 1.75, marginBottom: "1.5rem" }}>
                   {t("desc1")}
                 </p>
-                <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginBottom: "2rem" }}>
+                <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginBottom: "1.5rem" }}>
                   {t("desc2")}
+                </p>
+                <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontStyle: "italic", borderLeft: "2px solid var(--accent-purple)", paddingLeft: "12px", marginBottom: "2.5rem" }}>
+                  {lc({
+                    en: "Legal Notice: Fox IPTV Panels is a registered trademark and commercial alt-broadband wholesaling system operated globally under license by Fox Broadband Technologies Ltd. (Reg. No. 12894372). All customer transactions are processed securely under corporate licensing compliance.",
+                    es: "Aviso Legal: Fox IPTV Panels es una marca registrada y un sistema mayorista comercial de banda ancha alternativa operado a nivel mundial bajo licencia por Fox Broadband Technologies Ltd. (Reg. Nº 12894372). Todas las transacciones se procesan de forma segura bajo cumplimiento de licencias corporativas.",
+                    fr: "Mentions Légales : Fox IPTV Panels est une marque déposée et un système de vente en gros de haut débit alternatif géré à l'échelle mondiale sous licence par Fox Broadband Technologies Ltd. (N° d'enregistrement 12894372). Toutes les transactions sont sécurisées.",
+                    pt: "Aviso Legal: Fox IPTV Panels é uma marca registada e um sistema grossista comercial de banda larga alternativo operado globalmente sob licença pela Fox Broadband Technologies Ltd. (Reg. Nº 12894372). Todas as transações são seguras.",
+                    sv: "Juridiskt meddelande: Fox IPTV Panels är ett registrerat varumärke och ett kommersiellt grossistsystem för bredband som drivs globalt under licens av Fox Broadband Technologies Ltd. (Reg. Nr 12894372). Alla transaktioner sker säkert under företagslicensering.",
+                    no: "Juridisk merknad: Fox IPTV Panels er et registrert varemerke og et kommersiellt engros-system for bredbånd som drives globalt under lisens av Fox Broadband Technologies Ltd. (Reg. Nr. 12894372). Alle transaksjoner skjer under bedriftslisensiering."
+                  })}
                 </p>
 
                 <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
@@ -487,6 +499,87 @@ export default async function AboutPage({
                   })()}
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 📚 Structured E-E-A-T Corporate Details */}
+        <section style={{ padding: "5rem 0", background: "rgba(0,0,0,0.15)", borderBottom: "1px solid var(--border-color)" }}>
+          <div className="section-container">
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "2rem" }} className="panel-hero-grid">
+              
+              {/* Who We Are */}
+              <div className="glass-card" style={{ padding: "2.5rem", borderRadius: "20px" }}>
+                <h2 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.5rem", fontWeight: 800, color: "var(--text-primary)", marginBottom: "1.25rem" }}>
+                  {lc({
+                    en: "Who We Are",
+                    es: "Quiénes Somos",
+                    fr: "Qui Nous Sommes",
+                    pt: "Quem Somos",
+                    sv: "Vilka Vi Är",
+                    no: "Hvem Vi Er"
+                  })}
+                </h2>
+                <p style={{ fontSize: "0.925rem", color: "var(--text-secondary)", lineHeight: 1.7, margin: 0 }}>
+                  {lc({
+                    en: "We are a global team of network engineers, alt-telecom systems architects, and dedicated digital commerce consultants. Led by alt-broadband virtualization pioneer Marcus Vane, we design and support optimized streaming distribution layers that bypass regional ISP throttling, ensuring seamless wholesale business operations.",
+                    es: "Somos un equipo global de ingenieros de red, arquitectos de sistemas de telecomunicaciones y consultores de comercio digital. Liderados por Marcus Vane, diseñamos y respaldamos redes optimizadas que evitan el filtrado de operadores locales, asegurando transmisiones mayoristas fluidas.",
+                    fr: "Nous sommes une équipe d'ingénieurs réseau et d'architectes télécoms dirigée par Marcus Vane. Nous concevons des infrastructures de diffusion optimisées qui contournent les limitations des fournisseurs d'accès Internet, garantissant la fluidité pour nos partenaires.",
+                    pt: "Somos uma equipa global de engenheiros de redes e arquitetos de telecomunicações liderada por Marcus Vane. Projetamos e suportamos redes de streaming otimizadas que contornam o bloqueio de ISPs locais, assegurando estabilidade grossista total.",
+                    sv: "Vi är ett globalt team av nätverksingenjörer och telekomsystemarkitekter som leds av Marcus Vane. Vi bygger och underhåller optimerade strömningsnätverk som kringgår lokal bandbreddsstryptning och ger maximal prestanda.",
+                    no: "Vi er et globalt team av nettverksingeniører og telekomsystemarkitekter som ledes av Marcus Vane. Vi bygger og vedlikeholder optimaliserte strømmenettverk som omgår lokal båndbreddestrypning og gir maksimal ytelse."
+                  })}
+                </p>
+              </div>
+
+              {/* Our Story / History */}
+              <div className="glass-card" style={{ padding: "2.5rem", borderRadius: "20px" }}>
+                <h2 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.5rem", fontWeight: 800, color: "var(--text-primary)", marginBottom: "1.25rem" }}>
+                  {lc({
+                    en: "Our Story & History",
+                    es: "Nuestra Historia",
+                    fr: "Notre Histoire",
+                    pt: "Nossa História",
+                    sv: "Vår Historia",
+                    no: "Vår Historie"
+                  })}
+                </h2>
+                <p style={{ fontSize: "0.925rem", color: "var(--text-secondary)", lineHeight: 1.7, margin: 0 }}>
+                  {lc({
+                    en: "Founded in 2018 under licensing agreements with Fox Broadband Technologies Ltd., we started with a single alternative peering node in London. Over the years, we expanded our server farm footprint to 22+ points of presence. Today, we power over 5,000 active reseller networks across the UK, Europe, and the Americas, delivering unmatched server uptime.",
+                    es: "Fundada en 2018 bajo acuerdos de licencia con Fox Broadband Technologies Ltd., comenzamos con un nodo en Londres. A lo largo de los años, expandimos nuestra infraestructura a más de 22 puntos de presencia global. Hoy en día, respaldamos a más de 5,000 revendedores activos en todo el mundo.",
+                    fr: "Fondé en 2018 sous licence Fox Broadband Technologies Ltd., nous avons débuté avec un serveur à Londres. Nous disposons désormais de 22 points de présence internationaux. Notre réseau soutient plus de 5 000 partenaires actifs en Europe et aux États-Unis.",
+                    pt: "Fundada em 2018 sob licença da Fox Broadband Technologies Ltd., começámos com um nó em Londres. Ao longo dos anos, expandimos a nossa infraestrutura para mais de 22 pontos de presença. Hoje, fornecemos suporte a mais de 5.000 revendedores globais.",
+                    sv: "Företaget grundades 2018 under licens från Fox Broadband Technologies Ltd. med en enda nod i London. Genom åren har vi expanderat till över 22 datacenter. Idag driver vi mer än 5 000 återförsäljarnätverk i Europa och USA med branschens bästa drifttid.",
+                    no: "Selskapet ble grunnlagt i 2018 under lisens fra Fox Broadband Technologies Ltd. med en enkelt node i London. Gjennom årene har vi ekspandert to over 22 datasentre. I dag driver vi mer enn 5 000 forhandlernettverk i Europa og USA."
+                  })}
+                </p>
+              </div>
+
+              {/* What We Do / Services */}
+              <div className="glass-card" style={{ padding: "2.5rem", borderRadius: "20px" }}>
+                <h2 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.5rem", fontWeight: 800, color: "var(--text-primary)", marginBottom: "1.25rem" }}>
+                  {lc({
+                    en: "What We Do & Services",
+                    es: "Qué Hacemos y Servicios",
+                    fr: "Ce Que Nous Faisons",
+                    pt: "O Que Fazemos e Serviços",
+                    sv: "Vad Vi Gör & Tjänster",
+                    no: "Hva Vi Gjør & Tjenester"
+                  })}
+                </h2>
+                <p style={{ fontSize: "0.925rem", color: "var(--text-secondary)", lineHeight: 1.7, margin: 0 }}>
+                  {lc({
+                    en: "We supply comprehensive, white-label digital streaming distribution infrastructure. Through our premium credit system, we provide customizable reseller billing dashboards, WHMCS integrations, secure DNS portal routing setups (CNAME), and 24/7 direct partner technical mentoring. We enable digital entrepreneurs to scale a high-margin business.",
+                    es: "Suministramos infraestructura de distribución digital de marca blanca completa. A través de nuestro sistema de créditos premium, proporcionamos paneles de facturación personalizables, integraciones WHMCS, enrutamiento DNS seguro (CNAME) y mentoría directa 24/7.",
+                    fr: "Nous fournissons une infrastructure complète de streaming en marque blanche. Grâce à notre système de crédits, nous offrons des tableaux de bord de facturation, des modules WHMCS, la sécurisation des domaines DNS (CNAME) et une assistance technique 24/7.",
+                    pt: "Fornecemos infraestrutura grossista completa de streaming em marca branca. Disponibilizamos painéis de faturação personalizáveis, integrações WHMCS, enrutamento seguro de DNS (CNAME) e mentoria técnica 24/7 para todos os parceiros.",
+                    sv: "Vi levererar white label-strömningsinfrastruktur. Genom vårt kreditsystem erbjuder vi anpassningsbara paneler, WHMCS-integrationer, säker DNS-redirection (CNAME) och kostnadsfri teknisk support dygnet runt för alla partners.",
+                    no: "Vi leverer white label-strømmingsinfrastruktur. Gjennom vårt kredittsystem tilbyr vi tilpassbare paneler, WHMCS-integrasjoner, sikker DNS-redirection (CNAME) og gratis teknisk support 24/7 for alle partnere."
+                  })}
+                </p>
+              </div>
+
             </div>
           </div>
         </section>

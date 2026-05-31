@@ -357,3 +357,21 @@ body::before {
     gap: 2rem !important;
   }
 }
+
+/* 📝 Standard Text Link Styling for E-E-A-T & Visual Accessibility */
+.guide-rich-content a,
+.about-rich-content a,
+main p a {
+  color: var(--accent-cyan) !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 3px !important;
+  transition: all 0.2s ease !important;
+}
+.guide-rich-content a:hover,
+.about-rich-content a:hover,
+main p a:hover {
+  color: var(--text-primary) !important;
+  text-decoration-color: var(--accent-purple) !important;
+  text-underline-offset: 5px !important;
+}

@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   // reactCompiler disabled — babel-plugin-react-compiler incompatible with this setup
   reactCompiler: false,
   productionBrowserSourceMaps: true,
+  trailingSlash: false,
 };
 
 export default withNextIntl(nextConfig);

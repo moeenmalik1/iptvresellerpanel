@@ -135,8 +135,15 @@ export default function Header() {
     >
       <div className="section-container" style={{ padding: "0 1.5rem" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "72px" }}>
-          {/* Logo */}
-          <Link href={`/${locale}`} style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "10px" }}>
+          {/* Logo with Organization Schema */}
+          <Link 
+            href={`/${locale}`} 
+            style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "10px" }}
+            itemScope 
+            itemType="http://schema.org/Organization"
+          >
+            <meta itemProp="name" content="Fox IPTV Panels" />
+            <meta itemProp="url" content="https://foxiptvpanels.com" />
             <div style={{
               width: 38, height: 38, borderRadius: 10,
               background: "linear-gradient(135deg, #1e293b, #0f172a)",
@@ -144,31 +151,12 @@ export default function Header() {
               boxShadow: "0 0 15px rgba(234, 88, 12, 0.25)",
               border: "1px solid rgba(234, 88, 12, 0.4)",
             }}>
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                {/* Back of Head / Ears (Charcoal) */}
-                <path d="M12 8L4 2L8 12Z" fill="#0f172a" />
-                <path d="M12 8L20 2L16 12Z" fill="#0f172a" />
-                
-                {/* Outer Ears (Rust) */}
-                <path d="M4 2L8 12L3 10Z" fill="#c2410c" />
-                <path d="M20 2L16 12L21 10Z" fill="#c2410c" />
-
-                {/* Cheeks / Sides (Bright Orange) */}
-                <path d="M8 12L2 12L12 20Z" fill="#f97316" />
-                <path d="M16 12L22 12L12 20Z" fill="#f97316" />
-
-                {/* Face / Snout (Vibrant Orange) */}
-                <path d="M12 8L8 12L12 20Z" fill="#ea580c" />
-                <path d="M12 8L16 12L12 20Z" fill="#ea580c" />
-
-                {/* Inner Ears & Under-eyes (White) */}
-                <path d="M6 5.5L8 12L7 11.5Z" fill="#ffffff" />
-                <path d="M18 5.5L16 12L17 11.5Z" fill="#ffffff" />
-                <path d="M12 14.5L10 12L12 11L14 12Z" fill="#ffffff" />
-
-                {/* Nose (Charcoal) */}
-                <path d="M12 18.5L10 20L12 21L14 20Z" fill="#0f172a" />
-              </svg>
+              <img 
+                src="/icon.svg" 
+                alt="Fox IPTV Panels Logo" 
+                itemProp="logo" 
+                style={{ width: 24, height: 24 }} 
+              />
             </div>
             <span style={{
               fontFamily: "'Outfit', sans-serif",
@@ -184,8 +172,13 @@ export default function Header() {
             </span>
           </Link>
 
-          {/* Desktop Nav */}
-          <nav style={{ display: "flex", alignItems: "center", gap: "1.75rem" }} className="hidden-mobile">
+          {/* Desktop Nav with SiteNavigationElement Schema */}
+          <nav 
+            style={{ display: "flex", alignItems: "center", gap: "1.75rem" }} 
+            className="hidden-mobile"
+            itemScope 
+            itemType="http://schema.org/SiteNavigationElement"
+          >
             {navLinks.map((link) => {
               if (link.isDropdown) {
                 return (
@@ -205,7 +198,7 @@ export default function Header() {
                         gap: 4,
                       }}
                     >
-                      {link.label}
+                      <span itemProp="name">{link.label}</span>
                       <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                         <polyline points="6 9 12 15 18 9"></polyline>
                       </svg>
@@ -216,6 +209,7 @@ export default function Header() {
                           key={panel.slug}
                           href={`/${locale}/${panel.slug}`}
                           className="dropdown-item"
+                          itemProp="url"
                           style={{
                             color: "var(--text-muted)",
                             textDecoration: "none",
@@ -230,7 +224,7 @@ export default function Header() {
                           }}
                         >
                           <span style={{ color: panel.accentColor || "#ea580c", fontSize: "0.6rem" }}>●</span>
-                          {panel.name}
+                          <span itemProp="name">{panel.name}</span>
                         </Link>
                       ))}
                     </div>
@@ -238,17 +232,22 @@ export default function Header() {
                 );
               }
               return (
-                <Link key={link.label} href={link.href} className="animated-underline" style={{
-                  color: "var(--text-secondary)",
-                  textDecoration: "none",
-                  fontSize: "0.9rem",
-                  fontWeight: 600,
-                  transition: "color 0.2s",
-                }}
+                <Link 
+                  key={link.label} 
+                  href={link.href} 
+                  className="animated-underline" 
+                  itemProp="url"
+                  style={{
+                    color: "var(--text-secondary)",
+                    textDecoration: "none",
+                    fontSize: "0.9rem",
+                    fontWeight: 600,
+                    transition: "color 0.2s",
+                  }}
                   onMouseEnter={e => (e.currentTarget.style.color = "var(--text-primary)")}
                   onMouseLeave={e => (e.currentTarget.style.color = "var(--text-secondary)")}
                 >
-                  {link.label}
+                  <span itemProp="name">{link.label}</span>
                 </Link>
               );
             })}

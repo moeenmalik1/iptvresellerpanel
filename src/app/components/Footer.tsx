@@ -30,6 +30,9 @@ export default function Footer() {
     { label: locale === "es" ? "Términos de Servicio" : locale === "fr" ? "Conditions d'Utilisation" : locale === "pt" ? "Termos de Serviço" : locale === "sv" ? "Användarvillkor" : locale === "no" ? "Brukervilkår" : "Terms of Service", href: "/terms" },
     { label: locale === "es" ? "Descargo de Responsabilidad" : locale === "fr" ? "Clause de Non-responsabilité" : locale === "pt" ? "Aviso de Responsabilidade" : locale === "sv" ? "Ansvarsfriskrivning" : locale === "no" ? "Ansvarsfraskrivelse" : "Disclaimer", href: "/disclaimer" },
     { label: "DMCA Policy", href: "/dmca" },
+    { label: locale === "es" ? "Mapa del Sitio" : locale === "fr" ? "Plan du Site" : locale === "pt" ? "Mapa do Site" : locale === "sv" ? "Sajtkarta" : locale === "no" ? "Nettstedskart" : "HTML Sitemap", href: "/sitemap" },
+    { label: locale === "es" ? "Directrices Editoriales" : locale === "fr" ? "Charte Éditoriale" : locale === "pt" ? "Diretrizes Editoriais" : locale === "sv" ? "Redaktionella Riktlinjer" : locale === "no" ? "Redaksjonelle Retningslinjer" : "Editorial Guidelines", href: "/editorial-guidelines" },
+    { label: locale === "es" ? "Nuestro Equipo" : locale === "fr" ? "Notre Équipe" : locale === "pt" ? "Nossa Equipa" : locale === "sv" ? "Vårt Team" : locale === "no" ? "Vårt Team" : "Our Editorial Team", href: "/authors" },
   ];
 
   const serverPages = [
