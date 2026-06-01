@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { getSectionTranslations } from "@/app/lib/translations";
@@ -179,13 +177,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               {serverPages.map(p => (
                 <li key={p.label}>
-                  <Link href={getLocalizedHref(p.href)} style={{
-                    color: "var(--text-muted)", textDecoration: "none",
-                    fontSize: "0.825rem", transition: "color 0.2s",
-                  }}
-                    onMouseEnter={e => (e.currentTarget.style.color = "var(--text-secondary)")}
-                    onMouseLeave={e => (e.currentTarget.style.color = "var(--text-muted)")}
-                  >
+                  <Link href={getLocalizedHref(p.href)} className="footer-link">
                     {p.label}
                   </Link>
                 </li>
@@ -201,13 +193,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               {comparePages.map(p => (
                 <li key={p.label}>
-                  <Link href={getLocalizedHref(p.href)} style={{
-                    color: "var(--text-muted)", textDecoration: "none",
-                    fontSize: "0.825rem", transition: "color 0.2s",
-                  }}
-                    onMouseEnter={e => (e.currentTarget.style.color = "var(--text-secondary)")}
-                    onMouseLeave={e => (e.currentTarget.style.color = "var(--text-muted)")}
-                  >
+                  <Link href={getLocalizedHref(p.href)} className="footer-link">
                     {p.label}
                   </Link>
                 </li>
@@ -220,13 +206,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               {guides.map(p => (
                 <li key={p.label}>
-                  <Link href={getLocalizedHref(p.href)} style={{
-                    color: "var(--text-muted)", textDecoration: "none",
-                    fontSize: "0.825rem", transition: "color 0.2s",
-                  }}
-                    onMouseEnter={e => (e.currentTarget.style.color = "var(--text-secondary)")}
-                    onMouseLeave={e => (e.currentTarget.style.color = "var(--text-muted)")}
-                  >
+                  <Link href={getLocalizedHref(p.href)} className="footer-link">
                     {p.label}
                   </Link>
                 </li>
@@ -242,13 +222,7 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               {footerNav.map(p => (
                 <li key={p.label}>
-                  <Link href={getLocalizedHref(p.href)} style={{
-                    color: "var(--text-muted)", textDecoration: "none",
-                    fontSize: "0.825rem", transition: "color 0.2s",
-                  }}
-                    onMouseEnter={e => (e.currentTarget.style.color = "var(--text-secondary)")}
-                    onMouseLeave={e => (e.currentTarget.style.color = "var(--text-muted)")}
-                  >
+                  <Link href={getLocalizedHref(p.href)} className="footer-link">
                     {p.label}
                   </Link>
                 </li>
@@ -277,6 +251,15 @@ export default function Footer() {
       </div>
 
       <style>{`
+        .footer-link {
+          color: var(--text-muted) !important;
+          text-decoration: none;
+          font-size: 0.825rem;
+          transition: color 0.2s;
+        }
+        .footer-link:hover {
+          color: var(--text-secondary) !important;
+        }
         @media (max-width: 900px) {
           .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 2rem !important; }
         }

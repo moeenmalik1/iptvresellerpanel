@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import dynamic from "next/dynamic";
 import Header from "@/app/components/Header";
 import HeroSection from "@/app/components/HeroSection";
 import TrustBar from "@/app/components/TrustBar";
@@ -8,12 +9,15 @@ import BusinessSection from "@/app/components/BusinessSection";
 import PanelsGrid from "@/app/components/PanelsGrid";
 import ComparisonTable from "@/app/components/ComparisonTable";
 import DashboardSection from "@/app/components/DashboardSection";
-import PricingSection from "@/app/components/PricingSection";
 import BenefitsSection from "@/app/components/BenefitsSection";
 import TestimonialsSection from "@/app/components/TestimonialsSection";
 import FAQSection from "@/app/components/FAQSection";
 import CTASection from "@/app/components/CTASection";
 import Footer from "@/app/components/Footer";
+
+const PricingSection = dynamic(() => import("@/app/components/PricingSection"), {
+  ssr: true,
+});
 
 export default async function HomePage({
   params,
