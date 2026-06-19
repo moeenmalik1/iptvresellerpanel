@@ -161,6 +161,20 @@ export interface Dictionary {
     btnSecondary: string;
     badges: { icon: string; text: string }[];
   };
+  preferredSupplierSection: {
+    tag: string;
+    titleMain: string;
+    titleSpan: string;
+    desc: string;
+    items: { title: string; desc: string }[];
+  };
+  popularPanelsSection: {
+    tag: string;
+    titleMain: string;
+    titleSpan: string;
+    desc: string;
+    items: { title: string; desc: string }[];
+  };
   pricingSection: {
     tag: string;
     titleMain: string;
@@ -214,47 +228,41 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     featuresSection: {
-      tag: "Why Fox IPTV Panels",
+      tag: "Why Choose Fox IPTV Panels",
       titleMain: "Why IPTV Resellers Choose ",
       titleSpan: "Fox IPTV Panels",
       titleEnd: " in 2026",
       desc: "Everything you need to launch and scale a profitable IPTV reselling business — from cheapest IPTV reseller panel access to enterprise-grade wholesale panel management.",
       items: [
         {
-          icon: "⚡",
-          title: "Instant IPTV Reseller Credits",
-          desc: "Buy IPTV reseller credits instantly after approval. Bulk credit packages available for all business sizes — from starter to wholesale volume.",
+          icon: "📡",
+          title: "Premium IPTV Supplier",
+          desc: "We provide high-quality IPTV reseller services backed by reliable infrastructure and scalable reseller management tools.",
           color: "#f59e0b",
         },
         {
-          icon: "📡",
-          title: "4K IPTV Servers — No Buffering",
-          desc: "Access stable IPTV servers with 99.9% uptime, engineered for 4K and 8K no-buffering streaming. Best-in-class IPTV server uptime reliability.",
+          icon: "🖥️",
+          title: "Advanced IPTV Reseller Panels",
+          desc: "Manage subscriptions, activate accounts, assign reseller credits, and monitor customer activity through a professional IPTV reseller panel.",
           color: "#8b5cf6",
         },
         {
-          icon: "📺",
-          title: "20+ White Label IPTV Panels",
-          desc: "Choose from leading IPTV reseller dashboards — Strong 4K, Lion OTT, Mega OTT, Crystal, Nexon, and more. Xtream Codes, M3U & MAG box supported.",
+          icon: "⚡",
+          title: "Flexible IPTV Reseller Credits",
+          desc: "Purchase credits as needed and activate IPTV subscriptions instantly from your reseller IPTV panel.",
           color: "#3b82f6",
         },
         {
-          icon: "💰",
-          title: "High IPTV Reseller Profit Margin",
-          desc: "Control your own pricing, customer packages, and subscription plans. The IPTV credit system ensures predictable costs and maximized margins.",
+          icon: "💼",
+          title: "Wholesale IPTV Supplier Solutions",
+          desc: "Our wholesale IPTV supplier packages allow IPTV resellers to grow their business while maintaining full pricing control.",
           color: "#22c55e",
         },
         {
-          icon: "🖥️",
-          title: "Professional IPTV Dashboard Management",
-          desc: "Manage users, credits, subscriptions, trials, and devices from a modern IPTV reseller panel — with real-time analytics and bulk import tools.",
-          color: "#06b6d4",
-        },
-        {
           icon: "💬",
-          title: "24/7 WhatsApp Reseller Support",
-          desc: "Fast reseller assistance, technical panel guidance, and personalized IPTV reseller onboarding support — available around the clock via WhatsApp.",
-          color: "#ec4899",
+          title: "Dedicated Reseller Support",
+          desc: "Receive assistance with IPTV panel setup, customer management, reseller packages, and business growth strategies.",
+          color: "#06b6d4",
         },
       ]
     },
@@ -278,26 +286,26 @@ const dictionary: Record<string, Dictionary> = {
       steps: [
         {
           step: "01",
-          title: "Buy IPTV Reseller Credits in Bulk",
-          desc: "Purchase a wholesale IPTV credit package. Start small with a starter bundle or go big for maximum reseller profit margins. No large upfront investment required.",
-          icon: "💳",
+          title: "Choose an IPTV Reseller Panel",
+          desc: "Select the IPTV reseller panel that best matches your business goals.",
+          icon: "🖥️",
         },
         {
           step: "02",
-          title: "Create Customer Subscriptions",
-          desc: "Use your IPTV credits to activate subscriptions for end customers via your reseller dashboard. Set your own pricing per subscription period.",
-          icon: "👥",
+          title: "Purchase IPTV Reseller Credits",
+          desc: "Buy reseller credits from a trusted IPTV supplier and allocate them to customer subscriptions.",
+          icon: "💳",
         },
         {
           step: "03",
-          title: "Manage Users From Your IPTV Dashboard",
-          desc: "Track active users, trial subscriptions, expiring credits, and revenue in real time from your white label IPTV reseller panel login.",
-          icon: "📊",
+          title: "Create Customer Accounts",
+          desc: "Generate IPTV subscriptions directly from your reseller IPTV panel.",
+          icon: "👥",
         },
         {
           step: "04",
-          title: "Grow Recurring Monthly Income",
-          desc: "As customers renew, your IPTV reselling business grows passively with compounding monthly revenue — the most scalable IPTV business model.",
+          title: "Grow Your IPTV Reseller Business",
+          desc: "Expand your customer base and scale your IPTV reseller operation using additional credits and reseller packages.",
           icon: "📈",
         },
       ]
@@ -355,26 +363,26 @@ const dictionary: Record<string, Dictionary> = {
       }
     },
     benefitsSection: {
-      tag: "IPTV Reseller Program",
-      titleMain: "Benefits of Joining Our ",
-      titleSpan: "IPTV Reseller Program",
-      desc: "Fox IPTV Panels gives every level of IPTV reseller — from first-time starters to large wholesale panel operators — a competitive edge. Our IPTV reseller program is designed for maximum profit and minimum friction. No servers to manage. No technical infrastructure needed. Start as a beginner IPTV sub reseller and scale to a full IPTV reselling business.",
+      tag: "IPTV Supplier & IPTV Reseller Services",
+      titleMain: "IPTV Supplier & ",
+      titleSpan: "IPTV Reseller Services",
+      desc: "As a leading IPTV supplier, we provide comprehensive reseller solutions. Our goal is to help IPTV resellers build profitable recurring revenue through reliable IPTV supplier services.",
       stats: [
         { label: "IPTV Reseller Panels", value: "20+" },
         { label: "Server Uptime", value: "99.9%" },
         { label: "WhatsApp Support", value: "24/7" },
       ],
       items: [
-        { icon: "💡", text: "Low startup — no large investment" },
-        { icon: "⚡", text: "Fast IPTV reseller panel setup" },
-        { icon: "🔄", text: "Recurring monthly income stream" },
-        { icon: "📡", text: "Stable 4K IPTV servers" },
-        { icon: "📺", text: "20+ IPTV panel options" },
-        { icon: "🎓", text: "IPTV reseller onboarding support" },
-        { icon: "📈", text: "Scalable IPTV reselling business" },
-        { icon: "🌍", text: "Global — UK, USA, EU & more" },
-        { icon: "🎬", text: "4K & 8K no-buffering streaming" },
-        { icon: "🖥️", text: "White label reseller dashboards" },
+        { icon: "✓", text: "IPTV Reseller Panels" },
+        { icon: "✓", text: "IPTV Reseller Credits" },
+        { icon: "✓", text: "IPTV Reseller Packages" },
+        { icon: "✓", text: "IPTV Reseller Programs" },
+        { icon: "✓", text: "Wholesale IPTV Solutions" },
+        { icon: "✓", text: "IPTV Business Opportunities" },
+        { icon: "✓", text: "IPTV Panel Management Tools" },
+        { icon: "✓", text: "Multi-Panel IPTV Access" },
+        { icon: "✓", text: "IPTV Reseller Accounts" },
+        { icon: "✓", text: "IPTV Supplier Support" },
       ]
     },
     testimonialsSection: {
@@ -415,49 +423,33 @@ const dictionary: Record<string, Dictionary> = {
       desc: "Everything you need to know about starting your IPTV reseller business, how the IPTV credit system works, panel comparisons, free trials, and more.",
       items: [
         {
-          q: "What is an IPTV reseller panel?",
-          a: "An IPTV reseller panel is a white label dashboard that lets you create and manage IPTV subscriptions using reseller credits. It supports Xtream Codes, M3U, and MAG Box connections. As a reseller, you buy credits in bulk from an IPTV reseller panel provider like Fox IPTV Panels and activate subscriptions for your customers at your own price.",
+          q: "What Is an IPTV Supplier?",
+          a: "An IPTV supplier provides IPTV services, reseller credits, and IPTV reseller panels that enable IPTV resellers to create and manage customer subscriptions.",
         },
         {
-          q: "How do IPTV reseller credits work?",
-          a: "The IPTV credit system is simple: each credit equals one month of IPTV subscription for one customer. You buy IPTV reseller credits in bulk (wholesale), then use those credits inside your IPTV reseller dashboard to create subscriptions. The difference between your cost per credit and what you charge customers is your IPTV reseller profit margin.",
+          q: "What Is an IPTV Reseller?",
+          a: "An IPTV reseller purchases credits from an IPTV supplier and sells IPTV subscriptions to customers using a reseller IPTV panel.",
         },
         {
-          q: "How do I start an IPTV reseller business without investment?",
-          a: "You can start an IPTV reseller business with minimal investment by joining Fox IPTV Panels with a starter credit package. There is no need for servers, technical infrastructure, or prior experience. Get your IPTV reseller panel login, buy a small credit bundle, and start selling subscriptions to customers on WhatsApp, social media, or your own website.",
+          q: "How Do IPTV Reseller Panels Work?",
+          a: "IPTV reseller panels allow IPTV resellers to activate subscriptions, manage customers, assign credits, and monitor account activity.",
         },
         {
-          q: "What is the difference between an IPTV reseller and a regular IPTV subscription?",
-          a: "An IPTV subscription is for end-users who consume content. An IPTV reseller has access to a reseller panel that lets them create subscriptions for multiple customers. The reseller buys credits at wholesale pricing and sells subscriptions at retail pricing — keeping the profit margin. As a reseller you are the provider, not just a consumer.",
+          q: "How Can I Become an IPTV Reseller?",
+          a: "Choose a reseller package, purchase credits, access your IPTV reseller panel, and begin creating customer accounts.",
         },
         {
-          q: "Which IPTV panel is best for resellers in 2026?",
-          a: "The best IPTV reseller panel for 2026 depends on your needs: Strong 4K is best for premium streaming quality; Lion OTT is best for beginners; Crystal and Nexon are best for growing businesses; Mega OTT is best for bulk/wholesale resellers. Fox IPTV Panels lets you access and compare all top IPTV panels with reseller dashboards.",
-        },
-        {
-          q: "Do you offer a 4K IPTV reseller panel with no buffering?",
-          a: "Yes. Fox IPTV Panels provides access to multiple 4K and 8K IPTV reseller panels — including Strong 4K and Ultra 8K OTT — with 99.9% server uptime reliability and no-buffering technology. Supported on MAG boxes, M3U players, Xtream Codes-compatible apps, and Smart TVs.",
-        },
-        {
-          q: "Is there a free trial for IPTV reseller panels?",
-          a: "Yes. Fox IPTV Panels offers IPTV reseller panel free trials so you can test the dashboard, streaming quality, server stability, and uptime before committing to a full credit purchase. Contact us on WhatsApp to request your free reseller trial today.",
-        },
-        {
-          q: "Are your IPTV reseller panels available in the UK, USA, and the EU?",
-          a: "Yes. Fox IPTV Panels supports IPTV resellers worldwide — including the UK, USA, the EU, UAE, Spain, and beyond. Our IPTV servers are geo-distributed for low latency and stable 4K streaming regardless of where your customers are located.",
-        },
-        {
-          q: "What is the cheapest IPTV reseller panel available?",
-          a: "Fox IPTV Panels offers flexible credit packages starting at the lowest possible entry point — so you can become an IPTV reseller without large upfront investment. The more credits you buy in bulk, the cheaper the cost per credit — giving you the best reseller profit margin.",
+          q: "Why Choose Fox IPTV Panels?",
+          a: "Fox IPTV Panels combines premium IPTV supplier services, powerful IPTV reseller panels, flexible reseller credits, and dedicated support for IPTV resellers worldwide.",
         },
       ]
     },
     ctaSection: {
-      tag: "🚀 Start Your IPTV Reseller Business Today",
-      titleMain: "Become an IPTV Reseller — ",
-      titleSpan: "Get Your Panel & Credits Today",
-      desc1: "Get access to the best IPTV reseller panels, buy instant reseller credits, and launch your IPTV reselling business with 24/7 WhatsApp support.",
-      desc2: "Serving IPTV resellers in the UK, USA & EU — no buffering, no downtime. IPTV reseller panel free trial available. Start within minutes with zero technical setup.",
+      tag: "Partner with a Trusted IPTV Supplier Today",
+      titleMain: "Partner with a ",
+      titleSpan: "Trusted IPTV Supplier Today",
+      desc1: "Join thousands of IPTV resellers using Fox IPTV Panels. Access premium IPTV reseller panels, wholesale IPTV supplier solutions, flexible reseller packages, and everything you need to build a successful IPTV reseller business.",
+      desc2: "",
       btnPrimary: "Start Reselling on WhatsApp",
       btnSecondary: "Compare IPTV Panels 2026",
       badges: [
@@ -467,6 +459,78 @@ const dictionary: Record<string, Dictionary> = {
         { icon: "🌍", text: "UK, USA & EU" },
         { icon: "🎬", text: "4K No Buffering" },
         { icon: "🆓", text: "Free Trial Available" },
+      ]
+    },
+    preferredSupplierSection: {
+      tag: "Preferred IPTV Supplier",
+      titleMain: "Why We Are a ",
+      titleSpan: "Preferred IPTV Supplier",
+      desc: "Fox IPTV Panels combines the advantages of a trusted IPTV supplier with advanced IPTV reseller tools.",
+      items: [
+        {
+          title: "Trusted IPTV Supplier",
+          desc: "Direct relationships with top-tier server providers to guarantee premium streaming feeds.",
+        },
+        {
+          title: "Reliable IPTV Reseller Panels",
+          desc: "Access 20+ robust dashboards including Strong 4K, Lion OTT, and Dino IPTV.",
+        },
+        {
+          title: "Flexible Reseller Credits",
+          desc: "Operate with an instant-activation credit system with no expiry restrictions.",
+        },
+        {
+          title: "Wholesale IPTV Packages",
+          desc: "Scale your business with bulk rates that maximize your net profit margins.",
+        },
+        {
+          title: "Fast Account Activation",
+          desc: "Create client lines and trials in less than 60 seconds from any device.",
+        },
+        {
+          title: "Scalable IPTV Reseller Solutions",
+          desc: "Add sub-reseller accounts and delegate credit pools as your network grows.",
+        },
+        {
+          title: "Dedicated Support",
+          desc: "24/7 technical ticket response and priority WhatsApp group onboarding.",
+        },
+        {
+          title: "Global Coverage",
+          desc: "Geo-distributed streaming servers optimized for the UK, USA, EU, and Canada.",
+        },
+        {
+          title: "Business Growth Tools",
+          desc: "Access marketing templates, DNS routing setups, and custom portal configurations.",
+        },
+      ]
+    },
+    popularPanelsSection: {
+      tag: "Popular IPTV Panels",
+      titleMain: "Popular IPTV ",
+      titleSpan: "Reseller Panels",
+      desc: "Fox IPTV Panels offers access to some of the most popular IPTV reseller panels available today.",
+      items: [
+        {
+          title: "GEO IPTV Reseller Panel",
+          desc: "A professional IPTV panel built for IPTV resellers who require reliability and scalability.",
+        },
+        {
+          title: "Dino IPTV Reseller Panel",
+          desc: "A popular reseller IPTV panel offering flexible credit management and reseller tools.",
+        },
+        {
+          title: "Falcon IPTV Reseller Panel",
+          desc: "A powerful IPTV reseller solution designed for growing IPTV reseller businesses.",
+        },
+        {
+          title: "Strong 4K IPTV Reseller Panel",
+          desc: "Perfect for IPTV resellers looking to offer premium streaming experiences.",
+        },
+        {
+          title: "Lion OTT IPTV Reseller Panel",
+          desc: "One of the most trusted IPTV reseller panels for account management and customer activation.",
+        },
       ]
     },
     pricingSection: {
@@ -483,13 +547,13 @@ const dictionary: Record<string, Dictionary> = {
       plans: [
         {
           id: "starter",
-          name: "Starter Pack",
+          name: "Starter IPTV Reseller Package",
           badge: "120 CREDITS",
           cost: 120,
           rate: "$1.00",
           revenue: "1,200",
           profit: "1,080",
-          description: "Best choice for beginner resellers starting their streaming brand.",
+          description: "Ideal for new IPTV resellers entering the market.",
           features: [
             "120 wholesale credits (No expiry)",
             "Standard control dashboard",
@@ -503,13 +567,13 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           id: "growth",
-          name: "Growth Pack",
+          name: "Professional IPTV Reseller Package",
           badge: "200 CREDITS",
           cost: 180,
           rate: "$0.90",
           revenue: "2,000",
           profit: "1,820",
-          description: "Premium wholesale package for growing brands needing white label portals.",
+          description: "Designed for growing IPTV reseller businesses requiring higher credit volumes.",
           features: [
             "200 wholesale credits (No expiry)",
             "Advanced dashboard + sub-resellers",
@@ -523,13 +587,13 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           id: "enterprise",
-          name: "Enterprise Wholesale",
+          name: "Wholesale IPTV Reseller Package",
           badge: "500 CREDITS",
           cost: 350,
           rate: "$0.70",
           revenue: "5,000",
           profit: "4,650",
-          description: "Elite volume package offering the lowest unit rates for high-volume sales.",
+          description: "Perfect for agencies and high-volume IPTV resellers seeking maximum profitability.",
           features: [
             "500 wholesale credits (No expiry)",
             "Elite admin control panels",
@@ -588,40 +652,34 @@ const dictionary: Record<string, Dictionary> = {
       desc: "Todo lo que necesita para lanzar y escalar un negocio rentable de reventa de IPTV — desde el acceso al panel de revendedor más barato hasta la gestión empresarial a nivel mayorista.",
       items: [
         {
-          icon: "⚡",
-          title: "Créditos Reseller Al Instante",
-          desc: "Compre créditos de distribuidor de IPTV al instante tras la aprobación. Paquetes mayoristas adaptados a cualquier tamaño de negocio, desde iniciación hasta gran volumen.",
+          icon: "📡",
+          title: "Proveedor de IPTV Premium",
+          desc: "Ofrecemos servicios de reventa de IPTV de alta calidad respaldados por una infraestructura confiable y herramientas escalables de gestión de revendedores.",
           color: "#f59e0b",
         },
         {
-          icon: "📡",
-          title: "Servidores 4K — Sin Almacenamiento en Búfer",
-          desc: "Acceda a servidores IPTV estables con un 99.9% de uptime, diseñados para streaming 4K y 8K sin cortes. Máxima fiabilidad y estabilidad.",
+          icon: "🖥️",
+          title: "Paneles de Reseller Avanzados",
+          desc: "Gestione suscripciones, active cuentas, asigne créditos de distribuidor y supervise la actividad de los clientes a través de un panel profesional.",
           color: "#8b5cf6",
         },
         {
-          icon: "📺",
-          title: "Más de 20 Paneles de Marca Blanca",
-          desc: "Elija entre los mejores dashboards de reventa: Strong 4K, Lion OTT, Mega OTT, Crystal, Nexon y más. Compatible con Xtream Codes, M3U y MAG.",
+          icon: "⚡",
+          title: "Créditos IPTV Flexibles",
+          desc: "Compre créditos de reventa según sea necesario y active suscripciones de IPTV al instante desde su panel de control.",
           color: "#3b82f6",
         },
         {
-          icon: "💰",
-          title: "Altos Márgenes de Beneficio",
-          desc: "Controle sus propios precios, paquetes de clientes y planes de suscripción. El sistema de créditos garantiza costos previsibles y márgenes maximizados.",
+          icon: "💼",
+          title: "Soluciones para Resellers Mayoristas",
+          desc: "Nuestros paquetes mayoristas permiten a los revendedores de IPTV expandir su negocio manteniendo un control absoluto de sus tarifas.",
           color: "#22c55e",
         },
         {
-          icon: "🖥️",
-          title: "Gestión Profesional del Panel de Control",
-          desc: "Administre usuarios, créditos, suscripciones y dispositivos desde un panel de control moderno con analíticas en tiempo real y herramientas de importación masiva.",
-          color: "#06b6d4",
-        },
-        {
           icon: "💬",
-          title: "Soporte Reseller WhatsApp 24/7",
-          desc: "Asistencia rápida para distribuidores, guía técnica de paneles y soporte personalizado para la incorporación — disponible las 24 horas a través de WhatsApp.",
-          color: "#ec4899",
+          title: "Soporte Técnico Dedicado",
+          desc: "Reciba asistencia directa con la configuración del panel de IPTV, la gestión de clientes, los paquetes de reventa y las estrategias de crecimiento.",
+          color: "#06b6d4",
         },
       ]
     },
@@ -645,26 +703,26 @@ const dictionary: Record<string, Dictionary> = {
       steps: [
         {
           step: "01",
-          title: "Comprar Créditos IPTV en Bloque",
-          desc: "Adquiera un paquete mayorista de créditos. Empiece con un paquete inicial o vaya a lo grande para obtener los mejores márgenes de beneficio. Sin grandes inversiones iniciales.",
-          icon: "💳",
+          title: "Elegir un Panel de Reseller IPTV",
+          desc: "Seleccione el panel de revendedor de IPTV que mejor se adapte a sus objetivos comerciales.",
+          icon: "🖥️",
         },
         {
           step: "02",
-          title: "Crear Suscripciones de Clientes",
-          desc: "Use sus créditos de IPTV para activar suscripciones para clientes finales a través de su panel de control. Defina sus propias tarifas por cada período de suscripción.",
-          icon: "👥",
+          title: "Comprar Créditos de Reseller",
+          desc: "Compre créditos a un proveedor de IPTV de confianza y asígnelos a las suscripciones de los clientes.",
+          icon: "💳",
         },
         {
           step: "03",
-          title: "Administrar Usuarios desde su Panel",
-          desc: "Haga un seguimiento en tiempo real de los usuarios activos, suscripciones de prueba, créditos que vencen e ingresos desde su panel de control de marca blanca.",
-          icon: "📊",
+          title: "Crear Cuentas de Clientes",
+          desc: "Genere suscripciones de IPTV directamente desde su panel de control de distribuidor.",
+          icon: "👥",
         },
         {
           step: "04",
-          title: "Crear Ingresos Mensuales Recurrentes",
-          desc: "A medida que los clientes renuevan, su negocio de IPTV crece pasivamente con ingresos recurrentes compuestos — el modelo de negocio más escalable.",
+          title: "Escalar su Negocio de IPTV",
+          desc: "Expanda su base de clientes y amplíe su negocio utilizando créditos adicionales y paquetes de reventa.",
           icon: "📈",
         },
       ]
@@ -715,33 +773,33 @@ const dictionary: Record<string, Dictionary> = {
         users: "Usuarios",
         credits: "Créditos",
         revenue: "Ingresos",
-        chartLabel: "Ingresos (Últimos 7 días)",
+        chartLabel: "Ingresos (Últimos 7 days)",
         btn1: "Crear Usuario",
         btn2: "Añadir Créditos",
         btn3: "Importar Masivo"
       }
     },
     benefitsSection: {
-      tag: "Programa de Reseller IPTV",
-      titleMain: "Beneficios de Nuestro ",
-      titleSpan: "Programa de Distribuidores",
-      desc: "Fox IPTV Panels brinda una ventaja competitiva a distribuidores de todos los niveles, desde principiantes hasta grandes operadores mayoristas. Nuestro programa está diseñado para maximizar ganancias con las mínimas complicaciones. Sin servidores que administrar. Sin necesidad de infraestructura técnica. Empiece como sub-revendedor y crezca hasta tener una gran empresa de distribución.",
+      tag: "Servicios de Proveedor IPTV y Reseller",
+      titleMain: "Servicios de Proveedor ",
+      titleSpan: "IPTV y Reseller",
+      desc: "Como proveedor líder de IPTV, ofrecemos soluciones integrales para distribuidores. Nuestro objetivo es ayudar a los revendedores a construir un flujo de ingresos recurrentes y estables.",
       stats: [
         { label: "Paneles IPTV", value: "20+" },
         { label: "Estabilidad Uptime", value: "99.9%" },
         { label: "Soporte por WhatsApp", value: "24/7" },
       ],
       items: [
-        { icon: "💡", text: "Baja inversión inicial para arrancar" },
-        { icon: "⚡", text: "Configuración rápida del panel de control" },
-        { icon: "🔄", text: "Flujo de ingresos recurrentes mensuales" },
-        { icon: "📡", text: "Servidores IPTV 4K estables y fluidos" },
-        { icon: "📺", text: "Más de 20 opciones de paneles IPTV" },
-        { icon: "🎓", text: "Soporte de incorporación y ventas" },
-        { icon: "📈", text: "Negocio de reventa altamente escalable" },
-        { icon: "🌍", text: "Cobertura Global — España, UK, USA y UE" },
-        { icon: "🎬", text: "Transmisión en 4K y 8K sin cortes" },
-        { icon: "🖥️", text: "Paneles de marca blanca personalizados" },
+        { icon: "✓", text: "Paneles de Reseller IPTV" },
+        { icon: "✓", text: "Créditos IPTV Reseller" },
+        { icon: "✓", text: "Paquetes de Reseller IPTV" },
+        { icon: "✓", text: "Programas de Reseller IPTV" },
+        { icon: "✓", text: "Soluciones IPTV al por Mayor" },
+        { icon: "✓", text: "Oportunidades de Negocio" },
+        { icon: "✓", text: "Herramientas de Gestión de Panel" },
+        { icon: "✓", text: "Acceso Multi-Panel IPTV" },
+        { icon: "✓", text: "Cuentas de Reseller IPTV" },
+        { icon: "✓", text: "Soporte de Proveedor IPTV" },
       ]
     },
     testimonialsSection: {
@@ -782,49 +840,33 @@ const dictionary: Record<string, Dictionary> = {
       desc: "Todo lo que necesita saber para comenzar su negocio de reventa de IPTV, cómo funciona el sistema de créditos, comparativas de paneles, pruebas gratuitas y más.",
       items: [
         {
-          q: "¿Qué es un panel de revendedor de IPTV?",
-          a: "Es una plataforma de marca blanca que le permite crear y administrar suscripciones de IPTV mediante créditos. Admite conexiones Xtream Codes, M3U y cajas MAG. Como distribuidor, compra créditos al por mayor a un proveedor como Fox IPTV Panels y activa cuentas para sus propios clientes a la tarifa que usted elija.",
+          q: "¿Qué es un proveedor de IPTV?",
+          a: "Un proveedor de IPTV suministra servicios de transmisión, créditos de reventa y paneles de control que permiten a los revendedores crear y gestionar suscripciones de clientes.",
         },
         {
-          q: "¿Cómo funcionan los créditos de revendedor de IPTV?",
-          a: "El sistema es simple: 1 crédito equivale a 1 mes de servicio para 1 cliente. Compra créditos al por mayor (precios de distribuidor) y los utiliza dentro de su panel para activar cuentas. La diferencia entre su costo de crédito y lo que le cobra al cliente es su margen neto de ganancia.",
+          q: "¿Qué es un revendedor de IPTV?",
+          a: "Un revendedor de IPTV compra créditos a un proveedor y vende suscripciones a los usuarios finales utilizando un panel de control de distribuidor.",
         },
         {
-          q: "¿Cómo inicio un negocio de reventa de IPTV sin inversión?",
-          a: "Puede arrancar con una inversión muy baja adquiriendo un paquete básico en Fox IPTV Panels. No necesita servidores ni conocimientos técnicos complejos. Le proporcionamos el panel, compra un paquete pequeño de créditos y comienza a vender en WhatsApp, redes sociales o su propia web.",
+          q: "¿Cómo funcionan los paneles de reseller de IPTV?",
+          a: "Los paneles de revendedor permiten activar suscripciones de clientes, gestionar usuarios, asignar créditos y supervisar el estado de las cuentas en tiempo real.",
         },
         {
-          q: "¿Cuál es la diferencia entre un reseller y una suscripción normal?",
-          a: "Una suscripción normal es para uso individual del cliente final. Un panel de reseller le permite vender a múltiples clientes, crear demos, gestionar renovaciones, y actuar como el propio proveedor del servicio, estableciendo sus propias tarifas y reteniendo las ganancias.",
+          q: "¿Cómo puedo convertirme en revendedor de IPTV?",
+          a: "Elija uno de nuestros paquetes de reventa, adquiera los créditos iniciales, acceda a su panel de control y empiece a crear cuentas de clientes de inmediato.",
         },
         {
-          q: "¿Qué panel de IPTV es el mejor en 2026?",
-          a: "Depende de su público: Strong 4K es líder en calidad de streaming; Lion OTT es excelente para principiantes por su sencillez; Crystal y Nexon son geniales para negocios estables; Mega OTT es ideal para compras a gran volumen. Fox IPTV Panels le permite acceder a todos ellos.",
-        },
-        {
-          q: "¿Ofrecen paneles 4K estables y sin cortes?",
-          a: "Sí, absolutamente. Fox IPTV Panels ofrece acceso a paneles de gama alta como Strong 4K y Ultra 8K con un 99.9% de uptime garantizado y servidores optimizados que eliminan el almacenamiento en búfer.",
-        },
-        {
-          q: "¿Hay pruebas gratuitas para paneles de revendedores?",
-          a: "Sí. Ofrecemos pruebas gratuitas del panel de control de revendedores para que pruebe la calidad de la transmisión y la estabilidad antes de realizar su compra de créditos. Contáctenos por WhatsApp para solicitar su prueba hoy mismo.",
-        },
-        {
-          q: "¿Están disponibles sus paneles en España y Latinoamérica?",
-          a: "Sí, apoyamos a revendedores de todo el mundo. Nuestros servidores están distribuidos geográficamente en Europa y América para ofrecer baja latencia y máxima estabilidad sin importar dónde estén sus clientes.",
-        },
-        {
-          q: "¿Cuál es el panel de distribuidor de IPTV más barato?",
-          a: "Ofrecemos paquetes flexibles con un costo de entrada muy accesible para que pueda convertirse en distribuidor de IPTV sin riesgos. Cuantos más créditos compre al por mayor, menor será el precio por crédito, maximizando su rentabilidad.",
+          q: "¿Por qué elegir Fox IPTV Panels?",
+          a: "Fox IPTV Panels combina servicios de proveedor de IPTV premium, paneles de control potentes, créditos de reventa flexibles y soporte técnico dedicado para revendedores de todo el mundo.",
         },
       ]
     },
     ctaSection: {
-      tag: "🚀 Comience su Negocio de Reventa Hoy",
-      titleMain: "Conviértase en Reseller — ",
-      titleSpan: "Obtenga su Panel y Créditos Hoy",
-      desc1: "Acceda a los mejores paneles de IPTV del mercado, compre créditos de reventa al instante y lance su propio negocio de streaming con soporte 24/7 en español vía WhatsApp.",
-      desc2: "Apoyo total a distribuidores en España, EE. UU. y la UE — sin almacenamiento en búfer, sin caídas. Demos gratuitas disponibles. Comience en minutos sin requisitos técnicos.",
+      tag: "Asóciese con un Proveedor de IPTV de Confianza",
+      titleMain: "Asóciese con un ",
+      titleSpan: "Proveedor de IPTV de Confianza",
+      desc1: "Únase a miles de revendedores de IPTV que confían en Fox IPTV Panels. Acceda a paneles premium, soluciones de proveedor de IPTV al por mayor, paquetes flexibles y todo lo necesario para construir un negocio de reventa exitoso.",
+      desc2: "",
       btnPrimary: "Iniciar Reventa en WhatsApp",
       btnSecondary: "Comparar Paneles IPTV 2026",
       badges: [
@@ -834,6 +876,78 @@ const dictionary: Record<string, Dictionary> = {
         { icon: "🌍", text: "Servidores Globales" },
         { icon: "🎬", text: "4K Sin Cortes" },
         { icon: "🆓", text: "Prueba Gratis Disponible" },
+      ]
+    },
+    preferredSupplierSection: {
+      tag: "Proveedor de IPTV Preferido",
+      titleMain: "Por Qué Somos el ",
+      titleSpan: "Proveedor de IPTV Preferido",
+      desc: "Fox IPTV Panels combina las ventajas de un proveedor de IPTV de confianza con herramientas avanzadas de reventa.",
+      items: [
+        {
+          title: "Proveedor de IPTV de Confianza",
+          desc: "Relación directa con los principales centros de datos para garantizar transmisiones estables.",
+        },
+        {
+          title: "Paneles de Reseller Confiables",
+          desc: "Acceso inmediato a más de 20 paneles de control líderes, incluidos Strong 4K, Lion OTT y Dino IPTV.",
+        },
+        {
+          title: "Créditos de Reventa Flexibles",
+          desc: "Opere con un sistema de créditos de activación rápida y sin restricciones de vencimiento.",
+        },
+        {
+          title: "Paquetes IPTV al por Mayor",
+          desc: "Escale sus ganancias con tarifas por volumen que maximizan su rentabilidad neta.",
+        },
+        {
+          title: "Activación de Cuenta Rápida",
+          desc: "Cree cuentas y demos gratuitas para sus clientes en menos de 60 segundos desde cualquier dispositivo.",
+        },
+        {
+          title: "Soluciones de Reseller Escalables",
+          desc: "Gestione sub-revendedores y asigne sub-créditos a medida que su red de distribución se expande.",
+        },
+        {
+          title: "Soporte Técnico Directo",
+          desc: "Atención técnica especializada y grupo prioritario de WhatsApp para onboarding.",
+        },
+        {
+          title: "Cobertura Global Completa",
+          desc: "Servidores distribuidos geográficamente optimizados para España, Reino Unido, EE. UU. y Canadá.",
+        },
+        {
+          title: "Herramientas de Crecimiento",
+          desc: "Acceda a plantillas publicitarias, DNS propio de marca blanca y enrutamientos personalizados.",
+        },
+      ]
+    },
+    popularPanelsSection: {
+      tag: "Paneles IPTV Populares",
+      titleMain: "Paneles de Reseller ",
+      titleSpan: "IPTV Populares",
+      desc: "Fox IPTV Panels ofrece acceso a algunos de los paneles de revendedores de IPTV más populares del mercado actual.",
+      items: [
+        {
+          title: "Panel Reseller GEO IPTV",
+          desc: "Un panel de IPTV profesional creado para revendedores de IPTV que requieren confiabilidad y escalabilidad.",
+        },
+        {
+          title: "Panel Reseller Dino IPTV",
+          desc: "Un panel de IPTV de revendedor popular que ofrece herramientas de reventa y gestión de créditos flexibles.",
+        },
+        {
+          title: "Panel Reseller Falcon IPTV",
+          desc: "Una potente solución de revendedor de IPTV diseñada para negocios de distribución en crecimiento.",
+        },
+        {
+          title: "Panel Reseller Strong 4K",
+          desc: "Perfecto para revendedores de IPTV que buscan ofrecer experiencias de transmisión premium.",
+        },
+        {
+          title: "Panel Reseller Lion OTT",
+          desc: "Uno de los paneles de revendedores de IPTV más confiables para la activación de clientes y la gestión de cuentas.",
+        },
       ]
     },
     pricingSection: {
@@ -850,13 +964,13 @@ const dictionary: Record<string, Dictionary> = {
       plans: [
         {
           id: "starter",
-          name: "Paquete Starter",
+          name: "Paquete Starter IPTV Reseller",
           badge: "120 CRÉDITOS",
           cost: 120,
           rate: "1.00€",
           revenue: "1,200",
           profit: "1,080",
-          description: "La mejor opción para revendedores principiantes que inician su marca.",
+          description: "Ideal para nuevos distribuidores de IPTV que ingresan al mercado.",
           features: [
             "120 créditos al por mayor (Sin vencimiento)",
             "Panel de control estándar",
@@ -870,13 +984,13 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           id: "growth",
-          name: "Paquete Growth",
+          name: "Paquete Profesional IPTV Reseller",
           badge: "200 CRÉDITOS",
           cost: 180,
           rate: "0.90€",
           revenue: "2,000",
           profit: "1,820",
-          description: "Paquete mayorista prémium para marcas en crecimiento que necesitan DNS propio.",
+          description: "Diseñado para negocios en crecimiento que requieren mayores volúmenes de créditos.",
           features: [
             "200 créditos al por mayor (Sin vencimiento)",
             "Panel avanzado + sub-revendedores",
@@ -890,13 +1004,13 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           id: "enterprise",
-          name: "Paquete Enterprise",
+          name: "Paquete Mayorista IPTV Reseller",
           badge: "500 CRÉDITOS",
           cost: 350,
           rate: "0.70€",
           revenue: "5,000",
           profit: "4,650",
-          description: "Paquete de gran volumen que ofrece las tarifas unitarias más bajas para revendedores.",
+          description: "Perfecto para agencias y revendedores de gran volumen que buscan la máxima rentabilidad.",
           features: [
             "500 créditos al por mayor (Sin vencimiento)",
             "Paneles de administración de élite",
@@ -939,56 +1053,50 @@ const dictionary: Record<string, Dictionary> = {
   fr: {
     trustBar: {
       stats: [
-        { icon: "📺", label: "Panneaux Revendeur", value: "20+" },
+        { icon: "📺", label: "Panneaux Revendeurs IPTV", value: "20+" },
         { icon: "🕐", label: "Support WhatsApp", value: "24/7" },
         { icon: "🎬", label: "Streaming 4K & 8K", value: "Sans Buffer" },
-        { icon: "⚡", label: "Livraison Crédits", value: "Instantanée" },
+        { icon: "⚡", label: "Livraison de Crédits", value: "Instantanée" },
         { icon: "🌍", label: "UK, USA & UE", value: "Global" },
-        { icon: "🏗️", label: "Stabilité Serveurs", value: "99.9%" },
+        { icon: "🏗️", label: "Uptime du Serveur", value: "99.9%" },
       ]
     },
     featuresSection: {
-      tag: "Pourquoi Fox IPTV Panels",
+      tag: "Pourquoi Choisir Fox IPTV Panels",
       titleMain: "Pourquoi les Revendeurs Choisissent ",
       titleSpan: "Fox IPTV Panels",
       titleEnd: " en 2026",
       desc: "Tout ce dont vous avez besoin pour lancer et développer une activité rentable de revente d'IPTV — de l'accès au panneau de revendeur le moins cher à la gestion de panneaux de gros à grande échelle.",
       items: [
         {
-          icon: "⚡",
-          title: "Crédits IPTV Instantanés",
-          desc: "Achetez des crédits revendeur IPTV instantanément après approbation. Des packs de crédits en gros adaptés à toutes les tailles d'entreprise — du débutant au grand volume.",
+          icon: "📡",
+          title: "Fournisseur IPTV Premium",
+          desc: "Nous fournissons des services de revente IPTV de haute qualité, soutenus par une infrastructure robuste et des outils de gestion évolutifs.",
           color: "#f59e0b",
         },
         {
-          icon: "📡",
-          title: "Serveurs IPTV 4K — Sans Lag",
-          desc: "Accédez à des serveurs IPTV stables avec un uptime de 99.9%, conçus pour une diffusion 4K et 8K sans aucune mise en mémoire tampon.",
+          icon: "🖥️",
+          title: "Panneaux de Revendeur Avancés",
+          desc: "Gérez les abonnements, activez les comptes, attribuez des crédits de revente et suivez l'activité des clients via un panneau professionnel.",
           color: "#8b5cf6",
         },
         {
-          icon: "📺",
-          title: "20+ Panneaux IPTV en Marque Blanche",
-          desc: "Choisissez parmi les meilleurs tableaux de bord revendeurs — Strong 4K, Lion OTT, Mega OTT, Crystal, Nexon, etc. Xtream Codes, M3U & MAG supportés.",
+          icon: "⚡",
+          title: "Crédits IPTV Flexibles",
+          desc: "Achetez des crédits de revente selon vos besoins et activez instantanément les abonnements de vos clients.",
           color: "#3b82f6",
         },
         {
-          icon: "💰",
-          title: "Marges Bénéficiaires Élevées",
-          desc: "Contrôlez vos propres prix, forfaits clients et abonnements. Le système de crédits IPTV garantit des coûts prévisibles et des marges optimisées.",
+          icon: "💼",
+          title: "Solutions de Revente en Gros",
+          desc: "Nos forfaits de gros permettent aux revendeurs de développer leur activité tout en conservant le contrôle total de leurs tarifs.",
           color: "#22c55e",
         },
         {
-          icon: "🖥️",
-          title: "Gestion Professionnelle de Panneaux",
-          desc: "Gérez les utilisateurs, crédits, abonnements et appareils depuis un panneau moderne doté d'analyses en temps réel et d'outils d'importation en gros.",
-          color: "#06b6d4",
-        },
-        {
           icon: "💬",
-          title: "Support Revendeurs WhatsApp 24/7",
-          desc: "Assistance rapide pour les revendeurs, conseils techniques de panneaux et support personnalisé pour la mise en route — disponible 24/7 par WhatsApp.",
-          color: "#ec4899",
+          title: "Support Revendeurs Dédié",
+          desc: "Bénéficiez d'une assistance technique pour la configuration du panneau, la gestion des clients, les forfaits et les stratégies de vente.",
+          color: "#06b6d4",
         },
       ]
     },
@@ -1012,26 +1120,26 @@ const dictionary: Record<string, Dictionary> = {
       steps: [
         {
           step: "01",
-          title: "Acheter des Crédits IPTV en Gros",
-          desc: "Achetez un pack de crédits IPTV en gros. Commencez petit avec un pack de démarrage ou visez grand pour des marges bénéficiaires optimales. Aucun gros investissement initial requis.",
-          icon: "💳",
+          title: "Choisir un Panneau de Revendeur IPTV",
+          desc: "Sélectionnez le panneau de revente IPTV qui correspond le mieux à vos objectifs commerciaux.",
+          icon: "🖥️",
         },
         {
           step: "02",
-          title: "Créer des Abonnements Clients",
-          desc: "Utilisez vos crédits IPTV pour activer les abonnements de vos clients finaux via votre panneau. Fixez vos propres prix par période d'abonnement.",
-          icon: "👥",
+          title: "Acheter des Crédits Revendeur",
+          desc: "Commandez vos crédits auprès d'un fournisseur de confiance et attribuez-les aux abonnements.",
+          icon: "💳",
         },
         {
           step: "03",
-          title: "Gérer vos Clients depuis le Panneau",
-          desc: "Suivez les utilisateurs actifs, les essais gratuits, les crédits expirants et les revenus en temps réel à partir de votre panneau de contrôle en marque blanche.",
-          icon: "📊",
+          title: "Créer des Comptes Clients",
+          desc: "Générez des abonnements IPTV directement depuis votre tableau de bord de revente.",
+          icon: "👥",
         },
         {
           step: "04",
-          title: "Développer des Revenus Récurrents",
-          desc: "À mesure que les clients renouvellent, vos revenus mensuels s'accumulent de manière passive — le modèle commercial IPTV le plus évolutif.",
+          title: "Développer votre Activité IPTV",
+          desc: "Développez votre portefeuille de clients et augmentez votre volume à l'aide de nouveaux crédits et forfaits.",
           icon: "📈",
         },
       ]
@@ -1049,33 +1157,33 @@ const dictionary: Record<string, Dictionary> = {
         bestFor: "Idéal Pour"
       },
       rows: [
-        { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "4K/8K", support: "24/7", dashboard: "Avancé", bestFor: "Revendeurs Premium", badge: "Premier Choix" },
-        { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "4K", support: "Rapide", dashboard: "Idéal Débutants", bestFor: "Nouveaux Revendeurs", badge: "Parfait démarrage" },
-        { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Full HD/4K", support: "24/7", dashboard: "Professionnel", bestFor: "Entreprises en Croissance", badge: "" },
-        { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "4K", support: "Rapide", dashboard: "Moderne", bestFor: "Revendeurs Grossistes", badge: "" },
-        { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "4K", support: "24/7", dashboard: "Avancé", bestFor: "Grandes Entreprises IPTV", badge: "" },
+        { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "4K/8K", support: "24/7", dashboard: "Advanced", bestFor: "Revendeurs Premium", badge: "Meilleur Choix" },
+        { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "4K", support: "Rapide", dashboard: "Facile pour débuter", bestFor: "Nouveaux Revendeurs", badge: "Idéal Débutants" },
+        { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Full HD/4K", support: "24/7", dashboard: "Professionnel", bestFor: "Entreprises Stables", badge: "" },
+        { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "4K", support: "Rapide", dashboard: "Moderne", bestFor: "Revendeurs de Gros", badge: "" },
+        { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "4K", support: "24/7", dashboard: "Avancé", bestFor: "Grandes Entreprises", badge: "" },
       ],
-      cta: "Comparatif Complet des Panneaux 2026"
+      cta: "Comparatif Complet de Panneaux 2026"
     },
     dashboardSection: {
       tag: "Gestion de Panneaux IPTV",
-      titleMain: "Tableau de Bord ",
+      titleMain: "Portail de Revendeur ",
       titleSpan: "IPTV Professionnel",
-      titleEnd: " — Contrôle Complet",
-      desc1: "Votre identifiant revendeur vous donne accès à un tableau de bord en marque blanche complet pour piloter votre activité IPTV. Suivez les abonnements, allouez des crédits, générez des essais gratuits et contrôlez chaque compte client — le tout depuis une interface d'administration simplifiée.",
-      desc2: "Nos panneaux de contrôle prennent en charge la clé API Xtream Codes, les fichiers M3U et la gestion des boîtiers MAG — couvrant toutes les méthodes de diffusion utilisées par vos clients.",
+      titleEnd: " — Contrôle Total",
+      desc1: "Votre connexion au panneau vous donne accès à un tableau de bord en marque blanche complet pour gérer votre activité. Suivez les abonnements, allouez des crédits, générez des essais et supervisez chaque utilisateur à partir d'une interface centrale.",
+      desc2: "Nos panneaux prennent en charge l'API Xtream Codes, les listes M3U et la gestion des boîtiers MAG pour s'adapter à toutes les configurations de vos clients.",
       features: [
         { icon: "👥", label: "Gestion des abonnements" },
-        { icon: "💳", label: "Attribution de crédits & import en bloc" },
-        { icon: "🎫", label: "Génération d'essais gratuits" },
-        { icon: "📱", label: "Gestion des boîtiers MAG & appareils" },
+        { icon: "💳", label: "Attribution de crédits & importations" },
+        { icon: "🎫", label: "Génération de codes d'essai" },
+        { icon: "📱", label: "Gestion de MAG et appareils" },
         { icon: "📺", label: "Fichiers et liens M3U" },
-        { icon: "🔗", label: "API revendeur Xtream Codes" },
+        { icon: "🔗", label: "API de revente Xtream Codes" },
         { icon: "📊", label: "Suivi d'activité en temps réel" },
-        { icon: "📦", label: "Gestion de forfaits sur-mesure" },
+        { icon: "📦", label: "Création de forfaits sur mesure" },
       ],
-      uptimeTitle: "Stabilité des Serveurs IPTV de 99.9%",
-      uptimeDesc: "Serveurs robustes — pas de coupures ni de freeze garantis",
+      uptimeTitle: "99.9% de Stabilité des Serveurs IPTV",
+      uptimeDesc: "Serveurs stables — aucune coupure ni freeze garantis",
       mockup: {
         title: "Tableau de Bord Revendeur",
         live: "En Direct",
@@ -1085,39 +1193,39 @@ const dictionary: Record<string, Dictionary> = {
         chartLabel: "Revenus (7 derniers jours)",
         btn1: "Créer Client",
         btn2: "Ajouter Crédits",
-        btn3: "Import en Bloc"
+        btn3: "Importation"
       }
     },
     benefitsSection: {
-      tag: "Programme Revendeurs IPTV",
-      titleMain: "Avantages de Rejoindre Notre ",
-      titleSpan: "Programme Revendeurs",
-      desc: "Fox IPTV Panels procure un avantage concurrentiel décisif à tous les revendeurs, des entrepreneurs débutants aux grossistes établis. Notre programme est conçu pour maximiser vos gains avec le moins d'effort technique possible. Aucun serveur à gérer. Aucune infrastructure complexe. Commencez simplement et développez votre marque.",
+      tag: "Services Fournisseur & Revendeur IPTV",
+      titleMain: "Services Fournisseur ",
+      titleSpan: "& Revendeur IPTV",
+      desc: "En tant que fournisseur IPTV de premier plan, nous proposons des solutions complètes pour revendeurs. Notre objectif est de vous aider à bâtir un flux de revenus récurrents et solides.",
       stats: [
         { label: "Panneaux IPTV", value: "20+" },
-        { label: "Uptime Serveurs", value: "99.9%" },
+        { label: "Stabilité Uptime", value: "99.9%" },
         { label: "Support WhatsApp", value: "24/7" },
       ],
       items: [
-        { icon: "💡", text: "Faible investissement pour démarrer" },
-        { icon: "⚡", text: "Mise en route ultra rapide du panneau" },
-        { icon: "🔄", text: "Revenus récurrents chaque mois" },
-        { icon: "📡", text: "Serveurs IPTV 4K ultra stables" },
-        { icon: "📺", text: "Plus de 20 choix de panneaux de contrôle" },
-        { icon: "🎓", text: "Assistance et formation à la revente" },
-        { icon: "📈", text: "Activité de streaming hautement scalable" },
-        { icon: "🌍", text: "Couverture Globale — France, UK, USA et UE" },
-        { icon: "🎬", text: "Flux 4K & 8K fluides et sans buffering" },
-        { icon: "🖥️", text: "Panneaux marque blanche personnalisables" },
+        { icon: "✓", text: "Panneaux Revendeur IPTV" },
+        { icon: "✓", text: "Crédits IPTV Revendeur" },
+        { icon: "✓", text: "Packs Revendeur IPTV" },
+        { icon: "✓", text: "Programmes Revendeur IPTV" },
+        { icon: "✓", text: "Solutions IPTV en Gros" },
+        { icon: "✓", text: "Opportunités Commerciales" },
+        { icon: "✓", text: "Gestion de Panneau IPTV" },
+        { icon: "✓", text: "Accès Multi-Panneaux IPTV" },
+        { icon: "✓", text: "Comptes Revendeurs IPTV" },
+        { icon: "✓", text: "Support Fournisseur IPTV" },
       ]
     },
     testimonialsSection: {
       tag: "Avis des Revendeurs",
-      titleMain: "Ce Que les Revendeurs Disent de ",
+      titleMain: "Ce que nos Distributeurs Disent de ",
       titleSpan: "Fox IPTV Panels",
       items: [
         {
-          quote: "Le meilleur panneau de revendeur IPTV que j'ai testé. Support client ultra-réactif, serveurs stables et aucun freeze. Mes clients en France sont ravis.",
+          quote: "Le meilleur panneau de revendeur IPTV que j'ai testé. Support client hyper réactif, serveurs stables sans buffering. Mes clients adorent.",
           name: "Ahmed R.",
           role: "Revendeur IPTV — France",
           stars: 5,
@@ -1125,7 +1233,7 @@ const dictionary: Record<string, Dictionary> = {
           color: "#8b5cf6",
         },
         {
-          quote: "Très simple à lancer même sans connaissances techniques. Le système de crédits est limpide : achetez vos crédits en gros, vendez vos abonnements, encaissez vos profits. Super !",
+          quote: "Très simple à démarrer sans connaissances techniques. Le système est clair: achat de crédits, activation des clients, encaissement des bénéfices. Parfait.",
           name: "Carlos M.",
           role: "Revendeur IPTV — Europe",
           stars: 5,
@@ -1289,6 +1397,78 @@ const dictionary: Record<string, Dictionary> = {
         netProfit: "Votre Bénéfice Net :",
         cta: "Configuration Revendeur Sécurisée"
       }
+    },
+    preferredSupplierSection: {
+      tag: "Fournisseur IPTV Préféré",
+      titleMain: "Pourquoi Nous Sommes un ",
+      titleSpan: "Fournisseur IPTV Préféré",
+      desc: "Fox IPTV Panels combine les avantages d'un fournisseur IPTV de confiance avec des outils de revente IPTV de pointe.",
+      items: [
+        {
+          title: "Fournisseur IPTV de Confiance",
+          desc: "Relations directes avec les meilleurs fournisseurs de serveurs pour garantir des flux de streaming premium.",
+        },
+        {
+          title: "Panneaux de Revendeur Fiables",
+          desc: "Accès à plus de 20 tableaux de bord robustes, dont Strong 4K, Lion OTT et Dino IPTV.",
+        },
+        {
+          title: "Crédits de Revente Flexibles",
+          desc: "Fonctionnez avec un système de crédits à activation instantanée sans date d'expiration.",
+        },
+        {
+          title: "Forfaits IPTV en Gros",
+          desc: "Développez votre activité avec des tarifs de gros qui maximisent vos marges bénéficiaires nettes.",
+        },
+        {
+          title: "Activation Rapide du Compte",
+          desc: "Créez des lignes clients et des essais en moins de 60 secondes depuis n'importe quel appareil.",
+        },
+        {
+          title: "Solutions de Revente Évolutives",
+          desc: "Ajoutez des comptes de sous-revendeurs et déléguez des pools de crédits au fur et à mesure que votre réseau grandit.",
+        },
+        {
+          title: "Support Dédié",
+          desc: "Réponse aux tickets techniques 24/7 et intégration prioritaire via groupe WhatsApp.",
+        },
+        {
+          title: "Couverture Globale",
+          desc: "Serveurs de streaming géo-distribués optimisés pour la France, la Belgique, le Canada, le Royaume-Uni et les États-Unis.",
+        },
+        {
+          title: "Outils de Croissance Commerciale",
+          desc: "Accédez à des modèles de marketing, à des configurations de routage DNS et à des portails personnalisés.",
+        },
+      ]
+    },
+    popularPanelsSection: {
+      tag: "Panneaux IPTV Populaires",
+      titleMain: "Panneaux Revendeurs ",
+      titleSpan: "IPTV Populaires",
+      desc: "Fox IPTV Panels offre un accès à certains des panneaux de revendeurs IPTV les plus populaires disponibles aujourd'hui.",
+      items: [
+        {
+          title: "Panneau Revendeur GEO IPTV",
+          desc: "Un panneau IPTV professionnel conçu pour les revendeurs IPTV qui exigent fiabilité et évolutivité.",
+        },
+        {
+          title: "Panneau Revendeur Dino IPTV",
+          desc: "Un panneau revendeur IPTV populaire offrant une gestion flexible des crédits et des outils de revente.",
+        },
+        {
+          title: "Panneau Revendeur Falcon IPTV",
+          desc: "Une solution de revente IPTV puissante conçue pour les entreprises de revente IPTV en pleine croissance.",
+        },
+        {
+          title: "Panneau Revendeur Strong 4K",
+          desc: "Parfait pour les revendeurs IPTV souhaitant offrir des expériences de streaming de qualité supérieure.",
+        },
+        {
+          title: "Panneau Revendeur Lion OTT",
+          desc: "L'un des panneaux de revendeurs IPTV les plus fiables pour la gestion des comptes et l'activation des clients.",
+        },
+      ]
     },
     footer: {
       brandDesc1: "Fox IPTV Panels est le meilleur fournisseur de panneaux de revendeur IPTV, offrant des tableaux de bord en marque blanche, des crédits de gros et des serveurs de diffusion 4K de qualité supérieure sans buffering.",
@@ -1657,6 +1837,78 @@ const dictionary: Record<string, Dictionary> = {
         cta: "Configuração Segura de Revendedor"
       }
     },
+    preferredSupplierSection: {
+      tag: "Fornecedor IPTV Preferido",
+      titleMain: "Por Que Somos um ",
+      titleSpan: "Fornecedor IPTV Preferido",
+      desc: "Fox IPTV Panels combina as vantagens de um fornecedor IPTV de confiança com ferramentas de revendedor IPTV avançadas.",
+      items: [
+        {
+          title: "Fornecedor IPTV de Confiança",
+          desc: "Relações diretas com os melhores fornecedores de servidores para garantir transmissões de streaming premium.",
+        },
+        {
+          title: "Painéis de Revendedor Confiáveis",
+          desc: "Acesso a mais de 20 painéis robustos, incluindo Strong 4K, Lion OTT e Dino IPTV.",
+        },
+        {
+          title: "Créditos de Revendedor Flexíveis",
+          desc: "Opere com um sistema de créditos de ativação instantânea sem limite de validade.",
+        },
+        {
+          title: "Pacotes IPTV por Atacado",
+          desc: "Expanda o seu negócio com tarifas por atacado que maximizam as suas margens de lucro líquido.",
+        },
+        {
+          title: "Ativação Rápida de Conta",
+          desc: "Crie linhas de clientes e testes em menos de 60 segundos a partir de qualquer dispositivo.",
+        },
+        {
+          title: "Soluções de Revenda Escaláveis",
+          desc: "Adicione contas de sub-revendedores e delegue saldos de créditos conforme a sua rede cresce.",
+        },
+        {
+          title: "Suporte Dedicado",
+          desc: "Respostas a tickets técnicos 24/7 e integração prioritária em grupo de WhatsApp.",
+        },
+        {
+          title: "Cobertura Global",
+          desc: "Servidores de streaming geograficamente distribuídos e otimizados para Portugal, Reino Unido, EUA e Canadá.",
+        },
+        {
+          title: "Ferramentas de Crescimento",
+          desc: "Acesso a modelos de marketing, configurações de roteamento DNS e portais personalizados.",
+        },
+      ]
+    },
+    popularPanelsSection: {
+      tag: "Painéis IPTV Populares",
+      titleMain: "Painéis de Revenda ",
+      titleSpan: "IPTV Populares",
+      desc: "A Fox IPTV Panels oferece acesso a alguns dos painéis de revenda de IPTV mais populares disponíveis hoje.",
+      items: [
+        {
+          title: "Painel Revendedor GEO IPTV",
+          desc: "Um painel IPTV profissional desenvolvido para revendedores de IPTV que exigem confiabilidade e escalabilidade.",
+        },
+        {
+          title: "Painel Revendedor Dino IPTV",
+          desc: "Um painel de revendedor IPTV popular que oferece gestão flexível de créditos e ferramentas de revenda.",
+        },
+        {
+          title: "Painel Revendedor Falcon IPTV",
+          desc: "Uma solução de revenda IPTV potente, projetada para negócios de revenda de IPTV em crescimento.",
+        },
+        {
+          title: "Painel Revendedor Strong 4K",
+          desc: "Perfeito para revendedores de IPTV que procuram oferecer experiências de streaming premium.",
+        },
+        {
+          title: "Painel Revendedor Lion OTT",
+          desc: "Um dos painéis de revendedor IPTV mais confiáveis para gestão de contas e ativação de clientes.",
+        },
+      ]
+    },
     footer: {
       brandDesc1: "Fox IPTV Panels é o melhor fornecedor de painéis de revendedor de IPTV, oferecendo plataformas em marca branca, créditos maioristas, dashboards de controlo compatíveis com Xtream Codes e M3U, e servidores 4K estáveis sem travamentos.",
       brandDesc2: "Apoio a distribuidores de IPTV em Portugal, no Reino Unido, EUA, UE e a nível global — com suporte dedicado por WhatsApp as 24 horas.",
@@ -2024,6 +2276,78 @@ const dictionary: Record<string, Dictionary> = {
         cta: "Säker Återförsäljarinstallation"
       }
     },
+    preferredSupplierSection: {
+      tag: "Föredragen IPTV-leverantör",
+      titleMain: "Varför vi är en ",
+      titleSpan: "Föredragen IPTV-leverantör",
+      desc: "Fox IPTV Panels kombinerar fördelarna med en pålitlig IPTV-leverantör med avancerade verktyg för återförsäljare.",
+      items: [
+        {
+          title: "Pålitlig IPTV-leverantör",
+          desc: "Direkta relationer med ledande serverleverantörer för att garantera stabila strömmar av högsta kvalitet.",
+        },
+        {
+          title: "Stabila återförsäljarpaneler",
+          desc: "Tillgång till över 20 robusta kontrollpaneler, inklusive Strong 4K, Lion OTT och Dino IPTV.",
+        },
+        {
+          title: "Flexibla återförsäljarkrediter",
+          desc: "Arbeta med ett kreditsystem med direkt aktivering och utan utgångsdatum.",
+        },
+        {
+          title: "Grossistpaket för IPTV",
+          desc: "Skala upp din verksamhet med grossistpriser som maximerar dina nettovinstmarginaler.",
+        },
+        {
+          title: "Snabb kontoaktivering",
+          desc: "Skapa kundabonnemang och testkonton på mindre än 60 sekunder från valfri enhet.",
+        },
+        {
+          title: "Skalbara återförsäljarlösningar",
+          desc: "Lägg till underåterförsäljare och fördela krediter i takt med att ditt nätverk växer.",
+        },
+        {
+          title: "Dedikerad support",
+          desc: "Teknisk support dygnet runt och prioriterad onboarding via WhatsApp-grupp.",
+        },
+        {
+          title: "Global täckning",
+          desc: "Geografiskt distribuerade servrar optimerade för Sverige, Storbritannien, USA, EU och Kanada.",
+        },
+        {
+          title: "Verktyg för affärstillväxt",
+          desc: "Få tillgång till marknadsföringsmallar, egna DNS-inställningar och anpassade portalkonfigurationer.",
+        },
+      ]
+    },
+    popularPanelsSection: {
+      tag: "Populära IPTV-paneler",
+      titleMain: "Populära Återförsäljarpaneler ",
+      titleSpan: "för IPTV",
+      desc: "Fox IPTV Panels erbjuder tillgång till några av de mest populära återförsäljarpanelerna för IPTV på marknaden idag.",
+      items: [
+        {
+          title: "GEO IPTV Återförsäljarpanel",
+          desc: "En professionell IPTV-panel byggd för återförsäljare som kräver pålitlighet och skalbarhet.",
+        },
+        {
+          title: "Dino IPTV Återförsäljarpanel",
+          desc: "En populär återförsäljarpanel för IPTV som erbjuder flexibel kredithantering och återförsäljarverktyg.",
+        },
+        {
+          title: "Falcon IPTV Återförsäljarpanel",
+          desc: "En kraftfull återförsäljarlösning för IPTV designad för växande återförsäljarverksamheter.",
+        },
+        {
+          title: "Strong 4K IPTV Återförsäljarpanel",
+          desc: "Perfekt för återförsäljare som vill erbjuda strömningsupplevelser av högsta kvalitet.",
+        },
+        {
+          title: "Lion OTT IPTV Återförsäljarpanel",
+          desc: "En av de mest pålitliga återförsäljarpanelerna för kontohantering och kundaktivering.",
+        },
+      ]
+    },
     footer: {
       brandDesc1: "Fox IPTV Panels är den bästa leverantören av IPTV-återförsäljarpaneler, och erbjuder white label-paneler, grossistkrediter, hanteringspaneler kompatibla med Xtream Codes & M3U, samt stabila 4K-servrar utan buffring.",
       brandDesc2: "Support för återförsäljare i Sverige, Norden, Storbritannien, USA, EU och globalt — med dedikerad support via WhatsApp dygnet runt.",
@@ -2390,6 +2714,78 @@ const dictionary: Record<string, Dictionary> = {
         netProfit: "Din Nettogevinst :",
         cta: "Sikker Forhandlerinstallasjon"
       }
+    },
+    preferredSupplierSection: {
+      tag: "Foretrukket IPTV-leverandør",
+      titleMain: "Hvorfor vi er en ",
+      titleSpan: "Foretrukket IPTV-leverandør",
+      desc: "Fox IPTV Panels kombinerer fordelene med en pålitelig IPTV-leverantør med avanserte verktøy for forhandlere.",
+      items: [
+        {
+          title: "Pålitelig IPTV-leverandør",
+          desc: "Direkte relasjoner med ledende serverleverandører for å garantere stabile strømmer av høyeste kvalitet.",
+        },
+        {
+          title: "Stabile forhandlerpaneler",
+          desc: "Tilgang til over 20 robuste kontrollpaneler, inkludert Strong 4K, Lion OTT og Dino IPTV.",
+        },
+        {
+          title: "Fleksible forhandlerkreditter",
+          desc: "Arbeid med et kredittsystem med direkte aktivering og uten utløpsdato.",
+        },
+        {
+          title: "Grossistpakker for IPTV",
+          desc: "Skaler opp virksomheten din med grossistpriser som maksimerer nettovinstmarginene dine.",
+        },
+        {
+          title: "Rask kontoaktivering",
+          desc: "Opprett kundepakker og testkontoer på under 60 sekunder fra hvilken som helst enhet.",
+        },
+        {
+          title: "Skalerbare forhandlerløsninger",
+          desc: "Legg til underforhandlere og distribuer kreditter etter hvert som nettverket ditt vokser.",
+        },
+        {
+          title: "Dedikert support",
+          desc: "Teknisk support døgnet rundt og prioritert onboarding via WhatsApp-gruppe.",
+        },
+        {
+          title: "Global dekning",
+          desc: "Geografisk distribuerte servere optimalisert for Norge, Storbritannia, USA, EU og Canada.",
+        },
+        {
+          title: "Verktyg for forretningsvekst",
+          desc: "Få tilgang til markedsføringsmaler, egne DNS-innstillinger og tilpassede portalkonfigurationer.",
+        },
+      ]
+    },
+    popularPanelsSection: {
+      tag: "Populære IPTV-paneler",
+      titleMain: "Populære Forhandlerpaneler ",
+      titleSpan: "for IPTV",
+      desc: "Fox IPTV Panels tilbyr tilgang til noen av de mest populære forhandlerpanelene for IPTV på markedet i dag.",
+      items: [
+        {
+          title: "GEO IPTV Forhandlerpanel",
+          desc: "Et profesjonelt IPTV-panel bygget for IPTV-forhandlere som krever pålitelighet og skalerbarhet.",
+        },
+        {
+          title: "Dino IPTV Forhandlerpanel",
+          desc: "Et populært forhandlerpanel for IPTV som tilbyr fleksibel kredittadministrasjon og forhandlerverktøy.",
+        },
+        {
+          title: "Falcon IPTV Forhandlerpanel",
+          desc: "En kraftig forhandlerløsning for IPTV designet for voksende forhandlervirksomheter.",
+        },
+        {
+          title: "Strong 4K IPTV Forhandlerpanel",
+          desc: "Perfekt for forhandlere som ønsker å tilby strømmeopplevelser av høyeste kvalitet.",
+        },
+        {
+          title: "Lion OTT IPTV Forhandlerpanel",
+          desc: "Et av de mest pålitelige forhandlerpanelene for kontohantering og kundeaktivering.",
+        },
+      ]
     },
     footer: {
       brandDesc1: "Fox IPTV Panels er den beste leverandøren av IPTV-forhandlerpaneler, og tilbyr white label-paneler, grossistkreditter, administrasjonspaneler kompatible med Xtream Codes & M3U, samt stabile 4K-servere uten buffring.",

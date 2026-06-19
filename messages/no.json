@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "IPTV Reseller Panel Norge: Stabil Strømming Uten Bufring",
-    "description": "Lei av buffering og misfornøyde IPTV-kunder? Få det mest stabile white-label forhandlerpanelet. Lynraske kreditter, gratis prøvekontoer & 24/7 support.",
-    "keywords": "iptv reseller panel norge, beste forhandler iptv norge, kjøpe iptv kreditter engros norge, forhandler iptv, white label iptv"
+    "title": "IPTV-leverandører | IPTV-forhandlerplattform & Engros IPTV",
+    "description": "Samarbeid med pålitelige IPTV-leverandører og start din IPTV-forhandlervirksomhet med førsteklasses paneler, fleksible kreditter og support.",
+    "keywords": "iptv-leverandører, betrodd iptv leverandør, iptv-forhandlerpaneler, kjøpe iptv kreditter, forhandlerprogram, engros iptv, bli forhandler"
   },
   "common": {
     "currency": "NOK",
@@ -24,11 +24,11 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "tag": "#1 IPTV-forhandlerpanel-leverandør 2026",
-    "title1": "Beste leverandør av IPTV-forhandlerpanel for",
-    "title2": "raskt voksende IPTV-bedrifter",
-    "desc": "Start din IPTV-forhandlervirksomhet med førsteklasses IPTV-paneler under eget varemerke (white label), umiddelbare bulk-kreditter, stabile 4K-servere uten bufring og et profesjonelt IPTV-forhandlerpanel — med støtte for Xtream Codes, M3U og MAG Box-tilkoblinger.",
-    "trustTag": "Betrodd av IPTV-forhandlere i Storbritannia, USA og EU — start din IPTV-forhandlervirksomhet i dag med null tidligere erfaring. Ingen stor investering kreves.",
+    "tag": "#1 Betrodd IPTV-leverandør 2026",
+    "title1": "IPTV-leverandører & IPTV-forhandlerpaneler –",
+    "title2": "Betrodd IPTV-leverandør for IPTV-forhandlere",
+    "desc": "Fox IPTV Panels er en ledende IPTV-leverandør som tilbyr premium IPTV-forhandlerpaneler, engros-løsninger og forhandlerprogrammer for IPTV-forhandlere over hele verden. Enten du leter etter en pålitelig leverandør, ønsker å bli forhandler eller trenger et kraftfullt panel, tilbyr vi verktøyene, støtten og pakkene du trenger for å vokse.",
+    "trustTag": "Som en betrodd IPTV-leverandør hjelper vi forhandlere med å opprette kundekontoer, administrere abonnementer, kjøpe forhandlerkreditter og skalere opp virksomheten fra ett enkelt kontrollpanel.",
     "ctaStart": "Skaff IPTV-forhandlerpanel",
     "ctaPanels": "Sammenlign IPTV-paneler 2026"
   },
@@ -79,20 +79,21 @@
     }
   },
   "about": {
-    "tag": "Om Fox IPTV Panels",
-    "title1": "Hva er et",
-    "title2": "IPTV-forhandlerpanel",
-    "title3": "— og hvordan fungerer Fox IPTV Panels?",
-    "desc1": "Fox IPTV Panels er en ledende leverandør av IPTV-forhandlerpaneler som hjelper gründere med å starte og skalere opp sin forhandlervirksomhet. Vi tilbyr tilgang til 20+ førsteklasses IPTV-paneler — alle med tilpassbare kontrollpaneler under eget varemerke (white label), bulk-kredittpakker og stabile IPTV-servere optimalisert for 4K-strømming.",
-    "desc2": "Enten du er en nybegynner som lærer hvordan man starter en IPTV-forhandlervirksomhet eller en erfaren underforhandler som leter etter et bedre grossistpanel — gir plattformen vår deg umiddelbar tilgang til Xtream Codes- og M3U-kompatible kontrollpaneler, umiddelbare kreditter, kundehåndteringsverktøy og MAG Box-støtte.",
-    "listHeader": "Vi forenkler IPTV-forhandlersalg med:",
+    "tag": "Start din IPTV-forhandlervirksomhet",
+    "title1": "Start din IPTV-forhandlervirksomhet med en",
+    "title2": "Betrodd IPTV-leverandør",
+    "title3": "",
+    "desc1": "Å velge riktig IPTV-leverandør er det viktigste steget når du bygger en vellykket forhandlervirksomhet. Fox IPTV Panels tilbyr tilgang til premium forhandlerpaneler, fleksible kredittsystemer og engrospakker designet for både nye og erfarne IPTV-forhandlere.",
+    "desc2": "Enten du trenger et forhandlerpanel for en liten kundebase eller en engros-leverandør for storskala vekst, har vi en løsning tilpasset dine behov.",
+    "listHeader": "Våre IPTV-forhandlerløsninger passer for:",
     "cta": "Bli en IPTV-forhandler",
-    "feature1": "Kontrollpanel under eget varemerke (white label)",
-    "feature2": "Umiddelbar kredittaktivering",
-    "feature3": "Stabile 4K- og 8K-servere uten bufring",
-    "feature4": "Fleksibelt IPTV-kredittsystem",
-    "feature5": "Dedikert WhatsApp-støtte 24/7",
-    "feature6": "20+ IPTV-panelalternativer (Xtream Codes & M3U)",
+    "feature1": "IPTV-forhandlere",
+    "feature2": "IPTV-virksomheter i Storbritannia",
+    "feature3": "IPTV-virksomheter i USA",
+    "feature4": "IPTV-virksomheter i Canada",
+    "feature5": "Digitale entreprenører",
+    "feature6": "Forhandlere av strømmetjenester",
+    "feature7": "IPTV-byråer",
     "card1Title": "Kom i gang raskt — Innlogging til panelet på få minutter",
     "card1Desc": "Få umiddelbar tilgang til ditt IPTV-forhandlerpanel. Opprett abonnement for kunder innen få minutter etter at du ble med — ingen teknisk installasjon kreves.",
     "card2Title": "Høye vinstmarginer for IPTV-forhandlere",

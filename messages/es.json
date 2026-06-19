@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Panel Reseller IPTV España: Evite Cortes de Señal y Gane Más",
-    "description": "¿Clientes molestos por cortes de señal y buffering? Consiga el panel revendedor IPTV de marca blanca más estable. Créditos instantáneos, pruebas gratis y soporte WhatsApp 24/7.",
-    "keywords": "panel reseller iptv españa, el mejor distribuidor iptv españa, comprar creditos iptv al por mayor españa, negocio de revendedor iptv, iptv marca blanca"
+    "title": "Proveedores de IPTV | Plataforma de Revendedores IPTV y Venta al por Mayor",
+    "description": "Asóciese con proveedores de IPTV de confianza y comience su negocio de revendedor de IPTV con paneles premium, créditos flexibles y soporte dedicado.",
+    "keywords": "proveedores de iptv, proveedor iptv confianza, paneles reseller iptv, comprar creditos iptv, negocio de revendedor iptv, iptv al por mayor, convertirse en revendedor"
   },
   "common": {
     "currency": "EUR",
@@ -24,11 +24,11 @@
     "contact": "Contacto"
   },
   "hero": {
-    "tag": "El proveedor líder de paneles de reventa de IPTV en 2026",
-    "title1": "El mejor proveedor de paneles de reventa de IPTV para",
-    "title2": "empresas de IPTV de rápido crecimiento",
-    "desc": "Inicie su negocio de revendedor de IPTV con paneles de IPTV de marca blanca premium, créditos a granel instantáneos, servidores estables en 4K sin almacenamiento en búfer y un panel de control de revendedor de IPTV profesional, compatible con conexiones Xtream Codes, M3U y MAG Box.",
-    "trustTag": "Con la confianza de los revendedores de IPTV en el Reino Unido, EE. UU. y la UE: inicie su negocio de reventa de IPTV hoy mismo con cero experiencia previa. No se requiere una gran inversión.",
+    "tag": "#1 Proveedor de IPTV de Confianza 2026",
+    "title1": "Proveedores de IPTV y Paneles de Revendedor –",
+    "title2": "Proveedor de IPTV de Confianza para Revendedores",
+    "desc": "Fox IPTV Panels es un proveedor de IPTV líder que ofrece paneles de revendedores premium, soluciones de IPTV al por mayor y programas de reventa para distribuidores en todo el mundo. Ya sea que busque un proveedor de IPTV confiable, desee convertirse en revendedor de IPTV o necesite un panel potente, ofrecemos las herramientas, el soporte y los paquetes necesarios para hacer crecer su negocio.",
+    "trustTag": "Como proveedor de IPTV de confianza, ayudamos a los revendedores a crear cuentas de clientes, gestionar suscripciones, comprar créditos de reventa y escalar su negocio de IPTV desde un único panel de control.",
     "ctaStart": "Obtener Panel de Revendedor de IPTV",
     "ctaPanels": "Comparar Paneles IPTV 2026"
   },
@@ -79,20 +79,21 @@
     }
   },
   "about": {
-    "tag": "Acerca de Fox IPTV Panels",
-    "title1": "¿Qué es un",
-    "title2": "panel de revendedor de IPTV",
-    "title3": "y cómo funciona Fox IPTV Panels?",
-    "desc1": "Fox IPTV Panels es un proveedor líder de paneles de revendedores de IPTV que ayuda a los emprendedores a iniciar y escalar su negocio de reventa de IPTV. Ofrecemos acceso a más de 20 paneles de IPTV premium, todos con paneles de control de revendedores de marca blanca, paquetes de créditos a granel y servidores de IPTV de alto tiempo de actividad optimizados para transmisión en 4K.",
-    "desc2": "Tanto si es un principiante que está aprendiendo a iniciar un negocio de revendedor de IPTV como si es un sub-revendedor de IPTV experimentado que busca un mejor panel mayorista, nuestra plataforma le brinda acceso instantáneo a paneles de control de IPTV compatibles con Xtream Codes y M3U, créditos instantáneos, herramientas de administración de clientes y soporte para MAG Box.",
-    "listHeader": "Simplificamos la reventa de IPTV con:",
+    "tag": "Inicie su Negocio de Revendedor de IPTV",
+    "title1": "Comience su Negocio de Revendedor con un",
+    "title2": "Proveedor de IPTV de Confianza",
+    "title3": "",
+    "desc1": "Elegir al proveedor de IPTV adecuado es el paso más importante para construir un negocio de reventa exitoso. Fox IPTV Panels ofrece acceso a paneles de revendedores premium, sistemas de créditos flexibles y paquetes mayoristas diseñados tanto para revendedores nuevos como experimentados.",
+    "desc2": "Tanto si necesita un panel de revendedor para una base pequeña de clientes como si busca un proveedor de IPTV al por mayor para un crecimiento a gran escala, tenemos una solución a su medida.",
+    "listHeader": "Nuestras soluciones de reventa de IPTV son ideales para:",
     "cta": "Conviértase en Revendedor de IPTV",
-    "feature1": "Panel de control de revendedor de IPTV de marca blanca",
-    "feature2": "Activación instantánea de créditos",
-    "feature3": "Servidores estables en 4K y 8K sin cortes",
-    "feature4": "Sistema de créditos IPTV flexible",
-    "feature5": "Soporte dedicado de WhatsApp 24/7",
-    "feature6": "Más de 20 opciones de paneles IPTV (Xtream Codes y M3U)",
+    "feature1": "Revendedores de IPTV",
+    "feature2": "Negocios de IPTV en el Reino Unido",
+    "feature3": "Negocios de IPTV en EE. UU.",
+    "feature4": "Negocios de IPTV en Canadá",
+    "feature5": "Emprendedores Digitales",
+    "feature6": "Revendedores de Servicios de Streaming",
+    "feature7": "Agencias de IPTV",
     "card1Title": "Lanzamiento rápido: inicio de sesión en el panel del revendedor en minutos",
     "card1Desc": "Obtenga acceso instantáneo a su panel de revendedor de IPTV. Cree suscripciones para clientes en cuestión de minutos después de unirse, sin necesidad de configuración técnica.",
     "card2Title": "Altos márgenes de beneficio del revendedor de IPTV",

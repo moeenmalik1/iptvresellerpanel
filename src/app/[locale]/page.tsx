@@ -7,9 +7,11 @@ import AboutSection from "@/app/components/AboutSection";
 import FeaturesSection from "@/app/components/FeaturesSection";
 import BusinessSection from "@/app/components/BusinessSection";
 import PanelsGrid from "@/app/components/PanelsGrid";
+import PopularPanelsSection from "@/app/components/PopularPanelsSection";
 import ComparisonTable from "@/app/components/ComparisonTable";
 import DashboardSection from "@/app/components/DashboardSection";
 import BenefitsSection from "@/app/components/BenefitsSection";
+import PreferredSupplierSection from "@/app/components/PreferredSupplierSection";
 import TestimonialsSection from "@/app/components/TestimonialsSection";
 import FAQSection from "@/app/components/FAQSection";
 import CTASection from "@/app/components/CTASection";
@@ -254,6 +256,9 @@ export default async function HomePage({
         {/* IPTV Server Panels Catalog Grid */}
         <PanelsGrid />
 
+        {/* Popular IPTV Reseller Panels with Descriptions */}
+        <PopularPanelsSection />
+
         {/* Comprehensive Reseller Matrix */}
         <ComparisonTable />
 
@@ -262,6 +267,9 @@ export default async function HomePage({
 
         {/* Key Partner Benefits */}
         <BenefitsSection />
+
+        {/* Preferred IPTV Supplier Section */}
+        <PreferredSupplierSection />
 
         {/* Global Testimonials Reviews */}
         <TestimonialsSection />

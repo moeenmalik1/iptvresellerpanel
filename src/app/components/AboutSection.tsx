@@ -13,6 +13,7 @@ export default function AboutSection() {
     t("feature4"),
     t("feature5"),
     t("feature6"),
+    t("feature7"),
   ];
 
   return (
