@@ -128,7 +128,7 @@ export default async function AuthorsPage({
             <div className="glass-card" style={{ padding: "3rem", borderRadius: "24px", display: "flex", flexDirection: "column", gap: "1.5rem" }} id="marcusvane">
               <div style={{ display: "flex", alignItems: "center", gap: "1.5rem", flexWrap: "wrap" }}>
                 <img 
-                  src="/icon.svg" 
+                  src="/placeholder-icon.svg" 
                   alt="Marcus Vane Profile" 
                   style={{
                     width: "80px",

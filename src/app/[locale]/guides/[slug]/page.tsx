@@ -102,7 +102,7 @@ export default async function GuideDetailPage({
           "@id": "https://foxiptvpanels.com/authors/#marcusvane",
           "name": "Marcus Vane",
           "jobTitle": "Lead Alt-Broadband Network Architect",
-          "image": "https://foxiptvpanels.com/icon.svg",
+          "image": "https://foxiptvpanels.com/placeholder-icon.svg",
           "description": "Marcus Vane is a leading expert in alternative broadband networks and IPTV customization protocols with over 15 years of network systems virtualization experience.",
           "sameAs": [
             "https://twitter.com/marcusvane_iptv",
@@ -114,7 +114,7 @@ export default async function GuideDetailPage({
           "@id": "https://foxiptvpanels.com/authors/#carlosm",
           "name": "Carlos M.",
           "jobTitle": "Certified Broadband Specialist & Alt-Telecom Auditor",
-          "image": "https://foxiptvpanels.com/icon.svg",
+          "image": "https://foxiptvpanels.com/placeholder-icon.svg",
           "sameAs": [
             `https://foxiptvpanels.com/${locale}/authors`
           ]
@@ -295,7 +295,7 @@ export default async function GuideDetailPage({
                 <div style={{ display: "flex", gap: "1.25rem", flexDirection: "column" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
                     <img 
-                      src="/icon.svg" 
+                      src="/placeholder-icon.svg" 
                       alt="Marcus Vane" 
                       style={{ 
                         width: "60px", 
