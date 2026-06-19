@@ -138,38 +138,18 @@ export default function Header() {
           {/* Logo with Organization Schema */}
           <Link 
             href={`/${locale}`} 
-            style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "10px" }}
+            style={{ textDecoration: "none", display: "flex", alignItems: "center" }}
             itemScope 
             itemType="http://schema.org/Organization"
           >
             <meta itemProp="name" content="Fox IPTV Panels" />
             <meta itemProp="url" content="https://foxiptvpanels.com" />
-            <div style={{
-              width: 38, height: 38, borderRadius: 10,
-              background: "linear-gradient(135deg, #1e293b, #0f172a)",
-              display: "flex", alignItems: "center", justifyContent: "center",
-              boxShadow: "0 0 15px rgba(234, 88, 12, 0.25)",
-              border: "1px solid rgba(234, 88, 12, 0.4)",
-            }}>
-              <img 
-                src="/icon.svg" 
-                alt="Fox IPTV Panels Logo" 
-                itemProp="logo" 
-                style={{ width: 24, height: 24 }} 
-              />
-            </div>
-            <span style={{
-              fontFamily: "'Outfit', sans-serif",
-              fontWeight: 900,
-              fontSize: "1.15rem",
-              letterSpacing: "-0.02em",
-              background: "linear-gradient(135deg, #ffffff 0%, #ea580c 100%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              backgroundClip: "text",
-            }}>
-              FOX IPTV PANELS
-            </span>
+            <img 
+              src="/logo.png" 
+              alt="Fox IPTV Panels Logo" 
+              itemProp="logo" 
+              style={{ height: "36px", width: "auto" }} 
+            />
           </Link>
 
           {/* Desktop Nav with SiteNavigationElement Schema */}

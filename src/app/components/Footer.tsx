@@ -82,52 +82,16 @@ export default function Footer() {
 
           {/* Brand column */}
           <div>
-            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: "1.25rem" }}>
-              <div style={{
-                width: 38, height: 38, borderRadius: 10,
-                background: "linear-gradient(135deg, #1e293b, #0f172a)",
-                display: "flex", alignItems: "center", justifyContent: "center",
-                boxShadow: "0 0 15px rgba(234, 88, 12, 0.25)",
-                border: "1px solid rgba(234, 88, 12, 0.4)",
-              }} aria-hidden="true">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  {/* Back of Head / Ears (Charcoal) */}
-                  <path d="M12 8L4 2L8 12Z" fill="#0f172a" />
-                  <path d="M12 8L20 2L16 12Z" fill="#0f172a" />
-                  
-                  {/* Outer Ears (Rust) */}
-                  <path d="M4 2L8 12L3 10Z" fill="#c2410c" />
-                  <path d="M20 2L16 12L21 10Z" fill="#c2410c" />
-
-                  {/* Cheeks / Sides (Bright Orange) */}
-                  <path d="M8 12L2 12L12 20Z" fill="#f97316" />
-                  <path d="M16 12L22 12L12 20Z" fill="#f97316" />
-
-                  {/* Face / Snout (Vibrant Orange) */}
-                  <path d="M12 8L8 12L12 20Z" fill="#ea580c" />
-                  <path d="M12 8L16 12L12 20Z" fill="#ea580c" />
-
-                  {/* Inner Ears & Under-eyes (White) */}
-                  <path d="M6 5.5L8 12L7 11.5Z" fill="#ffffff" />
-                  <path d="M18 5.5L16 12L17 11.5Z" fill="#ffffff" />
-                  <path d="M12 14.5L10 12L12 11L14 12Z" fill="#ffffff" />
-
-                  {/* Nose (Charcoal) */}
-                  <path d="M12 18.5L10 20L12 21L14 20Z" fill="#0f172a" />
-                </svg>
-              </div>
-              <span style={{
-                fontFamily: "'Outfit', sans-serif",
-                fontWeight: 800,
-                fontSize: "1.1rem",
-                background: "linear-gradient(135deg, #ffffff 0%, #ea580c 100%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text",
-              }}>
-                FOX IPTV PANELS
-              </span>
-            </div>
+            <Link 
+              href={`/${locale}`}
+              style={{ textDecoration: "none", display: "inline-flex", alignItems: "center", marginBottom: "1.25rem" }}
+            >
+              <img 
+                src="/logo.png" 
+                alt="Fox IPTV Panels Logo" 
+                style={{ height: "36px", width: "auto" }} 
+              />
+            </Link>
 
             <p style={{
               fontSize: "0.875rem", color: "var(--text-muted)", lineHeight: 1.7,

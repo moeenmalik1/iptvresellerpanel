@@ -61,7 +61,7 @@ export default async function LocaleLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="noindex, nofollow" />
         <meta name="theme-color" content="#090d16" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/icon.png" type="image/png" />
         <link rel="alternate icon" href="/favicon.ico" />
         
         {/* Dynamic Multi-locale Hreflang alternate tag list injected per page */}
