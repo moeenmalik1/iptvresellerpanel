@@ -45,6 +45,8 @@ export default async function HomePage({
     description: t("description"),
     contactPoint: {
       "@type": "ContactPoint",
+      telephone: "+447463012833",
+      email: "Iptvreseller77@gmail.com",
       contactType: "customer support",
       availableLanguage: ["English", "Spanish", "French", "Portuguese", "Swedish", "Norwegian"],
       contactOption: "TollFree",
@@ -78,7 +80,7 @@ export default async function HomePage({
     "name": "Fox IPTV Panels",
     "image": "https://foxiptvpanels.com/logo.png",
     "url": "https://foxiptvpanels.com",
-    "telephone": "+442079460192",
+    "telephone": "+447463012833",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
