@@ -131,6 +131,20 @@ export default function Footer() {
               </svg>
               {whatsappLabel}
             </a>
+
+            {/* Email Contact */}
+            <div style={{ marginTop: "1rem" }}>
+              <a
+                href="mailto:Iptvreseller77@gmail.com"
+                className="footer-email-link"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" style={{ color: "#a855f7" }}>
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                Iptvreseller77@gmail.com
+              </a>
+            </div>
           </div>
 
           {/* IPTV Panels */}
@@ -223,6 +237,18 @@ export default function Footer() {
         }
         .footer-link:hover {
           color: var(--text-secondary) !important;
+        }
+        .footer-email-link {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          color: var(--text-muted) !important;
+          font-size: 0.85rem;
+          text-decoration: none;
+          transition: color 0.2s;
+        }
+        .footer-email-link:hover {
+          color: var(--text-primary) !important;
         }
         @media (max-width: 900px) {
           .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 2rem !important; }

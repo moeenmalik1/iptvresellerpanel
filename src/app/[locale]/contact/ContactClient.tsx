@@ -16,7 +16,7 @@ export default function ContactClient() {
   const [selectedPanel, setSelectedPanel] = useState(ALL_PANELS[0].name);
   const [selectedCredits, setSelectedCredits] = useState("120 Credits Starter");
 
-  const WHATSAPP_NUMBER = "1234567890"; // WhatsApp Administrator Contact
+  const WHATSAPP_NUMBER = "447463012833"; // WhatsApp Administrator Contact
 
   const whatsappLink = useMemo(() => {
     const text = (() => {
@@ -154,6 +154,55 @@ export default function ContactClient() {
               return trans[locale as keyof typeof trans] || trans.en;
             })()}
           </p>
+        </div>
+ 
+        {/* Email & WhatsApp Quick Badges */}
+        <div style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: "1.5rem",
+          flexWrap: "wrap",
+          marginBottom: "3rem",
+          marginTop: "1.5rem"
+        }}>
+          <div style={{
+            background: "rgba(255, 255, 255, 0.03)",
+            backdropFilter: "blur(8px)",
+            border: "1px solid rgba(255, 255, 255, 0.08)",
+            padding: "0.75rem 1.5rem",
+            borderRadius: "99px",
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "10px",
+            fontSize: "0.95rem",
+            color: "var(--text-secondary)",
+            boxShadow: "0 4px 20px rgba(0,0,0,0.15)"
+          }}>
+            <span style={{ fontSize: "1.2rem", color: "#a855f7" }}>✉</span>
+            <strong>Email:</strong>
+            <a href="mailto:Iptvreseller77@gmail.com" style={{ color: "#a855f7", textDecoration: "none", fontWeight: 600 }} className="animated-underline">
+              Iptvreseller77@gmail.com
+            </a>
+          </div>
+          <div style={{
+            background: "rgba(255, 255, 255, 0.03)",
+            backdropFilter: "blur(8px)",
+            border: "1px solid rgba(255, 255, 255, 0.08)",
+            padding: "0.75rem 1.5rem",
+            borderRadius: "99px",
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "10px",
+            fontSize: "0.95rem",
+            color: "var(--text-secondary)",
+            boxShadow: "0 4px 20px rgba(0,0,0,0.15)"
+          }}>
+            <span style={{ color: "#22c55e", fontSize: "1.2rem" }}>●</span>
+            <strong>WhatsApp:</strong>
+            <a href={`https://wa.me/447463012833`} target="_blank" rel="noopener noreferrer" style={{ color: "#22c55e", textDecoration: "none", fontWeight: 600 }} className="animated-underline">
+              +44 7463 012833
+            </a>
+          </div>
         </div>
 
         {/* Pricing Grid */}

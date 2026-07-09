@@ -39,7 +39,7 @@ export default async function GuideDetailPage({
     notFound();
   }
 
-  const WHATSAPP_URL = "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
+  const WHATSAPP_URL = "https://wa.me/447463012833?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business";
 
   // Dynamic local translation strings
   const lc = (map: Record<string, string>) => map[locale] ?? map["en"] ?? "";
