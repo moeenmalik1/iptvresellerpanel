@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Proveedores de IPTV | Plataforma de Revendedores IPTV y Venta al por Mayor",
+    "description": "Asóciese con proveedores de IPTV de confianza y comience su negocio de revendedor de IPTV con paneles premium, créditos flexibles y soporte dedicado.",
+    "keywords": "proveedores de iptv, proveedor iptv confianza, paneles reseller iptv, comprar creditos iptv, negocio de revendedor iptv, iptv al por mayor, convertirse en revendedor"
+  },
+  "common": {
+    "currency": "EUR",
+    "symbol": "€",
+    "whatsappUrl": "https://wa.me/1234567890?text=Hola%2C%20estoy%20interesado%20en%20comenzar%20un%20negocio%20de%20reseller%20de%20IPTV%20en%20Espana",
+    "startReselling": "Empezar a Vender",
+    "viewAll": "Ver los 22 Paneles IPTV en España",
+    "whatsappSupport": "Soporte de WhatsApp IPTV",
+    "secureOrder": "Pedir por WhatsApp de forma Segura (EUR)",
+    "years": "2026",
+    "regionName": "España"
+  },
+  "nav": {
+    "home": "Inicio",
+    "panels": "Paneles IPTV",
+    "comparisons": "Comparativas",
+    "guides": "Guías Reseller",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tag": "#1 Proveedor de IPTV de Confianza 2026",
+    "title1": "Proveedores de IPTV y Paneles de Revendedor –",
+    "title2": "Proveedor de IPTV de Confianza para Revendedores",
+    "desc": "Fox IPTV Panels es un proveedor de IPTV líder que ofrece paneles de revendedores premium, soluciones de IPTV al por mayor y programas de reventa para distribuidores en todo el mundo. Ya sea que busque un proveedor de IPTV confiable, desee convertirse en revendedor de IPTV o necesite un panel potente, ofrecemos las herramientas, el soporte y los paquetes necesarios para hacer crecer su negocio.",
+    "trustTag": "Como proveedor de IPTV de confianza, ayudamos a los revendedores a crear cuentas de clientes, gestionar suscripciones, comprar créditos de reventa y escalar su negocio de IPTV desde un único panel de control.",
+    "ctaStart": "Obtener Panel de Revendedor de IPTV",
+    "ctaPanels": "Comparar Paneles IPTV 2026"
+  },
+  "trust": {
+    "badge": "MAYORISTA 2026"
+  },
+  "pricing": {
+    "title": "Paquetes de Créditos IPTV al por Mayor y Calculadora de Ganancias",
+    "subtitle": "Seleccione un paquete diseñado o calcule sus ganancias dinámicas en EUR a continuación con números escritos o controles deslizantes interactivos.",
+    "sliderCredits": "Créditos a comprar:",
+    "sliderPrice": "Su precio de reventa mensual (€):",
+    "cost": "Costo del paquete (Para comprar):",
+    "revenue": "Valor minorista (Para vender):",
+    "profit": "Su beneficio neto en EUR:",
+    "perCredit": "por crédito",
+    "costLabel": "Costo por Crédito",
+    "earningsLabel": "Ganancias potenciales en España",
+    "grossLabel": "Ingresos brutos",
+    "netLabel": "Beneficio neto",
+    "plans": {
+      "starter": {
+        "name": "Paquete Starter",
+        "features": [
+          "Mínimo de 120 créditos para iniciar",
+          "Incluye creación básica de sub-revendedores",
+          "Soporte para Xtream Codes y M3U",
+          "Acceso 24/7 al sistema de soporte"
+        ]
+      },
+      "growth": {
+        "name": "Paquete Growth",
+        "features": [
+          "Paquete mayorista de 200 créditos",
+          "Configuración gratuita de enrutamiento DNS personalizado",
+          "Acceso a plantillas de ventas para principiantes",
+          "Soporte prioritario por grupo de WhatsApp"
+        ]
+      },
+      "enterprise": {
+        "name": "Paquete Enterprise",
+        "features": [
+          "Paquete premium de 500 créditos",
+          "Capacidad ilimitada de paneles para sub-revendedores",
+          "Configuración de marca blanca 100% personalizada",
+          "Administrador de cuentas VIP dedicado 24/7"
+        ]
+      }
+    }
+  },
+  "about": {
+    "tag": "Inicie su Negocio de Revendedor de IPTV",
+    "title1": "Comience su Negocio de Revendedor con un",
+    "title2": "Proveedor de IPTV de Confianza",
+    "title3": "",
+    "desc1": "Elegir al proveedor de IPTV adecuado es el paso más importante para construir un negocio de reventa exitoso. Fox IPTV Panels ofrece acceso a paneles de revendedores premium, sistemas de créditos flexibles y paquetes mayoristas diseñados tanto para revendedores nuevos como experimentados.",
+    "desc2": "Tanto si necesita un panel de revendedor para una base pequeña de clientes como si busca un proveedor de IPTV al por mayor para un crecimiento a gran escala, tenemos una solución a su medida.",
+    "listHeader": "Nuestras soluciones de reventa de IPTV son ideales para:",
+    "cta": "Conviértase en Revendedor de IPTV",
+    "feature1": "Revendedores de IPTV",
+    "feature2": "Negocios de IPTV en el Reino Unido",
+    "feature3": "Negocios de IPTV en EE. UU.",
+    "feature4": "Negocios de IPTV en Canadá",
+    "feature5": "Emprendedores Digitales",
+    "feature6": "Revendedores de Servicios de Streaming",
+    "feature7": "Agencias de IPTV",
+    "card1Title": "Lanzamiento rápido: inicio de sesión en el panel del revendedor en minutos",
+    "card1Desc": "Obtenga acceso instantáneo a su panel de revendedor de IPTV. Cree suscripciones para clientes en cuestión de minutos después de unirse, sin necesidad de configuración técnica.",
+    "card2Title": "Altos márgenes de beneficio del revendedor de IPTV",
+    "card2Desc": "Compre créditos de IPTV al por mayor, venda suscripciones a sus propios precios y quédese con todo el margen de beneficio. Cuantos más créditos compre, mejores serán sus márgenes.",
+    "card3Title": "Gestión completa del panel de control de IPTV",
+    "card3Desc": "Administre todos los clientes, créditos, suscripciones de prueba y paquetes desde un panel de control de IPTV centralizado con análisis en tiempo real."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes sobre revendedores mayoristas de IPTV",
+    "q1": "¿Están disponibles sus paneles de IPTV en España?",
+    "a1": "Sí, absolutamente. Brindamos soporte completo a revendedores de IPTV en España con servidores europeos de baja latencia, opciones de pago en euros y contenido de canales optimizado para la audiencia española.",
+    "q2": "¿Cómo funcionan los créditos de revendedor de IPTV en España?",
+    "a2": "Los créditos actúan como saldo en su panel de control. 1 crédito proporciona 1 mes de suscripción para 1 usuario. Compra los créditos al por mayor en euros y establece sus propios precios de reventa, conservando el 100% del margen de beneficio."
+  }
+}

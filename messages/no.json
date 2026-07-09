@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "IPTV-leverandører | IPTV-forhandlerplattform & Engros IPTV",
+    "description": "Samarbeid med pålitelige IPTV-leverandører og start din IPTV-forhandlervirksomhet med førsteklasses paneler, fleksible kreditter og support.",
+    "keywords": "iptv-leverandører, betrodd iptv leverandør, iptv-forhandlerpaneler, kjøpe iptv kreditter, forhandlerprogram, engros iptv, bli forhandler"
+  },
+  "common": {
+    "currency": "NOK",
+    "symbol": "kr",
+    "whatsappUrl": "https://wa.me/1234567890?text=Hei%2C%20jeg%20er%20interessert%20i%20a%20starte%20en%20virksomhet%20som%20IPTV-forhandler%20i%20Norge",
+    "startReselling": "Begynn å Selge",
+    "viewAll": "Vis alle 22 IPTV-paneler i Norge",
+    "whatsappSupport": "Norsk WhatsApp Support",
+    "secureOrder": "Bestill trygt på WhatsApp (NOK)",
+    "years": "2026",
+    "regionName": "Norge"
+  },
+  "nav": {
+    "home": "Hjem",
+    "panels": "IPTV Paneler",
+    "comparisons": "Sammenligninger",
+    "guides": "Guider",
+    "about": "Om Oss",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tag": "#1 Betrodd IPTV-leverandør 2026",
+    "title1": "IPTV-leverandører & IPTV-forhandlerpaneler –",
+    "title2": "Betrodd IPTV-leverandør for IPTV-forhandlere",
+    "desc": "Fox IPTV Panels er en ledende IPTV-leverandør som tilbyr premium IPTV-forhandlerpaneler, engros-løsninger og forhandlerprogrammer for IPTV-forhandlere over hele verden. Enten du leter etter en pålitelig leverandør, ønsker å bli forhandler eller trenger et kraftfullt panel, tilbyr vi verktøyene, støtten og pakkene du trenger for å vokse.",
+    "trustTag": "Som en betrodd IPTV-leverandør hjelper vi forhandlere med å opprette kundekontoer, administrere abonnementer, kjøpe forhandlerkreditter og skalere opp virksomheten fra ett enkelt kontrollpanel.",
+    "ctaStart": "Skaff IPTV-forhandlerpanel",
+    "ctaPanels": "Sammenlign IPTV-paneler 2026"
+  },
+  "trust": {
+    "badge": "2026 NORSK ENGROS"
+  },
+  "pricing": {
+    "title": "Engrospakker med IPTV-kreditter & Vinstkalkulator",
+    "subtitle": "Velg en ferdig pakke eller kalkuler dine dynamiske inntekter i NOK under med direkte inntastede tall eller interaktive glidebrytere.",
+    "sliderCredits": "Kreditter å kjøpe:",
+    "sliderPrice": "Ditt månedlige forhandlerpris (kr):",
+    "cost": "Pakkepris (Å kjøpe):",
+    "revenue": "Utsalgsverdi (Å selge):",
+    "profit": "Din nettogevinst i NOK:",
+    "perCredit": "per kreditt",
+    "costLabel": "Kostnad per kreditt",
+    "earningsLabel": "Mulige inntekter i Norge",
+    "grossLabel": "Bruttoinntekter",
+    "netLabel": "Nettogevinst",
+    "plans": {
+      "starter": {
+        "name": "Starter-pakke",
+        "features": [
+          "Minst 120 kreditter for å starte",
+          "Inkluderer grunnleggende verktøy for underforhandlere",
+          "Støtte for Xtream Codes & M3U",
+          "24/7 tilgang till kundestøtte"
+        ]
+      },
+      "growth": {
+        "name": "Growth-pakke",
+        "features": [
+          "Engrospakke med 200 kreditter",
+          "Gratis tilpasset DNS-portalinstallasjon",
+          "Tilgang til salgsmaler for nybegynnere",
+          "Prioritert støtte i WhatsApp-gruppe"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise-engros",
+        "features": [
+          "Premium engrospakke med 500 kreditter",
+          "Ubegrenset panelkapasitet for underforhandlere",
+          "Fullt tilpasset white label-installasjon",
+          "24/7 direkte VIP-kontomansvarlig"
+        ]
+      }
+    }
+  },
+  "about": {
+    "tag": "Start din IPTV-forhandlervirksomhet",
+    "title1": "Start din IPTV-forhandlervirksomhet med en",
+    "title2": "Betrodd IPTV-leverandør",
+    "title3": "",
+    "desc1": "Å velge riktig IPTV-leverandør er det viktigste steget når du bygger en vellykket forhandlervirksomhet. Fox IPTV Panels tilbyr tilgang til premium forhandlerpaneler, fleksible kredittsystemer og engrospakker designet for både nye og erfarne IPTV-forhandlere.",
+    "desc2": "Enten du trenger et forhandlerpanel for en liten kundebase eller en engros-leverandør for storskala vekst, har vi en løsning tilpasset dine behov.",
+    "listHeader": "Våre IPTV-forhandlerløsninger passer for:",
+    "cta": "Bli en IPTV-forhandler",
+    "feature1": "IPTV-forhandlere",
+    "feature2": "IPTV-virksomheter i Storbritannia",
+    "feature3": "IPTV-virksomheter i USA",
+    "feature4": "IPTV-virksomheter i Canada",
+    "feature5": "Digitale entreprenører",
+    "feature6": "Forhandlere av strømmetjenester",
+    "feature7": "IPTV-byråer",
+    "card1Title": "Kom i gang raskt — Innlogging til panelet på få minutter",
+    "card1Desc": "Få umiddelbar tilgang til ditt IPTV-forhandlerpanel. Opprett abonnement for kunder innen få minutter etter at du ble med — ingen teknisk installasjon kreves.",
+    "card2Title": "Høye vinstmarginer for IPTV-forhandlere",
+    "card2Desc": "Kjøp grossistkreditter i bulk, selg abonnement til dine egne priser og behold hele vinstmarginen. Jo flere kreditter du kjøper, desto bedre marginer.",
+    "card3Title": "Fullstendig håndtering av kontrollpanelet",
+    "card3Desc": "Administrer alle kunder, kreditter, testabonnement og pakker fra et sentralisert IPTV-forhandlerpanel med sanntidsanalyse."
+  },
+  "faq": {
+    "title": "Vanlige spørsmål om engrosvirksomhet for IPTV",
+    "q1": "Er forhandlerpanelene for IPTV tilgjengelige i Norge?",
+    "a1": "Ja, absolutt. Vi støtter IPTV-forhandlere over hele Norge med raske lokale servere, betalingsalternativer i NOK og kanalutvalg tilpasset det norske markedet.",
+    "q2": "Hvordan fungerer IPTV-forhandlerkreditter i Norge?",
+    "a2": "Kreditter fungerer som valuta på kontrollpanelet ditt. 1 kreditt gir 1 måneders abonnement for 1 bruker. Du kjøper kreditter til engrospris i NOK og setter dine egne priser, og beholder 100 % av fortjenesten."
+  }
+}

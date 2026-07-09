@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "IPTV Suppliers UK | IPTV Reseller Platform & Wholesale IPTV",
+    "description": "Partner with trusted IPTV suppliers in the UK. Start your IPTV reseller business with premium reseller panels, flexible credits, and reseller support.",
+    "keywords": "iptv suppliers uk, trusted iptv supplier uk, iptv reseller panels uk, buy iptv reseller credits uk, iptv reseller business uk, iptv panel, wholesale iptv uk, become iptv reseller"
+  },
+  "common": {
+    "currency": "GBP",
+    "symbol": "£",
+    "whatsappUrl": "https://wa.me/1234567890?text=Hello%2C%20I%27m%20interested%20in%20starting%20an%20IPTV%20reseller%20business%20in%20UK",
+    "startReselling": "Start UK Reselling",
+    "viewAll": "View All 22 IPTV Panels in UK",
+    "whatsappSupport": "WhatsApp UK Support",
+    "secureOrder": "Order via WhatsApp Securely (GBP)",
+    "years": "2026",
+    "regionName": "United Kingdom"
+  },
+  "nav": {
+    "home": "Home",
+    "panels": "IPTV Panels",
+    "comparisons": "UK Comparisons",
+    "guides": "Reseller Guides",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tag": "#1 Trusted IPTV Supplier UK 2026",
+    "title1": "IPTV Suppliers & IPTV Reseller Panels –",
+    "title2": "Trusted IPTV Supplier for UK IPTV Resellers",
+    "desc": "Fox IPTV Panels is a leading IPTV supplier providing premium IPTV reseller panels, wholesale IPTV solutions, and reseller programs for IPTV resellers worldwide. Whether you are searching for a reliable IPTV supplier, looking to become an IPTV reseller, or need a powerful IPTV reseller panel, we provide the tools, support, and reseller packages required to grow your business.",
+    "trustTag": "As a trusted IPTV supplier in the UK, we help IPTV resellers in London, Birmingham, and across the UK create customer accounts, manage subscriptions, purchase reseller credits, and scale their business.",
+    "ctaStart": "Start Selling in UK",
+    "ctaPanels": "Compare UK IPTV Panels"
+  },
+  "trust": {
+    "badge": "2026 UK WHOLESALE"
+  },
+  "pricing": {
+    "title": "UK Wholesale IPTV Credit Packages & Profit Calculator",
+    "subtitle": "Select a pre-designed bundle or calculate your dynamic earnings in GBP below with typed numbers or interactive range sliders.",
+    "sliderCredits": "Credits to Purchase:",
+    "sliderPrice": "Your Monthly Resell Price (£):",
+    "cost": "Package Cost (To Buy):",
+    "revenue": "Retail Value (To Sell):",
+    "profit": "Your Net Profit in GBP:",
+    "perCredit": "per credit",
+    "costLabel": "Cost per Credit",
+    "earningsLabel": "UK Potential Earnings",
+    "grossLabel": "Gross Revenue",
+    "netLabel": "Net Profit",
+    "plans": {
+      "starter": {
+        "name": "UK Starter Pack",
+        "features": [
+          "120 credits minimum setup",
+          "Includes basic sub-reseller creation",
+          "Xtream Codes & M3U support",
+          "24/7 client ticket desk access"
+        ]
+      },
+      "growth": {
+        "name": "UK Growth Pack",
+        "features": [
+          "200 credits wholesale bundle",
+          "Free custom DNS portal routing setup",
+          "Access to beginner sales templates",
+          "Priority WhatsApp group support"
+        ]
+      },
+      "enterprise": {
+        "name": "UK Enterprise Wholesale",
+        "features": [
+          "500 credits premium bundle",
+          "Unlimited sub-reseller dashboard capability",
+          "Fully customized white-label setup",
+          "24/7 direct VIP account manager"
+        ]
+      }
+    }
+  },
+  "about": {
+    "tag": "Start Your UK IPTV Reseller Business",
+    "title1": "Start Your IPTV Reseller Business with a",
+    "title2": "Trusted UK IPTV Supplier",
+    "title3": "",
+    "desc1": "Choosing the right IPTV supplier in the UK is the most important step when building a successful IPTV reseller business. Fox IPTV Panels offers access to premium IPTV reseller panels, flexible credit systems, and wholesale reseller packages designed for both new and experienced UK IPTV resellers.",
+    "desc2": "Whether you need a reseller IPTV panel for a small customer base or a wholesale IPTV supplier for large-scale growth, we have a solution tailored to your needs.",
+    "listHeader": "Our UK IPTV reseller solutions are suitable for:",
+    "cta": "Become an IPTV Reseller",
+    "feature1": "IPTV Resellers",
+    "feature2": "IPTV Reseller UK Businesses",
+    "feature3": "IPTV Reseller USA Businesses",
+    "feature4": "IPTV Reseller Canada Businesses",
+    "feature5": "Digital Entrepreneurs",
+    "feature6": "Streaming Service Resellers",
+    "feature7": "IPTV Agencies",
+    "card1Title": "Launch Fast — IPTV Reseller Panel Login in Minutes",
+    "card1Desc": "Get instant access to your IPTV reseller panel. Create subscriptions for customers within minutes of joining — no technical setup needed.",
+    "card2Title": "High IPTV Reseller Profit Margins",
+    "card2Desc": "Buy wholesale IPTV credits in bulk, sell subscriptions at your own pricing, and keep all the profit margin. The more credits you buy, the better your margins.",
+    "card3Title": "Full IPTV Dashboard Management",
+    "card3Desc": "Manage all customers, credits, trial subscriptions, and packages from one centralized IPTV reseller dashboard with real-time analytics."
+  },
+  "faq": {
+    "title": "UK Wholesale IPTV Reseller FAQ",
+    "q1": "Are your IPTV reseller panels available in the UK?",
+    "a1": "Yes, absolutely. We support IPTV resellers across the United Kingdom with low-latency local servers, GBP payment options, and geo-targeted streaming channels suited for UK audiences.",
+    "q2": "How do IPTV reseller credits work in the UK?",
+    "a2": "Reseller credits act as currency in your dashboard. 1 credit provides 1 month of subscription for 1 user. You purchase credits wholesale in GBP and set your own retail prices, keeping 100% of the markup profit."
+  }
+}

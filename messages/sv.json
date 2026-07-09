@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "IPTV-leverantörer | IPTV-återförsäljarplattform & Grossist IPTV",
+    "description": "Samarbeta med pålitliga IPTV-leverantörer och starta din IPTV-återförsäljarverksamhet med premium återförsäljarpaneler, flexibla krediter och support.",
+    "keywords": "iptv-leverantörer, betrodd iptv leverantör, iptv-återförsäljarpaneler, köpa iptv krediter, återförsäljarprogram, grossist iptv, bli återförsäljare"
+  },
+  "common": {
+    "currency": "SEK",
+    "symbol": "kr",
+    "whatsappUrl": "https://wa.me/1234567890?text=Hej%2C%20jag%20ar%20intresserad%20av%20att%20starta%20en%20verksamhet%20som%20IPTV-aterforsaljare%20i%20Sverige",
+    "startReselling": "Börja Sälja",
+    "viewAll": "Visa alla 22 IPTV-paneler i Sverige",
+    "whatsappSupport": "Svensk WhatsApp Support",
+    "secureOrder": "Beställ säkert via WhatsApp (SEK)",
+    "years": "2026",
+    "regionName": "Sverige"
+  },
+  "nav": {
+    "home": "Hem",
+    "panels": "IPTV Paneler",
+    "comparisons": "Jämförelser",
+    "guides": "Guider",
+    "about": "Om Oss",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tag": "#1 Betrodd IPTV-leverantör 2026",
+    "title1": "IPTV-leverantörer & IPTV-återförsäljarpaneler –",
+    "title2": "Betrodd IPTV-leverantör för IPTV-återförsäljare",
+    "desc": "Fox IPTV Panels är en ledande IPTV-leverantör som erbjuder premium återförsäljarpaneler för IPTV, grossist-IPTV-lösningar och återförsäljarprogram för återförsäljare över hela världen. Oavsett om du söker en pålitlig IPTV-leverantör, vill bli en återförsäljare eller behöver en kraftfull panel, tillhandahåller vi verktygen, supporten och paketen som krävs för att växa.",
+    "trustTag": "Som en betrodd IPTV-leverantör hjälper vi återförsäljare att skapa kundkonton, hantera abonnemang, köpa återförsäljarkrediter och skala upp sin verksamhet från en enda instrumentpanel.",
+    "ctaStart": "Skaffa IPTV-återförsäljarpanel",
+    "ctaPanels": "Jämför IPTV-paneler 2026"
+  },
+  "trust": {
+    "badge": "2026 SVENSK GROSSIST"
+  },
+  "pricing": {
+    "title": "Grossistpaket med IPTV-krediter & Vinstkalkylator",
+    "subtitle": "Välj ett färdigt paket eller kalkylera dina dynamiska intäkter i SEK nedan med direktinskrivna siffror eller interaktiva skjutreglage.",
+    "sliderCredits": "Krediter att köpa:",
+    "sliderPrice": "Ditt månatliga återförsäljarpris (kr):",
+    "cost": "Paketpris (Att köpa):",
+    "revenue": "Butiksvärde (Att sälja):",
+    "profit": "Din nettovinst i SEK:",
+    "perCredit": "per kredit",
+    "costLabel": "Kostnad per kredit",
+    "earningsLabel": "Möjliga intäkter i Sverige",
+    "grossLabel": "Bruttointäkter",
+    "netLabel": "Nettovinst",
+    "plans": {
+      "starter": {
+        "name": "Starter-paket",
+        "features": [
+          "Minst 120 krediter för att starta",
+          "Inkluderar grundläggande verktyg för underåterförsäljare",
+          "Stöd för Xtream Codes & M3U",
+          "24/7 tillgång till supportavdelning"
+        ]
+      },
+      "growth": {
+        "name": "Growth-paket",
+        "features": [
+          "Grossistpaket med 200 krediter",
+          "Gratis anpassad DNS-portalinstallation",
+          "Tillgång till säljmallar för nybörjare",
+          "Prioriterad support i WhatsApp-grupp"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise-grossist",
+        "features": [
+          "Premium grossistpaket med 500 krediter",
+          "Obegränsad panelkapacitet för underåterförsäljare",
+          "Fullt anpassad white label-installation",
+          "24/7 direkt VIP-kontoansvarig"
+        ]
+      }
+    }
+  },
+  "about": {
+    "tag": "Starta din IPTV-återförsäljarverksamhet",
+    "title1": "Starta din IPTV-återförsäljarverksamhet med en",
+    "title2": "Betrodd IPTV-leverantör",
+    "title3": "",
+    "desc1": "Att välja rätt IPTV-leverantör är det viktigaste steget när du bygger en framgångsrik återförsäljarverksamhet. Fox IPTV Panels erbjuder tillgång till premium återförsäljarpaneler, flexibla kreditsystem och grossistpaket designade för både nya och erfarna återförsäljare.",
+    "desc2": "Oavsett om du behöver en återförsäljarpanel för en liten kundbas eller en grossist-leverantör för storskalig tillväxt, har vi en lösning anpassad efter dina behov.",
+    "listHeader": "Våra IPTV-återförsäljarösningar passar för:",
+    "cta": "Bli en IPTV-återförsäljare",
+    "feature1": "IPTV-återförsäljare",
+    "feature2": "IPTV-verksamheter i Storbritannien",
+    "feature3": "IPTV-verksamheter i USA",
+    "feature4": "IPTV-verksamheter i Kanada",
+    "feature5": "Digitala entreprenörer",
+    "feature6": "Återförsäljare av strömningstjänster",
+    "feature7": "IPTV-agenturer",
+    "card1Title": "Kom igång snabbt — Inloggning till panelen på några minuter",
+    "card1Desc": "Få omedelbar tillgång till din IPTV-återförsäljarpanel. Skapa abonnemang för kunder inom några minuter efter att du gått med — ingen teknisk installation krävs.",
+    "card2Title": "Höga vinstmarginaler för IPTV-återförsäljare",
+    "card2Desc": "Köp grossistkrediter i bulk, sälj abonnemang till dina egna priser och behåll hela vinstmarginalen. Ju fler krediter du köper, desto bättre marginaler.",
+    "card3Title": "Fullständig hantering av kontrollpanelen",
+    "card3Desc": "Hantera alla kunder, krediter, testabonnemang och paket från en centraliserad IPTV-återförsäljarpanel med realtidsanalys."
+  },
+  "faq": {
+    "title": "Vanliga frågor om grossistverksamhet för IPTV",
+    "q1": "Är era IPTV-återförsäljarpaneler tillgängliga i Sverige?",
+    "a1": "Ja, absolut. Vi stöder IPTV-återförsäljare över hela Sverige med lokala servrar med låg latens, betalningsalternativ i SEK och kanalutbud anpassat för den svenska marknaden.",
+    "q2": "Hur fungerar IPTV-resellerkrediter i Sverige?",
+    "a2": "Krediter fungerar som valuta på din kontrollpanel. 1 kredit ger 1 månads abonnemang för 1 användare. Du köper krediter till grossistpris i SEK och sätter dina egna konsumentpriser, och behåller 100 % av vinstmarginalen."
+  }
+}

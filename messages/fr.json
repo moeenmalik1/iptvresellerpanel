@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Fournisseurs IPTV | Plateforme de Revendeur IPTV & Vente en Gros",
+    "description": "Associez-vous à des fournisseurs IPTV de confiance et lancez votre activité de revendeur IPTV avec des panneaux premium, des crédits flexibles et un support dédié.",
+    "keywords": "fournisseurs iptv, fournisseur iptv confiance, panneaux reseller iptv, acheter credits iptv, entreprise revendeur iptv, iptv en gros, devenir revendeur"
+  },
+  "common": {
+    "currency": "EUR",
+    "symbol": "€",
+    "whatsappUrl": "https://wa.me/1234567890?text=Bonjour%2C%20je%20suis%20interesse%20par%20le%20lancement%20d%27une%20activite%20de%20revendeur%20IPTV%20en%20France",
+    "startReselling": "Commencer à Vendre",
+    "viewAll": "Voir les 22 Panneaux IPTV en France",
+    "whatsappSupport": "Support WhatsApp IPTV",
+    "secureOrder": "Commander via WhatsApp en toute Sécurité (EUR)",
+    "years": "2026",
+    "regionName": "France"
+  },
+  "nav": {
+    "home": "Accueil",
+    "panels": "Panneaux IPTV",
+    "comparisons": "Comparatifs",
+    "guides": "Guides Revendeur",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tag": "#1 Fournisseur IPTV de Confiance 2026",
+    "title1": "Fournisseurs IPTV & Panneaux de Revendeur –",
+    "title2": "Fournisseur IPTV de Confiance pour les Revendeurs",
+    "desc": "Fox IPTV Panels est un fournisseur IPTV de premier plan qui propose des panneaux de revendeur de qualité supérieure, des solutions IPTV de gros et des programmes de revente pour les distributeurs du monde entier. Que vous recherchiez un fournisseur IPTV fiable, souhaitiez devenir revendeur IPTV ou ayez besoin d'un panneau puissant, nous fournissons les outils, le support et les forfaits nécessaires à la croissance de votre entreprise.",
+    "trustTag": "En tant que fournisseur IPTV de confiance, nous aidons les revendeurs à créer des comptes clients, gérer les abonnements, acheter des crédits de revente et développer leur activité de revente IPTV depuis un tableau de bord unique.",
+    "ctaStart": "Obtenir un Panneau de Revendeur IPTV",
+    "ctaPanels": "Comparer les Panneaux IPTV 2026"
+  },
+  "trust": {
+    "badge": "GROSSISTE 2026"
+  },
+  "pricing": {
+    "title": "Packs de Crédits IPTV en Gros et Calculateur de Profit",
+    "subtitle": "Sélectionnez un pack pré-conçu ou calculez vos revenus dynamiques en EUR ci-dessous avec des chiffres tapés ou des curseurs interactifs.",
+    "sliderCredits": "Crédits à Acheter :",
+    "sliderPrice": "Votre Prix de Revente Mensuel (€) :",
+    "cost": "Coût du Pack (À Acheter) :",
+    "revenue": "Valeur de Revente (À Vendre) :",
+    "profit": "Votre Bénéfice Net en EUR :",
+    "perCredit": "par crédit",
+    "costLabel": "Coût par Crédit",
+    "earningsLabel": "Gains Potentiels en France",
+    "grossLabel": "Revenu Brut",
+    "netLabel": "Bénéfice Net",
+    "plans": {
+      "starter": {
+        "name": "Pack Starter",
+        "features": [
+          "120 crédits minimum pour commencer",
+          "Comprend la création de base de sous-revendeurs",
+          "Support pour Xtream Codes et M3U",
+          "Accès 24/7 au support client"
+        ]
+      },
+      "growth": {
+        "name": "Pack Growth",
+        "features": [
+          "Pack en gros de 200 crédits",
+          "Configuration gratuite du routage DNS personnalisé",
+          "Accès à des modèles de vente pour débutants",
+          "Support prioritaire par groupe WhatsApp"
+        ]
+      },
+      "enterprise": {
+        "name": "Pack Enterprise",
+        "features": [
+          "Pack premium de 500 crédits",
+          "Capacité illimitée de panneaux de sous-revendeurs",
+          "Configuration marque blanche 100% personnalisée",
+          "Gestionnaire de compte VIP dédié 24/7"
+        ]
+      }
+    }
+  },
+  "about": {
+    "tag": "Lancez Votre Activité de Revendeur IPTV",
+    "title1": "Démarrez Votre Activité de Revendeur avec un",
+    "title2": "Fournisseur IPTV de Confiance",
+    "title3": "",
+    "desc1": "Choisir le bon fournisseur IPTV est l'étape la plus importante pour bâtir une activité de revente réussie. Fox IPTV Panels offre l'accès à des panneaux de revendeur premium, des systèmes de crédits flexibles et des packs de gros conçus pour les revendeurs IPTV débutants et expérimentés.",
+    "desc2": "Que vous ayez besoin d'un panneau de revente pour une petite clientèle ou d'un fournisseur IPTV de gros pour une croissance à grande échelle, nous avons une solution adaptée à vos besoins.",
+    "listHeader": "Nos solutions de revente IPTV conviennent pour :",
+    "cta": "Devenir Revendeur IPTV",
+    "feature1": "Revendeurs IPTV",
+    "feature2": "Entreprises IPTV au Royaume-Uni",
+    "feature3": "Entreprises IPTV aux États-Unis",
+    "feature4": "Entreprises IPTV au Canada",
+    "feature5": "Entrepreneurs Digitaux",
+    "feature6": "Revendeurs de Services de Streaming",
+    "feature7": "Agences IPTV",
+    "card1Title": "Lancement rapide — Connexion au panneau revendeur en quelques minutes",
+    "card1Desc": "Obtenez un accès instantané à votre panneau de revendeur IPTV. Créez des abonnements pour vos clients en quelques minutes après votre adhésion — aucune configuration technique requise.",
+    "card2Title": "Marges bénéficiaires élevées pour les revendeurs IPTV",
+    "card2Desc": "Achetez des crédits IPTV en gros, vendez des abonnements à vos propres tarifs et conservez l'intégralité de la marge bénéficiaire. Plus vous achetez de crédits, meilleures sont vos marges.",
+    "card3Title": "Gestion complète du tableau de bord IPTV",
+    "card3Desc": "Gérez l'ensemble des clients, crédits, abonnements d'essai et forfaits depuis un tableau de bord IPTV centralisé avec des analyses en temps réel."
+  },
+  "faq": {
+    "title": "Foire aux questions des revendeurs de gros IPTV",
+    "q1": "Vos panneaux IPTV sont-ils disponibles en France ?",
+    "a1": "Oui, absolument. Nous soutenons pleinement les revendeurs IPTV en France avec des serveurs européens à faible latence, des paiements en euros et des listes de chaînes optimisées pour le public français.",
+    "q2": "Comment fonctionnent les crédits de revendeur IPTV en France ?",
+    "a2": "Les crédits agissent comme une devise dans votre panneau. 1 crédit offre 1 mois d'abonnement pour 1 utilisateur. Vous achetez des crédits en gros en euros et fixez vos propres prix de vente, conservant 100% de la marge bénéficiaire."
+  }
+}
