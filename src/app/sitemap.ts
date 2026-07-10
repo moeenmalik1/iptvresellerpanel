@@ -5,42 +5,50 @@ import { getGuides } from "@/app/lib/guidesData";
 const BASE_URL = "https://www.iptvreseller.live";
 const LOCALES = ["en", "en-gb", "en-au", "es", "fr", "sv", "pt", "no"];
 
-const PAGES = [
-  "",
-  "/about",
-  "/comparisons",
-  "/contact",
-  "/guides",
-  "/privacy",
-  "/terms",
-  "/disclaimer",
-  "/dmca",
-  "/sitemap",
-  "/editorial-guidelines",
-  "/authors"
+interface PageConfig {
+  path: string;
+  priority: number;
+  changeFrequency: "daily" | "weekly" | "monthly";
+}
+
+// Structured hierarchy of static pages to optimize crawl budget
+const STATIC_PAGES: PageConfig[] = [
+  { path: "", priority: 1.0, changeFrequency: "daily" },
+  { path: "/comparisons", priority: 0.9, changeFrequency: "daily" },
+  { path: "/guides", priority: 0.85, changeFrequency: "daily" },
+  { path: "/about", priority: 0.7, changeFrequency: "weekly" },
+  { path: "/contact", priority: 0.7, changeFrequency: "weekly" },
+  { path: "/authors", priority: 0.6, changeFrequency: "weekly" },
+  { path: "/editorial-guidelines", priority: 0.6, changeFrequency: "weekly" },
+  { path: "/sitemap", priority: 0.5, changeFrequency: "weekly" },
+  { path: "/privacy", priority: 0.3, changeFrequency: "monthly" },
+  { path: "/terms", priority: 0.3, changeFrequency: "monthly" },
+  { path: "/disclaimer", priority: 0.3, changeFrequency: "monthly" },
+  { path: "/dmca", priority: 0.3, changeFrequency: "monthly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapEntries: MetadataRoute.Sitemap = [];
+  const buildDate = new Date(); // Dynamic build-time modification date
 
   // Generate sitemap for static pages
-  for (const page of PAGES) {
+  for (const page of STATIC_PAGES) {
     for (const locale of LOCALES) {
-      const path = page === "" ? `/${locale}` : `/${locale}${page}`;
+      const path = page.path === "" ? `/${locale}` : `/${locale}${page.path}`;
       const url = `${BASE_URL}${path}`;
 
-      // Build alternate translations maps
+      // Build alternate translations maps for hreflang in sitemap
       const alternates: Record<string, string> = {};
       for (const otherLocale of LOCALES) {
-        const otherPath = page === "" ? `/${otherLocale}` : `/${otherLocale}${page}`;
+        const otherPath = page.path === "" ? `/${otherLocale}` : `/${otherLocale}${page.path}`;
         alternates[otherLocale] = `${BASE_URL}${otherPath}`;
       }
 
       sitemapEntries.push({
         url,
-        lastModified: new Date("2026-05-31"),
-        changeFrequency: page === "" ? "daily" : "weekly",
-        priority: page === "" ? 1.0 : 0.8,
+        lastModified: buildDate,
+        changeFrequency: page.changeFrequency,
+        priority: page.priority,
         alternates: {
           languages: alternates,
         },
@@ -53,7 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of LOCALES) {
       const url = `${BASE_URL}/${locale}/${panel.slug}`;
 
-      // Build alternate translations maps
+      // Build alternate translations maps for hreflang in sitemap
       const alternates: Record<string, string> = {};
       for (const otherLocale of LOCALES) {
         alternates[otherLocale] = `${BASE_URL}/${otherLocale}/${panel.slug}`;
@@ -61,9 +69,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       sitemapEntries.push({
         url,
-        lastModified: new Date("2026-05-31"),
+        lastModified: buildDate,
         changeFrequency: "weekly",
-        priority: 0.9,
+        priority: 0.8, // High priority transactional landing pages
         alternates: {
           languages: alternates,
         },
@@ -77,7 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of LOCALES) {
       const url = `${BASE_URL}/${locale}/guides/${guide.id}`;
 
-      // Build alternate translations maps
+      // Build alternate translations maps for hreflang in sitemap
       const alternates: Record<string, string> = {};
       for (const otherLocale of LOCALES) {
         alternates[otherLocale] = `${BASE_URL}/${otherLocale}/guides/${guide.id}`;
@@ -85,9 +93,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       sitemapEntries.push({
         url,
-        lastModified: new Date("2026-05-31"),
+        lastModified: buildDate,
         changeFrequency: "weekly",
-        priority: 0.95,
+        priority: 0.8, // Content pages
         alternates: {
           languages: alternates,
         },
@@ -97,3 +105,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return sitemapEntries;
 }
+
