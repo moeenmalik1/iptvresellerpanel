@@ -65,7 +65,7 @@ export default async function TermsOfServicePage({
     "publisher": {
       "@type": "Organization",
       "name": "Fox IPTV Panels",
-      "url": `https://foxiptvpanels.com/${locale}`
+      "url": `https://iptvreseller.live/${locale}`
     }
   };
 
@@ -93,7 +93,7 @@ export default async function TermsOfServicePage({
         name="keywords"
         content="terms of service, wholesale credits agreement, reseller dashboard terms, fox iptv panels refund policy"
       />
-      <link rel="canonical" href={`https://foxiptvpanels.com/${locale}/terms`} />
+      <link rel="canonical" href={`https://iptvreseller.live/${locale}/terms`} />
 
       <script
         type="application/ld+json"

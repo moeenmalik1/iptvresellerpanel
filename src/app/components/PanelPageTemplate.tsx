@@ -26,7 +26,7 @@ export default function PanelPageTemplate({ panel }: Props) {
 
   const related = getRelatedPanels(panel.relatedSlugs);
 
-  const domain = "https://foxiptvpanels.com";
+  const domain = "https://iptvreseller.live";
   const canonicalUrl = `${domain}/${locale}/${panel.slug}`;
 
   // Dynamically constructed high-CTR page title and description targeting customer pain points (buffering, profits, support)
@@ -146,11 +146,11 @@ export default function PanelPageTemplate({ panel }: Props) {
     name: `${panel.name} IPTV Reseller Panel`,
     description: pageDescription,
     url: canonicalUrl,
-    image: "https://foxiptvpanels.com/logo.png",
+    image: "https://iptvreseller.live/logo.png",
     brand: { 
       "@type": "Brand", 
       name: "Fox IPTV Panels",
-      "@id": "https://foxiptvpanels.com/#organization"
+      "@id": "https://iptvreseller.live/#organization"
     },
     offers: {
       "@type": "Offer",
@@ -161,7 +161,7 @@ export default function PanelPageTemplate({ panel }: Props) {
       url: canonicalUrl,
       seller: { 
         "@type": "Organization", 
-        "@id": "https://foxiptvpanels.com/#organization"
+        "@id": "https://iptvreseller.live/#organization"
       },
     },
     aggregateRating: {

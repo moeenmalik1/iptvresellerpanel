@@ -82,8 +82,8 @@ export default async function ComparisonsPage({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: locale === "es" ? "Inicio" : "Home", item: `https://foxiptvpanels.com/${locale}` },
-      { "@type": "ListItem", position: 2, name: locale === "es" ? "Comparativas" : "Compare Panels", item: `https://foxiptvpanels.com/${locale}/comparisons` },
+      { "@type": "ListItem", position: 1, name: locale === "es" ? "Inicio" : "Home", item: `https://iptvreseller.live/${locale}` },
+      { "@type": "ListItem", position: 2, name: locale === "es" ? "Comparativas" : "Compare Panels", item: `https://iptvreseller.live/${locale}/comparisons` },
     ],
   };
 
@@ -92,12 +92,12 @@ export default async function ComparisonsPage({
     "@type": "ItemList",
     name: locale === "es" ? `Comparativa de Paneles IPTV 2026 — ${regionName}` : `IPTV Reseller Panel Comparisons 2026 — ${regionName}`,
     description: descText,
-    url: `https://foxiptvpanels.com/${locale}/comparisons`,
+    url: `https://iptvreseller.live/${locale}/comparisons`,
     itemListElement: ALL_PANELS.map((panel, idx) => ({
       "@type": "ListItem",
       position: idx + 1,
       name: `${panel.name} IPTV Reseller Panel`,
-      url: `https://foxiptvpanels.com/${locale}/${panel.slug}`,
+      url: `https://iptvreseller.live/${locale}/${panel.slug}`,
     })),
   };
 
@@ -109,7 +109,7 @@ export default async function ComparisonsPage({
         name="keywords"
         content="iptv reseller panel comparison, buy wholesale iptv credits, best iptv dashboard 2026, white label iptv panels, cheap iptv credits, xtream codes reseller"
       />
-      <link rel="canonical" href={`https://foxiptvpanels.com/${locale}/comparisons`} />
+      <link rel="canonical" href={`https://iptvreseller.live/${locale}/comparisons`} />
 
       {/* Structured SEO Data */}
       <script

@@ -81,8 +81,8 @@ export default async function GuidesPage({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: locale === "es" ? "Inicio" : "Home", item: `https://foxiptvpanels.com/${locale}` },
-      { "@type": "ListItem", position: 2, name: locale === "es" ? "Guías" : "Guides", item: `https://foxiptvpanels.com/${locale}/guides` },
+      { "@type": "ListItem", position: 1, name: locale === "es" ? "Inicio" : "Home", item: `https://iptvreseller.live/${locale}` },
+      { "@type": "ListItem", position: 2, name: locale === "es" ? "Guías" : "Guides", item: `https://iptvreseller.live/${locale}/guides` },
     ],
   };
 
@@ -121,7 +121,7 @@ export default async function GuidesPage({
         name="keywords"
         content="how to start iptv reseller business, iptv reseller academy, white label iptv panels, xtream codes api, m3u links, cheap reseller credits"
       />
-      <link rel="canonical" href={`https://foxiptvpanels.com/${locale}/guides`} />
+      <link rel="canonical" href={`https://iptvreseller.live/${locale}/guides`} />
 
       {/* Structured SEO Data */}
       <script

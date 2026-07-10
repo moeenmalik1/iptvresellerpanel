@@ -50,88 +50,88 @@ export default async function GuideDetailPage({
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#webpage`,
-        "url": `https://foxiptvpanels.com/${locale}/guides/${guide.id}`,
+        "@id": `https://iptvreseller.live/${locale}/guides/${guide.id}/#webpage`,
+        "url": `https://iptvreseller.live/${locale}/guides/${guide.id}`,
         "name": guide.seoTitle,
         "description": guide.seoDescription,
         "isPartOf": {
           "@type": "WebSite",
-          "@id": "https://foxiptvpanels.com/#website",
+          "@id": "https://iptvreseller.live/#website",
           "name": "Fox IPTV Panels",
-          "url": "https://foxiptvpanels.com"
+          "url": "https://iptvreseller.live"
         },
         "breadcrumb": {
-          "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#breadcrumb`
+          "@id": `https://iptvreseller.live/${locale}/guides/${guide.id}/#breadcrumb`
         }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#breadcrumb`,
+        "@id": `https://iptvreseller.live/${locale}/guides/${guide.id}/#breadcrumb`,
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": lc({ en: "Home", es: "Inicio", fr: "Accueil", pt: "Início", sv: "Hem", no: "Hjem" }),
-            "item": `https://foxiptvpanels.com/${locale}`
+            "item": `https://iptvreseller.live/${locale}`
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": lc({ en: "Guides", es: "Guías", fr: "Guides", pt: "Guias", sv: "Guider", no: "Guider" }),
-            "item": `https://foxiptvpanels.com/${locale}/guides`
+            "item": `https://iptvreseller.live/${locale}/guides`
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": guide.title,
-            "item": `https://foxiptvpanels.com/${locale}/guides/${guide.id}`
+            "item": `https://iptvreseller.live/${locale}/guides/${guide.id}`
           }
         ]
       },
       {
         "@type": ["TechArticle", "Article", "NewsArticle", "BlogPosting"],
-        "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#article`,
-        "mainEntityOfPage": `https://foxiptvpanels.com/${locale}/guides/${guide.id}`,
+        "@id": `https://iptvreseller.live/${locale}/guides/${guide.id}/#article`,
+        "mainEntityOfPage": `https://iptvreseller.live/${locale}/guides/${guide.id}`,
         "headline": guide.title,
         "description": guide.seoDescription,
-        "image": "https://foxiptvpanels.com/og-image.png",
+        "image": "https://iptvreseller.live/og-image.png",
         "datePublished": "2026-05-24T08:00:00+00:00",
         "dateModified": "2026-05-31T08:00:00+00:00",
         "author": {
           "@type": "Person",
-          "@id": "https://foxiptvpanels.com/authors/#marcusvane",
+          "@id": "https://iptvreseller.live/authors/#marcusvane",
           "name": "Marcus Vane",
           "jobTitle": "Lead Alt-Broadband Network Architect",
-          "image": "https://foxiptvpanels.com/placeholder-icon.svg",
+          "image": "https://iptvreseller.live/placeholder-icon.svg",
           "description": "Marcus Vane is a leading expert in alternative broadband networks and IPTV customization protocols with over 15 years of network systems virtualization experience.",
           "sameAs": [
             "https://twitter.com/marcusvane_iptv",
-            `https://foxiptvpanels.com/${locale}/authors`
+            `https://iptvreseller.live/${locale}/authors`
           ]
         },
         "reviewedBy": {
           "@type": "Person",
-          "@id": "https://foxiptvpanels.com/authors/#carlosm",
+          "@id": "https://iptvreseller.live/authors/#carlosm",
           "name": "Carlos M.",
           "jobTitle": "Certified Broadband Specialist & Alt-Telecom Auditor",
-          "image": "https://foxiptvpanels.com/placeholder-icon.svg",
+          "image": "https://iptvreseller.live/placeholder-icon.svg",
           "sameAs": [
-            `https://foxiptvpanels.com/${locale}/authors`
+            `https://iptvreseller.live/${locale}/authors`
           ]
         },
         "publisher": {
           "@type": "Organization",
-          "@id": "https://foxiptvpanels.com/#organization",
+          "@id": "https://iptvreseller.live/#organization",
           "name": "Fox IPTV Panels",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://foxiptvpanels.com/logo.png"
+            "url": "https://iptvreseller.live/logo.png"
           }
         }
       },
       {
         "@type": "FAQPage",
-        "@id": `https://foxiptvpanels.com/${locale}/guides/${guide.id}/#faq`,
+        "@id": `https://iptvreseller.live/${locale}/guides/${guide.id}/#faq`,
         "mainEntity": guide.faqs.map((faq) => ({
           "@type": "Question",
           "name": faq.q,
@@ -149,7 +149,7 @@ export default async function GuideDetailPage({
       {/* Dynamic SEO Title and Metadata tags */}
       <title>{guide.seoTitle}</title>
       <meta name="description" content={guide.seoDescription} />
-      <link rel="canonical" href={`https://foxiptvpanels.com/${locale}/guides/${guide.id}`} />
+      <link rel="canonical" href={`https://iptvreseller.live/${locale}/guides/${guide.id}`} />
 
       {/* Structured dynamic schemas */}
       <script

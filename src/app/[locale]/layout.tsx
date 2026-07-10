@@ -59,7 +59,7 @@ export default async function LocaleLayout({
     <html lang={locale} className="h-full">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#090d16" />
         <link rel="icon" href="/icon.png" type="image/png" />
         <link rel="alternate icon" href="/favicon.ico" />

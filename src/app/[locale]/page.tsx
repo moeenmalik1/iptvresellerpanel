@@ -38,10 +38,10 @@ export default async function HomePage({
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://foxiptvpanels.com/#organization",
+    "@id": "https://iptvreseller.live/#organization",
     name: "Fox IPTV Panels",
-    url: "https://foxiptvpanels.com",
-    logo: "https://foxiptvpanels.com/logo.png",
+    url: "https://iptvreseller.live",
+    logo: "https://iptvreseller.live/logo.png",
     description: t("description"),
     contactPoint: {
       "@type": "ContactPoint",
@@ -76,10 +76,10 @@ export default async function HomePage({
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://foxiptvpanels.com/#localbusiness",
+    "@id": "https://iptvreseller.live/#localbusiness",
     "name": "Fox IPTV Panels",
-    "image": "https://foxiptvpanels.com/logo.png",
-    "url": "https://foxiptvpanels.com",
+    "image": "https://iptvreseller.live/logo.png",
+    "url": "https://iptvreseller.live",
     "telephone": "+447463012833",
     "priceRange": "$$",
     "address": {
@@ -90,25 +90,25 @@ export default async function HomePage({
       "addressCountry": "GB"
     },
     "parentOrganization": {
-      "@id": "https://foxiptvpanels.com/#organization"
+      "@id": "https://iptvreseller.live/#organization"
     }
   };
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://foxiptvpanels.com/#website",
+    "@id": "https://iptvreseller.live/#website",
     name: "Fox IPTV Panels",
-    url: "https://foxiptvpanels.com",
+    url: "https://iptvreseller.live",
     description: t("description"),
     publisher: {
-      "@id": "https://foxiptvpanels.com/#organization"
+      "@id": "https://iptvreseller.live/#organization"
     },
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://foxiptvpanels.com/search?q={search_term_string}",
+        urlTemplate: "https://iptvreseller.live/search?q={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },
@@ -209,7 +209,7 @@ export default async function HomePage({
       <meta property="og:title" content={t("title")} />
       <meta property="og:description" content={t("description")} />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://foxiptvpanels.com/og-image.png" />
+      <meta property="og:image" content="https://iptvreseller.live/og-image.png" />
       
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={t("title")} />
