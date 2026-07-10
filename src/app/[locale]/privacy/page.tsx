@@ -64,7 +64,7 @@ export default async function PrivacyPolicyPage({
     "publisher": {
       "@type": "Organization",
       "name": "Fox IPTV Panels",
-      "url": `https://iptvreseller.live/${locale}`
+      "url": `https://www.iptvreseller.live/${locale}`
     }
   };
 
@@ -76,7 +76,7 @@ export default async function PrivacyPolicyPage({
         name="keywords"
         content="privacy policy, fox iptv panels, secure iptv panels, wholesale credentials privacy, gdpr reseller compliance"
       />
-      <link rel="canonical" href={`https://iptvreseller.live/${locale}/privacy`} />
+      <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/privacy`} />
 
       <script
         type="application/ld+json"

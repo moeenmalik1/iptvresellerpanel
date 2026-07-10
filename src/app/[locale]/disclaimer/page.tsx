@@ -46,7 +46,7 @@ export default async function DisclaimerPage({
     "publisher": {
       "@type": "Organization",
       "name": "Fox IPTV Panels",
-      "url": `https://iptvreseller.live/${locale}`
+      "url": `https://www.iptvreseller.live/${locale}`
     }
   };
 
@@ -58,7 +58,7 @@ export default async function DisclaimerPage({
         name="keywords"
         content="legal disclaimer, fox iptv panels disclaimer, stream hosting exclusion, third party panels limitation"
       />
-      <link rel="canonical" href={`https://iptvreseller.live/${locale}/disclaimer`} />
+      <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/disclaimer`} />
 
       <script
         type="application/ld+json"

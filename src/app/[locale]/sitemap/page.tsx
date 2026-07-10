@@ -32,8 +32,8 @@ export default async function SitemapPage({
   const SITEMAP_SCHEMA = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": `https://iptvreseller.live/${locale}/sitemap/#webpage`,
-    "url": `https://iptvreseller.live/${locale}/sitemap`,
+    "@id": `https://www.iptvreseller.live/${locale}/sitemap/#webpage`,
+    "url": `https://www.iptvreseller.live/${locale}/sitemap`,
     "name": lc({
       en: "HTML Sitemap — Fox IPTV Panels",
       es: "Mapa del Sitio HTML — Fox IPTV Panels",
@@ -88,7 +88,7 @@ export default async function SitemapPage({
           pt: "Mapa do site detalhado que lista todos os painéis de revendedor, tabelas de comparação, guias de configuração e ativos de conformidade."
         })} 
       />
-      <link rel="canonical" href={`https://iptvreseller.live/${locale}/sitemap`} />
+      <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/sitemap`} />
 
       <script
         type="application/ld+json"
