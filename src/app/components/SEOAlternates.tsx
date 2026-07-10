@@ -1,5 +1,5 @@
 export default function SEOAlternates({ locale }: { locale: string }) {
-  const domain = "https://iptvreseller.live";
+  const domain = "https://www.iptvreseller.live";
   const locales = ["en", "en-gb", "en-au", "es", "fr", "sv", "pt", "no"];
 
   return (

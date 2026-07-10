@@ -24,7 +24,7 @@ const ABOUT_PAGE_SCHEMA = {
   "publisher": {
     "@type": "Organization",
     "name": "Fox IPTV Panels",
-    "url": "https://iptvreseller.live"
+    "url": "https://www.iptvreseller.live"
   }
 };
 
@@ -97,7 +97,7 @@ export default async function AboutPage({
       <title>{pageTitle}</title>
       <meta name="description" content={pageDescription} />
       <meta name="keywords" content={m("keywords")} />
-      <link rel="canonical" href={`https://iptvreseller.live/${locale}/about`} />
+      <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/about`} />
 
       <script
         type="application/ld+json"

@@ -38,10 +38,10 @@ export default async function HomePage({
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://iptvreseller.live/#organization",
+    "@id": "https://www.iptvreseller.live/#organization",
     name: "Fox IPTV Panels",
-    url: "https://iptvreseller.live",
-    logo: "https://iptvreseller.live/logo.png",
+    url: "https://www.iptvreseller.live",
+    logo: "https://www.iptvreseller.live/logo.png",
     description: t("description"),
     contactPoint: {
       "@type": "ContactPoint",
@@ -76,10 +76,10 @@ export default async function HomePage({
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://iptvreseller.live/#localbusiness",
+    "@id": "https://www.iptvreseller.live/#localbusiness",
     "name": "Fox IPTV Panels",
-    "image": "https://iptvreseller.live/logo.png",
-    "url": "https://iptvreseller.live",
+    "image": "https://www.iptvreseller.live/logo.png",
+    "url": "https://www.iptvreseller.live",
     "telephone": "+447463012833",
     "priceRange": "$$",
     "address": {
@@ -90,25 +90,25 @@ export default async function HomePage({
       "addressCountry": "GB"
     },
     "parentOrganization": {
-      "@id": "https://iptvreseller.live/#organization"
+      "@id": "https://www.iptvreseller.live/#organization"
     }
   };
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://iptvreseller.live/#website",
+    "@id": "https://www.iptvreseller.live/#website",
     name: "Fox IPTV Panels",
-    url: "https://iptvreseller.live",
+    url: "https://www.iptvreseller.live",
     description: t("description"),
     publisher: {
-      "@id": "https://iptvreseller.live/#organization"
+      "@id": "https://www.iptvreseller.live/#organization"
     },
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://iptvreseller.live/search?q={search_term_string}",
+        urlTemplate: "https://www.iptvreseller.live/search?q={search_term_string}",
       },
       "query-input": "required name=search_term_string",
     },
@@ -209,7 +209,7 @@ export default async function HomePage({
       <meta property="og:title" content={t("title")} />
       <meta property="og:description" content={t("description")} />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://iptvreseller.live/og-image.png" />
+      <meta property="og:image" content="https://www.iptvreseller.live/og-image.png" />
       
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={t("title")} />

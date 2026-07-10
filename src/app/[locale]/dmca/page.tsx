@@ -46,7 +46,7 @@ export default async function DMCACompliancePage({
     "publisher": {
       "@type": "Organization",
       "name": "Fox IPTV Panels",
-      "url": `https://iptvreseller.live/${locale}`
+      "url": `https://www.iptvreseller.live/${locale}`
     }
   };
 
@@ -58,7 +58,7 @@ export default async function DMCACompliancePage({
         name="keywords"
         content="dmca policy, copyright infringement, fox iptv panels copyright agent, content takedown intake"
       />
-      <link rel="canonical" href={`https://iptvreseller.live/${locale}/dmca`} />
+      <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/dmca`} />
 
       <script
         type="application/ld+json"

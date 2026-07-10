@@ -19,6 +19,6 @@ export const config = {
     // All language-specific roots and sub-routes
     "/(en|en-gb|en-au|es|fr|sv|pt|no)/:path*",
     // Exclude Next.js internals, API routes, and standard public files
-    "/((?!_next|api|favicon.ico|icon.png|logo.png|icon.svg|placeholder-icon.svg|vercel.svg|globe.svg|file.svg|window.svg|next.svg).*)",
+    "/((?!_next|api|favicon.ico|icon.png|logo.png|icon.svg|placeholder-icon.svg|vercel.svg|globe.svg|file.svg|window.svg|next.svg|robots.txt|sitemap.xml|googlef7be08f959455b7f.html).*)",
   ],
 };

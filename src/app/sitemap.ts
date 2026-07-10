@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { ALL_PANELS } from "@/app/lib/panelData";
 import { getGuides } from "@/app/lib/guidesData";
 
-const BASE_URL = "https://iptvreseller.live";
+const BASE_URL = "https://www.iptvreseller.live";
 const LOCALES = ["en", "en-gb", "en-au", "es", "fr", "sv", "pt", "no"];
 
 const PAGES = [

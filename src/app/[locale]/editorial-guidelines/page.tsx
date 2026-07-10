@@ -29,8 +29,8 @@ export default async function EditorialGuidelinesPage({
   const EDITORIAL_SCHEMA = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": `https://iptvreseller.live/${locale}/editorial-guidelines/#webpage`,
-    "url": `https://iptvreseller.live/${locale}/editorial-guidelines`,
+    "@id": `https://www.iptvreseller.live/${locale}/editorial-guidelines/#webpage`,
+    "url": `https://www.iptvreseller.live/${locale}/editorial-guidelines`,
     "name": lc({
       en: "Editorial Guidelines — Fox IPTV Panels",
       es: "Directrices Editoriales — Fox IPTV Panels",
@@ -66,7 +66,7 @@ export default async function EditorialGuidelinesPage({
           pt: "O nosso processo editorial garante que todos os guias de redes alternativas, integrações de APIs e manuais de revenda passem por avaliações técnicas rigorosas."
         })} 
       />
-      <link rel="canonical" href={`https://iptvreseller.live/${locale}/editorial-guidelines`} />
+      <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/editorial-guidelines`} />
 
       <script
         type="application/ld+json"
