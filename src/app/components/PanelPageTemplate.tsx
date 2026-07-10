@@ -390,177 +390,202 @@ export default function PanelPageTemplate({ panel }: Props) {
                     </span>
                   </div>
                 ))}
+              </div>
+            </div>
+          </div>
+        </section>
 
-                {/* Interactive Credit Info & Calculator Card */}
-                <div
-                  className="glass-card"
-                  onMouseEnter={() => setCardHover(true)}
-                  onMouseLeave={() => setCardHover(false)}
-                  style={{
-                    marginTop: "1rem",
-                    borderRadius: 12,
-                    padding: "1.5rem",
-                    border: `1px solid ${cardHover ? panel.accentColor : "rgba(255, 255, 255, 0.08)"}`,
-                    background: `linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, ${cardHover ? `${panel.accentColor}12` : "rgba(255, 255, 255, 0.01)"} 100%)`,
-                    position: "relative",
-                    overflow: "hidden",
-                    transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
-                    boxShadow: cardHover 
-                      ? `0 12px 30px -10px ${panel.accentColor}40` 
-                      : "0 4px 20px rgba(0, 0, 0, 0.2)",
-                  }}
-                >
-                  {/* Glowing background circle */}
+        {/* Horizontal Pricing Card Section */}
+        <section 
+          aria-label={`${panel.name} IPTV Reseller Panel Pricing`}
+          style={{ padding: "2.5rem 0", position: "relative", zIndex: 10 }}
+        >
+          <div className="section-container">
+            <div 
+              className="glass-card horizontal-pricing-card"
+              onMouseEnter={() => setCardHover(true)}
+              onMouseLeave={() => setCardHover(false)}
+              style={{
+                borderRadius: 16,
+                padding: "2rem",
+                border: `1px solid ${cardHover ? panel.accentColor : "rgba(255, 255, 255, 0.08)"}`,
+                background: `linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, ${cardHover ? `${panel.accentColor}08` : "rgba(255, 255, 255, 0.01)"} 100%)`,
+                boxShadow: cardHover 
+                  ? `0 16px 40px -15px ${panel.accentColor}40` 
+                  : "0 8px 32px rgba(0, 0, 0, 0.24)",
+                transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr 1fr",
+                gap: "2.5rem",
+                alignItems: "center"
+              }}
+            >
+              <style>{`
+                @media (max-width: 991px) {
+                  .horizontal-pricing-card {
+                    grid-template-columns: 1fr !important;
+                    gap: 1.75rem !important;
+                    padding: 1.5rem !important;
+                  }
+                }
+              `}</style>
+
+              {/* Col 1: Branding & Rates */}
+              <div>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: "0.75rem" }}>
                   <div style={{
-                    position: "absolute",
-                    bottom: "-20%",
-                    right: "-20%",
-                    width: "140px",
-                    height: "140px",
-                    background: panel.accentColor,
-                    filter: "blur(50px)",
-                    opacity: cardHover ? 0.25 : 0.12,
-                    pointerEvents: "none",
-                    transition: "opacity 0.3s ease",
-                  }} />
-
-                  {/* Header & Branding */}
-                  <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: "1.25rem" }}>
-                    <div style={{
-                      width: 32, height: 32, borderRadius: 8,
-                      background: `linear-gradient(135deg, ${panel.accentColor}, #3b82f6)`,
-                      display: "flex", alignItems: "center", justifyContent: "center",
-                      color: "#fff", fontSize: "0.95rem", fontWeight: 800,
-                      boxShadow: `0 4px 12px ${panel.accentColor}40`
-                    }}>
-                      {panel.name.charAt(0)}
-                    </div>
-                    <div>
-                      <h4 style={{ fontSize: "0.95rem", fontWeight: 800, color: "var(--text-primary)", margin: 0, letterSpacing: "-0.01em" }}>
-                        {panel.name} {lc({ en: "Partner Dashboard", "en-gb": "Partner Dashboard", "en-au": "Partner Dashboard", es: "Panel de Socio", fr: "Tableau de Bord Partenaire", pt: "Painel de Parceiro", sv: "Partnerpanel", no: "Partnerpanel" })}
-                      </h4>
-                      <div style={{ display: "flex", alignItems: "center", gap: 6, marginTop: 2 }}>
-                        <span style={{ display: "inline-block", width: 6, height: 6, borderRadius: "50%", background: "#22c55e" }} />
-                        <span style={{ fontSize: "0.72rem", color: "var(--text-muted)", fontWeight: 500 }}>
-                          Europe, Asia & Worldwide
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Conversion Info Cards */}
-                  <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem", marginBottom: "1.25rem" }}>
-                    <div style={{
-                      background: "rgba(255, 255, 255, 0.02)",
-                      border: "1px solid rgba(255, 255, 255, 0.06)",
-                      borderRadius: 8, padding: "10px", textAlign: "center"
-                    }}>
-                      <div style={{ fontSize: "0.68rem", color: "var(--text-muted)", marginBottom: 4, fontWeight: 700, letterSpacing: "0.03em" }}>1 MONTH SUBSCRIPTION</div>
-                      <div style={{ fontSize: "1.05rem", fontWeight: 800, color: "var(--text-primary)" }}>1 Credit</div>
-                    </div>
-                    <div style={{
-                      background: "rgba(255, 255, 255, 0.02)",
-                      border: "1px solid rgba(255, 255, 255, 0.06)",
-                      borderRadius: 8, padding: "10px", textAlign: "center"
-                    }}>
-                      <div style={{ fontSize: "0.68rem", color: "var(--text-muted)", marginBottom: 4, fontWeight: 700, letterSpacing: "0.03em" }}>12 MONTH SUBSCRIPTION</div>
-                      <div style={{ fontSize: "1.05rem", fontWeight: 800, color: panel.accentColor }}>12 Credits</div>
-                    </div>
-                  </div>
-
-                  {/* Dynamic Interactive Calculator */}
-                  <div style={{
-                    background: "rgba(0, 0, 0, 0.15)",
-                    border: "1px solid rgba(255, 255, 255, 0.04)",
-                    borderRadius: 10,
-                    padding: "1rem",
-                    marginBottom: "1.25rem"
+                    width: 24, height: 24, borderRadius: 6,
+                    background: `linear-gradient(135deg, ${panel.accentColor}, #3b82f6)`,
+                    display: "flex", alignItems: "center", justifyContent: "center",
+                    color: "#fff", fontSize: "0.75rem", fontWeight: 900,
                   }}>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.75rem" }}>
-                      <span style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--text-secondary)" }}>
-                        {lc({ en: "Estimate Required Credits", "en-gb": "Estimate Required Credits", "en-au": "Estimate Required Credits", es: "Estimar Créditos Requeridos", fr: "Estimer les Crédits Requis", pt: "Estimar Créditos Necessários", sv: "Uppskatta Krediter", no: "Estimer Kreditter" })}
-                      </span>
-                      <span style={{ fontSize: "0.82rem", fontWeight: 800, color: panel.accentColor }}>
-                        {calcMonths1 * 1 + calcMonths12 * 12} {lc({ en: "Credits Total", "en-gb": "Credits Total", "en-au": "Credits Total", es: "Créditos Totales", fr: "Crédits Totaux", pt: "Total de Créditos", sv: "Krediter Totalt", no: "Kreditter Totalt" })}
-                      </span>
-                    </div>
+                    {panel.name.charAt(0)}
+                  </div>
+                  <h3 style={{ fontSize: "1.1rem", fontWeight: 800, color: "var(--text-primary)", margin: 0 }}>
+                    {panel.name} {lc({ en: "Reseller Program", "en-gb": "Reseller Program", "en-au": "Reseller Program", es: "Programa de Revendedores", fr: "Programme de Revente", pt: "Programa de Revendedores", sv: "Återförsäljarprogram", no: "Forhandlerprogram" })}
+                  </h3>
+                </div>
+                
+                <div style={{
+                  background: "rgba(255, 255, 255, 0.04)",
+                  border: "1px solid rgba(255, 255, 255, 0.08)",
+                  borderRadius: 6,
+                  padding: "4px 10px",
+                  fontSize: "0.75rem",
+                  fontWeight: 600,
+                  color: "var(--text-secondary)",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 6,
+                  marginBottom: "1rem"
+                }}>
+                  <span>🌍</span> Europe, Asia & Worldwide
+                </div>
 
-                    <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-                      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10 }}>
-                        <span style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>1-Month Accounts</span>
-                        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                          <button 
-                            type="button"
-                            onClick={() => setCalcMonths1(Math.max(0, calcMonths1 - 10))}
-                            style={{ width: 22, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.05)", color: "#fff", fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
-                          >-</button>
-                          <input 
-                            type="number" 
-                            min="0"
-                            value={calcMonths1 || ""}
-                            onChange={(e) => setCalcMonths1(Math.max(0, parseInt(e.target.value) || 0))}
-                            style={{ width: 45, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(0,0,0,0.2)", color: "#fff", fontSize: "0.8rem", textAlign: "center" }}
-                          />
-                          <button 
-                            type="button"
-                            onClick={() => setCalcMonths1(calcMonths1 + 10)}
-                            style={{ width: 22, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.05)", color: "#fff", fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
-                          >+</button>
-                        </div>
-                      </div>
+                <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.82rem" }}>
+                    <span style={{ color: "var(--text-muted)" }}>1 Month Subscription:</span>
+                    <span style={{ fontWeight: 700, color: "var(--text-primary)" }}>1 Credit</span>
+                  </div>
+                  <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.82rem" }}>
+                    <span style={{ color: "var(--text-muted)" }}>12 Month Subscription:</span>
+                    <span style={{ fontWeight: 700, color: panel.accentColor }}>12 Credits</span>
+                  </div>
+                </div>
+              </div>
 
-                      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10 }}>
-                        <span style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>12-Month Accounts</span>
-                        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                          <button 
-                            type="button"
-                            onClick={() => setCalcMonths12(Math.max(0, calcMonths12 - 5))}
-                            style={{ width: 22, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.05)", color: "#fff", fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
-                          >-</button>
-                          <input 
-                            type="number" 
-                            min="0"
-                            value={calcMonths12 || ""}
-                            onChange={(e) => setCalcMonths12(Math.max(0, parseInt(e.target.value) || 0))}
-                            style={{ width: 45, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(0,0,0,0.2)", color: "#fff", fontSize: "0.8rem", textAlign: "center" }}
-                          />
-                          <button 
-                            type="button"
-                            onClick={() => setCalcMonths12(calcMonths12 + 5)}
-                            style={{ width: 22, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.05)", color: "#fff", fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
-                          >+</button>
-                        </div>
-                      </div>
+              {/* Col 2: Interactive Calculator */}
+              <div style={{
+                background: "rgba(0, 0, 0, 0.15)",
+                border: "1px solid rgba(255, 255, 255, 0.04)",
+                borderRadius: 12,
+                padding: "1.25rem",
+              }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.75rem" }}>
+                  <span style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--text-secondary)" }}>
+                    {lc({ en: "Estimate Required Credits", "en-gb": "Estimate Required Credits", "en-au": "Estimate Required Credits", es: "Estimar Créditos", fr: "Estimer les Crédits", pt: "Estimar Créditos", sv: "Uppskatta Krediter", no: "Estimer Kreditter" })}
+                  </span>
+                  <span style={{ fontSize: "0.82rem", fontWeight: 800, color: panel.accentColor }}>
+                    {calcMonths1 * 1 + calcMonths12 * 12} {lc({ en: "Credits Needed", "en-gb": "Credits Needed", "en-au": "Credits Needed", es: "Créditos Necesarios", fr: "Crédits Requis", pt: "Créditos Necessários", sv: "Krediter Krävs", no: "Kreditter Trengs" })}
+                  </span>
+                </div>
+
+                <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                    <span style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>1-Month Accounts</span>
+                    <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                      <button 
+                        type="button"
+                        onClick={() => setCalcMonths1(Math.max(0, calcMonths1 - 10))}
+                        style={{ width: 22, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.05)", color: "#fff", fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
+                      >-</button>
+                      <input 
+                        type="number" 
+                        min="0"
+                        value={calcMonths1 || ""}
+                        onChange={(e) => setCalcMonths1(Math.max(0, parseInt(e.target.value) || 0))}
+                        style={{ width: 45, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(0,0,0,0.2)", color: "#fff", fontSize: "0.8rem", textAlign: "center" }}
+                      />
+                      <button 
+                        type="button"
+                        onClick={() => setCalcMonths1(calcMonths1 + 10)}
+                        style={{ width: 22, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.05)", color: "#fff", fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
+                      >+</button>
                     </div>
                   </div>
 
-                  {/* Threshold Banner */}
-                  <div style={{
-                    background: (calcMonths1 * 1 + calcMonths12 * 12) >= 120 ? "rgba(34, 197, 94, 0.1)" : `${panel.accentColor}12`,
-                    borderLeft: `3px solid ${(calcMonths1 * 1 + calcMonths12 * 12) >= 120 ? "#22c55e" : panel.accentColor}`,
-                    borderRadius: "0 8px 8px 0",
-                    padding: "12px 14px",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 12,
-                    transition: "all 0.3s ease"
-                  }}>
-                    <span style={{ fontSize: "1.2rem", color: (calcMonths1 * 1 + calcMonths12 * 12) >= 120 ? "#22c55e" : panel.accentColor }}>
-                      {(calcMonths1 * 1 + calcMonths12 * 12) >= 120 ? "✓" : "⚡"}
-                    </span>
-                    <div>
-                      <div style={{ fontSize: "0.85rem", fontWeight: 800, color: "var(--text-primary)" }}>
-                        120 Credits Required for Panel
-                      </div>
-                      <div style={{ fontSize: "0.72rem", color: "var(--text-muted)", marginTop: 2 }}>
-                        {(calcMonths1 * 1 + calcMonths12 * 12) >= 120 
-                          ? lc({ en: "Credit requirement met! Ready for dashboard activation.", "en-gb": "Credit requirement met! Ready for dashboard activation.", "en-au": "Credit requirement met! Ready for dashboard activation.", es: "¡Límite de créditos alcanzado! Listo para activar.", fr: "Crédits requis atteints ! Prêt pour l'activation.", pt: "Créditos alcançados! Pronto para ativação.", sv: "Kreditkrav uppfyllt! Redo för panelaktivering.", no: "Kreditkrav oppfylt! Klar for panelaktivering." })
-                          : lc({ en: "Minimum starter panel order is 120 credits.", "en-gb": "Minimum starter panel order is 120 credits.", "en-au": "Minimum starter panel order is 120 credits.", es: "El pedido mínimo para activar panel es de 120 créditos.", fr: "La commande minimale est de 120 crédits.", pt: "O pedido mínimo para novos painéis é de 120 créditos.", sv: "Minsta startbeställning är 120 krediter.", no: "Minsta startbestilling er 120 kreditter." })
-                        }
-                      </div>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                    <span style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>12-Month Accounts</span>
+                    <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                      <button 
+                        type="button"
+                        onClick={() => setCalcMonths12(Math.max(0, calcMonths12 - 5))}
+                        style={{ width: 22, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.05)", color: "#fff", fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
+                      >-</button>
+                      <input 
+                        type="number" 
+                        min="0"
+                        value={calcMonths12 || ""}
+                        onChange={(e) => setCalcMonths12(Math.max(0, parseInt(e.target.value) || 0))}
+                        style={{ width: 45, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(0,0,0,0.2)", color: "#fff", fontSize: "0.8rem", textAlign: "center" }}
+                      />
+                      <button 
+                        type="button"
+                        onClick={() => setCalcMonths12(calcMonths12 + 5)}
+                        style={{ width: 22, height: 22, borderRadius: 4, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.05)", color: "#fff", fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
+                      >+</button>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              {/* Col 3: Threshold Requirements & CTA */}
+              <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                <div style={{
+                  background: (calcMonths1 * 1 + calcMonths12 * 12) >= 120 ? "rgba(34, 197, 94, 0.1)" : `${panel.accentColor}12`,
+                  borderLeft: `3px solid ${(calcMonths1 * 1 + calcMonths12 * 12) >= 120 ? "#22c55e" : panel.accentColor}`,
+                  borderRadius: "0 8px 8px 0",
+                  padding: "10px 12px",
+                  transition: "all 0.3s ease"
+                }}>
+                  <div style={{ fontSize: "0.82rem", fontWeight: 800, color: "var(--text-primary)", display: "flex", alignItems: "center", gap: 6 }}>
+                    <span>{(calcMonths1 * 1 + calcMonths12 * 12) >= 120 ? "✓" : "⚡"}</span>
+                    120 Credits Required for Panel
+                  </div>
+                  <p style={{ fontSize: "0.68rem", color: "var(--text-muted)", margin: "4px 0 0" }}>
+                    {(calcMonths1 * 1 + calcMonths12 * 12) >= 120 
+                      ? lc({ en: "Requirement met! Ready for activation.", "en-gb": "Requirement met! Ready for activation.", "en-au": "Requirement met! Ready for activation.", es: "¡Límite alcanzado! Listo para activar.", fr: "Conditions remplies ! Prêt pour l'activation.", pt: "Requisitos cumpridos! Pronto a ativar.", sv: "Kravet uppfyllt! Redo för aktivering.", no: "Kravet oppfylt! Klar for aktivering." })
+                      : lc({ en: "Minimum starter panel order is 120 credits.", "en-gb": "Minimum starter panel order is 120 credits.", "en-au": "Minimum starter panel order is 120 credits.", es: "Pedido mínimo inicial de 120 créditos.", fr: "Commande minimale de 120 crédits.", pt: "Pedido mínimo de 120 créditos.", sv: "Minsta startbeställning är 120 krediter.", no: "Minsta startbestilling er 120 kreditter." })
+                    }
+                  </p>
+                </div>
+
+                <a
+                  href={`${WHATSAPP_URL}&text=Hello%2C%20I%20want%20to%20order%20the%20${panel.name}%20Reseller%20Panel%20with%20${Math.max(120, calcMonths1 * 1 + calcMonths12 * 12)}%20credits`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary"
+                  id={`${panel.slug}-pricing-cta`}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    gap: 8,
+                    padding: "0.85rem 1.5rem",
+                    borderRadius: 10,
+                    textDecoration: "none",
+                    fontWeight: 700,
+                    fontSize: "0.95rem",
+                    boxShadow: `0 4px 14px ${panel.accentColor}40`,
+                    textAlign: "center",
+                    cursor: "pointer"
+                  }}
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
+                  </svg>
+                  {lc({ en: "Get Reseller Panel", "en-gb": "Get Reseller Panel", "en-au": "Get Reseller Panel", es: "Obtener Panel Revendedor", fr: "Obtenir le Panneau Revendeur", pt: "Obter Painel Revendedor", sv: "Skaffa Återförsäljarpanel", no: "Få Forhandlerpanel" })}
+                </a>
               </div>
             </div>
           </div>
