@@ -46,7 +46,7 @@ export default async function DMCACompliancePage({
     "publisher": {
       "@type": "Organization",
       "name": "Fox IPTV Panels",
-      "url": `https://foxiptvpanels.com/${locale}`
+      "url": `https://iptvreseller.live/${locale}`
     }
   };
 
@@ -58,7 +58,7 @@ export default async function DMCACompliancePage({
         name="keywords"
         content="dmca policy, copyright infringement, fox iptv panels copyright agent, content takedown intake"
       />
-      <link rel="canonical" href={`https://foxiptvpanels.com/${locale}/dmca`} />
+      <link rel="canonical" href={`https://iptvreseller.live/${locale}/dmca`} />
 
       <script
         type="application/ld+json"
@@ -127,7 +127,7 @@ export default async function DMCACompliancePage({
                   <ul style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginTop: "0.75rem", paddingLeft: "1.25rem" }}>
                     <li><strong>Authorized Signature:</strong> A physical or electronic signature of the person authorized to act on behalf of the owner of the copyright interest.</li>
                     <li><strong>Work Identification:</strong> A clear description of the copyrighted work that you claim has been infringed.</li>
-                    <li><strong>Material Location:</strong> Specific identification of the backend stream location, server host details, or playlist URL containing the material. *(Please note that submitting the general URL 'foxiptvpanels.com' is insufficient, as we do not host media feeds).*</li>
+                    <li><strong>Material Location:</strong> Specific identification of the backend stream location, server host details, or playlist URL containing the material. *(Please note that submitting the general URL 'iptvreseller.live' is insufficient, as we do not host media feeds).*</li>
                     <li><strong>Contact Credentials:</strong> Your mailing address, phone number, and a valid email address.</li>
                     <li><strong>Statement of Good Faith:</strong> A statement that you have a good-faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.</li>
                     <li><strong>Perjury Declaration:</strong> A statement that the information in the notification is accurate and, under penalty of perjury, that you are authorized to act on behalf of the owner of the exclusive right that is allegedly infringed.</li>

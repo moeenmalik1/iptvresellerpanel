@@ -29,8 +29,8 @@ export default async function AuthorsPage({
   const AUTHORS_SCHEMA = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": `https://foxiptvpanels.com/${locale}/authors/#webpage`,
-    "url": `https://foxiptvpanels.com/${locale}/authors`,
+    "@id": `https://iptvreseller.live/${locale}/authors/#webpage`,
+    "url": `https://iptvreseller.live/${locale}/authors`,
     "name": lc({
       en: "Meet Our Team & Alt-Broadband Experts — Fox IPTV Panels",
       es: "Conozca a Nuestro Equipo de Expertos — Fox IPTV Panels",
@@ -65,7 +65,7 @@ export default async function AuthorsPage({
           pt: "Conheça os nossos autores principais e auditores. Leia os perfis profissionais em virtualização de redes, Xtream API e segurança DNS."
         })} 
       />
-      <link rel="canonical" href={`https://foxiptvpanels.com/${locale}/authors`} />
+      <link rel="canonical" href={`https://iptvreseller.live/${locale}/authors`} />
 
       <script
         type="application/ld+json"

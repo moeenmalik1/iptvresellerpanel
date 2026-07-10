@@ -143,7 +143,7 @@ export default function Header() {
             itemType="http://schema.org/Organization"
           >
             <meta itemProp="name" content="Fox IPTV Panels" />
-            <meta itemProp="url" content="https://foxiptvpanels.com" />
+            <meta itemProp="url" content="https://iptvreseller.live" />
             <img 
               src="/logo.png" 
               alt="Fox IPTV Panels Logo" 

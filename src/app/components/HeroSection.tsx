@@ -156,7 +156,7 @@ function DashboardMockup() {
           flex: 1, marginLeft: 8, background: "rgba(255,255,255,0.05)",
           borderRadius: 4, padding: "3px 10px", fontSize: "0.7rem", color: "var(--text-muted)",
         }}>
-          panel.foxiptvpanels.com/dashboard
+          panel.iptvreseller.live/dashboard
         </div>
       </div>
       <div style={{ padding: "1.25rem", background: "rgba(8,10,18,0.6)" }}>

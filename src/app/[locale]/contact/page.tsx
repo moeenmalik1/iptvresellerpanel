@@ -45,7 +45,7 @@ export default async function ContactPage({
     "@type": "ContactPage",
     "name": titleText,
     "description": descText,
-    "url": `https://foxiptvpanels.com/${locale}/contact`
+    "url": `https://iptvreseller.live/${locale}/contact`
   };
 
   const pricingProductsSchema = {
@@ -85,7 +85,7 @@ export default async function ContactPage({
         name="keywords"
         content="buy iptv credits, reseller panel cost, best iptv wholesale panels, become iptv reseller, cheap credits list, dynamic pricing calculator"
       />
-      <link rel="canonical" href={`https://foxiptvpanels.com/${locale}/contact`} />
+      <link rel="canonical" href={`https://iptvreseller.live/${locale}/contact`} />
 
       {/* Structured SEO Data */}
       <script

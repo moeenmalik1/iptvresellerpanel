@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://foxiptvpanels.com/sitemap.xml",
+    sitemap: "https://iptvreseller.live/sitemap.xml",
   };
 }
