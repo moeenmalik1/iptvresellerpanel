@@ -408,7 +408,7 @@ function PostEditor() {
                                             <Field label="Description">
                                                                 <textarea value={featuredImage.description} onChange={(e) => setFeaturedImage((p) => ({ ...p, description: e.target.value }))} style={{ ...inputStyle, minHeight: 60 }} />
                                             </Field>
-                          </>>
+                          </>
                         )}
                                                 </div>
                                     
