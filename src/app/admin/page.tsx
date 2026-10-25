@@ -218,4 +218,3 @@ const ghostBtnSmall: React.CSSProperties = {
     textDecoration: "none",
     whiteSpace: "nowrap",
 };
-</div>
