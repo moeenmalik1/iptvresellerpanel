@@ -460,7 +460,7 @@ export default async function GuideDetailPage({
                                                     </div>
                                     </section>
                       
-                                  </div>{/* Quick FAQ Accordion */}
+                                    {/* Quick FAQ Accordion */}
                             <section style={{ borderTop: "1px solid var(--border-color)", paddingTop: "3rem", marginBottom: "3rem" }}>
                                             <h2 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.6rem", fontWeight: 800, color: "var(--text-primary)", marginBottom: "1.5rem" }}>
                                               {lc({ en: "Article Frequently Asked Questions", es: "Preguntas Frecuentes del Artículo" })}
