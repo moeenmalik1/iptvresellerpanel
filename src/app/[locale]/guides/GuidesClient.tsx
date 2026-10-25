@@ -160,7 +160,7 @@ export default function GuidesClient({ dynamicGuides = [] }: { dynamicGuides?: B
                                               />
                         </div>
                 
-                        </Link>{/* Grid View */}
+                    {/* Grid View */}
                   <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2rem" }} className="panel-hero-grid">
                     {filteredGuides.map(guide => (
                       <Link
