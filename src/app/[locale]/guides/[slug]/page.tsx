@@ -323,7 +323,7 @@ export default async function GuideDetailPage({
                                                           <div dangerouslySetInnerHTML={{ __html: formatRichText(guide.content) }} />
                                             </section>
                                 
-                                            </>{/* 👤 Premium E-E-A-T Author & Reviewer Box */}
+                                    {/* 👤 Premium E-E-A-T Author & Reviewer Box */}
                                     <section style={{ 
                                                     padding: "2.5rem", 
                         borderRadius: "20px", 
@@ -515,8 +515,8 @@ export default async function GuideDetailPage({
                                             {lc({ en: "Get Started on WhatsApp", es: "Comenzar en WhatsApp" })}
                                           </a>
                             </footer>
-              </main>article>
-        </>div>
+              </article>
+        </div>
     </main>
     
           <Footer />
@@ -530,11 +530,11 @@ export default async function GuideDetailPage({
                                 __html: GUIDE_RICH_CONTENT_CSS,
                     }}
                   />
-    </>>
+                      </>
       );
 }
 
-</div>const GUIDE_RICH_CONTENT_CSS = `
+const GUIDE_RICH_CONTENT_CSS = `
   .guide-rich-content h2 {
       font-family: 'Outfit', sans-serif;
     font-size: 1.8rem;
