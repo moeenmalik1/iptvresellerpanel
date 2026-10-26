@@ -230,7 +230,7 @@ function PostEditor() {
         }
   };
 
-  const buildPayload = (status: "draft" | "published") => ({
+  const handleInsertLink = () => { const textarea = contentRef.current; const start = textarea?.selectionStart ?? content.length; const end = textarea?.selectionEnd ?? content.length; const selected = content.slice(start, end); const url = window.prompt(selected ? `Link URL for "${selected}":` : "Link URL:"); if (!url) return; const linkText = selected || "link text"; const insertion = `[${linkText}](${url})`; if (textarea) { const next = content.slice(0, start) + insertion + content.slice(end); setContent(next); requestAnimationFrame(() => { textarea.focus(); const pos = start + insertion.length; textarea.setSelectionRange(pos, pos); }); } else { setContent((prev) => prev + insertion); } };const buildPayload = (status: "draft" | "published") => ({
         locale,
         title,
         slug: displaySlug,
@@ -427,6 +427,7 @@ function PostEditor() {
                                                                                                 <button onClick={() => inlineFileRef.current?.click()} disabled={uploadingInline} style={ghostBtnSmall}>
                                                                                                   {uploadingInline ? "Uploading…" : "+ Insert Image"}
                                                                                                   </button>
+                                                                                                                                                                                  <button onClick={handleInsertLink} style={{ ...ghostBtnSmall, marginLeft: 8 }}>+ Insert Link</button>
                                                                               </div>
                                                               </div>
                                                               <p style={{ fontSize: "0.78rem", color: "var(--text-muted)", marginTop: 0, marginBottom: 10 }}>
