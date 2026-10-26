@@ -71,7 +71,7 @@ function LoginForm() {
                                                               margin: 0,
                                               }}
                                             >
-                                            Fox IPTV Panels
+                                            IPTV Reseller 
                                 </h1>
                                 <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", marginTop: 6 }}>
                                             Guides Admin — Sign in
