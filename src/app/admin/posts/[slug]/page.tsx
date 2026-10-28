@@ -723,7 +723,7 @@ function PostEditor() {
           </button>
         </div>
         <p style={{ fontSize: "0.78rem", color: "var(--text-muted)", marginBottom: 12 }}>
-          Visual mode supports headings, links, lists and tables. For existing articles with custom Markdown alerts or code blocks, use Markdown Source to avoid formatting loss.
+          Paste formatted content from Word, Google Docs or websites into Visual Editor. For plain Markdown, use Paste Markdown. Existing custom callouts or code blocks should stay in Markdown Source to avoid formatting loss.
         </p>
         {markdownMode ? (
           <textarea

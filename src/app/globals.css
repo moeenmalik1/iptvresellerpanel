@@ -375,3 +375,26 @@ main p a:hover {
   text-decoration-color: var(--accent-purple) !important;
   text-underline-offset: 5px !important;
 }
+/* Append to src/app/globals.css */
+.seo-rich-editor { color: var(--text-primary, #fff); }
+.seo-editor-toolbar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.seo-editor-action { padding: 8px 12px; border: 1px solid #51436c; border-radius: 8px; background: #292338; color: #fff; font: inherit; cursor: pointer; }
+.seo-editor-action.is-active, .seo-editor-action[aria-pressed="true"] { background: #7055d6; }
+.seo-rich-editor .seo-tiptap-body { min-height: 420px; padding: 18px; border-radius: 12px; border: 1px solid #51436c; background: #17151f; color: #f5f3ff; line-height: 1.75; outline: none; cursor: text; overflow-x: auto; }
+.seo-rich-editor .seo-tiptap-body:focus { border-color: #8b5cf6; box-shadow: 0 0 0 2px #8b5cf633; }
+.seo-rich-editor .seo-tiptap-body p { margin: 0 0 1rem; }
+.seo-rich-editor .seo-tiptap-body h2 { font-size: 1.65rem; font-weight: 800; margin: 1.6rem 0 .75rem; }
+.seo-rich-editor .seo-tiptap-body h3 { font-size: 1.35rem; font-weight: 700; margin: 1.4rem 0 .65rem; }
+.seo-rich-editor .seo-tiptap-body h4 { font-size: 1.15rem; font-weight: 700; margin: 1.1rem 0 .5rem; }
+.seo-rich-editor .seo-tiptap-body ul { list-style: disc; padding-left: 1.5rem; margin: .75rem 0 1.2rem; }
+.seo-rich-editor .seo-tiptap-body ol { list-style: decimal; padding-left: 1.5rem; margin: .75rem 0 1.2rem; }
+.seo-rich-editor .seo-tiptap-body li { margin: .3rem 0; }
+.seo-rich-editor .seo-tiptap-body a { color: #a7a0ff; text-decoration: underline; }
+.seo-rich-editor .seo-tiptap-body table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+.seo-rich-editor .seo-tiptap-body th, .seo-rich-editor .seo-tiptap-body td { padding: .7rem; border: 1px solid #51436c; text-align: left; vertical-align: top; }
+.seo-rich-editor .seo-tiptap-body img { max-width: 100%; height: auto; }
+.seo-markdown-import { padding: 12px; border: 1px solid #51436c; border-radius: 10px; margin-bottom: 12px; }
+.seo-markdown-import label { display: block; font-size: .85rem; margin-bottom: 8px; }
+.seo-markdown-import textarea { width: 100%; min-height: 120px; display: block; padding: 10px; border: 1px solid #51436c; border-radius: 8px; background: #17151f; color: #fff; margin-bottom: 8px; }
+.seo-editor-notice { font-size: .85rem; color: #e9cf7a; }
+.seo-editor-hint { font-size: .78rem; color: var(--text-muted, #aaa); margin-top: 10px; }
