@@ -430,7 +430,7 @@ function PostEditor() {
                                                                                                 <button onClick={() => inlineFileRef.current?.click()} disabled={uploadingInline} style={ghostBtnSmall}>
                                                                                                   {uploadingInline ? "Uploading…" : "+ Insert Image"}
                                                                                                   </button>
-                                                                                                                                                                                  <button onClick={handleInsertLink} style={{ ...ghostBtnSmall, marginLeft: 8 }}>+ Insert Link</button>
+                                                                                                                                                                                  <button onClick={handleInsertLink} style={{ ...ghostBtnSmall, marginLeft: 8 }}>+ Insert Link</button><button onClick={handleBold} style={{ ...ghostBtnSmall, marginLeft: 8 }}>+ Bold</button><button onClick={handleHeading} style={{ ...ghostBtnSmall, marginLeft: 8 }}>+ Heading</button>
                                                                               </div>
                                                               </div>
                                                               <p style={{ fontSize: "0.78rem", color: "var(--text-muted)", marginTop: 0, marginBottom: 10 }}>
