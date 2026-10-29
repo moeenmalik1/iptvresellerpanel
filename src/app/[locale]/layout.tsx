@@ -1,9 +1,9 @@
+
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Inter, Outfit } from "next/font/google";
-import SEOAlternates from "@/app/components/SEOAlternates";
 
 // Optimize fonts to avoid render-blocking requests
 const inter = Inter({
@@ -42,7 +42,17 @@ export default async function LocaleLayout({
   const { locale } = await params;
 
   // Validate locale parameter
-  const supportedLocales = ["en", "en-gb", "en-au", "es", "fr", "sv", "pt", "no"];
+  const supportedLocales = [
+    "en",
+    "en-gb",
+    "en-au",
+    "es",
+    "fr",
+    "sv",
+    "pt",
+    "no",
+  ];
+
   if (!supportedLocales.includes(locale)) {
     notFound();
   }
@@ -56,17 +66,26 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className="h-full">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#090d16" />
         <link rel="icon" href="/icon.png" type="image/png" />
         <link rel="alternate icon" href="/favicon.ico" />
-        
-        {/* Dynamic Multi-locale Hreflang alternate tag list injected per page */}
-        <SEOAlternates locale={locale} />
+
+        {/* Page-specific canonical and hreflang tags
+            are handled at the page level. */}
       </head>
-      <body className={`${inter.variable} ${outfit.variable} min-h-full flex flex-col antialiased`}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
+
+      <body
+        className={`${inter.variable} ${outfit.variable} min-h-full flex flex-col antialiased`}
+      >
+        <NextIntlClientProvider
+          locale={locale}
+          messages={messages}
+        >
           {children}
         </NextIntlClientProvider>
       </body>
