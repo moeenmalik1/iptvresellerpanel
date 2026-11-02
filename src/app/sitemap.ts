@@ -2,6 +2,7 @@
 import type { MetadataRoute } from "next";
 import { ALL_PANELS } from "@/app/lib/panelData";
 import { getGuides } from "@/app/lib/guidesData";
+import { listPosts } from "@/app/lib/blogStore";
 
 const BASE_URL = "https://www.iptvreseller.live";
 
@@ -16,8 +17,9 @@ const LOCALES = [
   "no",
 ] as const;
 
-// Revalidate cached sitemap every hour.
-// Supported when using Next.js route revalidation.
+type Locale = (typeof LOCALES)[number];
+
+// Regenerate the sitemap every hour.
 export const revalidate = 3600;
 
 interface PageConfig {
@@ -45,37 +47,44 @@ const STATIC_PAGES: PageConfig[] = [
   { path: "/dmca", priority: 0.3, changeFrequency: "monthly" },
 ];
 
-// Create a URL using the existing language structure.
+// Create localized URLs.
 function createUrl(locale: string, path: string): string {
   return `${BASE_URL}/${locale}${path}`;
 }
 
-// Generate hreflang alternate URLs.
-function createAlternates(path: string) {
+// Generate hreflang alternatives only for available locales.
+function createAlternates(
+  path: string,
+  locales: readonly string[] = LOCALES
+) {
   const languages: Record<string, string> = {};
 
-  for (const locale of LOCALES) {
+  for (const locale of locales) {
     languages[locale] = createUrl(locale, path);
   }
 
   return { languages };
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [];
   const seenUrls = new Set<string>();
 
   function addPage(
     path: string,
     priority: number,
-    changeFrequency: PageConfig["changeFrequency"]
+    changeFrequency: PageConfig["changeFrequency"],
+    locales: readonly string[] = LOCALES,
+    lastModified?: Date
   ) {
-    const alternates = createAlternates(path);
+    const alternates = createAlternates(path, locales);
 
-    for (const locale of LOCALES) {
+    for (const locale of locales) {
       const url = createUrl(locale, path);
 
-      if (seenUrls.has(url)) continue;
+      if (seenUrls.has(url)) {
+        continue;
+      }
 
       seenUrls.add(url);
 
@@ -83,30 +92,146 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url,
         changeFrequency,
         priority,
+        ...(lastModified ? { lastModified } : {}),
         alternates,
       });
     }
   }
 
-  // 1. Static website pages
+  // 1. Static website pages.
   for (const page of STATIC_PAGES) {
-    addPage(page.path, page.priority, page.changeFrequency);
+    addPage(
+      page.path,
+      page.priority,
+      page.changeFrequency
+    );
   }
 
-  // 2. IPTV reseller panel pages
+  // 2. IPTV reseller panel pages.
   for (const panel of ALL_PANELS) {
-    if (!panel.slug) continue;
+    if (!panel.slug) {
+      continue;
+    }
 
-    addPage(`/${panel.slug}`, 0.8, "weekly");
+    addPage(
+      `/${panel.slug}`,
+      0.8,
+      "weekly"
+    );
   }
 
-  // 3. Published guides from existing data source
+  // 3. Existing static guides.
   const guides = getGuides("en");
 
   for (const guide of guides) {
-    if (!guide.id) continue;
+    if (!guide.id) {
+      continue;
+    }
 
-    addPage(`/guides/${guide.id}`, 0.8, "weekly");
+    addPage(
+      `/guides/${guide.id}`,
+      0.8,
+      "weekly"
+    );
+  }
+
+  // 4. Admin-published blogs stored in Redis.
+  try {
+    const posts = await listPosts();
+
+    const publishedBlogs = new Map<
+      string,
+      {
+        locales: Set<Locale>;
+        updatedAt?: Date;
+      }
+    >();
+
+    const staticGuideSlugs = new Set(
+      guides.map((guide) => guide.id)
+    );
+
+    for (const post of posts) {
+      // Never include drafts.
+      if (post.status !== "published") {
+        continue;
+      }
+
+      const slug = post.slug?.trim();
+      const locale = post.locale as Locale;
+
+      if (!slug) {
+        continue;
+      }
+
+      // Only use supported locales.
+      if (!LOCALES.includes(locale)) {
+        continue;
+      }
+
+      // Prevent admin posts from conflicting
+      // with existing static guide URLs.
+      if (staticGuideSlugs.has(slug)) {
+        continue;
+      }
+
+      const existing = publishedBlogs.get(slug);
+
+      // Validate modification dates before
+      // writing them into XML.
+      const parsedDate = post.updatedAt
+        ? new Date(post.updatedAt)
+        : undefined;
+
+      const validDate =
+        parsedDate &&
+        !Number.isNaN(parsedDate.getTime())
+          ? parsedDate
+          : undefined;
+
+      if (existing) {
+        existing.locales.add(locale);
+
+        if (
+          validDate &&
+          (!existing.updatedAt ||
+            validDate > existing.updatedAt)
+        ) {
+          existing.updatedAt = validDate;
+        }
+      } else {
+        publishedBlogs.set(slug, {
+          locales: new Set([locale]),
+          updatedAt: validDate,
+        });
+      }
+    }
+
+    // Generate sitemap URLs for published blogs.
+    for (const [slug, blog] of publishedBlogs) {
+      const availableLocales = LOCALES.filter(
+        (locale) => blog.locales.has(locale)
+      );
+
+      if (availableLocales.length === 0) {
+        continue;
+      }
+
+      addPage(
+        `/guides/${slug}`,
+        0.8,
+        "weekly",
+        availableLocales,
+        blog.updatedAt
+      );
+    }
+  } catch (error) {
+    // Preserve the static sitemap if Redis
+    // temporarily becomes unavailable.
+    console.error(
+      "Failed to load published blog posts for sitemap:",
+      error
+    );
   }
 
   return entries;
