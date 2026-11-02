@@ -80,13 +80,18 @@ updatedAt: dynamicPost.updatedAt,
 
   // Use actual post metadata; static guides and older posts may not have dates.
   const articleUrl = `https://www.iptvreseller.live/${locale}/guides/${guide.id}`;
-  const publisher = {
-    "@type": "Organization",
-    "@id": "https://www.iptvreseller.live/#organization",
-    name: "Fox IPTV Panels",
-    url: "https://www.iptvreseller.live",
-    logo: { "@type": "ImageObject", url: "https://www.iptvreseller.live/logo.png" },
-  };
+
+const publisher = {
+  "@type": "Organization",
+  "@id": "https://www.iptvreseller.live/#organization",
+  name: "IPTV Reseller",
+  url: "https://www.iptvreseller.live",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.iptvreseller.live/logo.png",
+  },
+};
+;
   const validFaqs = (guide.faqs ?? []).filter((faq) => faq.q?.trim() && faq.a?.trim());
   const prettyDate = (date: string) =>
     new Intl.DateTimeFormat(locale, { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }).format(new Date(date));
@@ -100,7 +105,12 @@ updatedAt: dynamicPost.updatedAt,
         url: articleUrl,
         name: guide.seoTitle || guide.title,
         description: guide.seoDescription || guide.excerpt,
-        isPartOf: { "@type": "WebSite", "@id": "https://www.iptvreseller.live/#website", name: "Fox IPTV Panels", url: "https://www.iptvreseller.live" },
+       isPartOf: {
+  "@type": "WebSite",
+  "@id": "https://www.iptvreseller.live/#website",
+  name: "IPTV Reseller",
+  url: "https://www.iptvreseller.live",
+},
         breadcrumb: { "@id": `${articleUrl}#breadcrumb` },
       },
       {
