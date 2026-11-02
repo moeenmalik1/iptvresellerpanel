@@ -31,12 +31,12 @@ export default async function DisclaimerPage({
   const regionName = c("regionName");
 
   const titleText = locale === "es"
-    ? `Descargo de Responsabilidad Legal — Fox IPTV Panels | Intermediario en ${regionName}`
-    : `Legal Disclaimer — Fox IPTV Panels | Wholesale Intermediary Statement in ${regionName}`;
+    ? `Descargo de Responsabilidad Legal — IPTV Reseller | Intermediario en ${regionName}`
+    : `Legal Disclaimer — IPTV Reseller | Wholesale Intermediary Statement in ${regionName}`;
 
   const descText = locale === "es"
-    ? `Lea el descargo de responsabilidad legal de Fox IPTV Panels. Conozca nuestros límites de responsabilidad en ${regionName}.`
-    : `Read the formal legal Disclaimer for Fox IPTV Panels. Understand that we do not host or stream digital media feeds directly in ${regionName}.`;
+    ? `Lea el descargo de responsabilidad legal de IPTV Reseller. Conozca nuestros límites de responsabilidad en ${regionName}.`
+    : `Read the formal legal Disclaimer for IPTV Reseller. Understand that we do not host or stream digital media feeds directly in ${regionName}.`;
 
   const DISCLAIMER_PAGE_SCHEMA = {
     "@context": "https://schema.org",
@@ -45,7 +45,7 @@ export default async function DisclaimerPage({
     "description": descText,
     "publisher": {
       "@type": "Organization",
-      "name": "Fox IPTV Panels",
+      "name": "IPTV Reseller",
       "url": `https://www.iptvreseller.live/${locale}`
     }
   };
@@ -101,8 +101,8 @@ export default async function DisclaimerPage({
               </h1>
               <p style={{ fontSize: "1rem", color: "var(--text-secondary)", marginBottom: "3rem" }}>
                 {locale === "es"
-                  ? `Última actualización: 22 de mayo de 2026. Lea atentamente este descargo de responsabilidad antes de utilizar Fox IPTV Panels en ${regionName}.`
-                  : `Last Updated: May 22, 2026. Please read this disclaimer carefully before using Fox IPTV Panels, purchasing credits, or setting up reseller portals in ${regionName}.`}
+                  ? `Última actualización: 22 de mayo de 2026. Lea atentamente este descargo de responsabilidad antes de utilizar IPTV Reseller en ${regionName}.`
+                  : `Last Updated: May 22, 2026. Please read this disclaimer carefully before using IPTV Reseller, purchasing credits, or setting up reseller portals in ${regionName}.`}
               </p>
 
               {/* Glassmorphic Document Card */}
