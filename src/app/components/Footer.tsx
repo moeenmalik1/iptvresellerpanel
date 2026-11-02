@@ -19,7 +19,7 @@ export default function Footer() {
   // Localized Link Arrays
   const footerNav = [
     { label: locale === "es" ? "Inicio" : locale === "fr" ? "Accueil" : locale === "pt" ? "Início" : locale === "sv" ? "Hem" : locale === "no" ? "Hjem" : "Home", href: "/" },
-    { label: locale === "es" ? "Servidores IPTV" : locale === "fr" ? "Serveurs IPTV" : locale === "pt" ? "Servidores IPTV" : locale === "sv" ? "IPTV Servrar" : locale === "no" ? "IPTV Servere" : "IPTV Servers", href: "/servers" },
+    { label: locale === "es" ? "Servidores IPTV" : locale === "fr" ? "Serveurs IPTV" : locale === "pt" ? "Servidores IPTV" : locale === "sv" ? "IPTV Servrar" : locale === "no" ? "IPTV Servere" : "IPTV Servers", href: "/#panels" },
     { label: locale === "es" ? "Comparativas de Paneles" : locale === "fr" ? "Comparatifs de Panneaux" : locale === "pt" ? "Comparativas de Painéis" : locale === "sv" ? "Paneljämförelser" : locale === "no" ? "Panelsammenligninger" : "Panel Comparisons", href: "/comparisons" },
     { label: locale === "es" ? "Guías Reseller" : locale === "fr" ? "Guides Revendeur" : locale === "pt" ? "Guias de Revenda" : locale === "sv" ? "Återförsäljuryrken" : locale === "no" ? "Forhandlerguider" : "Reseller Guides", href: "/guides" },
     { label: locale === "es" ? "Nosotros" : locale === "fr" ? "À Propos" : locale === "pt" ? "Sobre Nós" : locale === "sv" ? "Om Oss" : locale === "no" ? "Om Oss" : "About Us", href: "/about" },
@@ -49,17 +49,17 @@ export default function Footer() {
   ];
 
   const comparePages = [
-    { label: "Strong 4K vs Lion OTT", href: "/comparisons/strong-4k-vs-lion-ott" },
-    { label: locale === "es" ? "Crystal vs Nexon — Comparativa" : locale === "fr" ? "Crystal vs Nexon — Comparatif" : locale === "pt" ? "Crystal vs Nexon — Comparação" : locale === "sv" ? "Crystal vs Nexon — Jämförelse" : locale === "no" ? "Crystal vs Nexon — Sammenligning" : "Crystal vs Nexon — Panel Comparison", href: "/comparisons/crystal-vs-nexon" },
-    { label: locale === "es" ? "El Mejor Panel IPTV Reseller 2026" : locale === "fr" ? "Meilleur Panneau Revendeur 2026" : locale === "pt" ? "Melhores Painéis IPTV Reseller 2026" : locale === "sv" ? "Bästa IPTV-Återförsäljarpaneler 2026" : locale === "no" ? "Beste IPTV-Forhandlerpaneler 2026" : "Best IPTV Reseller Panels 2026", href: "/comparisons/best-iptv-reseller-panels-2026" },
-    { label: locale === "es" ? "El Panel IPTV Reseller Más Barato" : locale === "fr" ? "Panneau IPTV le Moins Cher" : locale === "pt" ? "Painel IPTV Reseller Mais Barato" : locale === "sv" ? "Billigaste IPTV-Återförsäljarpanelen 2026" : locale === "no" ? "Billigste IPTV-Forhandlerpanelet 2026" : "Cheapest IPTV Reseller Panel 2026", href: "/comparisons/cheapest-iptv-reseller-panel" },
+    { label: "Strong 4K vs Lion OTT", href: "/comparisons" },
+    { label: locale === "es" ? "Crystal vs Nexon — Comparativa" : locale === "fr" ? "Crystal vs Nexon — Comparatif" : locale === "pt" ? "Crystal vs Nexon — Comparação" : locale === "sv" ? "Crystal vs Nexon — Jämförelse" : locale === "no" ? "Crystal vs Nexon — Sammenligning" : "Crystal vs Nexon — Panel Comparison", href: "/comparisons" },
+    { label: locale === "es" ? "El Mejor Panel IPTV Reseller 2026" : locale === "fr" ? "Meilleur Panneau Revendeur 2026" : locale === "pt" ? "Melhores Painéis IPTV Reseller 2026" : locale === "sv" ? "Bästa IPTV-Återförsäljarpaneler 2026" : locale === "no" ? "Beste IPTV-Forhandlerpaneler 2026" : "Best IPTV Reseller Panels 2026", href: "/comparisons" },
+    { label: locale === "es" ? "El Panel IPTV Reseller Más Barato" : locale === "fr" ? "Panneau IPTV le Moins Cher" : locale === "pt" ? "Painel IPTV Reseller Mais Barato" : locale === "sv" ? "Billigaste IPTV-Återförsäljarpanelen 2026" : locale === "no" ? "Billigste IPTV-Forhandlerpanelet 2026" : "Cheapest IPTV Reseller Panel 2026", href: "/comparisons" },
   ];
 
   const guides = [
-    { label: locale === "es" ? "Cómo Iniciar un Negocio IPTV Reseller" : locale === "fr" ? "Comment Démarrer l'Activité IPTV" : locale === "pt" ? "Como Iniciar um Negócio de Revendedor IPTV" : locale === "sv" ? "Hur man Startar IPTV-Återförsäljning" : locale === "no" ? "Slik Starter du IPTV-Forhandling" : "How To Start IPTV Reseller Business", href: "/guides/how-to-start-iptv-reseller-business" },
-    { label: locale === "es" ? "Sistema de Créditos IPTV Explicado" : locale === "fr" ? "Le Système de Crédits IPTV Expliqué" : locale === "pt" ? "Sistema de Créditos IPTV Explicado" : locale === "sv" ? "IPTV-Kreditsystemet Förklarat" : locale === "no" ? "IPTV-Kredittsystemet Forklart" : "IPTV Credit System Explained", href: "/guides/iptv-credit-system-explained" },
-    { label: locale === "es" ? "Guía de Ganancias de Reventa IPTV" : locale === "fr" ? "Guide des Profits de Revente IPTV" : locale === "pt" ? "Guia de Lucros de Revenda IPTV" : locale === "sv" ? "IPTV-Återförsäljarvinstguide" : locale === "no" ? "IPTV-Forhandlergevinst-guide" : "IPTV Reseller Profit Guide", href: "/guides/iptv-reseller-profit-guide" },
-    { label: locale === "es" ? "Reseller de IPTV vs Suscripción Común" : locale === "fr" ? "Revendeur IPTV vs Abonnement Simple" : locale === "pt" ? "Revendedor IPTV vs Subscrição Comum" : locale === "sv" ? "IPTV-Återförsäljare vs Prenumeration" : locale === "no" ? "IPTV-Forhandler vs Abonnement" : "IPTV Reseller vs Subscription", href: "/guides/iptv-reseller-vs-subscription" },
+    { label: locale === "es" ? "Cómo Iniciar un Negocio IPTV Reseller" : locale === "fr" ? "Comment Démarrer l'Activité IPTV" : locale === "pt" ? "Como Iniciar um Negócio de Revendedor IPTV" : locale === "sv" ? "Hur man Startar IPTV-Återförsäljning" : locale === "no" ? "Slik Starter du IPTV-Forhandling" : "How To Start IPTV Reseller Business", href: "/guides/start-iptv-reseller-business" },
+    { label: locale === "es" ? "Sistema de Créditos IPTV Explicado" : locale === "fr" ? "Le Système de Crédits IPTV Expliqué" : locale === "pt" ? "Sistema de Créditos IPTV Explicado" : locale === "sv" ? "IPTV-Kreditsystemet Förklarat" : locale === "no" ? "IPTV-Kredittsystemet Forklart" : "IPTV Credit System Explained", href: "/guides/credit-system-explained" },
+    { label: locale === "es" ? "Guía de Ganancias de Reventa IPTV" : locale === "fr" ? "Guide des Profits de Revente IPTV" : locale === "pt" ? "Guia de Lucros de Revenda IPTV" : locale === "sv" ? "IPTV-Återförsäljarvinstguide" : locale === "no" ? "IPTV-Forhandlergevinst-guide" : "IPTV Reseller Profit Guide", href: "/guides" },
+    { label: locale === "es" ? "Reseller de IPTV vs Suscripción Común" : locale === "fr" ? "Revendeur IPTV vs Abonnement Simple" : locale === "pt" ? "Revendedor IPTV vs Subscrição Comum" : locale === "sv" ? "IPTV-Återförsäljare vs Prenumeration" : locale === "no" ? "IPTV-Forhandler vs Abonnement" : "IPTV Reseller vs Subscription", href: "/guides" },
   ];
 
   return (
