@@ -78,113 +78,24 @@ export default function PanelPageTemplate({ panel }: Props) {
 
   const { title: pageTitle, description: pageDescription } = getHighCtrMetadata();
  
-  // Dynamically resolve currency based on route locale to align structured data schema with regional Google Search index
-  const priceCurrency = (() => {
-    switch (locale) {
-      case "en-gb": return "GBP";
-      case "en-au": return "AUD";
-      case "es":
-      case "fr":
-      case "pt": return "EUR";
-      case "sv": return "SEK";
-      case "no": return "NOK";
-      default: return "USD";
-    }
-  })();
-
-  // Dynamic start price mapping Starter Pack cost in local currencies to avoid crawler warnings
-  const startPrice = (() => {
-    switch (locale) {
-      case "en-gb": return "100.00";
-      case "en-au": return "160.00";
-      case "es":
-      case "fr":
-      case "pt": return "120.00";
-      case "sv":
-      case "no": return "1200.00";
-      default: return "120.00";
-    }
-  })();
-
-  // Dynamic verified customer review matched per locale for high-CTR SERP visibility
-  const getLocalizedReview = () => {
-    switch (locale) {
-      case "es":
-        return {
-          author: "Carlos M.",
-          text: "Panel de revendedor IPTV extremadamente estable. Configuración al instante, créditos activados en minutos y soporte premium por WhatsApp 24/7.",
-        };
-      case "fr":
-        return {
-          author: "Ahmed R.",
-          text: "Panneau revendeur IPTV extrêmement stable. Configuration instantanée, crédits activés immédiatement et excellent support WhatsApp 24/7.",
-        };
-      case "pt":
-        return {
-          author: "Carlos M.",
-          text: "Painel revendedor IPTV extremamente estável. Configuração rápida, ativação imediata de créditos e excelente suporte no WhatsApp 24/7.",
-        };
-      case "sv":
-      case "no":
-        return {
-          author: "Erik S.",
-          text: "Mycket stabil IPTV-återförsäljarpanel. Snabb installation, omedelbar kreditaktivering och fantastisk support via WhatsApp dygnet runt.",
-        };
-      default:
-        return {
-          author: "Carlos M.",
-          text: "Extremely stable IPTV reseller panel. Instantly set up, credit activation is immediate, and customer support via WhatsApp has been top-notch 24/7.",
-        };
-    }
-  };
-
-  const reviewData = getLocalizedReview();
-
+  // Describe the actual panel without unverified monetary offers or review metrics.
+  // The seller is represented by the website's canonical Organization entity.
   const panelSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "@id": `${canonicalUrl}/#product`,
+    "@id": `${canonicalUrl}#product`,
     name: `${panel.name} IPTV Reseller Panel`,
     description: pageDescription,
     url: canonicalUrl,
-    image: "https://www.iptvreseller.live/logo.png",
-    brand: { 
-      "@type": "Brand", 
-      name: "Fox IPTV Panels",
-      "@id": "https://www.iptvreseller.live/#organization"
+    brand: {
+      "@type": "Brand",
+      name: panel.name,
     },
-    offers: {
-      "@type": "Offer",
-      availability: "https://schema.org/InStock",
-      price: startPrice,
-      priceCurrency: priceCurrency,
-      priceValidUntil: "2027-12-31",
-      url: canonicalUrl,
-      seller: { 
-        "@type": "Organization", 
-        "@id": "https://www.iptvreseller.live/#organization"
-      },
+    isRelatedTo: {
+      "@type": "Organization",
+      "@id": "https://www.iptvreseller.live/#organization",
+      name: "IPTV Reseller",
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "142",
-      bestRating: "5",
-      worstRating: "1"
-    },
-    review: {
-      "@type": "Review",
-      author: {
-        "@type": "Person",
-        name: reviewData.author
-      },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5"
-      },
-      reviewBody: reviewData.text
-    }
   };
 
   const faqSchema = {
@@ -201,7 +112,7 @@ export default function PanelPageTemplate({ panel }: Props) {
   const steps = [
     {
       step: "01", icon: "💬",
-      title: lc({ en: "Contact Fox IPTV Panels", "en-gb": "Contact Fox IPTV Panels", "en-au": "Contact Fox IPTV Panels", es: "Contactar Fox IPTV Panels", fr: "Contacter Fox IPTV Panels", pt: "Contactar Fox IPTV Panels", sv: "Kontakta Fox IPTV Panels", no: "Kontakt Fox IPTV Panels" }),
+      title: lc({ en: "Contact IPTV Reseller", "en-gb": "Contact IPTV Reseller", "en-au": "Contact IPTV Reseller", es: "Contactar IPTV Reseller", fr: "Contacter IPTV Reseller", pt: "Contactar IPTV Reseller", sv: "Kontakta IPTV Reseller", no: "Kontakt IPTV Reseller" }),
       desc: lc({ en: `Message us on WhatsApp and tell us you want to become a ${panel.name} IPTV reseller.`, "en-gb": `Message us on WhatsApp and tell us you want to become a ${panel.name} IPTV reseller.`, "en-au": `Message us on WhatsApp and tell us you want to become a ${panel.name} IPTV reseller.`, es: `Escríbanos por WhatsApp e indíquenos que desea ser revendedor IPTV ${panel.name}.`, fr: `Écrivez-nous sur WhatsApp et indiquez que vous souhaitez devenir revendeur IPTV ${panel.name}.`, pt: `Envie-nos uma mensagem pelo WhatsApp e informe que deseja ser revendedor IPTV ${panel.name}.`, sv: `Kontakta oss på WhatsApp och berätta att du vill bli ${panel.name} IPTV-återförsäljare.`, no: `Send oss en melding på WhatsApp og fortell oss at du ønsker å bli ${panel.name} IPTV-forhandler.` }),
     },
     {
@@ -245,12 +156,12 @@ export default function PanelPageTemplate({ panel }: Props) {
         />
       ))}
       <link rel="alternate" hrefLang="x-default" href={`${domain}/en/${panel.slug}`} />
-      <meta property="og:title" content={`${pageTitle} | Fox IPTV Panels`} />
+      <meta property="og:title" content={`${pageTitle} | IPTV Reseller`} />
       <meta property="og:description" content={pageDescription} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={canonicalUrl} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={`${pageTitle} | Fox IPTV Panels`} />
+      <meta name="twitter:title" content={`${pageTitle} | IPTV Reseller`} />
       <meta name="twitter:description" content={pageDescription} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(panelSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
