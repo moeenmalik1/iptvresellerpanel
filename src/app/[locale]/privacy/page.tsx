@@ -35,25 +35,25 @@ export default async function PrivacyPolicyPage({
   const lc = (map: Record<string, string>) => map[L] ?? map["en"] ?? "";
 
   const titleText = lc({
-    en: `Privacy Policy — Fox IPTV Panels | Premium IPTV Reseller Panel Supplier in ${regionName}`,
-    "en-gb": `Privacy Policy — Fox IPTV Panels | Premium IPTV Reseller Panel Supplier in ${regionName}`,
-    "en-au": `Privacy Policy — Fox IPTV Panels | Premium IPTV Reseller Panel Supplier in ${regionName}`,
-    es: `Política de Privacidad — Fox IPTV Panels | Proveedor de Créditos IPTV en ${regionName}`,
-    fr: `Politique de Confidentialité — Fox IPTV Panels | Fournisseur de Panneaux IPTV Revendeur en ${regionName}`,
-    pt: `Política de Privacidade — Fox IPTV Panels | Fornecedor de Painéis IPTV Revendedor em ${regionName}`,
-    sv: `Integritetspolicy — Fox IPTV Panels | Leverantör av IPTV-Återförsäljarpaneler i ${regionName}`,
-    no: `Personvernpolicy — Fox IPTV Panels | Leverandør av IPTV-Forhandlerpaneler i ${regionName}`,
+    en: `Privacy Policy — IPTV Reseller | Premium IPTV Reseller Panel Supplier in ${regionName}`,
+    "en-gb": `Privacy Policy — IPTV Reseller | Premium IPTV Reseller Panel Supplier in ${regionName}`,
+    "en-au": `Privacy Policy — IPTV Reseller | Premium IPTV Reseller Panel Supplier in ${regionName}`,
+    es: `Política de Privacidad — IPTV Reseller | Proveedor de Créditos IPTV en ${regionName}`,
+    fr: `Politique de Confidentialité — IPTV Reseller | Fournisseur de Panneaux IPTV Revendeur en ${regionName}`,
+    pt: `Política de Privacidade — IPTV Reseller | Fornecedor de Painéis IPTV Revendedor em ${regionName}`,
+    sv: `Integritetspolicy — IPTV Reseller | Leverantör av IPTV-Återförsäljarpaneler i ${regionName}`,
+    no: `Personvernpolicy — IPTV Reseller | Leverandør av IPTV-Forhandlerpaneler i ${regionName}`,
   });
 
   const descText = lc({
-    en: `Read the Privacy Policy for Fox IPTV Panels. Learn how we handle your registration details, cookies, and panel credit purchases in ${regionName}.`,
-    "en-gb": `Read the Privacy Policy for Fox IPTV Panels. Learn how we handle your registration details, cookies, and panel credit purchases in ${regionName}.`,
-    "en-au": `Read the Privacy Policy for Fox IPTV Panels. Learn how we handle your registration details, cookies, and panel credit purchases in ${regionName}.`,
-    es: `Lea la Política de Privacidad de Fox IPTV Panels. Conozca cómo protegemos sus datos de revendedor mayorista en ${regionName}.`,
-    fr: `Lisez la Politique de Confidentialité de Fox IPTV Panels. Découvrez comment nous gérons vos données en ${regionName}.`,
-    pt: `Leia a Política de Privacidade da Fox IPTV Panels. Saiba como tratamos os seus dados de revendedor em ${regionName}.`,
-    sv: `Läs integritetspolicyn för Fox IPTV Panels. Erfahren Sie, wie wir Ihre Händlerdaten in ${regionName} handhaben.`,
-    no: `Les personvernpolicyen for Fox IPTV Panels. Finn ut hvordan vi håndterer dine forhandlerdata i ${regionName}.`,
+    en: `Read the Privacy Policy for IPTV Reseller. Learn how we handle your registration details, cookies, and panel credit purchases in ${regionName}.`,
+    "en-gb": `Read the Privacy Policy for IPTV Reseller. Learn how we handle your registration details, cookies, and panel credit purchases in ${regionName}.`,
+    "en-au": `Read the Privacy Policy for IPTV Reseller. Learn how we handle your registration details, cookies, and panel credit purchases in ${regionName}.`,
+    es: `Lea la Política de Privacidad de IPTV Reseller. Conozca cómo protegemos sus datos de revendedor mayorista en ${regionName}.`,
+    fr: `Lisez la Politique de Confidentialité de IPTV Reseller. Découvrez comment nous gérons vos données en ${regionName}.`,
+    pt: `Leia a Política de Privacidade da IPTV Reseller. Saiba como tratamos os seus dados de revendedor em ${regionName}.`,
+    sv: `Läs integritetspolicyn för IPTV Reseller. Erfahren Sie, wie wir Ihre Händlerdaten in ${regionName} handhaben.`,
+    no: `Les personvernpolicyen for IPTV Reseller. Finn ut hvordan vi håndterer dine forhandlerdata i ${regionName}.`,
   });
 
   const PRIVACY_PAGE_SCHEMA = {
@@ -63,7 +63,7 @@ export default async function PrivacyPolicyPage({
     "description": descText,
     "publisher": {
       "@type": "Organization",
-      "name": "Fox IPTV Panels",
+      "name": "IPTV Reseller",
       "url": `https://www.iptvreseller.live/${locale}`
     }
   };
