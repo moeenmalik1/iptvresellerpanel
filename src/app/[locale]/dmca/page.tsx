@@ -31,12 +31,12 @@ export default async function DMCACompliancePage({
   const regionName = c("regionName");
 
   const titleText = locale === "es"
-    ? `Política DMCA — Fox IPTV Panels | Cumplimiento de Derechos de Autor en ${regionName}`
-    : `DMCA Policy — Fox IPTV Panels | Copyright Infringement Intake Guidelines in ${regionName}`;
+    ? `Política DMCA — IPTV Reseller | Cumplimiento de Derechos de Autor en ${regionName}`
+    : `DMCA Policy — IPTV Reseller | Copyright Infringement Intake Guidelines in ${regionName}`;
 
   const descText = locale === "es"
-    ? `Lea la política DMCA de Fox IPTV Panels. Conozca nuestros procedimientos de derechos de autor en ${regionName}.`
-    : `Read the DMCA Policy for Fox IPTV Panels. Discover our copyright compliance procedures and dedicated intake lines in ${regionName}.`;
+    ? `Lea la política DMCA de IPTV Reseller. Conozca nuestros procedimientos de derechos de autor en ${regionName}.`
+    : `Read the DMCA Policy for IPTV Reseller. Discover our copyright compliance procedures and dedicated intake lines in ${regionName}.`;
 
   const DMCA_PAGE_SCHEMA = {
     "@context": "https://schema.org",
@@ -45,7 +45,7 @@ export default async function DMCACompliancePage({
     "description": descText,
     "publisher": {
       "@type": "Organization",
-      "name": "Fox IPTV Panels",
+      "name": "IPTV Reseller",
       "url": `https://www.iptvreseller.live/${locale}`
     }
   };
@@ -101,8 +101,8 @@ export default async function DMCACompliancePage({
               </h1>
               <p style={{ fontSize: "1rem", color: "var(--text-secondary)", marginBottom: "3rem" }}>
                 {locale === "es"
-                  ? `Última actualización: 22 de mayo de 2026. Fox IPTV Panels respeta los derechos de propiedad intelectual y actúa rápidamente bajo los estándares DMCA en ${regionName}.`
-                  : `Last Updated: May 22, 2026. Fox IPTV Panels respects intellectual property rights and acts promptly under the Digital Millennium Copyright Act ("DMCA") standards in ${regionName}.`}
+                  ? `Última actualización: 22 de mayo de 2026. IPTV Reseller respeta los derechos de propiedad intelectual y actúa rápidamente bajo los estándares DMCA en ${regionName}.`
+                  : `Last Updated: May 22, 2026. IPTV Reseller respects intellectual property rights and acts promptly under the Digital Millennium Copyright Act ("DMCA") standards in ${regionName}.`}
               </p>
 
               {/* Glassmorphic Document Card */}
