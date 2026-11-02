@@ -21,14 +21,14 @@ export default function ContactClient() {
   const whatsappLink = useMemo(() => {
     const text = (() => {
       const trans = {
-        en: `Hello Fox IPTV Panels! I would like to order a reseller panel setup for *${selectedPanel}* with *${selectedCredits}*. Please provide the payment details and setup instructions.`,
-        "en-gb": `Hello Fox IPTV Panels! I would like to order a reseller panel setup for *${selectedPanel}* with *${selectedCredits}*. Please provide the payment details and setup instructions.`,
-        "en-au": `Hello Fox IPTV Panels! I would like to order a reseller panel setup for *${selectedPanel}* with *${selectedCredits}*. Please provide the payment details and setup instructions.`,
-        es: `¡Hola Fox IPTV Panels! Me gustaría ordenar una configuración de panel para *${selectedPanel}* con *${selectedCredits}*. Por favor, envíeme los detalles de pago y las instrucciones de configuración.`,
-        fr: `Bonjour Fox IPTV Panels ! Je souhaite commander une configuration de panneau pour *${selectedPanel}* avec *${selectedCredits}*. Veuillez m'envoyer les détails de paiement et les instructions.`,
-        pt: `Olá Fox IPTV Panels! Gostaria de encomendar uma configuração de painel para *${selectedPanel}* com *${selectedCredits}*. Por favor, envie-me os detalhes de pagamento e instruções.`,
-        sv: `Hej Fox IPTV Panels! Jag skulle vilja beställa en kontrollpanel för *${selectedPanel}* med *${selectedCredits}*. Vänligen skicka betalningsinformation och instruktioner.`,
-        no: `Hei Fox IPTV Panels! Jeg vil gjerne bestille et forhandlerpanel for *${selectedPanel}* med *${selectedCredits}*. Vennligst send betalingsinformasjon og instruksjoner.`
+        en: `Hello IPTV Reseller! I would like to order a reseller panel setup for *${selectedPanel}* with *${selectedCredits}*. Please provide the payment details and setup instructions.`,
+        "en-gb": `Hello IPTV Reseller! I would like to order a reseller panel setup for *${selectedPanel}* with *${selectedCredits}*. Please provide the payment details and setup instructions.`,
+        "en-au": `Hello IPTV Reseller! I would like to order a reseller panel setup for *${selectedPanel}* with *${selectedCredits}*. Please provide the payment details and setup instructions.`,
+        es: `¡Hola IPTV Reseller! Me gustaría ordenar una configuración de panel para *${selectedPanel}* con *${selectedCredits}*. Por favor, envíeme los detalles de pago y las instrucciones de configuración.`,
+        fr: `Bonjour IPTV Reseller ! Je souhaite commander une configuration de panneau pour *${selectedPanel}* avec *${selectedCredits}*. Veuillez m'envoyer les détails de paiement et les instructions.`,
+        pt: `Olá IPTV Reseller! Gostaria de encomendar uma configuração de painel para *${selectedPanel}* com *${selectedCredits}*. Por favor, envie-me os detalhes de pagamento e instruções.`,
+        sv: `Hej IPTV Reseller! Jag skulle vilja beställa en kontrollpanel för *${selectedPanel}* med *${selectedCredits}*. Vänligen skicka betalningsinformation och instruktioner.`,
+        no: `Hei IPTV Reseller! Jeg vil gjerne bestille et forhandlerpanel for *${selectedPanel}* med *${selectedCredits}*. Vennligst send betalingsinformasjon og instruksjoner.`
       };
       return trans[locale as keyof typeof trans] || trans.en;
     })();
@@ -59,14 +59,14 @@ export default function ContactClient() {
   const getWhatsAppCalcLink = () => {
     const text = (() => {
       const trans = {
-        en: `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${formatValue(totalCost)}). Please provide payment details and panel setup instructions.`,
-        "en-gb": `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${formatValue(totalCost)}). Please provide payment details and panel setup instructions.`,
-        "en-au": `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${formatValue(totalCost)}). Please provide payment details and panel setup instructions.`,
-        es: `¡Hola Fox IPTV Panels! Revisé la calculadora y me gustaría ordenar una configuración personalizada con *${creditsNum} créditos* (costo estimado: ${formatValue(totalCost)}). Por favor envíeme los detalles.`,
-        fr: `Bonjour Fox IPTV Panels ! J'ai utilisé le calculateur de marge et je souhaite commander une configuration personnalisée avec *${creditsNum} crédits* (coût estimé : ${formatValue(totalCost)}). Merci de m'envoyer les détails.`,
-        pt: `Olá Fox IPTV Panels! Verifiquei a calculadora e gostaria de encomendar uma configuração personalizada com *${creditsNum} créditos* (custo estimado: ${formatValue(totalCost)}). Por favor, envie-me os detalhes.`,
-        sv: `Hej Fox IPTV Panels! Jag kollade vinstkalkylatorn och skulle vilja beställa en skräddarsydd kontrollpanel med *${creditsNum} krediter* (beräknad kostnad: ${formatValue(totalCost)}). Vänligen skicka detaljer.`,
-        no: `Hei Fox IPTV Panels! Jeg sjekket priskalkulatoren og vil gjerne bestille et tilpasset oppsett med *${creditsNum} kreditter* (estimert kostnad: ${formatValue(totalCost)}). Vennligst send detaljer.`
+        en: `Hello IPTV Reseller! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${formatValue(totalCost)}). Please provide payment details and panel setup instructions.`,
+        "en-gb": `Hello IPTV Reseller! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${formatValue(totalCost)}). Please provide payment details and panel setup instructions.`,
+        "en-au": `Hello IPTV Reseller! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${formatValue(totalCost)}). Please provide payment details and panel setup instructions.`,
+        es: `¡Hola IPTV Reseller! Revisé la calculadora y me gustaría ordenar una configuración personalizada con *${creditsNum} créditos* (costo estimado: ${formatValue(totalCost)}). Por favor envíeme los detalles.`,
+        fr: `Bonjour IPTV Reseller ! J'ai utilisé le calculateur de marge et je souhaite commander une configuration personnalisée avec *${creditsNum} crédits* (coût estimé : ${formatValue(totalCost)}). Merci de m'envoyer les détails.`,
+        pt: `Olá IPTV Reseller! Verifiquei a calculadora e gostaria de encomendar uma configuração personalizada com *${creditsNum} créditos* (custo estimado: ${formatValue(totalCost)}). Por favor, envie-me os detalhes.`,
+        sv: `Hej IPTV Reseller! Jag kollade vinstkalkylatorn och skulle vilja beställa en skräddarsydd kontrollpanel med *${creditsNum} krediter* (beräknad kostnad: ${formatValue(totalCost)}). Vänligen skicka detaljer.`,
+        no: `Hei IPTV Reseller! Jeg sjekket priskalkulatoren og vil gjerne bestille et tilpasset oppsett med *${creditsNum} kreditter* (estimert kostnad: ${formatValue(totalCost)}). Vennligst send detaljer.`
       };
       return trans[locale as keyof typeof trans] || trans.en;
     })();
@@ -375,14 +375,14 @@ export default function ContactClient() {
                 <a
                   href={`https://wa.me/${WHATSAPP_NUMBER}?text=${(() => {
                     const trans = {
-                      en: `Hello Fox IPTV Panels! I want to order the ${plan.name}.`,
-                      "en-gb": `Hello Fox IPTV Panels! I want to order the ${plan.name}.`,
-                      "en-au": `Hello Fox IPTV Panels! I want to order the ${plan.name}.`,
-                      es: `Hola Fox IPTV Panels! Me gustaría ordenar el ${plan.name}.`,
-                      fr: `Bonjour Fox IPTV Panels ! Je souhaite commander le ${plan.name}.`,
-                      pt: `Olá Fox IPTV Panels! Gostaria de encomendar o ${plan.name}.`,
-                      sv: `Hej Fox IPTV Panels! Jag skulle vilja beställa ${plan.name}.`,
-                      no: `Hei Fox IPTV Panels! Jeg vil gjerne bestille ${plan.name}.`
+                      en: `Hello IPTV Reseller! I want to order the ${plan.name}.`,
+                      "en-gb": `Hello IPTV Reseller! I want to order the ${plan.name}.`,
+                      "en-au": `Hello IPTV Reseller! I want to order the ${plan.name}.`,
+                      es: `Hola IPTV Reseller! Me gustaría ordenar el ${plan.name}.`,
+                      fr: `Bonjour IPTV Reseller ! Je souhaite commander le ${plan.name}.`,
+                      pt: `Olá IPTV Reseller! Gostaria de encomendar o ${plan.name}.`,
+                      sv: `Hej IPTV Reseller! Jag skulle vilja beställa ${plan.name}.`,
+                      no: `Hei IPTV Reseller! Jeg vil gjerne bestille ${plan.name}.`
                     };
                     return encodeURIComponent(trans[locale as keyof typeof trans] || trans.en);
                   })()}`}
@@ -595,14 +595,14 @@ export default function ContactClient() {
               <div className="glass-card" style={{ padding: "1.75rem", borderRadius: "16px", fontStyle: "italic", color: "var(--text-secondary)", fontSize: "0.95rem", lineHeight: 1.6, border: "1px solid var(--border-color)" }}>
                 {(() => {
                   const trans = {
-                    en: <>"Hello Fox IPTV Panels! I would like to order a reseller panel setup for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> with <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Please provide the payment details and setup instructions."</>,
-                    "en-gb":  <>"Hello Fox IPTV Panels! I would like to order a reseller panel setup for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> with <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Please provide the payment details and setup instructions."</>,
-                    "en-au":  <>"Hello Fox IPTV Panels! I would like to order a reseller panel setup for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> with <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Please provide the payment details and setup instructions."</>,
-                    es: <>"¡Hola Fox IPTV Panels! Me gustaría ordenar una configuración de panel para <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> con <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Por favor, envíeme los detalles de pago y las instrucciones de configuración."</>,
-                    fr: <>"Bonjour Fox IPTV Panels ! Je souhaite commander une configuration de panneau pour <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> avec <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Merci de m'envoyer les détails de paiement et les instructions."</>,
-                    pt: <>"Olá Fox IPTV Panels! Gostaria de encomendar uma configuração de painel para <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> com <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Por favor, envie-me os detalhes de pagamento e as instruções."</>,
-                    sv: <>"Hej Fox IPTV Panels! Jag vill beställa en kontrollpanel för <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> med <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Vänligen skicka betalningsinformation och installationsinstruktioner."</>,
-                    no: <>"Hei Fox IPTV Panels! Jeg vil gjerne bestille et forhandlerpanel for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> med <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Vennligst send betalingsinformasjon og oppsettsinstruksjoner."</>
+                    en: <>"Hello IPTV Reseller! I would like to order a reseller panel setup for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> with <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Please provide the payment details and setup instructions."</>,
+                    "en-gb":  <>"Hello IPTV Reseller! I would like to order a reseller panel setup for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> with <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Please provide the payment details and setup instructions."</>,
+                    "en-au":  <>"Hello IPTV Reseller! I would like to order a reseller panel setup for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> with <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Please provide the payment details and setup instructions."</>,
+                    es: <>"¡Hola IPTV Reseller! Me gustaría ordenar una configuración de panel para <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> con <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Por favor, envíeme los detalles de pago y las instrucciones de configuración."</>,
+                    fr: <>"Bonjour IPTV Reseller ! Je souhaite commander une configuration de panneau pour <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> avec <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Merci de m'envoyer les détails de paiement et les instructions."</>,
+                    pt: <>"Olá IPTV Reseller! Gostaria de encomendar uma configuração de painel para <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> com <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Por favor, envie-me os detalhes de pagamento e as instruções."</>,
+                    sv: <>"Hej IPTV Reseller! Jag vill beställa en kontrollpanel för <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> med <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Vänligen skicka betalningsinformation och installationsinstruktioner."</>,
+                    no: <>"Hei IPTV Reseller! Jeg vil gjerne bestille et forhandlerpanel for <span style={{ color: "var(--accent-purple)", fontWeight: 700 }}>{selectedPanel}</span> med <span style={{ color: "var(--accent-blue)", fontWeight: 700 }}>{selectedCredits}</span>. Vennligst send betalingsinformasjon og oppsettsinstruksjoner."</>
                   };
                   return trans[locale as keyof typeof trans] || trans.en;
                 })()}
@@ -900,7 +900,7 @@ export default function ContactClient() {
                 {(() => { const t = { en: "Do credits ever expire?", "en-gb": "Do credits ever expire?", "en-au": "Do credits ever expire?", es: "¿Caducan los créditos?", fr: "Les crédits expirent-ils ?", pt: "Os créditos expiram alguma vez?", sv: "Löper krediter ut?", no: "Utløper kreditter noensinne?" }; return t[locale as keyof typeof t] || t.en; })()}
               </h4>
               <p style={{ fontSize: "0.9rem", color: "var(--text-secondary)", lineHeight: 1.6, margin: 0 }}>
-                {(() => { const t = { en: "No. Once you purchase reseller credits from Fox IPTV Panels, they remain active on your dashboard indefinitely. You can allocate them to clients today, or months down the line.", "en-gb": "No. Once you purchase reseller credits from Fox IPTV Panels, they remain active on your dashboard indefinitely. You can allocate them to clients today, or months down the line.", "en-au": "No. Once you purchase reseller credits from Fox IPTV Panels, they remain active on your dashboard indefinitely. You can allocate them to clients today, or months down the line.", es: "No. Una vez que compra créditos de revendedor en Fox IPTV Panels, permanecen activos en su panel indefinidamente. Puede asignarlos hoy o meses después.", fr: "Non. Une fois achetés, vos crédits restent actifs indéfiniment sur votre tableau de bord. Vous pouvez les attribuer à vos clients aujourd'hui ou des mois plus tard.", pt: "Não. Depois de comprar créditos de revendedor na Fox IPTV Panels, eles permanecem activos no seu painel indefinidamente. Pode atribuí-los a clientes hoje ou meses depois.", sv: "Nej. När du har köpt återförsäljarkrediter från Fox IPTV Panels förblir de aktiva på din panel på obestämd tid. Du kan tilldela dem till kunder idag eller månader senare.", no: "Nei. Når du har kjøpt forhandlerkreditter fra Fox IPTV Panels, forblir de aktive på dashbordet ditt på ubestemt tid. Du kan tildele dem til kunder i dag eller måneder senere." }; return t[locale as keyof typeof t] || t.en; })()}
+                {(() => { const t = { en: "No. Once you purchase reseller credits from IPTV Reseller, they remain active on your dashboard indefinitely. You can allocate them to clients today, or months down the line.", "en-gb": "No. Once you purchase reseller credits from IPTV Reseller, they remain active on your dashboard indefinitely. You can allocate them to clients today, or months down the line.", "en-au": "No. Once you purchase reseller credits from IPTV Reseller, they remain active on your dashboard indefinitely. You can allocate them to clients today, or months down the line.", es: "No. Una vez que compra créditos de revendedor en IPTV Reseller, permanecen activos en su panel indefinidamente. Puede asignarlos hoy o meses después.", fr: "Non. Une fois achetés, vos crédits restent actifs indéfiniment sur votre tableau de bord. Vous pouvez les attribuer à vos clients aujourd'hui ou des mois plus tard.", pt: "Não. Depois de comprar créditos de revendedor na IPTV Reseller, eles permanecem activos no seu painel indefinidamente. Pode atribuí-los a clientes hoje ou meses depois.", sv: "Nej. När du har köpt återförsäljarkrediter från IPTV Reseller förblir de aktiva på din panel på obestämd tid. Du kan tilldela dem till kunder idag eller månader senare.", no: "Nei. Når du har kjøpt forhandlerkreditter fra IPTV Reseller, forblir de aktive på dashbordet ditt på ubestemt tid. Du kan tildele dem til kunder i dag eller måneder senere." }; return t[locale as keyof typeof t] || t.en; })()}
               </p>
             </div>
 
