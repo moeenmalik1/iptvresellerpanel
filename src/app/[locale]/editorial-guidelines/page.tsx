@@ -32,16 +32,16 @@ export default async function EditorialGuidelinesPage({
     "@id": `https://www.iptvreseller.live/${locale}/editorial-guidelines/#webpage`,
     "url": `https://www.iptvreseller.live/${locale}/editorial-guidelines`,
     "name": lc({
-      en: "Editorial Guidelines — Fox IPTV Panels",
-      es: "Directrices Editoriales — Fox IPTV Panels",
-      fr: "Charte Éditoriale — Fox IPTV Panels",
-      pt: "Diretrizes Editoriais — Fox IPTV Panels"
+      en: "Editorial Guidelines — IPTV Reseller",
+      es: "Directrices Editoriales — IPTV Reseller",
+      fr: "Charte Éditoriale — IPTV Reseller",
+      pt: "Diretrizes Editoriais — IPTV Reseller"
     }),
     "description": lc({
-      en: "Learn about the strict editorial standards, factual accuracy reviews, and network telemetry audits governing Fox IPTV Panels content.",
-      es: "Conozca los estrictos estándares editoriales, revisiones de precisión fáctica y auditorías de telemetría que rigen en Fox IPTV Panels.",
-      fr: "Découvrez nos exigences éditoriales, nos protocoles de vérification et nos audits de performance réseau pour Fox IPTV Panels.",
-      pt: "Saiba mais sobre os nossos rigorosos padrões editoriais, revisões de fatos e auditorias técnicas na Fox IPTV Panels."
+      en: "Learn about the strict editorial standards, factual accuracy reviews, and network telemetry audits governing IPTV Reseller content.",
+      es: "Conozca los estrictos estándares editoriales, revisiones de precisión fáctica y auditorías de telemetría que rigen en IPTV Reseller.",
+      fr: "Découvrez nos exigences éditoriales, nos protocoles de vérification et nos audits de performance réseau pour IPTV Reseller.",
+      pt: "Saiba mais sobre os nossos rigorosos padrões editoriais, revisões de fatos e auditorias técnicas na IPTV Reseller."
     })
   };
 
@@ -49,12 +49,12 @@ export default async function EditorialGuidelinesPage({
     <>
       <title>
         {lc({
-          en: "Editorial Guidelines — Transparency & Factual Standards | Fox IPTV Panels",
-          es: "Directrices Editoriales — Transparencia y Rigor Técnico | Fox IPTV Panels",
-          fr: "Charte Éditoriale — Transparence et Rigueur Technique | Fox IPTV Panels",
-          pt: "Diretrizes Editoriais — Transparência e Rigor Técnico | Fox IPTV Panels",
-          sv: "Redaktionella Riktlinjer — Transparens och Tillförlitlighet | Fox IPTV Panels",
-          no: "Redaksjonelle Retningslinjer — Transparens og Sannferdighet | Fox IPTV Panels"
+          en: "Editorial Guidelines — Transparency & Factual Standards | IPTV Reseller",
+          es: "Directrices Editoriales — Transparencia y Rigor Técnico | IPTV Reseller",
+          fr: "Charte Éditoriale — Transparence et Rigueur Technique | IPTV Reseller",
+          pt: "Diretrizes Editoriais — Transparência e Rigor Técnico | IPTV Reseller",
+          sv: "Redaktionella Riktlinjer — Transparens och Tillförlitlighet | IPTV Reseller",
+          no: "Redaksjonelle Retningslinjer — Transparens og Sannferdighet | IPTV Reseller"
         })}
       </title>
       <meta 
@@ -137,9 +137,9 @@ export default async function EditorialGuidelinesPage({
               </h2>
               <p>
                 {lc({
-                  en: "At Fox IPTV Panels, we are dedicated to helping digital entrepreneurs launch, scale, and secure their own white-label IPTV reseller businesses. Because the alternative telecom and broadband streaming industry can be complex, we aim to provide accurate, reliable, and fact-checked guides that demystify technical configurations.",
-                  es: "En Fox IPTV Panels, nos dedicamos a ayudar a emprendedores digitales a lanzar, escalar y asegurar sus propios negocios de revendedor de IPTV de marca blanca. Ofrecemos guías precisas, confiables y verificadas para simplificar las configuraciones técnicas.",
-                  fr: "Chez Fox IPTV Panels, nous aidons les entrepreneurs à lancer et sécuriser leur propre marque de revente IPTV. Pour éclairer ce secteur complexe, nous publions des guides précis, fiables et vérifiés qui démystifient les configurations réseaux."
+                  en: "At IPTV Reseller, we are dedicated to helping digital entrepreneurs launch, scale, and secure their own white-label IPTV reseller businesses. Because the alternative telecom and broadband streaming industry can be complex, we aim to provide accurate, reliable, and fact-checked guides that demystify technical configurations.",
+                  es: "En IPTV Reseller, nos dedicamos a ayudar a emprendedores digitales a lanzar, escalar y asegurar sus propios negocios de revendedor de IPTV de marca blanca. Ofrecemos guías precisas, confiables y verificadas para simplificar las configuraciones técnicas.",
+                  fr: "Chez IPTV Reseller, nous aidons les entrepreneurs à lancer et sécuriser leur propre marque de revente IPTV. Pour éclairer ce secteur complexe, nous publions des guides précis, fiables et vérifiés qui démystifient les configurations réseaux."
                 })}
               </p>
 
