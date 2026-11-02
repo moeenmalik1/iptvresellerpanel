@@ -36,25 +36,25 @@ export default async function TermsOfServicePage({
   const lc = (map: Record<string, string>) => map[L] ?? map["en"] ?? "";
 
   const titleText = lc({
-    en: `Terms of Service — Fox IPTV Panels | Wholesale IPTV Reseller Terms in ${regionName}`,
-    "en-gb": `Terms of Service — Fox IPTV Panels | Wholesale IPTV Reseller Terms in ${regionName}`,
-    "en-au": `Terms of Service — Fox IPTV Panels | Wholesale IPTV Reseller Terms in ${regionName}`,
-    es: `Términos de Servicio — Fox IPTV Panels | Créditos Mayoristas en ${regionName}`,
-    fr: `Conditions d'Utilisation — Fox IPTV Panels | Conditions de Revente Grossiste en ${regionName}`,
-    pt: `Termos de Serviço — Fox IPTV Panels | Condições de Revenda por Grosso em ${regionName}`,
-    sv: `Användarvillkor — Fox IPTV Panels | Grossist IPTV-Återförsäljarvillkor i ${regionName}`,
-    no: `Tjenestevilkår — Fox IPTV Panels | Grossist IPTV-Forhandlervilkår i ${regionName}`,
+    en: `Terms of Service — IPTV Reseller | Wholesale IPTV Reseller Terms in ${regionName}`,
+    "en-gb": `Terms of Service — IPTV Reseller | Wholesale IPTV Reseller Terms in ${regionName}`,
+    "en-au": `Terms of Service — IPTV Reseller | Wholesale IPTV Reseller Terms in ${regionName}`,
+    es: `Términos de Servicio — IPTV Reseller | Créditos Mayoristas en ${regionName}`,
+    fr: `Conditions d'Utilisation — IPTV Reseller | Conditions de Revente Grossiste en ${regionName}`,
+    pt: `Termos de Serviço — IPTV Reseller | Condições de Revenda por Grosso em ${regionName}`,
+    sv: `Användarvillkor — IPTV Reseller | Grossist IPTV-Återförsäljarvillkor i ${regionName}`,
+    no: `Tjenestevilkår — IPTV Reseller | Grossist IPTV-Forhandlervilkår i ${regionName}`,
   });
 
   const descText = lc({
-    en: `Understand the Terms of Service for using Fox IPTV Panels. Learn about wholesale credit purchases and reseller dashboard rules in ${regionName}.`,
-    "en-gb": `Understand the Terms of Service for using Fox IPTV Panels. Learn about wholesale credit purchases and reseller dashboard rules in ${regionName}.`,
-    "en-au": `Understand the Terms of Service for using Fox IPTV Panels. Learn about wholesale credit purchases and reseller dashboard rules in ${regionName}.`,
-    es: `Entienda los Términos de Servicio de Fox IPTV Panels. Conozca el acuerdo de créditos mayoristas en ${regionName}.`,
-    fr: `Comprenez les Conditions d'Utilisation de Fox IPTV Panels. Informez-vous sur les achats de crédits grossistes en ${regionName}.`,
-    pt: `Compreenda os Termos de Serviço da Fox IPTV Panels. Saiba sobre as compras de créditos por grosso em ${regionName}.`,
-    sv: `Förstå användarvillkoren för Fox IPTV Panels. Lär dig om grossistkreditköp i ${regionName}.`,
-    no: `Forstå tjenestevilkårene for Fox IPTV Panels. Lær om grossistkredittkjøp i ${regionName}.`,
+    en: `Understand the Terms of Service for using IPTV Reseller. Learn about wholesale credit purchases and reseller dashboard rules in ${regionName}.`,
+    "en-gb": `Understand the Terms of Service for using IPTV Reseller. Learn about wholesale credit purchases and reseller dashboard rules in ${regionName}.`,
+    "en-au": `Understand the Terms of Service for using IPTV Reseller. Learn about wholesale credit purchases and reseller dashboard rules in ${regionName}.`,
+    es: `Entienda los Términos de Servicio de IPTV Reseller. Conozca el acuerdo de créditos mayoristas en ${regionName}.`,
+    fr: `Comprenez les Conditions d'Utilisation de IPTV Reseller. Informez-vous sur les achats de crédits grossistes en ${regionName}.`,
+    pt: `Compreenda os Termos de Serviço da IPTV Reseller. Saiba sobre as compras de créditos por grosso em ${regionName}.`,
+    sv: `Förstå användarvillkoren för IPTV Reseller. Lär dig om grossistkreditköp i ${regionName}.`,
+    no: `Forstå tjenestevilkårene for IPTV Reseller. Lær om grossistkredittkjøp i ${regionName}.`,
   });
 
   const TERMS_PAGE_SCHEMA = {
@@ -64,7 +64,7 @@ export default async function TermsOfServicePage({
     "description": descText,
     "publisher": {
       "@type": "Organization",
-      "name": "Fox IPTV Panels",
+      "name": "IPTV Reseller",
       "url": `https://www.iptvreseller.live/${locale}`
     }
   };
@@ -133,14 +133,14 @@ export default async function TermsOfServicePage({
               </h1>
               <p style={{ fontSize: "1rem", color: "var(--text-secondary)", marginBottom: "3rem" }}>
                 {lc({
-                  en: `Last Updated: May 22, 2026. Welcome to Fox IPTV Panels. By accessing our platform, purchasing wholesale credits, or utilizing our white-label dashboards in ${regionName}, you agree to comply with the following terms.`,
-                  "en-gb": `Last Updated: May 22, 2026. Welcome to Fox IPTV Panels. By accessing our platform, purchasing wholesale credits, or utilizing our white-label dashboards in ${regionName}, you agree to comply with the following terms.`,
-                  "en-au": `Last Updated: May 22, 2026. Welcome to Fox IPTV Panels. By accessing our platform, purchasing wholesale credits, or utilizing our white-label dashboards in ${regionName}, you agree to comply with the following terms.`,
-                  es: `Última actualización: 22 de mayo de 2026. Bienvenido a Fox IPTV Panels. Al comprar créditos mayoristas o utilizar nuestros paneles de marca blanca en ${regionName}, usted acepta estos términos.`,
-                  fr: `Dernière mise à jour : 22 mai 2026. Bienvenue sur Fox IPTV Panels. En accédant à notre plateforme ou en achetant des crédits grossistes en ${regionName}, vous acceptez ces conditions.`,
-                  pt: `Última atualização: 22 de maio de 2026. Bem-vindo à Fox IPTV Panels. Ao aceder à nossa plataforma ou adquirir créditos por grosso em ${regionName}, aceita estes termos.`,
-                  sv: `Senast uppdaterad: 22 maj 2026. Välkommen till Fox IPTV Panels. Genom att använda vår plattform eller köpa grossitkrediter i ${regionName} accepterar du dessa villkor.`,
-                  no: `Sist oppdatert: 22. mai 2026. Velkommen til Fox IPTV Panels. Ved å bruke vår plattform eller kjøpe engros-kreditter i ${regionName} godtar du disse vilkårene.`,
+                  en: `Last Updated: May 22, 2026. Welcome to IPTV Reseller. By accessing our platform, purchasing wholesale credits, or utilizing our white-label dashboards in ${regionName}, you agree to comply with the following terms.`,
+                  "en-gb": `Last Updated: May 22, 2026. Welcome to IPTV Reseller. By accessing our platform, purchasing wholesale credits, or utilizing our white-label dashboards in ${regionName}, you agree to comply with the following terms.`,
+                  "en-au": `Last Updated: May 22, 2026. Welcome to IPTV Reseller. By accessing our platform, purchasing wholesale credits, or utilizing our white-label dashboards in ${regionName}, you agree to comply with the following terms.`,
+                  es: `Última actualización: 22 de mayo de 2026. Bienvenido a IPTV Reseller. Al comprar créditos mayoristas o utilizar nuestros paneles de marca blanca en ${regionName}, usted acepta estos términos.`,
+                  fr: `Dernière mise à jour : 22 mai 2026. Bienvenue sur IPTV Reseller. En accédant à notre plateforme ou en achetant des crédits grossistes en ${regionName}, vous acceptez ces conditions.`,
+                  pt: `Última atualização: 22 de maio de 2026. Bem-vindo à IPTV Reseller. Ao aceder à nossa plataforma ou adquirir créditos por grosso em ${regionName}, aceita estes termos.`,
+                  sv: `Senast uppdaterad: 22 maj 2026. Välkommen till IPTV Reseller. Genom att använda vår plattform eller köpa grossitkrediter i ${regionName} accepterar du dessa villkor.`,
+                  no: `Sist oppdatert: 22. mai 2026. Velkommen til IPTV Reseller. Ved å bruke vår plattform eller kjøpe engros-kreditter i ${regionName} godtar du disse vilkårene.`,
                 })}
               </p>
 
