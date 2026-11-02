@@ -25,7 +25,7 @@ export const ALL_PANELS: PanelData[] = [
     name: "B1G",
     slug: "b1g-iptv-reseller-panel",
     tagline: "B1G IPTV Reseller Panel — Stable 4K Streaming for Serious Resellers",
-    description: "B1G IPTV is a premium reseller panel trusted by thousands of IPTV resellers worldwide. With 4K streaming, Xtream Codes support, and instant credit activation, B1G is one of the most reliable IPTV panels available through Fox IPTV Panels.",
+    description: "B1G IPTV is a premium reseller panel trusted by thousands of IPTV resellers worldwide. With 4K streaming, Xtream Codes support, and instant credit activation, B1G is one of the most reliable IPTV panels available through IPTV Reseller.",
     longDescription: "B1G IPTV delivers consistent high-quality streaming with a clean, professional reseller dashboard. The credit-based system allows resellers to buy in bulk and maximize profit margins. Whether you're serving customers in the UK, USA, or the EU — B1G's geo-distributed servers ensure low latency and no-buffering playback on all devices.",
     quality: "4K Ultra HD",
     qualityBadge: "4K Streaming",
@@ -54,9 +54,9 @@ export const ALL_PANELS: PanelData[] = [
     ],
     faqs: [
       { q: "What is the B1G IPTV reseller panel?", a: "B1G IPTV is a premium white label IPTV reseller panel that gives resellers a dashboard to create and manage IPTV subscriptions using credits. It supports Xtream Codes, M3U, and MAG box connections with 4K streaming quality." },
-      { q: "How do I buy B1G IPTV reseller credits?", a: "Contact Fox IPTV Panels on WhatsApp to purchase B1G reseller credits instantly. Credits are activated within minutes and can be used immediately to create customer subscriptions." },
+      { q: "How do I buy B1G IPTV reseller credits?", a: "Contact IPTV Reseller on WhatsApp to purchase B1G reseller credits instantly. Credits are activated within minutes and can be used immediately to create customer subscriptions." },
       { q: "Does the B1G panel support MAG boxes and Smart TVs?", a: "Yes. B1G IPTV supports MAG box, Smart TV, M3U players, and Xtream Codes-compatible apps — covering every streaming device your customers use." },
-      { q: "Is there a B1G IPTV reseller panel free trial?", a: "Yes. Fox IPTV Panels offers a free trial on the B1G IPTV reseller panel. Contact us on WhatsApp to request your trial access before committing to a credit package." },
+      { q: "Is there a B1G IPTV reseller panel free trial?", a: "Yes. IPTV Reseller offers a free trial on the B1G IPTV reseller panel. Contact us on WhatsApp to request your trial access before committing to a credit package." },
     ],
     relatedSlugs: ["strong-4k-iptv-reseller-panel", "lion-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel"],
   },
@@ -64,7 +64,7 @@ export const ALL_PANELS: PanelData[] = [
     name: "Strong 4K",
     slug: "strong-4k-iptv-reseller-panel",
     tagline: "Strong 4K IPTV Reseller Panel — #1 Premium 4K Panel for Top Resellers",
-    description: "Strong 4K is the most popular premium IPTV reseller panel for serious resellers seeking top-tier 4K and 8K streaming quality. With an advanced reseller dashboard and exceptional uptime, Strong 4K is the top pick on Fox IPTV Panels.",
+    description: "Strong 4K is the most popular premium IPTV reseller panel for serious resellers seeking top-tier 4K and 8K streaming quality. With an advanced reseller dashboard and exceptional uptime, Strong 4K is the top pick on IPTV Reseller.",
     longDescription: "Strong 4K delivers unmatched streaming quality with dedicated 4K and 8K servers, zero-buffering technology, and a feature-rich reseller control panel. Manage thousands of customer subscriptions, allocate credits in bulk, create free trials, and monitor uptime in real time. The most trusted IPTV reseller panel for premium resellers in 2026.",
     quality: "4K / 8K Ultra HD",
     qualityBadge: "4K & 8K",
@@ -93,7 +93,7 @@ export const ALL_PANELS: PanelData[] = [
     ],
     faqs: [
       { q: "What makes Strong 4K the best IPTV reseller panel?", a: "Strong 4K combines 4K and 8K streaming quality with an advanced reseller dashboard, zero-buffering servers, and wholesale credit pricing — making it the top-rated IPTV reseller panel for high-volume businesses in 2026." },
-      { q: "How do I become a Strong 4K IPTV reseller?", a: "Contact Fox IPTV Panels on WhatsApp. We'll set up your Strong 4K reseller panel login, provide instant credit activation, and guide you through your first subscriptions." },
+      { q: "How do I become a Strong 4K IPTV reseller?", a: "Contact IPTV Reseller on WhatsApp. We'll set up your Strong 4K reseller panel login, provide instant credit activation, and guide you through your first subscriptions." },
       { q: "Does Strong 4K support 8K streaming?", a: "Yes. Strong 4K supports both 4K Ultra HD and 8K streaming on compatible devices. It's one of the few IPTV reseller panels offering 8K content to end users." },
       { q: "What is the profit margin on the Strong 4K reseller panel?", a: "Strong 4K resellers typically earn 40–150%+ profit margins depending on their bulk credit pricing and customer subscription rates. The more credits you buy wholesale, the higher your margins." },
     ],
@@ -133,7 +133,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the Strong 8K IPTV reseller panel?", a: "Strong 8K is an ultra-premium IPTV reseller panel offering true 8K streaming quality through a white label reseller dashboard with Xtream Codes, M3U, and MAG box support." },
       { q: "Who should use the Strong 8K reseller panel?", a: "Strong 8K is best for IPTV resellers targeting premium customers who want the highest possible streaming quality — hotels, sports bars, or high-end residential customers." },
-      { q: "Is Strong 8K available in the UK and USA?", a: "Yes. Strong 8K IPTV reseller panel is available to resellers globally including the UK, USA, the EU, and beyond through Fox IPTV Panels." },
+      { q: "Is Strong 8K available in the UK and USA?", a: "Yes. Strong 8K IPTV reseller panel is available to resellers globally including the UK, USA, the EU, and beyond through IPTV Reseller." },
       { q: "How does Strong 8K compare to Strong 4K?", a: "Strong 8K offers higher streaming resolution (true 8K vs 4K) with dedicated premium server infrastructure. Both use the same reseller credit system but Strong 8K is positioned for elite, high-paying customer segments." },
     ],
     relatedSlugs: ["strong-4k-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel"],
@@ -172,7 +172,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the 4K OTT IPTV reseller panel?", a: "4K OTT is a reliable IPTV reseller panel with a simple dashboard for managing IPTV subscriptions and credits. It supports 4K streaming via Xtream Codes, M3U, and MAG box connections." },
       { q: "Is 4K OTT good for beginner resellers?", a: "Yes. 4K OTT has one of the most user-friendly reseller dashboards, making it a great starting point for new IPTV resellers who are learning the credit system." },
-      { q: "How do I get started with 4K OTT reseller credits?", a: "Contact Fox IPTV Panels on WhatsApp. We'll set up your 4K OTT reseller panel and provide instant credit activation so you can start creating customer subscriptions immediately." },
+      { q: "How do I get started with 4K OTT reseller credits?", a: "Contact IPTV Reseller on WhatsApp. We'll set up your 4K OTT reseller panel and provide instant credit activation so you can start creating customer subscriptions immediately." },
     ],
     relatedSlugs: ["lion-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel", "extra-ott-iptv-reseller-panel", "max-ott-iptv-reseller-panel"],
   },
@@ -180,7 +180,7 @@ export const ALL_PANELS: PanelData[] = [
     name: "Lion OTT",
     slug: "lion-ott-iptv-reseller-panel",
     tagline: "Lion OTT IPTV Reseller Panel — Best IPTV Panel for Beginner Resellers",
-    description: "Lion OTT is the most beginner-friendly IPTV reseller panel available through Fox IPTV Panels. With an easy dashboard, fast support, and stable 4K servers, Lion OTT is the #1 recommended starting point for new IPTV resellers.",
+    description: "Lion OTT is the most beginner-friendly IPTV reseller panel available through IPTV Reseller. With an easy dashboard, fast support, and stable 4K servers, Lion OTT is the #1 recommended starting point for new IPTV resellers.",
     longDescription: "Lion OTT is specifically designed to make IPTV reselling accessible to newcomers. The simplified dashboard makes credit management, subscription creation, and customer management straightforward from day one. With fast WhatsApp support and reliable 4K streaming, Lion OTT helps beginners build a profitable IPTV business quickly — without needing technical experience.",
     quality: "4K Ultra HD",
     qualityBadge: "4K Streaming",
@@ -209,9 +209,9 @@ export const ALL_PANELS: PanelData[] = [
     ],
     faqs: [
       { q: "Why is Lion OTT the best IPTV panel for beginners?", a: "Lion OTT has the simplest reseller dashboard of all panels — making credit purchases, subscription creation, and customer management easy for first-time IPTV resellers with zero technical background." },
-      { q: "Can I start an IPTV reseller business with Lion OTT without investment?", a: "Yes. Lion OTT has one of the lowest entry-point credit packages through Fox IPTV Panels, making it possible to start your IPTV reselling business with minimal upfront investment." },
+      { q: "Can I start an IPTV reseller business with Lion OTT without investment?", a: "Yes. Lion OTT has one of the lowest entry-point credit packages through IPTV Reseller, making it possible to start your IPTV reselling business with minimal upfront investment." },
       { q: "Does Lion OTT have good streaming quality?", a: "Yes. Lion OTT delivers stable 4K Ultra HD streaming with minimal buffering, making it suitable for customers who expect high-quality IPTV." },
-      { q: "Is there a Lion OTT IPTV reseller panel free trial?", a: "Yes. Fox IPTV Panels offers a free trial on the Lion OTT reseller panel. Message us on WhatsApp to request your trial before purchasing credits." },
+      { q: "Is there a Lion OTT IPTV reseller panel free trial?", a: "Yes. IPTV Reseller offers a free trial on the Lion OTT reseller panel. Message us on WhatsApp to request your trial before purchasing credits." },
     ],
     relatedSlugs: ["4k-ott-iptv-reseller-panel", "crystal-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel", "dino-iptv-reseller-panel"],
   },
@@ -249,7 +249,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the Ultra 8K OTT IPTV reseller panel?", a: "Ultra 8K OTT is an elite IPTV reseller panel offering true 8K Ultra HD streaming via Xtream Codes, M3U, and MAG box — with a professional dashboard for managing reseller credits and subscriptions." },
       { q: "Who is Ultra 8K OTT designed for?", a: "Ultra 8K OTT is designed for established IPTV resellers who want to target premium customers — hotels, sports venues, or high-end residential clients — with the highest possible streaming quality." },
-      { q: "How does Ultra 8K OTT compare to Strong 8K?", a: "Both are top-tier 8K panels. Ultra 8K OTT is known for its dedicated bandwidth and consistency, while Strong 8K is known for its advanced dashboard features. Fox IPTV Panels can help you compare and choose the right one." },
+      { q: "How does Ultra 8K OTT compare to Strong 8K?", a: "Both are top-tier 8K panels. Ultra 8K OTT is known for its dedicated bandwidth and consistency, while Strong 8K is known for its advanced dashboard features. IPTV Reseller can help you compare and choose the right one." },
     ],
     relatedSlugs: ["strong-8k-iptv-reseller-panel", "strong-4k-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel", "nexon-iptv-reseller-panel"],
   },
@@ -258,7 +258,7 @@ export const ALL_PANELS: PanelData[] = [
     slug: "dino-iptv-reseller-panel",
     tagline: "Dino IPTV Reseller Panel — Stable & Reliable IPTV Panel for All Resellers",
     description: "Dino IPTV is a reliable, well-established IPTV reseller panel with consistent streaming performance and a clean reseller dashboard. A solid choice for resellers who prioritize stability and uptime for their customer base.",
-    longDescription: "Dino IPTV has built a reputation for exceptional server stability and consistent streaming quality. With support for all major connection types — Xtream Codes, M3U, MAG box — and a straightforward reseller credit system, Dino IPTV is a dependable backbone for any IPTV reselling business. Available through Fox IPTV Panels with instant credit activation.",
+    longDescription: "Dino IPTV has built a reputation for exceptional server stability and consistent streaming quality. With support for all major connection types — Xtream Codes, M3U, MAG box — and a straightforward reseller credit system, Dino IPTV is a dependable backbone for any IPTV reselling business. Available through IPTV Reseller with instant credit activation.",
     quality: "4K Ultra HD",
     qualityBadge: "4K Streaming",
     support: "24/7",
@@ -286,7 +286,7 @@ export const ALL_PANELS: PanelData[] = [
     ],
     faqs: [
       { q: "What is the Dino IPTV reseller panel?", a: "Dino IPTV is a stable, reliable IPTV reseller panel with consistent 4K streaming and a clean reseller dashboard. It's trusted by resellers who prioritize uptime and server reliability." },
-      { q: "How do I get Dino IPTV reseller credits?", a: "Contact Fox IPTV Panels on WhatsApp. We provide instant Dino IPTV reseller credits with activation in minutes, plus full setup support." },
+      { q: "How do I get Dino IPTV reseller credits?", a: "Contact IPTV Reseller on WhatsApp. We provide instant Dino IPTV reseller credits with activation in minutes, plus full setup support." },
       { q: "Is Dino IPTV good for customer retention?", a: "Yes. Dino IPTV's server stability and no-buffering performance leads to high customer satisfaction and strong subscription renewal rates — key for building recurring income." },
     ],
     relatedSlugs: ["lion-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel", "trex-ott-iptv-reseller-panel", "zen-4k-iptv-reseller-panel"],
@@ -325,7 +325,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the T-Rex OTT IPTV reseller panel?", a: "T-Rex OTT is a feature-rich IPTV reseller panel offering 4K streaming with a comprehensive dashboard for credit management, subscription creation, and customer tracking." },
       { q: "Is T-Rex OTT suitable for bulk resellers?", a: "Yes. T-Rex OTT's credit system scales well from small bundles to large wholesale packages, making it effective for both growing and high-volume IPTV resellers." },
-      { q: "How do I start with T-Rex OTT?", a: "Message Fox IPTV Panels on WhatsApp. We'll activate your T-Rex OTT reseller panel with instant credit access and provide full onboarding guidance." },
+      { q: "How do I start with T-Rex OTT?", a: "Message IPTV Reseller on WhatsApp. We'll activate your T-Rex OTT reseller panel with instant credit access and provide full onboarding guidance." },
     ],
     relatedSlugs: ["dino-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "extra-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel"],
   },
@@ -372,7 +372,7 @@ export const ALL_PANELS: PanelData[] = [
     slug: "extra-ott-iptv-reseller-panel",
     tagline: "Extra OTT IPTV Reseller Panel — Extra Features, Extra Value for Resellers",
     description: "Extra OTT is a feature-packed IPTV reseller panel offering comprehensive tools for managing subscriptions, credits, and customers — with reliable 4K streaming and great value credit pricing.",
-    longDescription: "Extra OTT earns its name by delivering more features than standard panels — advanced credit management, detailed customer analytics, trial subscription tools, and support for all connection types. For resellers who want a complete toolkit without the premium price tag, Extra OTT is the ideal choice through Fox IPTV Panels.",
+    longDescription: "Extra OTT earns its name by delivering more features than standard panels — advanced credit management, detailed customer analytics, trial subscription tools, and support for all connection types. For resellers who want a complete toolkit without the premium price tag, Extra OTT is the ideal choice through IPTV Reseller.",
     quality: "4K Ultra HD",
     qualityBadge: "4K Streaming",
     support: "24/7",
@@ -401,7 +401,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What makes Extra OTT stand out as a reseller panel?", a: "Extra OTT offers more built-in dashboard features than most panels — including detailed analytics, advanced trial tools, and comprehensive credit management — at competitive pricing." },
       { q: "Does Extra OTT support all IPTV connection types?", a: "Yes. Extra OTT supports Xtream Codes, M3U reseller panel output, and MAG box connections — covering all devices your customers use." },
-      { q: "How do I buy Extra OTT reseller credits?", a: "Contact Fox IPTV Panels on WhatsApp to purchase Extra OTT credits. Activation is instant and you can start creating customer subscriptions immediately." },
+      { q: "How do I buy Extra OTT reseller credits?", a: "Contact IPTV Reseller on WhatsApp to purchase Extra OTT credits. Activation is instant and you can start creating customer subscriptions immediately." },
     ],
     relatedSlugs: ["max-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "4k-ott-iptv-reseller-panel", "trex-ott-iptv-reseller-panel"],
   },
@@ -410,7 +410,7 @@ export const ALL_PANELS: PanelData[] = [
     slug: "max-ott-iptv-reseller-panel",
     tagline: "Max OTT IPTV Reseller Panel — Maximum Features for Serious Resellers",
     description: "Max OTT lives up to its name — delivering maximum features, maximum stability, and maximum value for IPTV resellers. With an advanced dashboard and excellent 4K streaming, Max OTT is a top performer for growing and established resellers alike.",
-    longDescription: "Max OTT is built around the philosophy of giving resellers everything they need in one comprehensive package. Advanced subscription management, bulk credit tools, customer analytics, and top-grade 4K streaming combine to make Max OTT one of the most well-rounded IPTV reseller panels available through Fox IPTV Panels.",
+    longDescription: "Max OTT is built around the philosophy of giving resellers everything they need in one comprehensive package. Advanced subscription management, bulk credit tools, customer analytics, and top-grade 4K streaming combine to make Max OTT one of the most well-rounded IPTV reseller panels available through IPTV Reseller.",
     quality: "4K Ultra HD",
     qualityBadge: "4K Streaming",
     support: "24/7",
@@ -477,7 +477,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What makes Zen 4K unique as a reseller panel?", a: "Zen 4K is known for its exceptionally clean, minimal dashboard design — making it one of the most intuitive IPTV reseller panels to navigate, while still delivering premium 4K streaming quality." },
       { q: "Is Zen 4K suitable for new IPTV resellers?", a: "Yes. The clean interface makes Zen 4K accessible to beginners, while its 4K streaming quality and strong uptime make it a long-term platform for growing resellers." },
-      { q: "How do I access the Zen 4K reseller panel?", a: "Contact Fox IPTV Panels on WhatsApp to receive your Zen 4K reseller panel login credentials and instant credit activation." },
+      { q: "How do I access the Zen 4K reseller panel?", a: "Contact IPTV Reseller on WhatsApp to receive your Zen 4K reseller panel login credentials and instant credit activation." },
     ],
     relatedSlugs: ["lion-ott-iptv-reseller-panel", "dino-iptv-reseller-panel", "crystal-ott-iptv-reseller-panel", "4k-ott-iptv-reseller-panel"],
   },
@@ -515,7 +515,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "Who is Nexon IPTV reseller panel best for?", a: "Nexon is best for established IPTV businesses managing large subscriber volumes — its enterprise dashboard, advanced bulk tools, and superior uptime make it ideal for professional IPTV resellers." },
       { q: "Does Nexon have the best IPTV reseller dashboard features?", a: "Nexon is one of the most feature-complete reseller dashboards available, with automated credit management, detailed analytics, and comprehensive subscriber tracking at enterprise scale." },
-      { q: "Is Nexon available in the UK and USA?", a: "Yes. Nexon IPTV is available globally through Fox IPTV Panels including the UK, USA, the EU, and beyond with geo-optimized servers for each region." },
+      { q: "Is Nexon available in the UK and USA?", a: "Yes. Nexon IPTV is available globally through IPTV Reseller including the UK, USA, the EU, and beyond with geo-optimized servers for each region." },
     ],
     relatedSlugs: ["strong-4k-iptv-reseller-panel", "max-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel"],
   },
@@ -523,7 +523,7 @@ export const ALL_PANELS: PanelData[] = [
     name: "Infinity Premium",
     slug: "infinity-premium-iptv-reseller-panel",
     tagline: "Infinity Premium IPTV Reseller Panel — Unlimited Potential for Elite Resellers",
-    description: "Infinity Premium lives up to its name — delivering premium streaming quality, an elite reseller dashboard, and unlimited scalability for serious IPTV businesses. The ultimate all-in-one IPTV reseller panel through Fox IPTV Panels.",
+    description: "Infinity Premium lives up to its name — delivering premium streaming quality, an elite reseller dashboard, and unlimited scalability for serious IPTV businesses. The ultimate all-in-one IPTV reseller panel through IPTV Reseller.",
     longDescription: "Infinity Premium combines ultra-reliable streaming infrastructure with the most comprehensive reseller management tools available. From free trial generation to advanced bulk credit management and detailed subscriber analytics, Infinity Premium gives resellers everything needed to run a professional, scalable IPTV business with maximum profit margins.",
     quality: "4K Ultra HD",
     qualityBadge: "4K Streaming",
@@ -553,7 +553,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the Infinity Premium IPTV reseller panel?", a: "Infinity Premium is an elite IPTV reseller panel offering premium 4K streaming, unlimited scalability, and an advanced reseller dashboard with comprehensive credit and subscriber management tools." },
       { q: "What makes Infinity Premium different from other IPTV panels?", a: "The 'Premium' in Infinity Premium refers to its elite-tier server infrastructure, more comprehensive dashboard features, and superior support quality compared to standard IPTV reseller panels." },
-      { q: "Is Infinity Premium suitable for resellers without investment?", a: "While Infinity Premium offers premium quality, Fox IPTV Panels offers flexible credit packages making it accessible even for new resellers starting their IPTV business." },
+      { q: "Is Infinity Premium suitable for resellers without investment?", a: "While Infinity Premium offers premium quality, IPTV Reseller offers flexible credit packages making it accessible even for new resellers starting their IPTV business." },
     ],
     relatedSlugs: ["nexon-iptv-reseller-panel", "strong-4k-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "max-ott-iptv-reseller-panel"],
   },
@@ -590,7 +590,7 @@ export const ALL_PANELS: PanelData[] = [
     ],
     faqs: [
       { q: "Is GTV one of the cheapest IPTV reseller panels?", a: "GTV offers some of the most competitive credit pricing in the market, making it one of the best value IPTV reseller panels for resellers looking to maximize profit margins." },
-      { q: "What is the GTV IPTV reseller panel?", a: "GTV is a value-optimized IPTV reseller panel with reliable 4K streaming, Xtream Codes & M3U support, and a clean reseller dashboard — all at competitive credit prices through Fox IPTV Panels." },
+      { q: "What is the GTV IPTV reseller panel?", a: "GTV is a value-optimized IPTV reseller panel with reliable 4K streaming, Xtream Codes & M3U support, and a clean reseller dashboard — all at competitive credit prices through IPTV Reseller." },
       { q: "Is GTV suitable for beginner IPTV resellers?", a: "Yes. GTV's clean dashboard and competitive pricing make it an accessible and profitable starting point for new IPTV resellers on a budget." },
     ],
     relatedSlugs: ["opplex-iptv-reseller-panel", "geo-iptv-reseller-panel", "lion-ott-iptv-reseller-panel", "4k-ott-iptv-reseller-panel"],
@@ -667,7 +667,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the Star Share IPTV reseller panel?", a: "Star Share is an IPTV reseller panel with a flexible shared-access model, offering a broad channel selection and competitive credit pricing for resellers who want diverse content options." },
       { q: "How does Star Share's shared-access model work for resellers?", a: "The shared-access model allows resellers to provide customers access to a broad content library at competitive pricing — maximizing value for both reseller and end customer." },
-      { q: "Is Star Share available through Fox IPTV Panels?", a: "Yes. Fox IPTV Panels provides Star Share reseller credits with instant activation and full setup support via WhatsApp." },
+      { q: "Is Star Share available through IPTV Reseller?", a: "Yes. IPTV Reseller provides Star Share reseller credits with instant activation and full setup support via WhatsApp." },
     ],
     relatedSlugs: ["tiger-ott-iptv-reseller-panel", "geo-iptv-reseller-panel", "gtv-iptv-reseller-panel", "opplex-iptv-reseller-panel"],
   },
@@ -705,7 +705,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "Why is Tiger OTT called a fast IPTV reseller panel?", a: "Tiger OTT is engineered for speed — from fast server loading times to quick credit activation and streamlined subscription creation — making it one of the fastest IPTV panels to deploy and sell from." },
       { q: "Does Tiger OTT offer good streaming quality?", a: "Yes. Tiger OTT delivers stable 4K Ultra HD streaming across Xtream Codes, M3U, and MAG box connections with strong uptime and minimal buffering." },
-      { q: "How do I get Tiger OTT reseller credits?", a: "Contact Fox IPTV Panels on WhatsApp. Tiger OTT credits are activated instantly so you can start creating customer subscriptions right away." },
+      { q: "How do I get Tiger OTT reseller credits?", a: "Contact IPTV Reseller on WhatsApp. Tiger OTT credits are activated instantly so you can start creating customer subscriptions right away." },
     ],
     relatedSlugs: ["starshare-iptv-reseller-panel", "trex-ott-iptv-reseller-panel", "dino-iptv-reseller-panel", "opplex-iptv-reseller-panel"],
   },
@@ -714,7 +714,7 @@ export const ALL_PANELS: PanelData[] = [
     slug: "opplex-iptv-reseller-panel",
     tagline: "Opplex IPTV Reseller Panel — Popular Budget-Friendly Panel for Resellers",
     description: "Opplex is one of the most popular budget-friendly IPTV reseller panels, offering solid streaming quality and a straightforward dashboard at affordable credit pricing. A top choice for price-conscious resellers targeting budget customers.",
-    longDescription: "Opplex has earned widespread popularity among IPTV resellers for delivering dependable performance at competitive prices. The straightforward reseller dashboard makes managing customers and credits simple, while reliable streaming quality ensures good customer satisfaction. A proven, popular IPTV reseller panel available through Fox IPTV Panels.",
+    longDescription: "Opplex has earned widespread popularity among IPTV resellers for delivering dependable performance at competitive prices. The straightforward reseller dashboard makes managing customers and credits simple, while reliable streaming quality ensures good customer satisfaction. A proven, popular IPTV reseller panel available through IPTV Reseller.",
     quality: "HD / 4K",
     qualityBadge: "HD & 4K",
     support: "24/7",
@@ -743,7 +743,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "Is Opplex the cheapest IPTV reseller panel?", a: "Opplex offers some of the most affordable credit pricing available — making it one of the most competitive and popular budget IPTV reseller panels for cost-conscious resellers." },
       { q: "Why is Opplex so popular among IPTV resellers?", a: "Opplex's combination of affordable pricing, decent streaming quality, and a simple dashboard has made it one of the most widely used IPTV panels for budget-focused reselling." },
-      { q: "Does Opplex have a free trial for resellers?", a: "Yes. Fox IPTV Panels offers a free trial on the Opplex reseller panel. Contact us on WhatsApp to request trial access." },
+      { q: "Does Opplex have a free trial for resellers?", a: "Yes. IPTV Reseller offers a free trial on the Opplex reseller panel. Contact us on WhatsApp to request trial access." },
     ],
     relatedSlugs: ["gtv-iptv-reseller-panel", "geo-iptv-reseller-panel", "starshare-iptv-reseller-panel", "lion-ott-iptv-reseller-panel"],
   },
@@ -781,7 +781,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the GEO IPTV reseller panel?", a: "GEO IPTV is a geographically optimized IPTV reseller panel using distributed server infrastructure to deliver stable, low-latency 4K streaming to customers in different countries and regions." },
       { q: "Is GEO IPTV good for resellers in the UK and the EU?", a: "Yes. GEO IPTV has servers optimized for multiple regions including the UK, USA, the EU, and the Middle East — making it ideal for resellers with international customer bases." },
-      { q: "How do I get GEO IPTV reseller credits?", a: "Contact Fox IPTV Panels on WhatsApp for instant GEO IPTV credit activation. We'll set up your reseller panel and guide you through your first international customer subscriptions." },
+      { q: "How do I get GEO IPTV reseller credits?", a: "Contact IPTV Reseller on WhatsApp for instant GEO IPTV credit activation. We'll set up your reseller panel and guide you through your first international customer subscriptions." },
     ],
     relatedSlugs: ["starshare-iptv-reseller-panel", "opplex-iptv-reseller-panel", "gtv-iptv-reseller-panel", "5g-live-iptv-reseller-panel"],
   },
@@ -819,7 +819,7 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the 5G Live IPTV reseller panel?", a: "5G Live is a next-generation IPTV reseller panel with ultra-low-latency servers optimized for high-speed networks, delivering seamless 4K streaming with a modern reseller management dashboard." },
       { q: "Does 5G Live require customers to have 5G internet?", a: "No. 5G Live works on all broadband connections. The '5G' refers to its high-speed server infrastructure — customers with any fast broadband connection will benefit from the low-latency streaming." },
-      { q: "Is 5G Live available as an IPTV reseller panel in the UK and USA?", a: "Yes. 5G Live IPTV is available to resellers globally through Fox IPTV Panels including the UK, USA, and the EU with geo-optimized server delivery." },
+      { q: "Is 5G Live available as an IPTV reseller panel in the UK and USA?", a: "Yes. 5G Live IPTV is available to resellers globally through IPTV Reseller including the UK, USA, and the EU with geo-optimized server delivery." },
     ],
     relatedSlugs: ["geo-iptv-reseller-panel", "tiger-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel", "zen-4k-iptv-reseller-panel"],
   },
@@ -828,7 +828,7 @@ export const ALL_PANELS: PanelData[] = [
     slug: "magnum-golden-ott-iptv-reseller-panel",
     tagline: "Magnum Golden OTT IPTV Reseller Panel — Gold Standard IPTV for Premium Resellers",
     description: "Magnum Golden OTT is a premium gold-tier IPTV reseller panel combining luxurious streaming quality with comprehensive reseller management tools. For resellers who want to offer their customers the gold standard in IPTV — Magnum Golden OTT delivers.",
-    longDescription: "Magnum Golden OTT sets the gold standard for IPTV reselling with its premium server infrastructure, rich channel content library, and a full-featured reseller dashboard. The golden-tier positioning allows resellers to command premium subscription pricing while maintaining excellent margins through competitive bulk credit packages from Fox IPTV Panels.",
+    longDescription: "Magnum Golden OTT sets the gold standard for IPTV reselling with its premium server infrastructure, rich channel content library, and a full-featured reseller dashboard. The golden-tier positioning allows resellers to command premium subscription pricing while maintaining excellent margins through competitive bulk credit packages from IPTV Reseller.",
     quality: "4K Ultra HD",
     qualityBadge: "4K Premium",
     support: "24/7",
@@ -857,8 +857,8 @@ export const ALL_PANELS: PanelData[] = [
     faqs: [
       { q: "What is the Magnum Golden OTT IPTV reseller panel?", a: "Magnum Golden OTT is a premium gold-tier IPTV reseller panel offering rich content, 4K streaming quality, and a comprehensive reseller dashboard — positioned at the premium end of the IPTV market." },
       { q: "What kind of customers is Magnum Golden OTT best for?", a: "Magnum Golden OTT is ideal for customers who want a premium, all-inclusive IPTV experience — broad channel selection, premium quality, and reliable streaming. Resellers can command higher subscription prices with the Magnum brand." },
-      { q: "How do I become a Magnum Golden OTT IPTV reseller?", a: "Contact Fox IPTV Panels on WhatsApp to purchase Magnum Golden OTT reseller credits. We'll activate your reseller panel and provide full setup support immediately." },
-      { q: "Is there a free trial for Magnum Golden OTT?", a: "Yes. Fox IPTV Panels offers free trial access to the Magnum Golden OTT reseller panel. Message us on WhatsApp to get your trial started." },
+      { q: "How do I become a Magnum Golden OTT IPTV reseller?", a: "Contact IPTV Reseller on WhatsApp to purchase Magnum Golden OTT reseller credits. We'll activate your reseller panel and provide full setup support immediately." },
+      { q: "Is there a free trial for Magnum Golden OTT?", a: "Yes. IPTV Reseller offers free trial access to the Magnum Golden OTT reseller panel. Message us on WhatsApp to get your trial started." },
     ],
     relatedSlugs: ["infinity-premium-iptv-reseller-panel", "strong-4k-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel"],
   },
@@ -873,7 +873,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
   "b1g-iptv-reseller-panel": {
     "sv": {
       tagline: "B1G IPTV Återförsäljarpanel — Stabil 4K-strömning för seriösa återförsäljare i Sverige",
-      description: "B1G IPTV är en premium IPTV-återförsäljarpanel som används av tusentals återförsäljare i Sverige och hela världen. Med 4K-strömning utan buffring, stöd för Xtream Codes och omedelbar aktivering av krediter är B1G ett av de mest pålitliga IPTV-panelerna via Fox IPTV Panels.",
+      description: "B1G IPTV är en premium IPTV-återförsäljarpanel som används av tusentals återförsäljare i Sverige och hela världen. Med 4K-strömning utan buffring, stöd för Xtream Codes och omedelbar aktivering av krediter är B1G ett av de mest pålitliga IPTV-panelerna via IPTV Reseller.",
       longDescription: "B1G IPTV levererar konsekvent högkvalitativ strömning med en professionell och snygg återförsäljarpanel. Det kreditbaserade systemet gör det möjligt för återförsäljare att köpa i bulk och maximera vinstmarginalerna. Oavsett om du betjänar kunder i Sverige, resten av Norden eller internationellt — garanterar B1G:s geo-distribuerade servrar låg latens och flödesfri uppspelning utan buffring på alla enheter med Telia, Tele2 och Telenor.",
       features: [
         "Stöd för Xtream Codes & M3U återförsäljarpanel",
@@ -895,14 +895,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Vad är B1G IPTV återförsäljarpanel?", a: "B1G IPTV är en premium white label IPTV-återförsäljarpanel som ger återförsäljare en kontrollpanel för att skapa och hantera IPTV-prenumerationer med krediter. Den stöder Xtream Codes, M3U och MAG-anslutningar med 4K-strömningskvalitet — perfekt för den svenska marknaden." },
-        { q: "Hur köper jag B1G IPTV-återförsäljarkrediter i Sverige?", a: "Kontakta Fox IPTV Panels på WhatsApp för att köpa B1G-återförsäljarkrediter omedelbart. Krediterna aktiveras inom några minuter och kan användas direkt för att skapa kundprenumerationer." },
+        { q: "Hur köper jag B1G IPTV-återförsäljarkrediter i Sverige?", a: "Kontakta IPTV Reseller på WhatsApp för att köpa B1G-återförsäljarkrediter omedelbart. Krediterna aktiveras inom några minuter och kan användas direkt för att skapa kundprenumerationer." },
         { q: "Stöder B1G-panelen MAG-boxar och Smart TV?", a: "Ja. B1G IPTV stöder MAG-box, Smart TV, M3U-spelare och Xtream Codes-kompatibla appar — täcker varje streamingenhet som dina kunder i Sverige och Norden använder." },
-        { q: "Finns det ett gratis provkonto för B1G IPTV återförsäljarpanel?", a: "Ja. Fox IPTV Panels erbjuder ett gratis testabonnemang på B1G IPTV återförsäljarpanelen. Kontakta oss på WhatsApp för att begära din teståtkomst innan du köper ett kreditpaket." },
+        { q: "Finns det ett gratis provkonto för B1G IPTV återförsäljarpanel?", a: "Ja. IPTV Reseller erbjuder ett gratis testabonnemang på B1G IPTV återförsäljarpanelen. Kontakta oss på WhatsApp för att begära din teståtkomst innan du köper ett kreditpaket." },
       ],
     },
     "no": {
       tagline: "B1G IPTV Forhandlerpanel — Stabil 4K-strømming for seriøse forhandlere i Norge",
-      description: "B1G IPTV er et premium IPTV-forhandlerpanel som brukes av tusenvis av forhandlere i Norge og hele verden. Med 4K-strømming uten bufring, støtte for Xtream Codes og øyeblikkelig aktivering av kreditter er B1G et av de mest pålitelige IPTV-panelene tilgjengelig gjennom Fox IPTV Panels.",
+      description: "B1G IPTV er et premium IPTV-forhandlerpanel som brukes av tusenvis av forhandlere i Norge og hele verden. Med 4K-strømming uten bufring, støtte for Xtream Codes og øyeblikkelig aktivering av kreditter er B1G et av de mest pålitelige IPTV-panelene tilgjengelig gjennom IPTV Reseller.",
       longDescription: "B1G IPTV leverer konsekvent høykvalitets strømming med et rent og profesjonelt forhandlerdashboard. Det kreditbaserte systemet lar forhandlere kjøpe i bulk og maksimere fortjenestemarginene. Enten du betjener kunder i Norge, Skandinavia eller internasjonalt — sikrer B1G sine geo-distribuerte servere lav latens og bufringsfri avspilling på alle enheter med Telenor, Telia og Altibox.",
       features: [
         "Støtte for Xtream Codes & M3U forhandlerpanel",
@@ -924,14 +924,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Hva er B1G IPTV forhandlerpanel?", a: "B1G IPTV er et premium white label IPTV-forhandlerpanel som gir forhandlere et dashboard for å opprette og administrere IPTV-abonnementer med kreditter. Det støtter Xtream Codes, M3U og MAG-tilkoblinger med 4K-strømmingskvalitet — ideelt for det norske markedet." },
-        { q: "Hvordan kjøper jeg B1G IPTV-forhandlerkreditter i Norge?", a: "Kontakt Fox IPTV Panels på WhatsApp for å kjøpe B1G forhandlerkreditter umiddelbart. Kredittene aktiveres i løpet av minutter og kan brukes til å opprette kundeabonnementer med en gang." },
+        { q: "Hvordan kjøper jeg B1G IPTV-forhandlerkreditter i Norge?", a: "Kontakt IPTV Reseller på WhatsApp for å kjøpe B1G forhandlerkreditter umiddelbart. Kredittene aktiveres i løpet av minutter og kan brukes til å opprette kundeabonnementer med en gang." },
         { q: "Støtter B1G-panelet MAG-bokser og Smart TV?", a: "Ja. B1G IPTV støtter MAG-boks, Smart TV, M3U-spillere og Xtream Codes-kompatible apper — dekker alle strømmeenheter kundene dine i Norge bruker." },
-        { q: "Finnes det et gratis prøveabonnement for B1G IPTV forhandlerpanel?", a: "Ja. Fox IPTV Panels tilbyr en gratis prøveperiode på B1G IPTV forhandlerpanelet. Kontakt oss på WhatsApp for å be om prøvetilgang før du forplikter deg til en kredittspakke." },
+        { q: "Finnes det et gratis prøveabonnement for B1G IPTV forhandlerpanel?", a: "Ja. IPTV Reseller tilbyr en gratis prøveperiode på B1G IPTV forhandlerpanelet. Kontakt oss på WhatsApp for å be om prøvetilgang før du forplikter deg til en kredittspakke." },
       ],
     },
     "en-gb": {
       tagline: "B1G IPTV Reseller Panel — Stable 4K Streaming for Serious UK Resellers",
-      description: "B1G IPTV is a premium reseller panel trusted by thousands of IPTV resellers across the United Kingdom and beyond. With 4K streaming, Xtream Codes support, and instant credit activation, B1G is one of the most reliable IPTV panels available through Fox IPTV Panels — optimised for UK broadband with BT, Virgin Media, and Sky.",
+      description: "B1G IPTV is a premium reseller panel trusted by thousands of IPTV resellers across the United Kingdom and beyond. With 4K streaming, Xtream Codes support, and instant credit activation, B1G is one of the most reliable IPTV panels available through IPTV Reseller — optimised for UK broadband with BT, Virgin Media, and Sky.",
       longDescription: "B1G IPTV delivers consistent high-quality streaming with a clean, professional reseller dashboard. The credit-based system allows British resellers to buy in bulk and maximise profit margins across their customer base. Whether you're serving customers across the UK, Europe, or further afield — B1G's geo-distributed servers ensure low latency and no-buffering playback on every device, fully optimised for UK broadband speeds.",
       features: [
         "Xtream Codes & M3U reseller panel support",
@@ -953,14 +953,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "What is the B1G IPTV reseller panel?", a: "B1G IPTV is a premium white label IPTV reseller panel giving UK resellers a dashboard to create and manage IPTV subscriptions using credits. It supports Xtream Codes, M3U, and MAG box connections with 4K streaming quality — perfectly suited to UK broadband from BT, Virgin Media, and Sky." },
-        { q: "How do I buy B1G IPTV reseller credits in the UK?", a: "Contact Fox IPTV Panels on WhatsApp to purchase B1G reseller credits instantly. Credits are activated within minutes and can be used immediately to create customer subscriptions across the UK." },
+        { q: "How do I buy B1G IPTV reseller credits in the UK?", a: "Contact IPTV Reseller on WhatsApp to purchase B1G reseller credits instantly. Credits are activated within minutes and can be used immediately to create customer subscriptions across the UK." },
         { q: "Does the B1G panel support MAG boxes and Smart TVs?", a: "Yes. B1G IPTV supports MAG box, Smart TV, M3U players, and Xtream Codes-compatible apps — covering every streaming device your British customers use, including Fire TV Stick and Android boxes." },
-        { q: "Is there a B1G IPTV reseller panel free trial?", a: "Yes. Fox IPTV Panels offers a free trial on the B1G IPTV reseller panel for UK resellers. Contact us on WhatsApp to request your trial access before committing to a credit package." },
+        { q: "Is there a B1G IPTV reseller panel free trial?", a: "Yes. IPTV Reseller offers a free trial on the B1G IPTV reseller panel for UK resellers. Contact us on WhatsApp to request your trial access before committing to a credit package." },
       ],
     },
     "en-au": {
       tagline: "B1G IPTV Reseller Panel — Stable 4K Streaming for Serious Australian Resellers",
-      description: "B1G IPTV is a premium reseller panel trusted by thousands of IPTV resellers across Australia and internationally. With 4K streaming, Xtream Codes support, and instant credit activation, B1G is one of the most reliable IPTV panels available through Fox IPTV Panels — optimised for Australian NBN broadband with Telstra, Optus, and TPG.",
+      description: "B1G IPTV is a premium reseller panel trusted by thousands of IPTV resellers across Australia and internationally. With 4K streaming, Xtream Codes support, and instant credit activation, B1G is one of the most reliable IPTV panels available through IPTV Reseller — optimised for Australian NBN broadband with Telstra, Optus, and TPG.",
       longDescription: "B1G IPTV delivers consistent high-quality streaming with a clean, professional reseller dashboard built for the Australian market. The credit-based system allows Aussie resellers to buy in bulk and maximise profit margins across their customer base. Whether you're serving customers across Australia or internationally — B1G's geo-distributed servers ensure low latency and no-buffering playback on every device, making it the perfect Foxtel alternative for your customers.",
       features: [
         "Xtream Codes & M3U reseller panel support",
@@ -982,9 +982,9 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "What is the B1G IPTV reseller panel?", a: "B1G IPTV is a premium white label IPTV reseller panel giving Australian resellers a dashboard to create and manage IPTV subscriptions using credits. It supports Xtream Codes, M3U, and MAG box connections with 4K streaming quality — optimised for Australia's NBN network with Telstra, Optus, and TPG." },
-        { q: "How do I buy B1G IPTV reseller credits in Australia?", a: "Contact Fox IPTV Panels on WhatsApp to purchase B1G reseller credits instantly. Credits are activated within minutes and can be used immediately to create customer subscriptions anywhere across Australia." },
+        { q: "How do I buy B1G IPTV reseller credits in Australia?", a: "Contact IPTV Reseller on WhatsApp to purchase B1G reseller credits instantly. Credits are activated within minutes and can be used immediately to create customer subscriptions anywhere across Australia." },
         { q: "Does the B1G panel support MAG boxes and Smart TVs?", a: "Yes. B1G IPTV supports MAG box, Smart TV, M3U players, and Xtream Codes-compatible apps — covering every streaming device Australians use, including Android TV boxes and Apple TV." },
-        { q: "Is there a B1G IPTV reseller panel free trial?", a: "Yes. Fox IPTV Panels offers a free trial on the B1G IPTV reseller panel for Australian resellers. Contact us on WhatsApp to request your trial access before committing to a credit package." },
+        { q: "Is there a B1G IPTV reseller panel free trial?", a: "Yes. IPTV Reseller offers a free trial on the B1G IPTV reseller panel for Australian resellers. Contact us on WhatsApp to request your trial access before committing to a credit package." },
       ],
     },
   },
@@ -993,7 +993,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
   "strong-4k-iptv-reseller-panel": {
     "sv": {
       tagline: "Strong 4K IPTV Återförsäljarpanel — Bästa premium-4K-panelen för toppåterförsäljare i Sverige",
-      description: "Strong 4K är den mest populära premium IPTV-återförsäljarpanelen för seriösa återförsäljare i Sverige som söker förstklassig 4K- och 8K-strömningskvalitet. Med en avancerad återförsäljarpanel och exceptionell drifttid är Strong 4K det självklara valet via Fox IPTV Panels.",
+      description: "Strong 4K är den mest populära premium IPTV-återförsäljarpanelen för seriösa återförsäljare i Sverige som söker förstklassig 4K- och 8K-strömningskvalitet. Med en avancerad återförsäljarpanel och exceptionell drifttid är Strong 4K det självklara valet via IPTV Reseller.",
       longDescription: "Strong 4K levererar oöverträffad strömningskvalitet med dedikerade 4K- och 8K-servrar, nollbuffring-teknik och en funktionsrik kontrollpanel för återförsäljare. Hantera tusentals kundprenumerationer, fördela krediter i bulk, skapa gratis provkonton och övervaka drifttiden i realtid. Den mest betrodda IPTV-återförsäljarpanelen för premium-återförsäljare på den svenska marknaden 2026.",
       features: [
         "4K & 8K Ultra HD-strömning utan buffring",
@@ -1015,14 +1015,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Vad gör Strong 4K till den bästa IPTV-återförsäljarpanelen i Sverige?", a: "Strong 4K kombinerar 4K- och 8K-strömningskvalitet med en avancerad återförsäljarpanel, nollbuffring-servrar och grossistpriser på krediter — vilket gör den till den bäst rankade IPTV-återförsäljarpanelen för storskaliga verksamheter på den svenska marknaden 2026." },
-        { q: "Hur blir jag Strong 4K IPTV-återförsäljare i Sverige?", a: "Kontakta Fox IPTV Panels på WhatsApp. Vi ställer in din Strong 4K återförsäljarpanel, ger omedelbar kreditaktivering och vägleder dig genom dina första prenumerationer." },
+        { q: "Hur blir jag Strong 4K IPTV-återförsäljare i Sverige?", a: "Kontakta IPTV Reseller på WhatsApp. Vi ställer in din Strong 4K återförsäljarpanel, ger omedelbar kreditaktivering och vägleder dig genom dina första prenumerationer." },
         { q: "Stöder Strong 4K 8K-strömning?", a: "Ja. Strong 4K stöder både 4K Ultra HD och 8K-strömning på kompatibla enheter. Det är en av få IPTV-återförsäljarpaneler som erbjuder 8K-innehåll till slutanvändare i Sverige och Norden." },
         { q: "Vilken vinstmarginal kan jag förvänta mig som Strong 4K-återförsäljare?", a: "Strong 4K-återförsäljare tjänar typiskt 40–150%+ vinstmarginal beroende på deras grossistpris på krediter och kundprenumerationsavgifter. Ju fler krediter du köper i bulk, desto högre blir dina marginaler." },
       ],
     },
     "no": {
       tagline: "Strong 4K IPTV Forhandlerpanel — Beste premium-4K-panel for toppforhandlere i Norge",
-      description: "Strong 4K er det mest populære premium IPTV-forhandlerpanelet for seriøse forhandlere i Norge som søker toppkvalitets 4K- og 8K-strømming. Med et avansert forhandlerdashboard og eksepsjonell oppetid er Strong 4K det beste valget via Fox IPTV Panels.",
+      description: "Strong 4K er det mest populære premium IPTV-forhandlerpanelet for seriøse forhandlere i Norge som søker toppkvalitets 4K- og 8K-strømming. Med et avansert forhandlerdashboard og eksepsjonell oppetid er Strong 4K det beste valget via IPTV Reseller.",
       longDescription: "Strong 4K leverer uovertruffen strømmingskvalitet med dedikerte 4K- og 8K-servere, nullbufring-teknologi og et funksjonsrikt kontrollpanel for forhandlere. Administrer tusenvis av kundeabonnementer, fordel kreditter i bulk, opprett gratis prøvekontoer og overvåk oppetiden i sanntid. Det mest betrodde IPTV-forhandlerpanelet for premium-forhandlere i det norske markedet 2026.",
       features: [
         "4K & 8K Ultra HD-strømming uten bufring",
@@ -1044,14 +1044,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Hva gjør Strong 4K til det beste IPTV-forhandlerpanelet i Norge?", a: "Strong 4K kombinerer 4K- og 8K-strømmingskvalitet med et avansert forhandlerdashboard, nullbufring-servere og engrospriser på kreditter — noe som gjør det til det best rangerte IPTV-forhandlerpanelet for høyvolumvirksomheter i det norske markedet 2026." },
-        { q: "Hvordan blir jeg Strong 4K IPTV-forhandler i Norge?", a: "Kontakt Fox IPTV Panels på WhatsApp. Vi setter opp ditt Strong 4K forhandlerpanel, gir øyeblikkelig kreditaktivering og veileder deg gjennom dine første abonnementer." },
+        { q: "Hvordan blir jeg Strong 4K IPTV-forhandler i Norge?", a: "Kontakt IPTV Reseller på WhatsApp. Vi setter opp ditt Strong 4K forhandlerpanel, gir øyeblikkelig kreditaktivering og veileder deg gjennom dine første abonnementer." },
         { q: "Støtter Strong 4K 8K-strømming?", a: "Ja. Strong 4K støtter både 4K Ultra HD og 8K-strømming på kompatible enheter. Det er et av få IPTV-forhandlerpaneler som tilbyr 8K-innhold til slutt-brukere i Norge og Skandinavia." },
         { q: "Hvilken fortjenestemargin kan jeg forvente som Strong 4K-forhandler?", a: "Strong 4K-forhandlere tjener typisk 40–150%+ fortjenestemargin avhengig av engrosprisen på kreditter og kundeabonnementsavgifter. Jo flere kreditter du kjøper i bulk, desto høyere blir marginene dine." },
       ],
     },
     "en-gb": {
       tagline: "Strong 4K IPTV Reseller Panel — The #1 Premium 4K Panel for Top UK Resellers",
-      description: "Strong 4K is the most popular premium IPTV reseller panel for serious UK resellers seeking top-tier 4K and 8K streaming quality. With an advanced reseller dashboard, exceptional uptime, and optimised performance across BT, Virgin Media, and Sky broadband — Strong 4K is the top pick on Fox IPTV Panels.",
+      description: "Strong 4K is the most popular premium IPTV reseller panel for serious UK resellers seeking top-tier 4K and 8K streaming quality. With an advanced reseller dashboard, exceptional uptime, and optimised performance across BT, Virgin Media, and Sky broadband — Strong 4K is the top pick on IPTV Reseller.",
       longDescription: "Strong 4K delivers unmatched streaming quality with dedicated 4K and 8K servers, zero-buffering technology, and a feature-rich reseller control panel tailored for the British market. Manage thousands of customer subscriptions, allocate credits in bulk, create free trials, and monitor uptime in real time. The most trusted IPTV reseller panel for premium resellers across the United Kingdom in 2026.",
       features: [
         "4K & 8K Ultra HD zero-buffering streaming",
@@ -1073,14 +1073,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "What makes Strong 4K the best IPTV reseller panel for UK resellers?", a: "Strong 4K combines 4K and 8K streaming quality with an advanced reseller dashboard, zero-buffering servers, and wholesale credit pricing — making it the top-rated IPTV reseller panel for high-volume British businesses in 2026. It's fully optimised for BT, Virgin Media, and Sky broadband connections." },
-        { q: "How do I become a Strong 4K IPTV reseller in the UK?", a: "Contact Fox IPTV Panels on WhatsApp. We'll set up your Strong 4K reseller panel login, provide instant credit activation, and guide you through your first UK customer subscriptions." },
+        { q: "How do I become a Strong 4K IPTV reseller in the UK?", a: "Contact IPTV Reseller on WhatsApp. We'll set up your Strong 4K reseller panel login, provide instant credit activation, and guide you through your first UK customer subscriptions." },
         { q: "Does Strong 4K support 8K streaming in the UK?", a: "Yes. Strong 4K supports both 4K Ultra HD and 8K streaming on compatible devices. It's one of the few IPTV reseller panels offering true 8K content to end users in the United Kingdom." },
         { q: "What profit margin can I expect as a Strong 4K reseller in the UK?", a: "Strong 4K resellers typically earn 40–150%+ profit margins depending on their bulk credit pricing and customer subscription rates. The more credits you buy wholesale, the higher your margins — ideal for building a profitable UK IPTV business." },
       ],
     },
     "en-au": {
       tagline: "Strong 4K IPTV Reseller Panel — The #1 Premium 4K Panel for Top Australian Resellers",
-      description: "Strong 4K is the most popular premium IPTV reseller panel for serious Australian resellers seeking top-tier 4K and 8K streaming quality. With an advanced reseller dashboard, exceptional uptime, and optimised performance across Australia's NBN with Telstra, Optus, and TPG — Strong 4K is the top pick on Fox IPTV Panels.",
+      description: "Strong 4K is the most popular premium IPTV reseller panel for serious Australian resellers seeking top-tier 4K and 8K streaming quality. With an advanced reseller dashboard, exceptional uptime, and optimised performance across Australia's NBN with Telstra, Optus, and TPG — Strong 4K is the top pick on IPTV Reseller.",
       longDescription: "Strong 4K delivers unmatched streaming quality with dedicated 4K and 8K servers, zero-buffering technology, and a feature-rich reseller control panel built for the Australian market. Manage thousands of customer subscriptions, allocate credits in bulk, create free trials, and monitor uptime in real time. The most trusted IPTV reseller panel for premium Aussie resellers in 2026 — a genuine Foxtel alternative your customers will love.",
       features: [
         "4K & 8K Ultra HD zero-buffering streaming",
@@ -1102,7 +1102,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "What makes Strong 4K the best IPTV reseller panel for Australian resellers?", a: "Strong 4K combines 4K and 8K streaming quality with an advanced reseller dashboard, zero-buffering servers, and wholesale credit pricing — making it the top-rated IPTV reseller panel for high-volume Aussie businesses in 2026. It's fully optimised for Australia's NBN network with Telstra, Optus, and TPG." },
-        { q: "How do I become a Strong 4K IPTV reseller in Australia?", a: "Contact Fox IPTV Panels on WhatsApp. We'll set up your Strong 4K reseller panel login, provide instant credit activation, and guide you through your first Australian customer subscriptions." },
+        { q: "How do I become a Strong 4K IPTV reseller in Australia?", a: "Contact IPTV Reseller on WhatsApp. We'll set up your Strong 4K reseller panel login, provide instant credit activation, and guide you through your first Australian customer subscriptions." },
         { q: "Does Strong 4K support 8K streaming in Australia?", a: "Yes. Strong 4K supports both 4K Ultra HD and 8K streaming on compatible devices. It's one of the few IPTV reseller panels offering true 8K content to Australians — perfect for customers who want the best streaming experience beyond Foxtel." },
         { q: "What profit margin can I expect as a Strong 4K reseller in Australia?", a: "Strong 4K resellers in Australia typically earn 40–150%+ profit margins depending on their bulk credit pricing and customer subscription rates. The more credits you buy wholesale, the higher your margins." },
       ],
@@ -1136,7 +1136,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad är Strong 8K IPTV återförsäljarpanel?", a: "Strong 8K är en ultrapremium IPTV-återförsäljarpanel som erbjuder äkta 8K-strömningskvalitet via en white label-återförsäljarpanel med stöd för Xtream Codes, M3U och MAG-box — perfekt för exklusiva kunder på den svenska marknaden." },
         { q: "Vem bör använda Strong 8K-återförsäljarpanelen i Sverige?", a: "Strong 8K är bäst för IPTV-återförsäljare i Sverige som riktar sig till premiumkunder som vill ha högsta möjliga strömningskvalitet — hotell, sportbarer eller exklusiva privatkunder som vill ha mer än vad vanliga svenska streamingtjänster erbjuder." },
-        { q: "Är Strong 8K tillgänglig för återförsäljare i Sverige?", a: "Ja. Strong 8K IPTV återförsäljarpanel är tillgänglig för återförsäljare globalt inklusive Sverige, Norden, UK, USA och EU via Fox IPTV Panels." },
+        { q: "Är Strong 8K tillgänglig för återförsäljare i Sverige?", a: "Ja. Strong 8K IPTV återförsäljarpanel är tillgänglig för återförsäljare globalt inklusive Sverige, Norden, UK, USA och EU via IPTV Reseller." },
         { q: "Hur skiljer sig Strong 8K från Strong 4K?", a: "Strong 8K erbjuder högre strömningsupplösning (äkta 8K vs 4K) med dedikerad premiumserverinfrastruktur. Båda använder samma kreditbaserade system men Strong 8K är positionerad för elit- och högtbetalande kundsegment i Sverige och internationellt." },
       ],
     },
@@ -1165,7 +1165,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva er Strong 8K IPTV forhandlerpanel?", a: "Strong 8K er et ultrapremium IPTV-forhandlerpanel som tilbyr ekte 8K-strømmingskvalitet via et white label forhandlerdashboard med støtte for Xtream Codes, M3U og MAG-boks — perfekt for eksklusive kunder i det norske markedet." },
         { q: "Hvem bør bruke Strong 8K forhandlerpanelet i Norge?", a: "Strong 8K er best for IPTV-forhandlere i Norge som retter seg mot premiumkunder som ønsker høyest mulig strømmingskvalitet — hoteller, sportsbarer eller eksklusive privatkunder som ønsker mer enn det vanlige norske strømmetjenester tilbyr." },
-        { q: "Er Strong 8K tilgjengelig for forhandlere i Norge?", a: "Ja. Strong 8K IPTV forhandlerpanel er tilgjengelig for forhandlere globalt inkludert Norge, Skandinavia, Storbritannia, USA og EU via Fox IPTV Panels." },
+        { q: "Er Strong 8K tilgjengelig for forhandlere i Norge?", a: "Ja. Strong 8K IPTV forhandlerpanel er tilgjengelig for forhandlere globalt inkludert Norge, Skandinavia, Storbritannia, USA og EU via IPTV Reseller." },
         { q: "Hvordan skiller Strong 8K seg fra Strong 4K?", a: "Strong 8K tilbyr høyere strømmingsoppløsning (ekte 8K vs 4K) med dedikert premiumserverinfrastruktur. Begge bruker det samme kreditbaserte systemet, men Strong 8K er posisjonert for elite- og høytbetalende kundesegmenter i Norge og internasjonalt." },
       ],
     },
@@ -1194,7 +1194,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the Strong 8K IPTV reseller panel?", a: "Strong 8K is an ultra-premium IPTV reseller panel offering true 8K streaming quality through a white label reseller dashboard with Xtream Codes, M3U, and MAG box support — perfectly suited for the UK's premium IPTV market." },
         { q: "Who should use the Strong 8K reseller panel in the UK?", a: "Strong 8K is best for UK IPTV resellers targeting premium customers who want the highest possible streaming quality — hotels, sports bars, or high-end residential customers who want a superior alternative to Sky and Virgin Media." },
-        { q: "Is Strong 8K available to resellers in the UK?", a: "Yes. Strong 8K IPTV reseller panel is available to resellers globally including the UK, Europe, and beyond through Fox IPTV Panels, with servers optimised for British broadband." },
+        { q: "Is Strong 8K available to resellers in the UK?", a: "Yes. Strong 8K IPTV reseller panel is available to resellers globally including the UK, Europe, and beyond through IPTV Reseller, with servers optimised for British broadband." },
         { q: "How does Strong 8K compare to Strong 4K for UK resellers?", a: "Strong 8K offers higher streaming resolution (true 8K vs 4K) with dedicated premium server infrastructure. Both use the same reseller credit system but Strong 8K is positioned for elite, high-paying customer segments across the United Kingdom." },
       ],
     },
@@ -1223,7 +1223,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the Strong 8K IPTV reseller panel?", a: "Strong 8K is an ultra-premium IPTV reseller panel offering true 8K streaming quality through a white label reseller dashboard with Xtream Codes, M3U, and MAG box support — ideal for Australia's growing premium IPTV market." },
         { q: "Who should use the Strong 8K reseller panel in Australia?", a: "Strong 8K is best for Australian IPTV resellers targeting premium customers who want the highest possible streaming quality — hotels, sports venues, or high-end residential clients who want a premium alternative to Foxtel." },
-        { q: "Is Strong 8K available to resellers in Australia?", a: "Yes. Strong 8K IPTV reseller panel is available to resellers globally including Australia, New Zealand, and beyond through Fox IPTV Panels, with servers optimised for the NBN network." },
+        { q: "Is Strong 8K available to resellers in Australia?", a: "Yes. Strong 8K IPTV reseller panel is available to resellers globally including Australia, New Zealand, and beyond through IPTV Reseller, with servers optimised for the NBN network." },
         { q: "How does Strong 8K compare to Strong 4K for Australian resellers?", a: "Strong 8K offers higher streaming resolution (true 8K vs 4K) with dedicated premium server infrastructure. Both use the same reseller credit system but Strong 8K is positioned for elite, high-paying customer segments across Australia." },
       ],
     },
@@ -1256,7 +1256,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad är 4K OTT IPTV återförsäljarpanel?", a: "4K OTT är en pålitlig IPTV-återförsäljarpanel med ett enkelt dashboard för att hantera IPTV-prenumerationer och krediter. Den stöder 4K-strömning via Xtream Codes, M3U och MAG-boxanslutningar — idealisk för den svenska marknaden." },
         { q: "Är 4K OTT bra för nybörjare i Sverige?", a: "Ja. 4K OTT har ett av de mest användarvänliga återförsäljardashborden, vilket gör det till ett utmärkt startpunkt för nya IPTV-återförsäljare i Sverige som lär sig kreditsystemet." },
-        { q: "Hur kommer jag igång med 4K OTT-återförsäljarkrediter?", a: "Kontakta Fox IPTV Panels på WhatsApp. Vi ställer in din 4K OTT-återförsäljarpanel och tillhandahåller omedelbar kreditaktivering så att du kan börja skapa kundprenumerationer direkt." },
+        { q: "Hur kommer jag igång med 4K OTT-återförsäljarkrediter?", a: "Kontakta IPTV Reseller på WhatsApp. Vi ställer in din 4K OTT-återförsäljarpanel och tillhandahåller omedelbar kreditaktivering så att du kan börja skapa kundprenumerationer direkt." },
         { q: "Vilka enheter stöder 4K OTT-panelen?", a: "4K OTT stöder MAG-boxar, Smart TV, Android TV, M3U-spelare och alla Xtream Codes-kompatibla appar — täcker alla streamingenheter dina svenska kunder använder." },
       ],
     },
@@ -1285,7 +1285,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva er 4K OTT IPTV forhandlerpanel?", a: "4K OTT er et pålitelig IPTV-forhandlerpanel med et enkelt dashboard for å administrere IPTV-abonnementer og kreditter. Det støtter 4K-strømming via Xtream Codes, M3U og MAG-boks-tilkoblinger — ideelt for det norske markedet." },
         { q: "Er 4K OTT bra for nybegynnere i Norge?", a: "Ja. 4K OTT har et av de mest brukervennlige forhandlerdashbordene, noe som gjør det til et utmerket startpunkt for nye IPTV-forhandlere i Norge som lærer seg kreditt-systemet." },
-        { q: "Hvordan kommer jeg i gang med 4K OTT forhandlerkreditter?", a: "Kontakt Fox IPTV Panels på WhatsApp. Vi setter opp ditt 4K OTT forhandlerpanel og gir øyeblikkelig kredittaktivering slik at du kan begynne å opprette kundeabonnementer med en gang." },
+        { q: "Hvordan kommer jeg i gang med 4K OTT forhandlerkreditter?", a: "Kontakt IPTV Reseller på WhatsApp. Vi setter opp ditt 4K OTT forhandlerpanel og gir øyeblikkelig kredittaktivering slik at du kan begynne å opprette kundeabonnementer med en gang." },
         { q: "Hvilke enheter støtter 4K OTT-panelet?", a: "4K OTT støtter MAG-bokser, Smart TV, Android TV, M3U-spillere og alle Xtream Codes-kompatible apper — dekker alle strømmeenheter kundene dine i Norge bruker." },
       ],
     },
@@ -1314,7 +1314,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the 4K OTT IPTV reseller panel?", a: "4K OTT is a reliable IPTV reseller panel with a simple dashboard for managing IPTV subscriptions and credits. It supports 4K streaming via Xtream Codes, M3U, and MAG box connections — well-suited for UK broadband from BT, Virgin Media, and Sky." },
         { q: "Is 4K OTT good for beginner UK resellers?", a: "Yes. 4K OTT has one of the most user-friendly reseller dashboards, making it a great starting point for new British IPTV resellers who are learning the credit system and building their first customer base." },
-        { q: "How do I get started with 4K OTT reseller credits in the UK?", a: "Contact Fox IPTV Panels on WhatsApp. We'll set up your 4K OTT reseller panel and provide instant credit activation so you can start creating customer subscriptions across the UK immediately." },
+        { q: "How do I get started with 4K OTT reseller credits in the UK?", a: "Contact IPTV Reseller on WhatsApp. We'll set up your 4K OTT reseller panel and provide instant credit activation so you can start creating customer subscriptions across the UK immediately." },
         { q: "What devices does the 4K OTT panel support?", a: "4K OTT supports MAG boxes, Smart TVs, Android TV, M3U players, and all Xtream Codes-compatible apps — covering all streaming devices your British customers use, including Amazon Fire TV Stick." },
       ],
     },
@@ -1343,7 +1343,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the 4K OTT IPTV reseller panel?", a: "4K OTT is a reliable IPTV reseller panel with a simple dashboard for managing IPTV subscriptions and credits. It supports 4K streaming via Xtream Codes, M3U, and MAG box connections — optimised for Australia's NBN network with Telstra, Optus, and TPG." },
         { q: "Is 4K OTT good for beginner Australian resellers?", a: "Too right it is! 4K OTT has one of the most user-friendly reseller dashboards, making it a great starting point for new Aussie IPTV resellers who are learning the credit system and building their first customer base." },
-        { q: "How do I get started with 4K OTT reseller credits in Australia?", a: "Contact Fox IPTV Panels on WhatsApp. We'll set up your 4K OTT reseller panel and provide instant credit activation so you can start creating customer subscriptions across Australia immediately." },
+        { q: "How do I get started with 4K OTT reseller credits in Australia?", a: "Contact IPTV Reseller on WhatsApp. We'll set up your 4K OTT reseller panel and provide instant credit activation so you can start creating customer subscriptions across Australia immediately." },
         { q: "What devices does the 4K OTT panel support in Australia?", a: "4K OTT supports MAG boxes, Smart TVs, Android TV boxes, M3U players, and all Xtream Codes-compatible apps — covering all streaming devices Australians use, from Kayo alternatives to live TV on any screen." },
       ],
     },
@@ -1353,7 +1353,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
   "lion-ott-iptv-reseller-panel": {
     "sv": {
       tagline: "Lion OTT IPTV Återförsäljarpanel — Bästa IPTV-panelen för nybörjare i Sverige",
-      description: "Lion OTT är den mest nybörjarvänliga IPTV-återförsäljarpanelen tillgänglig via Fox IPTV Panels. Med ett enkelt dashboard, snabb support och stabila 4K-servrar är Lion OTT det #1 rekommenderade startpunkten för nya IPTV-återförsäljare i Sverige.",
+      description: "Lion OTT är den mest nybörjarvänliga IPTV-återförsäljarpanelen tillgänglig via IPTV Reseller. Med ett enkelt dashboard, snabb support och stabila 4K-servrar är Lion OTT det #1 rekommenderade startpunkten för nya IPTV-återförsäljare i Sverige.",
       longDescription: "Lion OTT är speciellt utformat för att göra IPTV-återförsäljning tillgänglig för nybörjare på den svenska marknaden. Det förenklade dashboardet gör kredithantering, prenumerationsskapande och kundhantering enkelt från dag ett. Med snabb WhatsApp-support och pålitlig 4K-strömning via Telia, Tele2 och Telenor hjälper Lion OTT nybörjare att bygga en lönsam IPTV-verksamhet snabbt — utan teknisk erfarenhet.",
       features: [
         "Nybörjarvänligt återförsäljardashboard",
@@ -1375,14 +1375,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Varför är Lion OTT den bästa IPTV-panelen för nybörjare i Sverige?", a: "Lion OTT har det enklaste återförsäljardashboardet av alla paneler — vilket gör kreditköp, prenumerationsskapande och kundhantering enkelt för förstagångs-IPTV-återförsäljare i Sverige utan teknisk bakgrund." },
-        { q: "Kan jag starta en IPTV-återförsäljarverksamhet med Lion OTT i Sverige utan investering?", a: "Ja. Lion OTT har ett av de lägsta startpaketen via Fox IPTV Panels, vilket gör det möjligt att starta din IPTV-återförsäljarverksamhet i Sverige med minimal initial investering." },
+        { q: "Kan jag starta en IPTV-återförsäljarverksamhet med Lion OTT i Sverige utan investering?", a: "Ja. Lion OTT har ett av de lägsta startpaketen via IPTV Reseller, vilket gör det möjligt att starta din IPTV-återförsäljarverksamhet i Sverige med minimal initial investering." },
         { q: "Har Lion OTT bra strömningskvalitet?", a: "Ja. Lion OTT levererar stabil 4K Ultra HD-strömning med minimal buffring, vilket gör det lämpligt för svenska kunder som förväntar sig IPTV av hög kvalitet." },
-        { q: "Finns det ett gratis provkonto för Lion OTT IPTV återförsäljarpanel?", a: "Ja. Fox IPTV Panels erbjuder ett gratis testabonnemang på Lion OTT-återförsäljarpanelen. Skicka ett meddelande till oss på WhatsApp för att begära din testperiod innan du köper krediter." },
+        { q: "Finns det ett gratis provkonto för Lion OTT IPTV återförsäljarpanel?", a: "Ja. IPTV Reseller erbjuder ett gratis testabonnemang på Lion OTT-återförsäljarpanelen. Skicka ett meddelande till oss på WhatsApp för att begära din testperiod innan du köper krediter." },
       ],
     },
     "no": {
       tagline: "Lion OTT IPTV Forhandlerpanel — Beste IPTV-panel for nybegynnere i Norge",
-      description: "Lion OTT er det mest brukervennlige IPTV-forhandlerpanelet tilgjengelig via Fox IPTV Panels. Med et enkelt dashboard, rask støtte og stabile 4K-servere er Lion OTT det #1 anbefalte startpunktet for nye IPTV-forhandlere i Norge.",
+      description: "Lion OTT er det mest brukervennlige IPTV-forhandlerpanelet tilgjengelig via IPTV Reseller. Med et enkelt dashboard, rask støtte og stabile 4K-servere er Lion OTT det #1 anbefalte startpunktet for nye IPTV-forhandlere i Norge.",
       longDescription: "Lion OTT er spesielt utviklet for å gjøre IPTV-salg tilgjengelig for nybegynnere i det norske markedet. Det forenklede dashboardet gjør kredittadministrasjon, abonnementsoppretting og kundeadministrasjon enkelt fra første dag. Med rask WhatsApp-støtte og pålitelig 4K-strømming via Telenor, Telia og Altibox hjelper Lion OTT nybegynnere med å bygge en lønnsom IPTV-virksomhet raskt — uten teknisk erfaring.",
       features: [
         "Brukervennlig forhandlerdashboard",
@@ -1404,14 +1404,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Hvorfor er Lion OTT det beste IPTV-panelet for nybegynnere i Norge?", a: "Lion OTT har det enkleste forhandlerdashboardet av alle paneler — noe som gjør det å kjøpe kreditter, opprette abonnementer og administrere kunder enkelt for første gangs IPTV-forhandlere i Norge uten teknisk bakgrunn." },
-        { q: "Kan jeg starte en IPTV-forhandlervirksomhet med Lion OTT i Norge uten investering?", a: "Ja. Lion OTT har en av de laveste inngangspakkene via Fox IPTV Panels, noe som gjør det mulig å starte IPTV-forhandlervirksomheten din i Norge med minimal startinvestering." },
+        { q: "Kan jeg starte en IPTV-forhandlervirksomhet med Lion OTT i Norge uten investering?", a: "Ja. Lion OTT har en av de laveste inngangspakkene via IPTV Reseller, noe som gjør det mulig å starte IPTV-forhandlervirksomheten din i Norge med minimal startinvestering." },
         { q: "Har Lion OTT god strømmingskvalitet?", a: "Ja. Lion OTT leverer stabil 4K Ultra HD-strømming med minimal bufring, noe som gjør det egnet for norske kunder som forventer IPTV av høy kvalitet." },
-        { q: "Finnes det et gratis prøveabonnement for Lion OTT IPTV forhandlerpanel?", a: "Ja. Fox IPTV Panels tilbyr en gratis prøveperiode på Lion OTT-forhandlerpanelet. Send oss en melding på WhatsApp for å be om prøvetilgangen din før du kjøper kreditter." },
+        { q: "Finnes det et gratis prøveabonnement for Lion OTT IPTV forhandlerpanel?", a: "Ja. IPTV Reseller tilbyr en gratis prøveperiode på Lion OTT-forhandlerpanelet. Send oss en melding på WhatsApp for å be om prøvetilgangen din før du kjøper kreditter." },
       ],
     },
     "en-gb": {
       tagline: "Lion OTT IPTV Reseller Panel — Best IPTV Panel for Beginner UK Resellers",
-      description: "Lion OTT is the most beginner-friendly IPTV reseller panel available through Fox IPTV Panels. With an easy dashboard, fast support, and stable 4K servers optimised for BT, Virgin Media, and Sky broadband — Lion OTT is the #1 recommended starting point for new British IPTV resellers.",
+      description: "Lion OTT is the most beginner-friendly IPTV reseller panel available through IPTV Reseller. With an easy dashboard, fast support, and stable 4K servers optimised for BT, Virgin Media, and Sky broadband — Lion OTT is the #1 recommended starting point for new British IPTV resellers.",
       longDescription: "Lion OTT is specifically designed to make IPTV reselling accessible to newcomers across the United Kingdom. The simplified dashboard makes credit management, subscription creation, and customer management straightforward from day one. With fast WhatsApp support and reliable 4K streaming, Lion OTT helps British beginners build a profitable IPTV business quickly — without needing any technical experience whatsoever.",
       features: [
         "Beginner-friendly reseller dashboard",
@@ -1433,14 +1433,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Why is Lion OTT the best IPTV panel for beginners in the UK?", a: "Lion OTT has the simplest reseller dashboard of all panels — making credit purchases, subscription creation, and customer management easy for first-time British IPTV resellers with zero technical background." },
-        { q: "Can I start an IPTV reseller business with Lion OTT in the UK without investment?", a: "Yes. Lion OTT has one of the lowest entry-point credit packages through Fox IPTV Panels, making it possible to start your UK IPTV reselling business with minimal upfront investment." },
+        { q: "Can I start an IPTV reseller business with Lion OTT in the UK without investment?", a: "Yes. Lion OTT has one of the lowest entry-point credit packages through IPTV Reseller, making it possible to start your UK IPTV reselling business with minimal upfront investment." },
         { q: "Does Lion OTT have good streaming quality for UK customers?", a: "Yes. Lion OTT delivers stable 4K Ultra HD streaming with minimal buffering across BT, Virgin Media, and Sky broadband connections — making it suitable for UK customers who expect high-quality IPTV." },
-        { q: "Is there a Lion OTT IPTV reseller panel free trial?", a: "Yes. Fox IPTV Panels offers a free trial on the Lion OTT reseller panel for UK resellers. Message us on WhatsApp to request your trial before purchasing credits." },
+        { q: "Is there a Lion OTT IPTV reseller panel free trial?", a: "Yes. IPTV Reseller offers a free trial on the Lion OTT reseller panel for UK resellers. Message us on WhatsApp to request your trial before purchasing credits." },
       ],
     },
     "en-au": {
       tagline: "Lion OTT IPTV Reseller Panel — Best IPTV Panel for Beginner Australian Resellers",
-      description: "Lion OTT is the most beginner-friendly IPTV reseller panel available through Fox IPTV Panels. With an easy dashboard, fast support, and stable 4K servers optimised for Australia's NBN network with Telstra, Optus, and TPG — Lion OTT is the #1 recommended starting point for new Aussie IPTV resellers.",
+      description: "Lion OTT is the most beginner-friendly IPTV reseller panel available through IPTV Reseller. With an easy dashboard, fast support, and stable 4K servers optimised for Australia's NBN network with Telstra, Optus, and TPG — Lion OTT is the #1 recommended starting point for new Aussie IPTV resellers.",
       longDescription: "Lion OTT is specifically designed to make IPTV reselling accessible to newcomers across Australia. The simplified dashboard makes credit management, subscription creation, and customer management straightforward from day one. With fast WhatsApp support and reliable 4K streaming, Lion OTT helps Australians build a profitable IPTV business quickly — without needing any technical experience. It's the perfect entry point for Aussies looking for a Foxtel alternative reseller business.",
       features: [
         "Beginner-friendly reseller dashboard",
@@ -1462,9 +1462,9 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Why is Lion OTT the best IPTV panel for beginners in Australia?", a: "Lion OTT has the simplest reseller dashboard of all panels — making credit purchases, subscription creation, and customer management easy for first-time Aussie IPTV resellers with zero technical background." },
-        { q: "Can I start an IPTV reseller business with Lion OTT in Australia without investment?", a: "Yes. Lion OTT has one of the lowest entry-point credit packages through Fox IPTV Panels, making it possible to start your Australian IPTV reselling business with minimal upfront investment." },
+        { q: "Can I start an IPTV reseller business with Lion OTT in Australia without investment?", a: "Yes. Lion OTT has one of the lowest entry-point credit packages through IPTV Reseller, making it possible to start your Australian IPTV reselling business with minimal upfront investment." },
         { q: "Does Lion OTT have good streaming quality for Australian customers?", a: "Yes. Lion OTT delivers stable 4K Ultra HD streaming with minimal buffering across Australia's NBN network with Telstra, Optus, and TPG — making it suitable for Australians who expect high-quality IPTV as a Foxtel alternative." },
-        { q: "Is there a Lion OTT IPTV reseller panel free trial?", a: "Yes. Fox IPTV Panels offers a free trial on the Lion OTT reseller panel for Australian resellers. Message us on WhatsApp to request your trial before purchasing credits." },
+        { q: "Is there a Lion OTT IPTV reseller panel free trial?", a: "Yes. IPTV Reseller offers a free trial on the Lion OTT reseller panel for Australian resellers. Message us on WhatsApp to request your trial before purchasing credits." },
       ],
     },
   },
@@ -1496,7 +1496,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad är Ultra 8K OTT IPTV återförsäljarpanel?", a: "Ultra 8K OTT är en elit-IPTV-återförsäljarpanel som erbjuder äkta 8K Ultra HD-strömning via Xtream Codes, M3U och MAG-box — med ett professionellt dashboard för hantering av återförsäljarkrediter och prenumerationer på den svenska marknaden." },
         { q: "Vem är Ultra 8K OTT designad för i Sverige?", a: "Ultra 8K OTT är designad för etablerade IPTV-återförsäljare i Sverige som vill rikta sig till premiumkunder — hotell, sportarenor eller exklusiva privatkunder — med högsta möjliga strömningskvalitet." },
-        { q: "Hur jämför sig Ultra 8K OTT med Strong 8K?", a: "Båda är toppklassiga 8K-paneler. Ultra 8K OTT är känd för sin dedikerade bandbredd och konsekvens, medan Strong 8K är känd för sina avancerade dashboardfunktioner. Fox IPTV Panels kan hjälpa dig att jämföra och välja rätt." },
+        { q: "Hur jämför sig Ultra 8K OTT med Strong 8K?", a: "Båda är toppklassiga 8K-paneler. Ultra 8K OTT är känd för sin dedikerade bandbredd och konsekvens, medan Strong 8K är känd för sina avancerade dashboardfunktioner. IPTV Reseller kan hjälpa dig att jämföra och välja rätt." },
         { q: "Kan Ultra 8K OTT hantera stora volymer abonnemang?", a: "Ja. Ultra 8K OTT är speciellt byggd för återförsäljare som verkar i stor skala och kan hantera hundratals eller tusentals aktiva prenumerationer med avancerade kredithanteringsverktyg." },
       ],
     },
@@ -1525,7 +1525,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva er Ultra 8K OTT IPTV forhandlerpanel?", a: "Ultra 8K OTT er et elite IPTV-forhandlerpanel som tilbyr ekte 8K Ultra HD-strømming via Xtream Codes, M3U og MAG-boks — med et profesjonelt dashboard for administrasjon av forhandlerkreditter og abonnementer i det norske markedet." },
         { q: "Hvem er Ultra 8K OTT designet for i Norge?", a: "Ultra 8K OTT er designet for etablerte IPTV-forhandlere i Norge som ønsker å rette seg mot premiumkunder — hoteller, sportssteder eller eksklusive privatkunder — med høyest mulig strømmingskvalitet." },
-        { q: "Hvordan sammenligner Ultra 8K OTT seg med Strong 8K?", a: "Begge er toppklasse 8K-paneler. Ultra 8K OTT er kjent for sin dedikerte båndbredde og konsistens, mens Strong 8K er kjent for sine avanserte dashboardfunksjoner. Fox IPTV Panels kan hjelpe deg å sammenligne og velge riktig." },
+        { q: "Hvordan sammenligner Ultra 8K OTT seg med Strong 8K?", a: "Begge er toppklasse 8K-paneler. Ultra 8K OTT er kjent for sin dedikerte båndbredde og konsistens, mens Strong 8K er kjent for sine avanserte dashboardfunksjoner. IPTV Reseller kan hjelpe deg å sammenligne og velge riktig." },
         { q: "Kan Ultra 8K OTT håndtere store abonnementsvolumer?", a: "Ja. Ultra 8K OTT er spesielt bygget for forhandlere som opererer i stor skala og kan håndtere hundrevis eller tusenvis av aktive abonnementer med avanserte kredittadministrasjonsverktøy." },
       ],
     },
@@ -1554,7 +1554,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the Ultra 8K OTT IPTV reseller panel?", a: "Ultra 8K OTT is an elite IPTV reseller panel offering true 8K Ultra HD streaming via Xtream Codes, M3U, and MAG box — with a professional dashboard for managing reseller credits and subscriptions across the United Kingdom." },
         { q: "Who is Ultra 8K OTT designed for in the UK?", a: "Ultra 8K OTT is designed for established British IPTV resellers who want to target premium customers — hotels, sports venues, or high-end residential clients — with the highest possible streaming quality, well beyond anything Sky or Virgin Media offer." },
-        { q: "How does Ultra 8K OTT compare to Strong 8K for UK resellers?", a: "Both are top-tier 8K panels. Ultra 8K OTT is known for its dedicated bandwidth and consistency, while Strong 8K is known for its advanced dashboard features. Fox IPTV Panels can help UK resellers compare and choose the right one." },
+        { q: "How does Ultra 8K OTT compare to Strong 8K for UK resellers?", a: "Both are top-tier 8K panels. Ultra 8K OTT is known for its dedicated bandwidth and consistency, while Strong 8K is known for its advanced dashboard features. IPTV Reseller can help UK resellers compare and choose the right one." },
         { q: "Can Ultra 8K OTT handle large subscriber volumes in the UK?", a: "Yes. Ultra 8K OTT is specifically built for British resellers operating at scale and can handle hundreds or thousands of active subscriptions with advanced credit management tools." },
       ],
     },
@@ -1583,7 +1583,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the Ultra 8K OTT IPTV reseller panel?", a: "Ultra 8K OTT is an elite IPTV reseller panel offering true 8K Ultra HD streaming via Xtream Codes, M3U, and MAG box — with a professional dashboard for managing reseller credits and subscriptions across Australia." },
         { q: "Who is Ultra 8K OTT designed for in Australia?", a: "Ultra 8K OTT is designed for established Australian IPTV resellers who want to target premium customers — hotels, sports venues, or high-end residential clients — with the highest possible streaming quality, well beyond what Foxtel and Kayo offer." },
-        { q: "How does Ultra 8K OTT compare to Strong 8K for Australian resellers?", a: "Both are top-tier 8K panels. Ultra 8K OTT is known for its dedicated bandwidth and consistency, while Strong 8K is known for its advanced dashboard features. Fox IPTV Panels can help Aussie resellers compare and choose the right one." },
+        { q: "How does Ultra 8K OTT compare to Strong 8K for Australian resellers?", a: "Both are top-tier 8K panels. Ultra 8K OTT is known for its dedicated bandwidth and consistency, while Strong 8K is known for its advanced dashboard features. IPTV Reseller can help Aussie resellers compare and choose the right one." },
         { q: "Can Ultra 8K OTT handle large subscriber volumes in Australia?", a: "Yes. Ultra 8K OTT is specifically built for Australian resellers operating at scale and can handle hundreds or thousands of active subscriptions with advanced credit management tools." },
       ],
     },
@@ -1594,7 +1594,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
     "sv": {
       tagline: "Dino IPTV Återförsäljarpanel — Stabil & Pålitlig IPTV-panel för alla återförsäljare i Sverige",
       description: "Dino IPTV är en pålitlig och välbeprövad IPTV-återförsäljarpanel med konsekvent strömningsprestanda och ett snyggt återförsäljardashboard. Ett solitt val för svenska återförsäljare som prioriterar stabilitet och drifttid för sin kundbas via Telia, Tele2 och Telenor.",
-      longDescription: "Dino IPTV har byggt upp ett rykte för exceptionell serverstabilitet och konsekvent strömningskvalitet på den svenska marknaden. Med stöd för alla större anslutningstyper — Xtream Codes, M3U, MAG-box — och ett enkelt kreditbaserat återförsäljarsystem är Dino IPTV en pålitlig ryggrad för alla IPTV-återförsäljarverksamheter i Sverige. Tillgänglig via Fox IPTV Panels med omedelbar kreditaktivering.",
+      longDescription: "Dino IPTV har byggt upp ett rykte för exceptionell serverstabilitet och konsekvent strömningskvalitet på den svenska marknaden. Med stöd för alla större anslutningstyper — Xtream Codes, M3U, MAG-box — och ett enkelt kreditbaserat återförsäljarsystem är Dino IPTV en pålitlig ryggrad för alla IPTV-återförsäljarverksamheter i Sverige. Tillgänglig via IPTV Reseller med omedelbar kreditaktivering.",
       features: [
         "Exceptionell serverstabilitet & drifttid",
         "4K Ultra HD-strömning utan buffring",
@@ -1615,7 +1615,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Vad är Dino IPTV återförsäljarpanel?", a: "Dino IPTV är en stabil och pålitlig IPTV-återförsäljarpanel med konsekvent 4K-strömning och ett rent återförsäljardashboard. Den är betrodd av svenska återförsäljare som prioriterar drifttid och serverreliabilitet via Telia, Tele2 och Telenor." },
-        { q: "Hur köper jag Dino IPTV-återförsäljarkrediter i Sverige?", a: "Kontakta Fox IPTV Panels på WhatsApp. Vi tillhandahåller omedelbara Dino IPTV-återförsäljarkrediter med aktivering på några minuter, plus fullständigt konfigurationsstöd för den svenska marknaden." },
+        { q: "Hur köper jag Dino IPTV-återförsäljarkrediter i Sverige?", a: "Kontakta IPTV Reseller på WhatsApp. Vi tillhandahåller omedelbara Dino IPTV-återförsäljarkrediter med aktivering på några minuter, plus fullständigt konfigurationsstöd för den svenska marknaden." },
         { q: "Är Dino IPTV bra för kundlojalitet i Sverige?", a: "Ja. Dino IPTV:s serverstabilitet och prestanda utan buffring leder till hög kundnöjdhet och starka förnyelsefrekvenser — nyckeln till att bygga återkommande intäkter på den svenska marknaden." },
         { q: "Stöder Dino IPTV alla streamingenheters typer?", a: "Ja. Dino IPTV stöder MAG-boxar, Smart TV, M3U-spelare och Xtream Codes-kompatibla appar — alla enheter dina svenska kunder kan använda." },
       ],
@@ -1623,7 +1623,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
     "no": {
       tagline: "Dino IPTV Forhandlerpanel — Stabil & Pålitelig IPTV-panel for alle forhandlere i Norge",
       description: "Dino IPTV er et pålitelig og veletablert IPTV-forhandlerpanel med konsekvent strømmingsytelse og et rent forhandlerdashboard. Et solid valg for norske forhandlere som prioriterer stabilitet og oppetid for sin kundebase via Telenor, Telia og Altibox.",
-      longDescription: "Dino IPTV har bygget seg et rykte for eksepsjonell serverstabilitet og konsekvent strømmingskvalitet i det norske markedet. Med støtte for alle større tilkoblingstyper — Xtream Codes, M3U, MAG-boks — og et enkelt kreditbasert forhandlersystem er Dino IPTV en pålitelig ryggrad for enhver IPTV-forhandlervirksomhet i Norge. Tilgjengelig via Fox IPTV Panels med øyeblikkelig kredittaktivering.",
+      longDescription: "Dino IPTV har bygget seg et rykte for eksepsjonell serverstabilitet og konsekvent strømmingskvalitet i det norske markedet. Med støtte for alle større tilkoblingstyper — Xtream Codes, M3U, MAG-boks — og et enkelt kreditbasert forhandlersystem er Dino IPTV en pålitelig ryggrad for enhver IPTV-forhandlervirksomhet i Norge. Tilgjengelig via IPTV Reseller med øyeblikkelig kredittaktivering.",
       features: [
         "Eksepsjonell serverstabilitet & oppetid",
         "4K Ultra HD-strømming uten bufring",
@@ -1644,7 +1644,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Hva er Dino IPTV forhandlerpanel?", a: "Dino IPTV er et stabilt og pålitelig IPTV-forhandlerpanel med konsekvent 4K-strømming og et rent forhandlerdashboard. Det er betrodd av norske forhandlere som prioriterer oppetid og serverpålitelighet via Telenor, Telia og Altibox." },
-        { q: "Hvordan kjøper jeg Dino IPTV forhandlerkreditter i Norge?", a: "Kontakt Fox IPTV Panels på WhatsApp. Vi gir deg øyeblikkelige Dino IPTV forhandlerkreditter med aktivering i løpet av minutter, pluss full oppsettsstøtte for det norske markedet." },
+        { q: "Hvordan kjøper jeg Dino IPTV forhandlerkreditter i Norge?", a: "Kontakt IPTV Reseller på WhatsApp. Vi gir deg øyeblikkelige Dino IPTV forhandlerkreditter med aktivering i løpet av minutter, pluss full oppsettsstøtte for det norske markedet." },
         { q: "Er Dino IPTV bra for kundelojalitet i Norge?", a: "Ja. Dino IPTVs serverstabilitet og bufringsfrie ytelse fører til høy kundetilfredshet og sterke fornyelsesrater — nøkkelen til å bygge tilbakevendende inntekter i det norske markedet." },
         { q: "Støtter Dino IPTV alle typer strømmeenheter?", a: "Ja. Dino IPTV støtter MAG-bokser, Smart TV, M3U-spillere og Xtream Codes-kompatible apper — alle enheter kundene dine i Norge kan bruke." },
       ],
@@ -1652,7 +1652,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
     "en-gb": {
       tagline: "Dino IPTV Reseller Panel — Stable & Reliable IPTV Panel for UK Resellers",
       description: "Dino IPTV is a reliable, well-established IPTV reseller panel with consistent streaming performance and a clean reseller dashboard. A solid choice for British resellers who prioritise stability and uptime for their customer base — fully optimised for BT, Virgin Media, and Sky broadband connections across the UK.",
-      longDescription: "Dino IPTV has built a sterling reputation for exceptional server stability and consistent streaming quality in the UK market. With support for all major connection types — Xtream Codes, M3U, MAG box — and a straightforward reseller credit system, Dino IPTV is a dependable backbone for any British IPTV reselling business. Available through Fox IPTV Panels with instant credit activation and full UK setup support.",
+      longDescription: "Dino IPTV has built a sterling reputation for exceptional server stability and consistent streaming quality in the UK market. With support for all major connection types — Xtream Codes, M3U, MAG box — and a straightforward reseller credit system, Dino IPTV is a dependable backbone for any British IPTV reselling business. Available through IPTV Reseller with instant credit activation and full UK setup support.",
       features: [
         "Exceptional server stability & uptime",
         "4K Ultra HD no-buffering streaming",
@@ -1673,7 +1673,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "What is the Dino IPTV reseller panel?", a: "Dino IPTV is a stable, reliable IPTV reseller panel with consistent 4K streaming and a clean reseller dashboard — trusted by UK resellers who prioritise uptime and server reliability across BT, Virgin Media, and Sky broadband connections." },
-        { q: "How do I get Dino IPTV reseller credits in the UK?", a: "Contact Fox IPTV Panels on WhatsApp. We provide instant Dino IPTV reseller credits with activation in minutes, plus full setup support for British resellers." },
+        { q: "How do I get Dino IPTV reseller credits in the UK?", a: "Contact IPTV Reseller on WhatsApp. We provide instant Dino IPTV reseller credits with activation in minutes, plus full setup support for British resellers." },
         { q: "Is Dino IPTV good for customer retention in the UK?", a: "Absolutely. Dino IPTV's server stability and no-buffering performance leads to high customer satisfaction and strong subscription renewal rates across the UK — key for building reliable recurring income." },
         { q: "Does Dino IPTV support all streaming device types used in the UK?", a: "Yes. Dino IPTV supports MAG boxes, Smart TVs, M3U players, Amazon Fire TV Stick, and Xtream Codes-compatible apps — all devices your British customers use." },
       ],
@@ -1681,7 +1681,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
     "en-au": {
       tagline: "Dino IPTV Reseller Panel — Stable & Reliable IPTV Panel for Australian Resellers",
       description: "Dino IPTV is a reliable, well-established IPTV reseller panel with consistent streaming performance and a clean reseller dashboard. A ripper choice for Australian resellers who prioritise stability and uptime for their customer base — fully optimised for Australia's NBN network with Telstra, Optus, and TPG.",
-      longDescription: "Dino IPTV has built a brilliant reputation for exceptional server stability and consistent streaming quality in the Australian market. With support for all major connection types — Xtream Codes, M3U, MAG box — and a straightforward reseller credit system, Dino IPTV is a dependable backbone for any Aussie IPTV reselling business. Available through Fox IPTV Panels with instant credit activation and full Australian setup support — the perfect Foxtel alternative reselling platform.",
+      longDescription: "Dino IPTV has built a brilliant reputation for exceptional server stability and consistent streaming quality in the Australian market. With support for all major connection types — Xtream Codes, M3U, MAG box — and a straightforward reseller credit system, Dino IPTV is a dependable backbone for any Aussie IPTV reselling business. Available through IPTV Reseller with instant credit activation and full Australian setup support — the perfect Foxtel alternative reselling platform.",
       features: [
         "Exceptional server stability & uptime",
         "4K Ultra HD no-buffering streaming",
@@ -1702,7 +1702,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "What is the Dino IPTV reseller panel?", a: "Dino IPTV is a stable, reliable IPTV reseller panel with consistent 4K streaming and a clean reseller dashboard — trusted by Australian resellers who prioritise uptime and server reliability across the NBN network with Telstra, Optus, and TPG." },
-        { q: "How do I get Dino IPTV reseller credits in Australia?", a: "Contact Fox IPTV Panels on WhatsApp. We provide instant Dino IPTV reseller credits with activation in minutes, plus full setup support for Australian resellers." },
+        { q: "How do I get Dino IPTV reseller credits in Australia?", a: "Contact IPTV Reseller on WhatsApp. We provide instant Dino IPTV reseller credits with activation in minutes, plus full setup support for Australian resellers." },
         { q: "Is Dino IPTV good for customer retention in Australia?", a: "Too right it is. Dino IPTV's server stability and no-buffering performance leads to high customer satisfaction and strong subscription renewal rates across Australia — key for building reliable recurring income and a Foxtel-beating reseller business." },
         { q: "Does Dino IPTV support all streaming device types used in Australia?", a: "Yes. Dino IPTV supports MAG boxes, Smart TVs, M3U players, Android TV boxes, and Xtream Codes-compatible apps — all devices Australians use for streaming." },
       ],
@@ -1734,7 +1734,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad är T-Rex OTT IPTV återförsäljarpanel?", a: "T-Rex OTT är en funktionsrik IPTV-återförsäljarpanel som erbjuder stabil 4K-strömning med ett omfattande verktyg för hantering av krediter, prenumerationer och provkonton för dina kunder." },
         { q: "Är T-Rex OTT lämplig för storskaliga återförsäljare?", a: "Ja absolut. T-Rex OTT:s kreditsystem skalar utmärkt från mindre startpaket till stora grossistvolymer, vilket ger svenska återförsäljare maximal flexibilitet och höga vinstmarginaler i kr." },
-        { q: "Hur kommer jag igång med T-Rex OTT i Sverige?", a: "Skicka ett meddelande till Fox IPTV Panels på WhatsApp. Vi aktiverar din T-Rex OTT-återförsäljarpanel omedelbart med snabb kreditåtkomst och full vägledning." },
+        { q: "Hur kommer jag igång med T-Rex OTT i Sverige?", a: "Skicka ett meddelande till IPTV Reseller på WhatsApp. Vi aktiverar din T-Rex OTT-återförsäljarpanel omedelbart med snabb kreditåtkomst och full vägledning." },
       ],
     },
     "no": {
@@ -1762,7 +1762,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva er T-Rex OTT IPTV forhandlerpanel?", a: "T-Rex OTT er et funksjonsrikt IPTV-forhandlerpanel som tilbyr stabil 4K-strømming med et omfattende verktøy for styring av kreditter, abonnementer og prøvekontoer for dine kunder." },
         { q: "Er T-Rex OTT egnet for storskalaselgere?", a: "Ja. T-Rex OTTs kredittsystem skalerer utmerket fra mindre pakker til store engrospakker, noe som gjør det for norske forhandlere maksimal fleksibilitet og høye marginer i kr." },
-        { q: "Hvordan kommer jeg i gang med T-Rex OTT i Norge?", a: "Send en melding til Fox IPTV Panels på WhatsApp. Vi aktiverer ditt T-Rex OTT-forhandlerpanel umiddelbart med rask kredittilgang og full opplæring." },
+        { q: "Hvordan kommer jeg i gang med T-Rex OTT i Norge?", a: "Send en melding til IPTV Reseller på WhatsApp. Vi aktiverer ditt T-Rex OTT-forhandlerpanel umiddelbart med rask kredittilgang og full opplæring." },
       ],
     },
     "en-gb": {
@@ -1790,7 +1790,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the T-Rex OTT IPTV reseller panel?", a: "T-Rex OTT is a feature-rich IPTV reseller panel offering 4K streaming with a comprehensive dashboard for credit management, subscription creation, and customer tracking." },
         { q: "Is T-Rex OTT suitable for bulk UK resellers?", a: "Yes. T-Rex OTT's credit system scales brilliantly from small bundles to large wholesale packages, making it highly effective and profitable for growing and high-volume British IPTV resellers." },
-        { q: "How do I start with T-Rex OTT in the UK?", a: "Message Fox IPTV Panels on WhatsApp. We'll activate your T-Rex OTT reseller panel with instant credit access and provide full onboarding guidance for the UK market." },
+        { q: "How do I start with T-Rex OTT in the UK?", a: "Message IPTV Reseller on WhatsApp. We'll activate your T-Rex OTT reseller panel with instant credit access and provide full onboarding guidance for the UK market." },
       ],
     },
     "en-au": {
@@ -1818,7 +1818,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the T-Rex OTT IPTV reseller panel?", a: "T-Rex OTT is a feature-rich IPTV reseller panel offering 4K streaming with a comprehensive dashboard for credit management, subscription creation, and customer tracking." },
         { q: "Is T-Rex OTT a good Foxtel alternative for Aussie resellers?", a: "Absolutely. With its extensive channel list and reliable 4K streaming quality, T-Rex OTT offers a highly competitive and much more affordable alternative to traditional Australian pay-TV." },
-        { q: "How do I start with T-Rex OTT in Australia?", a: "Message Fox IPTV Panels on WhatsApp. We'll activate your T-Rex OTT reseller panel with instant credit access in AUD and provide full onboarding guidance." },
+        { q: "How do I start with T-Rex OTT in Australia?", a: "Message IPTV Reseller on WhatsApp. We'll activate your T-Rex OTT reseller panel with instant credit access in AUD and provide full onboarding guidance." },
       ],
     },
   },
@@ -1848,7 +1848,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Varför är Mega OTT bäst för grossist-IPTV-återförsäljare?", a: "Mega OTT ger det absolut lägsta priset per kredit i SEK vid bulk-inköp, samt en modern kontrollpanel med avancerade masshanteringsverktyg och mycket stabil 4K-strömning — vilket maximerar din vinstmarginal i kr." },
         { q: "Hur hanterar Mega OTT stora kundbaser?", a: "Mega OTT-panelen innehåller funktioner för bulkimport, masskapande av prenumerationer och live-övervakning av anslutna användare, utvecklat speciellt för att hantera hundratals eller tusentals aktiva kunder." },
-        { q: "Är Mega OTT den billigaste IPTV-återförsäljarpanelen?", a: "Mega OTT erbjuder extremt konkurrenskraftiga grossistpriser. Ju fler krediter du köper i bulk från Fox IPTV Panels, desto lägre blir styckpriset per kredit, vilket gör din återförsäljarverksamhet mycket lönsam." },
+        { q: "Är Mega OTT den billigaste IPTV-återförsäljarpanelen?", a: "Mega OTT erbjuder extremt konkurrenskraftiga grossistpriser. Ju fler krediter du köper i bulk från IPTV Reseller, desto lägre blir styckpriset per kredit, vilket gör din återförsäljarverksamhet mycket lönsam." },
       ],
     },
     "no": {
@@ -1876,7 +1876,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hvorfor er Mega OTT best for grossist-IPTV-forhandlere?", a: "Mega OTT gir den absolutt laveste prisen per kreditt i NOK ved bulk-kjøp, samt et moderne kontrollpanel med avanserte massehåndteringsverktøy og svært stabil 4K-strømming — noe som maksimerer din fortjenestemargin i kr." },
         { q: "Hvordan håndterer Mega OTT store kundebaser?", a: "Mega OTT-panelet inneholder funksjoner for bulkimport, masseopprettelse av abonnementer og live-overvåking av tilkoblede brukere, utviklet spesielt for å administrere hundrevis eller tusenvis av aktive kunder." },
-        { q: "Er Mega OTT det billigste IPTV-forhandlerpanelet?", a: "Mega OTT tilbyr ekstremt konkurransedyktige engrospriser. Jo flere kreditter du kjøper i bulk fra Fox IPTV Panels, jo lavere blir stykkprisen per kreditt, noe som gjør din forhandlervirksomhet svært lønnsom." },
+        { q: "Er Mega OTT det billigste IPTV-forhandlerpanelet?", a: "Mega OTT tilbyr ekstremt konkurransedyktige engrospriser. Jo flere kreditter du kjøper i bulk fra IPTV Reseller, jo lavere blir stykkprisen per kreditt, noe som gjør din forhandlervirksomhet svært lønnsom." },
       ],
     },
     "en-gb": {
@@ -1940,7 +1940,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
     "sv": {
       tagline: "Extra OTT IPTV Återförsäljarpanel — Extra funktioner, extra värde för svenska återförsäljare",
       description: "Extra OTT is en funktionspackad IPTV-återförsäljarpanel som erbjuder omfattande verktyg för att hantera prenumerationer, krediter och kunder — med stabil 4K-strömning och prisvärda kreditpaket i SEK.",
-      longDescription: "Extra OTT lever upp till sitt namn genom att erbjuda betydligt fler funktioner än standardpaneler — avancerad kredithantering, detaljerad kundanalys, verktyg för gratis provkonton och stöd för alla anslutningstyper. För återförsäljare som vill ha en komplett verktygslåda utan en skyhög prislapp är Extra OTT det perfekta valet via Fox IPTV Panels med snabb uppkoppling över Telia, Tele2 och Telenor.",
+      longDescription: "Extra OTT lever upp till sitt namn genom att erbjuda betydligt fler funktioner än standardpaneler — avancerad kredithantering, detaljerad kundanalys, verktyg för gratis provkonton och stöd för alla anslutningstyper. För återförsäljare som vill ha en komplett verktygslåda utan en skyhög prislapp är Extra OTT det perfekta valet via IPTV Reseller med snabb uppkoppling över Telia, Tele2 och Telenor.",
       features: [
         "Funktionspackad kontrollpanel för återförsäljare",
         "Pålitlig 4K Ultra HD-strömning utan buffring",
@@ -1962,13 +1962,13 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad gör att Extra OTT sticker ut som återförsäljarpanel?", a: "Extra OTT erbjuder fler inbyggda kontrollpanelsfunktioner än de flesta paneler — inklusive detaljerad analys, avancerade provkontoverktyg och omfattande kredithantering — allt till mycket konkurrenskraftiga priser." },
         { q: "Stöder Extra OTT alla IPTV-anslutningstyper?", a: "Ja. Extra OTT stöder fullt ut Xtream Codes, M3U-spellistor och MAG-boxar, vilket täcker alla enheter dina svenska kunder använder för att titta på TV." },
-        { q: "Hur köper jag Extra OTT-återförsäljarkrediter?", a: "Kontakta Fox IPTV Panels på WhatsApp för att köpa dina Extra OTT-krediter. Krediterna aktiveras omedelbart så att du kan börja skapa prenumerationer direkt." },
+        { q: "Hur köper jag Extra OTT-återförsäljarkrediter?", a: "Kontakta IPTV Reseller på WhatsApp för att köpa dina Extra OTT-krediter. Krediterna aktiveras omedelbart så att du kan börja skapa prenumerationer direkt." },
       ],
     },
     "no": {
       tagline: "Extra OTT IPTV Forhandlerpanel — Ekstra funksjoner, ekstra verdi for norske forhandlere",
       description: "Extra OTT er et funksjonsrik IPTV-forhandlerpanel som tilbyr omfattende verktøy for å administrere abonnementer, kreditter og kunder — med stabil 4K-strømming og rimelige kredittpakker i NOK.",
-      longDescription: "Extra OTT lever opp til sitt navn ved å tilby betydelig flere funksjoner enn standardpaneler — avansert kredittstyring, detaljert kundeanalyse, verktøy for gratis prøvekontoer og støtte for alle tilkoblingstyper. For forhandlere som ønsker en komplett verktøykasse uten en skyhøy prislapp, er Extra OTT det perfekte valget via Fox IPTV Panels med rask tilkobling over Telenor, Telia og Altibox.",
+      longDescription: "Extra OTT lever opp til sitt navn ved å tilby betydelig flere funksjoner enn standardpaneler — avansert kredittstyring, detaljert kundeanalyse, verktøy for gratis prøvekontoer og støtte for alle tilkoblingstyper. For forhandlere som ønsker en komplett verktøykasse uten en skyhøy prislapp, er Extra OTT det perfekte valget via IPTV Reseller med rask tilkobling over Telenor, Telia og Altibox.",
       features: [
         "Funksjonsrik kontrollpanel for forhandlere",
         "Pålitelig 4K Ultra HD-strømming uten bufring",
@@ -1990,13 +1990,13 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva gjør at Extra OTT skiller seg ut som forhandlerpanel?", a: "Extra OTT tilbyr flere innebygde kontrollpanelsfunksjoner enn de fleste paneler — inkludert detaljert analyse, avanserte prøvekontoverktøy og omfattende kredittstyring — alt til svært konkurransedyktige priser." },
         { q: "Støtter Extra OTT alle IPTV-tilkoblingstyper?", a: "Ja. Extra OTT støtter fullt ut Xtream Codes, M3U-spillelister og MAG-bokser, noe som dekker alle enheter dine norske kunder bruker for å se på TV." },
-        { q: "Hvordan kjøper jeg Extra OTT-forhandlerkreditter?", a: "Kontakt Fox IPTV Panels på WhatsApp for å kjøpe dine Extra OTT-kreditter. Kredittene aktiveres øyeblikkelig slik at du kan begynne å opprette abonnementer med en gang." },
+        { q: "Hvordan kjøper jeg Extra OTT-forhandlerkreditter?", a: "Kontakt IPTV Reseller på WhatsApp for å kjøpe dine Extra OTT-kreditter. Kredittene aktiveres øyeblikkelig slik at du kan begynne å opprette abonnementer med en gang." },
       ],
     },
     "en-gb": {
       tagline: "Extra OTT IPTV Reseller Panel — Extra Features, Extra Value for UK Resellers",
       description: "Extra OTT is a feature-packed IPTV reseller panel offering comprehensive tools for managing subscriptions, credits, and customers — with reliable 4K streaming and great value credit pricing in GBP.",
-      longDescription: "Extra OTT earns its name by delivering more features than standard panels — advanced credit management, detailed customer analytics, trial subscription tools, and support for all connection types. For British resellers who want a complete toolkit without the premium price tag, Extra OTT is the ideal choice through Fox IPTV Panels, fully optimised for BT, Virgin Media, and Sky broadband.",
+      longDescription: "Extra OTT earns its name by delivering more features than standard panels — advanced credit management, detailed customer analytics, trial subscription tools, and support for all connection types. For British resellers who want a complete toolkit without the premium price tag, Extra OTT is the ideal choice through IPTV Reseller, fully optimised for BT, Virgin Media, and Sky broadband.",
       features: [
         "Feature-packed reseller control dashboard optimised for the UK",
         "Reliable 4K Ultra HD streaming without buffering",
@@ -2018,13 +2018,13 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What makes Extra OTT stand out as a reseller panel in the UK?", a: "Extra OTT offers more built-in dashboard features than most standard panels — including detailed UK-oriented analytics, advanced trial tools, and comprehensive credit management — at competitive pricing." },
         { q: "Does Extra OTT support all British IPTV connection types?", a: "Yes. Extra OTT supports Xtream Codes, M3U reseller panel outputs, and MAG box connections — covering all devices your UK customers use, including Fire Sticks and Smart TVs." },
-        { q: "How do I buy Extra OTT reseller credits in the UK?", a: "Contact Fox IPTV Panels on WhatsApp to purchase Extra OTT credits. Activation is instant and you can start creating customer subscriptions across the UK immediately." },
+        { q: "How do I buy Extra OTT reseller credits in the UK?", a: "Contact IPTV Reseller on WhatsApp to purchase Extra OTT credits. Activation is instant and you can start creating customer subscriptions across the UK immediately." },
       ],
     },
     "en-au": {
       tagline: "Extra OTT IPTV Reseller Panel — Extra Features, Extra Value for Australian Resellers",
       description: "Extra OTT is a feature-packed IPTV reseller panel offering comprehensive tools for managing subscriptions, credits, and customers — with reliable 4K streaming and great value credit pricing in AUD.",
-      longDescription: "Extra OTT earns its name by delivering more features than standard panels — advanced credit management, detailed customer analytics, trial subscription tools, and support for all connection types. For Aussie resellers who want a complete toolkit without the premium price tag, Extra OTT is the ideal choice through Fox IPTV Panels, fully optimised for the NBN network.",
+      longDescription: "Extra OTT earns its name by delivering more features than standard panels — advanced credit management, detailed customer analytics, trial subscription tools, and support for all connection types. For Aussie resellers who want a complete toolkit without the premium price tag, Extra OTT is the ideal choice through IPTV Reseller, fully optimised for the NBN network.",
       features: [
         "Feature-packed reseller control dashboard optimised for Australia",
         "Reliable 4K Ultra HD streaming without buffering over NBN",
@@ -2046,7 +2046,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What makes Extra OTT stand out as a reseller panel in Australia?", a: "Extra OTT offers more built-in dashboard features than most standard panels — including detailed analytics, advanced trial tools, and comprehensive credit management in AUD — at competitive pricing." },
         { q: "Is Extra OTT a solid Foxtel alternative for Australian customers?", a: "Yes, it is a brilliant alternative. With a huge channel library and advanced subscription features, Extra OTT provides outstanding value for Aussie resellers and their clients." },
-        { q: "How do I buy Extra OTT reseller credits in Australia?", a: "Contact Fox IPTV Panels on WhatsApp to purchase Extra OTT credits. Activation is instant and you can start creating customer subscriptions across Australia immediately." },
+        { q: "How do I buy Extra OTT reseller credits in Australia?", a: "Contact IPTV Reseller on WhatsApp to purchase Extra OTT credits. Activation is instant and you can start creating customer subscriptions across Australia immediately." },
       ],
     },
   },
@@ -2110,7 +2110,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
     "en-gb": {
       tagline: "Max OTT IPTV Reseller Panel — Maximum Features for Serious UK Resellers",
       description: "Max OTT lives up to its name — delivering maximum features, maximum stability, and maximum value for British IPTV resellers. With an advanced dashboard and excellent 4K streaming optimised for BT, Virgin Media, and Sky — Max OTT is a top performer.",
-      longDescription: "Max OTT is built around the philosophy of giving resellers everything they need in one comprehensive package. Advanced subscription management, bulk credit tools in GBP, customer analytics, and top-grade 4K streaming combine to make Max OTT one of the most well-rounded IPTV reseller panels available to UK operators through Fox IPTV Panels.",
+      longDescription: "Max OTT is built around the philosophy of giving resellers everything they need in one comprehensive package. Advanced subscription management, bulk credit tools in GBP, customer analytics, and top-grade 4K streaming combine to make Max OTT one of the most well-rounded IPTV reseller panels available to UK operators through IPTV Reseller.",
       features: [
         "Maximum-featured reseller dashboard built for the UK",
         "Premium 4K no-buffering streaming optimised for British broadband",
@@ -2190,7 +2190,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad gör Zen 4K unik som återförsäljarpanel?", a: "Zen 4K utmärker sig med sin extremt rena och minimalistiska design — vilket gör den till en av de mest lättnavigerade IPTV-panelerna på marknaden, utan att kompromissa med premium 4K-strömningskvalitet." },
         { q: "Är Zen 4K lämplig för nya IPTV-återförsäljare?", a: "Ja. Det rena gränssnittet gör Zen 4K mycket lätt att lära sig för nybörjare, medan dess fantastiska 4K-kvalitet och starka drifttid gör den till en stabil plattform på lång sikt." },
-        { q: "Hur får jag tillgång till Zen 4K återförsäljarpanel?", a: "Kontakta Fox IPTV Panels på WhatsApp. Vi skickar dina inloggningsuppgifter till Zen 4K och ger dig omedelbar aktivering av dina krediter i SEK." },
+        { q: "Hur får jag tillgång till Zen 4K återförsäljarpanel?", a: "Kontakta IPTV Reseller på WhatsApp. Vi skickar dina inloggningsuppgifter till Zen 4K och ger dig omedelbar aktivering av dina krediter i SEK." },
       ],
     },
     "no": {
@@ -2218,7 +2218,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva gjør Zen 4K unik som forhandlerpanel?", a: "Zen 4K utmerker seg med sitt ekstremt rene og minimalistiske design — noe som gjør det til et av de mest lettnavigerte IPTV-panelene på markedet, uten å gå på kompromiss med premium 4K-strømmingskvalitet." },
         { q: "Er Zen 4K egnet for nye IPTV-forhandlere?", a: "Ja. Det rena grensesnittet gjør Zen 4K svært lett å lære for nybegynnere, mens den fantastiske 4K-kvaliteten og sterke oppetiden gjør det til en stabil plattform på lang sikt." },
-        { q: "Hvordan får jeg tilgang til Zen 4K forhandlerpanel?", a: "Kontakt Fox IPTV Panels på WhatsApp. Vi sender dine inloggingsdetaljer til Zen 4K og gir deg øyeblikkelig aktivering av dine kreditter i NOK." },
+        { q: "Hvordan får jeg tilgang til Zen 4K forhandlerpanel?", a: "Kontakt IPTV Reseller på WhatsApp. Vi sender dine inloggingsdetaljer til Zen 4K og gir deg øyeblikkelig aktivering av dine kreditter i NOK." },
       ],
     },
     "en-gb": {
@@ -2246,7 +2246,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What makes Zen 4K unique as a reseller panel in the UK?", a: "Zen 4K is known for its exceptionally clean, minimal dashboard design — making it one of the most intuitive IPTV reseller panels to navigate, while still delivering premium 4K streaming quality across British networks." },
         { q: "Is Zen 4K suitable for new UK IPTV resellers?", a: "Yes. The clean, uncomplicated interface makes Zen 4K extremely accessible to beginners, while its 4K streaming quality and strong uptime make it a reliable long-term platform for growing resellers." },
-        { q: "How do I access the Zen 4K reseller panel in the UK?", a: "Contact Fox IPTV Panels on WhatsApp to receive your Zen 4K reseller panel login credentials and instant credit activation in GBP." },
+        { q: "How do I access the Zen 4K reseller panel in the UK?", a: "Contact IPTV Reseller on WhatsApp to receive your Zen 4K reseller panel login credentials and instant credit activation in GBP." },
       ],
     },
     "en-au": {
@@ -2274,7 +2274,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What makes Zen 4K unique as a reseller panel in Australia?", a: "Zen 4K is renowned for its exceptionally clean, minimal dashboard design — making it one of the most intuitive IPTV reseller panels to navigate, while still delivering premium 4K streaming quality across Aussie broadband." },
         { q: "Is Zen 4K a reliable Foxtel alternative for resellers?", a: "Yes, indeed. By pairing high-quality 4K streaming with a beautifully simple dashboard, Zen 4K lets you provide an elegant, clutter-free entertainment platform that rivals Foxtel at a fraction of the price." },
-        { q: "How do I access the Zen 4K reseller panel in Australia?", a: "Contact Fox IPTV Panels on WhatsApp to receive your Zen 4K reseller panel login credentials and instant credit activation in AUD." },
+        { q: "How do I access the Zen 4K reseller panel in Australia?", a: "Contact IPTV Reseller on WhatsApp to receive your Zen 4K reseller panel login credentials and instant credit activation in AUD." },
       ],
     },
   },
@@ -2304,7 +2304,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vem passar Nexon IPTV-återförsäljarpanel bäst för?", a: "Nexon är bäst lämpad för etablerade IPTV-verksamheter som hanterar stora kundvolymer — dess avancerade bulkverktyg, djupgående analys och överlägsna drifttid gör den till det självklara valet för professionella återförsäljare." },
         { q: "Har Nexon de bästa funktionerna för IPTV-återförsäljare?", a: "Ja, Nexon är en av de mest kompletta kontrollpanelerna som finns tillgängliga på marknaden idag. Den erbjuder avancerad automatiserad kredithantering i SEK och detaljerad spårning på företagsnivå." },
-        { q: "Är Nexon tillgänglig i Sverige?", a: "Ja. Nexon IPTV är fullt tillgänglig för återförsäljare i Sverige och hela Norden via Fox IPTV Panels, med geo-optimerade servrar för att garantera låg latens och noll buffring." },
+        { q: "Är Nexon tillgänglig i Sverige?", a: "Ja. Nexon IPTV är fullt tillgänglig för återförsäljare i Sverige och hela Norden via IPTV Reseller, med geo-optimerade servrar för att garantera låg latens och noll buffring." },
       ],
     },
     "no": {
@@ -2332,7 +2332,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hvem passer Nexon IPTV-forhandlerpanel best for?", a: "Nexon er best egnet for etablerte IPTV-virksomheter som administrerer store kundevolumer — dets avanserte bulkverktyg, dypgående analyse og overlegne oppetid gjør det til det opplagte valget for profesjonelle forhandlere." },
         { q: "Har Nexon de beste funksjonene for IPTV-forhandlere?", a: "Ja, Nexon er en av de mest komplette kontrollpanelene som finnes tilgjengelig på markedet i dag. Det tilbyr avansert automatisert kredittstyring i NOK og detaljert sporing på bedriftsnivå." },
-        { q: "Er Nexon tilgjengelig i Norge?", a: "Ja. Nexon IPTV er fullt tilgjengelig for forhandlere i Norge og hele Skandinavia via Fox IPTV Panels, med geo-optimaliserte servere for å garantere lav latens og null bufring." },
+        { q: "Er Nexon tilgjengelig i Norge?", a: "Ja. Nexon IPTV er fullt tilgjengelig for forhandlere i Norge og hele Skandinavia via IPTV Reseller, med geo-optimaliserte servere for å garantere lav latens og null bufring." },
       ],
     },
     "en-gb": {
@@ -2360,7 +2360,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Who is Nexon IPTV reseller panel best for in the UK?", a: "Nexon is best for established UK IPTV businesses managing large subscriber volumes — its enterprise dashboard, advanced bulk tools, and superior uptime make it ideal for professional British IPTV resellers." },
         { q: "Does Nexon have the best IPTV reseller dashboard features for UK market?", a: "Absolutely. Nexon is one of the most feature-complete reseller dashboards available, with automated credit management, detailed UK-oriented analytics, and comprehensive subscriber tracking at enterprise scale." },
-        { q: "Is Nexon available with GBP credit payment?", a: "Yes. Fox IPTV Panels provides Nexon reseller credits with instant activation and easy payments in British Pounds, backed by priority 24/7 WhatsApp support." },
+        { q: "Is Nexon available with GBP credit payment?", a: "Yes. IPTV Reseller provides Nexon reseller credits with instant activation and easy payments in British Pounds, backed by priority 24/7 WhatsApp support." },
       ],
     },
     "en-au": {
@@ -2388,14 +2388,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Who is Nexon IPTV reseller panel best for in Australia?", a: "Nexon is best for established Australian IPTV businesses managing large subscriber volumes — its enterprise dashboard, advanced bulk tools, and superior uptime make it ideal for professional Aussie IPTV resellers." },
         { q: "Is Nexon a reliable Foxtel alternative for large resellers?", a: "Unquestionably. Nexon's enterprise-grade infrastructure allows Australian resellers to easily manage hundreds of active subscribers, providing them with a premium, buffer-free alternative to traditional pay-TV." },
-        { q: "Is Nexon available with AUD credit payment?", a: "Yes. Fox IPTV Panels provides Nexon reseller credits with instant activation and easy payments in Australian Dollars, backed by priority 24/7 WhatsApp support." },
+        { q: "Is Nexon available with AUD credit payment?", a: "Yes. IPTV Reseller provides Nexon reseller credits with instant activation and easy payments in Australian Dollars, backed by priority 24/7 WhatsApp support." },
       ],
     },
   },
   "infinity-premium-iptv-reseller-panel": {
     "sv": {
       tagline: "Infinity Premium IPTV Återförsäljarpanel — Obegränsad potential för elitåterförsäljare",
-      description: "Infinity Premium gör skäl för sitt namn — den levererar förstklassig strömningskvalitet, en kontrollpanel i elitklass och obegränsad skalbarhet för seriösa IPTV-verksamheter i Sverige. Det ultimata valet för professionella återförsäljare via Fox IPTV Panels.",
+      description: "Infinity Premium gör skäl för sitt namn — den levererar förstklassig strömningskvalitet, en kontrollpanel i elitklass och obegränsad skalbarhet för seriösa IPTV-verksamheter i Sverige. Det ultimata valet för professionella återförsäljare via IPTV Reseller.",
       longDescription: "Infinity Premium kombinerar en ultrasäker strömningsinfrastruktur med de mest omfattande hanteringsverktygen som finns tillgängliga på den nordiska marknaden. Från generering av gratis provkonton till avancerad bulkhantering av krediter i SEK och djupgående kundanalyser, ger Infinity Premium dig allt du behöver för att driva en framgångsrik IPTV-verksamhet med högsta möjliga vinstmarginaler kr för kr över Telia, Tele2 och Telenor.",
       features: [
         "Infrastruktur i elitklass för obegränsad skalbarhet",
@@ -2418,12 +2418,12 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad är Infinity Premium IPTV återförsäljarpanel?", a: "Infinity Premium är en kontrollpanel i elitklass som erbjuder högpresterande 4K-strömning, obegränsad skalbarhet och ett avancerat återförsäljardashboard med fullständiga verktyg för kredit- och abonnemangshantering." },
         { q: "Vad gör Infinity Premium annorlunda från andra IPTV-paneler?", a: "Det som utmärker Infinity Premium är dess servrar med extremt hög prestanda, mer omfattande bulkfunktioner i SEK och prioriterad support direkt via WhatsApp." },
-        { q: "Är Infinity Premium lämplig för nybörjare inom IPTV?", a: "Ja. Även om Infinity Premium erbjuder funktioner i toppklass, har Fox IPTV Panels flexibla paket med krediter i kr som gör det enkelt för alla att starta och växa sin verksamhet steg för steg." },
+        { q: "Är Infinity Premium lämplig för nybörjare inom IPTV?", a: "Ja. Även om Infinity Premium erbjuder funktioner i toppklass, har IPTV Reseller flexibla paket med krediter i kr som gör det enkelt för alla att starta och växa sin verksamhet steg för steg." },
       ],
     },
     "no": {
       tagline: "Infinity Premium IPTV Forhandlerpanel — Ubegrenset potensial for eliteforhandlere",
-      description: "Infinity Premium gjør skjel for sitt navn — den leverer førsteklasses strømmingskvalitet, et kontrollpanel i eliteklasse og ubegrenset skalering for seriøse IPTV-virksomheter i Norge. Det ultimate valget for profesjonelle forhandlere via Fox IPTV Panels.",
+      description: "Infinity Premium gjør skjel for sitt navn — den leverer førsteklasses strømmingskvalitet, et kontrollpanel i eliteklasse og ubegrenset skalering for seriøse IPTV-virksomheter i Norge. Det ultimate valget for profesjonelle forhandlere via IPTV Reseller.",
       longDescription: "Infinity Premium kombinerer en ultrasikker strømmingsinfrastruktur med de mest omfattende styringsverktøyene som er tilgjengelige på det nordiske markeket. Fra generering av gratis prøvekontoer til avansert bulkstyring av kreditter i NOK og dyptgående kundeanalyser, gir Infinity Premium deg alt du trenger for å drive en suksessrik IPTV-virksomhet med høyest mulige fortjenestemarginer kr for kr over Telenor, Telia og Altibox.",
       features: [
         "Infrastruktur i eliteklasse for ubegrenset skalering",
@@ -2446,12 +2446,12 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva er Infinity Premium IPTV forhandlerpanel?", a: "Infinity Premium er et kontrollpanel i eliteklasse som tilbyr høyytelses 4K-strømming, ubegrenset skalering og et avansert forhandlerdashboard med fullstendige verktøy for kreditt- og abonnementsstyring." },
         { q: "Hva gjør Infinity Premium annerledes enn andre IPTV-paneler?", a: "Det som utmerker Infinity Premium er serverne med ekstremt høy ytelse, mer omfattende bulkfunksjoner i NOK og prioritert støtte direkte via WhatsApp." },
-        { q: "Er Infinity Premium egnet for nybegynnere innen IPTV?", a: "Ja. Selv om Infinity Premium tilbyr funksjoner i toppklasse, har Fox IPTV Panels fleksible pakker med kreditter i kr som gjør det enkelt for alle å starte og vokse sin virksomhet steg for steg." },
+        { q: "Er Infinity Premium egnet for nybegynnere innen IPTV?", a: "Ja. Selv om Infinity Premium tilbyr funksjoner i toppklasse, har IPTV Reseller fleksible pakker med kreditter i kr som gjør det enkelt for alle å starte og vokse sin virksomhet steg for steg." },
       ],
     },
     "en-gb": {
       tagline: "Infinity Premium IPTV Reseller Panel — Unlimited Potential for Elite UK Resellers",
-      description: "Infinity Premium lives up to its name — delivering premium streaming quality, an elite reseller dashboard, and unlimited scalability for serious IPTV businesses in the UK. The ultimate all-in-one IPTV reseller panel through Fox IPTV Panels, optimised for BT, Virgin Media, and Sky broadband.",
+      description: "Infinity Premium lives up to its name — delivering premium streaming quality, an elite reseller dashboard, and unlimited scalability for serious IPTV businesses in the UK. The ultimate all-in-one IPTV reseller panel through IPTV Reseller, optimised for BT, Virgin Media, and Sky broadband.",
       longDescription: "Infinity Premium combines ultra-reliable streaming infrastructure with the most comprehensive reseller management tools available in the British market. From free trial generation to advanced bulk credit management in GBP and detailed subscriber analytics, Infinity Premium gives UK resellers everything needed to run a professional, highly profitable, and scalable IPTV business.",
       features: [
         "Unlimited-scale reseller infrastructure built for UK operators",
@@ -2474,12 +2474,12 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the Infinity Premium IPTV reseller panel in the UK?", a: "Infinity Premium is an elite IPTV reseller panel offering premium 4K streaming, unlimited scalability, and an advanced reseller dashboard with comprehensive credit and subscriber management tools." },
         { q: "What makes Infinity Premium different from standard IPTV panels?", a: "The 'Premium' in Infinity Premium refers to its elite-tier server infrastructure, more comprehensive dashboard features in GBP, and superior support quality compared to standard IPTV reseller panels." },
-        { q: "Is Infinity Premium suitable for UK resellers starting on a budget?", a: "Yes. While Infinity Premium offers elite-tier quality, Fox IPTV Panels offers flexible credit packages in GBP making it accessible even for new resellers starting their UK IPTV business." },
+        { q: "Is Infinity Premium suitable for UK resellers starting on a budget?", a: "Yes. While Infinity Premium offers elite-tier quality, IPTV Reseller offers flexible credit packages in GBP making it accessible even for new resellers starting their UK IPTV business." },
       ],
     },
     "en-au": {
       tagline: "Infinity Premium IPTV Reseller Panel — Unlimited Potential for Elite Australian Resellers",
-      description: "Infinity Premium lives up to its name — delivering premium streaming quality, an elite reseller dashboard, and unlimited scalability for serious IPTV businesses in Australia. The ultimate all-in-one IPTV reseller panel through Fox IPTV Panels, optimised for Telstra, Optus, and TPG NBN.",
+      description: "Infinity Premium lives up to its name — delivering premium streaming quality, an elite reseller dashboard, and unlimited scalability for serious IPTV businesses in Australia. The ultimate all-in-one IPTV reseller panel through IPTV Reseller, optimised for Telstra, Optus, and TPG NBN.",
       longDescription: "Infinity Premium combines ultra-reliable streaming infrastructure with the most comprehensive reseller management tools available in the Australian market. From free trial generation to advanced bulk credit management in AUD and detailed subscriber analytics, Infinity Premium gives Aussie resellers everything needed to run a professional, highly profitable, and scalable IPTV business as the premium Foxtel alternative.",
       features: [
         "Unlimited-scale reseller infrastructure built for Australian operators",
@@ -2502,7 +2502,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the Infinity Premium IPTV reseller panel in Australia?", a: "Infinity Premium is an elite IPTV reseller panel offering premium 4K streaming, unlimited scalability, and an advanced reseller dashboard with comprehensive credit and subscriber management tools." },
         { q: "Is Infinity Premium a reliable Foxtel alternative for Aussie resellers?", a: "Absolutely. With elite-tier server infrastructure, advanced bulk tools, and 4K streaming, Infinity Premium is the gold standard of Foxtel alternatives, letting Aussie resellers run high-end subscription services." },
-        { q: "Is Infinity Premium suitable for Aussie resellers starting on a budget?", a: "Yes. While Infinity Premium offers elite-tier quality, Fox IPTV Panels offers flexible credit packages in AUD making it accessible even for new resellers starting their Australian IPTV business." },
+        { q: "Is Infinity Premium suitable for Aussie resellers starting on a budget?", a: "Yes. While Infinity Premium offers elite-tier quality, IPTV Reseller offers flexible credit packages in AUD making it accessible even for new resellers starting their Australian IPTV business." },
       ],
     },
   },
@@ -2531,7 +2531,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Är GTV en av de billigaste IPTV-återförsäljarpanelerna i Sverige?", a: "Ja, GTV erbjuder några av marknadens mest konkurrenskraftiga priser på krediter i SEK, vilket gör den till en av de absolut mest prisvärda IPTV-återförsäljarpanelerna för att maximera dina vinstmarginaler." },
-        { q: "Vad är GTV IPTV återförsäljarpanel?", a: "GTV är en värdeoptimerad IPTV-panel med pålitlig 4K-strömning, stöd för Xtream Codes och M3U samt ett rent dashboard till fantastiska priser via Fox IPTV Panels." },
+        { q: "Vad är GTV IPTV återförsäljarpanel?", a: "GTV är en värdeoptimerad IPTV-panel med pålitlig 4K-strömning, stöd för Xtream Codes och M3U samt ett rent dashboard till fantastiska priser via IPTV Reseller." },
         { q: "Passar GTV för nybörjare inom IPTV-återförsäljning?", a: "Ja, absolut. GTV:s rena kontrollpanel och låga kreditpriser i kr gör det till en perfekt och riskfri startpunkt för nya återförsäljare med en mindre budget." },
       ],
     },
@@ -2559,7 +2559,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "Er GTV et av de billigaste IPTV-forhandlerpanelene i Norge?", a: "GTV tilbyr noen av markedets mest konkurransedyktige priser på kreditter i NOK, noe som gjør det til et av de mest lønnsomme IPTV-forhandlerpanelene for å maksimere marginene dine." },
-        { q: "Hva er GTV IPTV forhandlerpanel?", a: "GTV er et verdioptimalisert IPTV-panel med pålitelig 4K-strømming, støtte for Xtream Codes og M3U samt et rent dashboard til fantastiske priser via Fox IPTV Panels." },
+        { q: "Hva er GTV IPTV forhandlerpanel?", a: "GTV er et verdioptimalisert IPTV-panel med pålitelig 4K-strømming, støtte for Xtream Codes og M3U samt et rent dashboard til fantastiske priser via IPTV Reseller." },
         { q: "Passar GTV for nybegynnere innen IPTV-forhandling?", a: "Ja. GTVs enkle dashboard og lave kredittpriser i kr gjør det til et ypperlig og rimelig utgangspunkt for nye forhandlere med et mindre budsjett." },
       ],
     },
@@ -2587,7 +2587,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
       faqs: [
         { q: "What makes GTV the best value IPTV reseller panel for UK resellers?", a: "GTV combines reliable 4K streaming with competitive credit rates in GBP (£) and a clean dashboard layout, delivering exceptional ROI for smart UK resellers." },
-        { q: "What is the GTV IPTV reseller panel?", a: "GTV is a value-optimised IPTV reseller panel featuring stable 4K streaming, Xtream Codes and M3U playlist support, and a clean dashboard — all at unbeatable credit rates through Fox IPTV Panels." },
+        { q: "What is the GTV IPTV reseller panel?", a: "GTV is a value-optimised IPTV reseller panel featuring stable 4K streaming, Xtream Codes and M3U playlist support, and a clean dashboard — all at unbeatable credit rates through IPTV Reseller." },
         { q: "Is GTV suitable for beginner UK IPTV resellers?", a: "Absolutely. GTV's clean dashboard layout and competitive credit pricing make it an accessible, low-risk, and highly profitable starting point for new UK resellers starting on a budget." },
       ],
     },
@@ -2760,7 +2760,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad är Star Share IPTV återförsäljarpanel?", a: "Star Share is en IPTV-panel med en flexibel delad åtkomstmodell som erbjuder ett enormt kanalutbud och konkurrenskraftiga kreditpriser för återförsäljare som vill ha mycket innehåll för pengarna." },
         { q: "Hur fungerar modellen med delad åtkomst för återförsäljare?", a: "Modellen med delad åtkomst gör det möjligt för återförsäljare att ge sina kunder tillgång till ett enormt innehållsbibliotek till ett mycket lägre kreditpris, vilket maximerar marginalerna i SEK." },
-        { q: "Kan jag köpa Star Share-krediter hos Fox IPTV Panels?", a: "Ja. Fox IPTV Panels säljer Star Share återförsäljarkrediter med omedelbar aktivering och full support på WhatsApp." },
+        { q: "Kan jag köpa Star Share-krediter hos IPTV Reseller?", a: "Ja. IPTV Reseller säljer Star Share återförsäljarkrediter med omedelbar aktivering och full support på WhatsApp." },
       ],
     },
     "no": {
@@ -2788,7 +2788,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva er Star Share IPTV forhandlerpanel?", a: "Star Share er et IPTV-panel med en fleksibel delt tilgangsmodell som tilbyr et enormt innholdsbibliotek og konkurransedyktige kredittpriser for forhandlere som ønsker mye innhold for pengene." },
         { q: "Hvorfor velge Star Shares modell for delt tilgang?", a: "Modellen med delt tilgang lar forhandlere gi kundene tilgang til et enormt kanalutvalg til en langt lavere kredittpris, noe som maksimerer fortjenestemarginene i NOK." },
-        { q: "Kan jeg kjøpe Star Share-kreditter hos Fox IPTV Panels?", a: "Ja. Fox IPTV Panels leverer Star Share forhandlerkreditter med øyeblikkelig aktivering og full opplæring og støtte på WhatsApp." },
+        { q: "Kan jeg kjøpe Star Share-kreditter hos IPTV Reseller?", a: "Ja. IPTV Reseller leverer Star Share forhandlerkreditter med øyeblikkelig aktivering og full opplæring og støtte på WhatsApp." },
       ],
     },
     "en-gb": {
@@ -2816,7 +2816,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the Star Share IPTV reseller panel?", a: "Star Share is an IPTV reseller panel with a flexible shared-access model, offering a broad channel selection and highly competitive credit rates in GBP (£) for British resellers who want diverse content options." },
         { q: "How does Star Share's shared-access model work for UK resellers?", a: "The shared-access model allows resellers to provide their clients with access to a massive content library at extremely competitive bulk pricing — maximising margins for the reseller." },
-        { q: "Is Star Share available through Fox IPTV Panels in the UK?", a: "Yes. Fox IPTV Panels provides Star Share reseller credits with instant GBP activation and full UK setup support via WhatsApp." },
+        { q: "Is Star Share available through IPTV Reseller in the UK?", a: "Yes. IPTV Reseller provides Star Share reseller credits with instant GBP activation and full UK setup support via WhatsApp." },
       ],
     },
     "en-au": {
@@ -2844,7 +2844,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the Star Share IPTV reseller panel?", a: "Star Share is an IPTV reseller panel with a flexible shared-access model, offering a broad channel selection and highly competitive credit rates in AUD ($) for Aussie resellers who want diverse content options." },
         { q: "Is Star Share a good Foxtel alternative for Australian customers?", a: "Too right it is. With its shared-access model, you can offer customers an incredibly diverse selection of live sport, news, and movies at a tiny fraction of what Foxtel charges, ensuring huge retail appeal." },
-        { q: "Is Star Share available through Fox IPTV Panels in Australia?", a: "Yes. Fox IPTV Panels provides Star Share reseller credits with instant AUD activation and full Australian setup support via WhatsApp." },
+        { q: "Is Star Share available through IPTV Reseller in Australia?", a: "Yes. IPTV Reseller provides Star Share reseller credits with instant AUD activation and full Australian setup support via WhatsApp." },
       ],
     },
   },
@@ -2874,7 +2874,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Varför kallas Tiger OTT för en snabb IPTV-återförsäljarpanel?", a: "Tiger OTT är utvecklad från grunden för snabbhet — från serverns snabba svarstider till omedelbar kreditaktivering och effektivt skapande av prenumerationer, vilket gör den till en av marknadens snabbaste paneler." },
         { q: "Erbjuder Tiger OTT bra strömningskvalitet i Sverige?", a: "Ja. Tiger OTT levererar mycket stabila 4K Ultra HD-strömmar över Xtream Codes, M3U och MAG-boxar med minimal buffring och fantastisk drifttid." },
-        { q: "Hur köper jag Tiger OTT återförsäljarkrediter?", a: "Kontakta Fox IPTV Panels på WhatsApp. Våra Tiger OTT-krediter aktiveras omedelbart så att du kan börja skapa kundabonnemang i kr direkt." },
+        { q: "Hur köper jag Tiger OTT återförsäljarkrediter?", a: "Kontakta IPTV Reseller på WhatsApp. Våra Tiger OTT-krediter aktiveras omedelbart så att du kan börja skapa kundabonnemang i kr direkt." },
       ],
     },
     "no": {
@@ -2902,7 +2902,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hvorfor kalles Tiger OTT et raskt IPTV-forhandlerpanel?", a: "Tiger OTT er utviklet fra bunnen av med fokus på hastighet — fra servernes raske responstider til umiddelbar kredittaktivering og lynrask opprettelse av abonnementer, noe som gjør det til et av de mest effektive panelene." },
         { q: "Tilbyr Tiger OTT god strømmingskvalitet i Norge?", a: "Ja. Tiger OTT levererar stabile 4K Ultra HD-strømmer over Xtream Codes, M3U og MAG-bokser med minimal bufring og eksepsjonell oppetid." },
-        { q: "Hvordan kjøper jeg Tiger OTT forhandlerkreditter?", a: "Kontakt Fox IPTV Panels på WhatsApp. Våre Tiger OTT-krediter aktiveres øyeblikkelig slik at du kan opprette kundeabonnementer i NOK med en gang." },
+        { q: "Hvordan kjøper jeg Tiger OTT forhandlerkreditter?", a: "Kontakt IPTV Reseller på WhatsApp. Våre Tiger OTT-krediter aktiveres øyeblikkelig slik at du kan opprette kundeabonnementer i NOK med en gang." },
       ],
     },
     "en-gb": {
@@ -2930,7 +2930,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Why is Tiger OTT called a fast IPTV reseller panel in the UK?", a: "Tiger OTT is engineered specifically for speed — featuring incredibly fast server loading times, rapid credit activation in GBP, and a highly streamlined workflow for creating subscriptions." },
         { q: "Does Tiger OTT deliver high streaming quality in the UK?", a: "Yes. Tiger OTT delivers extremely stable 4K Ultra HD streaming across Xtream Codes, M3U, and MAG box connections with strong uptime and minimal buffering on UK networks." },
-        { q: "How do I get Tiger OTT reseller credits in the UK?", a: "Simply contact Fox IPTV Panels on WhatsApp. Tiger OTT credits are activated instantly so you can start selling subscriptions to British customers right away." },
+        { q: "How do I get Tiger OTT reseller credits in the UK?", a: "Simply contact IPTV Reseller on WhatsApp. Tiger OTT credits are activated instantly so you can start selling subscriptions to British customers right away." },
       ],
     },
     "en-au": {
@@ -2958,7 +2958,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Why is Tiger OTT called a fast IPTV reseller panel in Australia?", a: "Tiger OTT is engineered specifically for speed — featuring incredibly fast server loading times, rapid credit activation in AUD ($), and a highly streamlined workflow for creating subscriptions." },
         { q: "Is Tiger OTT a good Foxtel alternative for Aussie resellers?", a: "You bet. If your customers are tired of pay-TV buffering or high prices, Tiger OTT offers lightning-fast channel zapping and 4K quality that outperforms standard services over the NBN." },
-        { q: "How do I get Tiger OTT reseller credits in Australia?", a: "Simply contact Fox IPTV Panels on WhatsApp. Tiger OTT credits are activated instantly in AUD so you can start selling subscriptions to Australian customers right away." },
+        { q: "How do I get Tiger OTT reseller credits in Australia?", a: "Simply contact IPTV Reseller on WhatsApp. Tiger OTT credits are activated instantly in AUD so you can start selling subscriptions to Australian customers right away." },
       ],
     },
   },
@@ -2988,7 +2988,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Är Opplex den billigaste IPTV-återförsäljarpanelen i Sverige?", a: "Opplex erbjuder några av marknadens absolut lägsta kreditpriser i kr, vilket gör den till en av de mest konkurrenskraftiga och populära budgetpanelerna för återförsäljare som fokuserar på volym." },
         { q: "Varför är Opplex så populärt bland IPTV-återförsäljare?", a: "Kombinationen av mycket låga priser, solid strömningskvalitet och ett okomplicerat dashboard har gjort Opplex till en favorit bland återförsäljare som vill nå ut till en bred målgrupp." },
-        { q: "Kan jag få ett gratis testkonto på Opplex återförsäljarpanel?", a: "Ja, självklart. Fox IPTV Panels erbjuder gratis testkonton för Opplex. Skicka ett meddelande till oss på WhatsApp för att få din testbehörighet aktiverad." },
+        { q: "Kan jag få ett gratis testkonto på Opplex återförsäljarpanel?", a: "Ja, självklart. IPTV Reseller erbjuder gratis testkonton för Opplex. Skicka ett meddelande till oss på WhatsApp för att få din testbehörighet aktiverad." },
       ],
     },
     "no": {
@@ -3016,7 +3016,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Er Opplex det billigste IPTV-forhandlerpanelene i Norge?", a: "Budsjettvennlige Opplex tilbyr noen av de rimeligste kredittprisene i NOK på markedet, noe som gjør det til et av de mest konkurransedyktige og populære budsjettpanelene for forhandlere som ønsker høyt volum." },
         { q: "Hvorfor er Opplex så populært blant IPTV-forhandlere?", a: "Kombinasjon av lave priser, god strømmingsytelse og et enkelt dashboard har gjort Opplex til et av de mest brukte panelene for forhandlere med fokus på budsjettsegmentet." },
-        { q: "Kan jeg få en gratis prøveperiode på Opplex forhandlerpanel?", a: "Ja. Fox IPTV Panels tilbyr en gratis prøveperiode på Opplex-kontrollpanelet. Ta kontakt med oss på WhatsApp for å få din prøvetilgang." },
+        { q: "Kan jeg få en gratis prøveperiode på Opplex forhandlerpanel?", a: "Ja. IPTV Reseller tilbyr en gratis prøveperiode på Opplex-kontrollpanelet. Ta kontakt med oss på WhatsApp for å få din prøvetilgang." },
       ],
     },
     "en-gb": {
@@ -3044,7 +3044,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Is Opplex the cheapest IPTV reseller panel in the UK?", a: "Opplex offers some of the most affordable credit rates in GBP (£) available, making it one of the most competitive and popular budget IPTV panels for volume-focused UK resellers." },
         { q: "Why is Opplex so popular among British IPTV resellers?", a: "Opplex's combination of highly competitive pricing, stable streaming quality, and a simple dashboard layout makes it a go-to choice for resellers targeting budget-conscious customers in the UK." },
-        { q: "Does Opplex offer a free trial for resellers in the UK?", a: "Yes. Fox IPTV Panels offers a free reseller trial on the Opplex panel. Contact us on WhatsApp to request your trial credentials." },
+        { q: "Does Opplex offer a free trial for resellers in the UK?", a: "Yes. IPTV Reseller offers a free reseller trial on the Opplex panel. Contact us on WhatsApp to request your trial credentials." },
       ],
     },
     "en-au": {
@@ -3072,7 +3072,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Is Opplex the cheapest IPTV reseller panel in Australia?", a: "Opplex offers some of the most affordable credit rates in AUD ($) available, making it one of the most competitive and popular budget IPTV panels for volume-focused Aussie resellers." },
         { q: "Is Opplex a solid budget Foxtel alternative?", a: "Too right it is. It gives Aussie resellers a cheap, no-nonsense platform to offer thousands of global channels to budget-focused customers who want to ditch expensive pay-TV." },
-        { q: "Does Opplex offer a free trial for resellers in Australia?", a: "Yes. Fox IPTV Panels offers a free reseller trial on the Opplex panel in AUD. Contact us on WhatsApp to request your trial credentials." },
+        { q: "Does Opplex offer a free trial for resellers in Australia?", a: "Yes. IPTV Reseller offers a free reseller trial on the Opplex panel in AUD. Contact us on WhatsApp to request your trial credentials." },
       ],
     },
   },
@@ -3102,7 +3102,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad är GEO IPTV återförsäljarpanel?", a: "GEO IPTV är en geo-optimerad IPTV-återförsäljarpanel som använder distribuerad serverinfrastruktur för att erbjuda stabil, låglatens 4K-strömning till kunder i olika länder." },
         { q: "Fungerar GEO IPTV bra för kunder i Sverige och Europa?", a: "Ja, absolut. GEO IPTV har servrar speciellt optimerade för Sverige, Norden, Europa och USA, vilket minimerar latensen och ger en helt buffringsfri upplevelse för dina europeiska kunder." },
-        { q: "Hur köper jag GEO IPTV-krediter?", a: "Skicka ett WhatsApp-meddelande till Fox IPTV Panels för omedelbar aktivering av dina GEO IPTV-krediter i SEK. Vi hjälper dig med din första prenumeration direkt." },
+        { q: "Hur köper jag GEO IPTV-krediter?", a: "Skicka ett WhatsApp-meddelande till IPTV Reseller för omedelbar aktivering av dina GEO IPTV-krediter i SEK. Vi hjälper dig med din första prenumeration direkt." },
       ],
     },
     "no": {
@@ -3130,7 +3130,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva er GEO IPTV forhandlerpanel?", a: "GEO IPTV er et geo-optimalisert IPTV-forhandlerpanel som bruker distribuert serverinfrastruktur for å tilby stabil, lav-latens 4K-strømming til kunder i forskjellige land." },
         { q: "Fungerer GEO IPTV godt for kunder i Norge og Europa?", a: "Ja. GEO IPTV har servere spesielt optimalisert for Norge, Skandinavia, Europa og USA, noe som minimerer latensen og gir en helt bufringsfri opplevelse for dine norske kunder." },
-        { q: "Hvordan kjøper jeg GEO IPTV-forhandlerkreditter?", a: "Send en WhatsApp-melding til Fox IPTV Panels for øyeblikkelig aktivering av dine GEO IPTV forhandlerkreditter i NOK. Vi hjelper deg med oppsettet med en gang." },
+        { q: "Hvordan kjøper jeg GEO IPTV-forhandlerkreditter?", a: "Send en WhatsApp-melding til IPTV Reseller for øyeblikkelig aktivering av dine GEO IPTV forhandlerkreditter i NOK. Vi hjelper deg med oppsettet med en gang." },
       ],
     },
     "en-gb": {
@@ -3158,7 +3158,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the GEO IPTV reseller panel?", a: "GEO IPTV is a geographically optimised IPTV reseller panel using distributed server infrastructure to deliver stable, low-latency 4K streaming to customers in different countries and regions." },
         { q: "Is GEO IPTV good for resellers in the UK and the EU?", a: "Yes. GEO IPTV has server routes specifically optimised for multiple regions including the UK, USA, the EU, and the Middle East — making it ideal for British resellers with international customer bases." },
-        { q: "How do I get GEO IPTV reseller credits in the UK?", a: "Contact Fox IPTV Panels on WhatsApp for instant GEO IPTV credit activation in GBP (£). We'll set up your reseller panel and guide you through your first international customer subscriptions." },
+        { q: "How do I get GEO IPTV reseller credits in the UK?", a: "Contact IPTV Reseller on WhatsApp for instant GEO IPTV credit activation in GBP (£). We'll set up your reseller panel and guide you through your first international customer subscriptions." },
       ],
     },
     "en-au": {
@@ -3186,7 +3186,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the GEO IPTV reseller panel?", a: "GEO IPTV is a geographically optimised IPTV reseller panel using distributed server infrastructure to deliver stable, low-latency 4K streaming to customers in different countries and regions." },
         { q: "Is GEO IPTV a good Foxtel alternative for Aussie resellers?", a: "Too right it is. By geo-optimising routes specifically for Australia, GEO IPTV solves latency issues on the NBN, allowing Aussie resellers to offer a seamless, buffer-free alternative to traditional pay-TV." },
-        { q: "How do I get GEO IPTV reseller credits in Australia?", a: "Contact Fox IPTV Panels on WhatsApp for instant GEO IPTV credit activation in AUD ($). We'll set up your reseller panel and guide you through your first international customer subscriptions." },
+        { q: "How do I get GEO IPTV reseller credits in Australia?", a: "Contact IPTV Reseller on WhatsApp for instant GEO IPTV credit activation in AUD ($). We'll set up your reseller panel and guide you through your first international customer subscriptions." },
       ],
     },
   },
@@ -3216,7 +3216,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad är 5G Live IPTV återförsäljarpanel?", a: "5G Live är en modern IPTV-återförsäljarpanel med servrar med extremt låg latens, optimerad för snabba nätverk för att leverera flytande 4K-strömning med realtidsstatistik." },
         { q: "Måste mina kunder ha 5G-internet för att använda 5G Live?", a: "Nej, absolut inte. 5G Live fungerar på alla typer av bredband. Benämningen '5G' syftar på dess extremt snabba serverinfrastruktur — alla kunder med stabilt bredband drar nytta av den låga latensen." },
-        { q: "Är 5G Live tillgänglig i Sverige?", a: "Ja. 5G Live IPTV är tillgänglig för återförsäljare i Sverige och hela Norden via Fox IPTV Panels, komplett med geo-optimerad leverans." },
+        { q: "Är 5G Live tillgänglig i Sverige?", a: "Ja. 5G Live IPTV är tillgänglig för återförsäljare i Sverige och hela Norden via IPTV Reseller, komplett med geo-optimerad leverans." },
       ],
     },
     "no": {
@@ -3244,7 +3244,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva er 5G Live IPTV forhandlerpanel?", a: "5G Live er et moderne IPTV-forhandlerpanel med servere med ekstremt lav latens, optimalisert for raske nettverk for å levere flytende 4K-strømming med sanntidsstatistikk." },
         { q: "Må kundene mine ha 5G-internett for å bruke 5G Live?", a: "Nei. 5G Live fungerer på alle typer bredbånd. '5G' refererer til servernes lynraske infrastruktur — alle kunder med vanlig fiber eller stabilt bredbånd vil dra nytte av den lave latensen." },
-        { q: "Er 5G Live tilgjengelig i Norge?", a: "Ja. 5G Live IPTV er tilgjengelig for forhandlere i Norge og Skandinavia via Fox IPTV Panels, komplett med geo-optimalisert innholdslevering." },
+        { q: "Er 5G Live tilgjengelig i Norge?", a: "Ja. 5G Live IPTV er tilgjengelig for forhandlere i Norge og Skandinavia via IPTV Reseller, komplett med geo-optimalisert innholdslevering." },
       ],
     },
     "en-gb": {
@@ -3272,7 +3272,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the 5G Live IPTV reseller panel?", a: "5G Live is a next-generation IPTV reseller panel featuring ultra-low-latency servers optimised for high-speed networks, delivering seamless 4K streaming with a modern reseller management dashboard." },
         { q: "Do UK customers require a 5G connection to use 5G Live?", a: "No, not at all. 5G Live works beautifully on all broadband connections. The '5G' refers to its high-speed server infrastructure — UK customers with standard fibre broadband will benefit immensely from the low-latency zapping times." },
-        { q: "Is 5G Live available as an IPTV reseller panel in the UK?", a: "Yes. 5G Live IPTV is fully available to resellers in the United Kingdom through Fox IPTV Panels with geo-optimised UK server routing and instant GBP payments." },
+        { q: "Is 5G Live available as an IPTV reseller panel in the UK?", a: "Yes. 5G Live IPTV is fully available to resellers in the United Kingdom through IPTV Reseller with geo-optimised UK server routing and instant GBP payments." },
       ],
     },
     "en-au": {
@@ -3300,7 +3300,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the 5G Live IPTV reseller panel?", a: "5G Live is a next-generation IPTV reseller panel featuring ultra-low-latency servers optimised for high-speed networks, delivering seamless 4K streaming with a modern reseller management dashboard." },
         { q: "Is 5G Live a good Foxtel alternative for Aussie resellers?", a: "Too right it is. By leveraging low-latency next-gen servers, it offers near-instant channel changing and superior 4K quality, making it a fantastic alternative to Foxtel for Australians on NBN." },
-        { q: "Is 5G Live available as an IPTV reseller panel in Australia?", a: "Yes. 5G Live IPTV is fully available to resellers in Australia through Fox IPTV Panels with geo-optimised NBN routing and instant AUD payments." },
+        { q: "Is 5G Live available as an IPTV reseller panel in Australia?", a: "Yes. 5G Live IPTV is fully available to resellers in Australia through IPTV Reseller with geo-optimised NBN routing and instant AUD payments." },
       ],
     },
   },
@@ -3330,7 +3330,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Vad är Magnum Golden OTT IPTV återförsäljarpanel?", a: "Magnum Golden OTT är en premium-återförsäljarpanel i guldklass som erbjuder ett enormt innehållsbibliotek, enastående 4K-kvalitet och ett kraftfullt dashboard för elitåterförsäljare." },
         { q: "Vilka kunder passar Magnum Golden OTT bäst för?", a: "Den är idealisk för kunder i Sverige som kräver det allra bästa — ett enormt kanalutbud, oklanderlig bildkvalitet och pålitlig strömning. Som återförsäljare kan du ta ut ett högre pris i SEK för Magnum-varumärket." },
-        { q: "Finns det ett gratis provkonto på Magnum Golden OTT?", a: "Ja. Fox IPTV Panels erbjuder gratis teståtkomst till Magnum Golden OTT återförsäljarpanelen. Skicka ett WhatsApp-meddelande till oss för att testa." },
+        { q: "Finns det ett gratis provkonto på Magnum Golden OTT?", a: "Ja. IPTV Reseller erbjuder gratis teståtkomst till Magnum Golden OTT återförsäljarpanelen. Skicka ett WhatsApp-meddelande till oss för att testa." },
       ],
     },
     "no": {
@@ -3358,13 +3358,13 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "Hva er Magnum Golden OTT IPTV forhandlerpanel?", a: "Magnum Golden OTT er et premium forhandlerpanel i gullklassen som tilbyr et enormt innholdsbibliotek, enestående 4K-kvalitet og et kraftig dashboard for eliteforhandlere." },
         { q: "Hvilke kunder passer Magnum Golden OTT best for?", a: "Det er ideelt for kunder i Norge som krever det aller beste — et enormt kanalutvalg, upåklagelig bildekvalitet og stabil strømming. Som forhandler kan du ta høyere priser i NOK for Magnum-merket." },
-        { q: "Finns det en gratis prøveperiode på Magnum Golden OTT?", a: "Ja. Fox IPTV Panels tilbyr en gratis prøveperiode på Magnum Golden OTT forhandlerpanelet. Send oss en WhatsApp-melding for å komme i gang." },
+        { q: "Finns det en gratis prøveperiode på Magnum Golden OTT?", a: "Ja. IPTV Reseller tilbyr en gratis prøveperiode på Magnum Golden OTT forhandlerpanelet. Send oss en WhatsApp-melding for å komme i gang." },
       ],
     },
     "en-gb": {
       tagline: "Magnum Golden OTT IPTV Reseller Panel — Gold Standard IPTV for Premium UK Resellers",
       description: "Magnum Golden OTT is a premium gold-tier IPTV reseller panel combining luxurious streaming quality with comprehensive reseller management tools. For British resellers who want to offer their customers the gold standard in IPTV.",
-      longDescription: "Magnum Golden OTT sets the gold standard for IPTV reselling with its premium server infrastructure, massive global channel library, and a full-featured reseller dashboard. Its gold-tier positioning allows UK resellers to command premium retail prices in GBP (£) while maintaining outstanding profit margins through competitive bulk credit packages from Fox IPTV Panels, fully optimised for BT, Virgin Media, and Sky networks.",
+      longDescription: "Magnum Golden OTT sets the gold standard for IPTV reselling with its premium server infrastructure, massive global channel library, and a full-featured reseller dashboard. Its gold-tier positioning allows UK resellers to command premium retail prices in GBP (£) while maintaining outstanding profit margins through competitive bulk credit packages from IPTV Reseller, fully optimised for BT, Virgin Media, and Sky networks.",
       features: [
         "Gold-tier premium IPTV server infrastructure",
         "Premium 4K no-buffering streaming in the UK",
@@ -3386,14 +3386,14 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the Magnum Golden OTT IPTV reseller panel?", a: "Magnum Golden OTT is a premium gold-tier IPTV reseller panel offering rich content, 4K streaming quality, and a comprehensive reseller dashboard — positioned at the premium end of the UK market." },
         { q: "What kind of UK customers is Magnum Golden OTT best for?", a: "Magnum Golden OTT is ideal for British customers who want a premium, all-inclusive IPTV experience — broad channel selection, premium quality, and reliable streaming. Resellers can command higher subscription prices in GBP (£) with the Magnum brand." },
-        { q: "How do I become a Magnum Golden OTT IPTV reseller in the UK?", a: "Contact Fox IPTV Panels on WhatsApp to purchase Magnum Golden OTT reseller credits. We'll activate your reseller panel and provide full setup support immediately." },
-        { q: "Is there a free trial for Magnum Golden OTT in the UK?", a: "Yes. Fox IPTV Panels offers free trial access to the Magnum Golden OTT reseller panel. Message us on WhatsApp to get your trial started." },
+        { q: "How do I become a Magnum Golden OTT IPTV reseller in the UK?", a: "Contact IPTV Reseller on WhatsApp to purchase Magnum Golden OTT reseller credits. We'll activate your reseller panel and provide full setup support immediately." },
+        { q: "Is there a free trial for Magnum Golden OTT in the UK?", a: "Yes. IPTV Reseller offers free trial access to the Magnum Golden OTT reseller panel. Message us on WhatsApp to get your trial started." },
       ],
     },
     "en-au": {
       tagline: "Magnum Golden OTT IPTV Reseller Panel — Gold Standard IPTV for Premium Australian Resellers",
       description: "Magnum Golden OTT is a premium gold-tier IPTV reseller panel combining luxurious streaming quality with comprehensive reseller management tools. For Australian resellers who want to offer their customers the gold standard in IPTV.",
-      longDescription: "Magnum Golden OTT sets the gold standard for IPTV reselling with its premium server infrastructure, massive global channel library, and a full-featured reseller dashboard. Its gold-tier positioning allows Aussie resellers to command premium retail prices in AUD ($) while maintaining outstanding profit margins through competitive bulk credit packages from Fox IPTV Panels, fully optimised for NBN connections (Telstra, Optus, TPG) as the ultimate Foxtel alternative.",
+      longDescription: "Magnum Golden OTT sets the gold standard for IPTV reselling with its premium server infrastructure, massive global channel library, and a full-featured reseller dashboard. Its gold-tier positioning allows Aussie resellers to command premium retail prices in AUD ($) while maintaining outstanding profit margins through competitive bulk credit packages from IPTV Reseller, fully optimised for NBN connections (Telstra, Optus, TPG) as the ultimate Foxtel alternative.",
       features: [
         "Gold-tier premium IPTV server infrastructure",
         "Premium 4K no-buffering streaming over the NBN",
@@ -3415,8 +3415,8 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       faqs: [
         { q: "What is the Magnum Golden OTT IPTV reseller panel?", a: "Magnum Golden OTT is a premium gold-tier IPTV reseller panel offering rich content, 4K streaming quality, and a comprehensive reseller dashboard — positioned at the premium end of the Australian market." },
         { q: "Is Magnum Golden OTT a reliable Foxtel alternative for Aussie resellers?", a: "Too right it is. Magnum Golden OTT is the absolute gold standard of Foxtel alternatives, giving Aussie resellers a premium, bulletproof platform to market high-end subscription services." },
-        { q: "How do I become a Magnum Golden OTT IPTV reseller in Australia?", a: "Contact Fox IPTV Panels on WhatsApp to purchase Magnum Golden OTT reseller credits. We'll activate your reseller panel and provide full setup support immediately." },
-        { q: "Is there a free trial for Magnum Golden OTT in Australia?", a: "Yes. Fox IPTV Panels offers free trial access to the Magnum Golden OTT reseller panel. Message us on WhatsApp to get your trial started." },
+        { q: "How do I become a Magnum Golden OTT IPTV reseller in Australia?", a: "Contact IPTV Reseller on WhatsApp to purchase Magnum Golden OTT reseller credits. We'll activate your reseller panel and provide full setup support immediately." },
+        { q: "Is there a free trial for Magnum Golden OTT in Australia?", a: "Yes. IPTV Reseller offers free trial access to the Magnum Golden OTT reseller panel. Message us on WhatsApp to get your trial started." },
       ],
     },
   },
@@ -3451,7 +3451,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
   "b1g-iptv-reseller-panel": {
     "es": {
       tagline: "Panel Reseller B1G IPTV — Streaming 4K Estable para Revendedores Serios",
-      description: "B1G IPTV es un panel de reventa premium en el que confían miles de revendedores de IPTV en España y en todo el mundo. Con transmisión en 4K, soporte para Xtream Codes y activación instantánea de créditos, B1G es uno de los paneles más fiables disponibles en Fox IPTV Panels.",
+      description: "B1G IPTV es un panel de reventa premium en el que confían miles de revendedores de IPTV en España y en todo el mundo. Con transmisión en 4K, soporte para Xtream Codes y activación instantánea de créditos, B1G es uno de los paneles más fiables disponibles en IPTV Reseller.",
       longDescription: "B1G IPTV ofrece streaming de alta calidad con un panel de revendedor limpio y profesional. El sistema basado en créditos permite a los distribuidores comprar al por mayor y maximizar sus márgenes de beneficio. Ya sea que atienda a clientes en España, el Reino Unido, EE. UU. o la UE, los servidores geodistribuidos de B1G garantizan baja latencia y reproducción sin cortes en todos los dispositivos.",
       features: [
         "Soporte de panel revendedor Xtream Codes y M3U",
@@ -3473,14 +3473,14 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "¿Qué es el panel de revendedor B1G IPTV?", a: "B1G IPTV es un panel de revendedor de IPTV de marca blanca premium que proporciona a los distribuidores un panel de control para crear y gestionar suscripciones de IPTV mediante créditos. Compatible con Xtream Codes, M3U y cajas MAG con calidad de streaming 4K." },
-        { q: "¿Cómo compro créditos de revendedor B1G IPTV en España?", a: "Contacta con Fox IPTV Panels por WhatsApp para adquirir créditos de revendedor B1G al instante. Los créditos se activan en minutos y se pueden usar inmediatamente para crear suscripciones para clientes." },
+        { q: "¿Cómo compro créditos de revendedor B1G IPTV en España?", a: "Contacta con IPTV Reseller por WhatsApp para adquirir créditos de revendedor B1G al instante. Los créditos se activan en minutos y se pueden usar inmediatamente para crear suscripciones para clientes." },
         { q: "¿Admite el panel B1G las cajas MAG y los Smart TV?", a: "Sí. B1G IPTV es compatible con caja MAG, Smart TV, reproductores M3U y aplicaciones compatibles con Xtream Codes, cubriendo todos los dispositivos que usan sus clientes." },
-        { q: "¿Hay prueba gratuita del panel de revendedor B1G IPTV en España?", a: "Sí. Fox IPTV Panels ofrece una prueba gratuita del panel de revendedor B1G IPTV. Contáctenos por WhatsApp para solicitar acceso de prueba antes de comprometerse con un paquete de créditos." },
+        { q: "¿Hay prueba gratuita del panel de revendedor B1G IPTV en España?", a: "Sí. IPTV Reseller ofrece una prueba gratuita del panel de revendedor B1G IPTV. Contáctenos por WhatsApp para solicitar acceso de prueba antes de comprometerse con un paquete de créditos." },
       ],
     },
     "fr": {
       tagline: "Panneau Revendeur B1G IPTV — Streaming 4K Stable pour Revendeurs Sérieux",
-      description: "B1G IPTV est un panneau revendeur premium approuvé par des milliers de revendeurs IPTV en France, en Belgique et partout dans le monde. Avec un streaming 4K fluide, le support Xtream Codes et une activation instantanée des crédits, B1G figure parmi les panneaux les plus fiables proposés par Fox IPTV Panels.",
+      description: "B1G IPTV est un panneau revendeur premium approuvé par des milliers de revendeurs IPTV en France, en Belgique et partout dans le monde. Avec un streaming 4K fluide, le support Xtream Codes et une activation instantanée des crédits, B1G figure parmi les panneaux les plus fiables proposés par IPTV Reseller.",
       longDescription: "B1G IPTV garantit un streaming de haute qualité grâce à un tableau de bord revendeur propre et professionnel. Le système de crédits permet aux distributeurs d'acheter en gros et de maximiser leurs marges bénéficiaires. Que vous serviez des clients en France, en Belgique, au Royaume-Uni ou aux États-Unis, les serveurs géodistribués de B1G assurent une faible latence et une lecture sans coupure sur tous les appareils.",
       features: [
         "Support panneau revendeur Xtream Codes et M3U",
@@ -3502,14 +3502,14 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur B1G IPTV ?", a: "B1G IPTV est un panneau revendeur IPTV en marque blanche premium qui offre aux distributeurs un tableau de bord pour créer et gérer des abonnements IPTV via des crédits. Il supporte Xtream Codes, M3U et les boîtiers MAG avec une qualité de streaming 4K." },
-        { q: "Comment acheter des crédits revendeur B1G IPTV en France ?", a: "Contactez Fox IPTV Panels sur WhatsApp pour acheter instantanément des crédits revendeur B1G. Les crédits sont activés en quelques minutes et peuvent être utilisés immédiatement pour créer des abonnements clients." },
+        { q: "Comment acheter des crédits revendeur B1G IPTV en France ?", a: "Contactez IPTV Reseller sur WhatsApp pour acheter instantanément des crédits revendeur B1G. Les crédits sont activés en quelques minutes et peuvent être utilisés immédiatement pour créer des abonnements clients." },
         { q: "Le panneau B1G supporte-t-il les boîtiers MAG et les Smart TV ?", a: "Oui. B1G IPTV est compatible avec les boîtiers MAG, Smart TV, lecteurs M3U et les applications Xtream Codes — couvrant tous les appareils utilisés par vos clients." },
-        { q: "Y a-t-il un essai gratuit du panneau revendeur B1G IPTV en France ?", a: "Oui. Fox IPTV Panels propose un essai gratuit du panneau revendeur B1G IPTV. Contactez-nous sur WhatsApp pour demander votre accès d'essai avant de vous engager sur un pack de crédits." },
+        { q: "Y a-t-il un essai gratuit du panneau revendeur B1G IPTV en France ?", a: "Oui. IPTV Reseller propose un essai gratuit du panneau revendeur B1G IPTV. Contactez-nous sur WhatsApp pour demander votre accès d'essai avant de vous engager sur un pack de crédits." },
       ],
     },
     "pt": {
       tagline: "Painel Revendedor B1G IPTV — Streaming 4K Estável para Revendedores Sérios",
-      description: "B1G IPTV é um painel revendedor premium em que confiam milhares de revendedores de IPTV em Portugal, no Brasil e em todo o mundo. Com streaming em 4K, suporte para Xtream Codes e ativação instantânea de créditos, B1G é um dos painéis mais fiáveis disponíveis na Fox IPTV Panels.",
+      description: "B1G IPTV é um painel revendedor premium em que confiam milhares de revendedores de IPTV em Portugal, no Brasil e em todo o mundo. Com streaming em 4K, suporte para Xtream Codes e ativação instantânea de créditos, B1G é um dos painéis mais fiáveis disponíveis na IPTV Reseller.",
       longDescription: "B1G IPTV entrega streaming de alta qualidade com um painel revendedor limpo e profissional. O sistema baseado em créditos permite aos distribuidores comprar a granel e maximizar as margens de lucro. Quer sirva clientes em Portugal, no Brasil, no Reino Unido ou na UE, os servidores geodistribuídos do B1G garantem baixa latência e reprodução sem travamentos em todos os dispositivos.",
       features: [
         "Suporte de painel revendedor Xtream Codes e M3U",
@@ -3531,9 +3531,9 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "O que é o painel revendedor B1G IPTV?", a: "B1G IPTV é um painel revendedor de IPTV em marca branca premium que fornece aos distribuidores um painel de controlo para criar e gerir subscrições de IPTV com créditos. É compatível com Xtream Codes, M3U e caixas MAG com qualidade de streaming 4K." },
-        { q: "Como compro créditos de revendedor B1G IPTV em Portugal?", a: "Contacte a Fox IPTV Panels pelo WhatsApp para adquirir créditos de revendedor B1G instantaneamente. Os créditos são ativados em minutos e podem ser usados de imediato para criar subscrições para os seus clientes." },
+        { q: "Como compro créditos de revendedor B1G IPTV em Portugal?", a: "Contacte a IPTV Reseller pelo WhatsApp para adquirir créditos de revendedor B1G instantaneamente. Os créditos são ativados em minutos e podem ser usados de imediato para criar subscrições para os seus clientes." },
         { q: "O painel B1G suporta caixas MAG e Smart TVs?", a: "Sim. B1G IPTV é compatível com caixa MAG, Smart TV, leitores M3U e aplicações compatíveis com Xtream Codes — cobrindo todos os dispositivos que os seus clientes utilizam." },
-        { q: "Existe teste gratuito do painel revendedor B1G IPTV em Portugal?", a: "Sim. A Fox IPTV Panels oferece um teste gratuito do painel revendedor B1G IPTV. Contacte-nos pelo WhatsApp para solicitar acesso de teste antes de se comprometer com um pacote de créditos." },
+        { q: "Existe teste gratuito do painel revendedor B1G IPTV em Portugal?", a: "Sim. A IPTV Reseller oferece um teste gratuito do painel revendedor B1G IPTV. Contacte-nos pelo WhatsApp para solicitar acesso de teste antes de se comprometer com um pacote de créditos." },
       ],
     },
   },
@@ -3544,7 +3544,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
   "strong-4k-iptv-reseller-panel": {
     "es": {
       tagline: "Panel Reseller Strong 4K IPTV — El Panel 4K Premium Nº1 para los Mejores Revendedores",
-      description: "Strong 4K es el panel de revendedor de IPTV premium más popular para revendedores serios que buscan la mejor calidad de streaming 4K y 8K. Con un panel de control avanzado y un uptime excepcional, Strong 4K es la elección número uno en Fox IPTV Panels para el mercado español.",
+      description: "Strong 4K es el panel de revendedor de IPTV premium más popular para revendedores serios que buscan la mejor calidad de streaming 4K y 8K. Con un panel de control avanzado y un uptime excepcional, Strong 4K es la elección número uno en IPTV Reseller para el mercado español.",
       longDescription: "Strong 4K ofrece una calidad de transmisión sin igual con servidores 4K y 8K dedicados, tecnología sin buffering y un panel de control de revendedor repleto de funciones. Gestione miles de suscripciones de clientes en España y América Latina, asigne créditos al por mayor, cree pruebas gratuitas y monitorice el uptime en tiempo real. El panel de revendedor de IPTV más confiable para revendedores premium en 2026.",
       features: [
         "Streaming 4K y 8K Ultra HD sin interrupciones",
@@ -3566,14 +3566,14 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "¿Qué hace de Strong 4K el mejor panel de revendedor IPTV?", a: "Strong 4K combina calidad de streaming 4K y 8K con un panel de control avanzado, servidores sin buffering y precios de créditos al por mayor — convirtiéndolo en el panel de revendedor de IPTV mejor valorado para negocios de alto volumen en España en 2026." },
-        { q: "¿Cómo me convierto en revendedor de Strong 4K IPTV?", a: "Contacta con Fox IPTV Panels por WhatsApp. Configuraremos tu acceso al panel de revendedor Strong 4K, proporcionaremos activación instantánea de créditos y te guiaremos en tus primeras suscripciones." },
+        { q: "¿Cómo me convierto en revendedor de Strong 4K IPTV?", a: "Contacta con IPTV Reseller por WhatsApp. Configuraremos tu acceso al panel de revendedor Strong 4K, proporcionaremos activación instantánea de créditos y te guiaremos en tus primeras suscripciones." },
         { q: "¿Admite Strong 4K el streaming en 8K?", a: "Sí. Strong 4K soporta tanto streaming 4K Ultra HD como 8K en dispositivos compatibles. Es uno de los pocos paneles de revendedor de IPTV que ofrecen contenido en 8K a los usuarios finales." },
         { q: "¿Cuál es el margen de beneficio del panel de revendedor Strong 4K?", a: "Los revendedores de Strong 4K suelen obtener márgenes de beneficio del 40–150%+ dependiendo de sus precios de créditos al por mayor y las tarifas de suscripción de sus clientes. Cuantos más créditos compres al por mayor, mayores serán tus márgenes." },
       ],
     },
     "fr": {
       tagline: "Panneau Revendeur Strong 4K IPTV — Le Panneau 4K Premium N°1 pour les Meilleurs Revendeurs",
-      description: "Strong 4K est le panneau revendeur IPTV premium le plus populaire pour les revendeurs sérieux qui recherchent une qualité de streaming 4K et 8K de premier ordre. Avec un tableau de bord avancé et un uptime exceptionnel, Strong 4K est le premier choix sur Fox IPTV Panels pour le marché français et belge.",
+      description: "Strong 4K est le panneau revendeur IPTV premium le plus populaire pour les revendeurs sérieux qui recherchent une qualité de streaming 4K et 8K de premier ordre. Avec un tableau de bord avancé et un uptime exceptionnel, Strong 4K est le premier choix sur IPTV Reseller pour le marché français et belge.",
       longDescription: "Strong 4K offre une qualité de streaming inégalée avec des serveurs 4K et 8K dédiés, une technologie zéro-tampon et un panneau revendeur riche en fonctionnalités. Gérez des milliers d'abonnements clients en France et en Belgique, allouez des crédits en gros, créez des essais gratuits et surveillez l'uptime en temps réel. Le panneau revendeur IPTV le plus fiable pour les revendeurs premium en 2026.",
       features: [
         "Streaming 4K et 8K Ultra HD sans coupure ni tampon",
@@ -3595,14 +3595,14 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "Qu'est-ce qui fait de Strong 4K le meilleur panneau revendeur IPTV ?", a: "Strong 4K combine une qualité de streaming 4K et 8K avec un tableau de bord avancé, des serveurs zéro-tampon et des tarifs de crédits en gros — ce qui en fait le panneau revendeur IPTV le mieux noté pour les entreprises à fort volume en France en 2026." },
-        { q: "Comment devenir revendeur Strong 4K IPTV en France ?", a: "Contactez Fox IPTV Panels sur WhatsApp. Nous configurerons votre accès au panneau revendeur Strong 4K, fournirons une activation instantanée des crédits et vous guiderons dans la création de vos premiers abonnements." },
+        { q: "Comment devenir revendeur Strong 4K IPTV en France ?", a: "Contactez IPTV Reseller sur WhatsApp. Nous configurerons votre accès au panneau revendeur Strong 4K, fournirons une activation instantanée des crédits et vous guiderons dans la création de vos premiers abonnements." },
         { q: "Strong 4K supporte-t-il le streaming en 8K ?", a: "Oui. Strong 4K supporte le streaming 4K Ultra HD et 8K sur les appareils compatibles. C'est l'un des rares panneaux revendeurs IPTV proposant du contenu 8K aux utilisateurs finaux." },
         { q: "Quelle est la marge bénéficiaire du panneau revendeur Strong 4K ?", a: "Les revendeurs Strong 4K obtiennent généralement des marges bénéficiaires de 40 à 150%+ selon leurs tarifs de crédits en gros et les taux d'abonnement clients. Plus vous achetez de crédits en gros, plus vos marges sont élevées." },
       ],
     },
     "pt": {
       tagline: "Painel Revendedor Strong 4K IPTV — O Painel 4K Premium Nº1 para os Melhores Revendedores",
-      description: "Strong 4K é o painel revendedor de IPTV premium mais popular para revendedores sérios que procuram qualidade de streaming 4K e 8K de topo. Com um painel de controlo avançado e um uptime excecional, Strong 4K é a escolha número um na Fox IPTV Panels para o mercado português e brasileiro.",
+      description: "Strong 4K é o painel revendedor de IPTV premium mais popular para revendedores sérios que procuram qualidade de streaming 4K e 8K de topo. Com um painel de controlo avançado e um uptime excecional, Strong 4K é a escolha número um na IPTV Reseller para o mercado português e brasileiro.",
       longDescription: "Strong 4K oferece uma qualidade de streaming sem paralelo com servidores 4K e 8K dedicados, tecnologia sem buffering e um painel revendedor rico em funcionalidades. Gira milhares de subscrições de clientes em Portugal e no Brasil, aloque créditos a granel, crie testes gratuitos e monitorize o uptime em tempo real. O painel revendedor de IPTV mais confiável para revendedores premium em 2026.",
       features: [
         "Streaming 4K e 8K Ultra HD sem buffering",
@@ -3624,7 +3624,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "O que torna o Strong 4K o melhor painel revendedor de IPTV?", a: "Strong 4K combina qualidade de streaming 4K e 8K com um painel avançado, servidores sem buffering e preços de créditos por atacado — tornando-o o painel revendedor de IPTV mais bem avaliado para negócios de alto volume em Portugal e no Brasil em 2026." },
-        { q: "Como me torno revendedor Strong 4K IPTV em Portugal?", a: "Contacte a Fox IPTV Panels pelo WhatsApp. Iremos configurar o seu acesso ao painel revendedor Strong 4K, fornecer ativação instantânea de créditos e guiá-lo nas primeiras subscrições." },
+        { q: "Como me torno revendedor Strong 4K IPTV em Portugal?", a: "Contacte a IPTV Reseller pelo WhatsApp. Iremos configurar o seu acesso ao painel revendedor Strong 4K, fornecer ativação instantânea de créditos e guiá-lo nas primeiras subscrições." },
         { q: "O Strong 4K suporta streaming em 8K?", a: "Sim. Strong 4K suporta streaming 4K Ultra HD e 8K em dispositivos compatíveis. É um dos poucos painéis revendedores de IPTV que oferecem conteúdo 8K aos utilizadores finais." },
         { q: "Qual é a margem de lucro do painel revendedor Strong 4K?", a: "Os revendedores Strong 4K normalmente obtêm margens de lucro de 40–150%+ dependendo dos seus preços de créditos por atacado e das tarifas de subscrição dos clientes. Quanto mais créditos comprar a granel, maiores serão as suas margens." },
       ],
@@ -3660,7 +3660,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué es el panel de revendedor Strong 8K IPTV?", a: "Strong 8K es un panel de revendedor de IPTV ultra premium que ofrece streaming 8K real a través de un panel de revendedor de marca blanca compatible con Xtream Codes, M3U y cajas MAG." },
         { q: "¿Quién debería usar el panel de revendedor Strong 8K?", a: "Strong 8K es ideal para revendedores de IPTV en España que se dirigen a clientes premium que desean la máxima calidad de streaming — hoteles, bares deportivos o clientes residenciales de alto nivel." },
-        { q: "¿Está disponible Strong 8K en España y América Latina?", a: "Sí. El panel de revendedor Strong 8K IPTV está disponible para revendedores en España, América Latina y a nivel mundial a través de Fox IPTV Panels." },
+        { q: "¿Está disponible Strong 8K en España y América Latina?", a: "Sí. El panel de revendedor Strong 8K IPTV está disponible para revendedores en España, América Latina y a nivel mundial a través de IPTV Reseller." },
         { q: "¿Cómo se compara Strong 8K con Strong 4K?", a: "Strong 8K ofrece mayor resolución de streaming (8K real frente a 4K) con infraestructura de servidores premium dedicada. Ambos usan el mismo sistema de créditos de revendedor, pero Strong 8K está orientado a segmentos de clientes élite de alto poder adquisitivo." },
       ],
     },
@@ -3689,7 +3689,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur Strong 8K IPTV ?", a: "Strong 8K est un panneau revendeur IPTV ultra premium offrant un vrai streaming 8K via un tableau de bord en marque blanche compatible Xtream Codes, M3U et boîtiers MAG." },
         { q: "Pour qui est fait le panneau revendeur Strong 8K ?", a: "Strong 8K est idéal pour les revendeurs IPTV en France et Belgique ciblant des clients premium qui souhaitent la meilleure qualité de streaming possible — hôtels, bars sportifs ou clients résidentiels haut de gamme." },
-        { q: "Strong 8K est-il disponible en France et en Belgique ?", a: "Oui. Le panneau revendeur Strong 8K IPTV est disponible pour les revendeurs en France, en Belgique et dans le monde entier via Fox IPTV Panels." },
+        { q: "Strong 8K est-il disponible en France et en Belgique ?", a: "Oui. Le panneau revendeur Strong 8K IPTV est disponible pour les revendeurs en France, en Belgique et dans le monde entier via IPTV Reseller." },
         { q: "Comment Strong 8K se compare-t-il à Strong 4K ?", a: "Strong 8K offre une résolution de streaming plus élevée (vrai 8K contre 4K) avec une infrastructure serveur premium dédiée. Les deux utilisent le même système de crédits revendeur, mais Strong 8K est positionné pour les segments clients élite à fort pouvoir d'achat." },
       ],
     },
@@ -3718,7 +3718,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que é o painel revendedor Strong 8K IPTV?", a: "Strong 8K é um painel revendedor de IPTV ultra premium que oferece streaming 8K real através de um painel em marca branca compatível com Xtream Codes, M3U e caixas MAG." },
         { q: "Quem deve usar o painel revendedor Strong 8K?", a: "Strong 8K é ideal para revendedores de IPTV em Portugal e no Brasil que se dirigem a clientes premium que desejam a máxima qualidade de streaming — hotéis, bares desportivos ou clientes residenciais de alto nível." },
-        { q: "O Strong 8K está disponível em Portugal e no Brasil?", a: "Sim. O painel revendedor Strong 8K IPTV está disponível para revendedores em Portugal, no Brasil e em todo o mundo através da Fox IPTV Panels." },
+        { q: "O Strong 8K está disponível em Portugal e no Brasil?", a: "Sim. O painel revendedor Strong 8K IPTV está disponível para revendedores em Portugal, no Brasil e em todo o mundo através da IPTV Reseller." },
         { q: "Como o Strong 8K se compara ao Strong 4K?", a: "Strong 8K oferece maior resolução de streaming (8K real contra 4K) com infraestrutura de servidores premium dedicada. Ambos usam o mesmo sistema de créditos de revendedor, mas o Strong 8K está posicionado para segmentos de clientes elite de alto poder de compra." },
       ],
     },
@@ -3753,7 +3753,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué es el panel de revendedor 4K OTT IPTV?", a: "4K OTT es un panel de revendedor de IPTV fiable con un panel sencillo para gestionar suscripciones y créditos de IPTV. Soporta streaming 4K a través de Xtream Codes, M3U y conexiones de caja MAG." },
         { q: "¿Es 4K OTT adecuado para revendedores principiantes en España?", a: "Sí. 4K OTT tiene uno de los paneles de revendedor más fáciles de usar, lo que lo convierte en un excelente punto de partida para los nuevos revendedores de IPTV en España que están aprendiendo el sistema de créditos." },
-        { q: "¿Cómo empiezo con los créditos de revendedor 4K OTT?", a: "Contacta con Fox IPTV Panels por WhatsApp. Configuraremos tu panel de revendedor 4K OTT y proporcionaremos activación instantánea de créditos para que puedas empezar a crear suscripciones de clientes de inmediato." },
+        { q: "¿Cómo empiezo con los créditos de revendedor 4K OTT?", a: "Contacta con IPTV Reseller por WhatsApp. Configuraremos tu panel de revendedor 4K OTT y proporcionaremos activación instantánea de créditos para que puedas empezar a crear suscripciones de clientes de inmediato." },
         { q: "¿Ofrece 4K OTT pruebas gratuitas para clientes?", a: "Sí. El panel 4K OTT incluye herramientas de generación de pruebas para que puedas ofrecer periodos de prueba a tus clientes antes de que se comprometan con una suscripción completa." },
       ],
     },
@@ -3782,7 +3782,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur 4K OTT IPTV ?", a: "4K OTT est un panneau revendeur IPTV fiable avec un tableau de bord simple pour gérer les abonnements et crédits IPTV. Il supporte le streaming 4K via Xtream Codes, M3U et les connexions boîtier MAG." },
         { q: "4K OTT est-il adapté aux revendeurs débutants en France ?", a: "Oui. 4K OTT dispose de l'un des tableaux de bord revendeur les plus conviviaux, ce qui en fait un excellent point de départ pour les nouveaux revendeurs IPTV en France qui apprennent le système de crédits." },
-        { q: "Comment démarrer avec les crédits revendeur 4K OTT ?", a: "Contactez Fox IPTV Panels sur WhatsApp. Nous configurerons votre panneau revendeur 4K OTT et fournirons une activation instantanée des crédits afin que vous puissiez commencer à créer des abonnements clients immédiatement." },
+        { q: "Comment démarrer avec les crédits revendeur 4K OTT ?", a: "Contactez IPTV Reseller sur WhatsApp. Nous configurerons votre panneau revendeur 4K OTT et fournirons une activation instantanée des crédits afin que vous puissiez commencer à créer des abonnements clients immédiatement." },
         { q: "4K OTT propose-t-il des essais gratuits pour les clients ?", a: "Oui. Le panneau 4K OTT inclut des outils de génération d'essais pour que vous puissiez offrir des périodes de test à vos clients avant qu'ils s'engagent sur un abonnement complet." },
       ],
     },
@@ -3811,7 +3811,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que é o painel revendedor 4K OTT IPTV?", a: "4K OTT é um painel revendedor de IPTV fiável com um painel simples para gerir subscrições e créditos de IPTV. Suporta streaming 4K através de Xtream Codes, M3U e ligações de caixa MAG." },
         { q: "O 4K OTT é adequado para revendedores iniciantes em Portugal?", a: "Sim. O 4K OTT tem um dos painéis de revendedor mais fáceis de usar, tornando-o um excelente ponto de partida para novos revendedores de IPTV em Portugal que estão a aprender o sistema de créditos." },
-        { q: "Como começo com os créditos de revendedor 4K OTT?", a: "Contacte a Fox IPTV Panels pelo WhatsApp. Iremos configurar o seu painel revendedor 4K OTT e fornecer ativação instantânea de créditos para que possa começar a criar subscrições de clientes de imediato." },
+        { q: "Como começo com os créditos de revendedor 4K OTT?", a: "Contacte a IPTV Reseller pelo WhatsApp. Iremos configurar o seu painel revendedor 4K OTT e fornecer ativação instantânea de créditos para que possa começar a criar subscrições de clientes de imediato." },
         { q: "O 4K OTT oferece testes gratuitos para clientes?", a: "Sim. O painel 4K OTT inclui ferramentas de geração de testes para que possa oferecer períodos de teste aos seus clientes antes de se comprometerem com uma subscrição completa." },
       ],
     },
@@ -3823,7 +3823,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
   "lion-ott-iptv-reseller-panel": {
     "es": {
       tagline: "Panel Reseller Lion OTT IPTV — El Mejor Panel IPTV para Revendedores Principiantes",
-      description: "Lion OTT es el panel de revendedor de IPTV más fácil de usar disponible en Fox IPTV Panels. Con un panel intuitivo, soporte rápido y servidores 4K estables, Lion OTT es el punto de partida número uno recomendado para nuevos revendedores de IPTV en España y el resto del mundo hispanohablante.",
+      description: "Lion OTT es el panel de revendedor de IPTV más fácil de usar disponible en IPTV Reseller. Con un panel intuitivo, soporte rápido y servidores 4K estables, Lion OTT es el punto de partida número uno recomendado para nuevos revendedores de IPTV en España y el resto del mundo hispanohablante.",
       longDescription: "Lion OTT está diseñado específicamente para hacer accesible el negocio de reventa de IPTV a los recién llegados. El panel simplificado hace que la gestión de créditos, la creación de suscripciones y la administración de clientes sea sencilla desde el primer día. Con soporte rápido por WhatsApp y streaming 4K fiable, Lion OTT ayuda a los principiantes en España a construir un negocio de IPTV rentable rápidamente, sin necesidad de experiencia técnica.",
       features: [
         "Panel de revendedor amigable para principiantes",
@@ -3845,14 +3845,14 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "¿Por qué es Lion OTT el mejor panel IPTV para principiantes en España?", a: "Lion OTT tiene el panel de revendedor más simple de todos — haciendo que la compra de créditos, la creación de suscripciones y la gestión de clientes sea fácil para los revendedores de IPTV por primera vez en España sin ningún conocimiento técnico." },
-        { q: "¿Puedo empezar un negocio de revendedor IPTV con Lion OTT sin inversión?", a: "Sí. Lion OTT tiene uno de los paquetes de créditos de entrada más bajos disponibles a través de Fox IPTV Panels, lo que hace posible iniciar tu negocio de reventa de IPTV en España con una inversión inicial mínima." },
+        { q: "¿Puedo empezar un negocio de revendedor IPTV con Lion OTT sin inversión?", a: "Sí. Lion OTT tiene uno de los paquetes de créditos de entrada más bajos disponibles a través de IPTV Reseller, lo que hace posible iniciar tu negocio de reventa de IPTV en España con una inversión inicial mínima." },
         { q: "¿Tiene Lion OTT buena calidad de streaming?", a: "Sí. Lion OTT ofrece streaming 4K Ultra HD estable con buffering mínimo, lo que lo hace adecuado para clientes en España que esperan una IPTV de alta calidad." },
-        { q: "¿Hay prueba gratuita del panel de revendedor Lion OTT IPTV en España?", a: "Sí. Fox IPTV Panels ofrece una prueba gratuita del panel de revendedor Lion OTT. Escríbenos por WhatsApp para solicitar tu prueba antes de comprar créditos." },
+        { q: "¿Hay prueba gratuita del panel de revendedor Lion OTT IPTV en España?", a: "Sí. IPTV Reseller ofrece una prueba gratuita del panel de revendedor Lion OTT. Escríbenos por WhatsApp para solicitar tu prueba antes de comprar créditos." },
       ],
     },
     "fr": {
       tagline: "Panneau Revendeur Lion OTT IPTV — Le Meilleur Panneau IPTV pour Revendeurs Débutants",
-      description: "Lion OTT est le panneau revendeur IPTV le plus convivial disponible sur Fox IPTV Panels. Avec un tableau de bord intuitif, un support rapide et des serveurs 4K stables, Lion OTT est le point de départ recommandé numéro un pour les nouveaux revendeurs IPTV en France et en Belgique.",
+      description: "Lion OTT est le panneau revendeur IPTV le plus convivial disponible sur IPTV Reseller. Avec un tableau de bord intuitif, un support rapide et des serveurs 4K stables, Lion OTT est le point de départ recommandé numéro un pour les nouveaux revendeurs IPTV en France et en Belgique.",
       longDescription: "Lion OTT est spécifiquement conçu pour rendre la revente IPTV accessible aux débutants. Le tableau de bord simplifié rend la gestion des crédits, la création d'abonnements et la gestion des clients simples dès le premier jour. Avec un support WhatsApp rapide et un streaming 4K fiable, Lion OTT aide les débutants en France à construire rapidement un business IPTV rentable — sans aucune expérience technique nécessaire.",
       features: [
         "Tableau de bord revendeur convivial pour débutants",
@@ -3874,14 +3874,14 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "Pourquoi Lion OTT est-il le meilleur panneau IPTV pour débutants en France ?", a: "Lion OTT possède le tableau de bord revendeur le plus simple de tous les panneaux — rendant l'achat de crédits, la création d'abonnements et la gestion clients facile pour les nouveaux revendeurs IPTV en France sans aucune compétence technique." },
-        { q: "Puis-je démarrer un business revendeur IPTV avec Lion OTT sans investissement ?", a: "Oui. Lion OTT propose l'un des packs de crédits d'entrée les moins chers disponibles via Fox IPTV Panels, rendant possible le démarrage de votre activité de revente IPTV en France avec un investissement initial minimal." },
+        { q: "Puis-je démarrer un business revendeur IPTV avec Lion OTT sans investissement ?", a: "Oui. Lion OTT propose l'un des packs de crédits d'entrée les moins chers disponibles via IPTV Reseller, rendant possible le démarrage de votre activité de revente IPTV en France avec un investissement initial minimal." },
         { q: "Lion OTT offre-t-il une bonne qualité de streaming ?", a: "Oui. Lion OTT délivre un streaming 4K Ultra HD stable avec un buffering minimal, le rendant adapté aux clients en France qui attendent une IPTV de haute qualité." },
-        { q: "Y a-t-il un essai gratuit du panneau revendeur Lion OTT IPTV en France ?", a: "Oui. Fox IPTV Panels propose un essai gratuit du panneau revendeur Lion OTT. Écrivez-nous sur WhatsApp pour demander votre essai avant d'acheter des crédits." },
+        { q: "Y a-t-il un essai gratuit du panneau revendeur Lion OTT IPTV en France ?", a: "Oui. IPTV Reseller propose un essai gratuit du panneau revendeur Lion OTT. Écrivez-nous sur WhatsApp pour demander votre essai avant d'acheter des crédits." },
       ],
     },
     "pt": {
       tagline: "Painel Revendedor Lion OTT IPTV — O Melhor Painel IPTV para Revendedores Iniciantes",
-      description: "Lion OTT é o painel revendedor de IPTV mais fácil de usar disponível na Fox IPTV Panels. Com um painel intuitivo, suporte rápido e servidores 4K estáveis, Lion OTT é o ponto de partida número um recomendado para novos revendedores de IPTV em Portugal e no Brasil.",
+      description: "Lion OTT é o painel revendedor de IPTV mais fácil de usar disponível na IPTV Reseller. Com um painel intuitivo, suporte rápido e servidores 4K estáveis, Lion OTT é o ponto de partida número um recomendado para novos revendedores de IPTV em Portugal e no Brasil.",
       longDescription: "Lion OTT é especificamente concebido para tornar a revenda de IPTV acessível a recém-chegados. O painel simplificado torna a gestão de créditos, criação de subscrições e administração de clientes simples desde o primeiro dia. Com suporte rápido pelo WhatsApp e streaming 4K fiável, Lion OTT ajuda os iniciantes em Portugal e no Brasil a construir rapidamente um negócio de IPTV rentável — sem necessidade de experiência técnica.",
       features: [
         "Painel de revendedor amigável para iniciantes",
@@ -3903,9 +3903,9 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "Por que o Lion OTT é o melhor painel IPTV para iniciantes em Portugal?", a: "Lion OTT tem o painel de revendedor mais simples de todos — tornando a compra de créditos, criação de subscrições e gestão de clientes fácil para os revendedores de IPTV pela primeira vez em Portugal sem qualquer conhecimento técnico." },
-        { q: "Posso iniciar um negócio de revendedor IPTV com Lion OTT sem investimento?", a: "Sim. Lion OTT tem um dos pacotes de créditos de entrada mais baixos disponíveis através da Fox IPTV Panels, tornando possível iniciar o seu negócio de revenda de IPTV em Portugal com um investimento inicial mínimo." },
+        { q: "Posso iniciar um negócio de revendedor IPTV com Lion OTT sem investimento?", a: "Sim. Lion OTT tem um dos pacotes de créditos de entrada mais baixos disponíveis através da IPTV Reseller, tornando possível iniciar o seu negócio de revenda de IPTV em Portugal com um investimento inicial mínimo." },
         { q: "O Lion OTT tem boa qualidade de streaming?", a: "Sim. Lion OTT entrega streaming 4K Ultra HD estável com buffering mínimo, tornando-o adequado para clientes em Portugal e no Brasil que esperam IPTV de alta qualidade." },
-        { q: "Existe teste gratuito do painel revendedor Lion OTT IPTV em Portugal?", a: "Sim. A Fox IPTV Panels oferece um teste gratuito do painel revendedor Lion OTT. Escreva-nos pelo WhatsApp para solicitar o seu teste antes de comprar créditos." },
+        { q: "Existe teste gratuito do painel revendedor Lion OTT IPTV em Portugal?", a: "Sim. A IPTV Reseller oferece um teste gratuito do painel revendedor Lion OTT. Escreva-nos pelo WhatsApp para solicitar o seu teste antes de comprar créditos." },
       ],
     },
   },
@@ -3939,7 +3939,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué es el panel de revendedor Ultra 8K OTT IPTV?", a: "Ultra 8K OTT es un panel de revendedor de IPTV élite que ofrece streaming 8K Ultra HD real a través de Xtream Codes, M3U y caja MAG — con un panel profesional para gestionar créditos y suscripciones de revendedor." },
         { q: "¿Para quién está diseñado Ultra 8K OTT?", a: "Ultra 8K OTT está diseñado para revendedores de IPTV consolidados en España que quieren dirigirse a clientes premium — hoteles, locales deportivos o clientes residenciales de alta gama — con la mejor calidad de streaming posible." },
-        { q: "¿Cómo se compara Ultra 8K OTT con Strong 8K?", a: "Ambos son paneles 8K de primer nivel. Ultra 8K OTT es conocido por su ancho de banda dedicado y consistencia, mientras que Strong 8K es conocido por sus funciones avanzadas de panel. Fox IPTV Panels puede ayudarte a comparar y elegir el más adecuado para tu negocio en España." },
+        { q: "¿Cómo se compara Ultra 8K OTT con Strong 8K?", a: "Ambos son paneles 8K de primer nivel. Ultra 8K OTT es conocido por su ancho de banda dedicado y consistencia, mientras que Strong 8K es conocido por sus funciones avanzadas de panel. IPTV Reseller puede ayudarte a comparar y elegir el más adecuado para tu negocio en España." },
         { q: "¿Puedo gestionar miles de suscripciones con Ultra 8K OTT?", a: "Sí. Ultra 8K OTT está diseñado para escala — su panel de gestión avanzado maneja fácilmente grandes bases de suscriptores con herramientas de créditos al por mayor y monitoreo en tiempo real." },
       ],
     },
@@ -3968,7 +3968,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur Ultra 8K OTT IPTV ?", a: "Ultra 8K OTT est un panneau revendeur IPTV élite offrant un vrai streaming 8K Ultra HD via Xtream Codes, M3U et boîtier MAG — avec un tableau de bord professionnel pour gérer les crédits et abonnements revendeur." },
         { q: "Pour qui Ultra 8K OTT est-il conçu ?", a: "Ultra 8K OTT est conçu pour les revendeurs IPTV établis en France et Belgique qui ciblent des clients premium — hôtels, espaces sportifs ou clients résidentiels haut de gamme — avec la meilleure qualité de streaming possible." },
-        { q: "Comment Ultra 8K OTT se compare-t-il à Strong 8K ?", a: "Les deux sont des panneaux 8K haut de gamme. Ultra 8K OTT est reconnu pour sa bande passante dédiée et sa constance, tandis que Strong 8K est reconnu pour ses fonctionnalités avancées de tableau de bord. Fox IPTV Panels peut vous aider à comparer et choisir le bon pour votre business en France." },
+        { q: "Comment Ultra 8K OTT se compare-t-il à Strong 8K ?", a: "Les deux sont des panneaux 8K haut de gamme. Ultra 8K OTT est reconnu pour sa bande passante dédiée et sa constance, tandis que Strong 8K est reconnu pour ses fonctionnalités avancées de tableau de bord. IPTV Reseller peut vous aider à comparer et choisir le bon pour votre business en France." },
         { q: "Puis-je gérer des milliers d'abonnements avec Ultra 8K OTT ?", a: "Oui. Ultra 8K OTT est conçu pour l'échelle — son tableau de bord de gestion avancé gère facilement de grandes bases d'abonnés avec des outils de crédits en gros et un monitoring en temps réel." },
       ],
     },
@@ -3997,7 +3997,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que é o painel revendedor Ultra 8K OTT IPTV?", a: "Ultra 8K OTT é um painel revendedor de IPTV elite que oferece streaming 8K Ultra HD real via Xtream Codes, M3U e caixa MAG — com um painel profissional para gerir créditos e subscrições de revendedor." },
         { q: "Para quem é concebido o Ultra 8K OTT?", a: "Ultra 8K OTT é concebido para revendedores de IPTV estabelecidos em Portugal e no Brasil que querem dirigir-se a clientes premium — hotéis, espaços desportivos ou clientes residenciais de alto nível — com a melhor qualidade de streaming possível." },
-        { q: "Como o Ultra 8K OTT se compara ao Strong 8K?", a: "Ambos são painéis 8K de topo. Ultra 8K OTT é conhecido pela sua largura de banda dedicada e consistência, enquanto Strong 8K é conhecido pelas suas funcionalidades avançadas de painel. A Fox IPTV Panels pode ajudá-lo a comparar e escolher o mais adequado para o seu negócio em Portugal." },
+        { q: "Como o Ultra 8K OTT se compara ao Strong 8K?", a: "Ambos são painéis 8K de topo. Ultra 8K OTT é conhecido pela sua largura de banda dedicada e consistência, enquanto Strong 8K é conhecido pelas suas funcionalidades avançadas de painel. A IPTV Reseller pode ajudá-lo a comparar e escolher o mais adequado para o seu negócio em Portugal." },
         { q: "Posso gerir milhares de subscrições com Ultra 8K OTT?", a: "Sim. Ultra 8K OTT é concebido para escala — o seu painel de gestão avançado gere facilmente grandes bases de subscritores com ferramentas de créditos por atacado e monitorização em tempo real." },
       ],
     },
@@ -4010,7 +4010,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
     "es": {
       tagline: "Panel Reseller Dino IPTV — Panel IPTV Estable y Fiable para Todos los Revendedores",
       description: "Dino IPTV es un panel de revendedor de IPTV fiable y bien establecido con un rendimiento de streaming consistente y un panel de revendedor limpio. Una elección sólida para revendedores en España que priorizan la estabilidad y el uptime para su base de clientes.",
-      longDescription: "Dino IPTV se ha ganado una reputación de estabilidad de servidor excepcional y calidad de streaming consistente en España y en todo el mundo. Con soporte para todos los tipos de conexión principales — Xtream Codes, M3U, caja MAG — y un sistema de créditos de revendedor sencillo, Dino IPTV es una columna vertebral confiable para cualquier negocio de reventa de IPTV. Disponible en Fox IPTV Panels con activación instantánea de créditos.",
+      longDescription: "Dino IPTV se ha ganado una reputación de estabilidad de servidor excepcional y calidad de streaming consistente en España y en todo el mundo. Con soporte para todos los tipos de conexión principales — Xtream Codes, M3U, caja MAG — y un sistema de créditos de revendedor sencillo, Dino IPTV es una columna vertebral confiable para cualquier negocio de reventa de IPTV. Disponible en IPTV Reseller con activación instantánea de créditos.",
       features: [
         "Estabilidad y uptime de servidor excepcionales",
         "Streaming 4K Ultra HD sin cortes",
@@ -4031,15 +4031,15 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "¿Qué es el panel de revendedor Dino IPTV?", a: "Dino IPTV es un panel de revendedor de IPTV estable y fiable con streaming 4K consistente y un panel de revendedor limpio. Es de confianza para los revendedores en España que priorizan el uptime y la fiabilidad del servidor." },
-        { q: "¿Cómo obtengo créditos de revendedor Dino IPTV en España?", a: "Contacta con Fox IPTV Panels por WhatsApp. Proporcionamos créditos de revendedor Dino IPTV instantáneos con activación en minutos, además de soporte completo de configuración para revendedores en España." },
+        { q: "¿Cómo obtengo créditos de revendedor Dino IPTV en España?", a: "Contacta con IPTV Reseller por WhatsApp. Proporcionamos créditos de revendedor Dino IPTV instantáneos con activación en minutos, además de soporte completo de configuración para revendedores en España." },
         { q: "¿Es Dino IPTV bueno para la retención de clientes?", a: "Sí. La estabilidad del servidor y el rendimiento sin buffering de Dino IPTV conduce a una alta satisfacción del cliente y sólidas tasas de renovación de suscripciones en España — clave para construir ingresos recurrentes." },
-        { q: "¿Hay prueba gratuita del panel de revendedor Dino IPTV?", a: "Sí. Fox IPTV Panels ofrece una prueba de panel Dino IPTV. Contáctenos por WhatsApp para solicitar acceso de prueba y comprobar la calidad antes de comprar un paquete de créditos." },
+        { q: "¿Hay prueba gratuita del panel de revendedor Dino IPTV?", a: "Sí. IPTV Reseller ofrece una prueba de panel Dino IPTV. Contáctenos por WhatsApp para solicitar acceso de prueba y comprobar la calidad antes de comprar un paquete de créditos." },
       ],
     },
     "fr": {
       tagline: "Panneau Revendeur Dino IPTV — Panneau IPTV Stable et Fiable pour Tous les Revendeurs",
       description: "Dino IPTV est un panneau revendeur IPTV fiable et bien établi avec des performances de streaming constantes et un tableau de bord revendeur propre. Un choix solide pour les revendeurs en France et en Belgique qui privilégient la stabilité et l'uptime pour leur clientèle.",
-      longDescription: "Dino IPTV s'est bâti une réputation d'excellente stabilité serveur et de qualité de streaming constante en France et partout dans le monde. Avec le support de tous les principaux types de connexion — Xtream Codes, M3U, boîtier MAG — et un système de crédits revendeur simple, Dino IPTV est une colonne vertébrale fiable pour tout business de revente IPTV. Disponible via Fox IPTV Panels avec activation instantanée des crédits.",
+      longDescription: "Dino IPTV s'est bâti une réputation d'excellente stabilité serveur et de qualité de streaming constante en France et partout dans le monde. Avec le support de tous les principaux types de connexion — Xtream Codes, M3U, boîtier MAG — et un système de crédits revendeur simple, Dino IPTV est une colonne vertébrale fiable pour tout business de revente IPTV. Disponible via IPTV Reseller avec activation instantanée des crédits.",
       features: [
         "Stabilité et uptime de serveur exceptionnels",
         "Streaming 4K Ultra HD sans coupure",
@@ -4060,15 +4060,15 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur Dino IPTV ?", a: "Dino IPTV est un panneau revendeur IPTV stable et fiable avec un streaming 4K constant et un tableau de bord revendeur propre. Il est approuvé par les revendeurs en France et Belgique qui privilégient l'uptime et la fiabilité du serveur." },
-        { q: "Comment obtenir des crédits revendeur Dino IPTV en France ?", a: "Contactez Fox IPTV Panels sur WhatsApp. Nous fournissons des crédits revendeur Dino IPTV instantanément avec une activation en quelques minutes, plus un support de configuration complet pour les revendeurs en France." },
+        { q: "Comment obtenir des crédits revendeur Dino IPTV en France ?", a: "Contactez IPTV Reseller sur WhatsApp. Nous fournissons des crédits revendeur Dino IPTV instantanément avec une activation en quelques minutes, plus un support de configuration complet pour les revendeurs en France." },
         { q: "Dino IPTV est-il bon pour la fidélisation des clients ?", a: "Oui. La stabilité serveur et les performances sans coupure de Dino IPTV conduisent à une haute satisfaction client et de solides taux de renouvellement d'abonnements en France — clé pour construire des revenus récurrents." },
-        { q: "Y a-t-il un essai gratuit du panneau revendeur Dino IPTV ?", a: "Oui. Fox IPTV Panels propose un essai du panneau Dino IPTV. Contactez-nous sur WhatsApp pour demander un accès d'essai et vérifier la qualité avant d'acheter un pack de crédits." },
+        { q: "Y a-t-il un essai gratuit du panneau revendeur Dino IPTV ?", a: "Oui. IPTV Reseller propose un essai du panneau Dino IPTV. Contactez-nous sur WhatsApp pour demander un accès d'essai et vérifier la qualité avant d'acheter un pack de crédits." },
       ],
     },
     "pt": {
       tagline: "Painel Revendedor Dino IPTV — Painel IPTV Estável e Fiável para Todos os Revendedores",
       description: "Dino IPTV é um painel revendedor de IPTV fiável e bem estabelecido com desempenho de streaming consistente e um painel de revendedor limpo. Uma escolha sólida para revendedores em Portugal e no Brasil que priorizam a estabilidade e o uptime para a sua base de clientes.",
-      longDescription: "Dino IPTV construiu uma reputação de estabilidade de servidor excecional e qualidade de streaming consistente em Portugal e em todo o mundo. Com suporte para todos os principais tipos de ligação — Xtream Codes, M3U, caixa MAG — e um sistema de créditos de revendedor simples, Dino IPTV é uma base confiável para qualquer negócio de revenda de IPTV. Disponível na Fox IPTV Panels com ativação instantânea de créditos.",
+      longDescription: "Dino IPTV construiu uma reputação de estabilidade de servidor excecional e qualidade de streaming consistente em Portugal e em todo o mundo. Com suporte para todos os principais tipos de ligação — Xtream Codes, M3U, caixa MAG — e um sistema de créditos de revendedor simples, Dino IPTV é uma base confiável para qualquer negócio de revenda de IPTV. Disponível na IPTV Reseller com ativação instantânea de créditos.",
       features: [
         "Estabilidade e uptime de servidor excecionais",
         "Streaming 4K Ultra HD sem travamentos",
@@ -4089,9 +4089,9 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "O que é o painel revendedor Dino IPTV?", a: "Dino IPTV é um painel revendedor de IPTV estável e fiável com streaming 4K consistente e um painel de revendedor limpo. É reconhecido pelos revendedores em Portugal e no Brasil que priorizam o uptime e a fiabilidade do servidor." },
-        { q: "Como obtenho créditos de revendedor Dino IPTV em Portugal?", a: "Contacte a Fox IPTV Panels pelo WhatsApp. Fornecemos créditos de revendedor Dino IPTV instantaneamente com ativação em minutos, mais suporte completo de configuração para revendedores em Portugal." },
+        { q: "Como obtenho créditos de revendedor Dino IPTV em Portugal?", a: "Contacte a IPTV Reseller pelo WhatsApp. Fornecemos créditos de revendedor Dino IPTV instantaneamente com ativação em minutos, mais suporte completo de configuração para revendedores em Portugal." },
         { q: "O Dino IPTV é bom para a retenção de clientes?", a: "Sim. A estabilidade do servidor e o desempenho sem travamentos do Dino IPTV conduz a uma alta satisfação do cliente e sólidas taxas de renovação de subscrições em Portugal — chave para construir rendimentos recorrentes." },
-        { q: "Existe teste gratuito do painel revendedor Dino IPTV?", a: "Sim. A Fox IPTV Panels oferece um teste do painel Dino IPTV. Contacte-nos pelo WhatsApp para solicitar acesso de teste e verificar a qualidade antes de comprar um pacote de créditos." },
+        { q: "Existe teste gratuito do painel revendedor Dino IPTV?", a: "Sim. A IPTV Reseller oferece um teste do painel Dino IPTV. Contacte-nos pelo WhatsApp para solicitar acesso de teste e verificar a qualidade antes de comprar um pacote de créditos." },
       ],
     },
   },
@@ -4125,7 +4125,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué es el panel de revendedor T-Rex OTT IPTV?", a: "T-Rex OTT es un panel de revendedor de IPTV rico en funciones que ofrece transmisión en 4K con un panel de control completo para la gestión de créditos, creación de suscripciones y seguimiento de clientes." },
         { q: "¿Es T-Rex OTT adecuado para grandes distribuidores?", a: "Sí. El sistema de créditos de T-Rex OTT se escala perfectamente desde pequeños paquetes hasta grandes volúmenes al por mayor, lo que lo hace ideal tanto para revendedores en crecimiento como para distribuidores de gran volumen en España." },
-        { q: "¿Cómo empiezo con T-Rex OTT?", a: "Envía un mensaje a Fox IPTV Panels por WhatsApp. Activaremos tu panel de revendedor T-Rex OTT con acceso instantáneo a créditos y te guiaremos en todo el proceso de inicio." },
+        { q: "¿Cómo empiezo con T-Rex OTT?", a: "Envía un mensaje a IPTV Reseller por WhatsApp. Activaremos tu panel de revendedor T-Rex OTT con acceso instantáneo a créditos y te guiaremos en todo el proceso de inicio." },
       ],
     },
     "fr": {
@@ -4153,7 +4153,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur T-Rex OTT IPTV ?", a: "T-Rex OTT est un panneau revendeur IPTV riche en fonctionnalités qui propose une diffusion 4K avec un tableau de bord complet pour la gestion des crédits, la création d'abonnements et le suivi des clients." },
         { q: "T-Rex OTT est-il adapté aux revandeurs en gros ?", a: "Oui. Le système de crédits de T-Rex OTT s'adapte très bien, des petits volumes aux grands packs de gros, ce qui le rend idéal pour les distributeurs IPTV en pleine croissance ou à gros volume en France." },
-        { q: "Comment démarrer avec T-Rex OTT ?", a: "Envoyez un message à Fox IPTV Panels sur WhatsApp. Nous activerons votre panneau revendeur T-Rex OTT avec un accès instantané aux crédits et vous fournirons un accompagnement complet." },
+        { q: "Comment démarrer avec T-Rex OTT ?", a: "Envoyez un message à IPTV Reseller sur WhatsApp. Nous activerons votre panneau revendeur T-Rex OTT avec un accès instantané aux crédits et vous fournirons un accompagnement complet." },
       ],
     },
     "pt": {
@@ -4181,7 +4181,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que é o painel revendedor T-Rex OTT IPTV?", a: "O T-Rex OTT é um painel revendedor de IPTV repleto de funcionalidades que oferece streaming em 4K com um painel completo para gestão de créditos, criação de subscrições e acompanhamento de clientes." },
         { q: "O T-Rex OTT é adequado para grandes revendedores?", a: "Sim. O sistema de créditos do T-Rex OTT adapta-se perfeitamente de pequenos lotes a grandes pacotes grossistas, sendo altamente eficaz tanto para revendedores em crescimento como para distribuidores de grande volume." },
-        { q: "Como começo com o T-Rex OTT?", a: "Envie uma mensagem para a Fox IPTV Panels no WhatsApp. Ativaremos o seu painel de revendedor T-Rex OTT com acesso instantâneo a créditos e daremos todo o suporte inicial." },
+        { q: "Como começo com o T-Rex OTT?", a: "Envie uma mensagem para a IPTV Reseller no WhatsApp. Ativaremos o seu painel de revendedor T-Rex OTT com acesso instantâneo a créditos e daremos todo o suporte inicial." },
       ],
     },
   },
@@ -4305,7 +4305,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué hace que Extra OTT destaque como panel de revendedor?", a: "Extra OTT ofrece más funciones integradas en el panel que la mayoría de alternativas, incluyendo análisis en profundidad, herramientas de prueba avanzadas y una excelente relación calidad-precio en créditos." },
         { q: "¿Es compatible Extra OTT con todos los formatos de IPTV?", a: "Sí. Extra OTT es compatible con Xtream Codes, salidas M3U y cajas MAG, lo que garantiza que cubrirás cualquier dispositivo que utilicen tus clientes." },
-        { q: "¿Cómo compro créditos para el panel Extra OTT?", a: "Ponte en contacto con Fox IPTV Panels por WhatsApp para adquirir tus créditos Extra OTT de forma instantánea y empezar a dar de alta clientes hoy mismo." },
+        { q: "¿Cómo compro créditos para el panel Extra OTT?", a: "Ponte en contacto con IPTV Reseller por WhatsApp para adquirir tus créditos Extra OTT de forma instantánea y empezar a dar de alta clientes hoy mismo." },
       ],
     },
     "fr": {
@@ -4333,7 +4333,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce qui distingue Extra OTT des autres panneaux revendeurs ?", a: "Extra OTT propose des fonctionnalités de tableau de bord plus poussées (statistiques d'utilisation, outils d'essai avancés, etc.) à des tarifs de crédits très abordables." },
         { q: "Extra OTT supporte-t-il tous les types de connexion IPTV ?", a: "Oui. Extra OTT prend en charge Xtream Codes, le format M3U et les boîtiers MAG, assurant une parfaite couverture de tous les appareils de vos abonnés." },
-        { q: "Comment acheter des crédits revendeur Extra OTT ?", a: "Contactez Fox IPTV Panels sur WhatsApp pour acheter des crédits Extra OTT. L'activation est instantanée, vous permettant de lancer vos abonnements clients immédiatement." },
+        { q: "Comment acheter des crédits revendeur Extra OTT ?", a: "Contactez IPTV Reseller sur WhatsApp pour acheter des crédits Extra OTT. L'activation est instantanée, vous permettant de lancer vos abonnements clients immédiatement." },
       ],
     },
     "pt": {
@@ -4361,7 +4361,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que torna o Extra OTT diferente como painel de revendedor?", a: "O Extra OTT fornece muito mais ferramentas de gestão interna (análises detalhadas de clientes, gestão de testes alargada e fluxos de créditos inteligentes) a preços incrivelmente acessíveis." },
         { q: "O Extra OTT suporta todas as ligações de IPTV?", a: "Sim. O Extra OTT suporta saídas Xtream Codes, ficheiros M3U e ligações para caixas MAG, garantindo compatibilidade total com os dispositivos dos seus clientes." },
-        { q: "Como compro créditos para o painel Extra OTT?", a: "Contacte a Fox IPTV Panels no WhatsApp para comprar créditos Extra OTT. A ativação é feita de imediato para poder criar as subscrições dos seus clientes." },
+        { q: "Como compro créditos para o painel Extra OTT?", a: "Contacte a IPTV Reseller no WhatsApp para comprar créditos Extra OTT. A ativação é feita de imediato para poder criar as subscrições dos seus clientes." },
       ],
     },
   },
@@ -4401,7 +4401,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
     "fr": {
       tagline: "Panneau Revendeur Max OTT IPTV — Un Maximum de Fonctionnalités pour Revendeurs Sérieux",
       description: "Max OTT porte bien son nom, offrant un maximum de fonctionnalités, de stabilité et de rentabilité pour les revendeurs IPTV. Avec un tableau de bord avancé et un streaming 4K de qualité supérieure, il s'impose comme un panneau de premier choix.",
-      longDescription: "Max OTT a été développé pour offrir aux distributeurs un contrôle total sur leur activité. Gestion avancée des abonnements, outils de traitement de crédits en masse, analyses de clientèle et diffusion 4K premium s'unissent pour faire de Max OTT l'un des panneaux les plus complets disponibles sur Fox IPTV Panels en France et Belgique, optimisé pour les lignes Orange, Free, SFR et Bouygues Telecom.",
+      longDescription: "Max OTT a été développé pour offrir aux distributeurs un contrôle total sur leur activité. Gestion avancée des abonnements, outils de traitement de crédits en masse, analyses de clientèle et diffusion 4K premium s'unissent pour faire de Max OTT l'un des panneaux les plus complets disponibles sur IPTV Reseller en France et Belgique, optimisé pour les lignes Orange, Free, SFR et Bouygues Telecom.",
       features: [
         "Tableau de bord revendeur ultra-complet",
         "Diffusion 4K premium sans coupure ni buffering",
@@ -4485,7 +4485,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué hace que Zen 4K sea un panel único?", a: "Zen 4K destaca por su diseño ultra limpio y simplificado, lo que lo convierte en uno de los paneles de IPTV más fáciles de usar, manteniendo una calidad de streaming 4K impecable." },
         { q: "¿Es Zen 4K recomendable para revendedores principiantes?", a: "Totalmente. Al ser extremadamente intuitivo, reduce la curva de aprendizaje para principiantes en España, mientras que su gran estabilidad asegura la fidelización de clientes a largo plazo." },
-        { q: "¿Cómo obtengo acceso al panel Zen 4K?", a: "Solo tienes que escribir a Fox IPTV Panels en WhatsApp. Crearemos tus credenciales de acceso para el panel Zen 4K y activaremos tus créditos al instante." },
+        { q: "¿Cómo obtengo acceso al panel Zen 4K?", a: "Solo tienes que escribir a IPTV Reseller en WhatsApp. Crearemos tus credenciales de acceso para el panel Zen 4K y activaremos tus créditos al instante." },
       ],
     },
     "fr": {
@@ -4513,7 +4513,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce qui rend le panneau Zen 4K unique ?", a: "Zen 4K se distingue par son design minimaliste d'une grande clarté. C'est l'un des panneaux les plus agréables et faciles à utiliser du marché, sans aucun compromis sur la qualité 4K." },
         { q: "Zen 4K est-il conseillé pour les nouveaux revandeurs ?", a: "Oui. Son interface épurée élimine les erreurs de manipulation et convient parfaitement aux débutants en France, tout en offrant la stabilité requise par les professionnels." },
-        { q: "Comment accéder au panneau revendeur Zen 4K ?", a: "Contactez Fox IPTV Panels sur WhatsApp. Nous configurerons vos accès à Zen 4K avec activation immédiate de vos premiers crédits." },
+        { q: "Comment accéder au panneau revendeur Zen 4K ?", a: "Contactez IPTV Reseller sur WhatsApp. Nous configurerons vos accès à Zen 4K avec activation immédiate de vos premiers crédits." },
       ],
     },
     "pt": {
@@ -4541,7 +4541,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que torna o Zen 4K único no mercado de IPTV?", a: "O Zen 4K destaca-se pela sua interface extremamente limpa e organizada, simplificando imenso a rotina de trabalho diária dos revendedores, sem descurar um streaming 4K excelente." },
         { q: "O Zen 4K é indicado para novos revendedores de IPTV?", a: "Com certeza. A simplicidade visual ajuda a evitar erros de configuração para quem está a começar em Portugal e no Brasil, enquanto a infraestrutura robusta garante que os seus clientes se mantenham fiéis." },
-        { q: "Como posso obter o meu acesso ao painel Zen 4K?", a: "Basta falar com a Fox IPTV Panels através do WhatsApp. Enviaremos os seus dados de login do Zen 4K e ativaremos os seus créditos de imediato." },
+        { q: "Como posso obter o meu acesso ao painel Zen 4K?", a: "Basta falar com a IPTV Reseller através do WhatsApp. Enviaremos os seus dados de login do Zen 4K e ativaremos os seus créditos de imediato." },
       ],
     },
   },
@@ -4575,7 +4575,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Para quién está recomendado el panel de revendedor Nexon IPTV?", a: "Nexon está diseñado para distribuidores de IPTV experimentados en España que manejan grandes volúmenes de clientes. Su panel empresarial y su excelente uptime lo convierten en el estándar de los profesionales." },
         { q: "¿Tiene Nexon las mejores funciones de panel del mercado?", a: "Sí, es de los paneles más completos en características avanzadas, ofreciendo automatización de créditos, métricas analíticas e importación de usuarios en lote a escala empresarial." },
-        { q: "¿Está disponible Nexon en España?", a: "Sí, Nexon IPTV está totalmente disponible en España y Europa a través de Fox IPTV Panels, contando con servidores geolocalizados que reducen la latencia al mínimo." },
+        { q: "¿Está disponible Nexon en España?", a: "Sí, Nexon IPTV está totalmente disponible en España y Europa a través de IPTV Reseller, contando con servidores geolocalizados que reducen la latencia al mínimo." },
       ],
     },
     "fr": {
@@ -4603,7 +4603,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "À qui s'adresse principalement le panneau revendeur Nexon IPTV ?", a: "Nexon est idéal pour les distributeurs et professionnels confirmés en France et Belgique gérant de larges réseaux de clients. Ses performances et outils automatisés répondent aux exigences professionnelles les plus strictes." },
         { q: "Nexon intègre-t-il les meilleures fonctions de gestion ?", a: "Oui, Nexon est réputé pour sa richesse fonctionnelle : tableau analytique exhaustif, fonctions de crédit en lot, et gestion automatisée d'abonnés à échelle industrielle." },
-        { q: "Nexon est-il disponible en France et en Europe ?", a: "Oui, Nexon est distribué par Fox IPTV Panels en France et en Belgique, avec des serveurs optimisés localement pour assurer un ping ultra-bas." },
+        { q: "Nexon est-il disponible en France et en Europe ?", a: "Oui, Nexon est distribué par IPTV Reseller en France et en Belgique, avec des serveurs optimisés localement pour assurer un ping ultra-bas." },
       ],
     },
     "pt": {
@@ -4631,7 +4631,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Para quem o painel Nexon IPTV é mais recomendado?", a: "O Nexon é perfeito para revendedores estabelecidos em Portugal e no Brasil que gerem volumes consideráveis de subscrições. As suas ferramentas de automação e uptime garantem uma operação profissional e sem sobressaltos." },
         { q: "O Nexon oferece as funções mais completas do mercado?", a: "Sem dúvida. É um dos painéis de IPTV mais robustos no quesito de monitorização em lote, análises financeiras internas e automatização do fluxo de créditos para revendedores." },
-        { q: "O Nexon está disponível em Portugal?", a: "Sim, o Nexon IPTV está totalmente disponível em Portugal através da Fox IPTV Panels, com servidores otimizados localmente para garantir o melhor tempo de resposta possível." },
+        { q: "O Nexon está disponível em Portugal?", a: "Sim, o Nexon IPTV está totalmente disponível em Portugal através da IPTV Reseller, com servidores otimizados localmente para garantir o melhor tempo de resposta possível." },
       ],
     },
   },
@@ -4642,7 +4642,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
   "infinity-premium-iptv-reseller-panel": {
     "es": {
       tagline: "Panel de Revendedor Infinity Premium IPTV — Potencial Ilimitado para Distribuidores de Élite",
-      description: "Infinity Premium hace honor a su nombre: ofrece calidad de transmisión premium, un panel de gestión para élites y escalabilidad ilimitada. Es el panel de revendedor todo en uno definitivo disponible en Fox IPTV Panels.",
+      description: "Infinity Premium hace honor a su nombre: ofrece calidad de transmisión premium, un panel de gestión para élites y escalabilidad ilimitada. Es el panel de revendedor todo en uno definitivo disponible en IPTV Reseller.",
       longDescription: "Infinity Premium combina una infraestructura de servidores altamente estable con las herramientas de gestión de revendedores más completas del sector en España. Desde la creación de pruebas gratuitas hasta el control avanzado de créditos al por mayor y analíticas de rentabilidad, proporciona todo lo necesario para operar un negocio profesional bajo redes Movistar, Vodafone España, Orange y Yoigo sin cortes.",
       features: [
         "Infraestructura de reventa con escalabilidad ilimitada",
@@ -4665,12 +4665,12 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué es el panel de revendedor Infinity Premium IPTV?", a: "Infinity Premium es un panel de reventa de IPTV de élite que ofrece streaming en 4K Ultra HD, escalabilidad ilimitada y herramientas completas de administración de créditos y suscriptores." },
         { q: "¿Qué diferencia a Infinity Premium de otros paneles estándar?", a: "Destaca por su infraestructura física de servidores optimizada, un panel de control con mayor profundidad de analíticas de negocio y soporte de nivel VIP." },
-        { q: "¿Es adecuado Infinity Premium para revendedores que empiezan?", a: "Sí. Aunque ofrece una calidad premium inigualable, Fox IPTV Panels dispone de opciones flexibles de créditos para que distribuidores noveles puedan iniciar su negocio con el mejor panel." },
+        { q: "¿Es adecuado Infinity Premium para revendedores que empiezan?", a: "Sí. Aunque ofrece una calidad premium inigualable, IPTV Reseller dispone de opciones flexibles de créditos para que distribuidores noveles puedan iniciar su negocio con el mejor panel." },
       ],
     },
     "fr": {
       tagline: "Panneau Revendeur Infinity Premium IPTV — Un Potentiel Illimité pour Revendeurs d'Élite",
-      description: "Infinity Premium porte bien son nom, offrant une qualité de streaming premium, un tableau de bord d'élite et une évolutivité sans limites. C'est le panneau de revente IPTV tout-en-un ultime sur Fox IPTV Panels.",
+      description: "Infinity Premium porte bien son nom, offrant une qualité de streaming premium, un tableau de bord d'élite et une évolutivité sans limites. C'est le panneau de revente IPTV tout-en-un ultime sur IPTV Reseller.",
       longDescription: "Infinity Premium allie une infrastructure physique serveur ultra-solide aux outils de gestion revendeurs les plus complets du marché en France et Belgique. Des tests d'évaluation clients gratuits à la facturation de crédits de gros avancée, Infinity Premium donne aux distributeurs les moyens d'optimiser leurs marges bénéficiaires sur les réseaux d'Orange, SFR, Free et Bouygues Telecom.",
       features: [
         "Infrastructure revendeur à évolutivité illimitée",
@@ -4693,12 +4693,12 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur Infinity Premium IPTV ?", a: "Infinity Premium est un panneau revendeur de premier choix offrant un streaming 4K sans buffering, une infrastructure évolutive et des fonctions d'analyse poussées pour la gestion d'abonnés." },
         { q: "Pourquoi choisir Infinity Premium plutôt qu'un panneau standard ?", a: "Il se démarque par la robustesse supérieure de ses serveurs physiques, la richesse de son interface de gestion commerciale et un support de niveau VIP." },
-        { q: "Infinity Premium est-il accessible aux nouveaux distributeurs ?", a: "Absolument. Bien qu'il s'agisse d'un panneau d'élite, Fox IPTV Panels propose des packs de crédits très souples permettant aux débutants de démarrer avec la meilleure qualité possible." },
+        { q: "Infinity Premium est-il accessible aux nouveaux distributeurs ?", a: "Absolument. Bien qu'il s'agisse d'un panneau d'élite, IPTV Reseller propose des packs de crédits très souples permettant aux débutants de démarrer avec la meilleure qualité possible." },
       ],
     },
     "pt": {
       tagline: "Painel Revendedor Infinity Premium IPTV — Potencial Ilimitado para Revendedores de Elite",
-      description: "O Infinity Premium faz jus ao seu nome: oferece streaming premium de alta fidelidade, um painel exclusivo para elites e escalabilidade sem limites. É a solução de IPTV completa de referência na Fox IPTV Panels.",
+      description: "O Infinity Premium faz jus ao seu nome: oferece streaming premium de alta fidelidade, um painel exclusivo para elites e escalabilidade sem limites. É a solução de IPTV completa de referência na IPTV Reseller.",
       longDescription: "O Infinity Premium combina uma rede física de servidores ultra-estável com as ferramentas de reventa mais completas do setor em Portugal e no Brasil. Desde a criação simples de testes grátis à gestão de créditos por atacado e análises de receitas líquidas, o Infinity Premium dá aos distribuidores tudo o que necessitam para gerir um negócio com margens máximas sob redes MEO, NOS e Vodafone Portugal.",
       features: [
         "Infraestrutura física de revenda com escalabilidade ilimitada",
@@ -4721,7 +4721,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que é o painel de revendedor Infinity Premium IPTV?", a: "O Infinity Premium é um painel de revenda de IPTV de gama alta que disponibiliza streaming 4K premium sem buffering, escalabilidade infinita de rede e gestão comercial de ponta para subscrições." },
         { q: "O que diferencia o Infinity Premium dos restantes painéis?", a: "A diferença reside na resiliência física da sua rede de servidores dedicados, ferramentas de gestão corporativas completas e suporte técnico de nível VIP dedicado." },
-        { q: "O Infinity Premium é viável para revendedores iniciantes?", a: "Sem dúvida. Embora seja uma solução premium topo de gama, a Fox IPTV Panels disponibiliza pacotes de créditos flexíveis para que novos revendedores possam arrancar com a máxima qualidade logo no primeiro dia." },
+        { q: "O Infinity Premium é viável para revendedores iniciantes?", a: "Sem dúvida. Embora seja uma solução premium topo de gama, a IPTV Reseller disponibiliza pacotes de créditos flexíveis para que novos revendedores possam arrancar com a máxima qualidade logo no primeiro dia." },
       ],
     },
   },
@@ -4750,7 +4750,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "¿Es GTV uno de los paneles de revendedor de IPTV más baratos?", a: "Sí, GTV ofrece precios de créditos sumamente competitivos en el mercado español, lo que lo convierte en uno de los paneles de revendedor con mejor margen de ganancia para maximizar sus beneficios." },
-        { q: "¿Qué es el panel de revendedor GTV IPTV?", a: "GTV es un panel de revendedor de IPTV optimizado para ofrecer un gran valor con transmisión estable en 4K, soporte Xtream Codes y M3U, y un panel de gestión sencillo a través de Fox IPTV Panels." },
+        { q: "¿Qué es el panel de revendedor GTV IPTV?", a: "GTV es un panel de revendedor de IPTV optimizado para ofrecer un gran valor con transmisión estable en 4K, soporte Xtream Codes y M3U, y un panel de gestión sencillo a través de IPTV Reseller." },
         { q: "¿Es GTV adecuado para distribuidores principiantes de IPTV?", a: "Totalmente. El panel intuitivo de GTV y sus bajos costes de créditos lo convierten en el punto de partida ideal y muy rentable para nuevos distribuidores con un presupuesto ajustado." },
       ],
     },
@@ -4778,7 +4778,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "GTV est-il l'un des panneaux revendeurs IPTV les moins chers ?", a: "Oui, GTV propose des tarifs par crédit parmi les plus compétitifs du marché, ce qui en fait l'un des meilleurs panneaux revendeurs pour maximiser vos marges bénéficiaires." },
-        { q: "Qu'est-ce que le panneau revendeur GTV IPTV ?", a: "GTV est un panneau revendeur IPTV optimisé pour le budget, offrant une diffusion 4K stable, un support Xtream Codes/M3U et un tableau de bord revendeur épuré via Fox IPTV Panels." },
+        { q: "Qu'est-ce que le panneau revendeur GTV IPTV ?", a: "GTV est un panneau revendeur IPTV optimisé pour le budget, offrant une diffusion 4K stable, un support Xtream Codes/M3U et un tableau de bord revendeur épuré via IPTV Reseller." },
         { q: "GTV est-il adapté aux revendeurs IPTV débutants ?", a: "Tout à fait. Son panneau d'administration très simple et le coût abordable de ses crédits en font une plateforme idéale et très rentable pour démarrer sans gros investissement." },
       ],
     },
@@ -4806,7 +4806,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "O GTV é um dos painéis revendedores de IPTV mais baratos?", a: "Sim, o GTV oferece alguns dos preços de créditos mais competitivos do mercado, sendo um dos painéis de melhor valor para revendedores que querem maximizar a sua margem de lucro." },
-        { q: "O que é o painel revendedor GTV IPTV?", a: "O GTV é um painel revendedor de IPTV focado no custo-benefício, com streaming 4K estável, suporte a Xtream Codes/M3U e um painel de controlo intuitivo através da Fox IPTV Panels." },
+        { q: "O que é o painel revendedor GTV IPTV?", a: "O GTV é um painel revendedor de IPTV focado no custo-benefício, com streaming 4K estável, suporte a Xtream Codes/M3U e um painel de controlo intuitivo através da IPTV Reseller." },
         { q: "O GTV é indicado para revendedores de IPTV iniciantes?", a: "Com certeza. O painel simples do GTV e o custo acessível dos créditos tornam-no num ponto de partida excelente e altamente lucrativo para quem está a começar com orçamento reduzido." },
       ],
     },
@@ -4834,7 +4834,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "Är GTV en av de billigaste IPTV-återförsäljarpanelerna?", a: "Ja, GTV erbjuder några av de mest konkurrenskraftiga kreditpriserna på den svenska marknaden, vilket gör den till en av de mest prisvärda IPTV-återförsäljarpanelerna för dig som vill maximera dina vinstmarginaler." },
-        { q: "Vad är GTV IPTV återförsäljarpanel?", a: "GTV är en värdeoptimerad IPTV-återförsäljarpanel med stabil 4K-strömning, stöd för Xtream Codes och M3U samt en ren och enkel kontrollpanel via Fox IPTV Panels." },
+        { q: "Vad är GTV IPTV återförsäljarpanel?", a: "GTV är en värdeoptimerad IPTV-återförsäljarpanel med stabil 4K-strömning, stöd för Xtream Codes och M3U samt en ren och enkel kontrollpanel via IPTV Reseller." },
         { q: "Är GTV lämplig för nybörjare inom IPTV?", a: "Ja. GTV:s enkla kontrollpanel och låga kreditpriser gör den till en mycket tillgänglig och lönsam startpunkt för nya IPTV-återförsäljare i Sverige med en begränsad budget." },
       ],
     },
@@ -4862,7 +4862,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "Er GTV et av de billigste forhandlerpanelene for IPTV?", a: "Ja, GTV tilbyr noen av de mest konkurransedyktige kredittprisene på det norske markedet, noe som gjør det til et av de mest prisgunstige IPTV-forhandlerpanelene for å maksimere fortjenestemarginene." },
-        { q: "Hva er GTV IPTV forhandlerpanel?", a: "GTV er et verdioptimalisert IPTV-forhandlerpanel med stabil 4K-strømming, støtte for Xtream Codes & M3U, og et rent og oversiktlig dashboard levert av Fox IPTV Panels." },
+        { q: "Hva er GTV IPTV forhandlerpanel?", a: "GTV er et verdioptimalisert IPTV-forhandlerpanel med stabil 4K-strømming, støtte for Xtream Codes & M3U, og et rent og oversiktlig dashboard levert av IPTV Reseller." },
         { q: "Er GTV egnet for nybegynnere innen IPTV?", a: "Ja. GTVs enkle dashboard og konkurransedyktige priser gjør det til et tilgjengelig og lønnsomt utgangspunkt for nye IPTV-forhandlere i Norge med et mindre budsjett." },
       ],
     },
@@ -4890,7 +4890,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "Is GTV one of the cheapest IPTV reseller panels in the UK?", a: "Yes, GTV offers some of the most competitive credit pricing in the UK market, making it one of the best value IPTV reseller panels for resellers looking to maximise profit margins." },
-        { q: "What is the GTV IPTV reseller panel?", a: "GTV is a value-optimised IPTV reseller panel with reliable 4K streaming, Xtream Codes & M3U support, and a clean reseller dashboard — all at competitive credit prices through Fox IPTV Panels, fully optimised for UK broadband." },
+        { q: "What is the GTV IPTV reseller panel?", a: "GTV is a value-optimised IPTV reseller panel with reliable 4K streaming, Xtream Codes & M3U support, and a clean reseller dashboard — all at competitive credit prices through IPTV Reseller, fully optimised for UK broadband." },
         { q: "Is GTV suitable for beginner IPTV resellers?", a: "Yes. GTV's clean dashboard and competitive pricing make it an accessible and profitable starting point for new UK IPTV resellers on a budget." },
       ],
     },
@@ -4918,7 +4918,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
       faqs: [
         { q: "Is GTV one of the cheapest IPTV reseller panels in Australia?", a: "Yes, GTV offers some of the most competitive credit pricing in Australia, making it one of the best value IPTV reseller panels for resellers looking to maximise profit margins." },
-        { q: "What is the GTV IPTV reseller panel?", a: "GTV is a value-optimised IPTV reseller panel with reliable 4K streaming, Xtream Codes & M3U support, and a clean reseller dashboard — all at competitive credit prices through Fox IPTV Panels, fully optimised for Aussie NBN speeds." },
+        { q: "What is the GTV IPTV reseller panel?", a: "GTV is a value-optimised IPTV reseller panel with reliable 4K streaming, Xtream Codes & M3U support, and a clean reseller dashboard — all at competitive credit prices through IPTV Reseller, fully optimised for Aussie NBN speeds." },
         { q: "Is GTV suitable for beginner IPTV resellers?", a: "Yes. GTV's clean dashboard and competitive pricing make it an accessible and profitable starting point for new Australian IPTV resellers on a budget." },
       ],
     },
@@ -5147,7 +5147,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué es el panel de revendedor Star Share IPTV?", a: "Star Share es un panel de revendedor de IPTV con un modelo de acceso compartido flexible, que ofrece una amplísima biblioteca de canales y tarifas de créditos competitivas para distribuidores." },
         { q: "¿Cómo funciona el modelo de acceso compartido para los distribuidores?", a: "El modelo compartido permite a los distribuidores ofrecer a sus clientes una vasta cantidad de canales a precios sumamente asequibles, maximizando la rentabilidad de su negocio de IPTV." },
-        { q: "¿Está disponible Star Share a través de Fox IPTV Panels?", a: "Sí. Fox IPTV Panels proporciona créditos de revendedor Star Share con activación instantánea y soporte completo por WhatsApp." },
+        { q: "¿Está disponible Star Share a través de IPTV Reseller?", a: "Sí. IPTV Reseller proporciona créditos de revendedor Star Share con activación instantánea y soporte completo por WhatsApp." },
       ],
     },
     "fr": {
@@ -5175,7 +5175,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur Star Share IPTV ?", a: "Star Share est un panneau revendeur IPTV avec accès partagé offrant un vaste choix de chaînes et des crédits à prix réduits pour les distributeurs souhaitant diversifier leur offre." },
         { q: "Comment fonctionne le modèle d'accès partagé pour un revendeur ?", a: "Ce modèle permet de proposer un catalogue immense à vos clients tout en bénéficiant de tarifs d'achat en gros extrêmement compétitifs, ce qui booste vos marges." },
-        { q: "Star Share est-il disponible sur Fox IPTV Panels ?", a: "Oui. Fox IPTV Panels fournit les crédits Star Share avec activation immédiate et configuration complète via notre support WhatsApp." },
+        { q: "Star Share est-il disponible sur IPTV Reseller ?", a: "Oui. IPTV Reseller fournit les crédits Star Share avec activation immédiate et configuration complète via notre support WhatsApp." },
       ],
     },
     "pt": {
@@ -5203,7 +5203,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que é o painel revendedor Star Share IPTV?", a: "O Star Share é um painel de revenda de IPTV em acesso partilhado, proporcionando um catálogo repleto de conteúdos e créditos económicos para revendedores comerciais." },
         { q: "Como funciona o modelo de acesso partilhado para revenda?", a: "Permite oferecer um catálogo massivo aos seus utilizadores mantendo os preços de aquisição de créditos muito reduzidos, o que maximiza as margens de lucro do seu negócio." },
-        { q: "O Star Share está disponível na Fox IPTV Panels?", a: "Sim. A Fox IPTV Panels fornece créditos revendedor Star Share com ativação instantânea e suporte completo via WhatsApp." },
+        { q: "O Star Share está disponível na IPTV Reseller?", a: "Sim. A IPTV Reseller fornece créditos revendedor Star Share com ativação instantânea e suporte completo via WhatsApp." },
       ],
     },
     "sv": {
@@ -5231,7 +5231,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Vad är Star Share IPTV återförsäljarpanel?", a: "Star Share är en IPTV-återförsäljarpanel med en flexibel delad åtkomstmodell, som erbjuder ett brett kanalutbud och konkurrenskraftiga kreditpriser för återförsäljare som vill erbjuda varierat innehåll i Sverige." },
         { q: "Hur fungerar Star Shares delade åtkomstmodell för återförsäljare?", a: "Modellen med delad åtkomst gör det möjligt för återförsäljare att ge kunder tillgång till ett enormt innehållsbibliotek till mycket överkomliga priser — vilket maximerar värdet för både återförsäljare och slutkund." },
-        { q: "Är Star Share tillgänglig via Fox IPTV Panels?", a: "Ja. Fox IPTV Panels tillhandahåller Star Share-återförsäljarkrediter med omedelbar aktivering och full support för installation på WhatsApp." },
+        { q: "Är Star Share tillgänglig via IPTV Reseller?", a: "Ja. IPTV Reseller tillhandahåller Star Share-återförsäljarkrediter med omedelbar aktivering och full support för installation på WhatsApp." },
       ],
     },
     "no": {
@@ -5259,7 +5259,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Hva er Star Share IPTV forhandlerpanel?", a: "Star Share er et IPTV-forhandlerpanel med en fleksibel delt tilgangsmodell, som tilbyr et bredt kanalutvalg og konkurransedyktige kredittpriser for forhandlere som ønsker varierte innholdstilbud i Norge." },
         { q: "Hvordan fungerer Star Shares delte tilgangsmodell for forhandlere?", a: "Modellen med delt tilgang lar forhandlere gi kunder tilgang til et enormt innholdsbibliotek til svært konkurransedyktige priser — noe som maksimerer verdien for både forhandlere og sluttkunder." },
-        { q: "Er Star Share tilgjengelig gjennom Fox IPTV Panels?", a: "Ja. Fox IPTV Panels leverer Star Share forhandlerkreditter med øyeblikkelig aktivering og full oppsettsstøtte via WhatsApp." },
+        { q: "Er Star Share tilgjengelig gjennom IPTV Reseller?", a: "Ja. IPTV Reseller leverer Star Share forhandlerkreditter med øyeblikkelig aktivering og full oppsettsstøtte via WhatsApp." },
       ],
     },
     "en-gb": {
@@ -5287,7 +5287,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "What is the Star Share IPTV reseller panel?", a: "Star Share is an IPTV reseller panel with a flexible shared-access model, offering a broad channel selection and competitive credit pricing for UK resellers who want diverse content options, fully optimised for British broadband." },
         { q: "How does Star Share's shared-access model work for resellers?", a: "The shared-access model allows UK resellers to provide customers access to a broad content library at competitive pricing — maximising value for both the reseller and end customer." },
-        { q: "Is Star Share available through Fox IPTV Panels in the UK?", a: "Yes. Fox IPTV Panels provides Star Share reseller credits with instant activation and full setup support via WhatsApp for British businesses." },
+        { q: "Is Star Share available through IPTV Reseller in the UK?", a: "Yes. IPTV Reseller provides Star Share reseller credits with instant activation and full setup support via WhatsApp for British businesses." },
       ],
     },
     "en-au": {
@@ -5315,7 +5315,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "What is the Star Share IPTV reseller panel?", a: "Star Share is an IPTV reseller panel with a flexible shared-access model, offering a broad channel selection and competitive credit pricing for Aussie resellers who want diverse content options, fully optimised for Australia's NBN network." },
         { q: "How does Star Share's shared-access model work for resellers?", a: "The shared-access model allows Australian resellers to provide customers access to a broad content library at competitive pricing — maximising value for both the reseller and end customer." },
-        { q: "Is Star Share available through Fox IPTV Panels in Australia?", a: "Yes. Fox IPTV Panels provides Star Share reseller credits with instant activation and full setup support via WhatsApp for Australian businesses." },
+        { q: "Is Star Share available through IPTV Reseller in Australia?", a: "Yes. IPTV Reseller provides Star Share reseller credits with instant activation and full setup support via WhatsApp for Australian businesses." },
       ],
     },
   },
@@ -5345,7 +5345,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Por qué se describe a Tiger OTT como un panel súper rápido?", a: "Tiger OTT está optimizado para la velocidad: desde la carga de los canales hasta la activación instantánea de créditos y la creación ágil de suscripciones, facilitando el trabajo diario del distribuidor." },
         { q: "¿Tiger OTT ofrece una buena calidad de transmisión?", a: "Sí. Tiger OTT proporciona una transmisión estable en 4K Ultra HD a través de Xtream Codes, M3U y cajas MAG con un uptime excelente y cortes mínimos." },
-        { q: "¿Cómo obtengo créditos de revendedor para Tiger OTT?", a: "Solo tienes que contactar con Fox IPTV Panels por WhatsApp. Activaremos tus créditos de Tiger OTT al instante para que comiences a dar de alta clientes de inmediato." },
+        { q: "¿Cómo obtengo créditos de revendedor para Tiger OTT?", a: "Solo tienes que contactar con IPTV Reseller por WhatsApp. Activaremos tus créditos de Tiger OTT al instante para que comiences a dar de alta clientes de inmediato." },
       ],
     },
     "fr": {
@@ -5373,7 +5373,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Pourquoi Tiger OTT est-il qualifié de panneau ultra-rapide ?", a: "Tout son écosystème est pensé pour la vitesse : chargement des serveurs, activation instantanée des crédits et création d'abonnements en quelques clics." },
         { q: "Tiger OTT propose-t-il une bonne qualité de diffusion ?", a: "Oui, Tiger OTT offre une diffusion stable en 4K Ultra HD sur Xtream Codes, M3U et boîtiers MAG avec une excellente stabilité et un buffering minime." },
-        { q: "Comment acheter des crédits revendeur Tiger OTT ?", a: "Contactez Fox IPTV Panels sur WhatsApp. Vos crédits Tiger OTT seront activés immédiatement pour vous permettre de lancer des abonnements clients." },
+        { q: "Comment acheter des crédits revendeur Tiger OTT ?", a: "Contactez IPTV Reseller sur WhatsApp. Vos crédits Tiger OTT seront activés immédiatement pour vous permettre de lancer des abonnements clients." },
       ],
     },
     "pt": {
@@ -5401,7 +5401,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Por que o Tiger OTT é considerado um painel tão rápido?", a: "O Tiger OTT foi estruturado para a velocidade — desde o tempo de carregamento de canais à ativação imediata de créditos e criação de contas em poucos segundos." },
         { q: "O Tiger OTT tem boa qualidade de streaming?", a: "Sim. O Tiger OTT disponibiliza streaming estável 4K Ultra HD através de ligações Xtream Codes, M3U e MAG com uptime elevado e falhas mínimas." },
-        { q: "Como posso adquirir créditos do Tiger OTT?", a: "Contacte a Fox IPTV Panels no WhatsApp. Ativamos os seus créditos Tiger OTT no momento para que possa começar a subscrever clientes de imediato." },
+        { q: "Como posso adquirir créditos do Tiger OTT?", a: "Contacte a IPTV Reseller no WhatsApp. Ativamos os seus créditos Tiger OTT no momento para que possa começar a subscrever clientes de imediato." },
       ],
     },
     "sv": {
@@ -5429,7 +5429,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Varför kallas Tiger OTT för en snabb IPTV-återförsäljarpanel?", a: "Tiger OTT är utvecklad för hastighet — från snabba laddningstider på servrarna till omedelbar kreditaktivering och strömlinjeformat skapande av prenumerationer — vilket gör den till en av de absolut snabbaste IPTV-panelerna på den svenska marknaden." },
         { q: "Erbjuder Tiger OTT bra strömningskvalitet?", a: "Ja. Tiger OTT levererar stabil 4K Ultra HD-strömning över Xtream Codes, M3U och MAG-boxanslutningar med hög drifttid och minimal buffring." },
-        { q: "Hur köper jag Tiger OTT-återförsäljarkrediter?", a: "Kontakta Fox IPTV Panels på WhatsApp. Tiger OTT-krediter aktiveras omedelbart så att du kan börja skapa kundabonnemang direkt i Sverige." },
+        { q: "Hur köper jag Tiger OTT-återförsäljarkrediter?", a: "Kontakta IPTV Reseller på WhatsApp. Tiger OTT-krediter aktiveras omedelbart så att du kan börja skapa kundabonnemang direkt i Sverige." },
       ],
     },
     "no": {
@@ -5457,7 +5457,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Hvorfor kalles Tiger OTT et raskt IPTV-forhandlerpanel?", a: "Tiger OTT er konstruert for hastighet — fra raske serverlastingstider til umiddelbar kredittaktivering og effektiv abonnementsstyring — noe som gjør det til et av de raskeste IPTV-panelene på det norske markedet." },
         { q: "Tilbyr Tiger OTT god strømmekvalitet?", a: "Ja. Tiger OTT leverer stabil 4K Ultra HD-strømming på Xtream Codes, M3U og MAG-bokstilkoblinger med solid oppetid og minimal bufring." },
-        { q: "Hvordan får jeg Tiger OTT forhandlerkreditter i Norge?", a: "Kontakt Fox IPTV Panels på WhatsApp. Tiger OTT-kreditter aktiveras umiddelbart, slik at du kan begynne å opprette kundeabonnementer med en gang." },
+        { q: "Hvordan får jeg Tiger OTT forhandlerkreditter i Norge?", a: "Kontakt IPTV Reseller på WhatsApp. Tiger OTT-kreditter aktiveras umiddelbart, slik at du kan begynne å opprette kundeabonnementer med en gang." },
       ],
     },
     "en-gb": {
@@ -5485,7 +5485,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Why is Tiger OTT called a fast IPTV reseller panel?", a: "Tiger OTT is engineered for speed — from fast server loading times to quick credit activation and streamlined subscription creation — making it one of the fastest IPTV panels to deploy and sell from in the UK." },
         { q: "Does Tiger OTT offer good streaming quality?", a: "Yes. Tiger OTT delivers stable 4K Ultra HD streaming across Xtream Codes, M3U, and MAG box connections with strong uptime and minimal buffering, fully optimised for British broadband." },
-        { q: "How do I get Tiger OTT reseller credits in the UK?", a: "Contact Fox IPTV Panels on WhatsApp. Tiger OTT credits are activated instantly so you can start creating customer subscriptions right away across the UK." },
+        { q: "How do I get Tiger OTT reseller credits in the UK?", a: "Contact IPTV Reseller on WhatsApp. Tiger OTT credits are activated instantly so you can start creating customer subscriptions right away across the UK." },
       ],
     },
     "en-au": {
@@ -5513,7 +5513,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Why is Tiger OTT called a fast IPTV reseller panel for Australians?", a: "Tiger OTT is engineered for speed — from fast server loading times to quick credit activation and streamlined subscription creation — making it one of the fastest IPTV panels to deploy and sell from in Australia." },
         { q: "Does Tiger OTT offer good streaming quality?", a: "Yes. Tiger OTT delivers stable 4K Ultra HD streaming across Xtream Codes, M3U, and MAG box connections with strong NBN uptime and minimal buffering — a great alternative to Foxtel." },
-        { q: "How do I get Tiger OTT reseller credits in Australia?", a: "Contact Fox IPTV Panels on WhatsApp. Tiger OTT credits are activated instantly so you can start creating customer subscriptions right away across Australia." },
+        { q: "How do I get Tiger OTT reseller credits in Australia?", a: "Contact IPTV Reseller on WhatsApp. Tiger OTT credits are activated instantly so you can start creating customer subscriptions right away across Australia." },
       ],
     },
   },
@@ -5543,7 +5543,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Es Opplex el panel de revendedor de IPTV más barato?", a: "Sí, Opplex ofrece algunas de las tarifas de créditos más baratas y competitivas, ideal para distribuidores que quieren competir por precio y maximizar su volumen de negocio." },
         { q: "¿Por qué Opplex es tan popular entre los distribuidores de IPTV?", a: "Por su magnífica relación entre costes asequibles, transmisión estable y un panel limpio de usar, siendo el preferido para la reventa orientada al bajo presupuesto." },
-        { q: "¿Tiene Opplex una prueba gratuita para revendedores?", a: "Sí. Fox IPTV Panels ofrece pruebas de acceso al panel Opplex de forma gratuita. Escríbenos por WhatsApp para solicitar tu prueba hoy mismo." },
+        { q: "¿Tiene Opplex una prueba gratuita para revendedores?", a: "Sí. IPTV Reseller ofrece pruebas de acceso al panel Opplex de forma gratuita. Escríbenos por WhatsApp para solicitar tu prueba hoy mismo." },
       ],
     },
     "fr": {
@@ -5571,7 +5571,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Opplex est-il le panneau revendeur IPTV le moins cher ?", a: "Oui, Opplex propose des tarifs par crédit extrêmement bas, ce qui en fait le panneau idéal pour les revendeurs cherchant à percer le marché avec des prix bas tout en réalisant des profits." },
         { q: "Pourquoi Opplex est si populaire auprès des revendeurs IPTV ?", a: "L'association de tarifs abordables, d'une diffusion fluide et d'un tableau de bord dénué de complexité en fait le choix privilégié pour la revente grand public." },
-        { q: "Opplex propose-t-il un test gratuit pour les revendeurs ?", a: "Oui, Fox IPTV Panels propose des tests gratuits pour le panneau Opplex. Envoyez-nous un message sur WhatsApp pour configurer votre essai." },
+        { q: "Opplex propose-t-il un test gratuit pour les revendeurs ?", a: "Oui, IPTV Reseller propose des tests gratuits pour le panneau Opplex. Envoyez-nous un message sur WhatsApp pour configurer votre essai." },
       ],
     },
     "pt": {
@@ -5599,13 +5599,13 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O Opplex é o painel de revendedor de IPTV mais barato?", a: "Sim, o Opplex tem um dos preços de créditos mais competitivos e acessíveis do mercado, perfeito para revendedores focados em conquistar clientes pelo preço." },
         { q: "Por que o Opplex é tão popular entre os revendedores de IPTV?", a: "A combinação de preços acessíveis, transmissão estável e um painel intuitivo tornou-o um dos painéis mais procurados e utilizados para reventa económica." },
-        { q: "O Opplex disponibiliza testes gratuitos para revenda?", a: "Sim. A Fox IPTV Panels oferece testes gratuitos no painel Opplex. Entre em contacto connosco pelo WhatsApp para solicitar a sua avaliação." },
+        { q: "O Opplex disponibiliza testes gratuitos para revenda?", a: "Sim. A IPTV Reseller oferece testes gratuitos no painel Opplex. Entre em contacto connosco pelo WhatsApp para solicitar a sua avaliação." },
       ],
     },
     "sv": {
       tagline: "Opplex IPTV Återförsäljarpanel — Populär budgetvänlig kontrollpanel för återförsäljare i Sverige",
       description: "Opplex är en av de mest populära och budgetvänliga IPTV-återförsäljarpanelerna. Den erbjuder stabil strömningskvalitet och en enkel kontrollpanel till mycket överkomliga priser. Det självklara valet för prismedvetna återförsäljare.",
-      longDescription: "Opplex har blivit oerhört populär bland IPTV-återförsäljare i Sverige tack vare sin pålitliga prestanda till mycket konkurrenskraftiga priser. Den enkla kontrollpanelen gör hantering av kunder och krediter okomplicerad, medan den stabila strömningen säkerställer hög kundnöjdhet på svenska nätverk som Telia, Tele2 och Telenor. En beprövad, populär IPTV-återförsäljarpanel tillgänglig via Fox IPTV Panels.",
+      longDescription: "Opplex har blivit oerhört populär bland IPTV-återförsäljare i Sverige tack vare sin pålitliga prestanda till mycket konkurrenskraftiga priser. Den enkla kontrollpanelen gör hantering av kunder och krediter okomplicerad, medan den stabila strömningen säkerställer hög kundnöjdhet på svenska nätverk som Telia, Tele2 och Telenor. En beprövad, populär IPTV-återförsäljarpanel tillgänglig via IPTV Reseller.",
       features: [
         "Populära och mycket budgetvänliga kreditpriser",
         "Stabil HD- & 4K-strömningskvalitet",
@@ -5627,13 +5627,13 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Är Opplex den billigaste IPTV-återförsäljarpanelen?", a: "Opplex erbjuder några av de absolut lägsta kreditpriserna på marknaden — vilket gör den till en av de mest konkurrenskraftiga och populära budgetpanelerna för prismedvetna återförsäljare i Sverige." },
         { q: "Varför är Opplex så populär bland återförsäljare?", a: "Opplex unika kombination av lågt pris, bra bildkvalitet och en mycket enkel kontrollpanel har gjort den till en av de mest använda IPTV-panelerna för budgetfokuserad återförsäljning." },
-        { q: "Har Opplex ett gratis testkonto för återförsäljare?", a: "Ja. Fox IPTV Panels erbjuder ett gratis testabonnemang på Opplex-panelen. Kontakta oss på WhatsApp för att begära din teståtkomst." },
+        { q: "Har Opplex ett gratis testkonto för återförsäljare?", a: "Ja. IPTV Reseller erbjuder ett gratis testabonnemang på Opplex-panelen. Kontakta oss på WhatsApp för att begära din teståtkomst." },
       ],
     },
     "no": {
       tagline: "Opplex IPTV Forhandlerpanel — Populært og budsjettvennlig panel for forhandlere i Norge",
       description: "Opplex er et av de mest populære og budsjettvennlige IPTV-forhandlerpanelene. Det tilbyr solid strømmekvalitet og et enkelt dashboard til svært rimelige priser. Et toppvalg for prisbevisste forhandlere.",
-      longDescription: "Opplex har oppnådd stor popularitet blant IPTV-forhandlere i Norge ved å levere pålitelig ytelse to svært konkurransedyktige priser. Det enkle dashboardet gjør administrasjon av kunder og kreditter problemfritt, mens den gode strømmekvaliteten sikrer fornøyde kunder på Telenor, Telia og Altibox. Et velprøvd og populært IPTV-forhandlerpanel levert av Fox IPTV Panels.",
+      longDescription: "Opplex har oppnådd stor popularitet blant IPTV-forhandlere i Norge ved å levere pålitelig ytelse to svært konkurransedyktige priser. Det enkle dashboardet gjør administrasjon av kunder og kreditter problemfritt, mens den gode strømmekvaliteten sikrer fornøyde kunder på Telenor, Telia og Altibox. Et velprøvd og populært IPTV-forhandlerpanel levert av IPTV Reseller.",
       features: [
         "Populære og budsjettvennlige kredittpriser",
         "Solid HD- & 4K-strømmingskvalitet",
@@ -5655,7 +5655,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Er Opplex det billigste forhandlerpanelet for IPTV?", a: "Opplex tilbyr noen av de mest rimelige kredittprisene på markedet — noe som gjør det til et av de mest konkurransedyktige og populære budsjettpanelene for prisbevisste forhandlere i Norge." },
         { q: "Hvorfor er Opplex så populært blant IPTV-forhandlere?", a: "Kombinasjonen av rimelig pris, stabil strømming og et enkelt dashboard har gjort Opplex til et av de mest brukte IPTV-panelene for budsjettfokusert forhandling." },
-        { q: "Tilbyr Opplex en gratis prøveperiode for forhandlere?", a: "Ja. Fox IPTV Panels tilbyr en gratis prøveperiode på Opplex forhandlerpanelet. Kontakt oss på WhatsApp for å få prøvetilgang." },
+        { q: "Tilbyr Opplex en gratis prøveperiode for forhandlere?", a: "Ja. IPTV Reseller tilbyr en gratis prøveperiode på Opplex forhandlerpanelet. Kontakt oss på WhatsApp for å få prøvetilgang." },
       ],
     },
     "en-gb": {
@@ -5683,7 +5683,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Is Opplex the cheapest IPTV reseller panel in the UK?", a: "Opplex offers some of the most affordable credit pricing available in the UK — making it one of the most competitive and popular budget IPTV reseller panels for cost-conscious British resellers." },
         { q: "Why is Opplex so popular among UK IPTV resellers?", a: "Opplex's combination of affordable pricing, decent streaming quality, and a simple dashboard has made it one of the most widely used IPTV panels for budget-focused reselling across the UK." },
-        { q: "Does Opplex have a free trial for UK resellers?", a: "Yes. Fox IPTV Panels offers a free trial on the Opplex reseller panel for British businesses. Contact us on WhatsApp to request UK trial access." },
+        { q: "Does Opplex have a free trial for UK resellers?", a: "Yes. IPTV Reseller offers a free trial on the Opplex reseller panel for British businesses. Contact us on WhatsApp to request UK trial access." },
       ],
     },
     "en-au": {
@@ -5711,7 +5711,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Is Opplex the cheapest IPTV reseller panel in Australia?", a: "Opplex offers some of the most affordable credit pricing available in Australia — making it one of the most competitive and popular budget IPTV reseller panels for cost-conscious Aussie resellers." },
         { q: "Why is Opplex so popular among Australian IPTV resellers?", a: "Opplex's combination of affordable NBN-optimised pricing, decent streaming quality, and a simple dashboard has made it one of the most widely used IPTV panels for budget-focused reselling across Australia." },
-        { q: "Does Opplex have a free trial for Australian resellers?", a: "Yes. Fox IPTV Panels offers a free trial on the Opplex reseller panel for Australian businesses. Contact us on WhatsApp to request Aussie trial access." },
+        { q: "Does Opplex have a free trial for Australian resellers?", a: "Yes. IPTV Reseller offers a free trial on the Opplex reseller panel for Australian businesses. Contact us on WhatsApp to request Aussie trial access." },
       ],
     },
   },
@@ -5741,7 +5741,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué es el panel de revendedor GEO IPTV?", a: "GEO IPTV es una plataforma optimizada geográficamente que utiliza redes de servidores distribuidos para ofrecer streaming en 4K estable y con baja latencia a clientes en múltiples países del mundo." },
         { q: "¿Es GEO IPTV adecuado para distribuidores en España y Europa?", a: "Sí. GEO IPTV está especialmente optimizado para España y el continente europeo, ofreciendo servidores con conexiones locales rápidas y contenidos específicos para cada región." },
-        { q: "¿Cómo adquiero créditos para el panel GEO IPTV?", a: "Contacta con Fox IPTV Panels por WhatsApp para activar tus créditos GEO IPTV de inmediato. Te guiaremos en la configuración y en el alta de tus primeros clientes." },
+        { q: "¿Cómo adquiero créditos para el panel GEO IPTV?", a: "Contacta con IPTV Reseller por WhatsApp para activar tus créditos GEO IPTV de inmediato. Te guiaremos en la configuración y en el alta de tus primeros clientes." },
       ],
     },
     "fr": {
@@ -5769,7 +5769,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur GEO IPTV ?", a: "GEO IPTV est une plateforme géo-optimisée qui utilise des serveurs géographiquement répartis pour fournir un streaming 4K stable et sans ralentissement aux utilisateurs du monde entier." },
         { q: "GEO IPTV est-il recommandé pour les revendeurs en France et en Europe ?", a: "Oui, ses serveurs sont optimisés pour la France et l'Europe, ce qui garantit une latence minimale et des flux d'une grande fluidité pour les abonnés européens." },
-        { q: "Comment acheter des crédits revendeur GEO IPTV ?", a: "Contactez Fox IPTV Panels sur WhatsApp pour une activation immédiate de vos crédits GEO IPTV. Nous vous accompagnerons pas à pas pour configurer votre panneau." },
+        { q: "Comment acheter des crédits revendeur GEO IPTV ?", a: "Contactez IPTV Reseller sur WhatsApp pour une activation immédiate de vos crédits GEO IPTV. Nous vous accompagnerons pas à pas pour configurer votre panneau." },
       ],
     },
     "pt": {
@@ -5797,7 +5797,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que é o painel revendedor GEO IPTV?", a: "O GEO IPTV é um painel de revenda otimizado geograficamente que utiliza servidores locais distribuídos para fornecer streaming 4K estável e de baixa latência em vários países." },
         { q: "O GEO IPTV é recomendado para revendedores em Portugal?", a: "Sim. O GEO IPTV tem redes dedicadas e servidores otimizados para Portugal e o continente europeu, proporcionando tempos de resposta muito baixos e alta estabilidade." },
-        { q: "Como posso obter créditos revendedor para o GEO IPTV?", a: "Fale com a Fox IPTV Panels no WhatsApp para ativar créditos GEO IPTV no momento. Configuramos o seu acesso e ajudamos a registar as primeiras subscrições." },
+        { q: "Como posso obter créditos revendedor para o GEO IPTV?", a: "Fale com a IPTV Reseller no WhatsApp para ativar créditos GEO IPTV no momento. Configuramos o seu acesso e ajudamos a registar as primeiras subscrições." },
       ],
     },
     "sv": {
@@ -5825,7 +5825,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Vad är GEO IPTV återförsäljarpanel?", a: "GEO IPTV är en geografiskt optimerad IPTV-återförsäljarpanel som använder en distribuerad serverinfrastruktur för att leverera stabil 4K-strömning med extremt låg latens till kunder i olika länder, inklusive Sverige." },
         { q: "Är GEO IPTV bra för återförsäljare i Sverige och Europa?", a: "Ja. GEO IPTV har servrar speciellt optimerade för flera regioner inklusive Sverige, Norden, UK, USA och EU — vilket gör den perfekt för återförsäljare med en internationell kundbas." },
-        { q: "Hur köper jag GEO IPTV-återförsäljarkrediter?", a: "Kontakta Fox IPTV Panels på WhatsApp för omedelbar aktivering av GEO IPTV-krediter. Vi ställer in din kontrollpanel och hjälper dig att komma igång med dina första prenumerationer." },
+        { q: "Hur köper jag GEO IPTV-återförsäljarkrediter?", a: "Kontakta IPTV Reseller på WhatsApp för omedelbar aktivering av GEO IPTV-krediter. Vi ställer in din kontrollpanel och hjälper dig att komma igång med dina första prenumerationer." },
       ],
     },
     "no": {
@@ -5853,7 +5853,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Hva er GEO IPTV forhandlerpanel?", a: "GEO IPTV er et geografisk optimalisert IPTV-forhandlerpanel som bruker distribuert serverinfrastruktur til å levere stabil, lav-latens 4K-strømming til kunder i forskjellige land og regioner." },
         { q: "Er GEO IPTV bra for forhandlere i Norge og Europa?", a: "Ja. GEO IPTV har servere optimalisert for flere regioner inkludert Norge, Skandinavia, Storbritannia, USA og Europa — noe som gjør det ideelt for forhandlere med internasjonale kundebaser." },
-        { q: "Hvordan får jeg GEO IPTV forhandlerkreditter?", a: "Kontakt Fox IPTV Panels på WhatsApp for øyeblikkelig aktivering av GEO IPTV-kreditter. Vi setter opp forhandlerpanelet ditt og veileder deg gjennom dine første internasjonale abonnementer." },
+        { q: "Hvordan får jeg GEO IPTV forhandlerkreditter?", a: "Kontakt IPTV Reseller på WhatsApp for øyeblikkelig aktivering av GEO IPTV-kreditter. Vi setter opp forhandlerpanelet ditt og veileder deg gjennom dine første internasjonale abonnementer." },
       ],
     },
     "en-gb": {
@@ -5881,7 +5881,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "What is the GEO IPTV reseller panel?", a: "GEO IPTV is a geographically optimised IPTV reseller panel using distributed server infrastructure to deliver stable, low-latency 4K streaming to customers in different countries and regions, fully optimised for UK broadband." },
         { q: "Is GEO IPTV good for resellers in the UK and the EU?", a: "Yes. GEO IPTV has servers optimised for multiple regions including the UK, USA, the EU, and the Middle East — making it ideal for British resellers with international customer bases." },
-        { q: "How do I get GEO IPTV reseller credits in the UK?", a: "Contact Fox IPTV Panels on WhatsApp for instant GEO IPTV credit activation. We'll set up your reseller panel and guide you through your first international customer subscriptions from the UK." },
+        { q: "How do I get GEO IPTV reseller credits in the UK?", a: "Contact IPTV Reseller on WhatsApp for instant GEO IPTV credit activation. We'll set up your reseller panel and guide you through your first international customer subscriptions from the UK." },
       ],
     },
     "en-au": {
@@ -5909,7 +5909,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "What is the GEO IPTV reseller panel?", a: "GEO IPTV is a geographically optimised IPTV reseller panel using distributed server infrastructure to deliver stable, low-latency 4K streaming to customers in different countries and regions, optimised for Australia's NBN speeds." },
         { q: "Is GEO IPTV good for resellers in Australia?", a: "Yes. GEO IPTV has servers optimised for multiple regions including Australia, USA, the UK, and the EU — making it ideal for Aussie resellers with international customer bases." },
-        { q: "How do I get GEO IPTV reseller credits in Australia?", a: "Contact Fox IPTV Panels on WhatsApp for instant GEO IPTV credit activation. We'll set up your reseller panel and guide you through your first international customer subscriptions from Australia." },
+        { q: "How do I get GEO IPTV reseller credits in Australia?", a: "Contact IPTV Reseller on WhatsApp for instant GEO IPTV credit activation. We'll set up your reseller panel and guide you through your first international customer subscriptions from Australia." },
       ],
     },
   },
@@ -5939,7 +5939,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué es el panel de revendedor 5G Live IPTV?", a: "5G Live es un panel de revendedor de IPTV de nueva generación que implementa servidores de alto rendimiento optimizados para redes móviles e inalámbricas rápidas, entregando streaming 4K sin cortes." },
         { q: "¿Los clientes necesitan internet 5G para usar 5G Live?", a: "No, en absoluto. Funciona perfectamente en cualquier conexión de fibra o banda ancha. El término '5G' hace referencia a la velocidad de transferencia interna y latencia mínima de sus servidores." },
-        { q: "¿Está disponible 5G Live en España a través de Fox IPTV Panels?", a: "Sí. Ofrecemos créditos de revendedor 5G Live para distribuidores en España y en todo el mundo con activación instantánea y soporte por WhatsApp." },
+        { q: "¿Está disponible 5G Live en España a través de IPTV Reseller?", a: "Sí. Ofrecemos créditos de revendedor 5G Live para distribuidores en España y en todo el mundo con activación instantánea y soporte por WhatsApp." },
       ],
     },
     "fr": {
@@ -5967,7 +5967,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur 5G Live IPTV ?", a: "5G Live est une plateforme de revente de dernière génération dotée de serveurs à très faible temps de réponse pour une diffusion 4K instantanée et fluide." },
         { q: "Le client final doit-il obligatoirement avoir une connexion 5G ?", a: "Non, cela fonctionne avec n'importe quelle connexion haut débit ou fibre. Le terme '5G' souligne l'extrême rapidité et la latence minimale de l'architecture des serveurs." },
-        { q: "Est-il possible d'acheter des crédits 5G Live sur Fox IPTV Panels ?", a: "Oui, Fox IPTV Panels distribue les crédits 5G Live pour tous les revendeurs avec une activation en quelques minutes et un accompagnement WhatsApp." },
+        { q: "Est-il possible d'acheter des crédits 5G Live sur IPTV Reseller ?", a: "Oui, IPTV Reseller distribue les crédits 5G Live pour tous les revendeurs avec une activation en quelques minutes et un accompagnement WhatsApp." },
       ],
     },
     "pt": {
@@ -5995,7 +5995,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que é o painel revendedor 5G Live IPTV?", a: "O 5G Live é um painel de revenda de IPTV inovador que utiliza servidores locais otimizados para redes móveis e fixas de alta velocidade, fornecendo streaming 4K instantâneo." },
         { q: "Os clientes precisam de ter rede 5G para usar o serviço?", a: "Não. O serviço funciona perfeitamente em fibra ou qualquer banda larga estável. A sigla '5G' indica a rapidez e baixíssima latência interna do servidor." },
-        { q: "O 5G Live está disponível na Fox IPTV Panels?", a: "Sim. Fornecemos pacotes de créditos 5G Live com ativação imediata em Portugal e suporte pós-venda completo via WhatsApp." },
+        { q: "O 5G Live está disponível na IPTV Reseller?", a: "Sim. Fornecemos pacotes de créditos 5G Live com ativação imediata em Portugal e suporte pós-venda completo via WhatsApp." },
       ],
     },
     "sv": {
@@ -6023,7 +6023,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Vad är 5G Live IPTV återförsäljarpanel?", a: "5G Live är en nästa generations IPTV-återförsäljarpanel som använder högpresterande servrar optimerade för snabba mobil- och fasta nätverk, vilket ger en strömlinjeformad och buffringsfri 4K-strömning." },
         { q: "Måste kunderna ha en 5G-anslutning för att använda 5G Live?", a: "Nej, absolut inte. Den fungerar perfekt på alla vanliga bredbands- och fiberanslutningar i Sverige. Namnet '5G' syftar på servertrafikens blixtsnabba interna överföringshastighet och minimala fördröjning." },
-        { q: "Är 5G Live tillgänglig via Fox IPTV Panels i Sverige?", a: "Ja. Vi erbjuder 5G Live-återförsäljarkrediter med omedelbar aktivering och dedikerad WhatsApp-support för återförsäljare i Sverige och hela Norden." },
+        { q: "Är 5G Live tillgänglig via IPTV Reseller i Sverige?", a: "Ja. Vi erbjuder 5G Live-återförsäljarkrediter med omedelbar aktivering och dedikerad WhatsApp-support för återförsäljare i Sverige och hela Norden." },
       ],
     },
     "no": {
@@ -6051,7 +6051,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Hva er 5G Live IPTV forhandlerpanel?", a: "5G Live er et neste generasjons IPTV-forhandlerpanel som bruker høyytelsesservere optimalisert for raske mobile og faste nettverk, noe som gir kunden en uavbrutt 4K-strømmeopplevelse." },
         { q: "Må kundene ha 5G-internett for å bruke 5G Live?", a: "Nei, overhodet ikke. Det fungerer perfekt på alle fiber- og bredbåndstilkoblinger. Navnet '5G' indikerer den ekstreme hastigheten og den minimale interne forsinkelsen på serverne." },
-        { q: "Er 5G Live tilgjengelig gjennom Fox IPTV Panels i Norge?", a: "Ja. Vi tilbyr 5G Live forhandlerkreditter med umiddelbar aktivering og dedikert WhatsApp-støtte for forhandlere i Norge." },
+        { q: "Er 5G Live tilgjengelig gjennom IPTV Reseller i Norge?", a: "Ja. Vi tilbyr 5G Live forhandlerkreditter med umiddelbar aktivering og dedikert WhatsApp-støtte for forhandlere i Norge." },
       ],
     },
     "en-gb": {
@@ -6079,7 +6079,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "What is the 5G Live IPTV reseller panel?", a: "5G Live is a next-generation IPTV reseller panel implementing high-performance servers optimised for fast networks, delivering seamless, buffering-free 4K streaming for UK users." },
         { q: "Do customers need a 5G connection to use 5G Live?", a: "No, not at all. It works perfectly on any standard broadband or fibre connection in the UK. The term '5G' refers to its high-speed server infrastructure and low internal latency." },
-        { q: "Is 5G Live available through Fox IPTV Panels in the UK?", a: "Yes. We offer 5G Live reseller credits with instant activation and dedicated WhatsApp support for UK businesses." },
+        { q: "Is 5G Live available through IPTV Reseller in the UK?", a: "Yes. We offer 5G Live reseller credits with instant activation and dedicated WhatsApp support for UK businesses." },
       ],
     },
     "en-au": {
@@ -6107,7 +6107,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "What is the 5G Live IPTV reseller panel?", a: "5G Live is a next-generation IPTV reseller panel implementing high-performance servers optimised for Australia's fast mobile and NBN networks, delivering seamless, buffering-free 4K streaming." },
         { q: "Do customers need a 5G connection to use 5G Live?", a: "No, not at all. It works perfectly on any standard broadband or NBN connection in Australia. The term '5G' refers to its ultra-fast server infrastructure and minimal internal latency." },
-        { q: "Is 5G Live available through Fox IPTV Panels in Australia?", a: "Yes. We offer 5G Live reseller credits with instant activation and dedicated WhatsApp support for Aussie businesses as a high-tech Foxtel alternative." },
+        { q: "Is 5G Live available through IPTV Reseller in Australia?", a: "Yes. We offer 5G Live reseller credits with instant activation and dedicated WhatsApp support for Aussie businesses as a high-tech Foxtel alternative." },
       ],
     },
   },
@@ -6137,8 +6137,8 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "¿Qué es el panel de revendedor Magnum Golden OTT IPTV?", a: "Magnum Golden OTT es un panel de reventa de IPTV premium posicionado en la gama alta del sector, que ofrece un catálogo inmenso, streaming estable en 4K y herramientas completas de administración comercial." },
         { q: "¿A qué tipo de clientes está orientado Magnum Golden OTT?", a: "Es ideal para clientes exigentes que buscan una experiencia televisiva premium sin interrupciones y con canales internacionales. Su posicionamiento de marca permite a los distribuidores vender suscripciones a precios más elevados." },
-        { q: "¿Como me convierto en distribuidor de Magnum Golden OTT?", a: "Escríbenos por WhatsApp a Fox IPTV Panels para comprar tus primeros créditos. Activaremos tu panel al instante y te daremos soporte prioritario durante toda tu andadura." },
-        { q: "¿Existe una prueba gratuita de Magnum Golden OTT para distribuidores?", a: "Sí, claro. Fox IPTV Panels facilita pruebas gratuitas en Magnum Golden OTT. Escríbenos por WhatsApp y solicita tu cuenta de prueba hoy mismo." },
+        { q: "¿Como me convierto en distribuidor de Magnum Golden OTT?", a: "Escríbenos por WhatsApp a IPTV Reseller para comprar tus primeros créditos. Activaremos tu panel al instante y te daremos soporte prioritario durante toda tu andadura." },
+        { q: "¿Existe una prueba gratuita de Magnum Golden OTT para distribuidores?", a: "Sí, claro. IPTV Reseller facilita pruebas gratuitas en Magnum Golden OTT. Escríbenos por WhatsApp y solicita tu cuenta de prueba hoy mismo." },
       ],
     },
     "fr": {
@@ -6166,8 +6166,8 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "Qu'est-ce que le panneau revendeur Magnum Golden OTT IPTV ?", a: "Magnum Golden OTT est une solution revendeur haut de gamme positionnée au sommet du marché de l'IPTV, alliant un contenu exceptionnel, une diffusion 4K et un outil administratif complet." },
         { q: "Quel type de clients cible principalement Magnum Golden OTT ?", a: "Il cible les utilisateurs recherchant la perfection : une stabilité sans faille, un catalogue riche et une excellente qualité vidéo. Cela vous permet de vendre vos abonnements à des tarifs plus valorisants." },
-        { q: "Comment devenir revendeur pour Magnum Golden OTT ?", a: "Contactez Fox IPTV Panels sur WhatsApp pour commander vos crédits. Nous activerons votre panneau revendeur immédiatement." },
-        { q: "Y a-t-il un test gratuit de Magnum Golden OTT pour les revendeurs ?", a: "Oui, tout à fait. Fox IPTV Panels propose des comptes d'essais gratuits sur le panneau Magnum Golden OTT. Écrivez-nous sur WhatsApp pour commencer." },
+        { q: "Comment devenir revendeur pour Magnum Golden OTT ?", a: "Contactez IPTV Reseller sur WhatsApp pour commander vos crédits. Nous activerons votre panneau revendeur immédiatement." },
+        { q: "Y a-t-il un test gratuit de Magnum Golden OTT pour les revendeurs ?", a: "Oui, tout à fait. IPTV Reseller propose des comptes d'essais gratuits sur le panneau Magnum Golden OTT. Écrivez-nous sur WhatsApp pour commencer." },
       ],
     },
     "pt": {
@@ -6195,8 +6195,8 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       faqs: [
         { q: "O que é o painel revendedor Magnum Golden OTT IPTV?", a: "O Magnum Golden OTT é uma solução premium para revenda de IPTV no topo do mercado, oferecendo streaming 4K estável, conteúdos robustos e um painel de controlo completo." },
         { q: "Qual o perfil de cliente para o Magnum Golden OTT?", a: "Ideal para clientes que priorizam o entretenimento em máxima qualidade — canais premium, eventos desportivos sem atrasos e streaming robusto. Os revendedores conseguem trabalhar com preços de subscrição mais altos e lucrativos." },
-        { q: "Como posso tornar-me um revendedor Magnum Golden OTT?", a: "Basta falar com a Fox IPTV Panels pelo WhatsApp para comprar créditos. Ativaremos o seu painel de revendedor comercial com suporte completo de imediato." },
-        { q: "Existe teste gratuito do Magnum Golden OTT para revendedores?", a: "Sim. A Fox IPTV Panels providencia contas de teste sem custo na plataforma Magnum Golden OTT. Fale connosco pelo WhatsApp para pedir o seu acesso." },
+        { q: "Como posso tornar-me um revendedor Magnum Golden OTT?", a: "Basta falar com a IPTV Reseller pelo WhatsApp para comprar créditos. Ativaremos o seu painel de revendedor comercial com suporte completo de imediato." },
+        { q: "Existe teste gratuito do Magnum Golden OTT para revendedores?", a: "Sim. A IPTV Reseller providencia contas de teste sem custo na plataforma Magnum Golden OTT. Fale connosco pelo WhatsApp para pedir o seu acesso." },
       ],
     },
   },
