@@ -19,11 +19,11 @@ export function generateStaticParams() {
 const ABOUT_PAGE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "name": "About Fox IPTV Panels",
-  "description": "Fox IPTV Panels is the world's leading wholesale IPTV reseller panel provider. Supporting 5,000+ resellers across the UK, USA, and EU with 22 premium IPTV servers, low latency, and 99.9% uptime guarantees.",
+  "name": "About IPTV Reseller",
+  "description": "IPTV Reseller is the world's leading wholesale IPTV reseller panel provider. Supporting 5,000+ resellers across the UK, USA, and EU with 22 premium IPTV servers, low latency, and 99.9% uptime guarantees.",
   "publisher": {
     "@type": "Organization",
-    "name": "Fox IPTV Panels",
+    "name": "IPTV Reseller",
     "url": "https://www.iptvreseller.live"
   }
 };
@@ -49,42 +49,42 @@ export default async function AboutPage({
     switch (locale) {
       case "en-gb":
         return {
-          title: "About Fox IPTV Panels UK: Premium Wholesale & Buffer-Free Streaming",
+          title: "About IPTV Reseller UK: Premium Wholesale & Buffer-Free Streaming",
           description: "Meet the UK's leading wholesale IPTV provider. Serving London, Birmingham & beyond with 22+ buffer-free panels, custom DNS routing & local GBP credits.",
         };
       case "en-au":
         return {
-          title: "About Fox IPTV Panels Australia: Low-Latency Peering & NBN Ready",
+          title: "About IPTV Reseller Australia: Low-Latency Peering & NBN Ready",
           description: "Meet Australia's leading wholesale IPTV provider. Built on redundant low-latency routes for Telstra, Optus & NBN. Start your own brand with free trials!",
         };
       case "es":
         return {
-          title: "Sobre Fox IPTV Panels: El Soporte Detrás de 5,000+ Revendedores",
+          title: "Sobre IPTV Reseller: El Soporte Detrás de 5,000+ Revendedores",
           description: "Conozca al proveedor mayorista de IPTV de marca blanca líder en España y la UE. Servidores sin cortes, activación en 5 minutos y soporte WhatsApp 24/7.",
         };
       case "fr":
         return {
-          title: "À Propos de Fox IPTV Panels : Le Grossiste IPTV N°1 en France",
+          title: "À Propos de IPTV Reseller : Le Grossiste IPTV N°1 en France",
           description: "Découvrez le fournisseur de serveurs IPTV en marque blanche le plus fiable en France et Belgique. 22+ serveurs stables, essais gratuits & support WhatsApp.",
         };
       case "pt":
         return {
-          title: "Sobre a Fox IPTV Panels: O Fornecedor Grossista por Trás de Milhares",
+          title: "Sobre a IPTV Reseller: O Fornecedor Grossista por Trás de Milhares",
           description: "Conheça o fornecedor grossista de IPTV mais fiável em Portugal e Brasil. Servidores estáveis sem travamentos, ativação na hora e suporte via WhatsApp 24/7.",
         };
       case "sv":
         return {
-          title: "Om Fox IPTV Panels: Grossistleverantören Bakom 5 000+ Återförsäljare",
+          title: "Om IPTV Reseller: Grossistleverantören Bakom 5 000+ Återförsäljare",
           description: "Läs om Sveriges ledande white label grossist för IPTV. Vi erbjuder 22+ stabila servrar utan buffring, gratis testkonton och support på svenska dygnet runt.",
         };
       case "no":
         return {
-          title: "Om Fox IPTV Panels: Grossistleverandøren Bakom 5 000+ Forhandlere",
+          title: "Om IPTV Reseller: Grossistleverandøren Bakom 5 000+ Forhandlere",
           description: "Møt Norges ledende engrosleverandør av white-label IPTV. Vi tilbyr 22+ stabile servere uten bufring, gratis prøvekontoer og dedikert support 24/7.",
         };
       default:
         return {
-          title: "About Fox IPTV Panels: The Wholesale Power Behind 5k+ Resellers",
+          title: "About IPTV Reseller: The Wholesale Power Behind 5k+ Resellers",
           description: "Meet the team behind the world's most stable IPTV reseller network. Offering 22+ premium white-label panels, zero ISP buffering & 24/7 direct partner support.",
         };
     }
@@ -362,14 +362,14 @@ export default async function AboutPage({
               <h2 style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 800, fontSize: "2.25rem", color: "var(--text-primary)", marginBottom: "1rem" }}>
                 {(() => {
                   const trans = {
-                    en: "What Sets Fox IPTV Panels Apart",
-                    "en-gb": "What Sets Fox IPTV Panels Apart",
-                    "en-au": "What Sets Fox IPTV Panels Apart",
-                    es: "Lo que diferencia a Fox IPTV Panels",
-                    fr: "Ce qui distingue Fox IPTV Panels",
-                    pt: "O que distingue a Fox IPTV Panels",
-                    sv: "Vad som skiljer Fox IPTV Panels från mängden",
-                    no: "Hva som skiller Fox IPTV Panels ut"
+                    en: "What Sets IPTV Reseller Apart",
+                    "en-gb": "What Sets IPTV Reseller Apart",
+                    "en-au": "What Sets IPTV Reseller Apart",
+                    es: "Lo que diferencia a IPTV Reseller",
+                    fr: "Ce qui distingue IPTV Reseller",
+                    pt: "O que distingue a IPTV Reseller",
+                    sv: "Vad som skiljer IPTV Reseller från mängden",
+                    no: "Hva som skiller IPTV Reseller ut"
                   };
                   return trans[locale as keyof typeof trans] || trans.en;
                 })()}
