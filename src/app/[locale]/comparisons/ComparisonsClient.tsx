@@ -397,14 +397,14 @@ export default function ComparisonsClient() {
                 <p style={{ color: "var(--text-secondary)", lineHeight: 1.7, marginBottom: "2rem" }}>
                   {(() => {
                     const trans = {
-                      en: "Fox IPTV Panels is the leading global provider of high-speed streaming dashboards. Get wholesale discounts on all 22 panels with instant automated activations. WhatsApp us to check the lowest prices on bulk credits and starter packages.",
-                      "en-gb": "Fox IPTV Panels is the leading global provider of high-speed streaming dashboards. Get wholesale discounts on all 22 panels with instant automated activations. WhatsApp us to check the lowest prices on bulk credits and starter packages.",
-                      "en-au": "Fox IPTV Panels is the leading global provider of high-speed streaming dashboards. Get wholesale discounts on all 22 panels with instant automated activations. WhatsApp us to check the lowest prices on bulk credits and starter packages.",
-                      es: "Fox IPTV Panels es el proveedor líder mundial de paneles de transmisión de alta velocidad. Obtenga descuentos mayoristas en los 22 paneles con activaciones automáticas e instantáneas. Chatee con nosotros por WhatsApp para consultar las tarifas.",
-                      fr: "Fox IPTV Panels est le premier fournisseur mondial de tableaux de bord de streaming. Profitez de remises de gros sur nos 22 panneaux avec activations instantanées.",
-                      pt: "Fox IPTV Panels é o fornecedor líder global de painéis de streaming rápidos. Obtenha descontos por atacado em todos os 22 painéis com ativação automatizada.",
-                      sv: "Fox IPTV Panels är den ledande globala leverantören av snabba strömningspaneler. Få rabatter på alla 22 paneler med omedelbar aktivering.",
-                      no: "Fox IPTV Panels er den ledende globale leverandøren av raske strømmepaneler. Få grossistrabatter på alle 22 paneler med øyeblikkelig aktivering."
+                      en: "IPTV Reseller is the leading global provider of high-speed streaming dashboards. Get wholesale discounts on all 22 panels with instant automated activations. WhatsApp us to check the lowest prices on bulk credits and starter packages.",
+                      "en-gb": "IPTV Reseller is the leading global provider of high-speed streaming dashboards. Get wholesale discounts on all 22 panels with instant automated activations. WhatsApp us to check the lowest prices on bulk credits and starter packages.",
+                      "en-au": "IPTV Reseller is the leading global provider of high-speed streaming dashboards. Get wholesale discounts on all 22 panels with instant automated activations. WhatsApp us to check the lowest prices on bulk credits and starter packages.",
+                      es: "IPTV Reseller es el proveedor líder mundial de paneles de transmisión de alta velocidad. Obtenga descuentos mayoristas en los 22 paneles con activaciones automáticas e instantáneas. Chatee con nosotros por WhatsApp para consultar las tarifas.",
+                      fr: "IPTV Reseller est le premier fournisseur mondial de tableaux de bord de streaming. Profitez de remises de gros sur nos 22 panneaux avec activations instantanées.",
+                      pt: "IPTV Reseller é o fornecedor líder global de painéis de streaming rápidos. Obtenha descontos por atacado em todos os 22 painéis com ativação automatizada.",
+                      sv: "IPTV Reseller är den ledande globala leverantören av snabba strömningspaneler. Få rabatter på alla 22 paneler med omedelbar aktivering.",
+                      no: "IPTV Reseller er den ledende globale leverandøren av raske strømmepaneler. Få grossistrabatter på alle 22 paneler med øyeblikkelig aktivering."
                     };
                     return trans[locale as keyof typeof trans] || trans.en;
                   })()}

@@ -39,42 +39,42 @@ export default async function GuidesPage({
         switch (locale) {
           case "en-gb":
                     return {
-                                titleText: "How to Start a UK IPTV Reseller Business: Avoid ISP Blocks Guide | Fox IPTV Panels",
+                                titleText: "How to Start a UK IPTV Reseller Business: Avoid ISP Blocks Guide | IPTV Reseller",
                                 descText: "Step-by-step guide to starting a successful white-label IPTV reseller business in the UK. Learn how to configure custom DNS routing to bypass BT & Virgin Media filters.",
                     };
           case "en-au":
                     return {
-                                titleText: "How to Start an Australian IPTV Reseller Business: NBN Peering Guide | Fox IPTV Panels",
+                                titleText: "How to Start an Australian IPTV Reseller Business: NBN Peering Guide | IPTV Reseller",
                                 descText: "Start your own white-label IPTV brand in Australia. A complete guide to wholesale IPTV credits, low-latency NBN streaming setup, and customer activations.",
                     };
           case "es":
                     return {
-                                titleText: "Cómo Empezar un Negocio Reseller IPTV: Guía Completa de Marca Blanca | Fox IPTV Panels",
+                                titleText: "Cómo Empezar un Negocio Reseller IPTV: Guía Completa de Marca Blanca | IPTV Reseller",
                                 descText: "Guía paso a paso para crear una marca de IPTV exitosa en España. Aprenda cómo funciona el sistema de créditos, enrutamiento DNS personalizado y Xtream Codes.",
                     };
           case "fr":
                     return {
-                                titleText: "Comment Devenir Revendeur IPTV : Le Guide Étape par Étape Grossiste | Fox IPTV Panels",
+                                titleText: "Comment Devenir Revendeur IPTV : Le Guide Étape par Étape Grossiste | IPTV Reseller",
                                 descText: "Apprenez à lancer votre marque d'IPTV en marque blanche en France. Guide complet sur les crédits de gros, l'API Xtream Codes et la configuration de portails DNS.",
                     };
           case "pt":
                     return {
-                                titleText: "Como Iniciar um Negócio de Revenda IPTV: Guia Completo Passo a Passo | Fox IPTV Panels",
+                                titleText: "Como Iniciar um Negócio de Revenda IPTV: Guia Completo Passo a Passo | IPTV Reseller",
                                 descText: "Crie a sua marca de IPTV de sucesso em Portugal. Guia definitivo sobre créditos por atacado, configuração de DNS próprio, Xtream Codes e atração de clientes.",
                     };
           case "sv":
                     return {
-                                titleText: "Hur du Startar ett IPTV Återförsäljarföretag: Steg-för-steg-guide | Fox IPTV Panels",
+                                titleText: "Hur du Startar ett IPTV Återförsäljarföretag: Steg-för-steg-guide | IPTV Reseller",
                                 descText: "Starta din egen IPTV-verksamhet i Sverige under eget varumärke. Lär dig hur kreditsystemet fungerar, anpassad DNS-routing och M3U-spellistor.",
                     };
           case "no":
                     return {
-                                titleText: "Slik Starter du som IPTV Forhandler: Den Komplette Guiden | Fox IPTV Panels",
+                                titleText: "Slik Starter du som IPTV Forhandler: Den Komplette Guiden | IPTV Reseller",
                                 descText: "Start din egen strømmebedrift i Norge. Lær alt om engroskreditter, oppsett av egen DNS-portal, Xtream Codes API, og hvordan du unngår buffering.",
                     };
           default:
                     return {
-                                titleText: "How to Start an IPTV Reseller Business: 2026 Strategy Guide | Fox IPTV Panels",
+                                titleText: "How to Start an IPTV Reseller Business: 2026 Strategy Guide | IPTV Reseller",
                                 descText: "Tired of researching with zero clear answers? Read our step-by-step masterclass guide. Understand IPTV credits, Xtream Codes, M3U playlists, and custom DNS setup.",
                     };
         }

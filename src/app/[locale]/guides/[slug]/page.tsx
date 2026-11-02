@@ -229,7 +229,7 @@ const publisher = {
                                                           </h1>
                                             
                                               <div style={{ fontSize: "0.85rem", color: "var(--text-muted)", marginTop: "1rem" }}>
-                                                {lc({ en: "Published by", es: "Publicado por", fr: "Publié par", pt: "Publicado por", sv: "Publicerad av", no: "Publisert av" })} Fox IPTV Panels
+                                                {lc({ en: "Published by", es: "Publicado por", fr: "Publié par", pt: "Publicado por", sv: "Publicerad av", no: "Publisert av" })} IPTV Reseller
                                               </div>
                                             </header>
                                 
@@ -266,9 +266,9 @@ const publisher = {
                                 
                                                                          {/* Editorial information — no unverified individual credentials */}
                                      <section style={{ padding: "2rem", borderRadius: "20px", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border-color)", marginTop: "3rem", marginBottom: "4rem" }}>
-                                       <h2 style={{ fontSize: "1.1rem", fontWeight: 800, color: "var(--text-primary)", marginBottom: "0.75rem" }}>Fox IPTV Panels</h2>
+                                       <h2 style={{ fontSize: "1.1rem", fontWeight: 800, color: "var(--text-primary)", marginBottom: "0.75rem" }}>IPTV Reseller</h2>
                                        <p style={{ fontSize: "0.875rem", color: "var(--text-secondary)", lineHeight: 1.6 }}>
-                                         {lc({ en: "This guide is published by the Fox IPTV Panels editorial team.", es: "Esta guía ha sido publicada por el equipo editorial de Fox IPTV Panels.", fr: "Ce guide est publié par l’équipe éditoriale de Fox IPTV Panels.", pt: "Este guia é publicado pela equipa editorial da Fox IPTV Panels.", sv: "Denna guide publiceras av Fox IPTV Panels redaktion.", no: "Denne guiden er publisert av redaksjonen i Fox IPTV Panels." })}
+                                         {lc({ en: "This guide is published by the IPTV Reseller editorial team.", es: "Esta guía ha sido publicada por el equipo editorial de IPTV Reseller.", fr: "Ce guide est publié par l’équipe éditoriale de IPTV Reseller.", pt: "Este guia é publicado pela equipa editorial da IPTV Reseller.", sv: "Denna guide publiceras av IPTV Reseller redaktion.", no: "Denne guiden er publisert av redaksjonen i IPTV Reseller." })}
                                        </p>
                                        <Link href={`/${locale}/editorial-guidelines`} className="animated-underline" style={{ color: "var(--accent-cyan)", fontSize: "0.85rem", textDecoration: "none" }}>
                                          {lc({ en: "Editorial Guidelines", es: "Pautas Editoriales", fr: "Charte Éditoriale", pt: "Diretrizes Editoriais", sv: "Redaktionella Riktlinjer", no: "Redaksjonelle Retningslinjer" })}
