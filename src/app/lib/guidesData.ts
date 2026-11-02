@@ -581,14 +581,39 @@ export const getGuides = (locale: string): GuideData[] => {
     }
   ];
 
-  // Return the master English templates with dynamic GEO-substitutions applied for titles, excerpts, descriptions, content and FAQs!
+  // Dedicated regional meta descriptions avoid reusing the international English descriptions.
+  // Original guide bodies, FAQs, and other languages remain unchanged.
+  const regionalGuideDescriptions: Record<"en-gb" | "en-au", Record<string, string>> = {
+    "en-gb": {
+      "start-iptv-reseller-business": "Start an IPTV reseller business in the UK. Explore panel setup, credit management, customer support and practical first steps.",
+      "credit-system-explained": "Understand IPTV reseller credits in the UK, from account activation and renewals to wholesale costs and margin calculations.",
+      "xtream-codes-vs-m3u": "Compare Xtream Codes API and M3U playlists for UK IPTV resellers, including setup, compatibility and credential handling.",
+      "white-label-panel-branding": "Explore white-label IPTV reseller branding in the UK, including custom domains, panel identity and sub-reseller management.",
+      "dns-portal-setup-guide": "Learn how UK IPTV resellers configure custom portal domains using CNAME, DNS records and sensible security practices.",
+      "billing-whmcs-stripe-guide": "Review WHMCS billing workflows for UK IPTV resellers, including credit delivery, renewals and payment provider considerations.",
+      "xtream-api-integration-guide": "Explore Xtream Codes API integration for UK panel owners, including account data, endpoint examples and responsible caching.",
+    },
+    "en-au": {
+      "start-iptv-reseller-business": "Learn how to start an IPTV reseller business in Australia, with panel onboarding, credits, customer support and practical setup steps.",
+      "credit-system-explained": "Explore IPTV reseller credit management in Australia, including account renewals, wholesale costs and pricing calculations.",
+      "xtream-codes-vs-m3u": "Compare Xtream Codes API and M3U playlist setups for Australian IPTV resellers, with device support and security tips.",
+      "white-label-panel-branding": "Plan an Australian white-label IPTV reseller brand with custom domains, dashboard branding and sub-reseller workflows.",
+      "dns-portal-setup-guide": "A practical guide to DNS and CNAME portal setup for Australian IPTV resellers, covering domain mapping and security basics.",
+      "billing-whmcs-stripe-guide": "Explore WHMCS setup for Australian IPTV resellers, including billing automation, renewals and payment integration considerations.",
+      "xtream-api-integration-guide": "Learn Xtream Codes API integration for Australian panel operators, with endpoint examples, account data and caching guidance.",
+    },
+  };
+
+  // Return the original English guides with location-specific SEO descriptions for UK/AU.
   return englishGuides.map((guide) => {
-    // Determine target localized category
     let localizedCategory = guide.category;
     if (L === "fr") localizedCategory = guide.category === "Business" ? "Affaires" : guide.category === "Technical" ? "Technique" : "Marque";
     else if (L === "pt") localizedCategory = guide.category === "Business" ? "Negócio" : guide.category === "Technical" ? "Técnico" : "Marca";
     else if (L === "sv") localizedCategory = guide.category === "Business" ? "Affärer" : guide.category === "Technical" ? "Tekniskt" : "Varumärke";
     else if (L === "no") localizedCategory = guide.category === "Business" ? "Bedrift" : guide.category === "Technical" ? "Teknisk" : "Merke";
+
+    const regionalDescriptions =
+      L === "en-gb" || L === "en-au" ? regionalGuideDescriptions[L] : undefined;
 
     return {
       ...guide,
@@ -596,7 +621,7 @@ export const getGuides = (locale: string): GuideData[] => {
       title: geoLocalizeEnglish(guide.title, "title"),
       excerpt: geoLocalizeEnglish(guide.excerpt, "desc"),
       seoTitle: geoLocalizeEnglish(guide.seoTitle, "title"),
-      seoDescription: geoLocalizeEnglish(guide.seoDescription, "desc"),
+      seoDescription: regionalDescriptions?.[guide.id] ?? geoLocalizeEnglish(guide.seoDescription, "desc"),
       content: geoLocalizeEnglish(guide.content, "body"),
       faqs: guide.faqs.map((faq) => ({
         q: geoLocalizeEnglish(faq.q, "title"),
