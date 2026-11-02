@@ -228,9 +228,9 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     featuresSection: {
-      tag: "Why Choose Fox IPTV Panels",
+      tag: "Why Choose IPTV Reseller",
       titleMain: "Why IPTV Resellers Choose ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       titleEnd: " in 2026",
       desc: "Everything you need to launch and scale a profitable IPTV reselling business — from cheapest IPTV reseller panel access to enterprise-grade wholesale panel management.",
       items: [
@@ -271,7 +271,7 @@ const dictionary: Record<string, Dictionary> = {
       titleMain: "How the IPTV Reseller ",
       titleSpan: "Business Credit System Works",
       desc1: "The IPTV reseller business runs on a credit-based system. You purchase IPTV reseller credits in bulk from a wholesale IPTV panel provider — then convert each credit into an IPTV subscription for your customers at your chosen price point.",
-      desc2: "Fox IPTV Panels is the easiest way to become an IPTV reseller without investment in servers or infrastructure. We handle the technical side — you focus on sales and growing your customer base in the UK, USA, EU, or anywhere globally.",
+      desc2: "IPTV Reseller is the easiest way to become an IPTV reseller without investment in servers or infrastructure. We handle the technical side — you focus on sales and growing your customer base in the UK, USA, EU, or anywhere globally.",
       desc3: "Unlike a standard IPTV subscription (end-user), an IPTV reseller panel gives you full control over pricing, packages, and customer accounts — turning you into the provider.",
       controlLabel: "As an IPTV reseller, you control:",
       controls: [
@@ -388,7 +388,7 @@ const dictionary: Record<string, Dictionary> = {
     testimonialsSection: {
       tag: "IPTV Reseller Reviews",
       titleMain: "What IPTV Resellers Say About ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       items: [
         {
           quote: "Best IPTV reseller panel I've used. Fast support, stable servers, and no buffering at all. My customers in the UK love it.",
@@ -439,8 +439,8 @@ const dictionary: Record<string, Dictionary> = {
           a: "Choose a reseller package, purchase credits, access your IPTV reseller panel, and begin creating customer accounts.",
         },
         {
-          q: "Why Choose Fox IPTV Panels?",
-          a: "Fox IPTV Panels combines premium IPTV supplier services, powerful IPTV reseller panels, flexible reseller credits, and dedicated support for IPTV resellers worldwide.",
+          q: "Why Choose IPTV Reseller?",
+          a: "IPTV Reseller combines premium IPTV supplier services, powerful IPTV reseller panels, flexible reseller credits, and dedicated support for IPTV resellers worldwide.",
         },
       ]
     },
@@ -448,7 +448,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Partner with a Trusted IPTV Supplier Today",
       titleMain: "Partner with a ",
       titleSpan: "Trusted IPTV Supplier Today",
-      desc1: "Join thousands of IPTV resellers using Fox IPTV Panels. Access premium IPTV reseller panels, wholesale IPTV supplier solutions, flexible reseller packages, and everything you need to build a successful IPTV reseller business.",
+      desc1: "Join thousands of IPTV resellers using IPTV Reseller. Access premium IPTV reseller panels, wholesale IPTV supplier solutions, flexible reseller packages, and everything you need to build a successful IPTV reseller business.",
       desc2: "",
       btnPrimary: "Start Reselling on WhatsApp",
       btnSecondary: "Compare IPTV Panels 2026",
@@ -465,7 +465,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Preferred IPTV Supplier",
       titleMain: "Why We Are a ",
       titleSpan: "Preferred IPTV Supplier",
-      desc: "Fox IPTV Panels combines the advantages of a trusted IPTV supplier with advanced IPTV reseller tools.",
+      desc: "IPTV Reseller combines the advantages of a trusted IPTV supplier with advanced IPTV reseller tools.",
       items: [
         {
           title: "Trusted IPTV Supplier",
@@ -509,7 +509,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Popular IPTV Panels",
       titleMain: "Popular IPTV ",
       titleSpan: "Reseller Panels",
-      desc: "Fox IPTV Panels offers access to some of the most popular IPTV reseller panels available today.",
+      desc: "IPTV Reseller offers access to some of the most popular IPTV reseller panels available today.",
       items: [
         {
           title: "GEO IPTV Reseller Panel",
@@ -621,7 +621,7 @@ const dictionary: Record<string, Dictionary> = {
       }
     },
     footer: {
-      brandDesc1: "Fox IPTV Panels is the best IPTV reseller panel provider — offering white label IPTV panels, wholesale IPTV credits, Xtream Codes & M3U reseller dashboards, and 4K no-buffering servers for IPTV resellers worldwide.",
+      brandDesc1: "IPTV Reseller is the best IPTV reseller panel provider — offering white label IPTV panels, wholesale IPTV credits, Xtream Codes & M3U reseller dashboards, and 4K no-buffering servers for IPTV resellers worldwide.",
       brandDesc2: "Serving IPTV resellers in the UK, USA, the EU and globally — with 24/7 WhatsApp support for your IPTV reselling business.",
       cols: {
         panels: "IPTV Reseller Panels",
@@ -629,7 +629,7 @@ const dictionary: Record<string, Dictionary> = {
         guides: "Reseller Guides",
         quickLinks: "Quick Links"
       },
-      copyright: "© 2026 Fox IPTV Panels — #1 IPTV Reseller Panel Provider. All rights reserved.",
+      copyright: "© 2026 IPTV Reseller — #1 IPTV Reseller Panel Provider. All rights reserved.",
       disclaimer: "IPTV Reseller Panels available in UK, USA, the EU & worldwide. All trademarks belong to their respective owners."
     }
   },
@@ -645,9 +645,9 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     featuresSection: {
-      tag: "Por Qué Elegir Fox IPTV Panels",
+      tag: "Por Qué Elegir IPTV Reseller",
       titleMain: "Por Qué los Resellers Eligen ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       titleEnd: " en 2026",
       desc: "Todo lo que necesita para lanzar y escalar un negocio rentable de reventa de IPTV — desde el acceso al panel de revendedor más barato hasta la gestión empresarial a nivel mayorista.",
       items: [
@@ -688,7 +688,7 @@ const dictionary: Record<string, Dictionary> = {
       titleMain: "Cómo Funciona el ",
       titleSpan: "Sistema de Créditos Reseller",
       desc1: "El negocio de reventa de IPTV funciona mediante un sistema basado en créditos. Usted compra créditos de distribuidor de IPTV al por mayor de un proveedor mayorista — y luego convierte cada crédito en una suscripción de IPTV para sus clientes al precio que decida.",
-      desc2: "Fox IPTV Panels es la forma más sencilla de convertirse en revendedor de IPTV sin invertir en servidores o infraestructura. Nosotros manejamos la parte técnica — usted se enfoca en las ventas y en hacer crecer su base de clientes en España, el Reino Unido, EE. UU., la UE o cualquier lugar del mundo.",
+      desc2: "IPTV Reseller es la forma más sencilla de convertirse en revendedor de IPTV sin invertir en servidores o infraestructura. Nosotros manejamos la parte técnica — usted se enfoca en las ventas y en hacer crecer su base de clientes en España, el Reino Unido, EE. UU., la UE o cualquier lugar del mundo.",
       desc3: "A diferencia de una suscripción de IPTV estándar para usuario final, un panel de revendedor le otorga un control total sobre precios, paquetes y cuentas de clientes — convirtiéndolo a usted en el proveedor.",
       controlLabel: "Como revendedor de IPTV, usted controla:",
       controls: [
@@ -805,7 +805,7 @@ const dictionary: Record<string, Dictionary> = {
     testimonialsSection: {
       tag: "Opiniones de Distribuidores",
       titleMain: "Lo Que los Resellers Dicen de ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       items: [
         {
           quote: "El mejor panel de revendedor que he usado. Soporte rapidísimo, servidores estables y sin ningún tipo de cortes. A mis clientes en España les encanta.",
@@ -856,8 +856,8 @@ const dictionary: Record<string, Dictionary> = {
           a: "Elija uno de nuestros paquetes de reventa, adquiera los créditos iniciales, acceda a su panel de control y empiece a crear cuentas de clientes de inmediato.",
         },
         {
-          q: "¿Por qué elegir Fox IPTV Panels?",
-          a: "Fox IPTV Panels combina servicios de proveedor de IPTV premium, paneles de control potentes, créditos de reventa flexibles y soporte técnico dedicado para revendedores de todo el mundo.",
+          q: "¿Por qué elegir IPTV Reseller?",
+          a: "IPTV Reseller combina servicios de proveedor de IPTV premium, paneles de control potentes, créditos de reventa flexibles y soporte técnico dedicado para revendedores de todo el mundo.",
         },
       ]
     },
@@ -865,7 +865,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Asóciese con un Proveedor de IPTV de Confianza",
       titleMain: "Asóciese con un ",
       titleSpan: "Proveedor de IPTV de Confianza",
-      desc1: "Únase a miles de revendedores de IPTV que confían en Fox IPTV Panels. Acceda a paneles premium, soluciones de proveedor de IPTV al por mayor, paquetes flexibles y todo lo necesario para construir un negocio de reventa exitoso.",
+      desc1: "Únase a miles de revendedores de IPTV que confían en IPTV Reseller. Acceda a paneles premium, soluciones de proveedor de IPTV al por mayor, paquetes flexibles y todo lo necesario para construir un negocio de reventa exitoso.",
       desc2: "",
       btnPrimary: "Iniciar Reventa en WhatsApp",
       btnSecondary: "Comparar Paneles IPTV 2026",
@@ -882,7 +882,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Proveedor de IPTV Preferido",
       titleMain: "Por Qué Somos el ",
       titleSpan: "Proveedor de IPTV Preferido",
-      desc: "Fox IPTV Panels combina las ventajas de un proveedor de IPTV de confianza con herramientas avanzadas de reventa.",
+      desc: "IPTV Reseller combina las ventajas de un proveedor de IPTV de confianza con herramientas avanzadas de reventa.",
       items: [
         {
           title: "Proveedor de IPTV de Confianza",
@@ -926,7 +926,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Paneles IPTV Populares",
       titleMain: "Paneles de Reseller ",
       titleSpan: "IPTV Populares",
-      desc: "Fox IPTV Panels ofrece acceso a algunos de los paneles de revendedores de IPTV más populares del mercado actual.",
+      desc: "IPTV Reseller ofrece acceso a algunos de los paneles de revendedores de IPTV más populares del mercado actual.",
       items: [
         {
           title: "Panel Reseller GEO IPTV",
@@ -1038,7 +1038,7 @@ const dictionary: Record<string, Dictionary> = {
       }
     },
     footer: {
-      brandDesc1: "Fox IPTV Panels es el mejor proveedor de paneles de revendedor de IPTV, ofreciendo paneles de marca blanca, créditos de distribuidor al por mayor, dashboards de control compatibles con Xtream Codes y M3U, y servidores 4K estables sin cortes.",
+      brandDesc1: "IPTV Reseller es el mejor proveedor de paneles de revendedor de IPTV, ofreciendo paneles de marca blanca, créditos de distribuidor al por mayor, dashboards de control compatibles con Xtream Codes y M3U, y servidores 4K estables sin cortes.",
       brandDesc2: "Apoyo a distribuidores de IPTV en España, el Reino Unido, EE. UU., la UE y a nivel global — con soporte dedicado por WhatsApp las 24 horas.",
       cols: {
         panels: "Paneles IPTV Reseller",
@@ -1046,7 +1046,7 @@ const dictionary: Record<string, Dictionary> = {
         guides: "Guías de Reventa",
         quickLinks: "Enlaces Rápidos"
       },
-      copyright: "© 2026 Fox IPTV Panels — Proveedor Líder de Paneles de IPTV. Todos los derechos reservados.",
+      copyright: "© 2026 IPTV Reseller — Proveedor Líder de Paneles de IPTV. Todos los derechos reservados.",
       disclaimer: "Paneles de revendedores de IPTV disponibles en España, Reino Unido, EE. UU. y la UE. Todas las marcas pertenecen a sus dueños."
     }
   },
@@ -1062,9 +1062,9 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     featuresSection: {
-      tag: "Pourquoi Choisir Fox IPTV Panels",
+      tag: "Pourquoi Choisir IPTV Reseller",
       titleMain: "Pourquoi les Revendeurs Choisissent ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       titleEnd: " en 2026",
       desc: "Tout ce dont vous avez besoin pour lancer et développer une activité rentable de revente d'IPTV — de l'accès au panneau de revendeur le moins cher à la gestion de panneaux de gros à grande échelle.",
       items: [
@@ -1105,7 +1105,7 @@ const dictionary: Record<string, Dictionary> = {
       titleMain: "Comment Fonctionne le ",
       titleSpan: "Système de Crédits Revendeur",
       desc1: "L'activité de revendeur IPTV repose sur un système de crédits. Vous achetez des crédits de revendeur IPTV en gros auprès d'un fournisseur grossiste, puis convertissez chaque crédit en un abonnement IPTV pour vos clients au prix que vous fixez.",
-      desc2: "Fox IPTV Panels est le moyen le plus simple de devenir revendeur IPTV sans investir dans des serveurs ou des infrastructures. Nous gérons la partie technique — vous vous concentrez sur les ventes en France, en Belgique, au Canada, au Royaume-Uni ou partout dans le monde.",
+      desc2: "IPTV Reseller est le moyen le plus simple de devenir revendeur IPTV sans investir dans des serveurs ou des infrastructures. Nous gérons la partie technique — vous vous concentrez sur les ventes en France, en Belgique, au Canada, au Royaume-Uni ou partout dans le monde.",
       desc3: "Contrairement à un abonnement IPTV standard pour utilisateur final, un panneau de revendeur IPTV vous donne un contrôle total sur les tarifs, les forfaits et les comptes clients — faisant de vous le fournisseur.",
       controlLabel: "En tant que revendeur IPTV, vous contrôlez :",
       controls: [
@@ -1222,7 +1222,7 @@ const dictionary: Record<string, Dictionary> = {
     testimonialsSection: {
       tag: "Avis des Revendeurs",
       titleMain: "Ce que nos Distributeurs Disent de ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       items: [
         {
           quote: "Le meilleur panneau de revendeur IPTV que j'ai testé. Support client hyper réactif, serveurs stables sans buffering. Mes clients adorent.",
@@ -1258,7 +1258,7 @@ const dictionary: Record<string, Dictionary> = {
       items: [
         {
           q: "Qu'est-ce qu'un panneau de revendeur IPTV ?",
-          a: "C'est une plateforme en marque blanche qui vous permet de créer et d'administrer des abonnements IPTV à l'aide de crédits. Elle prend en charge les fichiers M3U, les boîtiers MAG et l'API Xtream Codes. Vous achetez des crédits en gros à bas coût auprès d'un grossiste comme Fox IPTV Panels et les revendez aux tarifs de votre choix.",
+          a: "C'est une plateforme en marque blanche qui vous permet de créer et d'administrer des abonnements IPTV à l'aide de crédits. Elle prend en charge les fichiers M3U, les boîtiers MAG et l'API Xtream Codes. Vous achetez des crédits en gros à bas coût auprès d'un grossiste comme IPTV Reseller et les revendez aux tarifs de votre choix.",
         },
         {
           q: "Comment fonctionnent les crédits de revendeur IPTV ?",
@@ -1266,7 +1266,7 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           q: "Comment démarrer mon activité IPTV sans gros investissement ?",
-          a: "Vous pouvez vous lancer avec un budget minime en achetant un pack de démarrage sur Fox IPTV Panels. Pas besoin de louer des serveurs ni d'avoir des compétences techniques. Nous fournissons le panneau, vous achetez un petit lot de crédits et commencez à vendre sur WhatsApp, les réseaux sociaux ou votre site.",
+          a: "Vous pouvez vous lancer avec un budget minime en achetant un pack de démarrage sur IPTV Reseller. Pas besoin de louer des serveurs ni d'avoir des compétences techniques. Nous fournissons le panneau, vous achetez un petit lot de crédits et commencez à vendre sur WhatsApp, les réseaux sociaux ou votre site.",
         },
         {
           q: "Quelle est la différence entre revendeur et abonnement simple ?",
@@ -1278,7 +1278,7 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           q: "Proposez-vous des serveurs 4K stables et sans buffering ?",
-          a: "Oui, absolument. Fox IPTV Panels fournit des connexions haut de gamme avec serveurs redondants (Uptime de 99.9%) optimisés pour éliminer le buffering sur Smart TV, smartphones, boîtiers MAG et lecteurs M3U.",
+          a: "Oui, absolument. IPTV Reseller fournit des connexions haut de gamme avec serveurs redondants (Uptime de 99.9%) optimisés pour éliminer le buffering sur Smart TV, smartphones, boîtiers MAG et lecteurs M3U.",
         },
         {
           q: "Proposez-vous des essais gratuits pour tester le panneau ?",
@@ -1402,7 +1402,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Fournisseur IPTV Préféré",
       titleMain: "Pourquoi Nous Sommes un ",
       titleSpan: "Fournisseur IPTV Préféré",
-      desc: "Fox IPTV Panels combine les avantages d'un fournisseur IPTV de confiance avec des outils de revente IPTV de pointe.",
+      desc: "IPTV Reseller combine les avantages d'un fournisseur IPTV de confiance avec des outils de revente IPTV de pointe.",
       items: [
         {
           title: "Fournisseur IPTV de Confiance",
@@ -1446,7 +1446,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Panneaux IPTV Populaires",
       titleMain: "Panneaux Revendeurs ",
       titleSpan: "IPTV Populaires",
-      desc: "Fox IPTV Panels offre un accès à certains des panneaux de revendeurs IPTV les plus populaires disponibles aujourd'hui.",
+      desc: "IPTV Reseller offre un accès à certains des panneaux de revendeurs IPTV les plus populaires disponibles aujourd'hui.",
       items: [
         {
           title: "Panneau Revendeur GEO IPTV",
@@ -1471,7 +1471,7 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     footer: {
-      brandDesc1: "Fox IPTV Panels est le meilleur fournisseur de panneaux de revendeur IPTV, offrant des tableaux de bord en marque blanche, des crédits de gros et des serveurs de diffusion 4K de qualité supérieure sans buffering.",
+      brandDesc1: "IPTV Reseller est le meilleur fournisseur de panneaux de revendeur IPTV, offrant des tableaux de bord en marque blanche, des crédits de gros et des serveurs de diffusion 4K de qualité supérieure sans buffering.",
       brandDesc2: "Soutien aux revendeurs de streaming en France, au Canada, au Royaume-Uni, dans l'UE et partout dans le monde — avec support WhatsApp 24/7.",
       cols: {
         panels: "Panneaux IPTV Revendeurs",
@@ -1479,7 +1479,7 @@ const dictionary: Record<string, Dictionary> = {
         guides: "Guides de Revente",
         quickLinks: "Liens Rapides"
       },
-      copyright: "© 2026 Fox IPTV Panels — Fournisseur N°1 de Panneaux IPTV. Tous droits réservés.",
+      copyright: "© 2026 IPTV Reseller — Fournisseur N°1 de Panneaux IPTV. Tous droits réservés.",
       disclaimer: "Panneaux revendeurs IPTV disponibles en France, Belgique, Canada & UE. Toutes les marques appartiennent à leurs propriétaires."
     }
   },
@@ -1495,9 +1495,9 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     featuresSection: {
-      tag: "Por Que Escolher a Fox IPTV Panels",
+      tag: "Por Que Escolher a IPTV Reseller",
       titleMain: "Por Que os Revendedores Escolhem a ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       titleEnd: " em 2026",
       desc: "Tudo o que você precisa para lançar e expandir um negócio lucrativo de revenda de IPTV — desde o acesso ao painel de revendedor mais barato até à gestão empresarial de atacado.",
       items: [
@@ -1544,7 +1544,7 @@ const dictionary: Record<string, Dictionary> = {
       titleMain: "Como Funciona o ",
       titleSpan: "Sistema de Créditos de Revenda",
       desc1: "O negócio de revendedor IPTV funciona através de um sistema baseado em créditos. Você compra créditos de revendedor de IPTV por atacado de um fornecedor maiorista e, em seguida, converte cada crédito numa subscrição de IPTV para os seus clientes ao preço que desejar cobrar.",
-      desc2: "Fox IPTV Panels é a forma mais fácil de se tornar um revendedor de IPTV sem investimentos em servidores ou infraestruturas. Nós tratamos da parte técnica — você foca-se nas vendas e no crescimento da sua marca em Portugal, no Reino Unido, EUA, UE ou em qualquer parte do mundo.",
+      desc2: "IPTV Reseller é a forma mais fácil de se tornar um revendedor de IPTV sem investimentos em servidores ou infraestruturas. Nós tratamos da parte técnica — você foca-se nas vendas e no crescimento da sua marca em Portugal, no Reino Unido, EUA, UE ou em qualquer parte do mundo.",
       desc3: "Ao contrário de uma subscrição IPTV comum para utilizador final, um painel de revendedor de IPTV dá-lhe total controlo sobre os preços, pacotes e contas dos clientes — tornando-o a si o próprio fornecedor.",
       controlLabel: "Como revendedor de IPTV, você controla:",
       controls: [
@@ -1639,7 +1639,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Programa de Revenda IPTV",
       titleMain: "Benefícios de Entrar no Nosso ",
       titleSpan: "Programa de Revendedores",
-      desc: "A Fox IPTV Panels proporciona uma vantagem competitiva a revendedores de todos os níveis — de empreendedores iniciantes a grandes maioristas de painéis. O nosso programa foi desenhado para maximizar os seus lucros com o mínimo de atrito técnico. Sem servidores para gerir. Sem necessidade de infraestruturas. Comece de forma simples e cresça.",
+      desc: "A IPTV Reseller proporciona uma vantagem competitiva a revendedores de todos os níveis — de empreendedores iniciantes a grandes maioristas de painéis. O nosso programa foi desenhado para maximizar os seus lucros com o mínimo de atrito técnico. Sem servidores para gerir. Sem necessidade de infraestruturas. Comece de forma simples e cresça.",
       stats: [
         { label: "Painéis de IPTV", value: "20+" },
         { label: "Uptime Servidores", value: "99.9%" },
@@ -1661,7 +1661,7 @@ const dictionary: Record<string, Dictionary> = {
     testimonialsSection: {
       tag: "Avaliações de Revendedores",
       titleMain: "O Que Dizem os Revendedores da ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       items: [
         {
           quote: "Melhor painel de revendedor de IPTV que já utilizei. Suporte muito rápido, servidores estáveis e sem travamentos. Os meus clientes em Portugal adoram.",
@@ -1697,7 +1697,7 @@ const dictionary: Record<string, Dictionary> = {
       items: [
         {
           q: "O que é um painel de revendedor de IPTV?",
-          a: "É uma plataforma de marca branca que lhe permite criar e gerir subscrições de IPTV através de créditos. Suporta ligações Xtream Codes, M3U e caixas MAG. Como distribuidor, compra créditos por atacado de um fornecedor como a Fox IPTV Panels e ativa contas para os seus clientes com as suas próprias tarifas.",
+          a: "É uma plataforma de marca branca que lhe permite criar e gerir subscrições de IPTV através de créditos. Suporta ligações Xtream Codes, M3U e caixas MAG. Como distribuidor, compra créditos por atacado de um fornecedor como a IPTV Reseller e ativa contas para os seus clientes com as suas próprias tarifas.",
         },
         {
           q: "Como funcionam os créditos de revendedor de IPTV?",
@@ -1705,7 +1705,7 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           q: "Como posso iniciar um negócio de revenda de IPTV sem investimento?",
-          a: "Pode iniciar com um investimento muito baixo adquirindo um pacote básico na Fox IPTV Panels. Não necessita de servidores nem conhecimentos técnicos complexos. Nós fornecemos o painel, você compra um pequeno pacote de créditos e começa a vender no WhatsApp, redes sociais ou no seu próprio website.",
+          a: "Pode iniciar com um investimento muito baixo adquirindo um pacote básico na IPTV Reseller. Não necessita de servidores nem conhecimentos técnicos complexos. Nós fornecemos o painel, você compra um pequeno pacote de créditos e começa a vender no WhatsApp, redes sociais ou no seu próprio website.",
         },
         {
           q: "Qual é a diferença entre um reseller e uma conta normal?",
@@ -1717,7 +1717,7 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           q: "Oferecem painéis 4K estáveis e sem travamentos?",
-          a: "Sim, absolutamente. A Fox IPTV Panels fornece acesso a painéis topo de gama como o Strong 4K e Ultra 8K com 99.9% de uptime estável garantido e servidores otimizados que eliminam o buffering.",
+          a: "Sim, absolutamente. A IPTV Reseller fornece acesso a painéis topo de gama como o Strong 4K e Ultra 8K com 99.9% de uptime estável garantido e servidores otimizados que eliminam o buffering.",
         },
         {
           q: "Existem testes gratuitos para os painéis de revendedores?",
@@ -1841,7 +1841,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Fornecedor IPTV Preferido",
       titleMain: "Por Que Somos um ",
       titleSpan: "Fornecedor IPTV Preferido",
-      desc: "Fox IPTV Panels combina as vantagens de um fornecedor IPTV de confiança com ferramentas de revendedor IPTV avançadas.",
+      desc: "IPTV Reseller combina as vantagens de um fornecedor IPTV de confiança com ferramentas de revendedor IPTV avançadas.",
       items: [
         {
           title: "Fornecedor IPTV de Confiança",
@@ -1885,7 +1885,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Painéis IPTV Populares",
       titleMain: "Painéis de Revenda ",
       titleSpan: "IPTV Populares",
-      desc: "A Fox IPTV Panels oferece acesso a alguns dos painéis de revenda de IPTV mais populares disponíveis hoje.",
+      desc: "A IPTV Reseller oferece acesso a alguns dos painéis de revenda de IPTV mais populares disponíveis hoje.",
       items: [
         {
           title: "Painel Revendedor GEO IPTV",
@@ -1910,7 +1910,7 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     footer: {
-      brandDesc1: "Fox IPTV Panels é o melhor fornecedor de painéis de revendedor de IPTV, oferecendo plataformas em marca branca, créditos maioristas, dashboards de controlo compatíveis com Xtream Codes e M3U, e servidores 4K estáveis sem travamentos.",
+      brandDesc1: "IPTV Reseller é o melhor fornecedor de painéis de revendedor de IPTV, oferecendo plataformas em marca branca, créditos maioristas, dashboards de controlo compatíveis com Xtream Codes e M3U, e servidores 4K estáveis sem travamentos.",
       brandDesc2: "Apoio a distribuidores de IPTV em Portugal, no Reino Unido, EUA, UE e a nível global — com suporte dedicado por WhatsApp as 24 horas.",
       cols: {
         panels: "Painéis IPTV Reseller",
@@ -1918,7 +1918,7 @@ const dictionary: Record<string, Dictionary> = {
         guides: "Guias de Revenda",
         quickLinks: "Links Rápidos"
       },
-      copyright: "© 2026 Fox IPTV Panels — Fornecedor Líder de Painéis de IPTV. Todos os direitos reservados.",
+      copyright: "© 2026 IPTV Reseller — Fornecedor Líder de Painéis de IPTV. Todos os direitos reservados.",
       disclaimer: "Painéis de revendedores disponíveis em Portugal, Espanha, Reino Unido e UE. Todas as marcas pertencem aos seus proprietários."
     }
   },
@@ -1934,9 +1934,9 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     featuresSection: {
-      tag: "Varför Fox IPTV Panels",
+      tag: "Varför IPTV Reseller",
       titleMain: "Varför IPTV-återförsäljare väljer ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       titleEnd: " i 2026",
       desc: "Allt du behöver för att starta och skala en lönsam IPTV-återförsäljarverksamhet — från tillgång till den billigaste återförsäljarpanelen till hantering på grossistnivå.",
       items: [
@@ -1983,7 +1983,7 @@ const dictionary: Record<string, Dictionary> = {
       titleMain: "Så fungerar IPTV ",
       titleSpan: "Återförsäljarens Kreditsystem",
       desc1: "Återförsäljarverksamheten för IPTV drivs på ett kreditbaserat system. Du köper IPTV-krediter i bulk från en grossistleverantör — och omvandlar sedan varje kredit till en IPTV-prenumeration för dina kunder till det pris du själv väljer.",
-      desc2: "Fox IPTV Panels är det enklaste sättet att bli en IPTV-återförsäljare utan investeringar i egna servrar eller infrastruktur. Vi hanterar den tekniska biten — du fokuserar på försäljning och att bygga din kundbas i Sverige, Norden, Storbritannien, USA, EU eller globalt.",
+      desc2: "IPTV Reseller är det enklaste sättet att bli en IPTV-återförsäljare utan investeringar i egna servrar eller infrastruktur. Vi hanterar den tekniska biten — du fokuserar på försäljning och att bygga din kundbas i Sverige, Norden, Storbritannien, USA, EU eller globalt.",
       desc3: "Till skillnad från en vanlig IPTV-prenumeration (slutanvändare) ger en återförsäljarpanel dig full kontroll över prissättning, paket och kundkonton — vilket gör dig till leverantören.",
       controlLabel: "Som IPTV-återförsäljare styr du:",
       controls: [
@@ -2078,7 +2078,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "IPTV Återförsäljarprogram",
       titleMain: "Fördelar med Vårt ",
       titleSpan: "IPTV Återförsäljarprogram",
-      desc: "Fox IPTV Panels ger återförsäljare på alla nivåer en konkurrensfördel — från förstagångsstartare till stora grossister. Vårt program är utformat för maximal vinst och minimalt krångel. Inga servrar att hantera. Ingen teknisk infrastruktur krävs. Starta som nybörjare och skala upp.",
+      desc: "IPTV Reseller ger återförsäljare på alla nivåer en konkurrensfördel — från förstagångsstartare till stora grossister. Vårt program är utformat för maximal vinst och minimalt krångel. Inga servrar att hantera. Ingen teknisk infrastruktur krävs. Starta som nybörjare och skala upp.",
       stats: [
         { label: "IPTV Paneler", value: "20+" },
         { label: "Server Drifttid", value: "99.9%" },
@@ -2100,7 +2100,7 @@ const dictionary: Record<string, Dictionary> = {
     testimonialsSection: {
       tag: "Återförsäljarrecensioner",
       titleMain: "Vad IPTV-återförsäljare säger om ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       items: [
         {
           quote: "Bästa IPTV-återförsäljarpanelen jag har använt. Snabb support, stabila servrar och ingen buffring alls. Mina kunder i Sverige älskar det.",
@@ -2136,7 +2136,7 @@ const dictionary: Record<string, Dictionary> = {
       items: [
         {
           q: "Vad är en IPTV-återförsäljarpanel?",
-          a: "Det är en white label-plattform där du skapar och hanterar IPTV-prenumerationer med hjälp av krediter. Den stöder Xtream Codes, M3U-filer och MAG box-anslutningar. Som återförsäljare köper du krediter i bulk från en grossist som Fox IPTV Panels och aktiverar konton för dina kunder till ditt eget valda pris.",
+          a: "Det är en white label-plattform där du skapar och hanterar IPTV-prenumerationer med hjälp av krediter. Den stöder Xtream Codes, M3U-filer och MAG box-anslutningar. Som återförsäljare köper du krediter i bulk från en grossist som IPTV Reseller och aktiverar konton för dina kunder till ditt eget valda pris.",
         },
         {
           q: "Hur fungerar IPTV-återförsäljarkrediter?",
@@ -2144,7 +2144,7 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           q: "Hur startar jag en IPTV-återförsäljarverksamhet utan investering?",
-          a: "Du kan starta med minimal budget genom att köpa ett startpaket hos Fox IPTV Panels. Det behövs inga egna servrar eller tekniska förkunskaper. Vi ger dig panelen, du köper ett litet paket krediter och börjar sälja via WhatsApp, sociala medier eller egen hemsida.",
+          a: "Du kan starta med minimal budget genom att köpa ett startpaket hos IPTV Reseller. Det behövs inga egna servrar eller tekniska förkunskaper. Vi ger dig panelen, du köper ett litet paket krediter och börjar sälja via WhatsApp, sociala medier eller egen hemsida.",
         },
         {
           q: "Vad är skillnaden mellan en återförsäljare och en vanlig prenumeration?",
@@ -2156,7 +2156,7 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           q: "Erbjuder ni 4K IPTV-paneler utan buffring?",
-          a: "Ja, absolut. Fox IPTV Panels erbjuder tillgång till premium-paneler som Strong 4K och Ultra 8K med 99.9% garanterad drifttid och optimerade servrar som eliminerar buffring och fördröjning.",
+          a: "Ja, absolut. IPTV Reseller erbjuder tillgång till premium-paneler som Strong 4K och Ultra 8K med 99.9% garanterad drifttid och optimerade servrar som eliminerar buffring och fördröjning.",
         },
         {
           q: "Finns det gratisprov för återförsäljarpaneler?",
@@ -2280,7 +2280,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Föredragen IPTV-leverantör",
       titleMain: "Varför vi är en ",
       titleSpan: "Föredragen IPTV-leverantör",
-      desc: "Fox IPTV Panels kombinerar fördelarna med en pålitlig IPTV-leverantör med avancerade verktyg för återförsäljare.",
+      desc: "IPTV Reseller kombinerar fördelarna med en pålitlig IPTV-leverantör med avancerade verktyg för återförsäljare.",
       items: [
         {
           title: "Pålitlig IPTV-leverantör",
@@ -2324,7 +2324,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Populära IPTV-paneler",
       titleMain: "Populära Återförsäljarpaneler ",
       titleSpan: "för IPTV",
-      desc: "Fox IPTV Panels erbjuder tillgång till några av de mest populära återförsäljarpanelerna för IPTV på marknaden idag.",
+      desc: "IPTV Reseller erbjuder tillgång till några av de mest populära återförsäljarpanelerna för IPTV på marknaden idag.",
       items: [
         {
           title: "GEO IPTV Återförsäljarpanel",
@@ -2349,7 +2349,7 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     footer: {
-      brandDesc1: "Fox IPTV Panels är den bästa leverantören av IPTV-återförsäljarpaneler, och erbjuder white label-paneler, grossistkrediter, hanteringspaneler kompatibla med Xtream Codes & M3U, samt stabila 4K-servrar utan buffring.",
+      brandDesc1: "IPTV Reseller är den bästa leverantören av IPTV-återförsäljarpaneler, och erbjuder white label-paneler, grossistkrediter, hanteringspaneler kompatibla med Xtream Codes & M3U, samt stabila 4K-servrar utan buffring.",
       brandDesc2: "Support för återförsäljare i Sverige, Norden, Storbritannien, USA, EU och globalt — med dedikerad support via WhatsApp dygnet runt.",
       cols: {
         panels: "IPTV Återförsäljarpaneler",
@@ -2357,7 +2357,7 @@ const dictionary: Record<string, Dictionary> = {
         guides: "Återförsäljarguider",
         quickLinks: "Snabblänkar"
       },
-      copyright: "© 2026 Fox IPTV Panels — #1 IPTV Återförsäljarleverantör. Alla rättigheter förbehållna.",
+      copyright: "© 2026 IPTV Reseller — #1 IPTV Återförsäljarleverantör. Alla rättigheter förbehållna.",
       disclaimer: "Återförsäljarpaneler tillgängliga i Sverige, Storbritannien, USA & EU. Alla varumärken tillhör sina respektive ägare."
     }
   },
@@ -2373,9 +2373,9 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     featuresSection: {
-      tag: "Hvorfor Fox IPTV Panels",
+      tag: "Hvorfor IPTV Reseller",
       titleMain: "Hvorfor IPTV-forhandlere velger ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       titleEnd: " i 2026",
       desc: "Alt du trenger for å starte og skalere en lønnsom IPTV-forhandlervirksomhet — fra tilgang til den billigste forhandlerpanelet til administrasjon på grossistnivå.",
       items: [
@@ -2422,7 +2422,7 @@ const dictionary: Record<string, Dictionary> = {
       titleMain: "Slik fungerer IPTV ",
       titleSpan: "Forhandlerens Kredittsystem",
       desc1: "Forhandlervirksomheten for IPTV drives på et kredittbasert system. Du kjøper IPTV-kreditter i bulk fra en grossistleverandør — og omgjør deretter hver kreditt til et IPTV-abonnement for dine kunder til den prisen du selv velger.",
-      desc2: "Fox IPTV Panels er den enkleste måten å bli en IPTV-forhandler på uten investeringer i egne servere eller infrastruktur. Vi håndterer den tekniske biten — du fokuserer på salg og å bygge din kundebase i Norge, Norden, Storbritannia, USA, EU eller globalt.",
+      desc2: "IPTV Reseller er den enkleste måten å bli en IPTV-forhandler på uten investeringer i egne servere eller infrastruktur. Vi håndterer den tekniske biten — du fokuserer på salg og å bygge din kundebase i Norge, Norden, Storbritannia, USA, EU eller globalt.",
       desc3: "Til forskjell fra et vanlig IPTV-abonnement (sluttbruker) gir et forhandlerpanel deg full kontroll over prissetting, pakker og kundekontoer — noe som gjør deg til leverandøren.",
       controlLabel: "Som IPTV-forhandler styrer du:",
       controls: [
@@ -2517,7 +2517,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "IPTV Forhandlerprogram",
       titleMain: "Fordeler med Vårt ",
       titleSpan: "IPTV Forhandlerprogram",
-      desc: "Fox IPTV Panels gir forhandlere på alle nivåer et konkurransefortrinn — fra førstegangsstartere til store grossister. Vårt program er utformet for maksimal fortjeneste og minimalt med mas. Ingen servere å administrere. Ingen teknisk infrastruktur kreves. Start som nybegynner og skaler opp.",
+      desc: "IPTV Reseller gir forhandlere på alle nivåer et konkurransefortrinn — fra førstegangsstartere til store grossister. Vårt program er utformet for maksimal fortjeneste og minimalt med mas. Ingen servere å administrere. Ingen teknisk infrastruktur kreves. Start som nybegynner og skaler opp.",
       stats: [
         { label: "IPTV Paneler", value: "20+" },
         { label: "Server Oppetid", value: "99.9%" },
@@ -2539,7 +2539,7 @@ const dictionary: Record<string, Dictionary> = {
     testimonialsSection: {
       tag: "Forhandleranmeldelser",
       titleMain: "Hva IPTV-forhandlere sier om ",
-      titleSpan: "Fox IPTV Panels",
+      titleSpan: "IPTV Reseller",
       items: [
         {
           quote: "Beste IPTV-forhandlerpanelet jeg har brukt. Rask support, stabile servere og ingen buffring i det hele tatt. Mine kunder i Norge elsker det.",
@@ -2575,7 +2575,7 @@ const dictionary: Record<string, Dictionary> = {
       items: [
         {
           q: "Hva er et IPTV-forhandlerpanel?",
-          a: "Det er en white label-plattform der du oppretter og administrerer IPTV-abonnementer ved hjelp av kreditter. Den støtter Xtream Codes, M3U-filer og MAG box-tilkoblinger. Som forhandler kjøper du kreditter i bulk fra en grossist som Fox IPTV Panels og aktiverer kontoer for kundene dine til din egen valgte pris.",
+          a: "Det er en white label-plattform der du oppretter og administrerer IPTV-abonnementer ved hjelp av kreditter. Den støtter Xtream Codes, M3U-filer og MAG box-tilkoblinger. Som forhandler kjøper du kreditter i bulk fra en grossist som IPTV Reseller og aktiverer kontoer for kundene dine til din egen valgte pris.",
         },
         {
           q: "Hvordan fungerer IPTV-forhandlerkreditter?",
@@ -2583,7 +2583,7 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           q: "Hvordan starter jeg en IPTV-forhandlervirksomhet uten investering?",
-          a: "Du kan starte med minimalt budsjett ved å kjøpe en startpakke hos Fox IPTV Panels. Det trengs ingen egne servere eller tekniske forkunnskaper. Vi gir deg panelet, du kjøper en liten pakke kreditter og begynner å selge via WhatsApp, sosiale medier eller egen hjemmeside.",
+          a: "Du kan starte med minimalt budsjett ved å kjøpe en startpakke hos IPTV Reseller. Det trengs ingen egne servere eller tekniske forkunnskaper. Vi gir deg panelet, du kjøper en liten pakke kreditter og begynner å selge via WhatsApp, sosiale medier eller egen hjemmeside.",
         },
         {
           q: "Hva er forskjellen mellom en forhandler og et vanlig abonnement?",
@@ -2595,7 +2595,7 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           q: "Tilbyr dere 4K IPTV-paneler uten buffring?",
-          a: "Ja, absolutt. Fox IPTV Panels tilbyr tilgang til premium-paneler som Strong 4K og Ultra 8K med 99.9% garantert oppetid og optimaliserte servere som eliminerer buffring og forsinkelse.",
+          a: "Ja, absolutt. IPTV Reseller tilbyr tilgang til premium-paneler som Strong 4K og Ultra 8K med 99.9% garantert oppetid og optimaliserte servere som eliminerer buffring og forsinkelse.",
         },
         {
           q: "Finnes det gratisprøver for forhandlerpaneler?",
@@ -2719,7 +2719,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Foretrukket IPTV-leverandør",
       titleMain: "Hvorfor vi er en ",
       titleSpan: "Foretrukket IPTV-leverandør",
-      desc: "Fox IPTV Panels kombinerer fordelene med en pålitelig IPTV-leverantør med avanserte verktøy for forhandlere.",
+      desc: "IPTV Reseller kombinerer fordelene med en pålitelig IPTV-leverantør med avanserte verktøy for forhandlere.",
       items: [
         {
           title: "Pålitelig IPTV-leverandør",
@@ -2763,7 +2763,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Populære IPTV-paneler",
       titleMain: "Populære Forhandlerpaneler ",
       titleSpan: "for IPTV",
-      desc: "Fox IPTV Panels tilbyr tilgang til noen av de mest populære forhandlerpanelene for IPTV på markedet i dag.",
+      desc: "IPTV Reseller tilbyr tilgang til noen av de mest populære forhandlerpanelene for IPTV på markedet i dag.",
       items: [
         {
           title: "GEO IPTV Forhandlerpanel",
@@ -2788,7 +2788,7 @@ const dictionary: Record<string, Dictionary> = {
       ]
     },
     footer: {
-      brandDesc1: "Fox IPTV Panels er den beste leverandøren av IPTV-forhandlerpaneler, og tilbyr white label-paneler, grossistkreditter, administrasjonspaneler kompatible med Xtream Codes & M3U, samt stabile 4K-servere uten buffring.",
+      brandDesc1: "IPTV Reseller er den beste leverandøren av IPTV-forhandlerpaneler, og tilbyr white label-paneler, grossistkreditter, administrasjonspaneler kompatible med Xtream Codes & M3U, samt stabile 4K-servere uten buffring.",
       brandDesc2: "Support for forhandlere i Norge, Norden, Storbritannia, USA, EU og globalt — med dedikert support via WhatsApp døgnet rundt.",
       cols: {
         panels: "IPTV Forhandlerpaneler",
@@ -2796,7 +2796,7 @@ const dictionary: Record<string, Dictionary> = {
         guides: "Forhandlerguider",
         quickLinks: "Hurtigkoblinger"
       },
-      copyright: "© 2026 Fox IPTV Panels — #1 IPTV Forhandlerleverandør. Alle rettigheter forbeholdt.",
+      copyright: "© 2026 IPTV Reseller — #1 IPTV Forhandlerleverandør. Alle rettigheter forbeholdt.",
       disclaimer: "Forhandlerpaneler tilgjengelig i Norge, Storbritannien, USA & EU. Alle varemerker tilhører sine respektive eiere."
     }
   }

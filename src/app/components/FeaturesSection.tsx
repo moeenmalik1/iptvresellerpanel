@@ -8,7 +8,7 @@ export default function FeaturesSection() {
   return (
     <section
       id="features"
-      aria-label="Why Choose Fox IPTV Panels — IPTV Reseller Panel Features"
+      aria-label="Why Choose IPTV Reseller — IPTV Reseller Panel Features"
       style={{
         padding: "6rem 0",
         background: "rgba(255,255,255,0.01)",

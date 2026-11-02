@@ -8,7 +8,7 @@ export default function TestimonialsSection() {
   return (
     <section
       id="testimonials"
-      aria-label="IPTV Reseller Reviews — What Resellers Say About Fox IPTV Panels"
+      aria-label="IPTV Reseller Reviews — What Resellers Say About IPTV Reseller"
       style={{
         padding: "6rem 0",
         borderTop: "1px solid var(--border-color)",

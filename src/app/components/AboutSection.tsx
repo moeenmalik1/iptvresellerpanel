@@ -19,7 +19,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      aria-label="What Is Fox IPTV Panels — IPTV Reseller Panel Provider"
+      aria-label="What Is IPTV Reseller — IPTV Reseller Panel Provider"
       style={{ padding: "6rem 0", position: "relative", overflow: "hidden" }}
     >
       <div className="section-container" style={{ position: "relative", zIndex: 1 }}>
@@ -69,7 +69,7 @@ export default function AboutSection() {
               rel="noopener noreferrer"
               id="about-become-reseller-cta"
               className="btn-primary"
-              aria-label="Become an IPTV reseller with Fox IPTV Panels"
+              aria-label="Become an IPTV reseller with IPTV Reseller"
               style={{
                 display: "inline-flex", alignItems: "center", gap: 8,
                 padding: "0.85rem 1.75rem", borderRadius: 10,

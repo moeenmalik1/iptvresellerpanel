@@ -88,7 +88,7 @@ export default function CTASection() {
               rel="noopener noreferrer"
               id="final-whatsapp-cta"
               className="btn-primary"
-              aria-label="Start your IPTV reseller business on WhatsApp — Fox IPTV Panels"
+              aria-label="Start your IPTV reseller business on WhatsApp — IPTV Reseller"
               style={{
                 display: "inline-flex", alignItems: "center", gap: 10,
                 padding: "1rem 2.25rem", borderRadius: 12,

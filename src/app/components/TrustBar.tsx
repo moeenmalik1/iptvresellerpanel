@@ -8,7 +8,7 @@ export default function TrustBar() {
   return (
     <section
       id="trust-bar"
-      aria-label="Fox IPTV Panels — Key Stats & Trust Signals"
+      aria-label="IPTV Reseller — Key Stats & Trust Signals"
       style={{
         borderTop: "1px solid var(--border-color)",
         borderBottom: "1px solid var(--border-color)",

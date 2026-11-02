@@ -32,7 +32,7 @@ export default function PricingSection() {
 
   // Prefilled WhatsApp order link based on calculator values
     const getWhatsAppCalcLink = () => {
-    const text = `Hello Fox IPTV Panels! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${symbol}${totalCost}). Please provide payment details and panel setup instructions.`;
+    const text = `Hello IPTV Reseller! I checked the reseller calculator and would like to order a custom setup with *${creditsNum} Credits* (estimated cost: ${symbol}${totalCost}). Please provide payment details and panel setup instructions.`;
     return `https://wa.me/447463012833?text=${encodeURIComponent(text)}`;
   };
 
@@ -216,7 +216,7 @@ export default function PricingSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 id={`pricing-${plan.id}-cta`}
-                aria-label={`${plan.cta} — Fox IPTV Panels`}
+                aria-label={`${plan.cta} — IPTV Reseller`}
                 style={{
                   display: "flex", alignItems: "center", justifyContent: "center", gap: 8,
                   padding: "0.9rem",

@@ -64,7 +64,7 @@ export default function Footer() {
 
   return (
     <footer
-      aria-label="Fox IPTV Panels — IPTV Reseller Panel Provider"
+      aria-label="IPTV Reseller — IPTV Reseller Panel Provider"
       style={{
         borderTop: "1px solid var(--border-color)",
         background: "rgba(0,0,0,0.3)",
@@ -82,14 +82,14 @@ export default function Footer() {
 
           {/* Brand column */}
           <div>
-            <Link 
+            <Link
               href={`/${locale}`}
               style={{ textDecoration: "none", display: "inline-flex", alignItems: "center", marginBottom: "1.25rem" }}
             >
-              <img 
-                src="/logo.png" 
-                alt="Fox IPTV Panels Logo" 
-                style={{ height: "36px", width: "auto" }} 
+              <img
+                src="/logo.png"
+                alt="IPTV Reseller Logo"
+                style={{ height: "36px", width: "auto" }}
               />
             </Link>
 
@@ -113,7 +113,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               id="footer-whatsapp-cta"
-              aria-label="WhatsApp support for IPTV resellers — Fox IPTV Panels"
+              aria-label="WhatsApp support for IPTV resellers — IPTV Reseller"
               style={{
                 display: "inline-flex", alignItems: "center", gap: 8,
                 padding: "0.6rem 1.25rem",

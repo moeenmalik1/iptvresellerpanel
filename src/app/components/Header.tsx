@@ -44,7 +44,7 @@ export default function Header() {
       const target = e.target as HTMLElement;
       const anchor = target.closest("a");
       if (!anchor) return;
-      
+
       const href = anchor.getAttribute("href");
       if (!href) return;
 
@@ -106,13 +106,13 @@ export default function Header() {
   const handleLocaleChange = (newLocale: string) => {
     const segments = pathname.split("/");
     const supportedLocales = ["en", "en-gb", "en-au", "es", "fr", "sv", "pt", "no"];
-    
+
     if (supportedLocales.includes(segments[1])) {
       segments[1] = newLocale;
     } else {
       segments.splice(1, 0, newLocale);
     }
-    
+
     const newPath = segments.join("/");
     setLangDropdownOpen(false);
     router.push(newPath);
@@ -136,27 +136,27 @@ export default function Header() {
       <div className="section-container" style={{ padding: "0 1.5rem" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "72px" }}>
           {/* Logo with Organization Schema */}
-          <Link 
-            href={`/${locale}`} 
+          <Link
+            href={`/${locale}`}
             style={{ textDecoration: "none", display: "flex", alignItems: "center" }}
-            itemScope 
+            itemScope
             itemType="http://schema.org/Organization"
           >
-            <meta itemProp="name" content="Fox IPTV Panels" />
+            <meta itemProp="name" content="IPTV Reseller" />
             <meta itemProp="url" content="https://www.iptvreseller.live" />
-            <img 
-              src="/logo.png" 
-              alt="Fox IPTV Panels Logo" 
-              itemProp="logo" 
-              style={{ height: "36px", width: "auto" }} 
+            <img
+              src="/logo.png"
+              alt="IPTV Reseller Logo"
+              itemProp="logo"
+              style={{ height: "36px", width: "auto" }}
             />
           </Link>
 
           {/* Desktop Nav with SiteNavigationElement Schema */}
-          <nav 
-            style={{ display: "flex", alignItems: "center", gap: "1.75rem" }} 
+          <nav
+            style={{ display: "flex", alignItems: "center", gap: "1.75rem" }}
             className="hidden-mobile"
-            itemScope 
+            itemScope
             itemType="http://schema.org/SiteNavigationElement"
           >
             {navLinks.map((link) => {
@@ -212,10 +212,10 @@ export default function Header() {
                 );
               }
               return (
-                <Link 
-                  key={link.label} 
-                  href={link.href} 
-                  className="animated-underline" 
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className="animated-underline"
                   itemProp="url"
                   style={{
                     color: "var(--text-secondary)",
