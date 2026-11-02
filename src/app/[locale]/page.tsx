@@ -204,6 +204,10 @@ export default async function HomePage({
       {/* React 19 native metadata hoisting — fully internationalized */}
       <title>{t("title")}</title>
       <meta name="description" content={t("description")} />
+      <link
+  rel="canonical"
+  href={`https://www.iptvreseller.live/${locale}`}
+/>
       <meta name="keywords" content={t("keywords")} />
       
       <meta property="og:title" content={t("title")} />
