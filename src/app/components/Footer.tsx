@@ -9,7 +9,7 @@ export default function Footer() {
 
   const getLocalizedHref = (href: string) => {
     if (href === "/") return `/${locale}`;
-    if (href.startsWith("/#")) return `/${locale}${href.substring(1)}`;
+    if (href.startsWith("/#")) return `/${locale}${href.substring(1).replace(/^\/#/, "#")}`;
     return `/${locale}${href}`;
   };
 
