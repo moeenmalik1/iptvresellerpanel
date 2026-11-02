@@ -44,6 +44,7 @@ export async function POST(req: NextRequest) {
           status: body.status === "published" ? "published" : "draft",
           createdAt: now,
           updatedAt: now,
+          publishedAt: body.status === "published" ? now : null,
           faqs: Array.isArray(body.faqs) ? body.faqs : [],
     };
 

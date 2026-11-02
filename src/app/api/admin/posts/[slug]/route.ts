@@ -34,10 +34,24 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ slug
           seoTitle: String(body.seoTitle || body.title || existing.seoTitle),
           seoDescription: String(body.seoDescription ?? existing.seoDescription),
           featuredImage: body.featuredImage ?? existing.featuredImage,
-          status: body.status === "published" ? "published" : "draft",
-          createdAt: existing.createdAt,
-          updatedAt: now,
-          faqs: Array.isArray(body.faqs) ? body.faqs : existing.faqs,
+          status:
+  body.status === "published" || body.status === "draft"
+    ? body.status
+    : existing.status,
+
+createdAt: existing.createdAt,
+updatedAt: now,
+
+publishedAt:
+  existing.publishedAt ??
+  (
+    existing.status !== "published" &&
+    body.status === "published"
+      ? now
+      : null
+  ),
+
+faqs: Array.isArray(body.faqs) ? body.faqs : existing.faqs,
     };
 
   await savePost(post);

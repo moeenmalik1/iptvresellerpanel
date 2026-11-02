@@ -28,6 +28,7 @@ export interface BlogPost {
       status: "draft" | "published";
       createdAt: string;
       updatedAt: string;
+      publishedAt?: string | null;
       faqs: BlogFaq[];
 }
 

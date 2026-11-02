@@ -11,7 +11,11 @@ import { setRequestLocale } from "next-intl/server";
 // so this route re-checks for fresh content periodically instead of staying fully static.
 export const revalidate = 60;
 
-type DisplayGuide = GuideData & { featuredImage?: BlogPostImage | null };
+type DisplayGuide = GuideData & {
+  featuredImage?: BlogPostImage | null;
+  publishedAt?: string | null;
+  updatedAt?: string;
+};
 
 // Static pre-generation of all 56 guide paths (8 locales x 7 guides)
 export function generateStaticParams() {
@@ -58,6 +62,8 @@ export default async function GuideDetailPage({
                           seoDescription: dynamicPost.seoDescription,
                           faqs: dynamicPost.faqs,
                           featuredImage: dynamicPost.featuredImage,
+publishedAt: dynamicPost.publishedAt,
+updatedAt: dynamicPost.updatedAt,
                 };
         }
   }
@@ -70,105 +76,64 @@ export default async function GuideDetailPage({
 
   // Dynamic local translation strings
   const lc = (map: Record<string, string>) => map[locale] ?? map["en"] ?? "";
+  
 
-  // 📝 Comprehensive JSON-LD Graph for dynamic schemas (WebPage, BreadcrumbList, TechArticle, Person, FAQPage)
+  // Use actual post metadata; static guides and older posts may not have dates.
+  const articleUrl = `https://www.iptvreseller.live/${locale}/guides/${guide.id}`;
+  const publisher = {
+    "@type": "Organization",
+    "@id": "https://www.iptvreseller.live/#organization",
+    name: "Fox IPTV Panels",
+    url: "https://www.iptvreseller.live",
+    logo: { "@type": "ImageObject", url: "https://www.iptvreseller.live/logo.png" },
+  };
+  const validFaqs = (guide.faqs ?? []).filter((faq) => faq.q?.trim() && faq.a?.trim());
+  const prettyDate = (date: string) =>
+    new Intl.DateTimeFormat(locale, { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" }).format(new Date(date));
+
   const graphSchema = {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-                    "@type": "WebPage",
-                    "@id": `https://www.iptvreseller.live/${locale}/guides/${guide.id}/#webpage`,
-                    "url": `https://www.iptvreseller.live/${locale}/guides/${guide.id}`,
-                    "name": guide.seoTitle,
-                    "description": guide.seoDescription,
-                    "isPartOf": {
-                                "@type": "WebSite",
-                                "@id": "https://www.iptvreseller.live/#website",
-                                "name": "Fox IPTV Panels",
-                                "url": "https://www.iptvreseller.live"
-                    },
-                    "breadcrumb": {
-                                "@id": `https://www.iptvreseller.live/${locale}/guides/${guide.id}/#breadcrumb`
-                    }
-          },
-          {
-                    "@type": "BreadcrumbList",
-                    "@id": `https://www.iptvreseller.live/${locale}/guides/${guide.id}/#breadcrumb`,
-                    "itemListElement": [
-                      {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": lc({ en: "Home", es: "Inicio", fr: "Accueil", pt: "Início", sv: "Hem", no: "Hjem" }),
-                                    "item": `https://www.iptvreseller.live/${locale}`
-                      },
-                      {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": lc({ en: "Guides", es: "Guías", fr: "Guides", pt: "Guias", sv: "Guider", no: "Guider" }),
-                                    "item": `https://www.iptvreseller.live/${locale}/guides`
-                      },
-                      {
-                                    "@type": "ListItem",
-                                    "position": 3,
-                                    "name": guide.title,
-                                    "item": `https://www.iptvreseller.live/${locale}/guides/${guide.id}`
-                      }
-                              ]
-          },
-          {
-                    "@type": ["TechArticle", "Article", "NewsArticle", "BlogPosting"],
-                    "@id": `https://www.iptvreseller.live/${locale}/guides/${guide.id}/#article`,
-                    "mainEntityOfPage": `https://www.iptvreseller.live/${locale}/guides/${guide.id}`,
-                    "headline": guide.title,
-                    "description": guide.seoDescription,
-                    "image": "https://www.iptvreseller.live/og-image.png",
-                    "datePublished": "2026-05-24T08:00:00+00:00",
-                    "dateModified": "2026-05-31T08:00:00+00:00",
-                    "author": {
-                                "@type": "Person",
-                                "@id": "https://www.iptvreseller.live/authors/#marcusvane",
-                                "name": "Marcus Vane",
-                                "jobTitle": "Lead Alt-Broadband Network Architect",
-                                "image": "https://www.iptvreseller.live/placeholder-icon.svg",
-                                "description": "Marcus Vane is a leading expert in alternative broadband networks and IPTV customization protocols with over 15 years of network systems virtualization experience.",
-                                "sameAs": [
-                                              "https://twitter.com/marcusvane_iptv",
-                                              `https://www.iptvreseller.live/${locale}/authors`
-                                            ]
-                    },
-                    "reviewedBy": {
-                                "@type": "Person",
-                                "@id": "https://www.iptvreseller.live/authors/#carlosm",
-                                "name": "Carlos M.",
-                                "jobTitle": "Certified Broadband Specialist & Alt-Telecom Auditor",
-                                "image": "https://www.iptvreseller.live/placeholder-icon.svg",
-                                "sameAs": [
-                                              `https://www.iptvreseller.live/${locale}/authors`
-                                            ]
-                    },
-                    "publisher": {
-                                "@type": "Organization",
-                                "@id": "https://www.iptvreseller.live/#organization",
-                                "name": "Fox IPTV Panels",
-                                "logo": {
-                                              "@type": "ImageObject",
-                                              "url": "https://www.iptvreseller.live/logo.png"
-                                }
-                    }
-          },
-          {
-                    "@type": "FAQPage",
-                    "@id": `https://www.iptvreseller.live/${locale}/guides/${guide.id}/#faq`,
-                    "mainEntity": guide.faqs.map((faq) => ({
-                                "@type": "Question",
-                                "name": faq.q,
-                                "acceptedAnswer": {
-                                              "@type": "Answer",
-                                              "text": faq.a
-                                }
-                    }))
-          }
-              ]
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${articleUrl}#webpage`,
+        url: articleUrl,
+        name: guide.seoTitle || guide.title,
+        description: guide.seoDescription || guide.excerpt,
+        isPartOf: { "@type": "WebSite", "@id": "https://www.iptvreseller.live/#website", name: "Fox IPTV Panels", url: "https://www.iptvreseller.live" },
+        breadcrumb: { "@id": `${articleUrl}#breadcrumb` },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${articleUrl}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: lc({ en: "Home", es: "Inicio", fr: "Accueil", pt: "Início", sv: "Hem", no: "Hjem" }), item: `https://www.iptvreseller.live/${locale}` },
+          { "@type": "ListItem", position: 2, name: lc({ en: "Guides", es: "Guías", fr: "Guides", pt: "Guias", sv: "Guider", no: "Guider" }), item: `https://www.iptvreseller.live/${locale}/guides` },
+          { "@type": "ListItem", position: 3, name: guide.title, item: articleUrl },
+        ],
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": `${articleUrl}#article`,
+        mainEntityOfPage: { "@id": `${articleUrl}#webpage` },
+        headline: guide.title,
+        description: guide.seoDescription || guide.excerpt,
+        image: guide.featuredImage?.url || "https://www.iptvreseller.live/og-image.png",
+        ...(guide.publishedAt ? { datePublished: guide.publishedAt } : {}),
+        ...(guide.publishedAt && guide.updatedAt ? { dateModified: guide.updatedAt } : {}),
+        // Organization is used until an actual author is verified and recorded.
+        author: publisher,
+        publisher,
+      },
+      ...(validFaqs.length ? [{
+        "@type": "FAQPage",
+        "@id": `${articleUrl}#faq`,
+        mainEntity: validFaqs.map((faq) => ({
+          "@type": "Question", name: faq.q,
+          acceptedAnswer: { "@type": "Answer", text: faq.a },
+        })),
+      }] : []),
+    ],
   };
 
   return (
@@ -181,7 +146,7 @@ export default async function GuideDetailPage({
           {/* Structured dynamic schemas */}
               <script
                         type="application/ld+json"
-                        dangerouslySetInnerHTML={{ __html: JSON.stringify(graphSchema) }}
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(graphSchema).replace(/</g, "\\u003c") }}
                       />
         
               <Header />
@@ -229,28 +194,16 @@ export default async function GuideDetailPage({
                                                           <div style={{ display: "flex", flexWrap: "wrap", gap: 12, alignItems: "center", marginBottom: "1rem" }}>
                                                                           <span className="tag">{guide.category}</span>
                                                                           <span style={{ fontSize: "0.8rem", color: "var(--text-muted)" }}>{guide.readTime}</span>
-                                                                          <span style={{ color: "var(--border-accent)", fontSize: "0.75rem" }}>•</span>
-                                                                          <span style={{ fontSize: "0.8rem", color: "var(--text-muted)" }}>
-                                                                            {lc({
-                              en: "Published: May 24, 2026",
-                              es: "Publicado: 24 de mayo de 2026",
-                              fr: "Publié le : 24 mai 2026",
-                              pt: "Publicado em: 24 de maio de 2026",
-                              sv: "Publicerad: 24 maj 2026",
-                              no: "Publisert: 24. mai 2026"
-        })}
-                                                                          </span>
-                                                                          <span style={{ color: "var(--border-accent)", fontSize: "0.75rem" }}>•</span>
-                                                                          <span style={{ fontSize: "0.8rem", color: "var(--accent-cyan)", fontWeight: 500 }}>
-                                                                            {lc({
-                              en: "Last Updated: May 31, 2026",
-                              es: "Última actualización: 31 de mayo de 2026",
-                              fr: "Mis à jour le : 31 mai 2026",
-                              pt: "Última actualización: 31 de maio de 2026",
-                              sv: "Senast uppdaterad: 31 maj 2026",
-                              no: "Sist oppdatert: 31. mai 2026"
-        })}
-                                                                          </span>
+                                                                          {guide.publishedAt && (
+                                                                            <span style={{ fontSize: "0.8rem", color: "var(--text-muted)" }}>
+                                                                              {lc({ en: "Published", es: "Publicado", fr: "Publié", pt: "Publicado", sv: "Publicerad", no: "Publisert" })}: {prettyDate(guide.publishedAt)}
+                                                                            </span>
+                                                                          )}
+                                                                          {guide.publishedAt && guide.updatedAt && (
+                                                                            <span style={{ fontSize: "0.8rem", color: "var(--accent-cyan)" }}>
+                                                                              {lc({ en: "Updated", es: "Actualizado", fr: "Mis à jour", pt: "Atualizado", sv: "Uppdaterad", no: "Oppdatert" })}: {prettyDate(guide.updatedAt)}
+                                                                            </span>
+                                                                          )}
                                                           </div>
                                             
                                                           <h1 style={{
@@ -265,31 +218,9 @@ export default async function GuideDetailPage({
                                                             {guide.title}
                                                           </h1>
                                             
-                                              {/* Author profile & E-E-A-T builder */}
-                                                          <div style={{ display: "flex", alignItems: "center", gap: "12px", marginTop: "1rem" }}>
-                                                                          <div style={{
-                            width: 42, height: 42, borderRadius: "50%",
-                            background: "var(--gradient-primary)",
-                            display: "flex", alignItems: "center", justifyContent: "center",
-                            fontSize: "1.1rem", fontWeight: "bold", color: "white",
-                            border: "1px solid rgba(255,255,255,0.15)"
-        }}>
-                                                                                            MV
-                                                                          </div>
-                                                                          <div>
-                                                                                            <div style={{ fontSize: "0.9rem", fontWeight: 700, color: "var(--text-primary)" }}>Marcus Vane</div>
-                                                                                            <div style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>
-                                                                                              {lc({
-                                en: "Lead Alt-Broadband Network Architect • Certified IPTV Specialist",
-                                es: "Arquitecto de Redes de Banda Ancha Alternativas • Especialista Certificado en IPTV",
-                                fr: "Architecte Réseau Alt-Broadband • Spécialiste IPTV Certifié",
-                                pt: "Arquiteto de Redes de Banda Larga Alternativas • Especialista IPTV Certificado",
-                                sv: "Ledande Alt-Bredbandsarkitekt • Certifierad IPTV-Specialist",
-                                no: "Ledende Alt-Bredbåndsarkitekt • Sertifisert IPTV-Spesialist"
-        })}
-                                                                                              </div>
-                                                                          </div>
-                                                          </div>
+                                              <div style={{ fontSize: "0.85rem", color: "var(--text-muted)", marginTop: "1rem" }}>
+                                                {lc({ en: "Published by", es: "Publicado por", fr: "Publié par", pt: "Publicado por", sv: "Publicerad av", no: "Publisert av" })} Fox IPTV Panels
+                                              </div>
                                             </header>
                                 
                                   {/* Featured image (admin-published posts) */}
@@ -323,157 +254,31 @@ export default async function GuideDetailPage({
                                                           <div dangerouslySetInnerHTML={{ __html: formatRichText(guide.content) }} />
                                             </section>
                                 
-                                    {/* 👤 Premium E-E-A-T Author & Reviewer Box */}
-                                    <section style={{ 
-                                                    padding: "2.5rem", 
-                        borderRadius: "20px", 
-                        background: "rgba(255, 255, 255, 0.02)", 
-                        border: "1px solid var(--border-color)",
-                        marginTop: "3rem",
-                        marginBottom: "4rem",
-                        position: "relative"
-        }}>
-                                                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2.5rem" }} className="panel-hero-grid">
-                                                                    
-                                                      {/* Author Block */}
-                                                                    <div style={{ display: "flex", gap: "1.25rem", flexDirection: "column" }}>
-                                                                                      <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-                                                                                                          <img 
-                                                                                                                                  src="/placeholder-icon.svg" 
-                                                                                                            alt="Marcus Vane" 
-                                                                                                            style={{ 
-                                                                                                                                      width: "60px", 
-                                                                                                                                      height: "60px", 
-                                                                                                                                      borderRadius: "50%", 
-                                                                                                                                      border: "2px solid var(--accent-purple)",
-                                                                                                                                      background: "var(--bg-secondary)",
-                                                                                                                                      padding: "4px"
-                                                                                                              }} 
-                                                                                                          />
-                                                                                                          <div>
-                                                                                                                                <div style={{ fontSize: "1.05rem", fontWeight: 800, color: "var(--text-primary)" }}>
-                                                                                                                                                        Marcus Vane
-                                                                                                                                  </div>
-                                                                                                                                <div style={{ fontSize: "0.8rem", color: "var(--accent-purple)", fontWeight: 600 }}>
-                                                                                                                                  {lc({
-                                    en: "Lead Alt-Broadband Architect",
-                                    es: "Arquitecto Jefe de Redes de Banda Ancha",
-                                    fr: "Architecte Réseau Alt-Broadband",
-                                    pt: "Arquiteto Principal de Banda Larga",
-                                    sv: "Ledande Alt-Bredbandsarkitekt",
-                                    no: "Ledende Alt-Bredbåndsarkitekt"
-        })}
-                                                                                                                                  </div>
-                                                                                                            </div>
-                                                                                        </div>
-                                                                                      
-                                                                                      <p style={{ fontSize: "0.875rem", color: "var(--text-secondary)", lineHeight: 1.6, margin: 0 }}>
-                                                                                        {lc({
-                                en: "Marcus Vane has spent 15+ years engineering alternative telecom networks and virtualized IPTV delivery architectures. A strong advocate for data security, he counsels startup digital entrepreneurs globally.",
-                                es: "Marcus Vane lleva más de 15 años diseñando redes de telecomunicaciones alternativas y arquitecturas de IPTV virtualizadas. Defensor de la seguridad, asesora a emprendedores de todo el mundo.",
-                                fr: "Marcus Vane conçoit des réseaux télécoms alternatifs et des architectures IPTV depuis plus de 15 ans. Expert en sécurité, il conseille les entrepreneurs du numérique.",
-                                pt: "Marcus Vane tem mais de 15 anos de experiência na projeção de redes alternativas e IPTV. Especialista em segurança, ajuda empreendedores de todo o mundo.",
-                                sv: "Marcus Vane har över 15 års erfarenhet av att bygga alternativa nätverk och IPTV-strukturer. Han brinner för datasäkerhet och guidar nya digitala entreprenörer.",
-                                no: "Marcus Vane har over 15 års erfarenhet med å bygge alternative nettverk og IPTV-strukturer. Han brenner for datasikkerhet og veileder nye digitale entreprenører."
-        })}
-                                                                                        </p>
-                                                                                      
-                                                                      {/* Social Handles */}
-                                                                                      <div style={{ display: "flex", gap: "12px", alignItems: "center", marginTop: "4px" }}>
-                                                                                                          <Link href={`/${locale}/authors`} style={{ fontSize: "0.8rem", color: "var(--accent-cyan)", textDecoration: "none", fontWeight: 700 }} className="animated-underline">
-                                                                                                            {lc({ en: "View Portfolio ↗", es: "Ver Portafolio ↗", fr: "Voir le Portfolio ↗", pt: "Ver Portfólio ↗", sv: "Visa Portfölj ↗", no: "Se Portefølje ↗" })}
-                                                                                                            </Link>
-                                                                                                          <span style={{ color: "var(--border-color)" }}>|</span>
-                                                                                                          <a href="https://twitter.com/marcusvane_iptv" target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.8rem", color: "var(--text-muted)", textDecoration: "none" }} className="animated-underline">
-                                                                                                                                Twitter/X
-                                                                                                            </a>
-                                                                                        </div>
-                                                                    </div>
-                                                    
-                                                      {/* Reviewer / Verification Block */}
-                                                                    <div style={{ display: "flex", gap: "1.25rem", flexDirection: "column", borderLeft: "1px solid var(--border-color)", paddingLeft: "2.5rem" }} className="reviewer-border-fix">
-                                                                                      <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-                                                                                                          <div style={{
-                                width: "60px",
-                                height: "60px",
-                                borderRadius: "50%",
-                                border: "2px solid var(--accent-cyan)",
-                                background: "linear-gradient(135deg, #1e293b, #0f172a)",
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                fontSize: "1.2rem",
-                                fontWeight: 800,
-                                color: "var(--accent-cyan)"
-        }}>
-                                                                                                                                CM
-                                                                                                            </div>
-                                                                                                          <div>
-                                                                                                                                <div style={{ fontSize: "1.05rem", fontWeight: 800, color: "var(--text-primary)" }}>
-                                                                                                                                                        Carlos M.
-                                                                                                                                  </div>
-                                                                                                                                <div style={{ fontSize: "0.8rem", color: "var(--accent-cyan)", fontWeight: 600 }}>
-                                                                                                                                  {lc({
-                                    en: "Certified Broadband Specialist & Auditor",
-                                    es: "Especialista Certificado en Banda Ancha",
-                                    fr: "Spécialiste Certifié en Haut Débit",
-                                    pt: "Especialista em Banda Larga Certificado",
-                                    sv: "Certifierad Bredbandsspecialist",
-                                    no: "Sertifisert Bredbåndsspesialist"
-        })}
-                                                                                                                                  </div>
-                                                                                                            </div>
-                                                                                        </div>
-                                                                                      
-                                                                                      <p style={{ fontSize: "0.875rem", color: "var(--text-secondary)", lineHeight: 1.6, margin: 0 }}>
-                                                                                                          <strong style={{ color: "var(--text-primary)", fontWeight: 600 }}>
-                                                                                                            {lc({
-                                  en: "Double-Editorial Audit: ",
-                                  es: "Auditoría Editorial Doble: ",
-                                  fr: "Audit Double-Éditorial : ",
-                                  pt: "Auditoria Editorial Dupla: ",
-                                  sv: "Dubbel Redaktionell Granskning: ",
-                                  no: "Dobbel Redaksjonell Revisjon: "
-        })}
-                                                                                                            </strong>
-                                                                                        {lc({
-                                en: "This masterclass has been audited for networking telemetry accuracy, WHMCS database hook security, and Cloudflare proxy guidelines.",
-                                es: "Esta guía ha sido auditada para garantizar la precisión de la telemetría de red, la seguridad de las conexiones WHMCS y las directrices de Cloudflare.",
-                                fr: "Ce guide a été audité pour valider la précision des données réseau, la sécurité WHMCS et la conformité aux exigences Cloudflare.",
-                                pt: "Este guia foi auditado para garantir a precisão técnica das ligações de rede, segurança do WHMCS e diretrizes do Cloudflare.",
-                                sv: "Denna guide har granskats för teknisk exakthet gällande nätverkstelemetri, WHMCS-säkerhet och Cloudflares riktlinjer.",
-                                no: "Denne guiden har blitt revidert for teknisk nøyaktighet angående nettverkstelemetri, WHMCS-sikkerhet og Cloudflares retningslinjer."
-        })}
-                                                                                        </p>
-                                                                                      
-                                                                                      <div style={{ display: "flex", gap: "12px", alignItems: "center", marginTop: "4px" }}>
-                                                                                                          <span style={{ fontSize: "0.8rem", color: "#22c55e", fontWeight: 700, display: "inline-flex", alignItems: "center", gap: "4px" }}>
-                                                                                                                                ✔ {lc({ en: "Verified Accurate", es: "Verificado Preciso", fr: "Vérifié Conforme", pt: "Verificado Exato", sv: "Verifierad Korrekt", no: "Verifisert Nøyaktig" })}
-                                                                                                            </span>
-                                                                                                          <span style={{ color: "var(--border-color)" }}>|</span>
-                                                                                                          <Link href={`/${locale}/editorial-guidelines`} style={{ fontSize: "0.8rem", color: "var(--text-muted)", textDecoration: "none" }} className="animated-underline">
-                                                                                                            {lc({ en: "Editorial Guidelines", es: "Pautas Editoriales", fr: "Charte Éditoriale", pt: "Diretrizes Editoriais", sv: "Redaktionella Riktlinjer", no: "Redaksjonelle Retningslinjer" })}
-                                                                                                            </Link>
-                                                                                        </div>
-                                                                    </div>
-                                                    
-                                                    </div>
-                                    </section>
-                      
-                                    {/* Quick FAQ Accordion */}
-                            <section style={{ borderTop: "1px solid var(--border-color)", paddingTop: "3rem", marginBottom: "3rem" }}>
+                                                                         {/* Editorial information — no unverified individual credentials */}
+                                     <section style={{ padding: "2rem", borderRadius: "20px", background: "rgba(255,255,255,0.02)", border: "1px solid var(--border-color)", marginTop: "3rem", marginBottom: "4rem" }}>
+                                       <h2 style={{ fontSize: "1.1rem", fontWeight: 800, color: "var(--text-primary)", marginBottom: "0.75rem" }}>Fox IPTV Panels</h2>
+                                       <p style={{ fontSize: "0.875rem", color: "var(--text-secondary)", lineHeight: 1.6 }}>
+                                         {lc({ en: "This guide is published by the Fox IPTV Panels editorial team.", es: "Esta guía ha sido publicada por el equipo editorial de Fox IPTV Panels.", fr: "Ce guide est publié par l’équipe éditoriale de Fox IPTV Panels.", pt: "Este guia é publicado pela equipa editorial da Fox IPTV Panels.", sv: "Denna guide publiceras av Fox IPTV Panels redaktion.", no: "Denne guiden er publisert av redaksjonen i Fox IPTV Panels." })}
+                                       </p>
+                                       <Link href={`/${locale}/editorial-guidelines`} className="animated-underline" style={{ color: "var(--accent-cyan)", fontSize: "0.85rem", textDecoration: "none" }}>
+                                         {lc({ en: "Editorial Guidelines", es: "Pautas Editoriales", fr: "Charte Éditoriale", pt: "Diretrizes Editoriais", sv: "Redaktionella Riktlinjer", no: "Redaksjonelle Retningslinjer" })}
+                                       </Link>
+                                     </section>
+
+{/* Quick FAQ Accordion */}
+                            {validFaqs.length > 0 && <section style={{ borderTop: "1px solid var(--border-color)", paddingTop: "3rem", marginBottom: "3rem" }}>
                                             <h2 style={{ fontFamily: "'Outfit', sans-serif", fontSize: "1.6rem", fontWeight: 800, color: "var(--text-primary)", marginBottom: "1.5rem" }}>
                                               {lc({ en: "Article Frequently Asked Questions", es: "Preguntas Frecuentes del Artículo" })}
                                             </h2>
                                             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                                              {guide.faqs.map((faq, i) => (
+                                              {validFaqs.map((faq, i) => (
                             <div key={i} className="glass-card" style={{ padding: "1.5rem", borderRadius: "12px", background: "rgba(0,0,0,0.15)" }}>
                                                   <h3 style={{ fontSize: "0.95rem", fontWeight: 700, margin: "0 0 8px", color: "var(--text-primary)" }}>{faq.q}</h3>
                                                   <p style={{ fontSize: "0.875rem", color: "var(--text-secondary)", lineHeight: 1.5, margin: 0 }}>{faq.a}</p>
                             </div>
                           ))}
                                             </div>
-                            </section>
+                            </section>}
 
                 {/* Practical Action Box (CRO optimized) */}
                             <footer style={{
