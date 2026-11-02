@@ -35,18 +35,18 @@ export default async function SitemapPage({
     "@id": `https://www.iptvreseller.live/${locale}/sitemap/#webpage`,
     "url": `https://www.iptvreseller.live/${locale}/sitemap`,
     "name": lc({
-      en: "HTML Sitemap — Fox IPTV Panels",
-      es: "Mapa del Sitio HTML — Fox IPTV Panels",
-      fr: "Plan du Site HTML — Fox IPTV Panels",
-      pt: "Mapa do Site HTML — Fox IPTV Panels",
-      sv: "Sajtkarta HTML — Fox IPTV Panels",
-      no: "Nettstedskart HTML — Fox IPTV Panels"
+      en: "HTML Sitemap — IPTV Reseller",
+      es: "Mapa del Sitio HTML — IPTV Reseller",
+      fr: "Plan du Site HTML — IPTV Reseller",
+      pt: "Mapa do Site HTML — IPTV Reseller",
+      sv: "Sajtkarta HTML — IPTV Reseller",
+      no: "Nettstedskart HTML — IPTV Reseller"
     }),
     "description": lc({
-      en: "Navigate all reseller panels, technical guides, comparisons, and policy sections on Fox IPTV Panels.",
-      es: "Navegue por todos los paneles de revendedor, guías técnicas, comparaciones y secciones de políticas en Fox IPTV Panels.",
-      fr: "Accédez à tous nos panneaux revendeurs, guides techniques, comparatifs et politiques de Fox IPTV Panels.",
-      pt: "Navegue por todos os painéis, guias técnicos, comparativos e secções de políticas da Fox IPTV Panels."
+      en: "Navigate all reseller panels, technical guides, comparisons, and policy sections on IPTV Reseller.",
+      es: "Navegue por todos los paneles de revendedor, guías técnicas, comparaciones y secciones de políticas en IPTV Reseller.",
+      fr: "Accédez à tous nos panneaux revendeurs, guides techniques, comparatifs et politiques de IPTV Reseller.",
+      pt: "Navegue por todos os painéis, guias técnicos, comparativos e secções de políticas da IPTV Reseller."
     })
   };
 
@@ -71,12 +71,12 @@ export default async function SitemapPage({
     <>
       <title>
         {lc({
-          en: "HTML Sitemap — Discover All Pages & Guides | Fox IPTV Panels",
-          es: "Mapa del Sitio HTML — Navegue por todas las Páginas | Fox IPTV Panels",
-          fr: "Plan du Site HTML — Accéder à toutes nos pages | Fox IPTV Panels",
-          pt: "Mapa do Site HTML — Navegar por todas as Páginas | Fox IPTV Panels",
-          sv: "Sajtkarta HTML — Hitta alla sidor och guider | Fox IPTV Panels",
-          no: "Nettstedskart HTML — Finn alle sider og guider | Fox IPTV Panels"
+          en: "HTML Sitemap — Discover All Pages & Guides | IPTV Reseller",
+          es: "Mapa del Sitio HTML — Navegue por todas las Páginas | IPTV Reseller",
+          fr: "Plan du Site HTML — Accéder à toutes nos pages | IPTV Reseller",
+          pt: "Mapa do Site HTML — Navegar por todas as Páginas | IPTV Reseller",
+          sv: "Sajtkarta HTML — Hitta alla sidor och guider | IPTV Reseller",
+          no: "Nettstedskart HTML — Finn alle sider og guider | IPTV Reseller"
         })}
       </title>
       <meta 
@@ -135,10 +135,10 @@ export default async function SitemapPage({
             </h1>
             <p style={{ fontSize: "1.1rem", color: "var(--text-secondary)", lineHeight: 1.7 }}>
               {lc({
-                en: "Explore the complete architectural layout of Fox IPTV Panels. Find commercial comparison reports, tech walkthroughs, legal entities, and premium white-label resellers assets.",
-                es: "Explore la arquitectura completa de Fox IPTV Panels. Encuentre informes comerciales, guías técnicas, datos legales y recursos mayoristas de marca blanca.",
+                en: "Explore the complete architectural layout of IPTV Reseller. Find commercial comparison reports, tech walkthroughs, legal entities, and premium white-label resellers assets.",
+                es: "Explore la arquitectura completa de IPTV Reseller. Encuentre informes comerciales, guías técnicas, datos legales y recursos mayoristas de marca blanca.",
                 fr: "Découvrez l'organisation complète de notre plateforme. Trouvez vos comparatifs de panneaux, tutoriels d'intégration, informations légales et guides.",
-                pt: "Explore a estrutura completa da Fox IPTV Panels. Aceda a relatórios comparativos, tutoriais técnicos, informações legais e recursos grossistas de marca branca."
+                pt: "Explore a estrutura completa da IPTV Reseller. Aceda a relatórios comparativos, tutoriais técnicos, informações legais e recursos grossistas de marca branca."
               })}
             </p>
           </header>
