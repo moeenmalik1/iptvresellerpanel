@@ -32,15 +32,15 @@ export default async function AuthorsPage({
     "@id": `https://www.iptvreseller.live/${locale}/authors/#webpage`,
     "url": `https://www.iptvreseller.live/${locale}/authors`,
     "name": lc({
-      en: "Meet Our Team & Alt-Broadband Experts — Fox IPTV Panels",
-      es: "Conozca a Nuestro Equipo de Expertos — Fox IPTV Panels",
-      fr: "Rencontrez Notre Équipe de Spécialistes — Fox IPTV Panels",
-      pt: "Conheça o Nosso Equipo de Especialistas — Fox IPTV Panels"
+      en: "Meet Our Team & Alt-Broadband Experts — IPTV Reseller",
+      es: "Conozca a Nuestro Equipo de Expertos — IPTV Reseller",
+      fr: "Rencontrez Notre Équipe de Spécialistes — IPTV Reseller",
+      pt: "Conheça o Nosso Equipo de Especialistas — IPTV Reseller"
     }),
     "description": lc({
-      en: "Meet the engineers, systems architects, and telecom auditors behind the high-quality guides at Fox IPTV Panels.",
-      es: "Conozca a los ingenieros, arquitectos de sistemas y auditores de telecomunicaciones detrás de las guías de Fox IPTV Panels.",
-      fr: "Présentation des ingénieurs, architectes de réseaux et auditeurs de télécommunications de Fox IPTV Panels."
+      en: "Meet the engineers, systems architects, and telecom auditors behind the high-quality guides at IPTV Reseller.",
+      es: "Conozca a los ingenieros, arquitectos de sistemas y auditores de telecomunicaciones detrás de las guías de IPTV Reseller.",
+      fr: "Présentation des ingénieurs, architectes de réseaux et auditeurs de télécommunications de IPTV Reseller."
     })
   };
 
@@ -48,12 +48,12 @@ export default async function AuthorsPage({
     <>
       <title>
         {lc({
-          en: "Meet Our Editorial Team & Alt-Broadband Experts | Fox IPTV Panels",
-          es: "Conozca a Nuestro Equipo e Ingenieros de Banda Ancha | Fox IPTV Panels",
-          fr: "Présentation de Notre Équipe Rédacteurs & Experts Réseau | Fox IPTV Panels",
-          pt: "Conheça a Nossa Equipa e Especialistas de Banda Larga | Fox IPTV Panels",
-          sv: "Möt Vårt Team och Återförsäljarexperter | Fox IPTV Panels",
-          no: "Møt Vårt Team og Engros-Eksperter | Fox IPTV Panels"
+          en: "Meet Our Editorial Team & Alt-Broadband Experts | IPTV Reseller",
+          es: "Conozca a Nuestro Equipo e Ingenieros de Banda Ancha | IPTV Reseller",
+          fr: "Présentation de Notre Équipe Rédacteurs & Experts Réseau | IPTV Reseller",
+          pt: "Conheça a Nossa Equipa e Especialistas de Banda Larga | IPTV Reseller",
+          sv: "Möt Vårt Team och Återförsäljarexperter | IPTV Reseller",
+          no: "Møt Vårt Team og Engros-Eksperter | IPTV Reseller"
         })}
       </title>
       <meta 
@@ -114,10 +114,10 @@ export default async function AuthorsPage({
             </h1>
             <p style={{ fontSize: "1.1rem", color: "var(--text-secondary)", lineHeight: 1.7 }}>
               {lc({
-                en: "Behind every technical masterclass, setup blueprint, and comparison review at Fox IPTV Panels is a dedicated team of engineers and systems architects committed to technical accuracy.",
-                es: "Detrás de cada guía técnica, plano de configuración y análisis en Fox IPTV Panels hay un equipo de ingenieros y arquitectos de sistemas comprometidos con el rigor.",
+                en: "Behind every technical masterclass, setup blueprint, and comparison review at IPTV Reseller is a dedicated team of engineers and systems architects committed to technical accuracy.",
+                es: "Detrás de cada guía técnica, plano de configuración y análisis en IPTV Reseller hay un equipo de ingenieros y arquitectos de sistemas comprometidos con el rigor.",
                 fr: "Chaque article d'intégration de notre académie est validé par un groupe d'architectes serveurs et d'experts en sécurité.",
-                pt: "Por trás de cada guia técnico e análise comparativa da Fox IPTV Panels está uma equipa dedicada de engenheiros e arquitetos focados no rigor técnico."
+                pt: "Por trás de cada guia técnico e análise comparativa da IPTV Reseller está uma equipa dedicada de engenheiros e arquitetos focados no rigor técnico."
               })}
             </p>
           </header>
@@ -231,10 +231,10 @@ export default async function AuthorsPage({
 
               <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.7, margin: 0 }}>
                 {lc({
-                  en: "Carlos M. acts as the chief technical reviewer and fact-checking auditor for Fox IPTV Panels. Certified by alternate telecom groups, Carlos tests every WHMCS billing server code hook, validates database integrations, and reviews all server proxy setups featured in our guides. He ensures that all materials published are factually accurate, secure, and 100% compliant with standard network protocols.",
-                  es: "Carlos M. actúa como el principal revisor técnico y auditor de Fox IPTV Panels. Certificado en infraestructuras de red, Carlos prueba cada código de facturación de WHMCS, valida las integraciones de bases de datos y revisa los servidores proxy que figuran en nuestras guías para garantizar que sean seguros.",
-                  fr: "Carlos M. est le responsable de la conformité et le validateur technique en chef de Fox IPTV Panels. Il teste minutieusement chaque script d'automatisation WHMCS, vérifie la sécurité des hooks de paiement et s'assure que chaque guide publié respecte scrupuleusement les exigences de Cloudflare.",
-                  pt: "Carlos M. atua como o principal revisor técnico e auditor de fatos da Fox IPTV Panels. Certificado em sistemas de telecomunicações, Carlos testa cada script de faturação WHMCS, valida integrações de bases de dados e avalia os servidores proxy configurados nos guias."
+                  en: "Carlos M. acts as the chief technical reviewer and fact-checking auditor for IPTV Reseller. Certified by alternate telecom groups, Carlos tests every WHMCS billing server code hook, validates database integrations, and reviews all server proxy setups featured in our guides. He ensures that all materials published are factually accurate, secure, and 100% compliant with standard network protocols.",
+                  es: "Carlos M. actúa como el principal revisor técnico y auditor de IPTV Reseller. Certificado en infraestructuras de red, Carlos prueba cada código de facturación de WHMCS, valida las integraciones de bases de datos y revisa los servidores proxy que figuran en nuestras guías para garantizar que sean seguros.",
+                  fr: "Carlos M. est le responsable de la conformité et le validateur technique en chef de IPTV Reseller. Il teste minutieusement chaque script d'automatisation WHMCS, vérifie la sécurité des hooks de paiement et s'assure que chaque guide publié respecte scrupuleusement les exigences de Cloudflare.",
+                  pt: "Carlos M. atua como o principal revisor técnico e auditor de fatos da IPTV Reseller. Certificado em sistemas de telecomunicações, Carlos testa cada script de faturação WHMCS, valida integrações de bases de dados e avalia os servidores proxy configurados nos guias."
                 })}
               </p>
 
