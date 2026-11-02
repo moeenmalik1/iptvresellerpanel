@@ -604,6 +604,28 @@ export const getGuides = (locale: string): GuideData[] => {
     },
   };
 
+  // Regional SEO titles: unique, concise and specific to each guide.
+  const regionalGuideTitles: Record<"en-gb" | "en-au", Record<string, string>> = {
+    "en-gb": {
+      "start-iptv-reseller-business": "Start an IPTV Reseller Business in the UK | 2026 Guide",
+      "credit-system-explained": "IPTV Reseller Credits Explained for UK Businesses",
+      "xtream-codes-vs-m3u": "Xtream Codes vs M3U: UK Reseller Setup Guide",
+      "white-label-panel-branding": "White Label IPTV Panels UK: Branding Guide",
+      "dns-portal-setup-guide": "IPTV Portal DNS Setup UK: CNAME and Security",
+      "billing-whmcs-stripe-guide": "WHMCS Billing for UK IPTV Resellers: Setup Guide",
+      "xtream-api-integration-guide": "Xtream Codes API Integration: UK Developer Guide",
+    },
+    "en-au": {
+      "start-iptv-reseller-business": "Start an IPTV Reseller Business in Australia | 2026",
+      "credit-system-explained": "IPTV Reseller Credits in Australia: Complete Guide",
+      "xtream-codes-vs-m3u": "Xtream Codes vs M3U: Australia Setup Guide",
+      "white-label-panel-branding": "White Label IPTV Panels Australia: Branding Guide",
+      "dns-portal-setup-guide": "IPTV Portal DNS Setup Australia: CNAME Guide",
+      "billing-whmcs-stripe-guide": "WHMCS Billing for Australian IPTV Resellers",
+      "xtream-api-integration-guide": "Xtream Codes API: Australian Developer Guide",
+    },
+  };
+
   // Return the original English guides with location-specific SEO descriptions for UK/AU.
   return englishGuides.map((guide) => {
     let localizedCategory = guide.category;
@@ -620,7 +642,7 @@ export const getGuides = (locale: string): GuideData[] => {
       category: localizedCategory,
       title: geoLocalizeEnglish(guide.title, "title"),
       excerpt: geoLocalizeEnglish(guide.excerpt, "desc"),
-      seoTitle: geoLocalizeEnglish(guide.seoTitle, "title"),
+      seoTitle: (L === "en-gb" || L === "en-au" ? regionalGuideTitles[L]?.[guide.id] : undefined) ?? geoLocalizeEnglish(guide.seoTitle, "title"),
       seoDescription: regionalDescriptions?.[guide.id] ?? geoLocalizeEnglish(guide.seoDescription, "desc"),
       content: geoLocalizeEnglish(guide.content, "body"),
       faqs: guide.faqs.map((faq) => ({
@@ -629,4 +651,5 @@ export const getGuides = (locale: string): GuideData[] => {
       })),
     };
   });
+  
 };
