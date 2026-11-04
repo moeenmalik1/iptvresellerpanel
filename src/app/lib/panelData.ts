@@ -334,38 +334,59 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "Dino IPTV",
     slug: "dino-iptv-reseller-panel",
-    tagline: "Dino IPTV Reseller Panel — Stable & Reliable IPTV Panel for All Resellers",
-    description: "Dino IPTV is a reliable, well-established IPTV reseller panel with consistent streaming performance and a clean reseller dashboard. A solid choice for resellers who prioritize stability and uptime for their customer base.",
-    longDescription: "Dino IPTV has built a reputation for exceptional server stability and consistent streaming quality. With support for all major connection types — Xtream Codes, M3U, MAG box — and a straightforward reseller credit system, Dino IPTV is a dependable backbone for any IPTV reselling business. Available through IPTV Reseller with instant credit activation.",
-    quality: "4K Ultra HD",
-    qualityBadge: "4K Streaming",
-    support: "24/7",
-    dashboardType: "Clean & Reliable",
-    bestFor: "Stability-Focused IPTV Resellers",
+    tagline: "Dino IPTV Reseller Panel — Wholesale Credits & Setup",
+    description: "Explore the Dino IPTV reseller panel, wholesale IPTV credits, reseller dashboard features, subscription management and account setup. Compare pricing, compatibility and package terms before ordering.",
+    longDescription: "The Dino IPTV reseller panel is an option for businesses researching wholesale IPTV reseller credits and subscription management tools. If you want to buy Dino IPTV reseller credits, start by checking current credit packages, minimum purchase requirements and the effective cost per customer subscription. Ask the provider to demonstrate the Dino IPTV reseller dashboard, including credit allocation, customer account creation, subscription renewals and account expiry management. Compare available tools for managing multiple customers and check whether the panel offers relevant reporting or account controls. Before purchasing, verify supported connection formats such as Xtream Codes, M3U playlists and MAG devices, along with Smart TV compatibility and simultaneous connection limits. The Dino IPTV product name does not guarantee 4K playback, uninterrupted streaming or a particular server uptime. Request current service specifications, available resolutions and reliability information. Confirm reseller login procedures, activation times, refund conditions, trial availability and technical support channels. When comparing Dino IPTV reseller panel pricing with other IPTV reseller options, consider both wholesale credit costs and ongoing operating expenses. Ensure that any IPTV content distributed to customers is appropriately licensed for the intended markets.",
+    quality: "Confirm available resolutions",
+    qualityBadge: "4K Options",
+    support: "Confirm availability",
+    dashboardType: "Reseller Management",
+    bestFor: "Resellers Comparing Credit Packages",
     accentColor: "#06b6d4",
     badge: "",
     features: [
-      "Exceptional server stability & uptime",
-      "4K Ultra HD no-buffering streaming",
-      "Xtream Codes & M3U support",
-      "MAG box & multi-device compatible",
-      "Clean, easy-to-navigate reseller dashboard",
-      "Instant IPTV credit activation",
-      "Customer subscription management tools",
-      "24/7 WhatsApp reseller support",
+      "Explore Dino IPTV reseller panel features",
+      "Compare wholesale Dino IPTV reseller credits",
+      "Review customer subscription management tools",
+      "Check reseller dashboard and credit allocation",
+      "Verify Xtream Codes and M3U compatibility",
+      "Confirm MAG box, Smart TV and device support",
+      "Review subscription renewals and account limits",
+      "Check credit activation and technical support terms",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Clean Reseller Panel" },
-      { label: "Support", value: "24/7 WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.9%" },
+      { label: "Streaming Quality", value: "Confirm available resolutions" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Reseller management panel" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request reliability details" },
     ],
     faqs: [
-      { q: "What is the Dino IPTV reseller panel?", a: "Dino IPTV is a stable, reliable IPTV reseller panel with consistent 4K streaming and a clean reseller dashboard. It's trusted by resellers who prioritize uptime and server reliability." },
-      { q: "How do I get Dino IPTV reseller credits?", a: "Contact IPTV Reseller on WhatsApp. We provide instant Dino IPTV reseller credits with activation in minutes, plus full setup support." },
-      { q: "Is Dino IPTV good for customer retention?", a: "Yes. Dino IPTV's server stability and no-buffering performance leads to high customer satisfaction and strong subscription renewal rates — key for building recurring income." },
+      {
+        q: "What is the Dino IPTV reseller panel?",
+        a: "Dino IPTV is an IPTV reseller panel option for businesses comparing wholesale credits, customer account management and subscription tools. Confirm current dashboard capabilities and service conditions before purchasing."
+      },
+      {
+        q: "How can I buy Dino IPTV reseller credits?",
+        a: "Contact the provider to request current Dino IPTV reseller credit packages, minimum order requirements, payment terms and activation procedures. Compare wholesale credit costs and renewal conditions before ordering."
+      },
+      {
+        q: "What features should I check in the Dino IPTV reseller dashboard?",
+        a: "Review credit allocation, subscription creation, customer account management, renewal controls, expiry dates and available reporting tools. Ask for a dashboard demonstration to verify these features."
+      },
+      {
+        q: "Does Dino IPTV support Xtream Codes, M3U and MAG devices?",
+        a: "Compatibility depends on the specific service package. Request an updated list of supported connection methods, MAG devices, Smart TVs and other compatible hardware before purchasing."
+      },
+      {
+        q: "How much does the Dino IPTV reseller panel cost?",
+        a: "Dino IPTV reseller panel pricing can depend on wholesale credit quantities, package terms and the provider. Request a current quotation and calculate the effective cost per customer subscription, including any additional fees."
+      },
+      {
+        q: "Does Dino IPTV guarantee 4K streaming and 99.9% uptime?",
+        a: "Do not assume guaranteed streaming resolution or uptime without verified provider specifications. Actual playback quality depends on available content, devices and network conditions. Ask for current reliability information."
+      },
     ],
     relatedSlugs: ["lion-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel", "trex-ott-iptv-reseller-panel", "zen-4k-iptv-reseller-panel"],
   },

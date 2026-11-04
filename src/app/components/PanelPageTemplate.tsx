@@ -107,6 +107,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Ultra 8K OTT IPTV Reseller Panel | Credits & Features",
         description: "Explore Ultra 8K OTT IPTV reseller credits, wholesale packages, dashboard tools, bulk subscriptions, device compatibility and FAQs before buying.",
       }
+    : panel.slug === "dino-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Dino IPTV Reseller Panel | Credits & Setup",
+        description: "Explore Dino IPTV reseller credits, wholesale packages, dashboard setup, subscription management, device compatibility and pricing FAQs before ordering.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
