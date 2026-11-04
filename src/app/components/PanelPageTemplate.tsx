@@ -89,19 +89,18 @@ export default function PanelPageTemplate({ panel }: Props) {
   // The seller is represented by the website's canonical Organization entity.
   const panelSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "@id": `${canonicalUrl}#product`,
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
     name: `${panel.name} IPTV Reseller Panel`,
     description: pageDescription,
     url: canonicalUrl,
-    brand: {
-      "@type": "Brand",
-      name: panel.name,
+    about: {
+      "@type": "Thing",
+      name: `${panel.name} IPTV Reseller Panel`,
     },
-    isRelatedTo: {
-      "@type": "Organization",
-      "@id": "https://www.iptvreseller.live/#organization",
-      name: "IPTV Reseller",
+    isPartOf: {
+      "@type": "WebSite",
+      "@id": "https://www.iptvreseller.live/#website",
     },
   };
 
