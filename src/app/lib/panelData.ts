@@ -216,39 +216,59 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "Lion OTT",
     slug: "lion-ott-iptv-reseller-panel",
-    tagline: "Lion OTT IPTV Reseller Panel — Best IPTV Panel for Beginner Resellers",
-    description: "Lion OTT is the most beginner-friendly IPTV reseller panel available through IPTV Reseller. With an easy dashboard, fast support, and stable 4K servers, Lion OTT is the #1 recommended starting point for new IPTV resellers.",
-    longDescription: "Lion OTT is specifically designed to make IPTV reselling accessible to newcomers. The simplified dashboard makes credit management, subscription creation, and customer management straightforward from day one. With fast WhatsApp support and reliable 4K streaming, Lion OTT helps beginners build a profitable IPTV business quickly — without needing technical experience.",
-    quality: "4K Ultra HD",
-    qualityBadge: "4K Streaming",
-    support: "Fast",
-    dashboardType: "Beginner Friendly",
-    bestFor: "New & Beginner IPTV Resellers",
+    tagline: "Lion OTT IPTV Reseller Panel — Beginner Setup & Credits",
+    description: "Explore the Lion OTT IPTV reseller panel for beginners. Compare wholesale IPTV reseller credits, dashboard features, customer subscription tools, pricing considerations and account setup requirements.",
+    longDescription: "The Lion OTT IPTV reseller panel is an option for beginners researching how to start an IPTV reseller business with a credit-based dashboard. If you want to buy Lion OTT reseller credits, begin by comparing available wholesale credit packages, minimum order requirements, payment terms and subscription renewal rules. Ask the provider to demonstrate how the IPTV reseller dashboard handles customer accounts, credit allocation, subscription creation and account expiry dates. New resellers should also check whether onboarding instructions, test accounts, sub-reseller tools or dashboard training are included in their selected package. For device compatibility, request current details about Xtream Codes, M3U playlists, MAG boxes and Smart TVs rather than assuming every connection type is supported. Confirm streaming resolutions, network performance, support channels, activation times and trial conditions before purchasing. To compare IPTV reseller panel pricing fairly, calculate the effective cost per customer subscription, potential renewal expenses and operating costs. There is no guaranteed profit or streaming performance. Before distributing IPTV subscriptions, verify content licensing and legal requirements in the countries where you plan to operate.",
+    quality: "Confirm available resolutions",
+    qualityBadge: "4K Options",
+    support: "Confirm availability",
+    dashboardType: "Beginner Setup",
+    bestFor: "Beginners Comparing IPTV Reseller Credits",
     accentColor: "#22c55e",
-    badge: "Best for Starters",
+    badge: "Beginner Guide",
     features: [
-      "Beginner-friendly reseller dashboard",
-      "Stable 4K no-buffering streaming",
-      "Simple Xtream Codes & M3U setup",
-      "MAG box & Smart TV support",
-      "Fast credit activation — start same day",
-      "Trial subscription generation",
-      "Step-by-step reseller onboarding",
-      "Fast WhatsApp support for new resellers",
+      "Explore Lion OTT reseller panel features for beginners",
+      "Compare wholesale IPTV reseller credit packages",
+      "Review customer accounts and subscription management",
+      "Check dashboard setup and reseller login requirements",
+      "Verify Xtream Codes, M3U and MAG compatibility",
+      "Confirm Smart TV support and streaming resolutions",
+      "Ask about reseller trials and onboarding guidance",
+      "Review credit activation, renewals and support terms",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Beginner Friendly" },
-      { label: "Support", value: "Fast WhatsApp" },
-      { label: "Credit Activation", value: "Same Day" },
-      { label: "Server Uptime", value: "99.5%+" },
+      { label: "Streaming Quality", value: "Confirm available resolutions" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Reseller management panel" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request reliability details" },
     ],
     faqs: [
-      { q: "Why is Lion OTT the best IPTV panel for beginners?", a: "Lion OTT has the simplest reseller dashboard of all panels — making credit purchases, subscription creation, and customer management easy for first-time IPTV resellers with zero technical background." },
-      { q: "Can I start an IPTV reseller business with Lion OTT without investment?", a: "Yes. Lion OTT has one of the lowest entry-point credit packages through IPTV Reseller, making it possible to start your IPTV reselling business with minimal upfront investment." },
-      { q: "Does Lion OTT have good streaming quality?", a: "Yes. Lion OTT delivers stable 4K Ultra HD streaming with minimal buffering, making it suitable for customers who expect high-quality IPTV." },
-      { q: "Is there a Lion OTT IPTV reseller panel free trial?", a: "Yes. IPTV Reseller offers a free trial on the Lion OTT reseller panel. Message us on WhatsApp to request your trial before purchasing credits." },
+      {
+        q: "What is the Lion OTT IPTV reseller panel?",
+        a: "Lion OTT is an IPTV reseller panel option for businesses comparing wholesale reseller credits, customer subscription management and dashboard tools. Confirm available functions and service terms with your provider."
+      },
+      {
+        q: "Is Lion OTT a good IPTV reseller panel for beginners?",
+        a: "Beginners can evaluate Lion OTT by checking dashboard usability, account setup instructions, minimum credit purchases, onboarding assistance and customer management tools. Request a demonstration before choosing a package."
+      },
+      {
+        q: "How can I buy Lion OTT IPTV reseller credits?",
+        a: "Contact the provider for current Lion OTT reseller credit pricing, wholesale packages, minimum order requirements and activation procedures. Compare renewal costs and other charges before buying credits."
+      },
+      {
+        q: "Does Lion OTT offer a free reseller panel trial?",
+        a: "Trial availability, duration and eligibility may vary between providers and packages. Ask whether a trial account or demonstration is available and confirm any restrictions before purchasing."
+      },
+      {
+        q: "Which devices and connection types work with Lion OTT?",
+        a: "Confirm compatibility for Xtream Codes, M3U playlists, MAG boxes, Smart TVs and other devices directly with the provider. Available resolutions and playback depend on the specific service package."
+      },
+      {
+        q: "How do Lion OTT reseller subscriptions and credits work?",
+        a: "Reseller credits may be used to create or renew customer subscriptions through a management dashboard. The exact credit-to-subscription conversion, account limits and expiry conditions must be confirmed before ordering."
+      },
     ],
     relatedSlugs: ["4k-ott-iptv-reseller-panel", "crystal-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel", "dino-iptv-reseller-panel"],
   },

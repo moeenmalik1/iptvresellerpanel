@@ -97,6 +97,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "4K OTT IPTV Reseller Panel | Credits & Features",
         description: "Explore 4K OTT IPTV reseller panel credits, dashboard features, subscription management, device compatibility and FAQs. Review options before ordering.",
       }
+    : panel.slug === "lion-ott-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Lion OTT IPTV Reseller Panel | Credits & Setup",
+        description: "Explore Lion OTT IPTV reseller credits, beginner dashboard setup, wholesale packages, subscription tools, compatibility and pricing questions.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
