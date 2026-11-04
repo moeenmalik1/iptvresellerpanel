@@ -92,6 +92,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Strong 8K IPTV Reseller Panel | Credits & Features",
         description: "Explore Strong 8K IPTV reseller panel credits, dashboard features, device compatibility, subscription tools and FAQs. Check package terms before ordering.",
       }
+    : panel.slug === "4k-ott-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "4K OTT IPTV Reseller Panel | Credits & Features",
+        description: "Explore 4K OTT IPTV reseller panel credits, dashboard features, subscription management, device compatibility and FAQs. Review options before ordering.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
