@@ -87,6 +87,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Strong 4K IPTV Reseller Panel | Credits & Features",
         description: "Explore Strong 4K IPTV reseller panel credits, dashboard tools, subscription management, device compatibility and FAQs. Compare options before ordering.",
       }
+    : panel.slug === "strong-8k-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Strong 8K IPTV Reseller Panel | Credits & Features",
+        description: "Explore Strong 8K IPTV reseller panel credits, dashboard features, device compatibility, subscription tools and FAQs. Check package terms before ordering.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
