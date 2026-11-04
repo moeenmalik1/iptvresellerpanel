@@ -76,7 +76,14 @@ export default function PanelPageTemplate({ panel }: Props) {
     }
   };
 
-  const { title: pageTitle, description: pageDescription } = getHighCtrMetadata();
+  // B1G-specific worldwide SEO copy; other product pages retain existing metadata.
+  const metadata = panel.slug === "b1g-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "B1G IPTV Reseller Panel | Credits & Features",
+        description: "Explore the B1G IPTV reseller panel, wholesale credit options, dashboard features, device compatibility and FAQs. Confirm current terms before ordering.",
+      }
+    : getHighCtrMetadata();
+  const { title: pageTitle, description: pageDescription } = metadata;
  
   // Describe the actual panel without unverified monetary offers or review metrics.
   // The seller is represented by the website's canonical Organization entity.
