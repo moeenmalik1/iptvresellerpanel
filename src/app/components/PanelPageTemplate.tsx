@@ -82,6 +82,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "B1G IPTV Reseller Panel | Credits & Features",
         description: "Explore the B1G IPTV reseller panel, wholesale credit options, dashboard features, device compatibility and FAQs. Confirm current terms before ordering.",
       }
+    : panel.slug === "strong-4k-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Strong 4K IPTV Reseller Panel | Credits & Features",
+        description: "Explore Strong 4K IPTV reseller panel credits, dashboard tools, subscription management, device compatibility and FAQs. Compare options before ordering.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
