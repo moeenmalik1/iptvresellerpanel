@@ -9,7 +9,7 @@ export default function ComparisonTable() {
   return (
     <section
       id="comparison"
-      aria-label="IPTV Reseller Panel Comparison 2026 — Best IPTV Panels for Resellers"
+      aria-label="IPTV reseller panel comparison information"
       style={{
         padding: "6rem 0",
         borderTop: "1px solid var(--border-color)",
@@ -41,7 +41,7 @@ export default function ComparisonTable() {
           <div style={{ overflowX: "auto" }}>
             <table className="compare-table" style={{ minWidth: 600 }}>
               <caption style={{ display: "none" }}>
-                IPTV Reseller Panel Comparison — Best IPTV Panels for Resellers 2026
+                IPTV reseller panel comparison — published specifications to verify
               </caption>
               <thead>
                 <tr style={{ background: "rgba(139,92,246,0.08)" }}>

@@ -11,7 +11,7 @@ export default function PopularPanelsSection() {
   const slugs = [
     "geo-iptv-reseller-panel",
     "dino-iptv-reseller-panel",
-    "trex-ott-iptv-reseller-panel", // Fallback for Falcon logo
+    "trex-ott-iptv-reseller-panel",
     "strong-4k-iptv-reseller-panel",
     "lion-ott-iptv-reseller-panel"
   ];
@@ -20,7 +20,7 @@ export default function PopularPanelsSection() {
   const links = [
     `/${locale}/geo-iptv-reseller-panel`,
     `/${locale}/dino-iptv-reseller-panel`,
-    `/${locale}#pricing`, // Falcon doesn't have a detail page, fallback to pricing section
+    `/${locale}/trex-ott-iptv-reseller-panel`,
     `/${locale}/strong-4k-iptv-reseller-panel`,
     `/${locale}/lion-ott-iptv-reseller-panel`
   ];

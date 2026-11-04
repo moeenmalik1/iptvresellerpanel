@@ -29,13 +29,13 @@ const panels = [
 
 const content: Record<string, { tag: string; titleMain: string; titleSpan: string; desc: string; viewPanel: string; footnote: string; cta: string }> = {
   en: {
-    tag: "Top IPTV Servers List 2026",
-    titleMain: "Best IPTV Reseller Panels & ",
-    titleSpan: "Top IPTV Servers 2026",
-    desc: "Browse our curated list of the best IPTV panels for resellers — each supporting Xtream Codes, M3U reseller panel access, and MAG box compatibility. Click any panel to view full reseller details, features, and credit pricing.",
+    tag: "IPTV Reseller Panel Directory",
+    titleMain: "Explore IPTV Reseller ",
+    titleSpan: "Panel Options",
+    desc: "Browse 22 reseller panel listings, then open the individual pages to compare credit packages, account-management features and published compatibility information. Verify specifications and current pricing with the supplier.",
     viewPanel: "View Panel",
-    footnote: "All panels include Xtream Codes, M3U & MAG box support. Free trial available.",
-    cta: "Buy IPTV Reseller Credits"
+    footnote: "Device compatibility, trial access and credit terms vary by panel. Confirm the details before ordering.",
+    cta: "Explore Credit Packages"
   },
   es: {
     tag: "Lista de Servidores IPTV Líderes 2026",
@@ -92,7 +92,7 @@ export default function PanelsGrid() {
   return (
     <section
       id="panels"
-      aria-label="Top IPTV Reseller Panels — Best IPTV Panels for Resellers 2026"
+      aria-label="IPTV reseller panels directory and comparison links"
       style={{
         padding: "6rem 0",
         borderTop: "1px solid var(--border-color)",
@@ -185,7 +185,7 @@ export default function PanelsGrid() {
             href={`/${locale}#pricing`}
             id="panels-view-pricing-cta"
             className="btn-primary"
-            aria-label="Buy IPTV reseller credits — view pricing for all panels"
+            aria-label="View reseller credit pricing examples and calculator"
             style={{
               display: "inline-flex", alignItems: "center", gap: 8,
               padding: "0.85rem 2rem", borderRadius: 10,

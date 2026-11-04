@@ -99,7 +99,7 @@ export default function HeroSection() {
               href={`/${locale}/comparisons`}
               id="hero-secondary-cta"
               className="btn-secondary"
-              aria-label="Compare best IPTV reseller panels for 2026"
+              aria-label="Compare IPTV reseller panel options"
               style={{
                 display: "inline-flex", alignItems: "center", gap: 8,
                 padding: "0.85rem 2rem", borderRadius: 10,

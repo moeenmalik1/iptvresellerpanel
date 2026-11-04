@@ -220,66 +220,66 @@ const dictionary: Record<string, Dictionary> = {
     trustBar: {
       stats: [
         { icon: "📺", label: "IPTV Reseller Panels", value: "20+" },
-        { icon: "🕐", label: "WhatsApp Support", value: "24/7" },
-        { icon: "🎬", label: "4K & 8K Streaming", value: "No Buffer" },
-        { icon: "⚡", label: "Credit Delivery", value: "Instant" },
+        { icon: "🕐", label: "WhatsApp Support", value: "Contact Us" },
+        { icon: "🎬", label: "4K & 8K Streaming", value: "Check Specs" },
+        { icon: "⚡", label: "Credit Delivery", value: "By Panel" },
         { icon: "🌍", label: "UK, USA & EU", value: "Global" },
-        { icon: "🏗️", label: "Server Uptime", value: "99.9%" },
+        { icon: "🏗️", label: "Server Reliability", value: "Ask Provider" },
       ]
     },
     featuresSection: {
       tag: "Why Choose IPTV Reseller",
-      titleMain: "Why IPTV Resellers Choose ",
-      titleSpan: "IPTV Reseller",
-      titleEnd: " in 2026",
-      desc: "Everything you need to launch and scale a profitable IPTV reselling business — from cheapest IPTV reseller panel access to enterprise-grade wholesale panel management.",
+      titleMain: "Why Choose ",
+      titleSpan: "IPTV Reseller Panels & Wholesale Credits",
+      titleEnd: "?",
+      desc: "Compare IPTV reseller dashboard features, wholesale credit options, account management tools and available supplier support to find a solution that fits your business requirements.",
       items: [
         {
           icon: "📡",
           title: "Premium IPTV Supplier",
-          desc: "We provide high-quality IPTV reseller services backed by reliable infrastructure and scalable reseller management tools.",
+          desc: "Explore IPTV supplier options, available reseller dashboards and technical features before selecting a panel for your business.",
           color: "#f59e0b",
         },
         {
           icon: "🖥️",
           title: "Advanced IPTV Reseller Panels",
-          desc: "Manage subscriptions, activate accounts, assign reseller credits, and monitor customer activity through a professional IPTV reseller panel.",
+          desc: "Review dashboard tools for customer accounts, credit allocation, subscription renewals and activity reporting. Available features depend on the panel.",
           color: "#8b5cf6",
         },
         {
           icon: "⚡",
           title: "Flexible IPTV Reseller Credits",
-          desc: "Purchase credits as needed and activate IPTV subscriptions instantly from your reseller IPTV panel.",
+          desc: "Review wholesale credit packages and subscription activation options. Credit requirements and activation times depend on the selected provider.",
           color: "#3b82f6",
         },
         {
           icon: "💼",
           title: "Wholesale IPTV Supplier Solutions",
-          desc: "Our wholesale IPTV supplier packages allow IPTV resellers to grow their business while maintaining full pricing control.",
+          desc: "Compare wholesale package sizes, credit costs and supported account settings. Supplier rules determine which pricing and management controls are available.",
           color: "#22c55e",
         },
         {
           icon: "💬",
           title: "Dedicated Reseller Support",
-          desc: "Receive assistance with IPTV panel setup, customer management, reseller packages, and business growth strategies.",
+          desc: "Contact the supplier to confirm available onboarding help, support channels, response times and any additional setup charges.",
           color: "#06b6d4",
         },
       ]
     },
     businessSection: {
       tag: "IPTV Credit System Explained",
-      titleMain: "How the IPTV Reseller ",
-      titleSpan: "Business Credit System Works",
-      desc1: "The IPTV reseller business runs on a credit-based system. You purchase IPTV reseller credits in bulk from a wholesale IPTV panel provider — then convert each credit into an IPTV subscription for your customers at your chosen price point.",
-      desc2: "IPTV Reseller is the easiest way to become an IPTV reseller without investment in servers or infrastructure. We handle the technical side — you focus on sales and growing your customer base in the UK, USA, EU, or anywhere globally.",
-      desc3: "Unlike a standard IPTV subscription (end-user), an IPTV reseller panel gives you full control over pricing, packages, and customer accounts — turning you into the provider.",
+      titleMain: "How Does the IPTV Reseller ",
+      titleSpan: "Credit System Work?",
+      desc1: "IPTV reseller panels commonly use a credit-based system to activate or renew customer subscriptions. Resellers purchase credits from a supplier and allocate them through a dashboard. Credit usage and subscription terms vary by provider.",
+      desc2: "A reseller dashboard can provide account management tools without requiring you to build your own streaming infrastructure. Compare supplier responsibilities, supported regions and technical requirements before choosing a package.",
+      desc3: "Unlike an end-user subscription, an IPTV reseller panel provides tools to manage customer accounts, allocate credits and configure available packages. The level of pricing and account control depends on the supplier.",
       controlLabel: "As an IPTV reseller, you control:",
       controls: [
         "Your own subscription pricing",
         "Customer & trial management",
         "Device & MAG box support",
         "Xtream Codes & M3U output",
-        "Monthly profit margins",
+        "Pricing and estimated margins",
         "Bulk credit allocation",
       ],
       cta: "Start IPTV Reseller Business",
@@ -287,25 +287,25 @@ const dictionary: Record<string, Dictionary> = {
         {
           step: "01",
           title: "Choose an IPTV Reseller Panel",
-          desc: "Select the IPTV reseller panel that best matches your business goals.",
+          desc: "Compare available panel features, supported devices, credit terms and supplier policies against your business requirements.",
           icon: "🖥️",
         },
         {
           step: "02",
           title: "Purchase IPTV Reseller Credits",
-          desc: "Buy reseller credits from a trusted IPTV supplier and allocate them to customer subscriptions.",
+          desc: "Check current wholesale rates and credit redemption rules with the supplier before buying or allocating credits.",
           icon: "💳",
         },
         {
           step: "03",
           title: "Create Customer Accounts",
-          desc: "Generate IPTV subscriptions directly from your reseller IPTV panel.",
+          desc: "Set up customer accounts with the package options and permissions supported by your selected panel.",
           icon: "👥",
         },
         {
           step: "04",
           title: "Grow Your IPTV Reseller Business",
-          desc: "Expand your customer base and scale your IPTV reseller operation using additional credits and reseller packages.",
+          desc: "Review ongoing credit costs, customer support obligations and compliance requirements as your reseller operation grows.",
           icon: "📈",
         },
       ]
@@ -314,7 +314,7 @@ const dictionary: Record<string, Dictionary> = {
       tag: "IPTV Panel Comparison 2026",
       titleMain: "IPTV Reseller Panel ",
       titleSpan: "Comparison 2026",
-      desc: "Compare the best IPTV reseller panels for 2026 — streaming quality, uptime reliability, dashboard features, and reseller flexibility to find your ideal IPTV panel match. Whether you need the cheapest IPTV reseller panel or the most advanced white label IPTV dashboard, we have it.",
+      desc: "Compare selected IPTV reseller panels by advertised streaming formats, dashboard functionality and support information. Confirm real-world performance, compatibility and pricing directly with each supplier.",
       cols: {
         panel: "IPTV Panel",
         quality: "Streaming Quality",
@@ -323,11 +323,11 @@ const dictionary: Record<string, Dictionary> = {
         bestFor: "Best For"
       },
       rows: [
-        { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "4K/8K", support: "24/7", dashboard: "Advanced", bestFor: "Premium Resellers", badge: "Top Pick" },
-        { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "4K", support: "Fast", dashboard: "Beginner Friendly", bestFor: "New IPTV Resellers", badge: "Best for Starters" },
-        { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Full HD/4K", support: "24/7", dashboard: "Professional", bestFor: "Growing Businesses", badge: "" },
-        { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "4K", support: "Fast", dashboard: "Modern", bestFor: "Bulk / Wholesale Resellers", badge: "" },
-        { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "4K", support: "24/7", dashboard: "Advanced", bestFor: "Large IPTV Businesses", badge: "" },
+        { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
+        { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
+        { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
+        { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
+        { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
       ],
       cta: "Full IPTV Panel Comparison 2026"
     },
@@ -335,9 +335,9 @@ const dictionary: Record<string, Dictionary> = {
       tag: "IPTV Panel Management",
       titleMain: "Professional ",
       titleSpan: "IPTV Reseller Dashboard",
-      titleEnd: " — Full Panel Control",
-      desc1: "Your IPTV reseller panel login gives you a full-featured white label dashboard to manage your entire IPTV reselling business. Track subscriptions, allocate credits, generate free trials, and monitor every customer — all from one centralized IPTV panel management interface.",
-      desc2: "Our IPTV dashboards support Xtream Codes reseller API, M3U reseller panel output, and MAG box device management — covering every IPTV delivery method your customers use.",
+      titleEnd: " — Key Management Tools",
+      desc1: "An IPTV reseller dashboard can centralize account management, credit allocation and subscription administration. Compare each panel’s available tools, user permissions and reporting options before selecting a package.",
+      desc2: "Compatibility with Xtream Codes, M3U and MAG devices varies by panel and provider. Confirm supported formats, devices and access requirements before purchasing credits.",
       features: [
         { icon: "👥", label: "Subscription management" },
         { icon: "💳", label: "Credit allocation & bulk import" },
@@ -348,8 +348,8 @@ const dictionary: Record<string, Dictionary> = {
         { icon: "📊", label: "Real-time user activity tracking" },
         { icon: "📦", label: "Custom package management" },
       ],
-      uptimeTitle: "99.9% IPTV Server Uptime Reliability",
-      uptimeDesc: "Stable servers — minimal downtime, no buffering guaranteed",
+      uptimeTitle: "Ask About Server Availability",
+      uptimeDesc: "Request current service terms, performance information and support details from your provider.",
       mockup: {
         title: "IPTV Reseller Dashboard",
         live: "Live",
@@ -366,11 +366,11 @@ const dictionary: Record<string, Dictionary> = {
       tag: "IPTV Supplier & IPTV Reseller Services",
       titleMain: "IPTV Supplier & ",
       titleSpan: "IPTV Reseller Services",
-      desc: "As a leading IPTV supplier, we provide comprehensive reseller solutions. Our goal is to help IPTV resellers build profitable recurring revenue through reliable IPTV supplier services.",
+      desc: "Explore reseller panel options, credit packages, account management features and supplier support. Compare terms carefully to understand the costs and responsibilities of running a reseller business.",
       stats: [
         { label: "IPTV Reseller Panels", value: "20+" },
-        { label: "Server Uptime", value: "99.9%" },
-        { label: "WhatsApp Support", value: "24/7" },
+        { label: "Server Reliability", value: "Check" },
+        { label: "Support Options", value: "Ask" },
       ],
       items: [
         { icon: "✓", text: "IPTV Reseller Panels" },
@@ -420,72 +420,72 @@ const dictionary: Record<string, Dictionary> = {
       tag: "IPTV Reseller FAQ",
       titleMain: "Frequently Asked ",
       titleSpan: "IPTV Reseller Questions",
-      desc: "Everything you need to know about starting your IPTV reseller business, how the IPTV credit system works, panel comparisons, free trials, and more.",
+      desc: "Answers to common questions about IPTV reseller panels, credit packages, account setup and supplier selection. Check provider-specific terms before ordering.",
       items: [
         {
           q: "What Is an IPTV Supplier?",
-          a: "An IPTV supplier provides IPTV services, reseller credits, and IPTV reseller panels that enable IPTV resellers to create and manage customer subscriptions.",
+          a: "An IPTV supplier may provide a reseller dashboard, credits and account-management tools. Check licensing, service terms, supported regions and the products actually included in each offer.",
         },
         {
           q: "What Is an IPTV Reseller?",
-          a: "An IPTV reseller purchases credits from an IPTV supplier and sells IPTV subscriptions to customers using a reseller IPTV panel.",
+          a: "An IPTV reseller typically uses a supplier-provided dashboard and credits to manage customer subscriptions. The reseller remains responsible for following applicable licensing and consumer laws.",
         },
         {
           q: "How Do IPTV Reseller Panels Work?",
-          a: "IPTV reseller panels allow IPTV resellers to activate subscriptions, manage customers, assign credits, and monitor account activity.",
+          a: "An IPTV reseller panel is a dashboard for handling customer accounts, subscription activation and credit balances. Specific features, credit rules and supported devices differ between suppliers.",
         },
         {
           q: "How Can I Become an IPTV Reseller?",
-          a: "Choose a reseller package, purchase credits, access your IPTV reseller panel, and begin creating customer accounts.",
+          a: "Check the supplier’s authorization, packages, credit rules and technical support first. If the terms fit your needs, choose a panel, complete setup and manage customer accounts under applicable laws.",
         },
         {
           q: "Why Choose IPTV Reseller?",
-          a: "IPTV Reseller combines premium IPTV supplier services, powerful IPTV reseller panels, flexible reseller credits, and dedicated support for IPTV resellers worldwide.",
+          a: "IPTV Reseller provides information about reseller panels and wholesale credit options. Compare package terms, dashboard tools and available support, and contact the team for current details.",
         },
       ]
     },
     ctaSection: {
-      tag: "Partner with a Trusted IPTV Supplier Today",
-      titleMain: "Partner with a ",
-      titleSpan: "Trusted IPTV Supplier Today",
-      desc1: "Join thousands of IPTV resellers using IPTV Reseller. Access premium IPTV reseller panels, wholesale IPTV supplier solutions, flexible reseller packages, and everything you need to build a successful IPTV reseller business.",
+      tag: "Explore IPTV Reseller Options",
+      titleMain: "Compare Panels with ",
+      titleSpan: "IPTV Reseller",
+      desc1: "Compare reseller panel options, available credit packages and dashboard tools before choosing your supplier. Contact us for current pricing, activation details and supported regions.",
       desc2: "",
       btnPrimary: "Start Reselling on WhatsApp",
       btnSecondary: "Compare IPTV Panels 2026",
       badges: [
         { icon: "🔒", text: "Secure & Trusted" },
-        { icon: "⚡", text: "Instant Credit Activation" },
+        { icon: "⚡", text: "Activation Terms Vary" },
         { icon: "💬", text: "24/7 WhatsApp Support" },
         { icon: "🌍", text: "UK, USA & EU" },
-        { icon: "🎬", text: "4K No Buffering" },
-        { icon: "🆓", text: "Free Trial Available" },
+        { icon: "🎬", text: "Check Supported Formats" },
+        { icon: "🆓", text: "Ask About Trials" },
       ]
     },
     preferredSupplierSection: {
       tag: "Preferred IPTV Supplier",
       titleMain: "Why We Are a ",
       titleSpan: "Preferred IPTV Supplier",
-      desc: "IPTV Reseller combines the advantages of a trusted IPTV supplier with advanced IPTV reseller tools.",
+      desc: "Review key reseller panel features, wholesale credit options and support services to find the right setup for your needs.",
       items: [
         {
           title: "Trusted IPTV Supplier",
-          desc: "Direct relationships with top-tier server providers to guarantee premium streaming feeds.",
+          desc: "Ask about the sourcing, authorization and technical specifications of available services before choosing a supplier.",
         },
         {
           title: "Reliable IPTV Reseller Panels",
-          desc: "Access 20+ robust dashboards including Strong 4K, Lion OTT, and Dino IPTV.",
+          desc: "Browse the listed reseller panel options, including Strong 4K, Lion OTT and Dino IPTV, and check their individual features.",
         },
         {
           title: "Flexible Reseller Credits",
-          desc: "Operate with an instant-activation credit system with no expiry restrictions.",
+          desc: "Review credit allocation, activation and expiration terms for your selected provider and package.",
         },
         {
           title: "Wholesale IPTV Packages",
-          desc: "Scale your business with bulk rates that maximize your net profit margins.",
+          desc: "Compare available bulk credit rates and estimate gross margins before fees, refunds, taxes and operating expenses.",
         },
         {
           title: "Fast Account Activation",
-          desc: "Create client lines and trials in less than 60 seconds from any device.",
+          desc: "Check what account setup tools, activation times and trial functions each panel supports.",
         },
         {
           title: "Scalable IPTV Reseller Solutions",
@@ -493,15 +493,15 @@ const dictionary: Record<string, Dictionary> = {
         },
         {
           title: "Dedicated Support",
-          desc: "24/7 technical ticket response and priority WhatsApp group onboarding.",
+          desc: "Confirm current help desk availability, WhatsApp support and onboarding options with the team.",
         },
         {
           title: "Global Coverage",
-          desc: "Geo-distributed streaming servers optimized for the UK, USA, EU, and Canada.",
+          desc: "Confirm coverage, regional access and any service restrictions for your intended customer markets.",
         },
         {
           title: "Business Growth Tools",
-          desc: "Access marketing templates, DNS routing setups, and custom portal configurations.",
+          desc: "Check whether templates, DNS settings or custom portal options are included in the chosen panel package.",
         },
       ]
     },
@@ -509,27 +509,27 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Popular IPTV Panels",
       titleMain: "Popular IPTV ",
       titleSpan: "Reseller Panels",
-      desc: "IPTV Reseller offers access to some of the most popular IPTV reseller panels available today.",
+      desc: "Browse selected IPTV reseller panels and compare their account tools, wholesale credit terms and product details before contacting a supplier.",
       items: [
         {
           title: "GEO IPTV Reseller Panel",
-          desc: "A professional IPTV panel built for IPTV resellers who require reliability and scalability.",
+          desc: "Review GEO IPTV reseller dashboard features, credit package information and supported account controls.",
         },
         {
           title: "Dino IPTV Reseller Panel",
-          desc: "A popular reseller IPTV panel offering flexible credit management and reseller tools.",
+          desc: "Compare Dino IPTV credit allocation, account management features and subscription setup requirements.",
         },
         {
-          title: "Falcon IPTV Reseller Panel",
-          desc: "A powerful IPTV reseller solution designed for growing IPTV reseller businesses.",
+          title: "T-Rex OTT IPTV Reseller Panel",
+          desc: "Explore T-Rex OTT reseller panel features, account management options, available credit packages and subscription setup requirements.",
         },
         {
           title: "Strong 4K IPTV Reseller Panel",
-          desc: "Perfect for IPTV resellers looking to offer premium streaming experiences.",
+          desc: "Explore Strong 4K dashboard features, compatibility information and available reseller credit options.",
         },
         {
           title: "Lion OTT IPTV Reseller Panel",
-          desc: "One of the most trusted IPTV reseller panels for account management and customer activation.",
+          desc: "Review Lion OTT reseller account tools, available packages and provider-specific activation policies.",
         },
       ]
     },
@@ -537,13 +537,13 @@ const dictionary: Record<string, Dictionary> = {
       tag: "Buy IPTV Reseller Credits",
       titleMain: "Flexible IPTV Reseller ",
       titleSpan: "Credit Packages",
-      desc: "Unlock your private white-label streaming business. Compare credit packages below and choose the tier that fits your budget.",
+      desc: "Compare IPTV reseller credit packages, wholesale pricing tiers and dashboard features. Package revenue examples assume a $10 resale price per credit and are illustrative, not guaranteed. Estimated margins exclude operating expenses, payment fees, refunds and taxes. Confirm current package prices and credit terms before ordering.",
       bestValue: "★ BEST VALUE",
       pkgCostLabel: "Package Price (To Buy)",
       totalLabel: "total",
       creditLabel: "credit",
-      resellRevenueLabel: "Resell Revenue",
-      netProfitLabel: "Your Net Profit",
+      resellRevenueLabel: "Illustrative Resale Revenue",
+      netProfitLabel: "Estimated Gross Margin",
       plans: [
         {
           id: "starter",
@@ -593,7 +593,7 @@ const dictionary: Record<string, Dictionary> = {
           rate: "$0.70",
           revenue: "5,000",
           profit: "4,650",
-          description: "Perfect for agencies and high-volume IPTV resellers seeking maximum profitability.",
+          description: "Designed for agencies and high-volume IPTV resellers comparing larger wholesale credit packages.",
           features: [
             "500 wholesale credits (No expiry)",
             "Elite admin control panels",
@@ -607,8 +607,8 @@ const dictionary: Record<string, Dictionary> = {
         },
       ],
       calculator: {
-        title: "IPTV Reseller Profit Calculator",
-        desc: "Select credit quantity and your monthly resell price to estimate total profit potential.",
+        title: "IPTV Reseller Credit & Margin Calculator",
+        desc: "Estimate revenue and gross margin using your selected credit quantity and resale price. Figures are illustrative and exclude operating costs, fees, refunds and taxes.",
         purchaseLabel: "Credits to Purchase",
         creditsSuffix: "Credits",
         resellPriceLabel: "Your Monthly Resell Price",
@@ -616,20 +616,20 @@ const dictionary: Record<string, Dictionary> = {
         typicalLabel: "Typical",
         costToBuy: "Package Cost (To Buy):",
         grossRevenue: "Gross Revenue (To Sell):",
-        netProfit: "Your Net Profit:",
+        netProfit: "Estimated Gross Margin:",
         cta: "Secure Reseller Setup"
       }
     },
     footer: {
-      brandDesc1: "IPTV Reseller is the best IPTV reseller panel provider — offering white label IPTV panels, wholesale IPTV credits, Xtream Codes & M3U reseller dashboards, and 4K no-buffering servers for IPTV resellers worldwide.",
-      brandDesc2: "Serving IPTV resellers in the UK, USA, the EU and globally — with 24/7 WhatsApp support for your IPTV reselling business.",
+      brandDesc1: "IPTV Reseller provides information on reseller panels, wholesale credit options and account-management dashboards. Review each provider’s technical specifications and terms before ordering.",
+      brandDesc2: "Explore reseller options for the UK, USA and other markets. Confirm region availability and current support hours before ordering.",
       cols: {
         panels: "IPTV Reseller Panels",
         comparisons: "Panel Comparisons 2026",
         guides: "Reseller Guides",
         quickLinks: "Quick Links"
       },
-      copyright: "© 2026 IPTV Reseller — #1 IPTV Reseller Panel Provider. All rights reserved.",
+      copyright: "© 2026 IPTV Reseller. All rights reserved.",
       disclaimer: "IPTV Reseller Panels available in UK, USA, the EU & worldwide. All trademarks belong to their respective owners."
     }
   },

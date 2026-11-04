@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getSectionTranslations } from "@/app/lib/translations";
 import dynamic from "next/dynamic";
 import Header from "@/app/components/Header";
 import HeroSection from "@/app/components/HeroSection";
@@ -49,12 +50,7 @@ export default async function HomePage({
       email: "Iptvreseller77@gmail.com",
       contactType: "customer support",
       availableLanguage: ["English", "Spanish", "French", "Portuguese", "Swedish", "Norwegian"],
-      contactOption: "TollFree",
     },
-    sameAs: [
-      "https://twitter.com/foxiptvpanels",
-      "https://youtube.com/c/foxiptvpanels",
-    ],
     areaServed: [
       { "@type": "Country", name: c("regionName") },
       { "@type": "Country", name: "United Kingdom" },
@@ -103,14 +99,6 @@ export default async function HomePage({
     description: t("description"),
     publisher: {
       "@id": "https://www.iptvreseller.live/#organization"
-    },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: "https://www.iptvreseller.live/search?q={search_term_string}",
-      },
-      "query-input": "required name=search_term_string",
     },
   };
 
@@ -173,16 +161,8 @@ export default async function HomePage({
           },
         ];
       default:
-        return [
-          {
-            q: "What is an IPTV reseller panel?",
-            a: "An IPTV reseller panel is a white label dashboard that allows users to create and manage IPTV subscriptions using reseller credits. It supports Xtream Codes, M3U, and MAG box connections, and gives resellers full control over subscription creation, credit allocation, trial generation, and customer management.",
-          },
-          {
-            q: "How do IPTV reseller credits work?",
-            a: "IPTV reseller credits are the currency of the IPTV credit system. Each credit corresponds to one month of IPTV subscription for one customer. You buy credits in bulk from a wholesale IPTV panel provider like IPTV Reseller, then use them to activate subscriptions for your end customers at your own pricing — keeping the profit margin.",
-          },
-        ];
+        return getSectionTranslations(locale).faqSection.items;
+
     }
   };
 
@@ -208,7 +188,6 @@ export default async function HomePage({
   rel="canonical"
   href={`https://www.iptvreseller.live/${locale}`}
 />
-      <meta name="keywords" content={t("keywords")} />
       
       <meta property="og:title" content={t("title")} />
       <meta property="og:description" content={t("description")} />
@@ -278,7 +257,7 @@ export default async function HomePage({
         <PreferredSupplierSection />
 
         {/* Global Testimonials Reviews */}
-        <TestimonialsSection />
+        {!locale.startsWith("en") && <TestimonialsSection />}
 
         {/* Reseller FAQs */}
         <FAQSection />

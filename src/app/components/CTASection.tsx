@@ -106,7 +106,7 @@ export default function CTASection() {
               href={`/${locale}/comparisons`}
               id="final-compare-cta"
               className="btn-secondary"
-              aria-label="Compare IPTV reseller panels — find the best IPTV panel for 2026"
+              aria-label="Compare IPTV reseller panel options and available features"
               style={{
                 display: "inline-flex", alignItems: "center", gap: 8,
                 padding: "1rem 2.25rem", borderRadius: 12,

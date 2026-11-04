@@ -8,7 +8,7 @@ export default function BenefitsSection() {
   return (
     <section
       id="benefits"
-      aria-label="Benefits of Fox IPTV Reseller Program"
+      aria-label="IPTV reseller panel features and wholesale credit options"
       style={{
         padding: "6rem 0",
         borderTop: "1px solid var(--border-color)",

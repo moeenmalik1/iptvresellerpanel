@@ -39,7 +39,7 @@ export default function PricingSection() {
   return (
     <section
       id="pricing"
-      aria-label="Buy IPTV Reseller Credits — Cheapest IPTV Reseller Panel Pricing"
+      aria-label="Compare IPTV Reseller Credit Packages and Wholesale Pricing"
       style={{
         padding: "6rem 0",
         borderTop: "1px solid var(--border-color)",
@@ -212,7 +212,7 @@ export default function PricingSection() {
 
               {/* Order Button */}
               <a
-                href={`https://wa.me/447463012833?text=Hello%20Fox%20IPTV%20Panels!%20I%20want%20to%20order%20the%20${encodeURIComponent(plan.name)}%20(${symbol}${plan.cost}).`}
+                href={`https://wa.me/447463012833?text=Hello%20IPTV%20Reseller!%20I%20want%20to%20order%20the%20${encodeURIComponent(plan.name)}%20(${symbol}${plan.cost}).`}
                 target="_blank"
                 rel="noopener noreferrer"
                 id={`pricing-${plan.id}-cta`}
