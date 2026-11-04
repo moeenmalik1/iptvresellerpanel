@@ -275,38 +275,59 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "Ultra 8K OTT",
     slug: "ultra-8k-ott-iptv-reseller-panel",
-    tagline: "Ultra 8K OTT IPTV Reseller Panel — True 8K Streaming for Elite Resellers",
-    description: "Ultra 8K OTT is a top-tier IPTV reseller panel designed for resellers targeting premium customers who demand true 8K Ultra HD streaming. With dedicated ultra-high-bandwidth servers and a professional reseller dashboard, Ultra 8K OTT sets the gold standard.",
-    longDescription: "Ultra 8K OTT combines the very best IPTV server infrastructure with a comprehensive reseller management dashboard. Designed for resellers operating at scale, it handles bulk subscriptions, advanced credit management, and delivers 8K streaming to any Xtream Codes, M3U, or MAG-compatible device without compromise.",
-    quality: "8K Ultra HD",
-    qualityBadge: "8K Streaming",
-    support: "24/7",
-    dashboardType: "Professional",
-    bestFor: "Elite & Premium IPTV Resellers",
+    tagline: "Ultra 8K OTT IPTV Reseller Panel — Credits & Features",
+    description: "Explore the Ultra 8K OTT IPTV reseller panel, wholesale IPTV credits, reseller dashboard features, bulk subscription management and device compatibility. Compare package terms before ordering.",
+    longDescription: "The Ultra 8K OTT IPTV reseller panel is an option for businesses comparing reseller credit packages, customer subscription management and dashboard tools. If you are researching Ultra 8K OTT reseller credits, review the available wholesale credit pricing, minimum purchase requirements, activation terms and account renewal conditions. Ask the provider how its IPTV reseller dashboard handles credit allocation, customer accounts, subscription creation, expiration dates and bulk subscription management. For businesses serving multiple customers, it is important to understand account limits, connection restrictions, renewal workflows and available reporting features before purchasing. The Ultra 8K OTT product name does not guarantee that every channel or stream is available in 8K resolution. Confirm supported streaming resolutions, compatible devices and network requirements for the specific service package. Ask whether Xtream Codes, M3U playlists, MAG devices and Smart TVs are supported. When comparing Ultra 8K OTT with Strong 8K, evaluate verified credit costs, dashboard functionality, service reliability and customer support arrangements instead of assuming one panel provides superior performance. Review refund conditions, trial availability and any additional fees. Before reselling subscriptions, confirm that content distribution is appropriately licensed in your target markets.",
+    quality: "Confirm available resolutions",
+    qualityBadge: "8K Options",
+    support: "Confirm availability",
+    dashboardType: "Reseller Management",
+    bestFor: "Resellers Comparing Bulk Credit Packages",
     accentColor: "#f59e0b",
-    badge: "Ultra Premium",
+    badge: "Panel Guide",
     features: [
-      "True 8K Ultra HD no-buffering streaming",
-      "Professional-grade reseller dashboard",
-      "Xtream Codes, M3U & MAG box compatible",
-      "Highest bandwidth server infrastructure",
-      "Advanced bulk credit management",
-      "Priority 24/7 WhatsApp reseller support",
-      "Real-time uptime & performance monitoring",
-      "Best IPTV reseller profit margins at scale",
+      "Explore Ultra 8K OTT reseller panel features",
+      "Compare wholesale IPTV reseller credit packages",
+      "Review bulk subscription and account management",
+      "Check reseller dashboard and credit allocation tools",
+      "Verify Xtream Codes, M3U and MAG compatibility",
+      "Confirm available 8K options and supported devices",
+      "Review account limits, renewals and activation terms",
+      "Compare support, reliability and package conditions",
     ],
     specs: [
-      { label: "Streaming Quality", value: "8K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Professional Panel" },
-      { label: "Support", value: "24/7 Priority" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.9%" },
+      { label: "Streaming Quality", value: "Confirm available resolutions" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Reseller management panel" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request reliability details" },
     ],
     faqs: [
-      { q: "What is the Ultra 8K OTT IPTV reseller panel?", a: "Ultra 8K OTT is an elite IPTV reseller panel offering true 8K Ultra HD streaming via Xtream Codes, M3U, and MAG box — with a professional dashboard for managing reseller credits and subscriptions." },
-      { q: "Who is Ultra 8K OTT designed for?", a: "Ultra 8K OTT is designed for established IPTV resellers who want to target premium customers — hotels, sports venues, or high-end residential clients — with the highest possible streaming quality." },
-      { q: "How does Ultra 8K OTT compare to Strong 8K?", a: "Both are top-tier 8K panels. Ultra 8K OTT is known for its dedicated bandwidth and consistency, while Strong 8K is known for its advanced dashboard features. IPTV Reseller can help you compare and choose the right one." },
+      {
+        q: "What is the Ultra 8K OTT IPTV reseller panel?",
+        a: "Ultra 8K OTT is an IPTV reseller panel option for businesses exploring wholesale credits, customer subscription tools and account management. Request current dashboard specifications and service terms before ordering."
+      },
+      {
+        q: "How can I buy Ultra 8K OTT IPTV reseller credits?",
+        a: "Contact the provider for available wholesale credit packages, minimum order requirements, payment conditions and activation procedures. Compare costs, renewals and account limits before buying."
+      },
+      {
+        q: "Does Ultra 8K OTT guarantee 8K streaming?",
+        a: "The product name alone does not guarantee 8K playback. Actual resolution depends on the available content, service package, compatible device and network conditions. Ask for verified specifications."
+      },
+      {
+        q: "Does Ultra 8K OTT support Xtream Codes, M3U and MAG?",
+        a: "Connection compatibility should be verified for the specific package. Ask the provider for an updated list covering Xtream Codes, M3U, MAG devices and Smart TVs before making a purchase."
+      },
+      {
+        q: "How does Ultra 8K OTT compare with Strong 8K?",
+        a: "Both are separately listed IPTV reseller panel options. Compare current wholesale credit prices, dashboard features, supported resolutions, device compatibility, account limits and support terms before deciding."
+      },
+      {
+        q: "Is Ultra 8K OTT suitable for bulk IPTV subscription management?",
+        a: "Businesses considering bulk subscriptions should verify credit allocation tools, customer account limits, renewal workflows and reporting features. Request a dashboard demonstration to confirm the required functionality."
+      },
     ],
     relatedSlugs: ["strong-8k-iptv-reseller-panel", "strong-4k-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel", "nexon-iptv-reseller-panel"],
   },
