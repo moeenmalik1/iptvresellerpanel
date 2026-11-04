@@ -36,6 +36,20 @@ const nextConfig: NextConfig = {
     ];
 
     return [
+      // One global English Homepage for all countries and languages
+      {
+        source: "/",
+        destination: "/en",
+        permanent: true,
+      },
+      ...["en-gb", "en-au", "es", "fr", "pt", "sv", "no"].map(
+        (locale) => ({
+          source: `/${locale}`,
+          destination: "/en",
+          permanent: true,
+        })
+      ),
+
       // Redirect to existing relevant guide articles
       {
         source: `/:locale(${locales})/guides/how-to-start-iptv-reseller-business`,

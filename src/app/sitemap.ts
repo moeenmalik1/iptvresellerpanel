@@ -99,11 +99,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   // 1. Static website pages.
+  // Only /en is the indexable global Homepage.
+  // Other page types retain their supported locale URLs.
   for (const page of STATIC_PAGES) {
+    const pageLocales = page.path === ""
+      ? (["en"] as const)
+      : LOCALES;
+
     addPage(
       page.path,
       page.priority,
-      page.changeFrequency
+      page.changeFrequency,
+      pageLocales
     );
   }
 

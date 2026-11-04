@@ -9,8 +9,8 @@ const intlMiddleware = createMiddleware({
     // Default fallback locale
     defaultLocale: "en",
 
-    // Enabled to automatically redirect users based on their browser language / location
-    localeDetection: true,
+    // Use explicit locale URLs; global Homepage redirects are in next.config.ts
+    localeDetection: false,
 });
 
 // The Guides Admin panel (/admin, /api/admin) is a self-contained auth area
