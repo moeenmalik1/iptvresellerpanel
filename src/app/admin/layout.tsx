@@ -17,7 +17,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-    title: "Guides Admin | Fox IPTV Panels",
+    title: "Guides Admin | IPTV Reseller",
     robots: { index: false, follow: false },
 };
 
