@@ -33,8 +33,8 @@ export default async function ContactPage({
   const pricing = getLocalizedPricing(locale);
 
   const titleText = locale === "es"
-    ? `Comprar Créditos IPTV Reseller — Lista de Precios en ${regionName} | Fox IPTV Panels`
-    : `Buy IPTV Reseller Credits — Price List & Direct Order in ${regionName} | Fox IPTV Panels`;
+    ? `Comprar Créditos IPTV Reseller — Lista de Precios en ${regionName} | IPTV Reseller`
+    : `Buy IPTV Reseller Credits — Price List & Direct Order in ${regionName} | IPTV Reseller`;
 
   const descText = locale === "es"
     ? `Consulte las tarifas de créditos IPTV más baratas para ${regionName}. Genere su pedido de panel de control por WhatsApp al instante. Aceptamos PayPal, Crypto, Tarjetas.`
