@@ -115,6 +115,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Dino IPTV Reseller Panel | Credits & Setup",
         description: "Explore Dino IPTV reseller credits, wholesale packages, dashboard setup, subscription management, device compatibility and pricing FAQs before ordering.",
       }
+    : panel.slug === "trex-ott-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "T-Rex OTT IPTV Reseller Panel | Credits & Setup",
+        description: "Explore T-Rex OTT IPTV reseller credits, wholesale packages, dashboard features, bulk subscriptions, device compatibility and pricing before ordering.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  

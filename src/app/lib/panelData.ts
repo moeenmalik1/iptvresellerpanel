@@ -393,38 +393,59 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "T-Rex OTT",
     slug: "trex-ott-iptv-reseller-panel",
-    tagline: "T-Rex OTT IPTV Reseller Panel — Powerful Performance for Growing Businesses",
-    description: "T-Rex OTT is a powerful IPTV reseller panel combining fast streaming performance with a feature-rich reseller dashboard. Perfect for IPTV resellers scaling their customer base and looking for a reliable, scalable solution.",
-    longDescription: "T-Rex OTT delivers robust IPTV streaming performance with a comprehensive reseller management panel. The credit system scales efficiently from small starter packages to large wholesale volumes, making T-Rex OTT suitable for resellers at any growth stage. Strong Xtream Codes, M3U, and MAG box compatibility ensures all your customers are covered.",
-    quality: "4K Ultra HD",
-    qualityBadge: "4K Streaming",
-    support: "24/7",
-    dashboardType: "Feature-Rich",
-    bestFor: "Scaling IPTV Resellers",
+    tagline: "T-Rex OTT IPTV Reseller Panel — Wholesale Credits & Setup",
+    description: "Explore the T-Rex OTT IPTV reseller panel, wholesale reseller credits, dashboard tools, bulk subscription management and account setup. Compare credit pricing, features and service terms before ordering.",
+    longDescription: "The T-Rex OTT IPTV reseller panel is an option for businesses comparing wholesale IPTV credits, reseller dashboard tools and subscription management systems. If you want to buy T-Rex OTT reseller credits, begin by reviewing the current wholesale credit packages, minimum order quantities, payment terms and subscription renewal costs. Ask the provider for a demonstration of the T-Rex OTT reseller dashboard to understand customer account creation, credit allocation, subscription activation and expiry management. Businesses planning to manage multiple customers should also check bulk subscription tools, reporting features, account limits and any available sub-reseller permissions. Before choosing a package, confirm supported connection methods such as Xtream Codes, M3U playlists and MAG devices, along with Smart TV compatibility and simultaneous connection limits. The product name does not guarantee 4K playback, uninterrupted streams or a specific server uptime. Request current streaming specifications, reliability information and device requirements. When comparing T-Rex OTT IPTV reseller panel pricing with other wholesale IPTV credit packages, calculate the total cost per subscription, renewal charges and operational expenses. Confirm trial availability, reseller login procedures, activation times, refund conditions and technical support arrangements before purchasing. Businesses must also verify content licensing and distribution rights for the markets they intend to serve.",
+    quality: "Confirm available resolutions",
+    qualityBadge: "4K Options",
+    support: "Confirm availability",
+    dashboardType: "Reseller Management",
+    bestFor: "Growing & Bulk IPTV Resellers",
     accentColor: "#ef4444",
     badge: "",
     features: [
-      "High-performance 4K streaming servers",
-      "Feature-rich reseller management dashboard",
-      "Full Xtream Codes & M3U support",
-      "MAG box & all device compatibility",
-      "Scalable IPTV credit packages",
-      "Bulk subscription creation tools",
-      "Customer trial management",
-      "24/7 dedicated WhatsApp support",
+      "Explore T-Rex OTT reseller panel features",
+      "Compare wholesale IPTV reseller credit packages",
+      "Review customer account and subscription management",
+      "Check reseller dashboard and credit allocation tools",
+      "Verify Xtream Codes, M3U and MAG compatibility",
+      "Ask about bulk subscription creation and renewals",
+      "Confirm streaming quality and device requirements",
+      "Review credit activation, support and account terms",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Feature-Rich Panel" },
-      { label: "Support", value: "24/7 WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.7%+" },
+      { label: "Streaming Quality", value: "Confirm available resolutions" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Reseller management panel" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request reliability details" },
     ],
     faqs: [
-      { q: "What is the T-Rex OTT IPTV reseller panel?", a: "T-Rex OTT is a feature-rich IPTV reseller panel offering 4K streaming with a comprehensive dashboard for credit management, subscription creation, and customer tracking." },
-      { q: "Is T-Rex OTT suitable for bulk resellers?", a: "Yes. T-Rex OTT's credit system scales well from small bundles to large wholesale packages, making it effective for both growing and high-volume IPTV resellers." },
-      { q: "How do I start with T-Rex OTT?", a: "Message IPTV Reseller on WhatsApp. We'll activate your T-Rex OTT reseller panel with instant credit access and provide full onboarding guidance." },
+      {
+        q: "What is the T-Rex OTT IPTV reseller panel?",
+        a: "T-Rex OTT is an IPTV reseller panel option for businesses comparing wholesale credits, customer subscriptions and reseller dashboard features. Review current provider specifications and service terms before purchasing."
+      },
+      {
+        q: "How can I buy T-Rex OTT IPTV reseller credits?",
+        a: "Contact the provider for current T-Rex OTT wholesale credit packages, minimum order requirements, payment terms and activation procedures. Compare costs and renewal rules before buying."
+      },
+      {
+        q: "Is T-Rex OTT suitable for bulk IPTV resellers?",
+        a: "Businesses managing multiple subscriptions can evaluate T-Rex OTT by checking bulk account creation, credit allocation, renewal workflows, customer limits and reporting tools. Verify these capabilities through a dashboard demonstration."
+      },
+      {
+        q: "What features should I check in the T-Rex OTT reseller dashboard?",
+        a: "Check customer account management, subscription activation, expiry dates, credit balances, renewals and available administrative controls. Confirm whether sub-reseller accounts and reporting tools are included."
+      },
+      {
+        q: "How much does the T-Rex OTT reseller panel cost?",
+        a: "T-Rex OTT reseller panel pricing depends on the provider, credit quantity and package terms. Request a current wholesale quotation and calculate the effective cost per subscription, including renewal and additional fees."
+      },
+      {
+        q: "Does T-Rex OTT support 4K streaming and different devices?",
+        a: "Available streaming resolutions and device compatibility depend on the service package. Verify Xtream Codes, M3U, MAG, Smart TV and connection-limit requirements before ordering. Do not assume guaranteed uptime or buffer-free playback."
+      },
     ],
     relatedSlugs: ["dino-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "extra-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel"],
   },
