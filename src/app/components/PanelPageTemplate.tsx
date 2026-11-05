@@ -29,18 +29,21 @@ export default function PanelPageTemplate({ panel }: Props) {
 
   const domain = "https://www.iptvreseller.live";
   const canonicalUrl = `${domain}/${locale}/${panel.slug}`;
+  const panelLabel = /IPTV$/i.test(panel.name.trim())
+    ? `${panel.name} Reseller Panel`
+    : `${panel.name} IPTV Reseller Panel`;
 
   // Dynamically constructed high-CTR page title and description targeting customer pain points (buffering, profits, support)
   const getHighCtrMetadata = () => {
     switch (locale) {
       case "en-gb":
         return {
-          title: `${panel.name} IPTV Reseller Panel UK: BT & Virgin Media Buffer-Free`,
+          title: `${panelLabel} UK: BT & Virgin Media Buffer-Free`,
           description: `Tired of UK ISP blocks and constant buffering? Get the stable ${panel.name} reseller panel. Optimized for UK broadband. Wholesale GBP credits, try free!`,
         };
       case "en-au":
         return {
-          title: `${panel.name} IPTV Reseller Panel AU: NBN Optimized & Low Latency`,
+          title: `${panelLabel} AU: NBN Optimized & Low Latency`,
           description: `Tired of NBN streaming buffering? Get the stable ${panel.name} reseller panel. Direct AUD wholesale credits, white label, instant setup & 24/7 support.`,
         };
       case "es":
@@ -70,7 +73,7 @@ export default function PanelPageTemplate({ panel }: Props) {
         };
       default:
         return {
-          title: `${panel.name} IPTV Reseller Panel: Stop Client Buffering & Maximize Profits`,
+          title: `${panelLabel}: Stop Client Buffering & Maximize Profits`,
           description: `Tired of server buffering & losing clients? Get the stable ${panel.name} reseller panel. Instant wholesale credits, white label, free trials & 24/7 WhatsApp support.`,
         };
     }
@@ -121,12 +124,12 @@ export default function PanelPageTemplate({ panel }: Props) {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "@id": `${canonicalUrl}#webpage`,
-    name: `${panel.name} IPTV Reseller Panel`,
+    name: `${panelLabel}`,
     description: pageDescription,
     url: canonicalUrl,
     about: {
       "@type": "Thing",
-      name: `${panel.name} IPTV Reseller Panel`,
+      name: `${panelLabel}`,
     },
     isPartOf: {
       "@type": "WebSite",
@@ -222,7 +225,7 @@ export default function PanelPageTemplate({ panel }: Props) {
 
         {/* Hero */}
         <section
-          aria-label={`${panel.name} IPTV Reseller Panel — Hero`}
+          aria-label={`${panelLabel} — Hero`}
           style={{ padding: "5rem 0 4rem", position: "relative", overflow: "hidden" }}
         >
           <div style={{
@@ -262,7 +265,7 @@ export default function PanelPageTemplate({ panel }: Props) {
                   marginBottom: "1.25rem",
                 }}>
                   <span className="gradient-text">{panel.name}</span>{" "}
-                  {lc({ en: "IPTV Reseller Panel", "en-gb": "IPTV Reseller Panel", "en-au": "IPTV Reseller Panel", es: "Panel Revendedor IPTV", fr: "Panneau Revendeur IPTV", pt: "Painel Revendedor IPTV", sv: "IPTV-återförsäljarpanel", no: "IPTV-forhandlerpanel" })}
+                  {lc({ en: /IPTV$/i.test(panel.name.trim()) ? "Reseller Panel" : "IPTV Reseller Panel", "en-gb": /IPTV$/i.test(panel.name.trim()) ? "Reseller Panel" : "IPTV Reseller Panel", "en-au": /IPTV$/i.test(panel.name.trim()) ? "Reseller Panel" : "IPTV Reseller Panel", es: "Panel Revendedor IPTV", fr: "Panneau Revendeur IPTV", pt: "Painel Revendedor IPTV", sv: "IPTV-återförsäljarpanel", no: "IPTV-forhandlerpanel" })}
                 </h1>
 
                 <p style={{ fontSize: "1.05rem", color: "var(--text-secondary)", lineHeight: 1.75, marginBottom: "1rem" }}>
@@ -457,7 +460,7 @@ export default function PanelPageTemplate({ panel }: Props) {
 
         {/* Features */}
         <section
-          aria-label={`${panel.name} IPTV Reseller Panel Features`}
+          aria-label={`${panelLabel} Features`}
           style={{ padding: "5rem 0", borderTop: "1px solid var(--border-color)", background: "rgba(0,0,0,0.15)" }}
         >
           <div className="section-container">
@@ -504,7 +507,7 @@ export default function PanelPageTemplate({ panel }: Props) {
 
         {/* How to Get Started */}
         <section
-          aria-label={`How to Get Started with ${panel.name} IPTV Reseller Panel`}
+          aria-label={`How to Get Started with ${panelLabel}`}
           style={{ padding: "5rem 0", borderTop: "1px solid var(--border-color)" }}
         >
           <div className="section-container">
@@ -575,7 +578,7 @@ export default function PanelPageTemplate({ panel }: Props) {
 
         {/* FAQ */}
         <section
-          aria-label={`${panel.name} IPTV Reseller Panel FAQ`}
+          aria-label={`${panelLabel} FAQ`}
           style={{ padding: "5rem 0", borderTop: "1px solid var(--border-color)", background: "rgba(0,0,0,0.1)" }}
         >
           <div className="section-container">
