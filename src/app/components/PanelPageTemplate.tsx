@@ -130,6 +130,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Extra OTT IPTV Reseller Panel | Credits & Features",
         description: "Explore Extra OTT IPTV reseller credits, wholesale packages, dashboard tools, subscription management, device compatibility and pricing before ordering.",
       }
+    : panel.slug === "max-ott-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Max OTT IPTV Reseller Panel | Credits & Management",
+        description: "Explore Max OTT IPTV reseller credits, wholesale packages, bulk management, subscription expiry tools, dashboard features and pricing before ordering.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  

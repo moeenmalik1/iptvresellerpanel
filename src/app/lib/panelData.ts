@@ -570,38 +570,59 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "Max OTT",
     slug: "max-ott-iptv-reseller-panel",
-    tagline: "Max OTT IPTV Reseller Panel — Maximum Features for Serious Resellers",
-    description: "Max OTT lives up to its name — delivering maximum features, maximum stability, and maximum value for IPTV resellers. With an advanced dashboard and excellent 4K streaming, Max OTT is a top performer for growing and established resellers alike.",
-    longDescription: "Max OTT is built around the philosophy of giving resellers everything they need in one comprehensive package. Advanced subscription management, bulk credit tools, customer analytics, and top-grade 4K streaming combine to make Max OTT one of the most well-rounded IPTV reseller panels available through IPTV Reseller.",
-    quality: "4K Ultra HD",
-    qualityBadge: "4K Streaming",
-    support: "24/7",
-    dashboardType: "Advanced",
-    bestFor: "Comprehensive IPTV Resellers",
+    tagline: "Max OTT IPTV Reseller Panel — Credits & Management",
+    description: "Explore Max OTT IPTV reseller panel credits, wholesale packages, advanced dashboard tools, bulk credit management, subscription expiry tracking and pricing before ordering.",
+    longDescription: "The Max OTT IPTV reseller panel is an option for IPTV businesses comparing wholesale reseller credits, subscription management tools and account administration workflows. For resellers building a growing customer base, the most important considerations are how the dashboard handles account creation, credit allocation, subscription expiry dates, renewals and customer access. Before buying Max OTT reseller credits, ask the provider for current wholesale IPTV credit packages, subscription durations, minimum order requirements and any additional account charges. Compare the effective cost per active customer rather than relying only on the advertised credit price. Ask for a Max OTT reseller dashboard demonstration to review the available bulk credit management tools, customer reporting options and subscription expiry tracking features. Businesses managing multiple customers should confirm whether batch actions, renewal reminders, user-level permissions and sub-reseller access are supported. If trial subscriptions are part of your sales process, verify eligibility, trial duration and any associated credit charges. Check supported connection methods, including Xtream Codes, M3U playlists and MAG devices, as well as Smart TV compatibility and simultaneous connection rules. Streaming resolution, channel availability and reliability can vary by package and service conditions, so request current specifications instead of assuming guaranteed 4K streaming or fixed uptime. Compare Max OTT IPTV reseller panel pricing, credit terms, technical support and renewal procedures with alternative panels before committing to a wholesale order. Resellers should confirm that they have appropriate rights to distribute the content offered in their intended markets.",
+    quality: "Confirm available resolutions",
+    qualityBadge: "4K Options",
+    support: "Confirm availability",
+    dashboardType: "Advanced Management",
+    bestFor: "Resellers Managing Multiple Customer Accounts",
     accentColor: "#ec4899",
     badge: "",
     features: [
-      "Maximum-featured reseller dashboard",
-      "Premium 4K no-buffering streaming",
-      "Xtream Codes, M3U & MAG box support",
-      "Advanced bulk credit management",
-      "Comprehensive customer analytics",
-      "Free trial subscription generation",
-      "Detailed subscription expiry tracking",
-      "24/7 dedicated WhatsApp support",
+      "Explore Max OTT IPTV reseller credit packages",
+      "Review dashboard controls for customer subscriptions",
+      "Check bulk credit allocation and account management",
+      "Evaluate subscription expiry tracking and renewals",
+      "Ask about customer reporting and reseller analytics",
+      "Verify trial accounts and sub-reseller permissions",
+      "Confirm Xtream Codes, M3U and MAG compatibility",
+      "Compare wholesale pricing, activation and support terms",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Advanced Full-Feature Panel" },
-      { label: "Support", value: "24/7 WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.8%+" },
+      { label: "Streaming Quality", value: "Confirm available resolutions" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Advanced reseller management" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request reliability details" },
     ],
     faqs: [
-      { q: "What is the Max OTT IPTV reseller panel?", a: "Max OTT is an advanced IPTV reseller panel offering maximum dashboard features — bulk credit management, customer analytics, trial tools, and reliable 4K streaming — for serious IPTV reselling businesses." },
-      { q: "Is Max OTT suitable for large IPTV reseller operations?", a: "Yes. Max OTT's advanced dashboard handles large subscriber volumes efficiently, making it suitable for resellers with hundreds or thousands of active customers." },
-      { q: "How does Max OTT compare to Extra OTT?", a: "Both are feature-rich panels. Max OTT generally offers a more advanced dashboard with deeper analytics and management tools, while Extra OTT is great for mid-tier operations." },
+      {
+        q: "What is the Max OTT IPTV reseller panel?",
+        a: "Max OTT is an IPTV reseller panel option for businesses evaluating wholesale credits, customer account management and subscription administration. Check the current dashboard capabilities and package terms with the provider."
+      },
+      {
+        q: "How do I buy Max OTT reseller credits?",
+        a: "Request the available Max OTT reseller credit packages, wholesale pricing, minimum purchase quantities and activation terms from the provider. Compare subscription durations and renewal fees before placing an order."
+      },
+      {
+        q: "How much does the Max OTT IPTV reseller panel cost?",
+        a: "Max OTT reseller panel pricing depends on the wholesale package and provider terms. Ask for a current quotation and calculate the total cost per customer subscription, including renewal charges and any additional fees."
+      },
+      {
+        q: "Can Max OTT help manage subscription expiry dates?",
+        a: "Ask the provider to demonstrate subscription expiry tracking, account status views, renewal controls and any reminder functionality. The available tools may differ according to the dashboard and package."
+      },
+      {
+        q: "Is Max OTT suitable for managing multiple IPTV customers?",
+        a: "Resellers should check account limits, bulk credit allocation, customer reporting, dashboard permissions and any sub-reseller controls. Suitability depends on the verified capabilities of the selected package."
+      },
+      {
+        q: "What is the difference between Max OTT and Extra OTT?",
+        a: "Both panels can be compared for wholesale credits and reseller management needs. Review their current dashboard demonstrations, available subscription tools, connection compatibility, support terms and total pricing instead of assuming one has more features."
+      },
     ],
     relatedSlugs: ["extra-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel", "strong-4k-iptv-reseller-panel"],
   },
