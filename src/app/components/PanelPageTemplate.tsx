@@ -120,6 +120,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "T-Rex OTT IPTV Reseller Panel | Credits & Setup",
         description: "Explore T-Rex OTT IPTV reseller credits, wholesale packages, dashboard features, bulk subscriptions, device compatibility and pricing before ordering.",
       }
+    : panel.slug === "mega-ott-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Mega OTT IPTV Reseller Panel | Wholesale Credits",
+        description: "Compare Mega OTT IPTV reseller panel credits, bulk wholesale packages, dashboard tools, credit pricing, subscriptions and account setup before ordering.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
