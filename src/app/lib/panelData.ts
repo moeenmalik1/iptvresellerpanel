@@ -511,38 +511,59 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "Extra OTT",
     slug: "extra-ott-iptv-reseller-panel",
-    tagline: "Extra OTT IPTV Reseller Panel — Extra Features, Extra Value for Resellers",
-    description: "Extra OTT is a feature-packed IPTV reseller panel offering comprehensive tools for managing subscriptions, credits, and customers — with reliable 4K streaming and great value credit pricing.",
-    longDescription: "Extra OTT earns its name by delivering more features than standard panels — advanced credit management, detailed customer analytics, trial subscription tools, and support for all connection types. For resellers who want a complete toolkit without the premium price tag, Extra OTT is the ideal choice through IPTV Reseller.",
-    quality: "4K Ultra HD",
-    qualityBadge: "4K Streaming",
-    support: "24/7",
-    dashboardType: "Feature-Packed",
-    bestFor: "Feature-Focused IPTV Resellers",
+    tagline: "Extra OTT IPTV Reseller Panel — Credits & Dashboard",
+    description: "Explore the Extra OTT IPTV reseller panel, wholesale IPTV credits, reseller dashboard features, customer management, subscription renewals and pricing considerations before ordering.",
+    longDescription: "The Extra OTT IPTV reseller panel is an option for businesses comparing IPTV reseller dashboard features, wholesale credit packages and customer subscription management tools. If you are researching Extra OTT reseller credits, request current credit pricing, minimum order requirements, subscription durations and renewal terms from the provider. Ask for a demonstration of the Extra OTT reseller dashboard to review account creation, credit allocation, customer subscription activation and expiry management. Businesses that manage multiple subscriptions should check which reporting tools, account controls, customer analytics and sub-reseller permissions are actually available. If trial subscriptions are important to your business, confirm whether trial account creation is supported and whether additional credits or restrictions apply. Before purchasing, verify compatibility with Xtream Codes, M3U playlists, MAG devices and Smart TVs. Streaming resolution, simultaneous connections and playback reliability may depend on the provider, package, device and network. Do not assume that the Extra OTT product name guarantees 4K playback, buffer-free streaming or a fixed server uptime. When comparing Extra OTT IPTV reseller panel pricing with other options, calculate the effective cost per customer subscription, wholesale credit expenses, renewals and any additional fees. Confirm activation procedures, refund conditions, support availability and account management limits before ordering. Resellers should also ensure that content distribution is appropriately licensed for their intended markets.",
+    quality: "Confirm available resolutions",
+    qualityBadge: "4K Options",
+    support: "Confirm availability",
+    dashboardType: "Reseller Management",
+    bestFor: "Resellers Comparing Dashboard Features",
     accentColor: "#06b6d4",
     badge: "",
     features: [
-      "Feature-packed reseller control dashboard",
-      "Reliable 4K Ultra HD streaming",
-      "Xtream Codes, M3U & MAG box support",
-      "Detailed customer analytics & reporting",
-      "Advanced trial subscription management",
-      "Flexible credit package options",
-      "Multi-device simultaneous streaming",
-      "24/7 WhatsApp reseller support",
+      "Explore Extra OTT IPTV reseller dashboard features",
+      "Compare wholesale Extra OTT reseller credit packages",
+      "Review customer accounts and subscription management",
+      "Check credit allocation, renewals and expiry controls",
+      "Ask about customer analytics and reporting tools",
+      "Verify Xtream Codes, M3U and MAG compatibility",
+      "Confirm trial accounts and simultaneous connections",
+      "Review activation, pricing and technical support terms",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Feature-Packed Panel" },
-      { label: "Support", value: "24/7 WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.7%+" },
+      { label: "Streaming Quality", value: "Confirm available resolutions" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Reseller management panel" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request reliability details" },
     ],
     faqs: [
-      { q: "What makes Extra OTT stand out as a reseller panel?", a: "Extra OTT offers more built-in dashboard features than most panels — including detailed analytics, advanced trial tools, and comprehensive credit management — at competitive pricing." },
-      { q: "Does Extra OTT support all IPTV connection types?", a: "Yes. Extra OTT supports Xtream Codes, M3U reseller panel output, and MAG box connections — covering all devices your customers use." },
-      { q: "How do I buy Extra OTT reseller credits?", a: "Contact IPTV Reseller on WhatsApp to purchase Extra OTT credits. Activation is instant and you can start creating customer subscriptions immediately." },
+      {
+        q: "What is the Extra OTT IPTV reseller panel?",
+        a: "Extra OTT is an IPTV reseller panel option for businesses comparing wholesale credits, customer subscriptions and dashboard management tools. Request current provider specifications before choosing a package."
+      },
+      {
+        q: "How can I buy Extra OTT IPTV reseller credits?",
+        a: "Contact the provider for current Extra OTT wholesale credit packages, minimum order quantities, payment terms and activation procedures. Review credit costs, renewal rules and account restrictions before purchasing."
+      },
+      {
+        q: "What features should I check in the Extra OTT reseller dashboard?",
+        a: "Review account creation, credit allocation, subscription renewals, customer expiry management, reporting features and administrative controls. Ask for a demonstration to verify which tools are included."
+      },
+      {
+        q: "How much does the Extra OTT IPTV reseller panel cost?",
+        a: "Extra OTT reseller panel pricing depends on the provider, wholesale credit quantities and package conditions. Request a current quotation and compare the total cost per customer subscription, including renewal and additional fees."
+      },
+      {
+        q: "Does Extra OTT support Xtream Codes, M3U and MAG devices?",
+        a: "Device and connection compatibility depend on the selected service package. Confirm Xtream Codes, M3U, MAG, Smart TV and simultaneous connection requirements directly with the provider."
+      },
+      {
+        q: "Does Extra OTT offer trial accounts and customer analytics?",
+        a: "Trial generation, customer analytics and reporting tools may vary by dashboard and package. Ask the provider to demonstrate the available features and explain any trial restrictions or additional costs."
+      },
     ],
     relatedSlugs: ["max-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "4k-ott-iptv-reseller-panel", "trex-ott-iptv-reseller-panel"],
   },

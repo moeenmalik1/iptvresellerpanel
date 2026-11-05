@@ -125,6 +125,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Mega OTT IPTV Reseller Panel | Wholesale Credits",
         description: "Compare Mega OTT IPTV reseller panel credits, bulk wholesale packages, dashboard tools, credit pricing, subscriptions and account setup before ordering.",
       }
+    : panel.slug === "extra-ott-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Extra OTT IPTV Reseller Panel | Credits & Features",
+        description: "Explore Extra OTT IPTV reseller credits, wholesale packages, dashboard tools, subscription management, device compatibility and pricing before ordering.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
