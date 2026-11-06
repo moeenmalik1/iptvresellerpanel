@@ -629,38 +629,59 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "Zen 4K",
     slug: "zen-4k-iptv-reseller-panel",
-    tagline: "Zen 4K IPTV Reseller Panel — Clean, Minimal Dashboard with Premium 4K Quality",
-    description: "Zen 4K is an IPTV reseller panel celebrated for its clean, minimal dashboard design paired with premium 4K streaming quality. For resellers who value simplicity and elegance in their management tools, Zen 4K delivers a refined IPTV reselling experience.",
-    longDescription: "Zen 4K strips away complexity to deliver a focused, clean reseller experience. The minimalist dashboard makes subscription management, credit allocation, and user tracking intuitive and fast. Behind the clean interface is powerful 4K streaming infrastructure with strong uptime reliability — the perfect balance of form and function.",
-    quality: "4K Ultra HD",
-    qualityBadge: "4K Streaming",
-    support: "24/7",
-    dashboardType: "Clean & Minimal",
-    bestFor: "Design-Conscious IPTV Resellers",
+    tagline: "Zen 4K IPTV Reseller Panel — Credits & Easy Setup",
+    description: "Explore the Zen 4K IPTV reseller panel for straightforward account management. Compare reseller credits, dashboard features, setup requirements, device compatibility and pricing before buying.",
+    longDescription: "The Zen 4K IPTV reseller panel is an option for businesses looking for a straightforward way to manage IPTV reseller credits and customer subscriptions. Resellers who prefer a simpler dashboard should evaluate how easily they can create customer accounts, allocate credits, check subscription status and manage renewals. Before buying Zen 4K reseller credits, request current wholesale credit packages, minimum purchase requirements, subscription durations and renewal costs. Ask for a dashboard demonstration so you can review the actual navigation, account controls and available reseller tools rather than relying on interface descriptions alone. New IPTV resellers should also clarify how account setup works, whether onboarding instructions are included and what support channels are available when assistance is needed. For day-to-day operations, check whether the dashboard provides customer search, subscription expiry dates, credit balances and account management permissions. If you intend to offer trial subscriptions, confirm whether trials are supported and what restrictions or credit charges apply. Device compatibility must also be verified for your intended customer base. Ask about Xtream Codes, M3U playlists, MAG devices and Smart TV support, together with simultaneous connection limits. Although the Zen 4K name highlights 4K, available streaming resolutions and playback performance depend on the specific service package, device and network. Avoid assuming guaranteed 4K availability, buffer-free playback or a fixed uptime percentage. When comparing Zen 4K IPTV reseller panel pricing with other options, consider the effective cost per subscription, activation procedures, renewal terms, available documentation and provider support. Only distribute subscriptions for content that is appropriately licensed in your target markets.",
+    quality: "Confirm available resolutions",
+    qualityBadge: "4K Options",
+    support: "Confirm availability",
+    dashboardType: "Simple Reseller Management",
+    bestFor: "Resellers Seeking Straightforward Account Management",
     accentColor: "#06b6d4",
     badge: "",
     features: [
-      "Clean, minimal reseller dashboard design",
-      "Premium 4K no-buffering streaming",
-      "Xtream Codes & M3U reseller panel support",
-      "MAG box & Smart TV compatibility",
-      "Intuitive credit management interface",
-      "Fast subscription activation",
-      "Customer trial generation tools",
-      "24/7 WhatsApp support",
+      "Explore Zen 4K IPTV reseller dashboard features",
+      "Compare Zen 4K reseller credits and wholesale packages",
+      "Review straightforward customer account creation",
+      "Check credit balances and subscription management",
+      "Evaluate account expiry dates and renewal controls",
+      "Ask about beginner onboarding and trial account options",
+      "Verify Xtream Codes, M3U, MAG and Smart TV support",
+      "Confirm activation procedures and technical support terms",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Clean Minimal Panel" },
-      { label: "Support", value: "24/7 WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.7%+" },
+      { label: "Streaming Quality", value: "Confirm available resolutions" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Simple reseller management" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request reliability details" },
     ],
     faqs: [
-      { q: "What makes Zen 4K unique as a reseller panel?", a: "Zen 4K is known for its exceptionally clean, minimal dashboard design — making it one of the most intuitive IPTV reseller panels to navigate, while still delivering premium 4K streaming quality." },
-      { q: "Is Zen 4K suitable for new IPTV resellers?", a: "Yes. The clean interface makes Zen 4K accessible to beginners, while its 4K streaming quality and strong uptime make it a long-term platform for growing resellers." },
-      { q: "How do I access the Zen 4K reseller panel?", a: "Contact IPTV Reseller on WhatsApp to receive your Zen 4K reseller panel login credentials and instant credit activation." },
+      {
+        q: "What is the Zen 4K IPTV reseller panel?",
+        a: "Zen 4K is an IPTV reseller panel option for businesses evaluating customer subscription management and wholesale reseller credits. Check the current dashboard capabilities and service terms with the provider."
+      },
+      {
+        q: "Is Zen 4K suitable for beginner IPTV resellers?",
+        a: "Beginners may prefer a straightforward reseller dashboard, but ease of use should be verified through a demonstration. Ask about account setup, credit allocation, customer management and onboarding documentation."
+      },
+      {
+        q: "How can I buy Zen 4K IPTV reseller credits?",
+        a: "Request current Zen 4K reseller credit packages, wholesale pricing, minimum order quantities and payment terms from the provider. Confirm credit activation and subscription renewal conditions before purchasing."
+      },
+      {
+        q: "How much does the Zen 4K reseller panel cost?",
+        a: "Zen 4K reseller panel pricing depends on the selected credit package and provider terms. Compare the total cost per customer subscription, renewal charges and any additional account fees using a current quotation."
+      },
+      {
+        q: "Does Zen 4K support Xtream Codes, M3U and MAG devices?",
+        a: "Supported connection methods and devices depend on the service package. Ask the provider to confirm Xtream Codes, M3U playlists, MAG boxes, Smart TVs and simultaneous connection limits."
+      },
+      {
+        q: "What should I check before setting up Zen 4K?",
+        a: "Review dashboard access, available credit packages, account creation steps, supported devices, subscription expiry controls, trial availability and technical support arrangements. Confirm that the underlying content is licensed for resale."
+      },
     ],
     relatedSlugs: ["lion-ott-iptv-reseller-panel", "dino-iptv-reseller-panel", "crystal-ott-iptv-reseller-panel", "4k-ott-iptv-reseller-panel"],
   },
