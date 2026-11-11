@@ -140,6 +140,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Zen 4K IPTV Reseller Panel | Credits & Easy Setup",
         description: "Explore Zen 4K IPTV reseller credits, simple dashboard tools, wholesale packages, device compatibility, account setup and pricing before buying.",
       }
+    : panel.slug === "nexon-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Nexon IPTV Reseller Panel | Credits & Bulk Tools",
+        description: "Compare Nexon IPTV reseller credits, wholesale packages, bulk customer management, dashboard features, pricing and setup before ordering.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  

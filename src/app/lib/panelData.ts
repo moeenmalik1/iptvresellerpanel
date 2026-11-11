@@ -688,38 +688,59 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "Nexon",
     slug: "nexon-iptv-reseller-panel",
-    tagline: "Nexon IPTV Reseller Panel — Advanced Dashboard for Large IPTV Businesses",
-    description: "Nexon is a high-end IPTV reseller panel built for established, large-scale IPTV businesses. With an advanced dashboard, superior uptime, and enterprise-grade features, Nexon is the professional's choice for managing hundreds of IPTV subscriptions.",
-    longDescription: "Nexon delivers enterprise-level IPTV reseller management with an advanced control panel featuring detailed analytics, bulk tools, automated credit management, and comprehensive subscription tracking. The panel's reliable server infrastructure ensures consistent 4K streaming quality even at large subscriber volumes — perfect for serious IPTV businesses.",
-    quality: "4K Ultra HD",
-    qualityBadge: "4K Streaming",
-    support: "24/7",
-    dashboardType: "Enterprise Advanced",
-    bestFor: "Large-Scale IPTV Businesses",
+    tagline: "Nexon IPTV Reseller Panel — Credits & Bulk Management",
+    description: "Explore the Nexon IPTV reseller panel for wholesale credits, bulk account management, subscriber tracking, dashboard features, pricing and reseller setup.",
+    longDescription: "The Nexon IPTV reseller panel is an option for businesses comparing wholesale IPTV reseller credits, customer account administration and subscription management workflows. For an established IPTV reseller business, choosing a dashboard requires evaluating account capacity, administrative controls, credit allocation and recurring subscription operations. Before buying Nexon reseller credits, request the provider's current wholesale packages, minimum order quantities, credit conversion rules and renewal conditions. Ask for a demonstration of the Nexon reseller dashboard to understand how customer accounts are created, edited, renewed and deactivated. If your business manages a growing subscriber base, verify whether bulk account actions, subscription expiry tracking, customer search, reporting and role-based permissions are included in the selected package. Do not assume that automation, analytics or sub-reseller functionality is available without confirmation. Review the credit balance system and determine whether unused credits expire or carry additional charges. If you operate across the UK, USA, Canada, Australia or Europe, confirm regional service availability, support procedures and relevant content distribution permissions before making commitments. Device compatibility should also be checked individually, including Xtream Codes, M3U playlists, MAG devices and supported Smart TV applications. Streaming quality, connection limits and service availability may depend on the specific package, network and underlying provider. Request current technical specifications rather than relying on guaranteed 4K playback or fixed uptime claims. Finally, compare Nexon IPTV reseller panel pricing against the total operational cost of managing customer subscriptions, including activation, renewals, customer assistance and any additional administrative fees. Businesses should distribute only content for which they hold appropriate rights.",
+    quality: "Confirm available resolutions",
+    qualityBadge: "4K Options",
+    support: "Confirm availability",
+    dashboardType: "Advanced Reseller Management",
+    bestFor: "Growing IPTV Reseller Businesses",
     accentColor: "#8b5cf6",
     badge: "",
     features: [
-      "Enterprise-level reseller management dashboard",
-      "Premium 4K no-buffering streaming at scale",
-      "Full Xtream Codes & M3U reseller API",
-      "MAG box & all device compatibility",
-      "Advanced bulk credit & subscription tools",
-      "Automated subscription management",
-      "Detailed revenue & analytics reporting",
-      "24/7 priority WhatsApp support",
+      "Explore Nexon IPTV reseller dashboard capabilities",
+      "Compare Nexon reseller credits and wholesale packages",
+      "Review bulk customer account management workflows",
+      "Check credit allocation and subscription renewal controls",
+      "Evaluate subscriber expiry tracking and reporting tools",
+      "Ask about automation and sub-reseller permissions",
+      "Verify Xtream Codes, M3U, MAG and device compatibility",
+      "Confirm account limits, support hours and activation terms",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Enterprise Panel" },
-      { label: "Support", value: "24/7 Priority" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.9%" },
+      { label: "Streaming Quality", value: "Confirm available resolutions" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Advanced reseller management" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request reliability details" },
     ],
     faqs: [
-      { q: "Who is Nexon IPTV reseller panel best for?", a: "Nexon is best for established IPTV businesses managing large subscriber volumes — its enterprise dashboard, advanced bulk tools, and superior uptime make it ideal for professional IPTV resellers." },
-      { q: "Does Nexon have the best IPTV reseller dashboard features?", a: "Nexon is one of the most feature-complete reseller dashboards available, with automated credit management, detailed analytics, and comprehensive subscriber tracking at enterprise scale." },
-      { q: "Is Nexon available in the UK and USA?", a: "Yes. Nexon IPTV is available globally through IPTV Reseller including the UK, USA, the EU, and beyond with geo-optimized servers for each region." },
+      {
+        q: "What is the Nexon IPTV reseller panel?",
+        a: "Nexon is an IPTV reseller panel option for businesses evaluating wholesale credits, customer subscription administration and reseller dashboard tools. Request a current feature demonstration and package specifications before purchasing."
+      },
+      {
+        q: "How can I buy Nexon IPTV reseller credits?",
+        a: "Contact the provider for current Nexon reseller credit packages, wholesale prices, minimum order quantities, payment terms and activation procedures. Confirm how credits are used for subscription creation and renewals."
+      },
+      {
+        q: "How much does the Nexon IPTV reseller panel cost?",
+        a: "Nexon reseller panel pricing depends on the provider's wholesale packages, credit quantities and account conditions. Compare the effective cost per customer subscription, renewal charges and any additional dashboard fees using a verified quotation."
+      },
+      {
+        q: "Is Nexon suitable for managing large IPTV subscriber bases?",
+        a: "Suitability depends on confirmed customer limits, bulk account tools, administrative permissions, reporting capabilities and support arrangements. Ask for a dashboard demonstration and written capacity information before committing to a large credit order."
+      },
+      {
+        q: "Does the Nexon reseller dashboard support automated renewals and analytics?",
+        a: "Automation, subscriber analytics and renewal features may vary by dashboard version and service package. Verify available reporting tools, expiry tracking, renewal procedures and any additional costs directly with the provider."
+      },
+      {
+        q: "Can Nexon IPTV reseller accounts be used in the UK, USA and Canada?",
+        a: "Regional availability depends on the provider, service package and relevant distribution rights. Confirm supported territories, connection formats, customer support and content licensing before offering subscriptions in the UK, USA, Canada or other markets."
+      },
     ],
     relatedSlugs: ["strong-4k-iptv-reseller-panel", "max-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel"],
   },
