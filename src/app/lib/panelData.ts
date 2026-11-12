@@ -747,38 +747,59 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "Infinity Premium",
     slug: "infinity-premium-iptv-reseller-panel",
-    tagline: "Infinity Premium IPTV Reseller Panel — Unlimited Potential for Elite Resellers",
-    description: "Infinity Premium lives up to its name — delivering premium streaming quality, an elite reseller dashboard, and unlimited scalability for serious IPTV businesses. The ultimate all-in-one IPTV reseller panel through IPTV Reseller.",
-    longDescription: "Infinity Premium combines ultra-reliable streaming infrastructure with the most comprehensive reseller management tools available. From free trial generation to advanced bulk credit management and detailed subscriber analytics, Infinity Premium gives resellers everything needed to run a professional, scalable IPTV business with maximum profit margins.",
-    quality: "4K Ultra HD",
-    qualityBadge: "4K Streaming",
-    support: "24/7",
-    dashboardType: "Elite Premium",
-    bestFor: "Elite & Established IPTV Resellers",
+    tagline: "Infinity Premium IPTV Reseller Panel — Credits & Wholesale Management",
+    description: "Explore Infinity Premium IPTV reseller panel options, wholesale credits, subscription management tools, dashboard access, pricing and reseller setup.",
+    longDescription: "The Infinity Premium IPTV reseller panel is an option for streaming businesses researching wholesale reseller credits, customer account management and subscription administration. Before choosing Infinity Premium reseller packages, compare credit quantities, minimum order requirements, activation procedures and renewal conditions. Ask the provider to demonstrate the reseller dashboard so you can evaluate customer creation, subscription expiry tracking, credit allocation and available administrative controls. Growing IPTV reseller businesses should check account limits, bulk management capabilities and whether additional users or sub-reseller permissions are supported. Dashboard reporting, automation and trial-account functionality should be verified for the selected package rather than assumed. When comparing Infinity Premium IPTV reseller panel pricing, calculate the effective cost per subscription and include possible renewal charges, support costs and transaction fees. Review how credits are consumed for different subscription durations and confirm whether unused credits expire. If you plan to serve customers in the UK, USA, Canada, Australia or Europe, verify regional availability, supported connection methods and applicable content distribution rights. Compatibility with Xtream Codes, M3U, MAG devices, Smart TVs and streaming applications should be confirmed individually. Advertised resolution, simultaneous connection limits and streaming performance may depend on the underlying service, network conditions and subscription package. Request current technical specifications rather than assuming uninterrupted 4K playback, fixed uptime or instant account activation. Also confirm customer support channels, operating hours, refund policies and escalation procedures. Before purchasing wholesale Infinity Premium reseller credits, compare the provider's written commercial terms with other available IPTV reseller panels. A suitable solution should offer transparent operating conditions, practical dashboard management and a clear pathway for administering lawfully distributed subscriptions.",
+    quality: "Confirm available resolutions",
+    qualityBadge: "Resolution Options",
+    support: "Confirm availability",
+    dashboardType: "Premium Reseller Management",
+    bestFor: "Growing & Established Reseller Businesses",
     accentColor: "#f59e0b",
-    badge: "Elite Choice",
+    badge: "",
     features: [
-      "Unlimited-scale reseller infrastructure",
-      "Premium 4K ultra-reliable streaming",
-      "Xtream Codes, M3U & MAG box support",
-      "Elite reseller management dashboard",
-      "Advanced bulk credit & wholesale pricing",
-      "Free trial & promotional subscription tools",
-      "Comprehensive revenue analytics",
-      "24/7 elite WhatsApp reseller support",
+      "Explore Infinity Premium reseller dashboard options",
+      "Compare wholesale reseller credits and package terms",
+      "Review customer account and subscription management",
+      "Check bulk credit allocation and renewal procedures",
+      "Evaluate subscriber expiry tracking and reporting tools",
+      "Ask about trial accounts and sub-reseller permissions",
+      "Verify Xtream Codes, M3U and MAG compatibility",
+      "Confirm support hours, account limits and activation terms",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Elite Premium Panel" },
-      { label: "Support", value: "24/7 Elite Priority" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.9%" },
+      { label: "Streaming Quality", value: "Confirm available resolutions" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Premium reseller management" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request reliability details" },
     ],
     faqs: [
-      { q: "What is the Infinity Premium IPTV reseller panel?", a: "Infinity Premium is an elite IPTV reseller panel offering premium 4K streaming, unlimited scalability, and an advanced reseller dashboard with comprehensive credit and subscriber management tools." },
-      { q: "What makes Infinity Premium different from other IPTV panels?", a: "The 'Premium' in Infinity Premium refers to its elite-tier server infrastructure, more comprehensive dashboard features, and superior support quality compared to standard IPTV reseller panels." },
-      { q: "Is Infinity Premium suitable for resellers without investment?", a: "While Infinity Premium offers premium quality, IPTV Reseller offers flexible credit packages making it accessible even for new resellers starting their IPTV business." },
+      {
+        q: "What is the Infinity Premium IPTV reseller panel?",
+        a: "Infinity Premium is an IPTV reseller panel option for businesses comparing wholesale credits, customer account administration and subscription management. Review the current dashboard and package details to understand which tools are included."
+      },
+      {
+        q: "How much does the Infinity Premium IPTV reseller panel cost?",
+        a: "Pricing depends on the provider's current wholesale credit packages, minimum order conditions and subscription terms. Request a quotation and compare the effective cost per subscription, renewal charges and additional fees."
+      },
+      {
+        q: "How can I buy Infinity Premium reseller credits?",
+        a: "Contact the provider to confirm available wholesale packages, credit quantities, payment terms and activation requirements. Verify the credit conversion rules and subscription renewal process before placing an order."
+      },
+      {
+        q: "Does Infinity Premium support bulk subscription management?",
+        a: "Bulk management capabilities depend on the dashboard version and selected service package. Ask for a demonstration of account creation, credit allocation, subscription renewals and administrative permissions."
+      },
+      {
+        q: "Does Infinity Premium support Smart TVs and IPTV applications?",
+        a: "Device and application compatibility must be confirmed with the provider. Ask about supported connection formats, Smart TV applications, Android TV devices, MAG boxes and simultaneous connection limitations."
+      },
+      {
+        q: "Is Infinity Premium suitable for IPTV resellers in the UK, USA and Canada?",
+        a: "Suitability depends on regional service availability, account requirements, support arrangements and appropriate content distribution rights. Confirm these conditions before offering subscriptions in your target market."
+      },
     ],
     relatedSlugs: ["nexon-iptv-reseller-panel", "strong-4k-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "max-ott-iptv-reseller-panel"],
   },
