@@ -155,6 +155,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "GTV IPTV Reseller Panel | Wholesale Credits & Setup",
         description: "Explore GTV IPTV reseller panel credits, wholesale pricing, dashboard features, subscription management, device support and setup options.",
       }
+    : panel.slug === "crystal-ott-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Crystal OTT IPTV Reseller Panel | Wholesale Credits",
+        description: "Explore Crystal OTT IPTV reseller panel credits, wholesale pricing, dashboard tools, subscription management, device compatibility and setup options.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
@@ -893,6 +898,163 @@ export default function PanelPageTemplate({ panel }: Props) {
                   </p>
                 </div>
 
+              </div>
+            </div>
+          </section>
+        )}
+
+
+        {/* Crystal OTT SEO Content — separate from hero */}
+        {panel.slug === "crystal-ott-iptv-reseller-panel" && locale === "en" && (
+          <section
+            id="crystal-seo-content"
+            aria-label="Crystal OTT IPTV reseller panel guide"
+            style={{
+              padding: "4.5rem 0",
+              background: "var(--bg-primary)",
+              borderTop: "1px solid var(--border-color)"
+            }}
+          >
+            <div className="section-container">
+              <div style={{ maxWidth: 900, margin: "0 auto" }}>
+                <div className="tag" style={{ marginBottom: "1rem" }}>
+                  RESELLER PANEL GUIDE
+                </div>
+
+                <h2 style={{
+                  fontFamily: "'Outfit', sans-serif",
+                  fontSize: "clamp(1.65rem, 3vw, 2.3rem)",
+                  fontWeight: 800,
+                  lineHeight: 1.25,
+                  color: "var(--text-primary)",
+                  marginBottom: "1rem"
+                }}>
+                  About Crystal OTT IPTV Reseller Panel
+                </h2>
+
+                <p style={{
+                  color: "var(--text-secondary)",
+                  lineHeight: 1.85,
+                  marginBottom: "2.5rem"
+                }}>
+                  Crystal OTT IPTV reseller panel options can be evaluated
+                  by comparing wholesale credit packages, customer
+                  subscription management, dashboard controls and
+                  supported connection formats. Review the available
+                  account tools and current commercial terms before
+                  selecting a wholesale reseller package.
+                </p>
+
+                {[
+                  {
+                    heading: "Crystal OTT Wholesale Credits & Pricing",
+                    body: "When comparing Crystal OTT reseller credits, review wholesale package quantities, credit conversion rules, minimum purchase conditions and renewal fees. Ask for a current quotation and calculate the effective cost per customer subscription."
+                  },
+                  {
+                    heading: "Reseller Dashboard & Subscription Management",
+                    body: "Check how the Crystal OTT reseller dashboard handles customer account creation, credit allocation, subscription expiry tracking and renewals. Request a demonstration of the actual management interface and confirm whether bulk administration is supported."
+                  },
+                  {
+                    heading: "Streaming Quality & Device Compatibility",
+                    body: "Evaluate available Full HD and 4K options, supported devices and connection methods. Confirm compatibility with Xtream Codes, M3U playlists, MAG boxes and Smart TV applications. Actual streaming performance depends on the underlying service and network."
+                  },
+                  {
+                    heading: "Activation, Support & Provider Evaluation",
+                    body: "Before ordering, confirm account activation times, support hours, refund policies, regional service availability and appropriate content distribution rights. Avoid relying on unverified uptime percentages or guaranteed performance claims."
+                  }
+                ].map((item) => (
+                  <div key={item.heading} style={{ marginBottom: "2rem" }}>
+                    <h3 style={{
+                      fontFamily: "'Outfit', sans-serif",
+                      fontSize: "1.3rem",
+                      fontWeight: 700,
+                      color: "var(--text-primary)",
+                      marginBottom: "0.75rem"
+                    }}>
+                      {item.heading}
+                    </h3>
+
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.85,
+                      margin: 0
+                    }}>
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+
+                <div
+                  id="crystal-contextual-links"
+                  style={{
+                    marginTop: "2.5rem",
+                    paddingTop: "2rem",
+                    borderTop: "1px solid var(--border-color)"
+                  }}
+                >
+                  <h3 style={{
+                    fontFamily: "'Outfit', sans-serif",
+                    fontSize: "1.3rem",
+                    fontWeight: 700,
+                    color: "var(--text-primary)",
+                    marginBottom: "1rem"
+                  }}>
+                    Crystal OTT: Related Guides & Panel Comparisons
+                  </h3>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    To understand supported connection methods,
+                    explore our{" "}
+                    <Link href="/en/guides/xtream-codes-vs-m3u">
+                      Xtream Codes vs M3U guide
+                    </Link>{" "}
+                    before selecting compatible applications.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For technical dashboard integration,
+                    review the{" "}
+                    <Link href="/en/guides/xtream-api-integration-guide">
+                      IPTV API integration guide
+                    </Link>{" "}
+                    and confirm which tools your package supports.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Evaluating HD and 4K reseller options?
+                    Compare Crystal OTT with the{" "}
+                    <Link href="/en/strong-4k-iptv-reseller-panel">
+                      Strong 4K reseller panel
+                    </Link>{" "}
+                    using verified specifications and package terms.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Learn about branded access and
+                    domain configuration in our{" "}
+                    <Link href="/en/guides/dns-portal-setup-guide">
+                      IPTV DNS and portal setup guide
+                    </Link>.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For subscription billing workflows,
+                    read the{" "}
+                    <Link href="/en/guides/billing-whmcs-stripe-guide">
+                      automated reseller billing guide
+                    </Link>{" "}
+                    and assess the integrations your business needs.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Before choosing a provider,{" "}
+                    <Link href="/en/comparisons">
+                      compare IPTV reseller panels
+                    </Link>{" "}
+                    to evaluate available management and
+                    wholesale package options.
+                  </p>
+                </div>
               </div>
             </div>
           </section>

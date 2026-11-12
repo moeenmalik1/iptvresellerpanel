@@ -865,38 +865,59 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "Crystal OTT",
     slug: "crystal-ott-iptv-reseller-panel",
-    tagline: "Crystal OTT IPTV Reseller Panel — Professional Grade for Growing IPTV Businesses",
+    tagline: "Crystal OTT IPTV Reseller Panel — Wholesale Credits & Dashboard",
     description: "Crystal OTT is a professional-grade IPTV reseller panel with crystal-clear streaming quality and a polished reseller dashboard. Ideal for growing IPTV businesses that need professional tools and reliable performance.",
     longDescription: "Crystal OTT delivers professional streaming quality with a refined, full-featured reseller management interface. The panel's emphasis on clarity — both in streaming quality and dashboard UX — makes it a favourite for IPTV resellers who manage mid-to-large subscriber bases and need precise control over their subscription operations.",
     quality: "Full HD / 4K",
     qualityBadge: "HD & 4K",
-    support: "24/7",
-    dashboardType: "Professional",
-    bestFor: "Growing & Professional IPTV Businesses",
+    support: "Confirm availability",
+    dashboardType: "Professional Reseller Management",
+    bestFor: "Growing IPTV Reseller Businesses",
     accentColor: "#06b6d4",
     badge: "",
     features: [
-      "Crystal-clear Full HD & 4K streaming",
-      "Professional-grade reseller dashboard",
-      "Xtream Codes & M3U reseller panel support",
-      "MAG box & all device compatibility",
-      "Advanced credit management tools",
-      "Detailed subscriber analytics",
-      "Subscription trial management",
-      "24/7 professional WhatsApp support",
+      "Explore Crystal OTT reseller credit packages",
+      "Review wholesale pricing and subscription costs",
+      "Evaluate reseller dashboard management features",
+      "Check customer account and renewal controls",
+      "Review credit allocation and expiry tracking",
+      "Verify Xtream Codes and M3U connection options",
+      "Confirm MAG and Smart TV device compatibility",
+      "Check activation procedures and support hours",
     ],
     specs: [
-      { label: "Streaming Quality", value: "Full HD & 4K" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Professional Panel" },
-      { label: "Support", value: "24/7 WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.8%+" },
+      { label: "Streaming Quality", value: "Verify Full HD and 4K availability" },
+      { label: "Connection Types", value: "Confirm Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Professional reseller management" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request reliability information" },
     ],
     faqs: [
-      { q: "What is the Crystal OTT IPTV reseller panel?", a: "Crystal OTT is a professional IPTV reseller panel known for crystal-clear streaming quality and a polished dashboard — supporting Full HD and 4K via Xtream Codes, M3U, and MAG box." },
-      { q: "Is Crystal OTT good for mid-sized IPTV reseller businesses?", a: "Yes. Crystal OTT's professional dashboard and subscription management tools are optimized for resellers managing 50–500+ active customers efficiently." },
-      { q: "How does Crystal OTT compare to Lion OTT?", a: "Crystal OTT has a more professional dashboard with advanced management tools, while Lion OTT is simpler and better for beginners. Crystal OTT is better for growing businesses." },
+      {
+        q: "What is the Crystal OTT IPTV reseller panel?",
+        a: "Crystal OTT is an IPTV reseller panel option for businesses evaluating wholesale credits, customer account administration and subscription management. Confirm the dashboard features and package terms before purchasing."
+      },
+      {
+        q: "How much does the Crystal OTT IPTV reseller panel cost?",
+        a: "Crystal OTT reseller pricing depends on wholesale credit packages, minimum order requirements and subscription terms. Request current pricing and calculate the effective cost per subscription before ordering."
+      },
+      {
+        q: "How do Crystal OTT reseller credits work?",
+        a: "Reseller credits are used by some platforms to activate or extend customer subscriptions. Confirm the Crystal OTT package's credit conversion rules, expiry conditions, renewal requirements and minimum purchase amount."
+      },
+      {
+        q: "Does Crystal OTT support Xtream Codes, M3U and MAG devices?",
+        a: "Supported connection formats and devices depend on the selected service package. Confirm Xtream-compatible connections, M3U playlists, MAG devices, Smart TV apps and simultaneous connection limits with the provider."
+      },
+      {
+        q: "Is Crystal OTT suitable for growing IPTV reseller businesses?",
+        a: "Crystal OTT may be worth evaluating for businesses that need customer administration and subscription renewal tools. Request a demonstration to check account limits, bulk management, reporting and available support."
+      },
+      {
+        q: "Can Crystal OTT IPTV reseller accounts serve customers worldwide?",
+        a: "Regional suitability depends on provider availability, supported devices, commercial terms and appropriate content distribution rights. Verify these requirements before offering subscriptions in the UK, USA, Canada, Europe or Australia."
+      },
     ],
     relatedSlugs: ["nexon-iptv-reseller-panel", "lion-ott-iptv-reseller-panel", "zen-4k-iptv-reseller-panel", "strong-4k-iptv-reseller-panel"],
   },
