@@ -1053,27 +1053,48 @@ export const ALL_PANELS: PanelData[] = [
     accentColor: "#ec4899",
     badge: "Popular Choice",
     features: [
-      "Popular budget-friendly credit pricing",
-      "Solid HD & 4K streaming quality",
-      "Xtream Codes & M3U support",
-      "MAG box & device compatible",
-      "Simple, clear reseller dashboard",
-      "Instant credit activation",
-      "Customer subscription management",
-      "24/7 WhatsApp reseller support",
+      "Compare Opplex wholesale reseller credit packages",
+      "Review budget-friendly subscription pricing options",
+      "Evaluate customer account management tools",
+      "Check credit allocation and renewal procedures",
+      "Verify Xtream Codes and M3U connection support",
+      "Confirm MAG box and Smart TV compatibility",
+      "Review available HD and 4K streaming packages",
+      "Confirm activation timelines and support availability",
     ],
     specs: [
-      { label: "Streaming Quality", value: "HD & 4K" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Simple Clear Panel" },
-      { label: "Support", value: "24/7 WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.5%+" },
+      { label: "Streaming Quality", value: "Confirm HD and 4K availability" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Straightforward reseller dashboard" },
+      { label: "Support", value: "Confirm channels and support hours" },
+      { label: "Credit Activation", value: "Confirm processing timeframe" },
+      { label: "Server Uptime", value: "Request verified reliability data" },
     ],
     faqs: [
-      { q: "Is Opplex the cheapest IPTV reseller panel?", a: "Opplex offers some of the most affordable credit pricing available — making it one of the most competitive and popular budget IPTV reseller panels for cost-conscious resellers." },
-      { q: "Why is Opplex so popular among IPTV resellers?", a: "Opplex's combination of affordable pricing, decent streaming quality, and a simple dashboard has made it one of the most widely used IPTV panels for budget-focused reselling." },
-      { q: "Does Opplex have a free trial for resellers?", a: "Yes. IPTV Reseller offers a free trial on the Opplex reseller panel. Contact us on WhatsApp to request trial access." },
+      {
+        q: "What is the Opplex IPTV reseller panel?",
+        a: "Opplex is an IPTV reseller panel option for businesses comparing wholesale credit packages, subscription administration and customer management features. Review the current dashboard and package terms before purchasing."
+      },
+      {
+        q: "Is Opplex an affordable IPTV reseller panel?",
+        a: "Opplex is positioned as a budget-oriented IPTV reseller option. To assess affordability, compare current wholesale credit prices, minimum orders, renewal costs and the effective cost per customer subscription."
+      },
+      {
+        q: "How much does the Opplex reseller panel cost?",
+        a: "Opplex reseller pricing depends on the wholesale credit quantity, subscription duration and available commercial terms. Request a current quotation and confirm any minimum purchase requirements."
+      },
+      {
+        q: "How do Opplex IPTV reseller credits work?",
+        a: "IPTV reseller credits are commonly used to activate or renew customer subscriptions. Confirm the Opplex package's credit conversion rules, minimum order quantity, expiry conditions and renewal requirements."
+      },
+      {
+        q: "Which devices and connection methods work with Opplex?",
+        a: "Check the current package for Xtream Codes-compatible applications, M3U playlists, MAG devices and Smart TV support. Connection limits and available streaming resolutions should be confirmed before purchasing."
+      },
+      {
+        q: "Can I request an Opplex IPTV reseller panel trial?",
+        a: "Trial availability depends on current provider terms. Contact the reseller to ask whether a trial is available, what it includes and whether any activation or usage restrictions apply."
+      },
     ],
     relatedSlugs: ["gtv-iptv-reseller-panel", "geo-iptv-reseller-panel", "starshare-iptv-reseller-panel", "lion-ott-iptv-reseller-panel"],
   },

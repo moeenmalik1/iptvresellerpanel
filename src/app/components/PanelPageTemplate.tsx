@@ -170,6 +170,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Tiger OTT IPTV Reseller Panel | Credits & Setup",
         description: "Explore Tiger OTT IPTV reseller panel credits, wholesale pricing, dashboard tools, subscription activation, device compatibility and setup options.",
       }
+    : panel.slug === "opplex-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Opplex IPTV Reseller Panel | Credits & Pricing",
+        description: "Explore Opplex IPTV reseller panel credits, wholesale pricing, dashboard features, subscription management, device support and setup options.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
@@ -1383,6 +1388,185 @@ export default function PanelPageTemplate({ panel }: Props) {
                       IPTV reseller pricing and contact page
                     </Link>{" "}
                     and request the latest terms.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+
+        {/* Opplex SEO guide — separate section below hero */}
+        {panel.slug === "opplex-iptv-reseller-panel" && locale === "en" && (
+          <section
+            id="opplex-seo-content"
+            aria-label="Opplex IPTV reseller panel guide"
+            style={{
+              padding: "4.5rem 0",
+              background: "var(--bg-primary)",
+              borderTop: "1px solid var(--border-color)"
+            }}
+          >
+            <div className="section-container">
+              <div style={{ maxWidth: 900, margin: "0 auto" }}>
+                <div className="tag" style={{ marginBottom: "1rem" }}>
+                  OPPLEX RESELLER GUIDE
+                </div>
+
+                <h2 style={{
+                  fontFamily: "'Outfit', sans-serif",
+                  fontSize: "clamp(1.65rem, 3vw, 2.3rem)",
+                  fontWeight: 800,
+                  lineHeight: 1.25,
+                  color: "var(--text-primary)",
+                  marginBottom: "1rem"
+                }}>
+                  About Opplex IPTV Reseller Panel
+                </h2>
+
+                <p style={{
+                  color: "var(--text-secondary)",
+                  lineHeight: 1.85,
+                  marginBottom: "2.5rem"
+                }}>
+                  Opplex IPTV reseller panel packages are worth
+                  evaluating for businesses focused on wholesale
+                  credit costs, straightforward customer management
+                  and subscription renewals. Compare current package
+                  prices, connection options and dashboard capabilities
+                  before selecting a budget-focused reseller solution.
+                </p>
+
+                {[
+                  {
+                    heading: "Affordable IPTV Reseller Panel: Compare Real Costs",
+                    body: "Opplex is positioned as a budget IPTV reseller panel. However, affordability depends on actual wholesale pricing, minimum purchases, credit conversion rates and subscription renewals. Compare the complete cost per active customer rather than assuming the lowest advertised credit price is the best value."
+                  },
+                  {
+                    heading: "Opplex Reseller Credits & Wholesale Pricing",
+                    body: "Before purchasing Opplex IPTV reseller credits, confirm how credits are allocated across monthly and annual subscriptions. Check minimum orders, renewal requirements, credit expiry conditions and current Opplex reseller panel pricing. Request a quotation to calculate the effective cost of managing your planned subscriber base."
+                  },
+                  {
+                    heading: "IPTV Reseller Dashboard & Account Management",
+                    body: "Evaluate the Opplex IPTV reseller dashboard for customer account creation, subscription renewal controls, expiry tracking and credit allocation. For volume-based operations, ask whether bulk account tools, usage reports and multiple administrator permissions are available."
+                  },
+                  {
+                    heading: "Opplex IPTV Setup & Device Compatibility",
+                    body: "For Opplex IPTV setup, verify compatibility with Xtream Codes-supported applications, M3U playlist connections, MAG boxes, Smart TVs and Android TV devices. Confirm available HD and 4K packages, simultaneous connection limits and any device-specific restrictions."
+                  },
+                  {
+                    heading: "Opplex Trial Availability & Provider Checks",
+                    body: "If you are evaluating Opplex before a larger purchase, ask whether trial access is currently available and what restrictions apply. Also confirm activation times, refund rules, support availability, regional service conditions and appropriate content distribution rights."
+                  }
+                ].map((item) => (
+                  <div key={item.heading} style={{ marginBottom: "2rem" }}>
+                    <h3 style={{
+                      fontFamily: "'Outfit', sans-serif",
+                      fontSize: "1.3rem",
+                      fontWeight: 700,
+                      color: "var(--text-primary)",
+                      marginBottom: "0.75rem"
+                    }}>
+                      {item.heading}
+                    </h3>
+
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.85,
+                      margin: 0
+                    }}>
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+
+                <div
+                  id="opplex-contextual-links"
+                  style={{
+                    marginTop: "2.5rem",
+                    paddingTop: "2rem",
+                    borderTop: "1px solid var(--border-color)"
+                  }}
+                >
+                  <h3 style={{
+                    fontFamily: "'Outfit', sans-serif",
+                    fontSize: "1.3rem",
+                    fontWeight: 700,
+                    color: "var(--text-primary)",
+                    marginBottom: "1rem"
+                  }}>
+                    Opplex: Pricing Resources & Alternative Panels
+                  </h3>
+
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.85
+                  }}>
+                    Learn how wholesale credits are calculated
+                    in our{" "}
+                    <Link href="/en/guides/credit-system-explained">
+                      IPTV reseller credit system guide
+                    </Link>{" "}
+                    before evaluating the cost per subscription.
+                  </p>
+
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.85
+                  }}>
+                    Compare Opplex with the{" "}
+                    <Link href="/en/gtv-iptv-reseller-panel">
+                      GTV IPTV reseller panel
+                    </Link>{" "}
+                    to review different wholesale credit options
+                    and dashboard requirements.
+                  </p>
+
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.85
+                  }}>
+                    Another package to evaluate is the{" "}
+                    <Link href="/en/geo-iptv-reseller-panel">
+                      GEO IPTV reseller panel
+                    </Link>{" "}
+                    when researching alternative subscription
+                    management tools.
+                  </p>
+
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.85
+                  }}>
+                    You can also explore the{" "}
+                    <Link href="/en/lion-ott-iptv-reseller-panel">
+                      Lion OTT IPTV reseller panel
+                    </Link>{" "}
+                    for another reseller dashboard and package option.
+                  </p>
+
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.85
+                  }}>
+                    Request current wholesale quotations
+                    through our{" "}
+                    <Link href="/en/contact">
+                      IPTV reseller pricing and contact page
+                    </Link>{" "}
+                    before making a purchasing decision.
+                  </p>
+
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.85
+                  }}>
+                    If you are launching a reseller operation,
+                    read our{" "}
+                    <Link href="/en/guides/start-iptv-reseller-business">
+                      IPTV reseller business setup guide
+                    </Link>{" "}
+                    for planning, costs and account management basics.
                   </p>
                 </div>
               </div>
