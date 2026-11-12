@@ -994,27 +994,48 @@ export const ALL_PANELS: PanelData[] = [
     accentColor: "#f59e0b",
     badge: "",
     features: [
-      "High-speed server performance",
-      "Fast 4K no-buffering streaming",
-      "Quick Xtream Codes & M3U setup",
-      "MAG box & Smart TV support",
-      "Streamlined reseller dashboard",
-      "Rapid credit activation",
-      "Fast subscription creation workflow",
-      "Responsive WhatsApp support",
+      "Evaluate Tiger OTT panel speed and responsiveness",
+      "Compare wholesale reseller credit packages",
+      "Review dashboard and subscriber management tools",
+      "Check account activation and renewal procedures",
+      "Confirm Xtream Codes and M3U setup options",
+      "Verify MAG box and Smart TV compatibility",
+      "Assess available HD and 4K streaming packages",
+      "Confirm support channels and activation timelines",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Speed-Optimized Panel" },
-      { label: "Support", value: "Fast WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.6%+" },
+      { label: "Streaming Quality", value: "Confirm HD and 4K options" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Reseller dashboard — review features" },
+      { label: "Support", value: "Confirm channels and response hours" },
+      { label: "Credit Activation", value: "Confirm processing timeframe" },
+      { label: "Server Uptime", value: "Request verified performance data" },
     ],
     faqs: [
-      { q: "Why is Tiger OTT called a fast IPTV reseller panel?", a: "Tiger OTT is engineered for speed — from fast server loading times to quick credit activation and streamlined subscription creation — making it one of the fastest IPTV panels to deploy and sell from." },
-      { q: "Does Tiger OTT offer good streaming quality?", a: "Yes. Tiger OTT delivers stable 4K Ultra HD streaming across Xtream Codes, M3U, and MAG box connections with strong uptime and minimal buffering." },
-      { q: "How do I get Tiger OTT reseller credits?", a: "Contact IPTV Reseller on WhatsApp. Tiger OTT credits are activated instantly so you can start creating customer subscriptions right away." },
+      {
+        q: "What is the Tiger OTT IPTV reseller panel?",
+        a: "Tiger OTT is an IPTV reseller panel option for businesses evaluating wholesale credits, customer account management and subscription activation tools. Check the current dashboard functions and package conditions before purchasing."
+      },
+      {
+        q: "Is Tiger OTT a fast IPTV reseller panel?",
+        a: "Tiger OTT is positioned around streamlined reseller operations, but actual dashboard responsiveness and streaming performance should be tested. Request a demonstration and current performance information rather than relying on unverified speed guarantees."
+      },
+      {
+        q: "How much does the Tiger OTT reseller panel cost?",
+        a: "Tiger OTT reseller pricing depends on wholesale credit packages, minimum order quantities and subscription periods. Confirm current prices and calculate the effective cost per customer subscription."
+      },
+      {
+        q: "How do Tiger OTT reseller credits and activations work?",
+        a: "Reseller credits are commonly used to create or renew subscriptions. Confirm the package's credit conversion, minimum purchase requirements, account validity and activation processing times before ordering."
+      },
+      {
+        q: "Which devices and connection methods work with Tiger OTT?",
+        a: "Ask the provider to confirm support for Xtream Codes-compatible applications, M3U playlists, MAG boxes and Smart TVs. Compatibility, available resolutions and connection limits depend on the selected package."
+      },
+      {
+        q: "What should I check before buying Tiger OTT reseller credits?",
+        a: "Review dashboard access, pricing, account limits, activation procedures, support availability, refund terms, regional coverage and appropriate content distribution rights before purchasing."
+      },
     ],
     relatedSlugs: ["starshare-iptv-reseller-panel", "trex-ott-iptv-reseller-panel", "dino-iptv-reseller-panel", "opplex-iptv-reseller-panel"],
   },

@@ -165,6 +165,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Star Share IPTV Reseller Panel | Credits & Pricing",
         description: "Explore Star Share IPTV reseller panel credits, wholesale pricing, shared-access terms, dashboard features, subscription management and setup options.",
       }
+    : panel.slug === "tiger-ott-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Tiger OTT IPTV Reseller Panel | Credits & Setup",
+        description: "Explore Tiger OTT IPTV reseller panel credits, wholesale pricing, dashboard tools, subscription activation, device compatibility and setup options.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
@@ -1218,6 +1223,166 @@ export default function PanelPageTemplate({ panel }: Props) {
                       IPTV API integration guide
                     </Link>{" "}
                     to understand integration requirements and limitations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+
+        {/* Tiger OTT SEO content — below hero, before Features */}
+        {panel.slug === "tiger-ott-iptv-reseller-panel" && locale === "en" && (
+          <section
+            id="tiger-seo-content"
+            aria-label="Tiger OTT IPTV reseller panel buying guide"
+            style={{
+              padding: "4.5rem 0",
+              background: "var(--bg-primary)",
+              borderTop: "1px solid var(--border-color)"
+            }}
+          >
+            <div className="section-container">
+              <div style={{ maxWidth: 900, margin: "0 auto" }}>
+                <div className="tag" style={{ marginBottom: "1rem" }}>
+                  TIGER OTT RESELLER GUIDE
+                </div>
+
+                <h2 style={{
+                  fontFamily: "'Outfit', sans-serif",
+                  fontSize: "clamp(1.65rem, 3vw, 2.3rem)",
+                  fontWeight: 800,
+                  lineHeight: 1.25,
+                  color: "var(--text-primary)",
+                  marginBottom: "1rem"
+                }}>
+                  About Tiger OTT IPTV Reseller Panel
+                </h2>
+
+                <p style={{
+                  color: "var(--text-secondary)",
+                  lineHeight: 1.85,
+                  marginBottom: "2.5rem"
+                }}>
+                  The Tiger OTT IPTV reseller panel is an option for
+                  businesses evaluating reseller dashboard responsiveness,
+                  wholesale credits, subscription activation workflows
+                  and supported connection formats. Compare the actual
+                  features, costs and provider terms before choosing
+                  a package for your IPTV reseller business.
+                </p>
+
+                {[
+                  {
+                    heading: "Fast IPTV Reseller Panel: What to Evaluate",
+                    body: "When evaluating Tiger OTT as a fast IPTV reseller panel, review dashboard loading times, customer account creation workflows and subscription activation procedures. Ask for a demonstration and current performance information. Streaming speed and buffering depend on the actual service, network and device, so avoid assuming guaranteed results."
+                  },
+                  {
+                    heading: "Tiger OTT Reseller Credits & Wholesale Pricing",
+                    body: "Compare Tiger OTT reseller credits by checking package quantities, minimum purchase requirements, credit conversion and renewal rules. For accurate Tiger OTT reseller panel pricing, request a current quote and calculate the effective cost per subscription rather than relying only on headline credit amounts."
+                  },
+                  {
+                    heading: "IPTV Reseller Dashboard & Customer Management",
+                    body: "Review the Tiger OTT reseller dashboard for account creation, customer administration, subscription expiry tracking and renewal management. Confirm which reports, trial controls and bulk operations are included in the selected package before making a purchase."
+                  },
+                  {
+                    heading: "Tiger OTT IPTV Setup & Device Compatibility",
+                    body: "For Tiger OTT IPTV setup, verify supported connection methods such as Xtream Codes-compatible apps, M3U playlists and MAG devices. Confirm Smart TV and Android TV compatibility, available playback resolutions and simultaneous connection limits with the provider."
+                  },
+                  {
+                    heading: "Subscription Activation, Support & Buying Checks",
+                    body: "Check how IPTV subscription activation and renewals are processed, what support channels are available and how account issues are handled. Before ordering, verify provider terms, regional availability, refund conditions and the appropriate content distribution rights."
+                  }
+                ].map((item) => (
+                  <div key={item.heading} style={{ marginBottom: "2rem" }}>
+                    <h3 style={{
+                      fontFamily: "'Outfit', sans-serif",
+                      fontSize: "1.3rem",
+                      fontWeight: 700,
+                      color: "var(--text-primary)",
+                      marginBottom: "0.75rem"
+                    }}>
+                      {item.heading}
+                    </h3>
+
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.85,
+                      margin: 0
+                    }}>
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+
+                <div
+                  id="tiger-contextual-links"
+                  style={{
+                    marginTop: "2.5rem",
+                    paddingTop: "2rem",
+                    borderTop: "1px solid var(--border-color)"
+                  }}
+                >
+                  <h3 style={{
+                    fontFamily: "'Outfit', sans-serif",
+                    fontSize: "1.3rem",
+                    fontWeight: 700,
+                    color: "var(--text-primary)",
+                    marginBottom: "1rem"
+                  }}>
+                    Tiger OTT: Setup Resources & Related Panels
+                  </h3>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Understand credit allocation and renewal rules
+                    in our{" "}
+                    <Link href="/en/guides/credit-system-explained">
+                      IPTV reseller credit management guide
+                    </Link>{" "}
+                    before purchasing wholesale packages.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For portal configuration and branded access,
+                    explore the{" "}
+                    <Link href="/en/guides/dns-portal-setup-guide">
+                      IPTV DNS and portal setup guide
+                    </Link>{" "}
+                    to understand common configuration requirements.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    If your operations require technical integrations,
+                    review the{" "}
+                    <Link href="/en/guides/xtream-api-integration-guide">
+                      IPTV API integration guide
+                    </Link>{" "}
+                    and check which functions the selected panel supports.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Compare Tiger OTT with the{" "}
+                    <Link href="/en/trex-ott-iptv-reseller-panel">
+                      T-Rex OTT reseller panel
+                    </Link>{" "}
+                    when evaluating alternative reseller dashboard workflows.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Another related option is the{" "}
+                    <Link href="/en/dino-iptv-reseller-panel">
+                      Dino IPTV reseller panel
+                    </Link>{" "}
+                    for comparing package and customer management features.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For current package availability and
+                    wholesale ordering details, visit our{" "}
+                    <Link href="/en/contact">
+                      IPTV reseller pricing and contact page
+                    </Link>{" "}
+                    and request the latest terms.
                   </p>
                 </div>
               </div>
