@@ -307,82 +307,11 @@ export default function PanelPageTemplate({ panel }: Props) {
                   {panel.description}
                 </p>
 
-                <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginBottom: "2.5rem" }}>
-                  {panel.longDescription}
-                </p>
-
-                {panel.slug === "infinity-premium-iptv-reseller-panel" && locale === "en" && (
-                  <section
-                    id="infinity-contextual-links"
-                    aria-label="Infinity Premium reseller resources"
-                    style={{ marginBottom: "2rem" }}
-                  >
-                    <h2 style={{
-                      fontSize: "1.25rem",
-                      fontWeight: 700,
-                      marginBottom: "1rem",
-                      color: "var(--text-primary)"
-                    }}>
-                      Infinity Premium IPTV Reseller Panel: Buying Resources
-                    </h2>
-
-                    <p style={{
-                      color: "var(--text-secondary)",
-                      lineHeight: 1.8,
-                      marginBottom: "1rem"
-                    }}>
-                      Before purchasing wholesale packages,
-                      explore our guide to the{" "}
-                      <Link href="/en/guides/credit-system-explained">
-                        IPTV reseller credit system
-                      </Link>{" "}
-                      to understand credit allocation,
-                      subscription durations and renewals.
-                    </p>
-
-                    <p style={{
-                      color: "var(--text-secondary)",
-                      lineHeight: 1.8,
-                      marginBottom: "1rem"
-                    }}>
-                      You can also{" "}
-                      <Link href="/en/comparisons">
-                        compare IPTV reseller panels
-                      </Link>{" "}
-                      to evaluate dashboard features,
-                      wholesale package terms and
-                      administrative requirements.
-                    </p>
-
-                    <p style={{
-                      color: "var(--text-secondary)",
-                      lineHeight: 1.8,
-                      marginBottom: "1rem"
-                    }}>
-                      For another management option,
-                      review the{" "}
-                      <Link href="/en/nexon-iptv-reseller-panel">
-                        Nexon IPTV reseller panel
-                      </Link>{" "}
-                      and compare its listed reseller
-                      features with Infinity Premium.
-                    </p>
-
-                    <p style={{
-                      color: "var(--text-secondary)",
-                      lineHeight: 1.8
-                    }}>
-                      If you are building a new business,
-                      read our guide on how to{" "}
-                      <Link href="/en/guides/start-iptv-reseller-business">
-                        start an IPTV reseller business
-                      </Link>{" "}
-                      and plan your costs, customer
-                      management and support workflow.
-                    </p>
-                  </section>
+                {!(panel.slug === "infinity-premium-iptv-reseller-panel" && locale === "en") && (
+                  <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginBottom: "2.5rem" }}>
+                    {panel.longDescription}
+                  </p>
                 )}
-
 
                 {panel.slug === "nexon-iptv-reseller-panel" && locale === "en" && (
                   <section
@@ -637,6 +566,178 @@ export default function PanelPageTemplate({ panel }: Props) {
             </div>
           </div>
         </section>
+
+        {/* Infinity Premium SEO Content */}
+        {panel.slug === "infinity-premium-iptv-reseller-panel" && locale === "en" && (
+          <section
+            id="infinity-seo-content"
+            aria-label="Infinity Premium reseller panel information"
+            style={{
+              padding: "4.5rem 0",
+              borderTop: "1px solid var(--border-color)",
+              background: "var(--bg-primary)"
+            }}
+          >
+            <div className="section-container">
+              <div style={{ maxWidth: 900, margin: "0 auto" }}>
+
+                <div style={{ marginBottom: "2.5rem" }}>
+                  <div className="tag" style={{ marginBottom: "1rem" }}>
+                    RESELLER PANEL GUIDE
+                  </div>
+                  <h2 style={{
+                    fontFamily: "'Outfit', sans-serif",
+                    fontSize: "clamp(1.65rem, 3vw, 2.3rem)",
+                    fontWeight: 800,
+                    lineHeight: 1.25,
+                    color: "var(--text-primary)",
+                    marginBottom: "1rem"
+                  }}>
+                    About Infinity Premium IPTV Reseller Panel
+                  </h2>
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    fontSize: "1rem",
+                    lineHeight: 1.85
+                  }}>
+                    {panel.longDescription.split(
+                      "Before choosing Infinity Premium reseller packages"
+                    )[0].trim()}
+                  </p>
+                </div>
+
+                <div style={{
+                  display: "grid",
+                  gap: "2rem",
+                  marginBottom: "3rem"
+                }}>
+                  {[
+                    {
+                      title: "Dashboard & Subscription Management",
+                      content: panel.longDescription
+                        .split("Before choosing Infinity Premium reseller packages")[1]
+                        ?.split("When comparing Infinity Premium IPTV reseller panel pricing")[0],
+                      prefix: "Before choosing Infinity Premium reseller packages"
+                    },
+                    {
+                      title: "Wholesale Credits & Pricing",
+                      content: panel.longDescription
+                        .split("When comparing Infinity Premium IPTV reseller panel pricing")[1]
+                        ?.split("If you plan to serve customers")[0],
+                      prefix: "When comparing Infinity Premium IPTV reseller panel pricing"
+                    },
+                    {
+                      title: "Compatibility & Streaming Requirements",
+                      content: panel.longDescription
+                        .split("If you plan to serve customers")[1]
+                        ?.split("Also confirm customer support channels")[0],
+                      prefix: "If you plan to serve customers"
+                    },
+                    {
+                      title: "Support & Provider Evaluation",
+                      content: panel.longDescription
+                        .split("Also confirm customer support channels")[1],
+                      prefix: "Also confirm customer support channels"
+                    }
+                  ].map((item) => (
+                    <div key={item.title}>
+                      <h3 style={{
+                        fontFamily: "'Outfit', sans-serif",
+                        fontSize: "1.3rem",
+                        fontWeight: 700,
+                        color: "var(--text-primary)",
+                        marginBottom: "0.75rem"
+                      }}>
+                        {item.title}
+                      </h3>
+                      <p style={{
+                        color: "var(--text-secondary)",
+                        fontSize: "0.98rem",
+                        lineHeight: 1.85,
+                        margin: 0
+                      }}>
+                        {item.prefix}{item.content}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+
+                {panel.slug === "infinity-premium-iptv-reseller-panel" && locale === "en" && (
+                  <section
+                    id="infinity-contextual-links"
+                    aria-label="Infinity Premium reseller resources"
+                    style={{ marginBottom: "2rem" }}
+                  >
+                    <h2 style={{
+                      fontSize: "1.25rem",
+                      fontWeight: 700,
+                      marginBottom: "1rem",
+                      color: "var(--text-primary)"
+                    }}>
+                      Infinity Premium IPTV Reseller Panel: Buying Resources
+                    </h2>
+
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.8,
+                      marginBottom: "1rem"
+                    }}>
+                      Before purchasing wholesale packages,
+                      explore our guide to the{" "}
+                      <Link href="/en/guides/credit-system-explained">
+                        IPTV reseller credit system
+                      </Link>{" "}
+                      to understand credit allocation,
+                      subscription durations and renewals.
+                    </p>
+
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.8,
+                      marginBottom: "1rem"
+                    }}>
+                      You can also{" "}
+                      <Link href="/en/comparisons">
+                        compare IPTV reseller panels
+                      </Link>{" "}
+                      to evaluate dashboard features,
+                      wholesale package terms and
+                      administrative requirements.
+                    </p>
+
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.8,
+                      marginBottom: "1rem"
+                    }}>
+                      For another management option,
+                      review the{" "}
+                      <Link href="/en/nexon-iptv-reseller-panel">
+                        Nexon IPTV reseller panel
+                      </Link>{" "}
+                      and compare its listed reseller
+                      features with Infinity Premium.
+                    </p>
+
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.8
+                    }}>
+                      If you are building a new business,
+                      read our guide on how to{" "}
+                      <Link href="/en/guides/start-iptv-reseller-business">
+                        start an IPTV reseller business
+                      </Link>{" "}
+                      and plan your costs, customer
+                      management and support workflow.
+                    </p>
+                  </section>
+                )}
+
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Features */}
         <section
