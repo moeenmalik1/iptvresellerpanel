@@ -806,9 +806,9 @@ export const ALL_PANELS: PanelData[] = [
   {
     name: "GTV",
     slug: "gtv-iptv-reseller-panel",
-    tagline: "GTV IPTV Reseller Panel — Great Value IPTV Panel for Smart Resellers",
-    description: "GTV is a great-value IPTV reseller panel offering reliable 4K streaming and a solid reseller dashboard at competitive credit pricing. For resellers who want quality without overpaying, GTV delivers excellent ROI.",
-    longDescription: "GTV strikes the perfect balance between streaming quality, dashboard functionality, and credit pricing — offering exceptional value for IPTV resellers. Reliable 4K streaming, full Xtream Codes and M3U support, MAG box compatibility, and a clean reseller dashboard make GTV a smart choice for cost-conscious resellers building profitable businesses.",
+    tagline: "GTV IPTV Reseller Panel — Wholesale Credits & Dashboard",
+    description: "Explore GTV IPTV reseller credits, wholesale packages, customer management, subscription renewals and dashboard options for your business.",
+    longDescription: "GTV IPTV reseller panel options can be evaluated by comparing wholesale credit packages, customer management features, activation procedures and subscription renewal terms.",
     quality: "4K Ultra HD",
     qualityBadge: "4K Streaming",
     support: "Fast",
@@ -817,27 +817,48 @@ export const ALL_PANELS: PanelData[] = [
     accentColor: "#22c55e",
     badge: "",
     features: [
-      "Excellent value IPTV credit pricing",
-      "Reliable 4K no-buffering streaming",
-      "Xtream Codes & M3U support",
-      "MAG box & Smart TV compatibility",
-      "Clean reseller management dashboard",
-      "Instant credit activation",
-      "Customer subscription tracking",
-      "Fast WhatsApp reseller support",
+      "Explore GTV IPTV reseller credit packages",
+      "Compare wholesale pricing and subscription costs",
+      "Review customer account management features",
+      "Check subscription renewal and expiry tracking",
+      "Evaluate Xtream Codes and M3U compatibility",
+      "Confirm MAG box and Smart TV support",
+      "Review reseller dashboard and credit controls",
+      "Confirm activation procedures and support hours",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Value-Optimized Panel" },
-      { label: "Support", value: "Fast WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.5%+" },
+      { label: "Streaming Quality", value: "Verify available 4K options" },
+      { label: "Connection Types", value: "Confirm Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Value-Focused Reseller Management" },
+      { label: "Support", value: "Confirm WhatsApp support hours" },
+      { label: "Credit Activation", value: "Confirm processing time" },
+      { label: "Server Uptime", value: "Request current reliability data" },
     ],
     faqs: [
-      { q: "Is GTV one of the cheapest IPTV reseller panels?", a: "GTV offers some of the most competitive credit pricing in the market, making it one of the best value IPTV reseller panels for resellers looking to maximize profit margins." },
-      { q: "What is the GTV IPTV reseller panel?", a: "GTV is a value-optimized IPTV reseller panel with reliable 4K streaming, Xtream Codes & M3U support, and a clean reseller dashboard — all at competitive credit prices through IPTV Reseller." },
-      { q: "Is GTV suitable for beginner IPTV resellers?", a: "Yes. GTV's clean dashboard and competitive pricing make it an accessible and profitable starting point for new IPTV resellers on a budget." },
+      {
+        q: "What is the GTV IPTV reseller panel?",
+        a: "The GTV IPTV reseller panel is an option for businesses researching wholesale IPTV credits, customer subscription management and reseller dashboard tools. Confirm the features and account conditions included in the selected package."
+      },
+      {
+        q: "How much does the GTV IPTV reseller panel cost?",
+        a: "GTV reseller pricing depends on the available wholesale package, credit quantity and provider terms. Request a current quotation and compare the effective cost per subscription, including renewal and support expenses."
+      },
+      {
+        q: "How do GTV IPTV reseller credits work?",
+        a: "The displayed GTV package lists one credit for one month, twelve credits for twelve months and a 120-credit panel requirement. Confirm the applicable package terms and credit allocation rules before ordering."
+      },
+      {
+        q: "Is GTV suitable for beginner IPTV resellers?",
+        a: "GTV may be worth evaluating for beginners who need clear credit pricing and manageable subscription administration. Review the dashboard demonstration, minimum purchase requirements and customer support arrangements."
+      },
+      {
+        q: "Does GTV support Xtream Codes, M3U and Smart TVs?",
+        a: "The available connection methods and compatible devices should be confirmed for the selected service package. Ask about Xtream Codes, M3U playlists, MAG devices, Smart TV applications and simultaneous connection limits."
+      },
+      {
+        q: "Can I use the GTV reseller panel in the UK, USA and Europe?",
+        a: "Regional suitability depends on service availability, account conditions, supported devices and appropriate content distribution rights. Verify these details before offering customer subscriptions in your target country."
+      },
     ],
     relatedSlugs: ["opplex-iptv-reseller-panel", "geo-iptv-reseller-panel", "lion-ott-iptv-reseller-panel", "4k-ott-iptv-reseller-panel"],
   },

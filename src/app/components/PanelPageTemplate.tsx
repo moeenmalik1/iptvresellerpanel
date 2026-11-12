@@ -150,6 +150,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Infinity Premium IPTV Reseller Panel | Credits",
         description: "Explore Infinity Premium IPTV reseller credits, wholesale packages, subscription management tools, dashboard features, pricing and setup options before buying.",
       }
+    : panel.slug === "gtv-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "GTV IPTV Reseller Panel | Wholesale Credits & Setup",
+        description: "Explore GTV IPTV reseller panel credits, wholesale pricing, dashboard features, subscription management, device support and setup options.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
@@ -307,7 +312,7 @@ export default function PanelPageTemplate({ panel }: Props) {
                   {panel.description}
                 </p>
 
-                {!(panel.slug === "infinity-premium-iptv-reseller-panel" && locale === "en") && (
+                {!(locale === "en" && (panel.slug === "infinity-premium-iptv-reseller-panel" || panel.slug === "gtv-iptv-reseller-panel")) && (
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginBottom: "2.5rem" }}>
                     {panel.longDescription}
                   </p>
@@ -733,6 +738,160 @@ export default function PanelPageTemplate({ panel }: Props) {
                     </p>
                   </section>
                 )}
+
+              </div>
+            </div>
+          </section>
+        )}
+
+
+        {/* GTV SEO Content - outside the hero */}
+        {panel.slug === "gtv-iptv-reseller-panel" && locale === "en" && (
+          <section
+            id="gtv-seo-content"
+            aria-label="GTV IPTV reseller panel guide"
+            style={{
+              padding: "4.5rem 0",
+              background: "var(--bg-primary)",
+              borderTop: "1px solid var(--border-color)"
+            }}
+          >
+            <div className="section-container">
+              <div style={{ maxWidth: 900, margin: "0 auto" }}>
+
+                <div className="tag" style={{ marginBottom: "1rem" }}>
+                  RESELLER PANEL GUIDE
+                </div>
+
+                <h2 style={{
+                  fontFamily: "'Outfit', sans-serif",
+                  fontSize: "clamp(1.65rem, 3vw, 2.3rem)",
+                  fontWeight: 800,
+                  lineHeight: 1.25,
+                  color: "var(--text-primary)",
+                  marginBottom: "1rem"
+                }}>
+                  About GTV IPTV Reseller Panel
+                </h2>
+
+                <p style={{
+                  color: "var(--text-secondary)",
+                  lineHeight: 1.85,
+                  marginBottom: "2.5rem"
+                }}>
+                  The GTV IPTV reseller panel is an option
+                  for businesses comparing wholesale IPTV
+                  credits, customer accounts, subscription
+                  renewals and reseller dashboard tools.
+                  Evaluate available packages, management
+                  features and service conditions before
+                  selecting a wholesale provider.
+                </p>
+
+                {[
+                  {
+                    heading: "GTV Wholesale Credits & Pricing",
+                    body: "The GTV pricing card lists one credit for one month, twelve credits for twelve months and a 120-credit panel requirement. Confirm current wholesale rates, package conditions and renewal rules before placing an order."
+                  },
+                  {
+                    heading: "GTV Reseller Dashboard & Customer Management",
+                    body: "Review account creation, credit allocation, subscription renewals, customer search and expiry tracking. Ask for a dashboard demonstration to understand which administrative tools are included."
+                  },
+                  {
+                    heading: "Streaming Quality & Device Compatibility",
+                    body: "Check available streaming resolutions, supported devices and connection methods. Confirm Xtream Codes, M3U, MAG, Smart TV compatibility and simultaneous connection limitations for the selected package."
+                  },
+                  {
+                    heading: "Technical Support & Business Requirements",
+                    body: "Verify activation procedures, support hours, refund policies and regional service availability. Calculate operating expenses and confirm appropriate content distribution rights before selling subscriptions."
+                  }
+                ].map((item) => (
+                  <div
+                    key={item.heading}
+                    style={{ marginBottom: "2rem" }}
+                  >
+                    <h3 style={{
+                      fontFamily: "'Outfit', sans-serif",
+                      fontSize: "1.3rem",
+                      fontWeight: 700,
+                      color: "var(--text-primary)",
+                      marginBottom: "0.75rem"
+                    }}>
+                      {item.heading}
+                    </h3>
+
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.85,
+                      margin: 0
+                    }}>
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+
+                <div
+                  id="gtv-contextual-links"
+                  style={{
+                    marginTop: "2.5rem",
+                    paddingTop: "2rem",
+                    borderTop: "1px solid var(--border-color)"
+                  }}
+                >
+                  <h3 style={{
+                    fontFamily: "'Outfit', sans-serif",
+                    fontSize: "1.3rem",
+                    fontWeight: 700,
+                    color: "var(--text-primary)",
+                    marginBottom: "1rem"
+                  }}>
+                    Helpful IPTV Reseller Resources
+                  </h3>
+
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.85
+                  }}>
+                    Learn how the{" "}
+                    <Link href="/en/guides/credit-system-explained">
+                      IPTV reseller credit system
+                    </Link>{" "}
+                    works before choosing a wholesale package.
+                  </p>
+
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.85
+                  }}>
+                    You can{" "}
+                    <Link href="/en/comparisons">
+                      compare IPTV reseller panels
+                    </Link>{" "}
+                    to evaluate additional management options.
+                  </p>
+
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.85
+                  }}>
+                    Explore the{" "}
+                    <Link href="/en/lion-ott-iptv-reseller-panel">
+                      Lion OTT reseller panel
+                    </Link>{" "}
+                    as another option for comparison.
+                  </p>
+
+                  <p style={{
+                    color: "var(--text-secondary)",
+                    lineHeight: 1.85
+                  }}>
+                    New to IPTV reselling? Read how to{" "}
+                    <Link href="/en/guides/start-iptv-reseller-business">
+                      start an IPTV reseller business
+                    </Link>{" "}
+                    and plan customer support and operating costs.
+                  </p>
+                </div>
 
               </div>
             </div>
