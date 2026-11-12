@@ -160,6 +160,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Crystal OTT IPTV Reseller Panel | Wholesale Credits",
         description: "Explore Crystal OTT IPTV reseller panel credits, wholesale pricing, dashboard tools, subscription management, device compatibility and setup options.",
       }
+    : panel.slug === "starshare-iptv-reseller-panel" && locale === "en"
+    ? {
+        title: "Star Share IPTV Reseller Panel | Credits & Pricing",
+        description: "Explore Star Share IPTV reseller panel credits, wholesale pricing, shared-access terms, dashboard features, subscription management and setup options.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
@@ -1053,6 +1058,166 @@ export default function PanelPageTemplate({ panel }: Props) {
                     </Link>{" "}
                     to evaluate available management and
                     wholesale package options.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+
+        {/* Star Share SEO content — below hero, before Features */}
+        {panel.slug === "starshare-iptv-reseller-panel" && locale === "en" && (
+          <section
+            id="starshare-seo-content"
+            aria-label="Star Share IPTV reseller panel buying guide"
+            style={{
+              padding: "4.5rem 0",
+              background: "var(--bg-primary)",
+              borderTop: "1px solid var(--border-color)"
+            }}
+          >
+            <div className="section-container">
+              <div style={{ maxWidth: 900, margin: "0 auto" }}>
+                <div className="tag" style={{ marginBottom: "1rem" }}>
+                  STAR SHARE RESELLER GUIDE
+                </div>
+
+                <h2 style={{
+                  fontFamily: "'Outfit', sans-serif",
+                  fontSize: "clamp(1.65rem, 3vw, 2.3rem)",
+                  fontWeight: 800,
+                  lineHeight: 1.25,
+                  color: "var(--text-primary)",
+                  marginBottom: "1rem"
+                }}>
+                  About Star Share IPTV Reseller Panel
+                </h2>
+
+                <p style={{
+                  color: "var(--text-secondary)",
+                  lineHeight: 1.85,
+                  marginBottom: "2.5rem"
+                }}>
+                  The Star Share IPTV reseller panel is an option for
+                  businesses researching shared-access arrangements,
+                  wholesale reseller credits and customer subscription
+                  management. Before purchasing, compare the actual
+                  account rules, credit requirements, dashboard tools
+                  and supported connection methods.
+                </p>
+
+                {[
+                  {
+                    heading: "How Star Share Shared-Access Packages Work",
+                    body: "The term shared access can describe different arrangements, so request a clear explanation of what is shared, which customer limits apply and whether simultaneous connections are allowed. Confirm the package's account rules rather than assuming that a shared-access model permits unlimited users or streams."
+                  },
+                  {
+                    heading: "Star Share Wholesale Credits & Reseller Pricing",
+                    body: "Compare Star Share IPTV reseller credits by reviewing credit-to-subscription conversion, minimum orders, package validity and renewal charges. Wholesale pricing should be evaluated against the number of customer accounts you plan to manage and the current commercial terms supplied by the provider."
+                  },
+                  {
+                    heading: "IPTV Reseller Dashboard & Subscription Management",
+                    body: "Review the Star Share reseller dashboard for customer account creation, subscription extensions, expiry tracking and credit balances. If your business needs trial subscriptions or multiple staff accounts, confirm these functions in the actual dashboard before purchasing."
+                  },
+                  {
+                    heading: "Xtream Codes, M3U & Device Compatibility",
+                    body: "Check which connection formats and applications are supported by the selected Star Share package. Ask about Xtream Codes-compatible apps, M3U playlists, MAG boxes, Smart TVs and Android TV devices. Available streaming resolutions and playback performance depend on the service and network."
+                  },
+                  {
+                    heading: "Star Share Setup, Support & Provider Checks",
+                    body: "Before ordering a Star Share reseller package, confirm activation timeframes, support channels, account limitations, regional availability and refund conditions. Verify that the provider holds appropriate rights for any content you intend to distribute."
+                  }
+                ].map((item) => (
+                  <div key={item.heading} style={{ marginBottom: "2rem" }}>
+                    <h3 style={{
+                      fontFamily: "'Outfit', sans-serif",
+                      fontSize: "1.3rem",
+                      fontWeight: 700,
+                      color: "var(--text-primary)",
+                      marginBottom: "0.75rem"
+                    }}>
+                      {item.heading}
+                    </h3>
+
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.85,
+                      margin: 0
+                    }}>
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+
+                <div
+                  id="starshare-contextual-links"
+                  style={{
+                    marginTop: "2.5rem",
+                    paddingTop: "2rem",
+                    borderTop: "1px solid var(--border-color)"
+                  }}
+                >
+                  <h3 style={{
+                    fontFamily: "'Outfit', sans-serif",
+                    fontSize: "1.3rem",
+                    fontWeight: 700,
+                    color: "var(--text-primary)",
+                    marginBottom: "1rem"
+                  }}>
+                    Star Share: Related Guides & Alternatives
+                  </h3>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For managing subscription renewals and payments,
+                    review our{" "}
+                    <Link href="/en/guides/billing-whmcs-stripe-guide">
+                      reseller billing automation guide
+                    </Link>{" "}
+                    and confirm the integrations your business requires.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    If you plan to build a recognizable reseller brand,
+                    explore{" "}
+                    <Link href="/en/guides/white-label-panel-branding">
+                      IPTV white-label branding options
+                    </Link>{" "}
+                    before selecting your dashboard and customer setup.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Learn the differences between{" "}
+                    <Link href="/en/guides/xtream-codes-vs-m3u">
+                      Xtream Codes and M3U connections
+                    </Link>{" "}
+                    when assessing supported playback applications.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For an alternative reseller package,
+                    explore the{" "}
+                    <Link href="/en/tiger-ott-iptv-reseller-panel">
+                      Tiger OTT IPTV reseller panel
+                    </Link>{" "}
+                    and compare the available account-management terms.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    You can also evaluate the{" "}
+                    <Link href="/en/geo-iptv-reseller-panel">
+                      GEO IPTV reseller panel
+                    </Link>{" "}
+                    for a different wholesale package option.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For technical account administration,
+                    read the{" "}
+                    <Link href="/en/guides/xtream-api-integration-guide">
+                      IPTV API integration guide
+                    </Link>{" "}
+                    to understand integration requirements and limitations.
                   </p>
                 </div>
               </div>

@@ -935,27 +935,48 @@ export const ALL_PANELS: PanelData[] = [
     accentColor: "#f59e0b",
     badge: "",
     features: [
-      "Flexible shared-access reseller model",
-      "Broad channel selection for customers",
-      "Stable 4K no-buffering streaming",
-      "Xtream Codes & M3U support",
-      "MAG box & Smart TV compatibility",
-      "Competitive credit pricing",
-      "Subscription & trial management",
-      "24/7 WhatsApp support",
+      "Evaluate Star Share shared-access package terms",
+      "Compare available wholesale reseller credit packages",
+      "Review channel availability and regional coverage",
+      "Check supported HD and 4K streaming options",
+      "Confirm Xtream Codes and M3U connection methods",
+      "Verify MAG box and Smart TV compatibility",
+      "Review subscription, renewal and trial controls",
+      "Confirm activation procedures and support availability",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Flexible Reseller Panel" },
-      { label: "Support", value: "24/7 WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.5%+" },
+      { label: "Streaming Quality", value: "Confirm HD and 4K availability" },
+      { label: "Connection Types", value: "Verify Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Flexible reseller management" },
+      { label: "Support", value: "Confirm channels and hours" },
+      { label: "Credit Activation", value: "Confirm activation timeframe" },
+      { label: "Server Uptime", value: "Request current reliability data" },
     ],
     faqs: [
-      { q: "What is the Star Share IPTV reseller panel?", a: "Star Share is an IPTV reseller panel with a flexible shared-access model, offering a broad channel selection and competitive credit pricing for resellers who want diverse content options." },
-      { q: "How does Star Share's shared-access model work for resellers?", a: "The shared-access model allows resellers to provide customers access to a broad content library at competitive pricing — maximizing value for both reseller and end customer." },
-      { q: "Is Star Share available through IPTV Reseller?", a: "Yes. IPTV Reseller provides Star Share reseller credits with instant activation and full setup support via WhatsApp." },
+      {
+        q: "What is the Star Share IPTV reseller panel?",
+        a: "Star Share is an IPTV reseller panel option for businesses exploring subscription administration, wholesale reseller credits and shared-access package arrangements. Review the current package terms before purchasing."
+      },
+      {
+        q: "How does the Star Share shared-access model work?",
+        a: "Shared-access arrangements may differ between providers. Ask whether sharing refers to account access, subscription connections or another package feature. Confirm user limits, simultaneous streams and account rules before offering subscriptions."
+      },
+      {
+        q: "How much does the Star Share IPTV reseller panel cost?",
+        a: "Star Share reseller panel pricing depends on the available wholesale credit packages, minimum purchase requirements and subscription terms. Compare the effective cost per customer account and confirm renewal charges."
+      },
+      {
+        q: "How do Star Share IPTV reseller credits work?",
+        a: "IPTV reseller credits are commonly used to activate or renew customer subscriptions. Confirm the Star Share package's credit conversion rates, validity periods, expiry conditions and minimum order quantity."
+      },
+      {
+        q: "Which devices and connection formats support Star Share?",
+        a: "Check supported devices and connection methods with the provider. Ask about Xtream Codes-compatible applications, M3U playlists, MAG boxes, Smart TVs and any simultaneous connection restrictions."
+      },
+      {
+        q: "What should I check before buying Star Share reseller credits?",
+        a: "Review wholesale pricing, dashboard access, trial availability, customer account limits, activation times, support hours, regional restrictions and appropriate content distribution rights before placing an order."
+      },
     ],
     relatedSlugs: ["tiger-ott-iptv-reseller-panel", "geo-iptv-reseller-panel", "gtv-iptv-reseller-panel", "opplex-iptv-reseller-panel"],
   },
