@@ -36,6 +36,13 @@ const nextConfig: NextConfig = {
     ];
 
     return [
+      // 5G Live IPTV permanent SEO URL migration
+      {
+        source: `/:locale(${locales})/5g-live-iptv-reseller-panel`,
+        destination: "/:locale/5g-live-iptv-reseller-panel-credits",
+        permanent: true,
+      },
+
       // GEO IPTV permanent URL migration (all 8 locales)
       {
         source: `/:locale(${locales})/geo-iptv-reseller-panel`,

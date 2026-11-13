@@ -180,6 +180,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "GEO IPTV Reseller Panel | International Credits",
         description: "Explore GEO IPTV reseller panel credits, wholesale pricing, international coverage, dashboard tools, device compatibility and subscription setup.",
       }
+    : panel.slug === "5g-live-iptv-reseller-panel-credits" && locale === "en"
+    ? {
+        title: "5G Live IPTV Reseller Panel | Credits & Pricing",
+        description: "Explore 5G Live IPTV reseller panel credits, wholesale pricing, dashboard features, subscription management, compatible devices and reseller setup.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
@@ -1719,7 +1724,7 @@ export default function PanelPageTemplate({ panel }: Props) {
 
                   <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
                     Another option to evaluate is the{" "}
-                    <Link href="/en/5g-live-iptv-reseller-panel">
+                    <Link href="/en/5g-live-iptv-reseller-panel-credits">
                       5G Live IPTV reseller panel
                     </Link>{" "}
                     for different connectivity and customer
@@ -1733,6 +1738,164 @@ export default function PanelPageTemplate({ panel }: Props) {
                     </Link>{" "}
                     using their available wholesale packages,
                     dashboard features and support terms.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+
+        {/* 5G Live buyer guide — outside original hero */}
+        {panel.slug === "5g-live-iptv-reseller-panel-credits" && locale === "en" && (
+          <section
+            id="fiveg-live-seo-content"
+            aria-label="5G Live IPTV reseller credits and setup guide"
+            style={{
+              padding: "4.5rem 0",
+              background: "var(--bg-primary)",
+              borderTop: "1px solid var(--border-color)"
+            }}
+          >
+            <div className="section-container">
+              <div style={{ maxWidth: 900, margin: "0 auto" }}>
+                <div className="tag" style={{ marginBottom: "1rem" }}>
+                  5G LIVE RESELLER GUIDE
+                </div>
+
+                <h2 style={{
+                  fontFamily: "'Outfit', sans-serif",
+                  fontSize: "clamp(1.65rem, 3vw, 2.3rem)",
+                  fontWeight: 800,
+                  lineHeight: 1.25,
+                  color: "var(--text-primary)",
+                  marginBottom: "1rem"
+                }}>
+                  5G Live IPTV Reseller Panel: Credits, Pricing & Setup
+                </h2>
+
+                <p style={{
+                  color: "var(--text-secondary)",
+                  lineHeight: 1.85,
+                  marginBottom: "2.5rem"
+                }}>
+                  The 5G Live IPTV reseller panel is a product option
+                  for businesses comparing wholesale credits,
+                  subscription management and device compatibility.
+                  Check the available service packages, customer
+                  account limits, connection methods and reseller
+                  terms before committing to a credit purchase.
+                </p>
+
+                {[
+                  {
+                    heading: "5G Live Wholesale Credits & Subscription Costs",
+                    body: "When comparing 5G Live IPTV reseller credits, request current wholesale pricing, minimum credit quantities and renewal rates. Understand how many credits each subscription duration consumes and calculate your effective per-account cost. Check whether unused credits expire and confirm the applicable refund or replacement terms."
+                  },
+                  {
+                    heading: "Does 5G Live Need a 5G Internet Connection?",
+                    body: "The product name alone does not indicate that mobile 5G internet is mandatory. Verify the provider's supported broadband and mobile network types, minimum recommended speeds and streaming quality settings. Network congestion, device capabilities and the selected service package can all affect playback stability."
+                  },
+                  {
+                    heading: "5G Live Reseller Dashboard & Customer Renewals",
+                    body: "A practical reseller dashboard should support account administration and efficient renewal workflows. Ask which tools are included for creating subscriptions, assigning credits, monitoring expiry dates and updating customers. Confirm any limits on simultaneous connections, bulk actions and access to usage statistics."
+                  },
+                  {
+                    heading: "Device Compatibility: Xtream Codes, M3U & Smart TVs",
+                    body: "Before activating subscriptions, verify the connection methods provided with 5G Live. Check compatibility with Xtream Codes-capable applications, M3U playlist players, Android TV, Smart TVs and supported MAG devices. Setup instructions and supported resolutions may differ between packages."
+                  },
+                  {
+                    heading: "Choosing 5G Live for UK, USA & European Customers",
+                    body: "For international reseller operations, verify service availability and acceptable connection performance in each target country. Review customer support response times, account restrictions, commercial terms and applicable content distribution rights before offering subscriptions to customers."
+                  }
+                ].map((item) => (
+                  <div key={item.heading} style={{ marginBottom: "2rem" }}>
+                    <h3 style={{
+                      fontFamily: "'Outfit', sans-serif",
+                      fontSize: "1.3rem",
+                      fontWeight: 700,
+                      color: "var(--text-primary)",
+                      marginBottom: "0.75rem"
+                    }}>
+                      {item.heading}
+                    </h3>
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.85,
+                      margin: 0
+                    }}>
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+
+                <div
+                  id="fiveg-live-contextual-links"
+                  style={{
+                    marginTop: "2.5rem",
+                    paddingTop: "2rem",
+                    borderTop: "1px solid var(--border-color)"
+                  }}
+                >
+                  <h3 style={{
+                    fontFamily: "'Outfit', sans-serif",
+                    fontSize: "1.3rem",
+                    fontWeight: 700,
+                    color: "var(--text-primary)",
+                    marginBottom: "1rem"
+                  }}>
+                    5G Live Setup Resources & Reseller Alternatives
+                  </h3>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    To plan subscription allocation and wholesale
+                    margins, start with our{" "}
+                    <Link href="/en/guides/credit-system-explained">
+                      IPTV reseller credit system guide
+                    </Link>.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For subscription renewals and billing workflows,
+                    see the{" "}
+                    <Link href="/en/guides/billing-whmcs-stripe-guide">
+                      WHMCS and Stripe billing integration guide
+                    </Link>{" "}
+                    and confirm which tools your provider supports.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Planning a new reseller operation? Our{" "}
+                    <Link href="/en/guides/start-iptv-reseller-business">
+                      guide to starting an IPTV reseller business
+                    </Link>{" "}
+                    explains the initial decisions and setup process.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For dashboard connectivity and customer account
+                    management, review the{" "}
+                    <Link href="/en/guides/xtream-api-integration-guide">
+                      Xtream API integration guide
+                    </Link>.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    If your buyers need another product option,
+                    compare the{" "}
+                    <Link href="/en/zen-4k-iptv-reseller-panel">
+                      Zen 4K IPTV reseller panel
+                    </Link>{" "}
+                    for its own credit and dashboard arrangements.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For an alternative international reseller
+                    package, evaluate the{" "}
+                    <Link href="/en/geo-iptv-reseller-panel-credits">
+                      GEO IPTV reseller panel
+                    </Link>{" "}
+                    and check its region-specific conditions.
                   </p>
                 </div>
               </div>

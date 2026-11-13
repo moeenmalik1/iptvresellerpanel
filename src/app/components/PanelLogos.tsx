@@ -155,7 +155,7 @@ export function PanelLogo({ slug, color, size = 22 }: PanelLogoProps) {
           <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
         </svg>
       );
-    case "5g-live-iptv-reseller-panel":
+    case "5g-live-iptv-reseller-panel-credits":
       return (
         <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke={color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 18h.01M8 14c2.5-3 5.5-3 8 0M5 10c4.5-5 9.5-5 14 0M2 6c6.5-7 13.5-7 20 0" />

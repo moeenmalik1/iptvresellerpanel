@@ -23,7 +23,7 @@ const panels = [
   { name: "Tiger OTT", slug: "tiger-ott-iptv-reseller-panel", color: "#f59e0b" },
   { name: "Opplex", slug: "opplex-iptv-reseller-panel", color: "#ec4899" },
   { name: "GEO IPTV", slug: "geo-iptv-reseller-panel-credits", color: "#3b82f6" },
-  { name: "5G Live", slug: "5g-live-iptv-reseller-panel", color: "#06b6d4" },
+  { name: "5G Live", slug: "5g-live-iptv-reseller-panel-credits", color: "#06b6d4" },
   { name: "Magnum Golden OTT", slug: "magnum-golden-ott-iptv-reseller-panel", color: "#f59e0b" },
 ];
 

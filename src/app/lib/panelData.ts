@@ -1155,11 +1155,11 @@ export const ALL_PANELS: PanelData[] = [
         a: "Review regional availability, wholesale pricing, dashboard tools, account limits, activation procedures, support hours, refund terms and appropriate content distribution rights before purchasing."
       },
     ],
-    relatedSlugs: ["starshare-iptv-reseller-panel", "opplex-iptv-reseller-panel", "gtv-iptv-reseller-panel", "5g-live-iptv-reseller-panel"],
+    relatedSlugs: ["starshare-iptv-reseller-panel", "opplex-iptv-reseller-panel", "gtv-iptv-reseller-panel", "5g-live-iptv-reseller-panel-credits"],
   },
   {
     name: "5G Live",
-    slug: "5g-live-iptv-reseller-panel",
+    slug: "5g-live-iptv-reseller-panel-credits",
     tagline: "5G Live IPTV Reseller Panel — Next-Gen High-Speed Streaming for Resellers",
     description: "5G Live is a next-generation IPTV reseller panel built for high-speed streaming in the 5G era. With ultra-low-latency servers and a modern reseller dashboard, 5G Live delivers the fastest and most responsive IPTV experience available.",
     longDescription: "5G Live is engineered for the next era of IPTV streaming — leveraging high-bandwidth, ultra-low-latency server infrastructure to deliver seamless streaming on 5G networks and beyond. The modern reseller dashboard is packed with tools for managing customers in real time, with instant credit activation and bulk subscription capabilities.",
@@ -1171,27 +1171,48 @@ export const ALL_PANELS: PanelData[] = [
     accentColor: "#06b6d4",
     badge: "Next-Gen",
     features: [
-      "Ultra-low-latency 5G-optimized servers",
-      "Premium 4K no-buffering streaming",
-      "Xtream Codes & M3U support",
-      "MAG box & next-gen device compatible",
-      "Modern reseller dashboard with live stats",
-      "Instant credit activation",
-      "Real-time subscriber monitoring",
-      "24/7 WhatsApp reseller support",
+      "Compare 5G Live wholesale reseller credit options",
+      "Review HD and 4K streaming package availability",
+      "Verify Xtream Codes and M3U connection support",
+      "Check MAG box, Smart TV and Android TV compatibility",
+      "Review reseller dashboard and customer controls",
+      "Compare subscription creation and renewal workflows",
+      "Confirm credit allocation and account management tools",
+      "Verify support channels and activation timeframes",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Next-Gen Modern Panel" },
-      { label: "Support", value: "24/7 WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.8%+" },
+      { label: "Streaming Quality", value: "Verify HD and 4K package options" },
+      { label: "Connection Types", value: "Confirm Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Review reseller management tools" },
+      { label: "Support", value: "Confirm channels and support hours" },
+      { label: "Credit Activation", value: "Confirm activation timeframe" },
+      { label: "Server Uptime", value: "Request current reliability data" },
     ],
     faqs: [
-      { q: "What is the 5G Live IPTV reseller panel?", a: "5G Live is a next-generation IPTV reseller panel with ultra-low-latency servers optimized for high-speed networks, delivering seamless 4K streaming with a modern reseller management dashboard." },
-      { q: "Does 5G Live require customers to have 5G internet?", a: "No. 5G Live works on all broadband connections. The '5G' refers to its high-speed server infrastructure — customers with any fast broadband connection will benefit from the low-latency streaming." },
-      { q: "Is 5G Live available as an IPTV reseller panel in the UK and USA?", a: "Yes. 5G Live IPTV is available to resellers globally through IPTV Reseller including the UK, USA, and the EU with geo-optimized server delivery." },
+      {
+        q: "What is the 5G Live IPTV reseller panel?",
+        a: "5G Live is an IPTV reseller panel option for businesses comparing wholesale credits, customer subscription tools and device compatibility. Review the current service package, available dashboard functions and reseller terms before ordering."
+      },
+      {
+        q: "How much do 5G Live IPTV reseller credits cost?",
+        a: "Pricing depends on the wholesale credit package, minimum order, subscription duration and current provider terms. Request an updated quotation and calculate the effective cost per customer subscription."
+      },
+      {
+        q: "Does 5G Live IPTV require a 5G internet connection?",
+        a: "The 5G Live product name does not establish a requirement for mobile 5G connectivity. Confirm which broadband and mobile networks are supported, together with bandwidth needs and actual streaming performance."
+      },
+      {
+        q: "What can I manage from a 5G Live reseller dashboard?",
+        a: "Check whether the selected panel supports creating customer accounts, assigning credits, monitoring subscription expiry and processing renewals. Available tools and account limits may vary by package."
+      },
+      {
+        q: "Which devices and connection formats support 5G Live IPTV?",
+        a: "Ask the provider to confirm support for Xtream Codes-compatible applications, M3U playlists, MAG boxes, Android TV and Smart TVs. Device compatibility, simultaneous connections and streaming resolution depend on the selected service."
+      },
+      {
+        q: "Can 5G Live resellers serve customers in the UK, USA and Europe?",
+        a: "Regional availability and performance need to be verified for each target market. Before purchasing credits, confirm local service access, applicable content distribution rights, customer support arrangements and subscription restrictions."
+      },
     ],
     relatedSlugs: ["geo-iptv-reseller-panel-credits", "tiger-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel", "zen-4k-iptv-reseller-panel"],
   },
@@ -3562,7 +3583,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
     },
   },
-  "5g-live-iptv-reseller-panel": {
+  "5g-live-iptv-reseller-panel-credits": {
     "sv": {
       tagline: "5G Live IPTV Återförsäljarpanel — Nästa generations höghastighetsströmning för återförsäljare",
       description: "5G Live is en nästa generations IPTV-återförsäljarpanel byggd för höghastighetsströmning i 5G-eran. Med servrar med extremt låg latens och ett modernt återförsäljardashboard levererar 5G Live den snabbaste och mest lyhörda IPTV-upplevelsen.",
@@ -6285,7 +6306,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
     },
   },
-  "5g-live-iptv-reseller-panel": {
+  "5g-live-iptv-reseller-panel-credits": {
     "es": {
       tagline: "Panel Reseller 5G Live — Streaming de Alta Velocidad de Nueva Generación para Distribuidores",
       description: "5G Live es un panel de revendedor de IPTV de última generación, diseñado para el streaming de ultra alta velocidad. Con servidores de latencia extremadamente baja y un panel moderno, 5G Live ofrece la experiencia de IPTV más rápida y fluida del mercado.",
