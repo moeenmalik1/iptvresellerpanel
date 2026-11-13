@@ -185,6 +185,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "5G Live IPTV Reseller Panel | Credits & Pricing",
         description: "Explore 5G Live IPTV reseller panel credits, wholesale pricing, dashboard features, subscription management, compatible devices and reseller setup.",
       }
+    : panel.slug === "magnum-golden-ott-reseller-panel-credits" && locale === "en"
+    ? {
+        title: "Magnum Golden OTT Reseller Panel | Credits & Pricing",
+        description: "Explore Magnum Golden OTT reseller panel credits, wholesale pricing, premium subscription options, reseller dashboard tools, device support and setup.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
@@ -1896,6 +1901,169 @@ export default function PanelPageTemplate({ panel }: Props) {
                       GEO IPTV reseller panel
                     </Link>{" "}
                     and check its region-specific conditions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+
+        {/* Magnum Golden OTT guide — outside the original hero */}
+        {panel.slug === "magnum-golden-ott-reseller-panel-credits" && locale === "en" && (
+          <section
+            id="magnum-seo-content"
+            aria-label="Magnum Golden OTT reseller panel buying guide"
+            style={{
+              padding: "4.5rem 0",
+              background: "var(--bg-primary)",
+              borderTop: "1px solid var(--border-color)"
+            }}
+          >
+            <div className="section-container">
+              <div style={{ maxWidth: 900, margin: "0 auto" }}>
+                <div className="tag" style={{ marginBottom: "1rem" }}>
+                  MAGNUM GOLDEN OTT RESELLER GUIDE
+                </div>
+
+                <h2 style={{
+                  fontFamily: "'Outfit', sans-serif",
+                  fontSize: "clamp(1.65rem, 3vw, 2.3rem)",
+                  fontWeight: 800,
+                  lineHeight: 1.25,
+                  color: "var(--text-primary)",
+                  marginBottom: "1rem"
+                }}>
+                  Magnum Golden OTT Reseller Panel: Credits & Pricing
+                </h2>
+
+                <p style={{
+                  color: "var(--text-secondary)",
+                  lineHeight: 1.85,
+                  marginBottom: "2.5rem"
+                }}>
+                  The Magnum Golden OTT reseller panel is a
+                  premium-positioned option for businesses
+                  evaluating wholesale reseller credits, customer
+                  subscriptions and dashboard management tools.
+                  Compare current packages, credit requirements,
+                  available content rights and technical support
+                  before deciding whether it suits your business.
+                </p>
+
+                {[
+                  {
+                    heading: "Magnum Golden OTT Wholesale Credits & Pricing",
+                    body: "When comparing Magnum Golden OTT reseller credits, request the latest wholesale price list and minimum order requirements. Calculate the effective cost of monthly and annual subscriptions, confirm how many credits each plan uses and review renewal pricing. Bulk purchases should be evaluated against actual customer demand rather than assumed profit margins."
+                  },
+                  {
+                    heading: "Premium Subscription Packages & Customer Value",
+                    body: "Premium positioning can help differentiate a reseller offer, but the value depends on the actual package. Review available content categories, subscription durations, supported resolutions, regional availability and account limits. Compare those features with customer expectations before setting retail prices."
+                  },
+                  {
+                    heading: "Magnum Golden OTT Dashboard & Renewals",
+                    body: "Evaluate the reseller dashboard for creating customer accounts, allocating credits, tracking expiration dates and renewing subscriptions. Confirm whether account reporting, trial controls, bulk management and access permissions are available with your chosen reseller package."
+                  },
+                  {
+                    heading: "Device Setup: Xtream Codes, M3U & MAG",
+                    body: "Before ordering credits, check whether Magnum Golden OTT supports the connection methods and devices your customers use. Confirm Xtream Codes-compatible applications, M3U playlists, MAG boxes, Android TV and Smart TV compatibility. Streaming quality and simultaneous connection limits should be verified for each package."
+                  },
+                  {
+                    heading: "Trials, Support & Premium Reseller Evaluation",
+                    body: "Ask whether a trial is currently offered and what it includes. Review activation procedures, support response times, applicable refund terms and regional restrictions. Businesses planning to distribute streaming services should also verify the necessary content distribution rights for their intended markets."
+                  }
+                ].map((item) => (
+                  <div key={item.heading} style={{ marginBottom: "2rem" }}>
+                    <h3 style={{
+                      fontFamily: "'Outfit', sans-serif",
+                      fontSize: "1.3rem",
+                      fontWeight: 700,
+                      color: "var(--text-primary)",
+                      marginBottom: "0.75rem"
+                    }}>
+                      {item.heading}
+                    </h3>
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.85,
+                      margin: 0
+                    }}>
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+
+                <div
+                  id="magnum-contextual-links"
+                  style={{
+                    marginTop: "2.5rem",
+                    paddingTop: "2rem",
+                    borderTop: "1px solid var(--border-color)"
+                  }}
+                >
+                  <h3 style={{
+                    fontFamily: "'Outfit', sans-serif",
+                    fontSize: "1.3rem",
+                    fontWeight: 700,
+                    color: "var(--text-primary)",
+                    marginBottom: "1rem"
+                  }}>
+                    Premium IPTV Reseller Guides & Alternatives
+                  </h3>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For businesses comparing premium positioning,
+                    explore the{" "}
+                    <Link href="/en/infinity-premium-iptv-reseller-panel">
+                      Infinity Premium IPTV reseller panel
+                    </Link>{" "}
+                    and evaluate its available credit packages.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    To compare other higher-resolution package
+                    options, review the{" "}
+                    <Link href="/en/ultra-8k-ott-iptv-reseller-panel">
+                      Ultra 8K OTT reseller panel
+                    </Link>{" "}
+                    while checking actual device and content
+                    compatibility.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    If you plan to customize your reseller brand,
+                    read our{" "}
+                    <Link href="/en/guides/white-label-panel-branding">
+                      white-label IPTV branding guide
+                    </Link>{" "}
+                    before choosing a customer-facing setup.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For account creation and integration workflows,
+                    consult the{" "}
+                    <Link href="/en/guides/xtream-api-integration-guide">
+                      Xtream API integration guide
+                    </Link>{" "}
+                    and verify which functions your panel supports.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    When calculating subscription expenses and
+                    renewals, use our{" "}
+                    <Link href="/en/guides/credit-system-explained">
+                      IPTV reseller credit system guide
+                    </Link>{" "}
+                    to understand common credit models.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    To review a broader range of wholesale
+                    options, visit our{" "}
+                    <Link href="/en/comparisons">
+                      IPTV reseller panel comparisons
+                    </Link>{" "}
+                    and evaluate available features and terms.
                   </p>
                 </div>
               </div>

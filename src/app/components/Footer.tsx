@@ -43,7 +43,7 @@ export default function Footer() {
     { label: "Crystal OTT Reseller Panel", href: "/crystal-ott-iptv-reseller-panel" },
     { label: "Mega OTT Wholesale Panel", href: "/mega-ott-iptv-reseller-panel" },
     { label: "Infinity Premium IPTV Panel", href: "/infinity-premium-iptv-reseller-panel" },
-    { label: "Magnum Golden OTT Panel", href: "/magnum-golden-ott-iptv-reseller-panel" },
+    { label: "Magnum Golden OTT Panel", href: "/magnum-golden-ott-reseller-panel-credits" },
     { label: "Opplex IPTV Reseller Panel", href: "/opplex-iptv-reseller-panel" },
     { label: locale === "es" ? "Ver los 22 Paneles ↗" : locale === "fr" ? "Voir les 22 Panneaux ↗" : locale === "pt" ? "Ver todos os 22 Painéis ↗" : locale === "sv" ? "Visa alla 22 Paneler ↗" : locale === "no" ? "Se alle 22 Paneler ↗" : "View All 22 IPTV Panels ↗", href: "/#panels" },
   ];

@@ -1218,7 +1218,7 @@ export const ALL_PANELS: PanelData[] = [
   },
   {
     name: "Magnum Golden OTT",
-    slug: "magnum-golden-ott-iptv-reseller-panel",
+    slug: "magnum-golden-ott-reseller-panel-credits",
     tagline: "Magnum Golden OTT IPTV Reseller Panel — Gold Standard IPTV for Premium Resellers",
     description: "Magnum Golden OTT is a premium gold-tier IPTV reseller panel combining luxurious streaming quality with comprehensive reseller management tools. For resellers who want to offer their customers the gold standard in IPTV — Magnum Golden OTT delivers.",
     longDescription: "Magnum Golden OTT sets the gold standard for IPTV reselling with its premium server infrastructure, rich channel content library, and a full-featured reseller dashboard. The golden-tier positioning allows resellers to command premium subscription pricing while maintaining excellent margins through competitive bulk credit packages from IPTV Reseller.",
@@ -1230,28 +1230,48 @@ export const ALL_PANELS: PanelData[] = [
     accentColor: "#f59e0b",
     badge: "Gold Tier",
     features: [
-      "Gold-tier premium IPTV server infrastructure",
-      "Premium 4K no-buffering streaming",
-      "Rich content & channel selection",
-      "Xtream Codes, M3U & MAG box support",
-      "Comprehensive reseller management dashboard",
-      "Bulk credit packages — best reseller margins",
-      "Free trial subscription generation",
-      "24/7 premium WhatsApp reseller support",
+      "Compare Magnum Golden OTT wholesale reseller credits",
+      "Review premium HD and 4K subscription options",
+      "Check available channel packages and regional access",
+      "Verify Xtream Codes, M3U and MAG compatibility",
+      "Evaluate customer subscription management tools",
+      "Review bulk credit quantities and renewal costs",
+      "Confirm availability of reseller trial accounts",
+      "Verify activation procedures and support hours",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Premium Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Premium Gold Panel" },
-      { label: "Support", value: "24/7 Premium" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.9%" },
+      { label: "Streaming Quality", value: "Verify HD and 4K package availability" },
+      { label: "Connection Types", value: "Confirm Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Review premium reseller tools" },
+      { label: "Support", value: "Confirm support channels and hours" },
+      { label: "Credit Activation", value: "Confirm processing timeframe" },
+      { label: "Server Uptime", value: "Request current reliability information" },
     ],
     faqs: [
-      { q: "What is the Magnum Golden OTT IPTV reseller panel?", a: "Magnum Golden OTT is a premium gold-tier IPTV reseller panel offering rich content, 4K streaming quality, and a comprehensive reseller dashboard — positioned at the premium end of the IPTV market." },
-      { q: "What kind of customers is Magnum Golden OTT best for?", a: "Magnum Golden OTT is ideal for customers who want a premium, all-inclusive IPTV experience — broad channel selection, premium quality, and reliable streaming. Resellers can command higher subscription prices with the Magnum brand." },
-      { q: "How do I become a Magnum Golden OTT IPTV reseller?", a: "Contact IPTV Reseller on WhatsApp to purchase Magnum Golden OTT reseller credits. We'll activate your reseller panel and provide full setup support immediately." },
-      { q: "Is there a free trial for Magnum Golden OTT?", a: "Yes. IPTV Reseller offers free trial access to the Magnum Golden OTT reseller panel. Message us on WhatsApp to get your trial started." },
+      {
+        q: "What is the Magnum Golden OTT reseller panel?",
+        a: "Magnum Golden OTT is a premium-positioned IPTV reseller panel option for businesses comparing wholesale credits, subscription packages and customer management tools. Review current features, service availability and reseller conditions before ordering."
+      },
+      {
+        q: "How much do Magnum Golden OTT reseller credits cost?",
+        a: "Wholesale pricing depends on the selected credit package, order quantity, subscription duration and current provider terms. Request an updated quote and compare the effective cost per customer account."
+      },
+      {
+        q: "How do Magnum Golden OTT reseller credits work?",
+        a: "Reseller credits are generally allocated when creating or renewing customer subscriptions. Confirm the exact credit conversion rates, minimum order, renewal requirements and any expiry conditions before purchasing."
+      },
+      {
+        q: "Is Magnum Golden OTT suitable for premium IPTV resellers?",
+        a: "Businesses evaluating premium subscription packages can compare Magnum Golden OTT's available content, device support, reseller dashboard and wholesale terms. Premium branding alone does not guarantee service quality or profitability."
+      },
+      {
+        q: "Does Magnum Golden OTT support Smart TVs and other devices?",
+        a: "Confirm availability of Xtream Codes-compatible applications, M3U playlists, MAG boxes, Android TV and Smart TV support. Device compatibility, connection limits and streaming resolutions depend on the specific package."
+      },
+      {
+        q: "Can I request a Magnum Golden OTT reseller trial?",
+        a: "Ask the provider whether trial access is currently available, which features the trial includes and whether any restrictions apply. Also confirm activation timeframes, technical support and applicable content distribution rights."
+      },
     ],
     relatedSlugs: ["infinity-premium-iptv-reseller-panel", "strong-4k-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel"],
   },
@@ -3697,7 +3717,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
     },
   },
-  "magnum-golden-ott-iptv-reseller-panel": {
+  "magnum-golden-ott-reseller-panel-credits": {
     "sv": {
       tagline: "Magnum Golden OTT IPTV Återförsäljarpanel — Guldstandarden för premiumåterförsäljare",
       description: "Magnum Golden OTT är en exklusiv IPTV-återförsäljarpanel i guldklass som kombinerar enastående strömningskvalitet med heltäckande hanteringsverktyg. För återförsäljare i Sverige som vill erbjuda guldstandarden inom IPTV.",
@@ -6504,7 +6524,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
     },
   },
-  "magnum-golden-ott-iptv-reseller-panel": {
+  "magnum-golden-ott-reseller-panel-credits": {
     "es": {
       tagline: "Panel Reseller Magnum Golden OTT — El Estándar de Oro en IPTV para Distribuidores Premium",
       description: "Magnum Golden OTT es un panel de revendedor de IPTV de categoría dorada superior que combina una calidad de transmisión de lujo con completas herramientas de administración empresarial. La opción predilecta para ofrecer la máxima excelencia en IPTV.",

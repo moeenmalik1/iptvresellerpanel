@@ -36,6 +36,13 @@ const nextConfig: NextConfig = {
     ];
 
     return [
+      // Magnum Golden OTT permanent SEO URL migration
+      {
+        source: `/:locale(${locales})/magnum-golden-ott-iptv-reseller-panel`,
+        destination: "/:locale/magnum-golden-ott-reseller-panel-credits",
+        permanent: true,
+      },
+
       // 5G Live IPTV permanent SEO URL migration
       {
         source: `/:locale(${locales})/5g-live-iptv-reseller-panel`,

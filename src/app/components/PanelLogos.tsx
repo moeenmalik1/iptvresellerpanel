@@ -161,7 +161,7 @@ export function PanelLogo({ slug, color, size = 22 }: PanelLogoProps) {
           <path d="M12 18h.01M8 14c2.5-3 5.5-3 8 0M5 10c4.5-5 9.5-5 14 0M2 6c6.5-7 13.5-7 20 0" />
         </svg>
       );
-    case "magnum-golden-ott-iptv-reseller-panel":
+    case "magnum-golden-ott-reseller-panel-credits":
       return (
         <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke={color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M2 4l3 12h14l3-12-6 6-4-6-4 6-6-6z" fill={`${color}22`} />
