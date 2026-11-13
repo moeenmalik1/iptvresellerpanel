@@ -175,6 +175,11 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Opplex IPTV Reseller Panel | Credits & Pricing",
         description: "Explore Opplex IPTV reseller panel credits, wholesale pricing, dashboard features, subscription management, device support and setup options.",
       }
+    : panel.slug === "geo-iptv-reseller-panel-credits" && locale === "en"
+    ? {
+        title: "GEO IPTV Reseller Panel | International Credits",
+        description: "Explore GEO IPTV reseller panel credits, wholesale pricing, international coverage, dashboard tools, device compatibility and subscription setup.",
+      }
     : getHighCtrMetadata();
   const { title: pageTitle, description: pageDescription } = metadata;
  
@@ -1215,7 +1220,7 @@ export default function PanelPageTemplate({ panel }: Props) {
 
                   <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
                     You can also evaluate the{" "}
-                    <Link href="/en/geo-iptv-reseller-panel">
+                    <Link href="/en/geo-iptv-reseller-panel-credits">
                       GEO IPTV reseller panel
                     </Link>{" "}
                     for a different wholesale package option.
@@ -1527,7 +1532,7 @@ export default function PanelPageTemplate({ panel }: Props) {
                     lineHeight: 1.85
                   }}>
                     Another package to evaluate is the{" "}
-                    <Link href="/en/geo-iptv-reseller-panel">
+                    <Link href="/en/geo-iptv-reseller-panel-credits">
                       GEO IPTV reseller panel
                     </Link>{" "}
                     when researching alternative subscription
@@ -1567,6 +1572,167 @@ export default function PanelPageTemplate({ panel }: Props) {
                       IPTV reseller business setup guide
                     </Link>{" "}
                     for planning, costs and account management basics.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+
+        {/* GEO IPTV SEO guide — outside the existing hero */}
+        {panel.slug === "geo-iptv-reseller-panel-credits" && locale === "en" && (
+          <section
+            id="geo-seo-content"
+            aria-label="GEO IPTV reseller panel buying guide"
+            style={{
+              padding: "4.5rem 0",
+              background: "var(--bg-primary)",
+              borderTop: "1px solid var(--border-color)"
+            }}
+          >
+            <div className="section-container">
+              <div style={{ maxWidth: 900, margin: "0 auto" }}>
+                <div className="tag" style={{ marginBottom: "1rem" }}>
+                  GEO IPTV RESELLER GUIDE
+                </div>
+
+                <h2 style={{
+                  fontFamily: "'Outfit', sans-serif",
+                  fontSize: "clamp(1.65rem, 3vw, 2.3rem)",
+                  fontWeight: 800,
+                  lineHeight: 1.25,
+                  color: "var(--text-primary)",
+                  marginBottom: "1rem"
+                }}>
+                  About GEO IPTV Reseller Panel & International Credits
+                </h2>
+
+                <p style={{
+                  color: "var(--text-secondary)",
+                  lineHeight: 1.85,
+                  marginBottom: "2.5rem"
+                }}>
+                  The GEO IPTV reseller panel is an option for
+                  businesses comparing international service
+                  availability, wholesale reseller credits and
+                  customer subscription management tools.
+                  Evaluate regional access, account restrictions,
+                  device compatibility and current commercial
+                  terms before choosing a package.
+                </p>
+
+                {[
+                  {
+                    heading: "International IPTV Reseller Panel: Regional Coverage",
+                    body: "If you serve customers in the UK, USA, Canada, Europe or other markets, check the availability of each GEO IPTV package by country. Regional streaming performance can vary by network, server location and device. Request current coverage information and test the intended service where permitted rather than assuming worldwide availability."
+                  },
+                  {
+                    heading: "GEO IPTV Reseller Credits & Wholesale Pricing",
+                    body: "When evaluating GEO IPTV reseller credits, confirm the wholesale package quantities, credit conversion rules, minimum orders and renewal costs. Request current GEO IPTV reseller panel pricing and compare the effective subscription cost across customer plans before purchasing credits."
+                  },
+                  {
+                    heading: "Multi-Region Reseller Dashboard & Account Management",
+                    body: "An international IPTV reseller business needs reliable customer administration workflows. Evaluate the GEO IPTV reseller dashboard for subscription creation, credit allocation, account expiry tracking and renewals. Confirm whether reporting, trial controls or regional account restrictions are available."
+                  },
+                  {
+                    heading: "GEO IPTV Setup, Devices & Connection Formats",
+                    body: "Before GEO IPTV reseller setup, verify support for Xtream Codes-compatible applications, M3U playlists, MAG boxes, Smart TVs and Android TV devices. Check the selected package's supported resolutions, connection limits and device restrictions. HD or 4K playback quality is dependent on the actual service and network."
+                  },
+                  {
+                    heading: "UK, Europe & Worldwide Reseller Buying Checks",
+                    body: "For businesses serving multiple countries, assess applicable content distribution rights, regional service limitations, payment requirements, activation procedures and customer support arrangements. Confirm these details for your target markets before advertising international subscriptions."
+                  }
+                ].map((item) => (
+                  <div key={item.heading} style={{ marginBottom: "2rem" }}>
+                    <h3 style={{
+                      fontFamily: "'Outfit', sans-serif",
+                      fontSize: "1.3rem",
+                      fontWeight: 700,
+                      color: "var(--text-primary)",
+                      marginBottom: "0.75rem"
+                    }}>
+                      {item.heading}
+                    </h3>
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      lineHeight: 1.85,
+                      margin: 0
+                    }}>
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+
+                <div
+                  id="geo-contextual-links"
+                  style={{
+                    marginTop: "2.5rem",
+                    paddingTop: "2rem",
+                    borderTop: "1px solid var(--border-color)"
+                  }}
+                >
+                  <h3 style={{
+                    fontFamily: "'Outfit', sans-serif",
+                    fontSize: "1.3rem",
+                    fontWeight: 700,
+                    color: "var(--text-primary)",
+                    marginBottom: "1rem"
+                  }}>
+                    GEO IPTV: Technical Guides & Alternative Panels
+                  </h3>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For branded portals and domain configuration,
+                    explore our{" "}
+                    <Link href="/en/guides/dns-portal-setup-guide">
+                      IPTV DNS and portal setup guide
+                    </Link>{" "}
+                    and review the requirements for your business.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Before configuring customer devices, understand
+                    the differences between{" "}
+                    <Link href="/en/guides/xtream-codes-vs-m3u">
+                      Xtream Codes and M3U connections
+                    </Link>.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Planning a branded international reseller business?
+                    Read our{" "}
+                    <Link href="/en/guides/white-label-panel-branding">
+                      IPTV white-label branding guide
+                    </Link>{" "}
+                    and check which features your provider offers.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Compare GEO IPTV with the{" "}
+                    <Link href="/en/starshare-iptv-reseller-panel">
+                      Star Share reseller panel
+                    </Link>{" "}
+                    when assessing alternative subscription
+                    and shared-access arrangements.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    Another option to evaluate is the{" "}
+                    <Link href="/en/5g-live-iptv-reseller-panel">
+                      5G Live IPTV reseller panel
+                    </Link>{" "}
+                    for different connectivity and customer
+                    management requirements.
+                  </p>
+
+                  <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
+                    For a wider overview,{" "}
+                    <Link href="/en/comparisons">
+                      compare IPTV reseller panels
+                    </Link>{" "}
+                    using their available wholesale packages,
+                    dashboard features and support terms.
                   </p>
                 </div>
               </div>

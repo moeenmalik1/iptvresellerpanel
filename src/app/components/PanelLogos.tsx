@@ -148,7 +148,7 @@ export function PanelLogo({ slug, color, size = 22 }: PanelLogoProps) {
           <line x1="8" y1="12" x2="16" y2="12" />
         </svg>
       );
-    case "geo-iptv-reseller-panel":
+    case "geo-iptv-reseller-panel-credits":
       return (
         <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke={color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="12" cy="12" r="10" />

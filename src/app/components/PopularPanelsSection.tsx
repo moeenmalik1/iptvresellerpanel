@@ -9,7 +9,7 @@ export default function PopularPanelsSection() {
 
   // Slugs corresponding to each item to render their respective logos
   const slugs = [
-    "geo-iptv-reseller-panel",
+    "geo-iptv-reseller-panel-credits",
     "dino-iptv-reseller-panel",
     "trex-ott-iptv-reseller-panel",
     "strong-4k-iptv-reseller-panel",
@@ -18,7 +18,7 @@ export default function PopularPanelsSection() {
 
   // Links corresponding to each panel page
   const links = [
-    `/${locale}/geo-iptv-reseller-panel`,
+    `/${locale}/geo-iptv-reseller-panel-credits`,
     `/${locale}/dino-iptv-reseller-panel`,
     `/${locale}/trex-ott-iptv-reseller-panel`,
     `/${locale}/strong-4k-iptv-reseller-panel`,

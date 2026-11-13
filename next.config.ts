@@ -36,6 +36,13 @@ const nextConfig: NextConfig = {
     ];
 
     return [
+      // GEO IPTV permanent URL migration (all 8 locales)
+      {
+        source: `/:locale(${locales})/geo-iptv-reseller-panel`,
+        destination: "/:locale/geo-iptv-reseller-panel-credits",
+        permanent: true,
+      },
+
       // One global English Homepage for all countries and languages
       {
         source: "/",

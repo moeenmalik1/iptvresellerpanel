@@ -860,7 +860,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Regional suitability depends on service availability, account conditions, supported devices and appropriate content distribution rights. Verify these details before offering customer subscriptions in your target country."
       },
     ],
-    relatedSlugs: ["opplex-iptv-reseller-panel", "geo-iptv-reseller-panel", "lion-ott-iptv-reseller-panel", "4k-ott-iptv-reseller-panel"],
+    relatedSlugs: ["opplex-iptv-reseller-panel", "geo-iptv-reseller-panel-credits", "lion-ott-iptv-reseller-panel", "4k-ott-iptv-reseller-panel"],
   },
   {
     name: "Crystal OTT",
@@ -978,7 +978,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Review wholesale pricing, dashboard access, trial availability, customer account limits, activation times, support hours, regional restrictions and appropriate content distribution rights before placing an order."
       },
     ],
-    relatedSlugs: ["tiger-ott-iptv-reseller-panel", "geo-iptv-reseller-panel", "gtv-iptv-reseller-panel", "opplex-iptv-reseller-panel"],
+    relatedSlugs: ["tiger-ott-iptv-reseller-panel", "geo-iptv-reseller-panel-credits", "gtv-iptv-reseller-panel", "opplex-iptv-reseller-panel"],
   },
   {
     name: "Tiger OTT",
@@ -1096,11 +1096,11 @@ export const ALL_PANELS: PanelData[] = [
         a: "Trial availability depends on current provider terms. Contact the reseller to ask whether a trial is available, what it includes and whether any activation or usage restrictions apply."
       },
     ],
-    relatedSlugs: ["gtv-iptv-reseller-panel", "geo-iptv-reseller-panel", "starshare-iptv-reseller-panel", "lion-ott-iptv-reseller-panel"],
+    relatedSlugs: ["gtv-iptv-reseller-panel", "geo-iptv-reseller-panel-credits", "starshare-iptv-reseller-panel", "lion-ott-iptv-reseller-panel"],
   },
   {
     name: "GEO IPTV",
-    slug: "geo-iptv-reseller-panel",
+    slug: "geo-iptv-reseller-panel-credits",
     tagline: "GEO IPTV Reseller Panel — Geo-Optimized Streaming for Global Resellers",
     description: "GEO IPTV is a geographically optimized IPTV reseller panel designed for resellers serving customers across different countries and regions. With geo-targeted servers and broad content coverage, GEO IPTV ensures quality streaming wherever your customers are.",
     longDescription: "GEO IPTV uses geographically distributed server infrastructure to deliver optimized streaming to customers in different regions — UK, USA, the EU, Middle East, and beyond. For resellers with an international customer base, GEO IPTV's geo-aware architecture reduces latency and improves streaming quality regardless of customer location.",
@@ -1112,27 +1112,48 @@ export const ALL_PANELS: PanelData[] = [
     accentColor: "#3b82f6",
     badge: "",
     features: [
-      "Geo-optimized server infrastructure",
-      "Stable 4K streaming worldwide",
-      "Xtream Codes & M3U reseller support",
-      "MAG box & device compatibility",
-      "International content & channel coverage",
-      "Low-latency global streaming delivery",
-      "Reseller credit management dashboard",
-      "24/7 WhatsApp support for global resellers",
+      "Evaluate GEO IPTV international reseller packages",
+      "Compare wholesale reseller credit quantities",
+      "Review regional service and channel availability",
+      "Check HD and 4K streaming package options",
+      "Verify Xtream Codes and M3U connection methods",
+      "Confirm MAG box and Smart TV compatibility",
+      "Review customer subscriptions and credit controls",
+      "Confirm regional support and activation timelines",
     ],
     specs: [
-      { label: "Streaming Quality", value: "4K Ultra HD" },
-      { label: "Connection Types", value: "Xtream Codes, M3U, MAG" },
-      { label: "Dashboard Type", value: "Geo-Aware Panel" },
-      { label: "Support", value: "24/7 WhatsApp" },
-      { label: "Credit Activation", value: "Instant" },
-      { label: "Server Uptime", value: "99.7%+" },
+      { label: "Streaming Quality", value: "Verify HD and 4K availability" },
+      { label: "Connection Types", value: "Confirm Xtream Codes, M3U and MAG" },
+      { label: "Dashboard Type", value: "Review regional reseller tools" },
+      { label: "Support", value: "Confirm channels and operating hours" },
+      { label: "Credit Activation", value: "Confirm processing timeframe" },
+      { label: "Server Uptime", value: "Request current reliability data" },
     ],
     faqs: [
-      { q: "What is the GEO IPTV reseller panel?", a: "GEO IPTV is a geographically optimized IPTV reseller panel using distributed server infrastructure to deliver stable, low-latency 4K streaming to customers in different countries and regions." },
-      { q: "Is GEO IPTV good for resellers in the UK and the EU?", a: "Yes. GEO IPTV has servers optimized for multiple regions including the UK, USA, the EU, and the Middle East — making it ideal for resellers with international customer bases." },
-      { q: "How do I get GEO IPTV reseller credits?", a: "Contact IPTV Reseller on WhatsApp for instant GEO IPTV credit activation. We'll set up your reseller panel and guide you through your first international customer subscriptions." },
+      {
+        q: "What is the GEO IPTV reseller panel?",
+        a: "GEO IPTV is an IPTV reseller panel option for businesses evaluating wholesale credits, customer subscriptions and service availability across different regions. Verify regional coverage and dashboard functions before purchasing."
+      },
+      {
+        q: "How much does the GEO IPTV reseller panel cost?",
+        a: "GEO IPTV reseller pricing depends on available wholesale credit packages, subscription durations and minimum purchase terms. Request a current quotation and calculate the effective cost per customer account."
+      },
+      {
+        q: "How do GEO IPTV reseller credits work?",
+        a: "Reseller credits are commonly used to create or renew subscriptions. Confirm the package's credit conversion rates, renewal rules, expiry conditions and minimum order requirements before purchasing."
+      },
+      {
+        q: "Can GEO IPTV resellers serve customers in the UK and Europe?",
+        a: "Regional suitability depends on current service availability, connection performance, supported devices and content distribution rights. Verify requirements for each target country rather than assuming guaranteed international coverage."
+      },
+      {
+        q: "Which connection formats and devices are supported?",
+        a: "Confirm compatibility with Xtream Codes-supported applications, M3U playlists, MAG boxes, Smart TVs and Android TV devices. Available resolutions and simultaneous connection limits depend on the package."
+      },
+      {
+        q: "What should international GEO IPTV resellers check before ordering?",
+        a: "Review regional availability, wholesale pricing, dashboard tools, account limits, activation procedures, support hours, refund terms and appropriate content distribution rights before purchasing."
+      },
     ],
     relatedSlugs: ["starshare-iptv-reseller-panel", "opplex-iptv-reseller-panel", "gtv-iptv-reseller-panel", "5g-live-iptv-reseller-panel"],
   },
@@ -1172,7 +1193,7 @@ export const ALL_PANELS: PanelData[] = [
       { q: "Does 5G Live require customers to have 5G internet?", a: "No. 5G Live works on all broadband connections. The '5G' refers to its high-speed server infrastructure — customers with any fast broadband connection will benefit from the low-latency streaming." },
       { q: "Is 5G Live available as an IPTV reseller panel in the UK and USA?", a: "Yes. 5G Live IPTV is available to resellers globally through IPTV Reseller including the UK, USA, and the EU with geo-optimized server delivery." },
     ],
-    relatedSlugs: ["geo-iptv-reseller-panel", "tiger-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel", "zen-4k-iptv-reseller-panel"],
+    relatedSlugs: ["geo-iptv-reseller-panel-credits", "tiger-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel", "zen-4k-iptv-reseller-panel"],
   },
   {
     name: "Magnum Golden OTT",
@@ -3427,7 +3448,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
     },
   },
-  "geo-iptv-reseller-panel": {
+  "geo-iptv-reseller-panel-credits": {
     "sv": {
       tagline: "GEO IPTV Återförsäljarpanel — Geo-optimerad strömning för globala återförsäljare",
       description: "GEO IPTV är en geografiskt optimerad IPTV-återförsäljarpanel designad för återförsäljare som betjänar kunder i olika länder och regioner. Med geo-riktade servrar och brett innehåll garanterar GEO IPTV högkvalitativ strömning var dina kunder än befinner sig.",
@@ -6066,7 +6087,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
     },
   },
-  "geo-iptv-reseller-panel": {
+  "geo-iptv-reseller-panel-credits": {
     "es": {
       tagline: "Panel Reseller GEO IPTV — Transmisión Geo-Optimizada para Distribuidores Globales",
       description: "GEO IPTV es un panel de revendedor de IPTV optimizado geográficamente, diseñado para distribuidores que atienden a clientes en diferentes países. Gracias a servidores distribuidos regionalmente, GEO IPTV garantiza una transmisión veloz y estable sin importar la ubicación del cliente.",
