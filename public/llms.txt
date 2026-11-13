@@ -1,0 +1,54 @@
+# IPTV Reseller
+
+> IPTV Reseller provides information about wholesale IPTV reseller panels, credit packages, reseller dashboards, subscription management and technical setup.
+
+This file provides a curated directory of the website's public pages. Review individual product pages for current terms, compatibility and availability.
+
+## Main Pages
+
+- [Homepage](https://www.iptvreseller.live/en)
+- [Compare IPTV Reseller Panels](https://www.iptvreseller.live/en/comparisons)
+- [Technical Guides](https://www.iptvreseller.live/en/guides)
+- [About IPTV Reseller](https://www.iptvreseller.live/en/about)
+- [Contact and Pricing Enquiries](https://www.iptvreseller.live/en/contact)
+
+## IPTV Reseller Panels
+
+- [B1G Reseller Panel](https://www.iptvreseller.live/en/b1g-iptv-reseller-panel)
+- [Strong 4K Reseller Panel](https://www.iptvreseller.live/en/strong-4k-iptv-reseller-panel)
+- [Strong 8K Reseller Panel](https://www.iptvreseller.live/en/strong-8k-iptv-reseller-panel)
+- [4K OTT Reseller Panel](https://www.iptvreseller.live/en/4k-ott-iptv-reseller-panel)
+- [Lion OTT Reseller Panel](https://www.iptvreseller.live/en/lion-ott-iptv-reseller-panel)
+- [Ultra 8K OTT Reseller Panel](https://www.iptvreseller.live/en/ultra-8k-ott-iptv-reseller-panel)
+- [Dino IPTV Reseller Panel](https://www.iptvreseller.live/en/dino-iptv-reseller-panel)
+- [T-Rex OTT Reseller Panel](https://www.iptvreseller.live/en/trex-ott-iptv-reseller-panel)
+- [Mega OTT Reseller Panel](https://www.iptvreseller.live/en/mega-ott-iptv-reseller-panel)
+- [Extra OTT Reseller Panel](https://www.iptvreseller.live/en/extra-ott-iptv-reseller-panel)
+- [Max OTT Reseller Panel](https://www.iptvreseller.live/en/max-ott-iptv-reseller-panel)
+- [Zen 4K Reseller Panel](https://www.iptvreseller.live/en/zen-4k-iptv-reseller-panel)
+- [Nexon Reseller Panel](https://www.iptvreseller.live/en/nexon-iptv-reseller-panel)
+- [Infinity Premium Reseller Panel](https://www.iptvreseller.live/en/infinity-premium-iptv-reseller-panel)
+- [GTV Reseller Panel](https://www.iptvreseller.live/en/gtv-iptv-reseller-panel)
+- [Crystal OTT Reseller Panel](https://www.iptvreseller.live/en/crystal-ott-iptv-reseller-panel)
+- [Star Share Reseller Panel](https://www.iptvreseller.live/en/starshare-iptv-reseller-panel)
+- [Tiger OTT Reseller Panel](https://www.iptvreseller.live/en/tiger-ott-iptv-reseller-panel)
+- [Opplex Reseller Panel](https://www.iptvreseller.live/en/opplex-iptv-reseller-panel)
+- [GEO IPTV Reseller Panel](https://www.iptvreseller.live/en/geo-iptv-reseller-panel-credits)
+- [5G Live Reseller Panel](https://www.iptvreseller.live/en/5g-live-iptv-reseller-panel-credits)
+- [Magnum Golden OTT Reseller Panel](https://www.iptvreseller.live/en/magnum-golden-ott-reseller-panel-credits)
+
+## Technical Guides
+
+- [Start an IPTV Reseller Business](https://www.iptvreseller.live/en/guides/start-iptv-reseller-business)
+- [IPTV Reseller Credit System Explained](https://www.iptvreseller.live/en/guides/credit-system-explained)
+- [Xtream Codes vs M3U](https://www.iptvreseller.live/en/guides/xtream-codes-vs-m3u)
+- [White-Label IPTV Panel Branding](https://www.iptvreseller.live/en/guides/white-label-panel-branding)
+- [DNS and Portal Setup Guide](https://www.iptvreseller.live/en/guides/dns-portal-setup-guide)
+- [Xtream API Integration Guide](https://www.iptvreseller.live/en/guides/xtream-api-integration-guide)
+- [WHMCS and Stripe Billing Guide](https://www.iptvreseller.live/en/guides/billing-whmcs-stripe-guide)
+
+## Additional Information
+
+Product availability, streaming quality, device compatibility, support arrangements and reseller credit terms should be confirmed before purchasing.
+
+Use the official website pages for the most current published information.
