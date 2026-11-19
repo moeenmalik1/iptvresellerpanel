@@ -2,6 +2,7 @@ import Link from "next/link";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 export function generateStaticParams() {
   return [
@@ -59,6 +60,7 @@ export default async function DMCACompliancePage({
         content="dmca policy, copyright infringement, fox iptv panels copyright agent, content takedown intake"
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/dmca`} />
+      <HreflangAlternates path="dmca" />
 
       <script
         type="application/ld+json"

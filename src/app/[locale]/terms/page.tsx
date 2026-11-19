@@ -3,6 +3,7 @@ import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import { getLocalizedPricing } from "@/app/lib/pricing";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 export function generateStaticParams() {
   return [
@@ -94,6 +95,7 @@ export default async function TermsOfServicePage({
         content="terms of service, wholesale credits agreement, reseller dashboard terms, fox iptv panels refund policy"
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/terms`} />
+      <HreflangAlternates path="terms" />
 
       <script
         type="application/ld+json"

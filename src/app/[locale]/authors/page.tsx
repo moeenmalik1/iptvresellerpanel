@@ -2,6 +2,7 @@ import Link from "next/link";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import { setRequestLocale } from "next-intl/server";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 export function generateStaticParams() {
   return [
@@ -66,6 +67,7 @@ export default async function AuthorsPage({
         })} 
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/authors`} />
+      <HreflangAlternates path="authors" />
 
       <script
         type="application/ld+json"

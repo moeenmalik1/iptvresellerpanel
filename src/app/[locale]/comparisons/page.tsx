@@ -4,6 +4,7 @@ import Footer from "@/app/components/Footer";
 import ComparisonsClient from "./ComparisonsClient";
 import { ALL_PANELS } from "@/app/lib/panelData";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 export function generateStaticParams() {
   return [
@@ -110,6 +111,7 @@ export default async function ComparisonsPage({
         content="iptv reseller panel comparison, buy wholesale iptv credits, best iptv dashboard 2026, white label iptv panels, cheap iptv credits, xtream codes reseller"
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/comparisons`} />
+      <HreflangAlternates path="comparisons" />
 
       {/* Structured SEO Data */}
       <script

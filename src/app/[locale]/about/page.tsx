@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 export function generateStaticParams() {
   return [
@@ -98,6 +99,7 @@ export default async function AboutPage({
       <meta name="description" content={pageDescription} />
       <meta name="keywords" content={m("keywords")} />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/about`} />
+      <HreflangAlternates path="about" />
 
       <script
         type="application/ld+json"

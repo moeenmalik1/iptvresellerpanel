@@ -4,6 +4,7 @@ import Footer from "@/app/components/Footer";
 import GuidesClient from "./GuidesClient";
 import { getPublishedPosts } from "@/app/lib/blogStore";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 // Admin-published posts live in Vercel KV and aren't known at build time,
 // so this listing re-checks for fresh content periodically.
@@ -129,6 +130,7 @@ export default async function GuidesPage({
                         content="how to start iptv reseller business, iptv reseller academy, white label iptv panels, xtream codes api, m3u links, cheap reseller credits"
                       />
               <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/guides`} />
+      <HreflangAlternates path="guides" />
         
           {/* Structured SEO Data */}
               <script

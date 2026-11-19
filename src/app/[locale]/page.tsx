@@ -17,6 +17,7 @@ import TestimonialsSection from "@/app/components/TestimonialsSection";
 import FAQSection from "@/app/components/FAQSection";
 import CTASection from "@/app/components/CTASection";
 import Footer from "@/app/components/Footer";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 const PricingSection = dynamic(() => import("@/app/components/PricingSection"), {
   ssr: true,
@@ -188,6 +189,7 @@ export default async function HomePage({
   rel="canonical"
   href={`https://www.iptvreseller.live/${locale}`}
 />
+      <HreflangAlternates />
       
       <meta property="og:title" content={t("title")} />
       <meta property="og:description" content={t("description")} />

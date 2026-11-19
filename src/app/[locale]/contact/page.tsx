@@ -4,6 +4,7 @@ import Footer from "@/app/components/Footer";
 import ContactClient from "./ContactClient";
 import { getLocalizedPricing } from "@/app/lib/pricing";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 export function generateStaticParams() {
   return [
@@ -86,6 +87,7 @@ export default async function ContactPage({
         content="buy iptv credits, reseller panel cost, best iptv wholesale panels, become iptv reseller, cheap credits list, dynamic pricing calculator"
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/contact`} />
+      <HreflangAlternates path="contact" />
 
       {/* Structured SEO Data */}
       <script

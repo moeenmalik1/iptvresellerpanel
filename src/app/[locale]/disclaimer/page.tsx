@@ -2,6 +2,7 @@ import Link from "next/link";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 export function generateStaticParams() {
   return [
@@ -59,6 +60,7 @@ export default async function DisclaimerPage({
         content="legal disclaimer, fox iptv panels disclaimer, stream hosting exclusion, third party panels limitation"
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/disclaimer`} />
+      <HreflangAlternates path="disclaimer" />
 
       <script
         type="application/ld+json"

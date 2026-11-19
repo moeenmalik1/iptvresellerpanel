@@ -6,6 +6,7 @@ import { getGuides, type GuideData } from "@/app/lib/guidesData";
 import { getPost, type BlogPostImage } from "@/app/lib/blogStore";
 import { formatRichText } from "@/app/lib/richText";
 import { setRequestLocale } from "next-intl/server";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 // Admin-published posts are stored in Vercel KV and aren't known at build time,
 // so this route re-checks for fresh content periodically instead of staying fully static.
@@ -152,6 +153,7 @@ const publisher = {
               <title>{guide.seoTitle}</title>
               <meta name="description" content={guide.seoDescription} />
               <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/guides/${guide.id}`} />
+      <HreflangAlternates path={`guides/${guide.id}`} />
         
           {/* Structured dynamic schemas */}
               <script

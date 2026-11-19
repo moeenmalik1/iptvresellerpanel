@@ -4,6 +4,7 @@ import Footer from "@/app/components/Footer";
 import { ALL_PANELS } from "@/app/lib/panelData";
 import { getGuides } from "@/app/lib/guidesData";
 import { setRequestLocale } from "next-intl/server";
+import HreflangAlternates from "@/app/components/HreflangAlternates";
 
 export function generateStaticParams() {
   return [
@@ -89,6 +90,7 @@ export default async function SitemapPage({
         })} 
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/sitemap`} />
+      <HreflangAlternates path="sitemap" />
 
       <script
         type="application/ld+json"
