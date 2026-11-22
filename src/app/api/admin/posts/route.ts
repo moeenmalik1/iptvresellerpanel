@@ -1,3 +1,4 @@
+import { revalidatePath } from "next/cache";
 import { NextRequest, NextResponse } from "next/server";
 import { listPosts, savePost, slugExists, type BlogPost } from "@/app/lib/blogStore";
 
@@ -49,5 +50,6 @@ export async function POST(req: NextRequest) {
     };
 
   await savePost(post);
+  revalidatePath("/sitemap.xml");
     return NextResponse.json({ post }, { status: 201 });
 }

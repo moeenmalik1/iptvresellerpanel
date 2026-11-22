@@ -50,7 +50,7 @@ export default async function EditorialGuidelinesPage({
     <>
       <title>
         {lc({
-          en: "Editorial Guidelines — Transparency & Factual Standards | IPTV Reseller",
+          en: "Editorial Guidelines — IPTV Reseller",
           es: "Directrices Editoriales — Transparencia y Rigor Técnico | IPTV Reseller",
           fr: "Charte Éditoriale — Transparence et Rigueur Technique | IPTV Reseller",
           pt: "Diretrizes Editoriais — Transparência e Rigor Técnico | IPTV Reseller",
@@ -61,7 +61,7 @@ export default async function EditorialGuidelinesPage({
       <meta 
         name="description" 
         content={lc({
-          en: "Our editorial process ensures that all alternate broadband networking guides, XTream API integrations, and reseller materials undergo dual auditing for technical accuracy.",
+          en: "Our editorial process ensures every networking guide and reseller resource undergoes dual auditing for technical accuracy.",
           es: "Nuestro proceso editorial garantiza que todas las guías de red de banda ancha alternativa, integraciones API y manuales se sometan a auditorías de precisión técnica.",
           fr: "Notre processus garantit que tous les guides sur le haut débit alternatif, les intégrations d'API et tutoriels subissent une double vérification de précision technique.",
           pt: "O nosso processo editorial garante que todos os guias de redes alternativas, integrações de APIs e manuais de revenda passem por avaliações técnicas rigorosas."

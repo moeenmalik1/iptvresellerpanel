@@ -1,3 +1,4 @@
+import { revalidatePath } from "next/cache";
 import { NextRequest, NextResponse } from "next/server";
 import { getPost, savePost, deletePost, type BlogPost } from "@/app/lib/blogStore";
 
@@ -55,6 +56,7 @@ faqs: Array.isArray(body.faqs) ? body.faqs : existing.faqs,
     };
 
   await savePost(post);
+  revalidatePath("/sitemap.xml");
     return NextResponse.json({ post });
 }
 
@@ -62,5 +64,6 @@ export async function DELETE(req: NextRequest, { params }: { params: Promise<{ s
     const { slug } = await params;
     const locale = req.nextUrl.searchParams.get("locale") || "en";
     await deletePost(locale, slug);
+  revalidatePath("/sitemap.xml");
     return NextResponse.json({ ok: true });
 }

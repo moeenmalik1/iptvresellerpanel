@@ -33,7 +33,7 @@ export default async function DisclaimerPage({
 
   const titleText = locale === "es"
     ? `Descargo de Responsabilidad Legal — IPTV Reseller | Intermediario en ${regionName}`
-    : `Legal Disclaimer — IPTV Reseller | Wholesale Intermediary Statement in ${regionName}`;
+    : `Legal Disclaimer — IPTV Reseller`;
 
   const descText = locale === "es"
     ? `Lea el descargo de responsabilidad legal de IPTV Reseller. Conozca nuestros límites de responsabilidad en ${regionName}.`
@@ -57,7 +57,7 @@ export default async function DisclaimerPage({
       <meta name="description" content={descText} />
       <meta
         name="keywords"
-        content="legal disclaimer, fox iptv panels disclaimer, stream hosting exclusion, third party panels limitation"
+        content="legal disclaimer, iptv reseller disclaimer, stream hosting exclusion, third party panels limitation"
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/disclaimer`} />
       <HreflangAlternates path="disclaimer" />
@@ -114,8 +114,8 @@ export default async function DisclaimerPage({
                     1. Intermediary Service and Hosting Exclusion
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, margin: 0 }}>
-                    **Fox IPTV Panels is not a streaming service, nor do we host, store, stream, compile, or transmit any audio/visual broadcasts, live television channels, or digital media feeds on our servers.**
-                    Our business is strictly confined to providing wholesale database credits, reseller panel activation tools (e.g., Xtream Codes, M3U portals), and technical brokerage configurations in {regionName}. All digital media streams, layouts, and channels are controlled, hosted, and operated entirely by independent, third-party backend server networks. Fox IPTV Panels has no physical influence or access rights to their streaming cores.
+                    **IPTV Reseller is not a streaming service, nor do we host, store, stream, compile, or transmit any audio/visual broadcasts, live television channels, or digital media feeds on our servers.**
+                    Our business is strictly confined to providing wholesale database credits, reseller panel activation tools (e.g., Xtream Codes, M3U portals), and technical brokerage configurations in {regionName}. All digital media streams, layouts, and channels are controlled, hosted, and operated entirely by independent, third-party backend server networks. IPTV Reseller has no physical influence or access rights to their streaming cores.
                   </p>
                 </div>
 
@@ -124,7 +124,7 @@ export default async function DisclaimerPage({
                     2. Third-Party Streams and Network Composition
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, margin: 0 }}>
-                    Any mentions of channels, server lists (e.g. 15,000+ Channels or 4K/8K content), panel specifications, or visual guides are based on technical details provided by their respective panel operations. Fox IPTV Panels does not endorse, verify, or own these feeds. Under no circumstances shall Fox IPTV Panels be held liable for channel deletions, feed buffering, audio-video latency, or the total termination of a third-party server network.
+                    Any mentions of channels, server lists (e.g. 15,000+ Channels or 4K/8K content), panel specifications, or visual guides are based on technical details provided by their respective panel operations. IPTV Reseller does not endorse, verify, or own these feeds. Under no circumstances shall IPTV Reseller be held liable for channel deletions, feed buffering, audio-video latency, or the total termination of a third-party server network.
                   </p>
                 </div>
 
@@ -133,7 +133,7 @@ export default async function DisclaimerPage({
                     3. Reseller Independence and Legal Risks
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, margin: 0 }}>
-                    Resellers operate as completely independent businesses and technical entities. Fox IPTV Panels does not advise on, manage, or assume liability for the legal requirements or regulatory guidelines within your specific retail markets (including the UK, USA, EU, or global territories). Resellers are solely responsible for ensuring that their downstream sales, clients, and configurations comply with all local intellectual property, copyright, and digital broadcast laws.
+                    Resellers operate as completely independent businesses and technical entities. IPTV Reseller does not advise on, manage, or assume liability for the legal requirements or regulatory guidelines within your specific retail markets (including the UK, USA, EU, or global territories). Resellers are solely responsible for ensuring that their downstream sales, clients, and configurations comply with all local intellectual property, copyright, and digital broadcast laws.
                   </p>
                 </div>
 
@@ -160,7 +160,7 @@ export default async function DisclaimerPage({
                     6. External Web Links
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, margin: 0 }}>
-                    This platform may contain hyperlinks to external sites, dashboards, or reseller DNS records not controlled by Fox IPTV Panels. We do not inspect, audit, or assume liability for the privacy policies, terms, or copyright compliance of these external resources.
+                    This platform may contain hyperlinks to external sites, dashboards, or reseller DNS records not controlled by IPTV Reseller. We do not inspect, audit, or assume liability for the privacy policies, terms, or copyright compliance of these external resources.
                   </p>
                 </div>
 

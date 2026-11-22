@@ -37,9 +37,9 @@ export default async function TermsOfServicePage({
   const lc = (map: Record<string, string>) => map[L] ?? map["en"] ?? "";
 
   const titleText = lc({
-    en: `Terms of Service — IPTV Reseller | Wholesale IPTV Reseller Terms in ${regionName}`,
-    "en-gb": `Terms of Service — IPTV Reseller | Wholesale IPTV Reseller Terms in ${regionName}`,
-    "en-au": `Terms of Service — IPTV Reseller | Wholesale IPTV Reseller Terms in ${regionName}`,
+    en: `Terms of Service — IPTV Reseller Wholesale Terms`,
+    "en-gb": `Terms of Service — IPTV Reseller Wholesale Terms`,
+    "en-au": `Terms of Service — IPTV Reseller Wholesale Terms`,
     es: `Términos de Servicio — IPTV Reseller | Créditos Mayoristas en ${regionName}`,
     fr: `Conditions d'Utilisation — IPTV Reseller | Conditions de Revente Grossiste en ${regionName}`,
     pt: `Termos de Serviço — IPTV Reseller | Condições de Revenda por Grosso em ${regionName}`,
@@ -92,7 +92,7 @@ export default async function TermsOfServicePage({
       <meta name="description" content={descText} />
       <meta
         name="keywords"
-        content="terms of service, wholesale credits agreement, reseller dashboard terms, fox iptv panels refund policy"
+        content="terms of service, wholesale credits agreement, reseller dashboard terms, iptv reseller refund policy"
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/terms`} />
       <HreflangAlternates path="terms" />
@@ -153,7 +153,7 @@ export default async function TermsOfServicePage({
                     1. Wholesale Account Provisioning & Setup
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, margin: 0 }}>
-                    Fox IPTV Panels provides wholesale reseller account setups, white-label DNS configurations, and digital credit allocations. Resellers must provide accurate and verifiable registry information (including email and WhatsApp contact details) during sign-up. You are strictly responsible for preserving the confidentiality of your master dashboard passwords and credentials in {regionName}.
+                    IPTV Reseller provides wholesale reseller account setups, white-label DNS configurations, and digital credit allocations. Resellers must provide accurate and verifiable registry information (including email and WhatsApp contact details) during sign-up. You are strictly responsible for preserving the confidentiality of your master dashboard passwords and credentials in {regionName}.
                   </p>
                 </div>
 
@@ -186,7 +186,7 @@ export default async function TermsOfServicePage({
                     4. Platform Limitations & Intermediary Role
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, margin: 0 }}>
-                    **Fox IPTV Panels does not host, compile, transmit, or stream any direct media broadcasts or video channels.** Our platform acts exclusively as a technical wholesale broker providing reseller database dashboards, credit provisioning engines, and API integrations for panels. All content stream paths and channel structures are operated independently by third-party providers. We offer no guarantees regarding the permanence, composition, or uptime of specific channels.
+                    **IPTV Reseller does not host, compile, transmit, or stream any direct media broadcasts or video channels.** Our platform acts exclusively as a technical wholesale broker providing reseller database dashboards, credit provisioning engines, and API integrations for panels. All content stream paths and channel structures are operated independently by third-party providers. We offer no guarantees regarding the permanence, composition, or uptime of specific channels.
                   </p>
                 </div>
 
@@ -203,7 +203,7 @@ export default async function TermsOfServicePage({
                     <li>Utilize panel access details for malicious, unlawful, or hacking efforts targeting the network core.</li>
                   </ul>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginTop: "0.75rem", margin: 0 }}>
-                    Violation of these acceptable use rules may result in the immediate lock of your reseller dashboard and forfeiture of any remaining credits, without liability to Fox IPTV Panels.
+                    Violation of these acceptable use rules may result in the immediate lock of your reseller dashboard and forfeiture of any remaining credits, without liability to IPTV Reseller.
                   </p>
                 </div>
 
@@ -212,7 +212,7 @@ export default async function TermsOfServicePage({
                     6. Limitation of Liability
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, margin: 0 }}>
-                    Fox IPTV Panels, its directors, and technical affiliates shall not be liable for any direct, indirect, incidental, or consequential damages resulting from dashboard downtime, third-party server failures, connection speed fluctuations, or loss of profits arising out of your retail reselling business operations. Resellers operate their businesses independently, at their sole risk.
+                    IPTV Reseller, its directors, and technical affiliates shall not be liable for any direct, indirect, incidental, or consequential damages resulting from dashboard downtime, third-party server failures, connection speed fluctuations, or loss of profits arising out of your retail reselling business operations. Resellers operate their businesses independently, at their sole risk.
                   </p>
                 </div>
 

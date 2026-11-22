@@ -33,7 +33,7 @@ export default async function DMCACompliancePage({
 
   const titleText = locale === "es"
     ? `Política DMCA — IPTV Reseller | Cumplimiento de Derechos de Autor en ${regionName}`
-    : `DMCA Policy — IPTV Reseller | Copyright Infringement Intake Guidelines in ${regionName}`;
+    : `DMCA Policy — IPTV Reseller`;
 
   const descText = locale === "es"
     ? `Lea la política DMCA de IPTV Reseller. Conozca nuestros procedimientos de derechos de autor en ${regionName}.`
@@ -57,7 +57,7 @@ export default async function DMCACompliancePage({
       <meta name="description" content={descText} />
       <meta
         name="keywords"
-        content="dmca policy, copyright infringement, fox iptv panels copyright agent, content takedown intake"
+        content="dmca policy, copyright infringement, iptv reseller copyright agent, content takedown intake"
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/dmca`} />
       <HreflangAlternates path="dmca" />
@@ -114,7 +114,7 @@ export default async function DMCACompliancePage({
                     1. Statement of Intermediary Operations
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, margin: 0 }}>
-                    **Fox IPTV Panels does not host, stream, publish, or store any physical media files, IPTV playlists, live broadcasts, or video streams on our servers.**
+                    **IPTV Reseller does not host, stream, publish, or store any physical media files, IPTV playlists, live broadcasts, or video streams on our servers.**
                     Our platform functions solely as a wholesale technical broker, providing panel credits, billing dashboards, and API access tokens for independent, third-party backend servers. Because our servers do not transmit or store any actual audio/visual streams, we do not have direct physical access to remove media files or take down active feeds from the internet.
                   </p>
                 </div>
@@ -141,7 +141,7 @@ export default async function DMCACompliancePage({
                     3. Notice Processing & Forwarding Policy
                   </h2>
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, margin: 0 }}>
-                    Upon receipt of a valid and complete DMCA notification, Fox IPTV Panels will immediately execute the following procedures:
+                    Upon receipt of a valid and complete DMCA notification, IPTV Reseller will immediately execute the following procedures:
                   </p>
                   <ul style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginTop: "0.75rem", paddingLeft: "1.25rem" }}>
                     <li>We will forward the complete notice and all details to the corresponding independent reseller partner or backend server panel administrator.</li>

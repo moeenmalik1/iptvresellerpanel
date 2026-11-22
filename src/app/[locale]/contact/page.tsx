@@ -35,11 +35,11 @@ export default async function ContactPage({
 
   const titleText = locale === "es"
     ? `Comprar Créditos IPTV Reseller — Lista de Precios en ${regionName} | IPTV Reseller`
-    : `Buy IPTV Reseller Credits — Price List & Direct Order in ${regionName} | IPTV Reseller`;
+    : `Buy IPTV Reseller Credits — Price List & Order | IPTV Reseller`;
 
   const descText = locale === "es"
     ? `Consulte las tarifas de créditos IPTV más baratas para ${regionName}. Genere su pedido de panel de control por WhatsApp al instante. Aceptamos PayPal, Crypto, Tarjetas.`
-    : `Check the cheapest bulk IPTV reseller credits price tiers for ${regionName}. Use our interactive WhatsApp builder to generate your dashboard order instantly. PayPal, Crypto, Cards accepted.`;
+    : `Check the cheapest bulk IPTV reseller credits price tiers. Generate your dashboard order instantly via WhatsApp. PayPal, Crypto, and Cards accepted.`;
 
   const contactSchema = {
     "@context": "https://schema.org",

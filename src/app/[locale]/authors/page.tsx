@@ -60,7 +60,7 @@ export default async function AuthorsPage({
       <meta 
         name="description" 
         content={lc({
-          en: "Meet our primary authors and telecom network auditors. Read their backgrounds in network systems virtualization, Xtream API, and secure DNS portal routing.",
+          en: "Meet our primary authors and telecom network auditors — experts in network virtualization, Xtream API, and secure DNS routing.",
           es: "Conozca a nuestros autores y auditores. Lea sobre sus trayectorias en sistemas de red virtualizados, Xtream API y seguridad en enrutamiento DNS.",
           fr: "Découvrez le profil de nos experts et rédacteurs en chef. Leurs compétences couvrent la virtualisation de réseaux, l'API Xtream Codes et la sécurité DNS.",
           pt: "Conheça os nossos autores principais e auditores. Leia os perfis profissionais em virtualização de redes, Xtream API e segurança DNS."

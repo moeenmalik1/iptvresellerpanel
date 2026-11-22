@@ -75,8 +75,8 @@ export default async function GuidesPage({
                     };
           default:
                     return {
-                                titleText: "How to Start an IPTV Reseller Business: 2026 Strategy Guide | IPTV Reseller",
-                                descText: "Tired of researching with zero clear answers? Read our step-by-step masterclass guide. Understand IPTV credits, Xtream Codes, M3U playlists, and custom DNS setup.",
+                                titleText: "How to Start an IPTV Reseller Business | IPTV Reseller",
+                                descText: "Read our step-by-step masterclass guide. Understand IPTV credits, Xtream Codes, M3U playlists, and custom DNS setup.",
                     };
         }
   };

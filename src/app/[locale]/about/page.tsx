@@ -86,7 +86,7 @@ export default async function AboutPage({
       default:
         return {
           title: "About IPTV Reseller: The Wholesale Power Behind 5k+ Resellers",
-          description: "Meet the team behind the world's most stable IPTV reseller network. Offering 22+ premium white-label panels, zero ISP buffering & 24/7 direct partner support.",
+          description: "Meet the team behind the world's most stable IPTV reseller network — 22+ white-label panels, zero buffering, 24/7 support.",
         };
     }
   };
@@ -172,12 +172,12 @@ export default async function AboutPage({
                 </p>
                 <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", fontStyle: "italic", borderLeft: "2px solid var(--accent-purple)", paddingLeft: "12px", marginBottom: "2.5rem" }}>
                   {lc({
-                    en: "Legal Notice: Fox IPTV Panels is a registered trademark and commercial alt-broadband wholesaling system operated globally under license by Fox Broadband Technologies Ltd. (Reg. No. 12894372). All customer transactions are processed securely under corporate licensing compliance.",
-                    es: "Aviso Legal: Fox IPTV Panels es una marca registrada y un sistema mayorista comercial de banda ancha alternativa operado a nivel mundial bajo licencia por Fox Broadband Technologies Ltd. (Reg. Nº 12894372). Todas las transacciones se procesan de forma segura bajo cumplimiento de licencias corporativas.",
-                    fr: "Mentions Légales : Fox IPTV Panels est une marque déposée et un système de vente en gros de haut débit alternatif géré à l'échelle mondiale sous licence par Fox Broadband Technologies Ltd. (N° d'enregistrement 12894372). Toutes les transactions sont sécurisées.",
-                    pt: "Aviso Legal: Fox IPTV Panels é uma marca registada e um sistema grossista comercial de banda larga alternativo operado globalmente sob licença pela Fox Broadband Technologies Ltd. (Reg. Nº 12894372). Todas as transações são seguras.",
-                    sv: "Juridiskt meddelande: Fox IPTV Panels är ett registrerat varumärke och ett kommersiellt grossistsystem för bredband som drivs globalt under licens av Fox Broadband Technologies Ltd. (Reg. Nr 12894372). Alla transaktioner sker säkert under företagslicensering.",
-                    no: "Juridisk merknad: Fox IPTV Panels er et registrert varemerke og et kommersiellt engros-system for bredbånd som drives globalt under lisens av Fox Broadband Technologies Ltd. (Reg. Nr. 12894372). Alle transaksjoner skjer under bedriftslisensiering."
+                    en: "Legal Notice: IPTV Reseller is a registered trademark and commercial alt-broadband wholesaling system operated globally under license by Fox Broadband Technologies Ltd. (Reg. No. 12894372). All customer transactions are processed securely under corporate licensing compliance.",
+                    es: "Aviso Legal: IPTV Reseller es una marca registrada y un sistema mayorista comercial de banda ancha alternativa operado a nivel mundial bajo licencia por Fox Broadband Technologies Ltd. (Reg. Nº 12894372). Todas las transacciones se procesan de forma segura bajo cumplimiento de licencias corporativas.",
+                    fr: "Mentions Légales : IPTV Reseller est une marque déposée et un système de vente en gros de haut débit alternatif géré à l'échelle mondiale sous licence par Fox Broadband Technologies Ltd. (N° d'enregistrement 12894372). Toutes les transactions sont sécurisées.",
+                    pt: "Aviso Legal: IPTV Reseller é uma marca registada e um sistema grossista comercial de banda larga alternativo operado globalmente sob licença pela Fox Broadband Technologies Ltd. (Reg. Nº 12894372). Todas as transações são seguras.",
+                    sv: "Juridiskt meddelande: IPTV Reseller är ett registrerat varumärke och ett kommersiellt grossistsystem för bredband som drivs globalt under licens av Fox Broadband Technologies Ltd. (Reg. Nr 12894372). Alla transaktioner sker säkert under företagslicensering.",
+                    no: "Juridisk merknad: IPTV Reseller er et registrert varemerke og et kommersiellt engros-system for bredbånd som drives globalt under lisens av Fox Broadband Technologies Ltd. (Reg. Nr. 12894372). Alle transaksjoner skjer under bedriftslisensiering."
                   })}
                 </p>
 

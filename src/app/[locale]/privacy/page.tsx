@@ -36,9 +36,9 @@ export default async function PrivacyPolicyPage({
   const lc = (map: Record<string, string>) => map[L] ?? map["en"] ?? "";
 
   const titleText = lc({
-    en: `Privacy Policy — IPTV Reseller | Premium IPTV Reseller Panel Supplier in ${regionName}`,
-    "en-gb": `Privacy Policy — IPTV Reseller | Premium IPTV Reseller Panel Supplier in ${regionName}`,
-    "en-au": `Privacy Policy — IPTV Reseller | Premium IPTV Reseller Panel Supplier in ${regionName}`,
+    en: `Privacy Policy — IPTV Reseller`,
+    "en-gb": `Privacy Policy — IPTV Reseller`,
+    "en-au": `Privacy Policy — IPTV Reseller`,
     es: `Política de Privacidad — IPTV Reseller | Proveedor de Créditos IPTV en ${regionName}`,
     fr: `Politique de Confidentialité — IPTV Reseller | Fournisseur de Panneaux IPTV Revendeur en ${regionName}`,
     pt: `Política de Privacidade — IPTV Reseller | Fornecedor de Painéis IPTV Revendedor em ${regionName}`,
@@ -75,7 +75,7 @@ export default async function PrivacyPolicyPage({
       <meta name="description" content={descText} />
       <meta
         name="keywords"
-        content="privacy policy, fox iptv panels, secure iptv panels, wholesale credentials privacy, gdpr reseller compliance"
+        content="privacy policy, iptv reseller, secure iptv panels, wholesale credentials privacy, gdpr reseller compliance"
       />
       <link rel="canonical" href={`https://www.iptvreseller.live/${locale}/privacy`} />
       <HreflangAlternates path="privacy" />

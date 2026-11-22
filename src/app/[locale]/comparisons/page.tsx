@@ -71,8 +71,8 @@ export default async function ComparisonsPage({
         };
       default:
         return {
-          titleText: "Compare 22 Best IPTV Reseller Panels 2026: Stop Buffering | IPTV Reseller",
-          descText: "Tired of laggy panels & angry clients? Compare the top 22 premium white-label IPTV dashboards side-by-side. Filter by 4K stability, uptime SLA & credits costs.",
+          titleText: "Compare 22 Best IPTV Reseller Panels 2026 | IPTV Reseller",
+          descText: "Compare the top 22 premium white-label IPTV dashboards side-by-side. Filter by 4K stability, uptime SLA, and credit costs.",
         };
     }
   };
