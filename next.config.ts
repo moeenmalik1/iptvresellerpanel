@@ -63,13 +63,7 @@ const nextConfig: NextConfig = {
         destination: "/en",
         permanent: true,
       },
-      ...["en-gb", "en-au", "es", "fr", "pt", "sv", "no"].map(
-        (locale) => ({
-          source: `/${locale}`,
-          destination: "/en",
-          permanent: true,
-        })
-      ),
+
 
       // Redirect to existing relevant guide articles
       {
