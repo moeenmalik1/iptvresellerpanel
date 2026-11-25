@@ -36,6 +36,13 @@ const nextConfig: NextConfig = {
     ];
 
     return [
+      // The reseller buying guide is published at its global English URL.
+      {
+        source: "/en-gb/guides/iptv-reseller-panel",
+        destination: "/en/guides/iptv-reseller-panel",
+        permanent: true,
+      },
+
       // Magnum Golden OTT permanent SEO URL migration
       {
         source: `/:locale(${locales})/magnum-golden-ott-iptv-reseller-panel`,
