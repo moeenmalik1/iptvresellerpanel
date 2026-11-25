@@ -607,6 +607,151 @@ export default function PanelPageTemplate({ panel }: Props) {
           </div>
         </section>
 
+        {/* Infinity Premium regional information — English guide stays unchanged */}
+        {panel.slug === "infinity-premium-iptv-reseller-panel" && locale !== "en" && (
+          <section
+            id="infinity-regional-seo-content"
+            aria-label="Infinity Premium reseller evaluation guide"
+            style={{
+              padding: "4.5rem 0",
+              borderTop: "1px solid var(--border-color)",
+              background: "var(--bg-primary)"
+            }}
+          >
+            <div className="section-container">
+              <div style={{ maxWidth: 900, margin: "0 auto" }}>
+                <h2 style={{
+                  fontFamily: "'Outfit', sans-serif",
+                  fontSize: "clamp(1.65rem, 3vw, 2.3rem)",
+                  fontWeight: 800,
+                  color: "var(--text-primary)",
+                  marginBottom: "1.5rem"
+                }}>
+                  {lc({
+                    en: "Infinity Premium Reseller Panel Guide",
+                    "en-gb": "Evaluating Infinity Premium Reseller Panels in the UK",
+                    "en-au": "Evaluating Infinity Premium Reseller Panels in Australia",
+                    es: "Guía para evaluar el panel revendedor Infinity Premium",
+                    fr: "Guide d'évaluation du panneau revendeur Infinity Premium",
+                    pt: "Guia de avaliação do painel revendedor Infinity Premium",
+                    sv: "Guide för att utvärdera Infinity Premium återförsäljarpanel",
+                    no: "Guide til vurdering av Infinity Premium forhandlerpanel"
+                  })}
+                </h2>
+
+                {[
+                  {
+                    title: lc({
+                      en: "Dashboard & Subscription Management",
+                      "en-gb": "Dashboard & Subscription Management",
+                      "en-au": "Dashboard & Subscription Management",
+                      es: "Panel de control y gestión de suscripciones",
+                      fr: "Tableau de bord et gestion des abonnements",
+                      pt: "Painel de controlo e gestão de subscrições",
+                      sv: "Kontrollpanel och abonnemangshantering",
+                      no: "Kontrollpanel og abonnementshåndtering"
+                    }),
+                    description: lc({
+                      en: "Ask for a dashboard demonstration and verify customer-account creation, renewals, access permissions and reporting before purchasing.",
+                      "en-gb": "Request a dashboard demonstration and verify customer creation, renewals, permissions and reports before buying credits.",
+                      "en-au": "Request a dashboard demonstration and confirm account creation, renewals, permissions and reporting before ordering credits.",
+                      es: "Solicite una demostración del panel y compruebe la creación de cuentas, renovaciones, permisos e informes antes de comprar créditos.",
+                      fr: "Demandez une démonstration du tableau de bord et vérifiez la création de comptes, les renouvellements, les autorisations et les rapports avant l'achat.",
+                      pt: "Peça uma demonstração do painel e confirme a criação de contas, renovações, permissões e relatórios antes de comprar créditos.",
+                      sv: "Begär en demonstration och kontrollera kontoskapande, förnyelser, behörigheter och rapporter innan du köper krediter.",
+                      no: "Be om en demonstrasjon og kontroller opprettelse av kontoer, fornyelser, tilganger og rapporter før du kjøper kreditter."
+                    })
+                  },
+                  {
+                    title: lc({
+                      en: "Wholesale Credits & Pricing",
+                      "en-gb": "Wholesale Credits & Pricing",
+                      "en-au": "Wholesale Credits & Pricing",
+                      es: "Créditos mayoristas y precios",
+                      fr: "Crédits de gros et tarifs",
+                      pt: "Créditos por atacado e preços",
+                      sv: "Grossistkrediter och priser",
+                      no: "Grossistkreditter og priser"
+                    }),
+                    description: lc({
+                      en: "Confirm minimum orders, credit consumption, renewal conditions, total costs and refund terms with the supplier.",
+                      "en-gb": "Confirm minimum orders, credit usage, renewal terms, total costs and refund conditions with the supplier.",
+                      "en-au": "Check minimum credit orders, usage rules, renewal costs and refund conditions with the supplier.",
+                      es: "Confirme con el proveedor el pedido mínimo, consumo de créditos, renovaciones, coste total y condiciones de reembolso.",
+                      fr: "Confirmez auprès du fournisseur la commande minimale, la consommation de crédits, les renouvellements, les coûts et les remboursements.",
+                      pt: "Confirme com o fornecedor a encomenda mínima, utilização de créditos, renovações, custos totais e condições de reembolso.",
+                      sv: "Kontrollera minimibeställning, kreditförbrukning, förnyelser, totalkostnad och återbetalningsvillkor med leverantören.",
+                      no: "Bekreft minsteordre, kredittforbruk, fornyelser, totale kostnader og refusjonsvilkår med leverandøren."
+                    })
+                  },
+                  {
+                    title: lc({
+                      en: "Compatibility & Streaming Requirements",
+                      "en-gb": "Compatibility & Streaming Requirements",
+                      "en-au": "Compatibility & Streaming Requirements",
+                      es: "Compatibilidad y requisitos de reproducción",
+                      fr: "Compatibilité et exigences de lecture",
+                      pt: "Compatibilidade e requisitos de reprodução",
+                      sv: "Kompatibilitet och tekniska krav",
+                      no: "Kompatibilitet og tekniske krav"
+                    }),
+                    description: lc({
+                      en: "Verify supported devices, connection formats, available resolutions and network requirements for the exact package.",
+                      "en-gb": "Verify device support, connection formats, available resolutions and broadband requirements for the selected package.",
+                      "en-au": "Verify supported devices, connection formats, available resolutions and network requirements for the selected package.",
+                      es: "Compruebe los dispositivos compatibles, formatos de conexión, resoluciones disponibles y requisitos de red del paquete elegido.",
+                      fr: "Vérifiez les appareils compatibles, les formats de connexion, les résolutions disponibles et les exigences réseau de l'offre choisie.",
+                      pt: "Verifique os dispositivos compatíveis, formatos de ligação, resoluções disponíveis e requisitos de rede do pacote escolhido.",
+                      sv: "Kontrollera enheter, anslutningsformat, tillgängliga upplösningar och nätverkskrav för det valda paketet.",
+                      no: "Kontroller støttede enheter, tilkoblingsformater, tilgjengelige oppløsninger og nettverkskrav for pakken."
+                    })
+                  },
+                  {
+                    title: lc({
+                      en: "Support & Provider Evaluation",
+                      "en-gb": "Support & Provider Evaluation",
+                      "en-au": "Support & Provider Evaluation",
+                      es: "Soporte y evaluación del proveedor",
+                      fr: "Assistance et évaluation du fournisseur",
+                      pt: "Suporte e avaliação do fornecedor",
+                      sv: "Support och leverantörsbedömning",
+                      no: "Kundestøtte og leverandørvurdering"
+                    }),
+                    description: lc({
+                      en: "Request current support hours, response procedures, service terms and evidence of content distribution rights before reselling.",
+                      "en-gb": "Check support hours, escalation procedures, service terms and content distribution rights before reselling.",
+                      "en-au": "Check support availability, escalation procedures, service terms and content distribution rights before reselling.",
+                      es: "Solicite los horarios de soporte, procedimientos de atención, condiciones del servicio y pruebas de los derechos de distribución de contenido.",
+                      fr: "Demandez les horaires d'assistance, les procédures de suivi, les conditions du service et les preuves des droits de distribution des contenus.",
+                      pt: "Peça horários de suporte, procedimentos de atendimento, termos do serviço e provas dos direitos de distribuição dos conteúdos.",
+                      sv: "Begär supporttider, rutiner för ärenden, tjänstevillkor och bevis på rättigheter att distribuera innehållet.",
+                      no: "Be om supporttider, rutiner for henvendelser, tjenestevilkår og dokumentasjon på rettigheter til innholdsdistribusjon."
+                    })
+                  }
+                ].map((item) => (
+                  <div key={item.title} style={{ marginBottom: "2rem" }}>
+                    <h3 style={{
+                      fontSize: "1.25rem",
+                      fontWeight: 700,
+                      color: "var(--text-primary)",
+                      marginBottom: "0.75rem"
+                    }}>
+                      {item.title}
+                    </h3>
+                    <p style={{
+                      color: "var(--text-secondary)",
+                      fontSize: "1rem",
+                      lineHeight: 1.85
+                    }}>
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Infinity Premium SEO Content */}
         {panel.slug === "infinity-premium-iptv-reseller-panel" && locale === "en" && (
           <section
