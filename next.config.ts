@@ -36,6 +36,17 @@ const nextConfig: NextConfig = {
     ];
 
     return [
+      {
+        source: "/en/guides/iptv-suppliers-uk",
+        destination: "/en/guides/trusted-iptv-suppliers-uk-2026",
+        permanent: true,
+      },
+      {
+        source: "/en-gb/guides/iptv-provider-uk",
+        destination: "/en/guides/trusted-iptv-suppliers-uk-2026",
+        permanent: true,
+      },
+
       // The reseller buying guide is published at its global English URL.
       {
         source: "/en-gb/guides/iptv-reseller-panel",
