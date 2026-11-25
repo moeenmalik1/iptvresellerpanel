@@ -35,16 +35,16 @@ export default function Footer() {
 
   const serverPages = [
     { label: "B1G IPTV Reseller Panel", href: "/b1g-iptv-reseller-panel" },
-    { label: "Strong 4K IPTV Reseller Panel", href: "/strong-4k-iptv-reseller-panel" },
+    { label: "Strong 4K IPTV Reseller Panel", href: "/strong-4k-reseller-panel-credits" },
     { label: "Strong 8K IPTV Reseller Panel", href: "/strong-8k-iptv-reseller-panel" },
     { label: "Lion OTT IPTV Reseller Panel", href: "/lion-ott-iptv-reseller-panel" },
     { label: "Ultra 8K OTT Reseller Panel", href: "/ultra-8k-ott-iptv-reseller-panel" },
-    { label: "Nexon IPTV Reseller Panel", href: "/nexon-iptv-reseller-panel" },
+    { label: "Nexon IPTV Reseller Panel", href: "/nexon-reseller-panel-credits" },
     { label: "Crystal OTT Reseller Panel", href: "/crystal-ott-iptv-reseller-panel" },
     { label: "Mega OTT Wholesale Panel", href: "/mega-ott-iptv-reseller-panel" },
     { label: "Infinity Premium IPTV Panel", href: "/infinity-premium-iptv-reseller-panel" },
     { label: "Magnum Golden OTT Panel", href: "/magnum-golden-ott-reseller-panel-credits" },
-    { label: "Opplex IPTV Reseller Panel", href: "/opplex-iptv-reseller-panel" },
+    { label: "Opplex IPTV Reseller Panel", href: "/opplex-reseller-panel-credits" },
     { label: locale === "es" ? "Ver los 22 Paneles ↗" : locale === "fr" ? "Voir les 22 Panneaux ↗" : locale === "pt" ? "Ver todos os 22 Painéis ↗" : locale === "sv" ? "Visa alla 22 Paneler ↗" : locale === "no" ? "Se alle 22 Paneler ↗" : "View All 22 IPTV Panels ↗", href: "/#panels" },
   ];
 

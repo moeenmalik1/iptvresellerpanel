@@ -17,7 +17,7 @@ export function PanelLogo({ slug, color, size = 22 }: PanelLogoProps) {
           <path d="M17 12h-5" />
         </svg>
       );
-    case "strong-4k-iptv-reseller-panel":
+    case "strong-4k-reseller-panel-credits":
       return (
         <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke={color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -97,7 +97,7 @@ export function PanelLogo({ slug, color, size = 22 }: PanelLogoProps) {
           <circle cx="12" cy="12" r="4" />
         </svg>
       );
-    case "nexon-iptv-reseller-panel":
+    case "nexon-reseller-panel-credits":
       return (
         <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke={color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="12" cy="12" r="3" />
@@ -111,7 +111,7 @@ export function PanelLogo({ slug, color, size = 22 }: PanelLogoProps) {
           <path d="M12 12c-2-2.67-4-4-6-4a4 4 0 100 8c2 0 4-1.33 6-4zm0 0c2 2.67 4 4 6 4a4 4 0 100-8c-2 0-4 1.33-6 4z" />
         </svg>
       );
-    case "gtv-iptv-reseller-panel":
+    case "gtv-reseller-panel-credits":
       return (
         <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke={color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
           <rect x="2" y="3" width="20" height="15" rx="3" />
@@ -140,7 +140,7 @@ export function PanelLogo({ slug, color, size = 22 }: PanelLogoProps) {
           <path d="M6 3c2 4 1 12 3 18M11 3c2 4 1 12 3 18M16 3c2 4 1 12 3 18" />
         </svg>
       );
-    case "opplex-iptv-reseller-panel":
+    case "opplex-reseller-panel-credits":
       return (
         <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke={color} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="8" cy="12" r="5" />

@@ -36,6 +36,45 @@ const nextConfig: NextConfig = {
     ];
 
     return [
+      {
+        source: `/:locale(${locales})/gtv-iptv-reseller-panel`,
+        destination: "/:locale/gtv-reseller-panel-credits",
+        permanent: true,
+      },
+      {
+        source: `/:locale(${locales})/nexon-iptv-reseller-panel`,
+        destination: "/:locale/nexon-reseller-panel-credits",
+        permanent: true,
+      },
+      {
+        source: `/:locale(${locales})/opplex-iptv-reseller-panel`,
+        destination: "/:locale/opplex-reseller-panel-credits",
+        permanent: true,
+      },
+      {
+        source: `/:locale(${locales})/strong-4k-iptv-reseller-panel`,
+        destination: "/:locale/strong-4k-reseller-panel-credits",
+        permanent: true,
+      },
+
+      {
+        source: "/en/guides/iptv-suppliers-uk",
+        destination: "/en/guides/trusted-iptv-suppliers-uk-2026",
+        permanent: true,
+      },
+      {
+        source: "/en-gb/guides/iptv-provider-uk",
+        destination: "/en/guides/trusted-iptv-suppliers-uk-2026",
+        permanent: true,
+      },
+
+      // The reseller buying guide is published at its global English URL.
+      {
+        source: "/en-gb/guides/iptv-reseller-panel",
+        destination: "/en/guides/iptv-reseller-panel",
+        permanent: true,
+      },
+
       // Magnum Golden OTT permanent SEO URL migration
       {
         source: `/:locale(${locales})/magnum-golden-ott-iptv-reseller-panel`,

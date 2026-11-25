@@ -85,7 +85,7 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "B1G IPTV Reseller Panel | Credits & Features",
         description: "Explore the B1G IPTV reseller panel, wholesale credit options, dashboard features, device compatibility and FAQs. Confirm current terms before ordering.",
       }
-    : panel.slug === "strong-4k-iptv-reseller-panel" && locale === "en"
+    : panel.slug === "strong-4k-reseller-panel-credits" && locale === "en"
     ? {
         title: "Strong 4K IPTV Reseller Panel | Credits & Features",
         description: "Explore Strong 4K IPTV reseller panel credits, dashboard tools, subscription management, device compatibility and FAQs. Compare options before ordering.",
@@ -140,7 +140,7 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Zen 4K IPTV Reseller Panel | Credits & Easy Setup",
         description: "Explore Zen 4K IPTV reseller credits, simple dashboard tools, wholesale packages, device compatibility, account setup and pricing before buying.",
       }
-    : panel.slug === "nexon-iptv-reseller-panel" && locale === "en"
+    : panel.slug === "nexon-reseller-panel-credits" && locale === "en"
     ? {
         title: "Nexon IPTV Reseller Panel | Credits & Bulk Tools",
         description: "Compare Nexon IPTV reseller credits, wholesale packages, bulk customer management, dashboard features, pricing and setup before ordering.",
@@ -150,7 +150,7 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Infinity Premium IPTV Reseller Panel | Credits",
         description: "Explore Infinity Premium IPTV reseller credits, wholesale packages, subscription management tools, dashboard features, pricing and setup options before buying.",
       }
-    : panel.slug === "gtv-iptv-reseller-panel" && locale === "en"
+    : panel.slug === "gtv-reseller-panel-credits" && locale === "en"
     ? {
         title: "GTV IPTV Reseller Panel | Wholesale Credits & Setup",
         description: "Explore GTV IPTV reseller panel credits, wholesale pricing, dashboard features, subscription management, device support and setup options.",
@@ -170,7 +170,7 @@ export default function PanelPageTemplate({ panel }: Props) {
         title: "Tiger OTT IPTV Reseller Panel | Credits & Setup",
         description: "Explore Tiger OTT IPTV reseller panel credits, wholesale pricing, dashboard tools, subscription activation, device compatibility and setup options.",
       }
-    : panel.slug === "opplex-iptv-reseller-panel" && locale === "en"
+    : panel.slug === "opplex-reseller-panel-credits" && locale === "en"
     ? {
         title: "Opplex IPTV Reseller Panel | Credits & Pricing",
         description: "Explore Opplex IPTV reseller panel credits, wholesale pricing, dashboard features, subscription management, device support and setup options.",
@@ -237,7 +237,7 @@ export default function PanelPageTemplate({ panel }: Props) {
     {
       step: "03", icon: "%.3%",
       title: lc({ en: "Get Panel Login", "en-gb": "Get Panel Login", "en-au": "Get Panel Login", es: "Obtener Acceso al Panel", fr: "Obtenir l'Accès au Panneau", pt: "Obter Acesso ao Painel", sv: "Få Panelinloggning", no: "Få Panelpålogging" }),
-      desc: panel.slug === "nexon-iptv-reseller-panel" ? "Confirm Nexon dashboard access, activation requirements and delivery time with the provider." : panel.slug === "infinity-premium-iptv-reseller-panel" ? "Confirm Infinity Premium dashboard access, activation requirements and delivery time with the provider." : lc({ en: `Receive your ${panel.name} IPTV reseller panel login credentials and dashboard access instantly.`, "en-gb": `Receive your ${panel.name} IPTV reseller panel login credentials and dashboard access instantly.`, "en-au": `Receive your ${panel.name} IPTV reseller panel login credentials and dashboard access instantly.`, es: `Reciba al instante sus credenciales de acceso al panel revendedor IPTV ${panel.name}.`, fr: `Recevez immédiatement vos identifiants d'accès au panneau revendeur IPTV ${panel.name}.`, pt: `Receba instantaneamente as suas credenciais de acesso ao painel revendedor IPTV ${panel.name}.`, sv: `Få dina inloggningsuppgifter för ${panel.name} IPTV-återförsäljarpanelen direkt.`, no: `Motta innloggingsdetaljene for ${panel.name} IPTV-forhandlerpanelet umiddelbart.` }),
+      desc: panel.slug === "nexon-reseller-panel-credits" ? "Confirm Nexon dashboard access, activation requirements and delivery time with the provider." : panel.slug === "infinity-premium-iptv-reseller-panel" ? "Confirm Infinity Premium dashboard access, activation requirements and delivery time with the provider." : lc({ en: `Receive your ${panel.name} IPTV reseller panel login credentials and dashboard access instantly.`, "en-gb": `Receive your ${panel.name} IPTV reseller panel login credentials and dashboard access instantly.`, "en-au": `Receive your ${panel.name} IPTV reseller panel login credentials and dashboard access instantly.`, es: `Reciba al instante sus credenciales de acceso al panel revendedor IPTV ${panel.name}.`, fr: `Recevez immédiatement vos identifiants d'accès au panneau revendeur IPTV ${panel.name}.`, pt: `Receba instantaneamente as suas credenciais de acesso ao painel revendedor IPTV ${panel.name}.`, sv: `Få dina inloggningsuppgifter för ${panel.name} IPTV-återförsäljarpanelen direkt.`, no: `Motta innloggingsdetaljene for ${panel.name} IPTV-forhandlerpanelet umiddelbart.` }),
     },
     {
       step: "04", icon: "📈",
@@ -315,7 +315,7 @@ export default function PanelPageTemplate({ panel }: Props) {
               {/* Left */}
               <div>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: "1.25rem" }}>
-                  <div className="tag">{(panel.slug === "nexon-iptv-reseller-panel" || panel.slug === "infinity-premium-iptv-reseller-panel") ? "Resolution: Confirm Options" : `${panel.qualityBadge} Streaming`}</div>
+                  <div className="tag">{(panel.slug === "nexon-reseller-panel-credits" || panel.slug === "infinity-premium-iptv-reseller-panel") ? "Resolution: Confirm Options" : `${panel.qualityBadge} Streaming`}</div>
                   {panel.badge && (
                     <div style={{
                       display: "inline-flex", alignItems: "center",
@@ -347,13 +347,13 @@ export default function PanelPageTemplate({ panel }: Props) {
                   {panel.description}
                 </p>
 
-                {!(locale === "en" && (panel.slug === "infinity-premium-iptv-reseller-panel" || panel.slug === "gtv-iptv-reseller-panel")) && (
+                {!(locale === "en" && (panel.slug === "infinity-premium-iptv-reseller-panel" || panel.slug === "gtv-reseller-panel-credits")) && (
                   <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.7, marginBottom: "2.5rem" }}>
                     {panel.longDescription}
                   </p>
                 )}
 
-                {panel.slug === "nexon-iptv-reseller-panel" && locale === "en" && (
+                {panel.slug === "nexon-reseller-panel-credits" && locale === "en" && (
                   <section
                     id="nexon-contextual-links"
                     aria-label="Nexon reseller resources"
@@ -546,11 +546,11 @@ export default function PanelPageTemplate({ panel }: Props) {
                     <div style={{ height: "1px", background: "rgba(255, 255, 255, 0.08)", width: "60%", margin: "0 auto" }} />
 
                     <div style={{ fontSize: "1.1rem", color: "#fff", fontWeight: 600 }}>
-                      {(panel.slug === "nexon-iptv-reseller-panel" || panel.slug === "infinity-premium-iptv-reseller-panel") ? "Monthly Credit Usage: Confirm" : "1 Month = 1 Credit"}
+                      {(panel.slug === "nexon-reseller-panel-credits" || panel.slug === "infinity-premium-iptv-reseller-panel") ? "Monthly Credit Usage: Confirm" : "1 Month = 1 Credit"}
                     </div>
 
                     <div style={{ fontSize: "1.1rem", color: "#fff", fontWeight: 600 }}>
-                      {(panel.slug === "nexon-iptv-reseller-panel" || panel.slug === "infinity-premium-iptv-reseller-panel") ? "Annual Credit Usage: Confirm" : "12 Month = 12 Credits"}
+                      {(panel.slug === "nexon-reseller-panel-credits" || panel.slug === "infinity-premium-iptv-reseller-panel") ? "Annual Credit Usage: Confirm" : "12 Month = 12 Credits"}
                     </div>
 
                     <div style={{ height: "1px", background: "rgba(255, 255, 255, 0.08)", width: "60%", margin: "0 auto" }} />
@@ -561,13 +561,13 @@ export default function PanelPageTemplate({ panel }: Props) {
                       fontWeight: 700,
                       textShadow: `0 0 10px ${panel.accentColor}30`
                     }}>
-                      {(panel.slug === "nexon-iptv-reseller-panel" || panel.slug === "infinity-premium-iptv-reseller-panel") ? "Minimum Credit Order: Ask for Details" : "120 Credits Required for Panel"}
+                      {(panel.slug === "nexon-reseller-panel-credits" || panel.slug === "infinity-premium-iptv-reseller-panel") ? "Minimum Credit Order: Ask for Details" : "120 Credits Required for Panel"}
                     </div>
                   </div>
 
                   {/* CTA Button */}
                   <a
-                    href={panel.slug === "nexon-iptv-reseller-panel" ? `${WHATSAPP_URL}&text=${encodeURIComponent("Hello, please share current Nexon reseller panel packages, credit requirements and activation terms.")}` : panel.slug === "infinity-premium-iptv-reseller-panel" ? `${WHATSAPP_URL}&text=${encodeURIComponent("Hello, please share current Infinity Premium reseller panel packages, credit requirements and activation terms.")}` : `${WHATSAPP_URL}&text=Hello%2C%20I%20want%20to%20order%20the%20${panel.name}%20Reseller%20Panel%20with%20120%20credits`}
+                    href={panel.slug === "nexon-reseller-panel-credits" ? `${WHATSAPP_URL}&text=${encodeURIComponent("Hello, please share current Nexon reseller panel packages, credit requirements and activation terms.")}` : panel.slug === "infinity-premium-iptv-reseller-panel" ? `${WHATSAPP_URL}&text=${encodeURIComponent("Hello, please share current Infinity Premium reseller panel packages, credit requirements and activation terms.")}` : `${WHATSAPP_URL}&text=Hello%2C%20I%20want%20to%20order%20the%20${panel.name}%20Reseller%20Panel%20with%20120%20credits`}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
@@ -752,7 +752,7 @@ export default function PanelPageTemplate({ panel }: Props) {
                     }}>
                       For another management option,
                       review the{" "}
-                      <Link href="/en/nexon-iptv-reseller-panel">
+                      <Link href="/en/nexon-reseller-panel-credits">
                         Nexon IPTV reseller panel
                       </Link>{" "}
                       and compare its listed reseller
@@ -781,7 +781,7 @@ export default function PanelPageTemplate({ panel }: Props) {
 
 
         {/* GTV SEO Content - outside the hero */}
-        {panel.slug === "gtv-iptv-reseller-panel" && locale === "en" && (
+        {panel.slug === "gtv-reseller-panel-credits" && locale === "en" && (
           <section
             id="gtv-seo-content"
             aria-label="GTV IPTV reseller panel guide"
@@ -826,7 +826,7 @@ export default function PanelPageTemplate({ panel }: Props) {
                 {[
                   {
                     heading: "GTV Wholesale Credits & Pricing",
-                    body: "The GTV pricing card lists one credit for one month, twelve credits for twelve months and a 120-credit panel requirement. Confirm current wholesale rates, package conditions and renewal rules before placing an order."
+                    body: "The GTV credit schedule lists one credit for one month and 12 credits for 12 months, with a 120-credit minimum for panel access. Multiply your quoted price per credit by the credits required for a subscription to estimate its cost. Before ordering, confirm whether renewals use the same credit schedule and whether unused credits expire."
                   },
                   {
                     heading: "GTV Reseller Dashboard & Customer Management",
@@ -1053,7 +1053,7 @@ export default function PanelPageTemplate({ panel }: Props) {
                   <p style={{ color: "var(--text-secondary)", lineHeight: 1.85 }}>
                     Evaluating HD and 4K reseller options?
                     Compare Crystal OTT with the{" "}
-                    <Link href="/en/strong-4k-iptv-reseller-panel">
+                    <Link href="/en/strong-4k-reseller-panel-credits">
                       Strong 4K reseller panel
                     </Link>{" "}
                     using verified specifications and package terms.
@@ -1412,7 +1412,7 @@ export default function PanelPageTemplate({ panel }: Props) {
 
 
         {/* Opplex SEO guide — separate section below hero */}
-        {panel.slug === "opplex-iptv-reseller-panel" && locale === "en" && (
+        {panel.slug === "opplex-reseller-panel-credits" && locale === "en" && (
           <section
             id="opplex-seo-content"
             aria-label="Opplex IPTV reseller panel guide"
@@ -1530,7 +1530,7 @@ export default function PanelPageTemplate({ panel }: Props) {
                     lineHeight: 1.85
                   }}>
                     Compare Opplex with the{" "}
-                    <Link href="/en/gtv-iptv-reseller-panel">
+                    <Link href="/en/gtv-reseller-panel-credits">
                       GTV IPTV reseller panel
                     </Link>{" "}
                     to review different wholesale credit options
@@ -2364,7 +2364,7 @@ export default function PanelPageTemplate({ panel }: Props) {
               </span>
             </h2>
             <p style={{ color: "var(--text-secondary)", maxWidth: 560, margin: "0 auto 2.5rem", lineHeight: 1.7 }}>
-              {panel.slug === "nexon-iptv-reseller-panel"
+              {panel.slug === "nexon-reseller-panel-credits"
                 ? "Explore Nexon reseller credits and dashboard options. Contact us to confirm wholesale pricing, credit requirements, trial availability, activation procedures, support hours and regional service conditions."
                 : panel.slug === "infinity-premium-iptv-reseller-panel"
                 ? "Explore Infinity Premium reseller credits and dashboard options. Contact us to confirm wholesale pricing, credit requirements, trial availability, activation procedures, support hours and regional service conditions."

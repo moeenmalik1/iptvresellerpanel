@@ -12,7 +12,7 @@ export default function PopularPanelsSection() {
     "geo-iptv-reseller-panel-credits",
     "dino-iptv-reseller-panel",
     "trex-ott-iptv-reseller-panel",
-    "strong-4k-iptv-reseller-panel",
+    "strong-4k-reseller-panel-credits",
     "lion-ott-iptv-reseller-panel"
   ];
 
@@ -21,7 +21,7 @@ export default function PopularPanelsSection() {
     `/${locale}/geo-iptv-reseller-panel-credits`,
     `/${locale}/dino-iptv-reseller-panel`,
     `/${locale}/trex-ott-iptv-reseller-panel`,
-    `/${locale}/strong-4k-iptv-reseller-panel`,
+    `/${locale}/strong-4k-reseller-panel-credits`,
     `/${locale}/lion-ott-iptv-reseller-panel`
   ];
 
