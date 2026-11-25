@@ -58,11 +58,11 @@ export const ALL_PANELS: PanelData[] = [
       { q: "Which devices and connection formats can B1G support?", a: "Ask the supplier which Smart TVs, MAG boxes, apps, M3U playlists and Xtream Codes connection types are supported for the current B1G package. Compatibility can vary by device and plan." },
       { q: "Is a B1G IPTV reseller panel trial available?", a: "Trial access may depend on the current supplier offer and eligibility. Contact IPTV Reseller to ask whether a B1G demonstration or trial is available before ordering credits." },
     ],
-    relatedSlugs: ["strong-4k-iptv-reseller-panel", "lion-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel"],
+    relatedSlugs: ["strong-4k-reseller-panel-credits", "lion-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "nexon-reseller-panel-credits"],
   },
   {
     name: "Strong 4K",
-    slug: "strong-4k-iptv-reseller-panel",
+    slug: "strong-4k-reseller-panel-credits",
     tagline: "Strong 4K IPTV Reseller Panel — Credits, Dashboard & Features",
     description: "Explore the Strong 4K IPTV reseller panel, including reseller credits, dashboard management, device compatibility and account setup. Compare available options and confirm current service terms before ordering.",
     longDescription: "The Strong 4K IPTV reseller panel is an option for businesses researching IPTV subscription management and wholesale reseller credits. Before selecting a package, review how the dashboard handles customer accounts, credit allocation, renewals and account administration. Ask the provider which connection formats, streaming resolutions and devices are supported by the specific service being offered. Availability of 4K or 8K content, trial accounts, activation times and technical assistance can depend on the package and provider. Compare total credit costs, renewal conditions, minimum purchase requirements and customer support arrangements before committing to a reseller plan. Also confirm that the content and distribution rights associated with any IPTV service meet the legal requirements of your target market.",
@@ -109,7 +109,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "There is no guaranteed profit margin. Potential earnings depend on wholesale credit costs, retail prices, customer demand, renewals, refunds, operating expenses and applicable legal requirements. Calculate your costs before choosing a package."
       },
     ],
-    relatedSlugs: ["strong-8k-iptv-reseller-panel", "b1g-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel"],
+    relatedSlugs: ["strong-8k-iptv-reseller-panel", "b1g-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "nexon-reseller-panel-credits"],
   },
   {
     name: "Strong 8K",
@@ -160,7 +160,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "They are separately listed reseller panel options. Differences in available resolutions, credit costs, dashboard features, supported devices and account limits must be verified using current provider specifications. Compare both packages before choosing."
       },
     ],
-    relatedSlugs: ["strong-4k-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel"],
+    relatedSlugs: ["strong-4k-reseller-panel-credits", "ultra-8k-ott-iptv-reseller-panel", "b1g-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel"],
   },
   {
     name: "4K OTT",
@@ -329,7 +329,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Businesses considering bulk subscriptions should verify credit allocation tools, customer account limits, renewal workflows and reporting features. Request a dashboard demonstration to confirm the required functionality."
       },
     ],
-    relatedSlugs: ["strong-8k-iptv-reseller-panel", "strong-4k-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel", "nexon-iptv-reseller-panel"],
+    relatedSlugs: ["strong-8k-iptv-reseller-panel", "strong-4k-reseller-panel-credits", "infinity-premium-iptv-reseller-panel", "nexon-reseller-panel-credits"],
   },
   {
     name: "Dino IPTV",
@@ -506,7 +506,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "No lowest-price claim can be made without verified, comparable quotations. Compare Mega OTT with other reseller panels using credit quantities, subscription duration, renewal fees, support terms and total operating costs."
       },
     ],
-    relatedSlugs: ["extra-ott-iptv-reseller-panel", "max-ott-iptv-reseller-panel", "trex-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel"],
+    relatedSlugs: ["extra-ott-iptv-reseller-panel", "max-ott-iptv-reseller-panel", "trex-ott-iptv-reseller-panel", "nexon-reseller-panel-credits"],
   },
   {
     name: "Extra OTT",
@@ -624,7 +624,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Both panels can be compared for wholesale credits and reseller management needs. Review their current dashboard demonstrations, available subscription tools, connection compatibility, support terms and total pricing instead of assuming one has more features."
       },
     ],
-    relatedSlugs: ["extra-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel", "strong-4k-iptv-reseller-panel"],
+    relatedSlugs: ["extra-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "nexon-reseller-panel-credits", "strong-4k-reseller-panel-credits"],
   },
   {
     name: "Zen 4K",
@@ -687,7 +687,7 @@ export const ALL_PANELS: PanelData[] = [
   },
   {
     name: "Nexon",
-    slug: "nexon-iptv-reseller-panel",
+    slug: "nexon-reseller-panel-credits",
     tagline: "Nexon IPTV Reseller Panel — Credits & Bulk Management",
     description: "Compare Nexon wholesale reseller credits and evaluate the dashboard for your subscriber volume. Ask for a demo of bulk renewals, expiry tracking and account search before ordering.",
     longDescription: "The Nexon IPTV reseller panel is an option for businesses comparing wholesale IPTV reseller credits, customer account administration and subscription management workflows. For an established IPTV reseller business, choosing a dashboard requires evaluating account capacity, administrative controls, credit allocation and recurring subscription operations. Before buying Nexon reseller credits, request the provider's current wholesale packages, minimum order quantities, credit conversion rules and renewal conditions. Ask for a demonstration of the Nexon reseller dashboard to understand how customer accounts are created, edited, renewed and deactivated. If your business manages a growing subscriber base, verify whether bulk account actions, subscription expiry tracking, customer search, reporting and role-based permissions are included in the selected package. Do not assume that automation, analytics or sub-reseller functionality is available without confirmation. Review the credit balance system and determine whether unused credits expire or carry additional charges. If you operate across the UK, USA, Canada, Australia or Europe, confirm regional service availability, support procedures and relevant content distribution permissions before making commitments. Device compatibility should also be checked individually, including Xtream Codes, M3U playlists, MAG devices and supported Smart TV applications. Streaming quality, connection limits and service availability may depend on the specific package, network and underlying provider. Request current technical specifications rather than relying on guaranteed 4K playback or fixed uptime claims. Finally, compare Nexon IPTV reseller panel pricing against the total operational cost of managing customer subscriptions, including activation, renewals, customer assistance and any additional administrative fees. Businesses should distribute only content for which they hold appropriate rights.",
@@ -742,7 +742,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Regional availability depends on the provider, service package and relevant distribution rights. Confirm supported territories, connection formats, customer support and content licensing before offering subscriptions in the UK, USA, Canada or other markets."
       },
     ],
-    relatedSlugs: ["strong-4k-iptv-reseller-panel", "max-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel"],
+    relatedSlugs: ["strong-4k-reseller-panel-credits", "max-ott-iptv-reseller-panel", "mega-ott-iptv-reseller-panel", "infinity-premium-iptv-reseller-panel"],
   },
   {
     name: "Infinity Premium",
@@ -801,11 +801,11 @@ export const ALL_PANELS: PanelData[] = [
         a: "Suitability depends on regional service availability, account requirements, support arrangements and appropriate content distribution rights. Confirm these conditions before offering subscriptions in your target market."
       },
     ],
-    relatedSlugs: ["nexon-iptv-reseller-panel", "strong-4k-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "max-ott-iptv-reseller-panel"],
+    relatedSlugs: ["nexon-reseller-panel-credits", "strong-4k-reseller-panel-credits", "ultra-8k-ott-iptv-reseller-panel", "max-ott-iptv-reseller-panel"],
   },
   {
     name: "GTV",
-    slug: "gtv-iptv-reseller-panel",
+    slug: "gtv-reseller-panel-credits",
     tagline: "GTV IPTV Reseller Panel — Wholesale Credits & Dashboard",
     description: "Compare GTV reseller credit packages and estimate the cost of activating or renewing customer subscriptions. Request a wholesale quote for your expected monthly volume.",
     longDescription: "The GTV credit schedule shown below lists one credit for one month and 12 credits for 12 months, with 120 credits required for panel access. Use your quoted per-credit rate to estimate the cost of each subscription term. Before ordering, confirm whether renewals use the same credit schedule and whether unused credits expire.",
@@ -860,7 +860,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Regional suitability depends on service availability, account conditions, supported devices and appropriate content distribution rights. Verify these details before offering customer subscriptions in your target country."
       },
     ],
-    relatedSlugs: ["opplex-iptv-reseller-panel", "geo-iptv-reseller-panel-credits", "lion-ott-iptv-reseller-panel", "4k-ott-iptv-reseller-panel"],
+    relatedSlugs: ["opplex-reseller-panel-credits", "geo-iptv-reseller-panel-credits", "lion-ott-iptv-reseller-panel", "4k-ott-iptv-reseller-panel"],
   },
   {
     name: "Crystal OTT",
@@ -919,7 +919,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Regional suitability depends on provider availability, supported devices, commercial terms and appropriate content distribution rights. Verify these requirements before offering subscriptions in the UK, USA, Canada, Europe or Australia."
       },
     ],
-    relatedSlugs: ["nexon-iptv-reseller-panel", "lion-ott-iptv-reseller-panel", "zen-4k-iptv-reseller-panel", "strong-4k-iptv-reseller-panel"],
+    relatedSlugs: ["nexon-reseller-panel-credits", "lion-ott-iptv-reseller-panel", "zen-4k-iptv-reseller-panel", "strong-4k-reseller-panel-credits"],
   },
   {
     name: "Star Share",
@@ -978,7 +978,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Review wholesale pricing, dashboard access, trial availability, customer account limits, activation times, support hours, regional restrictions and appropriate content distribution rights before placing an order."
       },
     ],
-    relatedSlugs: ["tiger-ott-iptv-reseller-panel", "geo-iptv-reseller-panel-credits", "gtv-iptv-reseller-panel", "opplex-iptv-reseller-panel"],
+    relatedSlugs: ["tiger-ott-iptv-reseller-panel", "geo-iptv-reseller-panel-credits", "gtv-reseller-panel-credits", "opplex-reseller-panel-credits"],
   },
   {
     name: "Tiger OTT",
@@ -1037,11 +1037,11 @@ export const ALL_PANELS: PanelData[] = [
         a: "Review dashboard access, pricing, account limits, activation procedures, support availability, refund terms, regional coverage and appropriate content distribution rights before purchasing."
       },
     ],
-    relatedSlugs: ["starshare-iptv-reseller-panel", "trex-ott-iptv-reseller-panel", "dino-iptv-reseller-panel", "opplex-iptv-reseller-panel"],
+    relatedSlugs: ["starshare-iptv-reseller-panel", "trex-ott-iptv-reseller-panel", "dino-iptv-reseller-panel", "opplex-reseller-panel-credits"],
   },
   {
     name: "Opplex",
-    slug: "opplex-iptv-reseller-panel",
+    slug: "opplex-reseller-panel-credits",
     tagline: "Opplex IPTV Reseller Panel — Popular Budget-Friendly Panel for Resellers",
     description: "Compare Opplex reseller credit packages, minimum order requirements and renewal terms. Request a current wholesale quote and ask for a dashboard walkthrough before choosing a package.",
     longDescription: "Before buying Opplex reseller credits, ask for the per-credit price, the minimum order, and whether unused credits expire. Use the credit conversion shown below to estimate the cost of a customer subscription, then confirm the renewal terms in your quote. In the dashboard demo, check how to create an account, track expiry dates, and renew a subscription.",
@@ -1096,7 +1096,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Trial availability depends on current provider terms. Contact the reseller to ask whether a trial is available, what it includes and whether any activation or usage restrictions apply."
       },
     ],
-    relatedSlugs: ["gtv-iptv-reseller-panel", "geo-iptv-reseller-panel-credits", "starshare-iptv-reseller-panel", "lion-ott-iptv-reseller-panel"],
+    relatedSlugs: ["gtv-reseller-panel-credits", "geo-iptv-reseller-panel-credits", "starshare-iptv-reseller-panel", "lion-ott-iptv-reseller-panel"],
   },
   {
     name: "GEO IPTV",
@@ -1155,7 +1155,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Review regional availability, wholesale pricing, dashboard tools, account limits, activation procedures, support hours, refund terms and appropriate content distribution rights before purchasing."
       },
     ],
-    relatedSlugs: ["starshare-iptv-reseller-panel", "opplex-iptv-reseller-panel", "gtv-iptv-reseller-panel", "5g-live-iptv-reseller-panel-credits"],
+    relatedSlugs: ["starshare-iptv-reseller-panel", "opplex-reseller-panel-credits", "gtv-reseller-panel-credits", "5g-live-iptv-reseller-panel-credits"],
   },
   {
     name: "5G Live",
@@ -1214,7 +1214,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Regional availability and performance need to be verified for each target market. Before purchasing credits, confirm local service access, applicable content distribution rights, customer support arrangements and subscription restrictions."
       },
     ],
-    relatedSlugs: ["geo-iptv-reseller-panel-credits", "tiger-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel", "zen-4k-iptv-reseller-panel"],
+    relatedSlugs: ["geo-iptv-reseller-panel-credits", "tiger-ott-iptv-reseller-panel", "nexon-reseller-panel-credits", "zen-4k-iptv-reseller-panel"],
   },
   {
     name: "Magnum Golden OTT",
@@ -1273,7 +1273,7 @@ export const ALL_PANELS: PanelData[] = [
         a: "Ask the provider whether trial access is currently available, which features the trial includes and whether any restrictions apply. Also confirm activation timeframes, technical support and applicable content distribution rights."
       },
     ],
-    relatedSlugs: ["infinity-premium-iptv-reseller-panel", "strong-4k-iptv-reseller-panel", "ultra-8k-ott-iptv-reseller-panel", "nexon-iptv-reseller-panel"],
+    relatedSlugs: ["infinity-premium-iptv-reseller-panel", "strong-4k-reseller-panel-credits", "ultra-8k-ott-iptv-reseller-panel", "nexon-reseller-panel-credits"],
   },
 ];
 
@@ -1403,7 +1403,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
   },
 
   // ── Strong 4K ──────────────────────────────────────────────────────────────
-  "strong-4k-iptv-reseller-panel": {
+  "strong-4k-reseller-panel-credits": {
     "sv": {
       tagline: "Strong 4K IPTV Återförsäljarpanel — Bästa premium-4K-panelen för toppåterförsäljare i Sverige",
       description: "Strong 4K är den mest populära premium IPTV-återförsäljarpanelen för seriösa återförsäljare i Sverige som söker förstklassig 4K- och 8K-strömningskvalitet. Med en avancerad återförsäljarpanel och exceptionell drifttid är Strong 4K det självklara valet via IPTV Reseller.",
@@ -2691,7 +2691,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
     },
   },
-  "nexon-iptv-reseller-panel": {
+  "nexon-reseller-panel-credits": {
     "sv": {
       tagline: "Nexon IPTV Återförsäljarpanel — Avancerad kontrollpanel för stora IPTV-verksamheter",
       description: "Nexon är en exklusiv IPTV-återförsäljarpanel byggd för etablerade och storskaliga IPTV-verksamheter. Med en avancerad kontrollpanel, överlägsen drifttid och funktioner i företagsklass är Nexon det professionella valet för att hantera hundratals prenumerationer.",
@@ -2919,7 +2919,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
     },
   },
-  "gtv-iptv-reseller-panel": {
+  "gtv-reseller-panel-credits": {
     "sv": {
       tagline: "GTV IPTV Återförsäljarpanel — Prisvärd IPTV-panel för smarta återförsäljare",
       description: "GTV är en mycket prisvärd IPTV-återförsäljarpanel som erbjuder pålitlig 4K-strömning och ett stabilt dashboard till mycket konkurrenskraftiga priser på krediter i SEK. För återförsäljare som vill ha kvalitet utan att betala för mycket levererar GTV utmärkt ROI.",
@@ -3375,7 +3375,7 @@ const panelLocalizedContent1: Record<string, Partial<Record<string, LocalizedOve
       ],
     },
   },
-  "opplex-iptv-reseller-panel": {
+  "opplex-reseller-panel-credits": {
     "sv": {
       tagline: "Opplex IPTV Återförsäljarpanel — Populär och budgetvänlig panel för återförsäljare",
       description: "Opplex är en av de mest populära budgetvänliga IPTV-återförsäljarpanelerna på marknaden. Den erbjuder solid strömningskvalitet och ett enkelt dashboard till mycket billiga priser på krediter i SEK. Ett toppval för prismedvetna återförsäljare.",
@@ -3954,7 +3954,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
   // ─────────────────────────────────────────────
   // STRONG 4K IPTV
   // ─────────────────────────────────────────────
-  "strong-4k-iptv-reseller-panel": {
+  "strong-4k-reseller-panel-credits": {
     "es": {
       tagline: "Panel Reseller Strong 4K IPTV — El Panel 4K Premium Nº1 para los Mejores Revendedores",
       description: "Strong 4K es el panel de revendedor de IPTV premium más popular para revendedores serios que buscan la mejor calidad de streaming 4K y 8K. Con un panel de control avanzado y un uptime excepcional, Strong 4K es la elección número uno en IPTV Reseller para el mercado español.",
@@ -4962,7 +4962,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
   // ─────────────────────────────────────────────
   // Nexon
   // ─────────────────────────────────────────────
-  "nexon-iptv-reseller-panel": {
+  "nexon-reseller-panel-credits": {
     "es": {
       tagline: "Panel de Revendedor Nexon IPTV — Panel de Gestión Avanzado para Grandes Empresas de IPTV",
       description: "Nexon es un panel de revendedor de IPTV de alta gama diseñado para negocios de reventa a gran escala. Con un panel avanzado, uptime óptimo y características de nivel empresarial, Nexon es la elección ideal de los profesionales.",
@@ -5138,7 +5138,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
     },
   },
-  "gtv-iptv-reseller-panel": {
+  "gtv-reseller-panel-credits": {
     "es": {
       tagline: "Panel de Revendedor GTV IPTV — Excelente Relación Calidad-Precio para Distribuidores Inteligentes",
       description: "GTV es un panel de revendedor de IPTV de gran valor que ofrece transmisión 4K estable y un panel de control sólido a precios de créditos altamente competitivos. Perfecto para distribuidores en España que buscan calidad sin pagar de más.",
@@ -5930,7 +5930,7 @@ const panelLocalizedContent2: Record<string, Record<string, Partial<PanelData>>>
       ],
     },
   },
-  "opplex-iptv-reseller-panel": {
+  "opplex-reseller-panel-credits": {
     "es": {
       tagline: "Panel Reseller Opplex — Panel Económico y Muy Popular para Distribuidores",
       description: "Opplex es uno de los paneles de revendedor de IPTV económicos más populares, ofreciendo una calidad de transmisión sólida y un panel de control sencillo a precios de créditos súper asequibles. La opción ideal para distribuidores enfocados en volumen.",

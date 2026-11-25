@@ -323,11 +323,11 @@ const dictionary: Record<string, Dictionary> = {
         bestFor: "Best For"
       },
       rows: [
-        { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
+        { panel: "Strong 4K", slug: "strong-4k-reseller-panel-credits", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
         { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
         { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
         { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
-        { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
+        { panel: "Nexon", slug: "nexon-reseller-panel-credits", quality: "Check specs", support: "Confirm", dashboard: "Check features", bestFor: "Compare options", badge: "" },
       ],
       cta: "Full IPTV Panel Comparison 2026"
     },
@@ -740,11 +740,11 @@ const dictionary: Record<string, Dictionary> = {
         bestFor: "Ideal Para"
       },
       rows: [
-        { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "4K/8K", support: "24/7", dashboard: "Avanzado", bestFor: "Resellers Premium", badge: "Más Vendido" },
+        { panel: "Strong 4K", slug: "strong-4k-reseller-panel-credits", quality: "4K/8K", support: "24/7", dashboard: "Avanzado", bestFor: "Resellers Premium", badge: "Más Vendido" },
         { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "4K", support: "Rápido", dashboard: "Ideal Principiantes", bestFor: "Nuevos Resellers", badge: "Excelente Inicio" },
         { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Full HD/4K", support: "24/7", dashboard: "Profesional", bestFor: "Negocios en Crecimiento", badge: "" },
         { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "4K", support: "Rápido", dashboard: "Moderno", bestFor: "Resellers Mayoristas", badge: "" },
-        { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "4K", support: "24/7", dashboard: "Avanzado", bestFor: "Grandes Empresas IPTV", badge: "" },
+        { panel: "Nexon", slug: "nexon-reseller-panel-credits", quality: "4K", support: "24/7", dashboard: "Avanzado", bestFor: "Grandes Empresas IPTV", badge: "" },
       ],
       cta: "Comparativa Completa de Paneles 2026"
     },
@@ -1157,11 +1157,11 @@ const dictionary: Record<string, Dictionary> = {
         bestFor: "Idéal Pour"
       },
       rows: [
-        { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "4K/8K", support: "24/7", dashboard: "Advanced", bestFor: "Revendeurs Premium", badge: "Meilleur Choix" },
+        { panel: "Strong 4K", slug: "strong-4k-reseller-panel-credits", quality: "4K/8K", support: "24/7", dashboard: "Advanced", bestFor: "Revendeurs Premium", badge: "Meilleur Choix" },
         { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "4K", support: "Rapide", dashboard: "Facile pour débuter", bestFor: "Nouveaux Revendeurs", badge: "Idéal Débutants" },
         { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Full HD/4K", support: "24/7", dashboard: "Professionnel", bestFor: "Entreprises Stables", badge: "" },
         { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "4K", support: "Rapide", dashboard: "Moderne", bestFor: "Revendeurs de Gros", badge: "" },
-        { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "4K", support: "24/7", dashboard: "Avancé", bestFor: "Grandes Entreprises", badge: "" },
+        { panel: "Nexon", slug: "nexon-reseller-panel-credits", quality: "4K", support: "24/7", dashboard: "Avancé", bestFor: "Grandes Entreprises", badge: "" },
       ],
       cta: "Comparatif Complet de Panneaux 2026"
     },
@@ -1596,11 +1596,11 @@ const dictionary: Record<string, Dictionary> = {
         bestFor: "Ideal Para"
       },
       rows: [
-        { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "4K/8K", support: "24/7", dashboard: "Avançado", bestFor: "Revendedores Premium", badge: "Mais Vendido" },
+        { panel: "Strong 4K", slug: "strong-4k-reseller-panel-credits", quality: "4K/8K", support: "24/7", dashboard: "Avançado", bestFor: "Revendedores Premium", badge: "Mais Vendido" },
         { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "4K", support: "Rápido", dashboard: "Fácil p/ Iniciantes", bestFor: "Novos Revendedores", badge: "Melhor Início" },
         { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Full HD/4K", support: "24/7", dashboard: "Profissional", bestFor: "Marcas em Expansão", badge: "" },
         { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "4K", support: "Rápido", dashboard: "Moderno", bestFor: "Revendedores Maioristas", badge: "" },
-        { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "4K", support: "24/7", dashboard: "Avançado", bestFor: "Grandes Empresas IPTV", badge: "" },
+        { panel: "Nexon", slug: "nexon-reseller-panel-credits", quality: "4K", support: "24/7", dashboard: "Avançado", bestFor: "Grandes Empresas IPTV", badge: "" },
       ],
       cta: "Comparação Completa de Painéis 2026"
     },
@@ -2035,11 +2035,11 @@ const dictionary: Record<string, Dictionary> = {
         bestFor: "Bäst För"
       },
       rows: [
-        { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "4K/8K", support: "24/7", dashboard: "Avancerad", bestFor: "Premiumåterförsäljare", badge: "Toppval" },
+        { panel: "Strong 4K", slug: "strong-4k-reseller-panel-credits", quality: "4K/8K", support: "24/7", dashboard: "Avancerad", bestFor: "Premiumåterförsäljare", badge: "Toppval" },
         { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "4K", support: "Snabb", dashboard: "Nybörjarvänlig", bestFor: "Nya Återförsäljare", badge: "Bäst för Start" },
         { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Full HD/4K", support: "24/7", dashboard: "Professionell", bestFor: "Växande Varumärken", badge: "" },
         { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "4K", support: "Snabb", dashboard: "Modern", bestFor: "Bulk- / Grossister", badge: "" },
-        { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "4K", support: "24/7", dashboard: "Avancerad", bestFor: "Stora IPTV-bolag", badge: "" },
+        { panel: "Nexon", slug: "nexon-reseller-panel-credits", quality: "4K", support: "24/7", dashboard: "Avancerad", bestFor: "Stora IPTV-bolag", badge: "" },
       ],
       cta: "Fullständig Paneljämförelse 2026"
     },
@@ -2474,11 +2474,11 @@ const dictionary: Record<string, Dictionary> = {
         bestFor: "Best For"
       },
       rows: [
-        { panel: "Strong 4K", slug: "strong-4k-iptv-reseller-panel", quality: "4K/8K", support: "24/7", dashboard: "Avansert", bestFor: "Premiumforhandlere", badge: "Toppvalg" },
+        { panel: "Strong 4K", slug: "strong-4k-reseller-panel-credits", quality: "4K/8K", support: "24/7", dashboard: "Avansert", bestFor: "Premiumforhandlere", badge: "Toppvalg" },
         { panel: "Lion OTT", slug: "lion-ott-iptv-reseller-panel", quality: "4K", support: "Rask", dashboard: "Nybegynnervennlig", bestFor: "Nye Forhandlere", badge: "Best for Start" },
         { panel: "Crystal OTT", slug: "crystal-ott-iptv-reseller-panel", quality: "Full HD/4K", support: "24/7", dashboard: "Profesjonell", bestFor: "Voksende Merkevarer", badge: "" },
         { panel: "Mega OTT", slug: "mega-ott-iptv-reseller-panel", quality: "4K", support: "Rask", dashboard: "Moderne", bestFor: "Bulk- / Grossister", badge: "" },
-        { panel: "Nexon", slug: "nexon-iptv-reseller-panel", quality: "4K", support: "24/7", dashboard: "Avansert", bestFor: "Store IPTV-selskaper", badge: "" },
+        { panel: "Nexon", slug: "nexon-reseller-panel-credits", quality: "4K", support: "24/7", dashboard: "Avansert", bestFor: "Store IPTV-selskaper", badge: "" },
       ],
       cta: "Fullstendig Panelsammenligning 2026"
     },
