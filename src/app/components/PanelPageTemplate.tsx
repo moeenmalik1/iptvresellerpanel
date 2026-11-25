@@ -826,7 +826,7 @@ export default function PanelPageTemplate({ panel }: Props) {
                 {[
                   {
                     heading: "GTV Wholesale Credits & Pricing",
-                    body: "The GTV pricing card lists one credit for one month, twelve credits for twelve months and a 120-credit panel requirement. Confirm current wholesale rates, package conditions and renewal rules before placing an order."
+                    body: "The GTV credit schedule lists one credit for one month and 12 credits for 12 months, with a 120-credit minimum for panel access. Multiply your quoted price per credit by the credits required for a subscription to estimate its cost. Before ordering, confirm whether renewals use the same credit schedule and whether unused credits expire."
                   },
                   {
                     heading: "GTV Reseller Dashboard & Customer Management",
