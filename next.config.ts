@@ -1,10 +1,9 @@
-
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin();
 
-const locales = "en|en-gb|en-au|es|fr|sv|pt|no";
+const locales = "en|en-gb|en-au|es|fr|pt|sv|no";
 
 const nextConfig: NextConfig = {
   reactCompiler: false,
@@ -67,6 +66,11 @@ const nextConfig: NextConfig = {
         destination: "/en/guides/trusted-iptv-suppliers-uk-2026",
         permanent: true,
       },
+      {
+        source: "/en/guides/4k-ott-subscription",
+        destination: "/en/guides/best-4k-ott-subscription-plans-2026",
+        permanent: true,
+      },
 
       // The reseller buying guide is published at its global English URL.
       {
@@ -85,7 +89,7 @@ const nextConfig: NextConfig = {
       // 5G Live IPTV permanent SEO URL migration
       {
         source: `/:locale(${locales})/5g-live-iptv-reseller-panel`,
-        destination: "/:locale/5g-live-iptv-reseller-panel-credits",
+        destination: "/:locale/5g-live-reseller-panel-credits",
         permanent: true,
       },
 
