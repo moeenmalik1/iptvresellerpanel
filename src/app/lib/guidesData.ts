@@ -628,6 +628,69 @@ export const getGuides = (locale: string): GuideData[] => {
     },
   };
 
+  // Country-specific practical guidance for the Xtream Codes vs M3U article.
+  // Keep the global English article and all other guides unchanged.
+  const regionalXtreamContent: Record<"en-gb" | "en-au", string> = {
+    "en-gb": `
+
+### UK reseller setup: devices and customer onboarding
+
+For UK customers, start by checking which connection formats the chosen player actually supports. Some Smart TV applications accept an M3U playlist URL but do not provide a separate Xtream Codes login screen. Other apps offer both methods. Ask customers to identify their device model, app name and app version before sending connection instructions.
+
+When providing an Xtream-compatible login, explain the portal address, username and password as three separate fields. For an M3U-compatible player, explain where to import the playlist URL. Use the provider's current instructions rather than assuming both options have identical EPG or account-management features.
+
+### Troubleshooting on UK broadband connections
+
+Customers using BT, Virgin Media, Sky or another UK broadband provider may experience buffering or login failures for different reasons. Start with ordinary diagnostics: check the internet connection, confirm the app is updated, verify the subscription details and test whether the device can reach other legitimate online services.
+
+Compare Wi-Fi and Ethernet where possible. If playback fails, record the app error and connection method before contacting the authorised service provider. A failed login does not automatically indicate an ISP restriction, and neither Xtream Codes nor M3U guarantees better streaming performance.
+
+### UK account security and responsible support
+
+Both playlist URLs and API credentials can contain sensitive access information. Customers should avoid posting either format in public messages or screenshots. Use secure support channels, explain how to revoke compromised access and confirm that the supplier has permission to distribute the relevant content in the UK.
+
+For your support documentation, include device-specific setup steps, account renewal instructions and clear escalation procedures. Test instructions against the actual supported app rather than claiming universal compatibility.
+
+### UK reseller checklist
+
+- Confirm the app, device model and supported login format.
+- Check that the customer's portal address and credentials are correct.
+- Compare Ethernet and Wi-Fi before making performance claims.
+- Document how customers can protect and replace compromised credentials.
+- Verify supplier terms and content distribution rights for the UK.
+`,
+    "en-au": `
+
+### Australian device setup: choosing the connection method
+
+Australian customers may use Android TV devices, Smart TVs, streaming boxes or mobile players. Begin by checking whether the installed app supports Xtream-style credentials, M3U playlist imports or both. The supported login method depends on the app and service, not on whether the customer is located in Australia.
+
+For an Xtream-style login, show customers how to enter the supplied server address, username and password separately. For M3U, explain how to import the authorised playlist URL. Confirm whether programme-guide information and playlist refresh options are supported by the chosen player before promising a particular feature.
+
+### NBN and home-network troubleshooting
+
+On Australian NBN connections, start performance troubleshooting inside the home network. Ask customers whether their device uses Wi-Fi or Ethernet, whether other internet services work normally and whether the issue appears on one device or several.
+
+Check ordinary factors such as weak Wi-Fi coverage, app updates, incorrect credentials and device limitations. Where possible, compare wired and wireless playback using the same authorised service. Record error messages and ask the service provider about an ongoing outage before attributing problems to Telstra, Optus, TPG or an NBN access technology.
+
+Neither connection format guarantees a specific resolution, latency or buffering result. Actual performance depends on the provider, available content, device and network conditions.
+
+### Australian reseller support and access security
+
+M3U links and Xtream-style credentials may both grant access to a customer's account. Avoid sharing them in public forums, support screenshots or unsecured documents. Provide customers with clear instructions for protecting credentials and requesting account changes.
+
+Before selling subscriptions in Australia, confirm the supplier's relevant content rights, service terms, refund conditions and customer-support arrangements. Device compatibility and support availability should be verified for each current package.
+
+### Australian reseller checklist
+
+- Identify the customer's device, player and supported login method.
+- Check portal details, playlist imports and programme-guide availability.
+- Test basic NBN home-network conditions before blaming the ISP.
+- Protect account details and document a secure support process.
+- Verify applicable content distribution rights and supplier terms.
+`
+  };
+
   // Return the original English guides with location-specific SEO descriptions for UK/AU.
   return englishGuides.map((guide) => {
     let localizedCategory = guide.category;
@@ -646,7 +709,12 @@ export const getGuides = (locale: string): GuideData[] => {
       excerpt: geoLocalizeEnglish(guide.excerpt, "desc"),
       seoTitle: (L === "en-gb" || L === "en-au" ? regionalGuideTitles[L]?.[guide.id] : undefined) ?? geoLocalizeEnglish(guide.seoTitle, "title"),
       seoDescription: regionalDescriptions?.[guide.id] ?? geoLocalizeEnglish(guide.seoDescription, "desc"),
-      content: geoLocalizeEnglish(guide.content, "body"),
+      content: (
+        guide.id === "xtream-codes-vs-m3u" &&
+        (L === "en-gb" || L === "en-au")
+          ? geoLocalizeEnglish(guide.content, "body") + regionalXtreamContent[L]
+          : geoLocalizeEnglish(guide.content, "body")
+      ),
       faqs: guide.faqs.map((faq) => ({
         q: geoLocalizeEnglish(faq.q, "title"),
         a: geoLocalizeEnglish(faq.a, "body"),
